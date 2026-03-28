@@ -193,12 +193,13 @@ def collect_embassy():
     seen_titles = set()
 
     # ナビゲーションリンクの除外パターン
-    nav_keywords = {
+    nav_keywords = [
         "一覧へ", "トップページ", "サイトマップ", "English", "大使館案内",
         "領事・治安・医療", "経済・技術協力", "パスポート", "戸籍国籍届",
         "海外子女教育", "日本へのビザ", "外務省", "サイトポリシー",
-        "リンク集", "個人情報保護方針", "アクセシビリティ",
-    }
+        "リンク集", "個人情報保護方針", "アクセシビリティ", "トップへ戻る",
+        "ページの先頭", "前のページ", "次のページ",
+    ]
 
     for link in links:
         title = link["text"].strip()
@@ -216,8 +217,8 @@ def collect_embassy():
         if title_clean in seen_titles:
             continue
 
-        # ナビゲーションリンクを除外
-        if title_clean in nav_keywords:
+        # ナビゲーションリンクを除外（部分一致）
+        if any(kw in title_clean for kw in nav_keywords):
             continue
 
         # URLを正規化
