@@ -72,6 +72,20 @@
   </div>
 </div>
 
+<style>
+  @media (min-width: 768px) {
+    #community-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  }
+  @media (min-width: 1024px) {
+    #community-grid { grid-template-columns: repeat(3, 1fr) !important; }
+  }
+  #community-grid .card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+</style>
+
 <!-- 生活情報セクション: 今後コンテンツ追加予定 -->
 
 <!-- ===== SECTION: コミュニティ ===== -->
@@ -82,31 +96,55 @@
       <h2>コミュニティ</h2>
     </div>
 
-    <div class="card">
-      <p style="margin-bottom: 16px;">サウジアラビアで生活する外国人（Expat）向けのコミュニティです。いずれも英語が主要言語で、日本人専用ではありませんが、サウジ在住の多国籍メンバーと交流できます。</p>
-      <ul>
-        <li><strong><a href="https://www.internations.org/saudi-arabia-expats" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">InterNations Saudi Arabia</a></strong> — 世界最大の駐在員SNS。サウジ在住の外国人同士でイベント参加やフォーラムで情報交換ができます。英語中心、会員登録が必要（基本無料）。</li>
-        <li><strong><a href="https://www.meetup.com/find/?location=sa--Riyadh&source=EVENTS" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">Meetup – Saudi Expats</a></strong> — リヤド・ジェッダ周辺で開催される対面イベントを探せるプラットフォーム。語学交換、スポーツ、ビジネス交流など多種多様。英語中心。</li>
-        <li><strong><a href="https://www.facebook.com/groups/" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">Facebook / WhatsApp グループ</a></strong> — 「Expats in Riyadh」「Japanese in Saudi」等のキーワードで検索すると、都市別・国籍別の情報交換グループが見つかります。</li>
-      </ul>
-    </div>
+    <p style="margin-bottom:16px; font-size:var(--font-size-sm); color:var(--text-secondary);">サウジアラビアで暮らす外国人（Expat）向けのコミュニティ・情報サイトです。いずれも英語が主要言語で、日本人専用ではありませんが、現地の実用情報や多国籍メンバーとの交流に役立ちます。</p>
 
-    <div style="margin-top: 16px;">
-      <h3 style="font-size: var(--font-size-base); font-weight: 600; margin-bottom: 12px; color: var(--text-secondary);">関連リンク（英語・外国人向け生活情報サイト）</h3>
-      <div class="link-grid">
-        <a class="link-card" href="https://www.internations.org/saudi-arabia-expats" target="_blank" rel="noopener">
-          <div class="link-icon">👥</div>
-          <div class="link-info"><h4>InterNations</h4><p>世界最大の駐在員コミュニティ。サウジ在住外国人のイベント情報・フォーラム・現地ガイドが充実。英語。</p></div>
-        </a>
-        <a class="link-card" href="https://www.expatica.com/sa/" target="_blank" rel="noopener">
-          <div class="link-icon">🌍</div>
-          <div class="link-info"><h4>Expatica SA</h4><p>サウジアラビアで暮らす外国人向けの総合生活ガイド。ビザ、住居、医療、教育など幅広いトピックを英語で解説。</p></div>
-        </a>
-        <a class="link-card" href="https://www.saudiexpatriates.com/" target="_blank" rel="noopener">
-          <div class="link-icon">📝</div>
-          <div class="link-info"><h4>Saudi-Expatriates</h4><p>イカマ（在留許可）更新・交通違反・公共サービスなど、実務的な手続き方法を英語で解説するハウツーサイト。</p></div>
-        </a>
-      </div>
+    <div style="display:grid; grid-template-columns:1fr; gap:16px;" id="community-grid">
+
+      <a class="card" href="https://www.internations.org/saudi-arabia-expats" target="_blank" rel="noopener" style="text-decoration:none; color:inherit; display:block;">
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+          <span style="font-size:1.6em;">👥</span>
+          <h3 style="margin:0; font-size:var(--font-size-base);">InterNations Saudi Arabia</h3>
+        </div>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin:0;">世界最大の駐在員SNS。サウジ在住の外国人同士でイベント参加やフォーラムで情報交換ができます。会員登録が必要（基本無料）。</p>
+        <span style="display:inline-block; margin-top:10px; font-size:var(--font-size-xs); color:var(--accent);">サイトを開く →</span>
+      </a>
+
+      <a class="card" href="https://www.meetup.com/find/?location=sa--Riyadh&source=EVENTS" target="_blank" rel="noopener" style="text-decoration:none; color:inherit; display:block;">
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+          <span style="font-size:1.6em;">🤝</span>
+          <h3 style="margin:0; font-size:var(--font-size-base);">Meetup – Saudi Expats</h3>
+        </div>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin:0;">リヤド・ジェッダ周辺の対面イベントを探せるプラットフォーム。語学交換、スポーツ、ビジネス交流など多様なカテゴリ。</p>
+        <span style="display:inline-block; margin-top:10px; font-size:var(--font-size-xs); color:var(--accent);">サイトを開く →</span>
+      </a>
+
+      <a class="card" href="https://www.expatica.com/sa/" target="_blank" rel="noopener" style="text-decoration:none; color:inherit; display:block;">
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+          <span style="font-size:1.6em;">🌍</span>
+          <h3 style="margin:0; font-size:var(--font-size-base);">Expatica SA</h3>
+        </div>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin:0;">サウジで暮らす外国人向けの総合生活ガイド。ビザ、住居、医療、教育、銀行など幅広いトピックを網羅的に解説。</p>
+        <span style="display:inline-block; margin-top:10px; font-size:var(--font-size-xs); color:var(--accent);">サイトを開く →</span>
+      </a>
+
+      <a class="card" href="https://www.saudiexpatriates.com/" target="_blank" rel="noopener" style="text-decoration:none; color:inherit; display:block;">
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+          <span style="font-size:1.6em;">📝</span>
+          <h3 style="margin:0; font-size:var(--font-size-base);">Saudi-Expatriates</h3>
+        </div>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin:0;">イカマ（在留許可）更新、交通違反、公共サービスなど、日常で必要な実務手続きをステップごとに解説するハウツーサイト。</p>
+        <span style="display:inline-block; margin-top:10px; font-size:var(--font-size-xs); color:var(--accent);">サイトを開く →</span>
+      </a>
+
+      <a class="card" href="https://www.facebook.com/groups/" target="_blank" rel="noopener" style="text-decoration:none; color:inherit; display:block;">
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+          <span style="font-size:1.6em;">💬</span>
+          <h3 style="margin:0; font-size:var(--font-size-base);">Facebook / WhatsApp グループ</h3>
+        </div>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin:0;">「Expats in Riyadh」「Japanese in Saudi」等のキーワードで検索すると、都市別・国籍別の情報交換グループが見つかります。</p>
+        <span style="display:inline-block; margin-top:10px; font-size:var(--font-size-xs); color:var(--accent);">Facebookで検索 →</span>
+      </a>
+
     </div>
   </div>
 </section>
