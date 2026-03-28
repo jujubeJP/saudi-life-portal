@@ -220,17 +220,21 @@ def collect_embassy():
         if title_clean in nav_keywords:
             continue
 
-        # 在外公館トピックスセクション内にこのタイトルが存在するか確認
-        check_len = min(len(title_clean), 30)
-        if title_clean[:check_len] not in topics_text:
-            continue
-
         # URLを正規化
         if not href.startswith("http"):
             if href.startswith("/"):
                 href = EMBASSY_BASE + href
             else:
                 href = EMBASSY_BASE + "/" + href
+
+        # 在外公館トピックスのリンクのみ（外務省mofa.go.jpのリンクは除外）
+        if "mofa.go.jp" in href:
+            continue
+
+        # 在外公館トピックスセクション内にこのタイトルが存在するか確認
+        check_len = min(len(title_clean), 30)
+        if title_clean[:check_len] not in topics_text:
+            continue
 
         seen_titles.add(title_clean)
 
