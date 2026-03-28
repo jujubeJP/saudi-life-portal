@@ -23,6 +23,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install dependencies
+        run: pip install deep-translator
+
       - name: Run collection script
         run: python scripts/collect_content.py
 
