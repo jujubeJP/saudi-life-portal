@@ -197,6 +197,13 @@ def collect_embassy():
             section_end = len(text)
 
     print(f"[DEBUG] News section: position {section_start} to {section_end}")
+    if section_start >= 0:
+        print(f"[DEBUG] News section preview: ...{text[section_start:section_start+80]}...")
+    if ryoji_section_start >= 0:
+        print(f"[DEBUG] Ryoji section preview: ...{text[ryoji_section_start:ryoji_section_start+80]}...")
+
+    # 新着情報セクション内のテキストを切り出し
+    news_section_text = text[section_start:section_end]
 
     # お知らせリンクを抽出
     news_items = []
@@ -230,11 +237,9 @@ def collect_embassy():
         if title_clean in nav_keywords:
             continue
 
-        # テキスト内でこのリンクタイトルが新着情報セクション内にあるか確認
-        title_pos = text.find(title_clean[:15])
-        if title_pos < 0 or (section_start > 0 and title_pos < section_start):
-            continue
-        if title_pos >= section_end:
+        # 新着情報セクション内にこのタイトルが存在するか確認
+        if title_clean[:15] not in news_section_text:
+            print(f"[DEBUG] Skipping (not in news section): {title_clean[:40]}")
             continue
 
         # URLを正規化
@@ -251,11 +256,11 @@ def collect_embassy():
             "source": "在サウジ日本大使館"
         })
 
-    # 各ニュースに日付を付与
+    # 各ニュースに日付を付与（新着情報セクション内で検索）
     for item in news_items:
-        title_pos = text.find(item["title"][:15])
+        title_pos = news_section_text.find(item["title"][:15])
         if title_pos >= 0:
-            search_range = text[max(0, title_pos - 150):title_pos + 10]
+            search_range = news_section_text[max(0, title_pos - 150):title_pos + 10]
             date_str = parse_japanese_date(search_range)
             if date_str:
                 item["date"] = date_str
@@ -618,19 +623,8 @@ def main():
     # メディアニュースを言語別に収集
     media_by_lang = collect_media()
 
-    # 大使館ニュースの重複排除・マージ
-    existing_embassy = existing.get("news", {}).get("items", [])
-    embassy_all = []
-    seen_urls = set()
-    for item in embassy_news:
-        if item.get("url") and item["url"] not in seen_urls:
-            seen_urls.add(item["url"])
-            embassy_all.append(item)
-    for item in existing_embassy:
-        if item.get("url") and item["url"] not in seen_urls and item.get("source") == "在サウジ日本大使館":
-            seen_urls.add(item["url"])
-            embassy_all.append(item)
-    embassy_all = embassy_all[:10]
+    # 大使館ニュースは毎回新規収集分のみ使用（既存データをマージしない）
+    embassy_all = embassy_news if embassy_news else existing.get("news", {}).get("items", [])
 
     # 各言語メディアニュースのマージ（既存と新規、重複排除、各10件）
     def merge_media(new_items, existing_items):
