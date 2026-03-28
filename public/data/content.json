@@ -1,21 +1,33 @@
 {
-  "lastCollected": "2026-03-28T11:34:55.216214+03:00",
+  "lastCollected": "2026-03-28T11:41:50.632584+03:00",
   "security": {
-    "lastUpdated": "2026-03-28T11:34:55.216214+03:00",
+    "lastUpdated": "2026-03-28T11:41:50.632584+03:00",
     "mofa": {
       "title": "危険情報：レベル３ 渡航は止めてください",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
       "url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html"
     },
     "embassy": {
-      "title": "【大使館からのお知らせ】領事窓口業務の再開（3月16日）",
-      "body": "在外公館トピックスから10件のお知らせを取得しました。",
+      "title": "トップページへ戻る",
+      "body": "直近10件のお知らせを取得しました。",
       "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/index.html"
     }
   },
   "news": {
-    "lastUpdated": "2026-03-28T11:34:55.216214+03:00",
+    "lastUpdated": "2026-03-28T11:41:50.632584+03:00",
     "items": [
+      {
+        "title": "トップページへ戻る",
+        "url": "https://www.ksa.emb-japan.go.jp/j/",
+        "date": "2026-03-28",
+        "source": "在サウジ日本大使館"
+      },
+      {
+        "title": "このページのトップへ戻る",
+        "url": "https://www.ksa.emb-japan.go.jp/#header",
+        "date": "2026-03-28",
+        "source": "在サウジ日本大使館"
+      },
       {
         "title": "【大使館からのお知らせ】領事窓口業務の再開（3月16日）",
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
@@ -63,23 +75,11 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100980098.pdf",
         "date": "2026-02-17",
         "source": "在サウジ日本大使館"
-      },
-      {
-        "title": "2026年天皇誕生日祝賀レセプションの開催",
-        "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/11_000001_00516.html",
-        "date": "2026-02-10",
-        "source": "在サウジ日本大使館"
-      },
-      {
-        "title": "一部メールアプリのサブスクリプション解除機能による領事 メールの配信停止についての注意喚起",
-        "url": "https://www.ksa.emb-japan.go.jp/files/100969666.pdf",
-        "date": "2026-01-28",
-        "source": "在サウジ日本大使館"
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-03-28T11:34:55.216214+03:00",
+    "lastUpdated": "2026-03-28T11:41:50.632584+03:00",
     "items": [
       {
         "title": "イラン戦争ライブアップデート：イランの攻撃がサウジアラビア基地の米兵12人を負傷させる、当局者が明かす",
@@ -88,19 +88,25 @@
         "source": "The New York Times"
       },
       {
-        "title": "パキスタン、中東戦争について サウジアラビア、エジプト、トルコとの協議を開催",
+        "title": "パキスタン、中東戦争について協議するためサウジアラビア、エジプト、トルコを受け入れ",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ0l4cGZxdnJzZkVaWS1XTXdlTFRiS3FyVDl0UkdJSzc2NzNiazdtNjh5enJlNkdEU0o4MlBKdC05dVFKMEJYMm91WEVjZDhFQWRZTkFtM3pHV19NTkFiWFNhczRyUkljLTdTSm9ndVJqempHdURLVllDbENwU01SYndTMklHY3FCMTVnNXUzbmE0VElPM2pKOEVoSDlfaV8wVEVvZzltTVJGWEllQnRnRkEzTEcwb1FC?oc=5",
         "date": "2026-03-28T07:49",
         "source": "The Times of Israel"
       },
       {
-        "title": "イラン軍がサウジアラビアの空軍基地を攻撃、米軍兵士少なくとも10人が負傷",
+        "title": "インテル：カンセロがサウジアラビアへの復帰を望まず、バルセロナは彼を引き止めようとしているが、彼は再び市場に出る可能性がある",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZ3RzTnZWZ0Z0MTE5UkNuQ2ZHRy1NRFJ1a1Z4ZVBRZEhiVFFGdkJWRGFzenVfM1FKTHhoV0xHR1RrSHgxeFpZQm1naXJZMzNEbE0wUVE5cVZva3JxSy1FOFhtYjJfTFdSUUNVclFSVlgtd3NHM3NBRWl1VE00YWQyTUpaMGZ2bFpGOVNOWXNIajhxakpyVWNsZk5zajBUWmVnNUtWUnR2dnFZVy1HNFdFRWY4TXRWS1l3UWxwekdxZTVGMzlUQnhJYVV5WHNtLU1RN0oweHBhci1CVVZFMkNhel90YXB4T1ludC1hWFpOSzREZ0FQYUxIYWJQVVZmTmZQbFdR?oc=5",
+        "date": "2026-03-28T07:27",
+        "source": "goal.com"
+      },
+      {
+        "title": "米国がサウジアラビアの空軍基地に対するイラン攻撃で少なくとも10人の兵士が負傷",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbGNTRU1LbjlycFU1eGQwc0N0cWZabE5RekxiS1NYc1NpMk1EZmxNekZlNDIxUnFvYXgzSDRVUkRmVVZDdklHQjNTcXN6N2hDc0xSSWx3RllhcFdUZEhyZnlkZ3NzRFd6OVFGYkZmb0Q0U1RhZThVeTRJaUhJYnZLREJXTE10X0c4Tk84c3J5Vm84QU1pdlh1SQ?oc=5",
         "date": "2026-03-28T05:03",
         "source": "The Washington Post"
       },
       {
-        "title": "「今がその時だ」トランプ前大統領、サウジアラビアにアブラハム合意への参加を促す",
+        "title": "「今だ」：トランプ前大統領、サウジアラビアにアブラハム合意への参加を促す",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMDkxM2tlcmJTQ3A2bkh1UjhuMklpWUc4Zlh1ODd5TzgyX0dQWU5zWUxmUGFQVTBrdnpWbXpocjM2WUpybGNOaU1la2FxVU5HMUxKZVF5ZG95bjZTNUx5cFpNeTh4OUNtTV81b1ZFUmJ0YTlQd1RyY0Y1dXBCdlgxQ0wzcmNMVEFCYVNDYy1LM3JJZVJ3ckNrcU5XQnIyQmdDQ093UGkzYkxYa2gwSXNuYlhIeFZrRjZDek80Snhn?oc=5",
         "date": "2026-03-28T03:47",
         "source": "i24NEWS"
@@ -134,18 +140,18 @@
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYVg3ck5HTHlKaFpfakRLWVJRcl9OWGVmSktjZmZHWUkzSWJBbTJpOUgxcDd1ZF9zRHV5M2tXc3N3LUZHenV0cGkycGt0UDlfVGpkaEpvYzZ5ZDE3WGlUR09BeTJDLV9hZ1QzNmRkblpuM09lOTJ6czJnSXB6OTFWa1BmNHBUNVQ2ajdrQUJWZER1M2IyRzJ4LWRheVI3cGUwYklRRFB0c0ljdEdNQ01KNEYwSnpUclVHSmp3UlFMZU1aUQ?oc=5",
         "date": "2026-03-28T00:00",
         "source": "Politico"
-      },
-      {
-        "title": "米国の将校が発表、イラン軍がサウジアラビアの基地を攻撃し米兵12人が負傷",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTlBMamdMdnU2Zk5tWE1TMWpWRVJ2SGp3eGMxVHJycmVjYUR4TU40N2lPN1Z0RlBXXzYzdmNpc2FKQzBfcFBYdlEtYlVhN1RNVDItMVI3Q1o4cFVCN1Jnejd6bjRkRmFDbkk5cndGbUNFM1NjRkt2UjQyNlZ6WXV2elFLRVFkU2pGdWZVcndvTXFxb3FUbU5TRmdLZzY1U1pLaVBCT1dXcWZIZGJ2WWJZU2N2NFluT2FXdF9oYXE1a2xpQ1k?oc=5",
-        "date": "2026-03-27T23:59",
-        "source": "Reuters"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-03-28T11:34:55.216214+03:00",
+    "lastUpdated": "2026-03-28T11:41:50.632584+03:00",
     "items": [
+      {
+        "title": "エジプト代表がサウジアラビアに勝利し、FIFAランキングで2位上昇",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZzNVenJxaFFLbEVjTEdEZ1U2VG9EbzdWRkZ5ZFJPUW4wVmg3RkM4al92X2JFT2tpWGlBM1p3MGZYQXhwZUJrbUItZWRFTWhOX2N1UEk5cHFfdi1IX2R5NVBJeDJ3czNKNHBqT1ZDUlc2RHlwN00xeEc0R080aG5uR2Rsb9IBjgFBVV95cUxPSHR5d3ZOZnVuOFhLZG1HazV2LURfQzhTU1VQY0hNOXctUzE5ZzFJMjlvMnVRejd2YzYxbmpobHc4dDYwTmNnNmt4d2ExWWpnOFlXRGtjRHdGRzRwdmlsWENkVlVaS1FzMnQ1dTdxeWhXa05HY3lfUzNKWnRDcjM4akNLWE5qYlMxMXFFcVdR?oc=5",
+        "date": "2026-03-28T08:17",
+        "source": "CNN Arabic"
+      },
       {
         "title": "パキスタン、イランとの戦争についてサウジアラビア、エジプト、トルコとの協議を主催",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaThlTklGejBhLTFOX3lldWdWeG54OFlHTFVRVmdndU0yNV9RLWZEMjBKRGtjU1dESzRQY1BzLW5RYWRDcEw2NlBCM0VDcWJ1dGdsTXFqUjh6WC1vSDNBVXAtR1VsQ1FVV0xmaXhCYXNoTGdjTnV5SXIycWoza2FqbjZZSjgyVHMycXVzcTN4Y1hYVWotRW84OEtQQnRKb1JianZNRk5PVjRiMTBRUkZreGZRT2tNZ9IBwAFBVV95cUxQMUxkNG83eUc1WEdOMFM0RE42QWtBTk02bjY3dWlQTGxwMFZfU01MN1Vra2o5U0txVHMwVVhBM08yNUQ4N3V1cjZqcjFMaWlfdHpwM0FZaGJBTm1qOWlUS3U1SlJjYVRZZzlTdDZXZGFqckFHZzhIV3oxUjgzcVdLMGhaei1OS3hFMmJhZ1lwNDVfWTczNmJfamVub2JNREFWMEdCRi1DaFpxWWNFSTNGSDBaeU5KOWRvMEtMTDZlWDU?oc=5",
@@ -153,7 +159,7 @@
         "source": "CNN Arabic"
       },
       {
-        "title": "日量400万バレルで…サウジアラビアはホルムズ海峡を迂回し、ヤンブウが新しいルールを切り開く",
+        "title": "サウジアラビア、ホルムズ海峡を迂回 1日400万バレルでヤンブーが新ルールを確立",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBaMUhQeThTNXh5RmFVVkdxQ1VZNUxwZXFMR1FPRVhDbWtZZTJUX3Z5X1lWMFgzQUNSS2NZeWNrVkdtcXAwdHNz?oc=5",
         "date": "2026-03-28T01:30",
         "source": "صحيفة سبق الإلكترونية"
@@ -171,7 +177,7 @@
         "source": "الشرق الأوسط"
       },
       {
-        "title": "サウジアラビア、湾岸諸国の輸入品・輸出品の保管料を60日間免除",
+        "title": "サウジアラビア、湾岸諸国の輸入品・輸出品の60日間の保管料を免除",
         "url": "https://news.google.com/rss/articles/CBMiyARBVV95cUxPdjctWG1tTDlYZ3BQcEVUNEVON05oYWtIOGdlRlFaV3pBMmFkaV9FS255TXRxZkVoc1FYRUxmbHIybEtSNks1eVZqR3Z1Qy1JUWw2OXdxSzBRQnhHdHBjaWJ0TXNlX0EyRUFwUnJsLUNGcExNZGVXa2tvcmhaRnBGWGNib1ZPZlBhaXFRTmFISHExZUl0NjM2TXQwdTkxUWUtbDIwOGhuQlZBMndZY2pQbk9CcFE1YWdmOVV4SG5QM1lPRGtweWkxckRZT1FsNVctRFNIWXNiN1dxSU1vY2tUeU1NVHZKUFRVRlE3a01YV0I0Z3huMHRDY1hDanlTcE1fVk42eUJIYWQwbGp2Ylg2OU41WU1xMGotVDFDcmpYV2pyaWVsblJMcW5XS1pOVVltNTdIZjhHYngzczlyby1iZm5aY2djdTU3MXZSVXcyWUF5MnQ1OUViUlN1SVE5cGVXN3MwdmtPQ0VJaTNZVnlPNUZsdVRmNkZIc3dqRWpmWDRKWlRVQXVmSElmWGs0VUhXWGJQMEpfTjNabXZqVXRPdTRnOTRDRGpsOWw1WlpxNGRBZWNvbFFFd1ZPc3pGcUFvdWprSEhtcGZCazk3cWV4S1JCRUVJRWJubXhkWE9NVU9HdFRPcnFIcndpcW9fYWxqSTFVOE1laVdpSkd4UUNKeEZrRVZjU0ptRkxMYkxWNVRuZFFYTkZxSXBSYm1XclJjbWVRbFc3SXhxeU1NREJ5TW9VSmd6aFVlWTk4X3NTbUg4RFM2T3pqdw?oc=5",
         "date": "2026-03-27T23:32",
         "source": "الشرق الأوسط"
@@ -183,7 +189,7 @@
         "source": "CNN Arabic"
       },
       {
-        "title": "ご覧ください..サウジアラビア対エジプト親善試合の結果と試合概要",
+        "title": "ご覧ください。サウジアラビア対エジプト親善試合の結果とハイライト",
         "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNOTh3amYwX1p5T040NkJwS3B5UVBQX0pZTndQTlJfVTROemVVU0ZjalVfY1U5czktdnRLLXNhanI4SnF3ZmhrbkdMSFZ3aHdmS0lnWGljVlpERDY0Z0FuWUR6ZEtUNFJqbGRSbllVOVdwbjNSZHdhREdJakFjUnRNSFVCNDQtNzcwcWJhbmNzWktjaGttLS1PVTZJQm04T1JmWnZjSkNPMUozYjBKcENzYkNKWVJVLWVFQ2s4V2djLU5HZm9RQkRGT3BsODRlVU1QeHlHZFVxSjhzMGVITmVXMVdnTlpGNWlxamlzSldZNldNVmM2enl5ajNOM2JLdDJ1ZWw4SlQ3clV6U2NwZDhfMl9CbEc4VGZZZXkyU3AxbmxCOHlWSGZKVExJalA4Rm4tdTVGRkVR0gG7AkFVX3lxTE1XX0ZrWVIxLVVFSE5QMmw5MlNUenRWN0FTQkkxWDQ5UjhPX1dXR1ZGeWZWdWhXRWpCV2VwcEhQMmpUZHAwOFkxMUZJQWFVc0NJQkZ1UnNSb3ZNOWVWVDRKU2MtLUlNSHhoYm55OE16VHkxZVJoekhlakRJcFNyOFk2WVRDQmt4aUpDSXZNdTZYTkFpQk1VbHRrcEZPUXg4ODk5MGxnWi0ybFNpYmlEb2FiQlVGdFdDVTZxRUFlbFNPSkFkWVdkNkRlUDRiUXpYS1FRV2Q3RWxZdUFnTnNHY3lQckMzaUw5WFBQVnpKOVQ2N0w5UEhGWE1CZDNtOUJXSDZraU1MWXZMSVM2QUFKUkNBaXp0Q3htekNVZHhCMzVGdW10T3JreERpSGN2bkNmbnB2c0RKdnZRd1U2UQ?oc=5",
         "date": "2026-03-27T20:46",
         "source": "الجزيرة نت"
@@ -199,17 +205,11 @@
         "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxOajBQUGZlLXNjdnJFVEJhOVJjZm9ldGxGWmc3RENMTERQU0kyWnpjV19hd3ZUZjRFU0g1NlFsZXZmb18wUkhMSlcyOVVxU3p3c2l3XzEwUkZoUWtKb3JxSkdRS0VUS3JMN09WX1gtOU05cnkyOHpISDRXSEpjakZnMjA0SjlScF90OUdncVY3bzJmSUFWV3pRcG5qaXFFVzFET2ZqOGxDWVRfU2F0NW13Snc4bkZCZ1JZT1diZ3pmc1hZRF8tRFpVaVg2a3Z6a1NGenAzTFVuZG53b1dzWGlSaHRsRWNfdWZ1elNzTktubEpnU2NLdTN0ZWRKUEhyTkdFWW1ndG5vanE3ZGl3SEJVWFY2cnNKeUVqaXcwY19hMHQ5Snh3WmJ1STNjWXZGdHVNWTJoWkEzRWt4aURpdTZpb3FJZzBEOHROOENSUTNZQk9hdVlmVHB4WTZwN0h2NWNTbnY5SG5HaU5lS0pTQnp1di1ySXJaV29wTDFpQzhRREFJcWFkSC13dVhWOXlxc0lJVV9paktFZzU4MkU3d0t5MHZtSzBHYldnSU81YktJTFRJeHZjZWhmU1JQZDRkZVAza3BwSHVOTGlHS1VwVWE4cUxEaXpwYmVfQjFaQUpVbk1fcEVNMjU5TVNKZE5wYW94cVVRcUd5R1ZPTnh0TnBOcWtXaFNrdnYydUhiZDI2MEVkNENV?oc=5",
         "date": "2026-03-27T19:31",
         "source": "Kooora"
-      },
-      {
-        "title": "サウジアラビア内務省、ミサイルと無人機への対処に関する情報の撮影・公開に警告",
-        "url": "https://news.google.com/rss/articles/CBMi9ARBVV95cUxOWldGVnhpRFdIbnFvZnNBRDViQ0tpTUdtNkFJWHoyazlKUDZfVXlMNWYwMnFVci0zRGNsVmtRZkZBUWlHRHBFbEg5TnUtQUNFVDZjY0t3NWYwZ2xpNFRuOFVwVWVXQ3EtVXEtalMwZk9mV2RJQUUyZ0hEa3dCNnRpcXdxUjhnalNEeGV5QnVDVmN1R1IzMDFCVnJoMHpFUXVmb3lsbTlqencwRERnMHE2YWNhVHJJYmJVUWFqUmhnWHppcVdkaUJjY1JES2J2Nk9MRmhGOXY5eVFDNlNLTE5reVBxQU9GT1dEcjYzaWN3MHNsMzNmVGJvbjZYU1NZZzAxWkxodElYY2Y2OFp1dUQwMkFXRThmNkRKZENtaHQ2bFJzblBhc1NLTnkwaXA0U0xPSDNRb0U4S3VjWjlNMm9fMzZjWm5fSnVBMGllb25iSjhyOU94cUVfOG1ybkVMWVdpZndZV0FNcFFhMDN5ZFdtaFRxZkNVWFNVVW50RjFsQzVkRkpJY2JMN1lCTkUwREh1S25qdVVFbGo5ZzB0SlVYTTluUVY5OV9DMzZxRE96V01JVzQzTTBXWkFLWmdhNGtwZWEzZ1VkcHcwVWo0R2VvVFFmMWNSeUZ0UlhCQjVqa1NTaUZCTnZ5SGtlam9ZWWlOMFl4bFotTnNiZC14RERsTTdmX1E3LXBlcDJNZzI4bjlGV09kQnc5Z1UtNEJLcU9TNV9DMFlWRkhWS0pER0g3dnRzQm1OWlBRbkZnYzhuVDY3V1djdXZmYVByMVMtdmxsOUtEa3FFRUk0LW5sSGk4b0I4QmJ2enlfMHVQdDRERTdscHFo0gH6BEFVX3lxTFBkVUF5T0l3XzdZR2ZZTjRRZlJWenJFcEo4NGhqRFlZVDFKQTQyQU9TZ082VnRQdXFVczhuTnl1a3I4T2dldk9KSkRCVkhXNmoyM0xBNXJRakQwYlcyV1phOXdEV21mNVcxXzV5RmJYalRYV2Z6aUpGVFFaUWFza3RsOGZHQWlqSHhmRTFKMWVqSXFialRKdzJUU0lwNXpLNE5iaHJaWGlxTFJEb1pITUF0d0FmN3RsZ3JkWVVJUTg4cFhiOTluS2ZoX1hTMlhGcHlpNUFVTGtPUEpHRXFkWWJldmw0OWZRa3VNRjZQTkI4ZVlEdklvZG4zMXZxWlMwY0JkR1pzdVFCRnFpekI2emhvZ1l1ZHhQYzVvb0QyejlIdnZRNzZVMGdub1JzZnlrRXg1RVVxR0JzVGtWVGtXeF9DSjJRYTFGY2k4S3ozOTlPMkFnc2gzUWR4dW1lOVFpSVYtU1RrclJyay1qQnF4ZHlZSHBsNzlDOW5IbEtZb3R1X0NSbVY5RUVaT3lrdVpyTFdlVTRvYXVrWFQ1MXJnblkwUGJxdXBmOEtlOGc4R3J3WjRBenF6bnRWUDRaaUd6cWFzUTZxSkk5Q2RzOVdDNHRfLWF4UTBMMWptWTVHa0xRZm0ycEN2QWo0OXMzcVBVVm5sUS1Id1djVjdEN2xaa1lSbE9HZUl5YXYwdU52NGZKYS1wTGlNd2RDUFlyNEEtZWtiV0d4WGo3cjc5aVktNXcwd3VxNE5xUzNYU3p4eldUcUxhLVhMb3dNdUFxWFFDUHdRdFAyOHBoU1V1MVJlN0htTVJLbGtnQ2pUVlFSc1ZsVlg3Ylk4RHhBUnc?oc=5",
-        "date": "2026-03-27T17:28",
-        "source": "العربية"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-03-28T11:34:55.216214+03:00",
+    "lastUpdated": "2026-03-28T11:41:50.632584+03:00",
     "items": [
       {
         "title": "サウジ空軍基地にイランの攻撃、米兵10人負傷 開戦以降の負傷者は300人超える",
