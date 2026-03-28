@@ -238,8 +238,10 @@ def collect_embassy():
             continue
 
         # 新着情報セクション内にこのタイトルが存在するか確認
-        if title_clean[:15] not in news_section_text:
-            print(f"[DEBUG] Skipping (not in news section): {title_clean[:40]}")
+        # 十分長い文字列で検索（共通プレフィックスの誤マッチを防止）
+        check_len = min(len(title_clean), 30)
+        if title_clean[:check_len] not in news_section_text:
+            print(f"[DEBUG] Skipping (not in news section): {title_clean[:50]}")
             continue
 
         # URLを正規化
@@ -258,7 +260,7 @@ def collect_embassy():
 
     # 各ニュースに日付を付与（新着情報セクション内で検索）
     for item in news_items:
-        title_pos = news_section_text.find(item["title"][:15])
+        title_pos = news_section_text.find(item["title"][:min(len(item["title"]), 30)])
         if title_pos >= 0:
             search_range = news_section_text[max(0, title_pos - 150):title_pos + 10]
             date_str = parse_japanese_date(search_range)
