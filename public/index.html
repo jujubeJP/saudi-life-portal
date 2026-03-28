@@ -135,6 +135,15 @@
     </div>
 
     <div class="card" style="border-top-left-radius:0; border-top-right-radius:0; border-top:none;">
+      <div id="category-filters" style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:10px; padding-bottom:8px; border-bottom:1px solid var(--border-light);">
+        <button class="cat-btn active" data-cat="all" style="padding:4px 12px; border-radius:20px; border:1px solid var(--accent); background:var(--accent); color:#fff; font-size:0.78em; cursor:pointer;">すべて</button>
+        <button class="cat-btn" data-cat="政治" style="padding:4px 12px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.78em; cursor:pointer;">政治</button>
+        <button class="cat-btn" data-cat="経済" style="padding:4px 12px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.78em; cursor:pointer;">経済</button>
+        <button class="cat-btn" data-cat="社会" style="padding:4px 12px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.78em; cursor:pointer;">社会</button>
+        <button class="cat-btn" data-cat="文化" style="padding:4px 12px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.78em; cursor:pointer;">文化</button>
+        <button class="cat-btn" data-cat="スポーツ" style="padding:4px 12px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.78em; cursor:pointer;">スポーツ</button>
+        <button class="cat-btn" data-cat="その他" style="padding:4px 12px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.78em; cursor:pointer;">その他</button>
+      </div>
       <div id="news-en" class="news-panel">
         <p style="color:var(--text-tertiary); font-size:var(--font-size-sm);">読み込み中...</p>
       </div>
@@ -363,8 +372,10 @@ document.querySelectorAll('nav a[href*="#"]').forEach(link => {
       return;
     }
     el.innerHTML = items.map(function(n) {
-      return '<div style="padding:6px 0; border-bottom:1px solid var(--border-light); line-height:1.5;">' +
+      var cat = n.category || 'その他';
+      return '<div class="news-item" data-category="' + esc(cat) + '" style="padding:6px 0; border-bottom:1px solid var(--border-light); line-height:1.5;">' +
         '<span style="color:var(--text-muted); font-size:0.8em; margin-right:6px; white-space:nowrap;">' + esc(fmtNewsDate(n.date)) + '</span>' +
+        '<span style="display:inline-block; padding:1px 6px; border-radius:8px; background:var(--bg-secondary); color:var(--text-tertiary); font-size:0.7em; margin-right:6px;">' + esc(cat) + '</span>' +
         '<span style="color:var(--text-tertiary); font-size:0.8em; margin-right:6px;">' + esc(n.source || '') + '</span>' +
         (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary); text-decoration:none; font-size:var(--font-size-sm);">' + esc(n.title || '') + '</a>' : '<span style="font-size:var(--font-size-sm);">' + esc(n.title || '') + '</span>') +
       '</div>';
@@ -385,6 +396,30 @@ document.querySelectorAll('nav a[href*="#"]').forEach(link => {
     });
     document.querySelectorAll('.news-panel').forEach(function(p) {
       p.style.display = p.id === 'news-' + tab ? 'block' : 'none';
+    });
+  });
+
+  // カテゴリフィルター
+  var currentCategory = 'all';
+  document.getElementById('category-filters').addEventListener('click', function(e) {
+    var btn = e.target.closest('.cat-btn');
+    if (!btn) return;
+    currentCategory = btn.getAttribute('data-cat');
+    // ボタンのスタイル更新
+    document.querySelectorAll('.cat-btn').forEach(function(b) {
+      var isActive = b.getAttribute('data-cat') === currentCategory;
+      b.style.background = isActive ? 'var(--accent)' : 'none';
+      b.style.color = isActive ? '#fff' : 'var(--text-tertiary)';
+      b.style.borderColor = isActive ? 'var(--accent)' : 'var(--border-light)';
+      b.classList.toggle('active', isActive);
+    });
+    // ニュースアイテムのフィルタリング
+    document.querySelectorAll('.news-item').forEach(function(item) {
+      if (currentCategory === 'all' || item.getAttribute('data-category') === currentCategory) {
+        item.style.display = '';
+      } else {
+        item.style.display = 'none';
+      }
     });
   });
 

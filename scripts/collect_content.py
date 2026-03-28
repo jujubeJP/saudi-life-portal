@@ -248,11 +248,15 @@ def collect_embassy():
             date_str = parse_japanese_date(search_range)
             print(f"[DEBUG] Date for '{title_clean[:30]}': search='{search_range[-40:]}' → {date_str}")
 
+        # 大使館ニュースのカテゴリ判定
+        _, emb_category = translate_and_categorize(title_clean)
+
         news_items.append({
             "title": title_clean,
             "url": href,
             "date": date_str or datetime.now(AST).strftime("%Y-%m-%d"),
-            "source": "在サウジ日本大使館"
+            "source": "在サウジ日本大使館",
+            "category": emb_category,
         })
 
     # 日付で降順ソート（新しい順）
@@ -489,19 +493,44 @@ def strip_html_tags(text):
     return re.sub(r"<[^>]+>", "", text).strip()
 
 
-def translate_to_japanese(text):
-    """テキストを日本語に翻訳（Claude API使用）"""
+CATEGORIES = ["政治", "経済", "社会", "文化", "スポーツ", "その他"]
+
+def translate_and_categorize(text):
+    """テキストを日本語に翻訳し、カテゴリを判定する（Claude API使用）
+    戻り値: (翻訳テキスト, カテゴリ)
+    """
     if not ANTHROPIC_API_KEY or not text or not text.strip():
-        return text
+        return text, "その他"
+
+    is_japanese = bool(re.search(r'[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]', text))
+
     try:
-        # 既に日本語ならスキップ
-        if re.search(r'[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]', text):
-            return text
+        if is_japanese:
+            # 日本語の場合はカテゴリ判定のみ
+            prompt = (
+                f"以下のニュース見出しのカテゴリを判定してください。\n"
+                f"カテゴリ: 政治, 経済, 社会, 文化, スポーツ, その他\n"
+                f"JSON形式で出力: {{\"category\":\"カテゴリ名\"}}\n"
+                f"JSONのみ出力し、説明は不要です。\n\n{text[:300]}"
+            )
+        else:
+            # 外国語の場合は翻訳＋カテゴリ判定
+            prompt = (
+                f"以下のニュース見出しについて2つの作業を行ってください。\n"
+                f"1. NHKや日経新聞のような自然な日本語ニュース見出しに翻訳\n"
+                f"2. カテゴリを判定（政治, 経済, 社会, 文化, スポーツ, その他）\n\n"
+                f"注意:\n"
+                f"- \"Live Update\"→「最新情報」、\"Breaking\"→「速報」\n"
+                f"- 英語の慣用表現を直訳しない\n"
+                f"- カタカナ語の乱用を避ける\n\n"
+                f"JSON形式で出力: {{\"title\":\"翻訳した見出し\",\"category\":\"カテゴリ名\"}}\n"
+                f"JSONのみ出力し、説明は不要です。\n\n{text[:300]}"
+            )
 
         payload = json.dumps({
             "model": "claude-haiku-4-5-20251001",
-            "max_tokens": 200,
-            "messages": [{"role": "user", "content": f"以下のニュース見出しを、NHKや日経新聞のような日本語ニュースの見出しとして自然な日本語に翻訳してください。翻訳のみを出力し、説明は不要です。\n注意:\n- \"Live Update\"→「最新情報」、\"Breaking\"→「速報」\n- 英語の慣用表現を直訳しない（例: \"Now is the time\"→「今が時だ」は不自然）\n- カタカナ語の乱用を避ける\n- 日本の読者が違和感なく読める見出しにする\n\n{text[:300]}"}]
+            "max_tokens": 300,
+            "messages": [{"role": "user", "content": prompt}]
         }).encode("utf-8")
 
         req = urllib.request.Request(
@@ -516,11 +545,26 @@ def translate_to_japanese(text):
         )
         with urllib.request.urlopen(req, timeout=15) as resp:
             result = json.loads(resp.read().decode("utf-8"))
-            translated = result.get("content", [{}])[0].get("text", "").strip()
-            return translated if translated else text
+            response_text = result.get("content", [{}])[0].get("text", "").strip()
+
+            # JSONをパース
+            # レスポンスからJSON部分を抽出（```json...```で囲まれている場合も対応）
+            json_match = re.search(r'\{[^}]+\}', response_text)
+            if json_match:
+                parsed = json.loads(json_match.group())
+                title = parsed.get("title", text if is_japanese else "") or text
+                category = parsed.get("category", "その他")
+                # カテゴリの正規化
+                if category not in CATEGORIES:
+                    category = "その他"
+                if is_japanese:
+                    return text, category
+                return title, category
+
+        return text, "その他"
     except Exception as e:
-        print(f"[WARN] Translation failed: {e}", file=sys.stderr)
-        return text
+        print(f"[WARN] Translate/categorize failed: {e}", file=sys.stderr)
+        return text, "その他"
 
 
 def collect_media():
@@ -568,14 +612,15 @@ def collect_media():
             if not date_str:
                 date_str = datetime.now(AST).strftime("%Y-%m-%dT%H:%M")
 
-            # タイトルを日本語に翻訳
-            title_ja = translate_to_japanese(title)
+            # タイトルを日本語に翻訳＋カテゴリ判定
+            title_ja, category = translate_and_categorize(title)
 
             results[lang].append({
                 "title": title_ja,
                 "url": link,
                 "date": date_str,
                 "source": source_name,
+                "category": category,
             })
             count += 1
 
