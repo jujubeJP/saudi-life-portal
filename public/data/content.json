@@ -1,15 +1,15 @@
 {
-  "lastCollected": "2026-03-28T07:08:26.604101+03:00",
+  "lastCollected": "2026-03-28T07:12:24.870250+03:00",
   "security": {
-    "lastUpdated": "2026-03-28T07:08:26.604101+03:00",
+    "lastUpdated": "2026-03-28T07:12:24.870250+03:00",
     "mofa": {
       "title": "危険情報：レベル３ 渡航は止めてください",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
       "url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html"
     },
     "embassy": {
-      "title": "自動収集待ち...",
-      "body": "大使館からの最新のお知らせがここに表示されます。",
+      "title": "情報を取得できませんでした",
+      "body": "大使館サイトからの情報取得に失敗しました。",
       "url": "https://www.ksa.emb-japan.go.jp/itprtop_ja/index.html"
     },
     "gov": null
@@ -22,7 +22,7 @@
     "labor": null
   },
   "news": {
-    "lastUpdated": "2026-03-28T07:08:26.604101+03:00",
+    "lastUpdated": "2026-03-28T07:12:24.870250+03:00",
     "items": []
   }
 }
