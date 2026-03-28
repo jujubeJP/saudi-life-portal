@@ -235,11 +235,13 @@ def collect_embassy():
         seen_titles.add(title_clean)
 
         # 日付を検索（タイトルの直前にある令和日付）
+        # タイトル開始位置の手前だけを検索（タイトル内の日付を拾わないように）
         title_pos = topics_text.find(title_clean[:check_len])
         date_str = None
         if title_pos >= 0:
-            search_range = topics_text[max(0, title_pos - 150):title_pos + 10]
+            search_range = topics_text[max(0, title_pos - 80):title_pos]
             date_str = parse_japanese_date(search_range)
+            print(f"[DEBUG] Date for '{title_clean[:30]}': search='{search_range[-40:]}' → {date_str}")
 
         news_items.append({
             "title": title_clean,
@@ -248,14 +250,17 @@ def collect_embassy():
             "source": "在サウジ日本大使館"
         })
 
-    print(f"[DEBUG] Extracted {len(news_items)} embassy news items")
+    # 日付で降順ソート（新しい順）
+    news_items.sort(key=lambda x: x.get("date", ""), reverse=True)
+
+    print(f"[DEBUG] Extracted {len(news_items)} embassy news items (sorted)")
     for item in news_items[:12]:
         print(f"[DEBUG]   - {item['date']}: {item['title'][:60]}")
 
     # 最新10件に制限
     news_items = news_items[:10]
     embassy_title = news_items[0]["title"] if news_items else "情報を取得できませんでした"
-    embassy_body = f"在外公館トピックスから{len(news_items)}件のお知らせを取得しました。" if news_items else "大使館サイトからの情報取得に失敗しました。"
+    embassy_body = f"直近{len(news_items)}件のお知らせを取得しました。" if news_items else "大使館サイトからの情報取得に失敗しました。"
 
     embassy_data = {
         "title": embassy_title,
