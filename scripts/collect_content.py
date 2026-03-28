@@ -20,7 +20,7 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 AST = timezone(timedelta(hours=3))
 CONTENT_PATH = Path(__file__).parent.parent / "public" / "data" / "content.json"
 
-EMBASSY_URL = "https://www.ksa.emb-japan.go.jp/itprtop_ja/index.html"
+EMBASSY_URL = "https://www.ksa.emb-japan.go.jp/itpr_ja/index.html"
 EMBASSY_BASE = "https://www.ksa.emb-japan.go.jp"
 MOFA_URL = "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html"
 MOFA_BASE = "https://www.anzen.mofa.go.jp"
@@ -171,8 +171,8 @@ def parse_japanese_date(text_around):
 
 
 def collect_embassy():
-    """大使館サイトから情報を収集"""
-    print("[INFO] Fetching embassy page...")
+    """大使館サイト（在外公館トピックス）から情報を収集"""
+    print("[INFO] Fetching embassy topics page...")
     html = fetch_url(EMBASSY_URL)
     if not html:
         return None, []
@@ -180,30 +180,13 @@ def collect_embassy():
     text, links = parse_html(html)
     print(f"[DEBUG] Found {len(links)} total links on embassy page")
 
-    # 「新着情報」セクションのみからリンクを抽出（領事情報は除外）
-    news_section_start = text.find("新着情報")
-    ryoji_section_start = text.find("領事情報")
-
-    if news_section_start < 0:
-        print("[WARN] Could not find 新着情報 section in embassy page")
-        section_start = 0
-        section_end = len(text)
-    else:
-        section_start = news_section_start
-        # 領事情報セクションが新着情報の後にあれば、そこで区切る
-        if ryoji_section_start > news_section_start:
-            section_end = ryoji_section_start
-        else:
-            section_end = len(text)
-
-    print(f"[DEBUG] News section: position {section_start} to {section_end}")
-    if section_start >= 0:
-        print(f"[DEBUG] News section preview: ...{text[section_start:section_start+80]}...")
-    if ryoji_section_start >= 0:
-        print(f"[DEBUG] Ryoji section preview: ...{text[ryoji_section_start:ryoji_section_start+80]}...")
-
-    # 新着情報セクション内のテキストを切り出し
-    news_section_text = text[section_start:section_end]
+    # 「在外公館トピックス」セクションを特定
+    topics_start = text.find("在外公館トピックス")
+    if topics_start < 0:
+        print("[WARN] Could not find 在外公館トピックス section")
+        topics_start = 0
+    topics_text = text[topics_start:]
+    print(f"[DEBUG] Topics section starts at position {topics_start}")
 
     # お知らせリンクを抽出
     news_items = []
@@ -237,11 +220,9 @@ def collect_embassy():
         if title_clean in nav_keywords:
             continue
 
-        # 新着情報セクション内にこのタイトルが存在するか確認
-        # 十分長い文字列で検索（共通プレフィックスの誤マッチを防止）
+        # 在外公館トピックスセクション内にこのタイトルが存在するか確認
         check_len = min(len(title_clean), 30)
-        if title_clean[:check_len] not in news_section_text:
-            print(f"[DEBUG] Skipping (not in news section): {title_clean[:50]}")
+        if title_clean[:check_len] not in topics_text:
             continue
 
         # URLを正規化
@@ -252,35 +233,29 @@ def collect_embassy():
                 href = EMBASSY_BASE + "/" + href
 
         seen_titles.add(title_clean)
+
+        # 日付を検索（タイトルの直前にある令和日付）
+        title_pos = topics_text.find(title_clean[:check_len])
+        date_str = None
+        if title_pos >= 0:
+            search_range = topics_text[max(0, title_pos - 150):title_pos + 10]
+            date_str = parse_japanese_date(search_range)
+
         news_items.append({
             "title": title_clean,
             "url": href,
+            "date": date_str or datetime.now(AST).strftime("%Y-%m-%d"),
             "source": "在サウジ日本大使館"
         })
 
-    # 各ニュースに日付を付与（新着情報セクション内で検索）
-    for item in news_items:
-        title_pos = news_section_text.find(item["title"][:min(len(item["title"]), 30)])
-        if title_pos >= 0:
-            search_range = news_section_text[max(0, title_pos - 150):title_pos + 10]
-            date_str = parse_japanese_date(search_range)
-            if date_str:
-                item["date"] = date_str
-            else:
-                item["date"] = datetime.now(AST).strftime("%Y-%m-%d")
-        else:
-            item["date"] = datetime.now(AST).strftime("%Y-%m-%d")
-
-        item["summary"] = item["title"]
-
     print(f"[DEBUG] Extracted {len(news_items)} embassy news items")
-    for item in news_items[:5]:
+    for item in news_items[:12]:
         print(f"[DEBUG]   - {item['date']}: {item['title'][:60]}")
 
-    # 最新の最大10件
+    # 最新10件に制限
     news_items = news_items[:10]
     embassy_title = news_items[0]["title"] if news_items else "情報を取得できませんでした"
-    embassy_body = f"新着情報から{len(news_items)}件のお知らせを取得しました。" if news_items else "大使館サイトからの情報取得に失敗しました。"
+    embassy_body = f"在外公館トピックスから{len(news_items)}件のお知らせを取得しました。" if news_items else "大使館サイトからの情報取得に失敗しました。"
 
     embassy_data = {
         "title": embassy_title,
