@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サウジ時間 | サウジナビ</title>
+<link rel="stylesheet" href="assets/shared.css">
+<style>
+.info-table { width:100%; font-size:var(--font-size-sm); border-collapse:collapse; }
+.info-table th { text-align:left; padding:8px 6px; color:var(--text-tertiary); font-weight:600; border-bottom:2px solid var(--border-light); }
+.info-table td { padding:7px 6px; border-bottom:1px solid var(--border-light); vertical-align:top; }
+.info-table tr:last-child td { border-bottom:none; }
+.temp-bar { display:inline-block; height:10px; border-radius:4px; vertical-align:middle; margin-right:4px; }
+.section-title { font-size:1.1em; font-weight:700; color:var(--text-primary); margin:0 0 10px; padding-top:4px; }
+.sub-title { font-size:0.95em; font-weight:600; color:var(--accent); margin:12px 0 6px; }
+.compact-section { padding:8px 0; }
+.tip-box { padding:8px 12px; font-size:0.85em; color:var(--text-tertiary); background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 var(--radius-sm) var(--radius-sm) 0; margin-top:8px; }
+</style>
+</head>
+<body>
+
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="container">
+    <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
+    <p class="subtitle">サウジアラビア在住者・渡航予定者のための日本語生活情報ポータル</p>
+    <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 サウジナビ</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap">
+        <button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html" class="active">🕐 サウジ時間</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+  </div>
+
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html" class="active">🕐 サウジ時間</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+    <div class="search-wrap" style="margin-left:auto;">
+      <button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button>
+    </div>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <span class="search-icon-inner">🔍</span>
+    <input type="text" id="searchInput" placeholder="検索… (例: 就業時間, ラマダン, 気温)" autocomplete="off">
+    <button class="search-clear" id="searchClear">✕</button>
+  </div>
+</nav>
+
+<!-- Search Results Overlay -->
+<div class="search-results" id="searchResults">
+  <div class="search-results-inner">
+    <div class="search-results-header">
+      <h2 id="searchResultsTitle">検索結果</h2>
+      <button class="search-results-close" id="searchResultsClose">✕</button>
+    </div>
+    <div id="searchResultsContent"></div>
+  </div>
+</div>
+
+<main class="container">
+
+<!-- PAGE TITLE -->
+<section style="padding-top:20px; padding-bottom:0;">
+  <h2 style="font-size:1.4em; font-weight:700; color:var(--text-primary); margin-bottom:4px;">🕐 サウジ時間 — 週末・就業・気候と暮らしのリズム</h2>
+  <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">サウジアラビアの1日・1週間・1年のリズムを知ることは、快適な生活の第一歩です。日本との違いを中心にまとめました。</p>
+</section>
+
+<!-- ===== 1. 時差とタイムゾーン ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🌍 時差とタイムゾーン</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアはAST（Arabia Standard Time、UTC+3）を採用しています。サマータイムはありません。日本（UTC+9）との時差は常に<strong>マイナス6時間</strong>です。サウジの正午は日本の18時にあたります。
+    </p>
+    <div class="tip-box">💡 日本の家族や取引先との連絡は、サウジの午後（日本の夜）が最も取りやすい時間帯です。</div>
+  </div>
+</section>
+
+<!-- ===== 2. 週末と休日 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">📅 週末と休日</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアの週末は<strong>金曜日・土曜日</strong>です。日曜日が週の始まりで、勤務日は日曜〜木曜。金曜日はイスラムの集団礼拝（ジュムア）の日であり、最も重要な休息日です。
+    </p>
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th>曜日</th><th>サウジ</th><th>日本</th></tr>
+      <tr><td>日曜</td><td>勤務日（週の始まり）</td><td>休日</td></tr>
+      <tr><td>月〜木</td><td>勤務日</td><td>勤務日</td></tr>
+      <tr><td>金曜</td><td style="color:#c62828; font-weight:600;">休日（礼拝日）</td><td>勤務日</td></tr>
+      <tr><td>土曜</td><td style="color:#c62828; font-weight:600;">休日</td><td>休日</td></tr>
+    </table>
+    <div class="tip-box">💡 日本とのビジネスでは火〜木が双方勤務日で最もスムーズ。日曜は日本が休み、金曜はサウジが休みのため注意。</div>
+  </div>
+</section>
+
+<!-- ===== 3. 就業時間 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🏢 就業時間</h3>
+
+    <h4 class="sub-title">通常期</h4>
+    <table class="info-table">
+      <tr><th style="width:30%;">セクター</th><th>勤務時間</th><th>備考</th></tr>
+      <tr><td>官公庁</td><td>7:30〜14:30</td><td>午後は閉庁。手続きは午前中に</td></tr>
+      <tr><td>民間企業</td><td>8:00〜17:00 or 9:00〜18:00</td><td>1日8時間、週48時間が上限</td></tr>
+      <tr><td>銀行</td><td>9:30〜16:30</td><td>木曜は短縮の場合あり</td></tr>
+      <tr><td>ショッピングモール</td><td>10:00〜22:00〜0:00</td><td>木金は深夜まで営業が多い</td></tr>
+    </table>
+
+    <h4 class="sub-title">ラマダン期間中</h4>
+    <table class="info-table">
+      <tr><th style="width:30%;">セクター</th><th>勤務時間</th><th>備考</th></tr>
+      <tr><td>官公庁</td><td>10:00〜15:00</td><td>1日5時間に短縮</td></tr>
+      <tr><td>民間企業</td><td>短縮（1日6時間/週36時間）</td><td>ムスリム社員が対象</td></tr>
+      <tr><td>銀行</td><td>10:00〜16:00</td><td></td></tr>
+      <tr><td>店舗・モール</td><td>午前10:00〜17:30 / 夜21:00〜翌1:00頃</td><td>イフタール前後に長い休憩</td></tr>
+    </table>
+    <div class="tip-box">💡 ラマダン中は街全体が夜型になります。イフタール（日没後の食事）後に商店が再開し、深夜まで賑わいます。</div>
+  </div>
+</section>
+
+<!-- ===== 4. 礼拝時間と店舗の一時閉店 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🕌 礼拝時間と店舗の一時閉店</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      イスラムでは1日5回の礼拝（サラート）があります。各礼拝時間になると、<strong>商店・レストラン・銀行などが15〜30分間一時閉店</strong>します。大型モール内の店舗も例外ではありません。礼拝時間は季節により変動しますが、概ね以下の通りです。
+    </p>
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th>礼拝</th><th>アラビア語</th><th>時間帯（目安）</th><th>影響</th></tr>
+      <tr><td>ファジュル</td><td>Fajr</td><td>夜明け前（4:00〜5:30頃）</td><td>早朝のため影響少</td></tr>
+      <tr><td>ズフル</td><td>Dhuhr</td><td>正午過ぎ（12:00〜12:30頃）</td><td>ランチ前後に閉店</td></tr>
+      <tr><td>アスル</td><td>Asr</td><td>午後（15:00〜15:45頃）</td><td>午後の買い物に注意</td></tr>
+      <tr><td>マグリブ</td><td>Maghrib</td><td>日没直後（17:30〜18:30頃）</td><td>短い礼拝。夕食時間帯</td></tr>
+      <tr><td>イシャー</td><td>Isha</td><td>夜（19:00〜20:30頃）</td><td>夜の外出に注意</td></tr>
+    </table>
+    <div class="tip-box">💡 外出時は礼拝時間を意識して行動するとスムーズです。レストランの予約時間も礼拝と重ならないよう調整されています。近年は一部の大型チェーンで礼拝中も営業を続ける店舗が増えていますが、基本的には閉まると考えてください。</div>
+  </div>
+</section>
+
+<!-- ===== 5. 食事の時間帯 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🍽️ 食事の時間帯</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジの食事時間は日本より全体的に遅めです。遊牧民の伝統から、日中の食事は軽く、夜にメインの食事を取る傾向があります。
+    </p>
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th>食事</th><th>時間帯</th><th>特徴</th></tr>
+      <tr><td><strong>朝食</strong></td><td>7:00〜9:00</td><td>軽め。フラットブレッド、チーズ、デーツ、アラビアコーヒーなど</td></tr>
+      <tr><td><strong>昼食</strong></td><td>13:00〜15:00</td><td>1日のメイン。カブサ（炊き込みご飯）が定番。家族で集まることも多い</td></tr>
+      <tr><td><strong>夕食</strong></td><td>21:00〜23:00</td><td>軽め〜中程度。スープ、サラダ、グリル料理。招待時は23時以降になることも</td></tr>
+    </table>
+    <div class="tip-box">💡 サウジ人の家に招待された場合、食事が22時〜0時になることは珍しくありません。日本の感覚で「遅い」と感じても、サウジでは普通のことです。</div>
+  </div>
+</section>
+
+<!-- ===== 6. 気候と季節 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🌡️ 気候と季節</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアの大部分は砂漠気候で、夏は猛烈に暑く冬は温暖です。内陸部（リヤド）は寒暖差が大きく乾燥、沿岸部（ジェッダ）は年中高湿度。サマータイムはありません。
+    </p>
+
+    <h4 class="sub-title">月別気温の目安</h4>
+    <table class="info-table" style="margin-top:4px;">
+      <tr><th>月</th><th>リヤド（内陸）</th><th>ジェッダ（沿岸）</th><th>体感</th></tr>
+      <tr><td>1月</td><td>9〜22℃</td><td>19〜29℃</td><td style="color:#1565c0;">❄️ 冬。リヤドの朝晩は冷える</td></tr>
+      <tr><td>2月</td><td>11〜24℃</td><td>19〜30℃</td><td style="color:#1565c0;">❄️ まだ涼しい。アウトドア最適</td></tr>
+      <tr><td>3月</td><td>15〜29℃</td><td>21〜31℃</td><td>🌤️ 快適。砂嵐の季節始まり</td></tr>
+      <tr><td>4月</td><td>20〜34℃</td><td>22〜34℃</td><td>🌤️ 暑さを感じ始める</td></tr>
+      <tr><td>5月</td><td>25〜40℃</td><td>25〜37℃</td><td style="color:#e65100;">🔥 暑い。日中の外出注意</td></tr>
+      <tr><td>6月</td><td>27〜43℃</td><td>26〜39℃</td><td style="color:#c62828;">🔥 猛暑。外出は最小限に</td></tr>
+      <tr><td>7月</td><td>28〜44℃</td><td>28〜40℃</td><td style="color:#c62828;">🔥 年間最高。リヤド50℃近くも</td></tr>
+      <tr><td>8月</td><td>28〜44℃</td><td>28〜39℃</td><td style="color:#c62828;">🔥 猛暑継続。湿度も上昇</td></tr>
+      <tr><td>9月</td><td>24〜41℃</td><td>27〜38℃</td><td style="color:#e65100;">🔥 まだ暑い</td></tr>
+      <tr><td>10月</td><td>19〜36℃</td><td>25〜36℃</td><td>🌤️ 徐々に涼しく</td></tr>
+      <tr><td>11月</td><td>14〜28℃</td><td>23〜33℃</td><td>🌤️ 快適。アウトドアシーズン開始</td></tr>
+      <tr><td>12月</td><td>10〜23℃</td><td>20〜30℃</td><td style="color:#1565c0;">❄️ 冬。リヤドは上着必要</td></tr>
+    </table>
+
+    <h4 class="sub-title">リヤド vs ジェッダの違い</h4>
+    <table class="info-table" style="margin-top:4px;">
+      <tr><th></th><th>リヤド（内陸・砂漠）</th><th>ジェッダ（紅海沿岸）</th></tr>
+      <tr><td>夏の暑さ</td><td>乾燥した猛暑（50℃近く）</td><td>高湿度の暑さ（40℃+湿度80%超）</td></tr>
+      <tr><td>冬</td><td>朝晩は10℃以下になることも</td><td>年中温暖（20℃前後）</td></tr>
+      <tr><td>湿度</td><td>10〜20%（カラッと乾燥）</td><td>60〜85%（ジメジメ）</td></tr>
+      <tr><td>雨</td><td>稀。11〜4月にわずか</td><td>ほぼ降らない</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ===== 7. 夏と冬の過ごし方 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">☀️🌙 夏と冬で変わる暮らし方</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      気温の差が激しいサウジでは、夏と冬で生活スタイルが大きく変わります。これは日本にはないサウジ独特のリズムです。
+    </p>
+
+    <h4 class="sub-title">夏（5〜9月）— 室内・夜型の生活</h4>
+    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding-left:8px; border-left:3px solid #e65100;">
+      日中の気温は40〜50℃に達し、外出は必要最小限になります。生活は完全に<strong>夜型</strong>にシフトし、夕方以降に活動を開始するのが一般的です。ショッピングモールが最大の涼みスポットとなり、家族連れで深夜まで賑わいます。レストランのディナータイムは22時〜0時がピーク。子どもも深夜まで外出するのがサウジの夏の日常です。多くのサウジ人家庭はこの時期に海外旅行に出かけます。
+    </div>
+
+    <h4 class="sub-title">冬（10〜3月）— 屋外を楽しむ季節</h4>
+    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding-left:8px; border-left:3px solid #1565c0;">
+      気温が20〜30℃に下がり、サウジの<strong>ベストシーズン</strong>到来です。砂漠キャンプ（カシュタ / Kashta）がサウジの冬の風物詩で、家族や友人とテントを張り、焚き火でバーベキュー、満天の星空を楽しみます。公園でのピクニック、砂丘でのデューンバッシング（4WDで砂丘を走る）、リヤドシーズン等の屋外イベントもこの時期に集中します。週末はファミリーでの屋外バーベキューが定番です。
+    </div>
+
+    <div class="tip-box">💡 サウジに移住するなら、冬の過ごしやすさは大きな魅力です。乾燥した空気と青い空の下での砂漠キャンプは、サウジでしかできない体験です。</div>
+  </div>
+</section>
+
+<!-- ===== 8. 1日のタイムライン ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🕐 サウジの1日（冬の平日・民間企業勤務の例）</h3>
+    <table class="info-table">
+      <tr><td style="width:80px; white-space:nowrap; font-weight:600;">5:00頃</td><td>ファジュル（夜明けの礼拝）→ 二度寝する人も多い</td></tr>
+      <tr><td style="font-weight:600;">7:00〜8:00</td><td>起床・軽い朝食。アラビアコーヒーとデーツ</td></tr>
+      <tr><td style="font-weight:600;">8:00/9:00</td><td>出勤。渋滞が激しいので余裕を持って</td></tr>
+      <tr><td style="font-weight:600;">12:00頃</td><td>ズフル礼拝。オフィスに祈祷室あり</td></tr>
+      <tr><td style="font-weight:600;">13:00〜14:00</td><td>ランチ。カブサや軽食</td></tr>
+      <tr><td style="font-weight:600;">15:30頃</td><td>アスル礼拝</td></tr>
+      <tr><td style="font-weight:600;">17:00〜18:00</td><td>退勤</td></tr>
+      <tr><td style="font-weight:600;">18:00頃</td><td>マグリブ礼拝（日没）</td></tr>
+      <tr><td style="font-weight:600;">19:00〜20:00</td><td>家族と過ごす。モールや公園へ</td></tr>
+      <tr><td style="font-weight:600;">21:00〜23:00</td><td>夕食。レストランは21時以降が混む</td></tr>
+      <tr><td style="font-weight:600;">23:00〜0:00</td><td>就寝（夏はさらに遅い）</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- NOTES -->
+<section class="compact-section" style="padding-bottom:20px;">
+  <div class="card" style="background:var(--bg-secondary); border-left:3px solid var(--accent);">
+    <p style="font-size:var(--font-size-sm); color:var(--text-tertiary); line-height:1.7;">
+      <strong>ご注意：</strong>礼拝時間は季節や都市により変動します。正確な時間は<a href="https://www.islamicfinder.org/world/saudi-arabia/" target="_blank" rel="noopener" style="color:var(--accent);">IslamicFinder</a>等で確認してください。ラマダン中の営業時間は年により変わるため、各店舗の公式情報をご確認ください。
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer style="padding: 20px 0 16px;">
+  <div class="container" style="line-height:1.5;">
+    <p>サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
+    <p style="margin-top:3px;">重要事項は必ず公式情報をご確認ください。</p>
+    <p style="margin-top:6px;"><a href="about.html" style="color:var(--accent);text-decoration:none;">運営者情報</a>&emsp;<a href="disclaimer.html" style="color:var(--accent);text-decoration:none;">免責事項</a>&emsp;<a href="mailto:portal@rewah.life" style="color:var(--accent);text-decoration:none;">お問い合わせ</a></p>
+    <p style="margin-top:4px;opacity:0.5;">&copy; 2026 Saudi Navi / ReWAH</p>
+  </div>
+</footer>
+
+<script>
+// ===== HAMBURGER MENU =====
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('open');
+});
+
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('open');
+  });
+});
+
+// ===== SEARCH =====
+const searchToggle = document.getElementById('searchToggle');
+const searchToggleDesktop = document.getElementById('searchToggleDesktop');
+const searchBar = document.getElementById('searchBar');
+const searchInput = document.getElementById('searchInput');
+const searchClear = document.getElementById('searchClear');
+const searchResults = document.getElementById('searchResults');
+const searchResultsContent = document.getElementById('searchResultsContent');
+const searchResultsTitle = document.getElementById('searchResultsTitle');
+const searchResultsClose = document.getElementById('searchResultsClose');
+
+function openSearch() {
+  searchBar.classList.add('open');
+  searchInput.focus();
+  hamburger.classList.remove('active');
+  navLinks.classList.remove('open');
+}
+
+function closeSearch() {
+  searchInput.value = '';
+  searchBar.classList.remove('open');
+  searchResults.classList.remove('visible');
+}
+
+searchToggle.addEventListener('click', openSearch);
+if (searchToggleDesktop) searchToggleDesktop.addEventListener('click', openSearch);
+searchClear.addEventListener('click', closeSearch);
+searchResultsClose.addEventListener('click', () => { searchResults.classList.remove('visible'); });
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeSearch(); searchResults.classList.remove('visible'); }
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+});
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function highlightText(text, query) {
+  const words = query.split(/\s+/).filter(w => w.length > 0);
+  let result = escapeHtml(text);
+  words.forEach(word => {
+    const re = new RegExp('(' + word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    result = result.replace(re, '<mark>$1</mark>');
+  });
+  return result;
+}
+
+const searchData = [
+  {title: '時差・タイムゾーン', desc: 'UTC+3、日本との時差マイナス6時間'},
+  {title: '週末', desc: '金曜・土曜が休み。日曜が週の始まり'},
+  {title: '就業時間（通常）', desc: '官公庁7:30-14:30、民間8:00-17:00'},
+  {title: '就業時間（ラマダン）', desc: '官公庁10:00-15:00、民間6時間/日'},
+  {title: '礼拝時間', desc: '1日5回。店舗が15-30分閉店'},
+  {title: '食事の時間帯', desc: '昼食13-15時、夕食21-23時'},
+  {title: '月別気温', desc: 'リヤド夏44℃、冬9-22℃。ジェッダは年中温暖'},
+  {title: '夏の生活', desc: '夜型。モールが涼みスポット。ディナーは22時以降'},
+  {title: '冬の生活', desc: '砂漠キャンプ、屋外バーベキュー、デューンバッシング'},
+  {title: 'カシュタ', desc: '冬の砂漠キャンプ。焚き火とBBQと星空'},
+];
+
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.trim().toLowerCase();
+  if (q.length < 1) { searchResults.classList.remove('visible'); return; }
+  const matches = searchData.filter(d =>
+    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q)
+  );
+  searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
+  searchResultsContent.innerHTML = matches.map(m =>
+    '<div style="padding:10px 0;border-bottom:1px solid var(--border-light);">' +
+      '<strong>' + highlightText(m.title, q) + '</strong>' +
+      '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
+    '</div>'
+  ).join('');
+  searchResults.classList.add('visible');
+});
+</script>
+
+</body>
+</html>
