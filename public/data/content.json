@@ -1,15 +1,15 @@
 {
-  "lastCollected": "2026-03-28T07:15:45.884652+03:00",
+  "lastCollected": "2026-03-28T07:18:32.553883+03:00",
   "security": {
-    "lastUpdated": "2026-03-28T07:15:45.884652+03:00",
+    "lastUpdated": "2026-03-28T07:18:32.553883+03:00",
     "mofa": {
       "title": "危険情報：レベル３ 渡航は止めてください",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
       "url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html"
     },
     "embassy": {
-      "title": "情報を取得できませんでした",
-      "body": "大使館サイトからの情報取得に失敗しました。",
+      "title": "在サウジアラビア日本国大使館\r\n                            Embassy of Japan in Saudi Arabia",
+      "body": "最新90件のお知らせを取得しました。",
       "url": "https://www.ksa.emb-japan.go.jp/itprtop_ja/index.html"
     },
     "gov": null
@@ -22,7 +22,78 @@
     "labor": null
   },
   "news": {
-    "lastUpdated": "2026-03-28T07:15:45.884652+03:00",
-    "items": []
+    "lastUpdated": "2026-03-28T07:18:32.553883+03:00",
+    "items": [
+      {
+        "title": "在サウジアラビア日本国大使館\r\n                            Embassy of Japan in Saudi Arabia",
+        "url": "https://www.ksa.emb-japan.go.jp/itprtop_ja/index.html",
+        "source": "在サウジ日本大使館",
+        "date": "2026-03-28",
+        "summary": "在サウジアラビア日本国大使館\r\n                            Embassy of Japan in Saudi Arabia"
+      },
+      {
+        "title": "English",
+        "url": "https://www.ksa.emb-japan.go.jp/itprtop_en/index.html",
+        "source": "在サウジ日本大使館",
+        "date": "2026-03-28",
+        "summary": "English"
+      },
+      {
+        "title": "大使館案内",
+        "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/location.html",
+        "source": "在サウジ日本大使館",
+        "date": "2026-03-28",
+        "summary": "大使館案内"
+      },
+      {
+        "title": "領事・治安・医療",
+        "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/seikatsu.html",
+        "source": "在サウジ日本大使館",
+        "date": "2026-03-28",
+        "summary": "領事・治安・医療"
+      },
+      {
+        "title": "経済・技術協力",
+        "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/economy.html",
+        "source": "在サウジ日本大使館",
+        "date": "2026-03-28",
+        "summary": "経済・技術協力"
+      },
+      {
+        "title": "パスポート",
+        "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/00_000150.html",
+        "source": "在サウジ日本大使館",
+        "date": "2026-03-28",
+        "summary": "パスポート"
+      },
+      {
+        "title": "戸籍国籍届",
+        "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/00_000166.html",
+        "source": "在サウジ日本大使館",
+        "date": "2026-03-28",
+        "summary": "戸籍国籍届"
+      },
+      {
+        "title": "海外子女教育",
+        "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/00_000168.html",
+        "source": "在サウジ日本大使館",
+        "date": "2026-03-28",
+        "summary": "海外子女教育"
+      },
+      {
+        "title": "日本へのビザ",
+        "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/00_000131.html",
+        "source": "在サウジ日本大使館",
+        "date": "2026-03-28",
+        "summary": "日本へのビザ"
+      },
+      {
+        "title": "安全の手引き",
+        "url": "https://www.ksa.emb-japan.go.jp/files/100797220.pdf",
+        "source": "在サウジ日本大使館",
+        "date": "2026-03-28",
+        "summary": "安全の手引き"
+      }
+    ]
   }
 }
