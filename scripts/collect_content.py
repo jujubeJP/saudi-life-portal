@@ -13,12 +13,9 @@ from pathlib import Path
 from html.parser import HTMLParser
 import xml.etree.ElementTree as ET
 
-try:
-    from deep_translator import GoogleTranslator
-    HAS_TRANSLATOR = True
-except ImportError:
-    HAS_TRANSLATOR = False
-    print("[WARN] deep-translator not installed, skipping translation", file=sys.stderr)
+import os
+import urllib.request
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
 AST = timezone(timedelta(hours=3))
 CONTENT_PATH = Path(__file__).parent.parent / "public" / "data" / "content.json"
@@ -480,16 +477,35 @@ def strip_html_tags(text):
     return re.sub(r"<[^>]+>", "", text).strip()
 
 
-def translate_to_japanese(text, source_lang="auto"):
-    """テキストを日本語に翻訳（deep-translator使用）"""
-    if not HAS_TRANSLATOR or not text or not text.strip():
+def translate_to_japanese(text):
+    """テキストを日本語に翻訳（Claude API使用）"""
+    if not ANTHROPIC_API_KEY or not text or not text.strip():
         return text
     try:
         # 既に日本語ならスキップ
         if re.search(r'[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]', text):
             return text
-        translated = GoogleTranslator(source=source_lang, target='ja').translate(text[:500])
-        return translated if translated else text
+
+        payload = json.dumps({
+            "model": "claude-haiku-4-5-20251001",
+            "max_tokens": 200,
+            "messages": [{"role": "user", "content": f"以下のニュース見出しを自然な日本語に翻訳してください。翻訳のみを出力し、説明は不要です。\n\n{text[:300]}"}]
+        }).encode("utf-8")
+
+        req = urllib.request.Request(
+            "https://api.anthropic.com/v1/messages",
+            data=payload,
+            headers={
+                "Content-Type": "application/json",
+                "x-api-key": ANTHROPIC_API_KEY,
+                "anthropic-version": "2023-06-01",
+            },
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            result = json.loads(resp.read().decode("utf-8"))
+            translated = result.get("content", [{}])[0].get("text", "").strip()
+            return translated if translated else text
     except Exception as e:
         print(f"[WARN] Translation failed: {e}", file=sys.stderr)
         return text
