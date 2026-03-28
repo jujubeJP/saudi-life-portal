@@ -490,6 +490,9 @@ def collect_media():
             print(f"[WARN] Failed to fetch {source['name']} RSS")
             continue
 
+        # デバッグ: フィードの先頭500バイトを表示
+        print(f"[DEBUG] {source['name']} RSS preview: {xml[:500]}")
+
         rss_items = parse_rss_xml(xml)
         if not rss_items:
             print(f"[WARN] No items parsed from {source['name']} RSS")
