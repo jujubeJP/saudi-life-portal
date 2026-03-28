@@ -11,6 +11,7 @@ import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from html.parser import HTMLParser
+import xml.etree.ElementTree as ET
 
 AST = timezone(timedelta(hours=3))
 CONTENT_PATH = Path(__file__).parent.parent / "public" / "data" / "content.json"
@@ -31,7 +32,7 @@ MEDIA_SOURCES = [
     {
         "name": "Arab News",
         "name_ja": "アラブニュース",
-        "rss_url": "https://www.arabnews.com/cat/saudi-arabia/rss.xml",
+        "rss_url": "https://www.arabnews.com/rss",
         "base_url": "https://www.arabnews.com",
     },
     {
@@ -43,7 +44,7 @@ MEDIA_SOURCES = [
     {
         "name": "Al Arabiya",
         "name_ja": "アルアラビーヤ",
-        "rss_url": "https://english.alarabiya.net/tools/rss",
+        "rss_url": "https://english.alarabiya.net/tools/mrss",
         "base_url": "https://english.alarabiya.net",
     },
 ]
@@ -318,55 +319,56 @@ def collect_mofa():
     }
 
 
-class SimpleRSSParser(HTMLParser):
-    """RSSフィードからアイテムを抽出する簡易パーサー（xml.etree不要）"""
-    def __init__(self):
-        super().__init__()
-        self.items = []
-        self._in_item = False
-        self._current_tag = None
-        self._current_item = {}
-        self._text_buf = []
+def parse_rss_xml(xml_text):
+    """RSS/Atom XMLをパースしてアイテムリストを返す（xml.etree使用）"""
+    items = []
+    try:
+        # 名前空間を無視するためにプレフィックスを除去
+        xml_clean = re.sub(r'xmlns\s*=\s*"[^"]*"', '', xml_text)
+        xml_clean = re.sub(r'xmlns:\w+\s*=\s*"[^"]*"', '', xml_clean)
+        root = ET.fromstring(xml_clean)
+    except ET.ParseError as e:
+        print(f"[WARN] XML parse error: {e}", file=sys.stderr)
+        return items
 
-    def handle_starttag(self, tag, attrs):
-        tag_lower = tag.lower()
-        if tag_lower == "item" or tag_lower == "entry":
-            self._in_item = True
-            self._current_item = {}
-        if self._in_item:
-            self._current_tag = tag_lower
-            self._text_buf = []
-            if tag_lower == "link":
-                # Atom形式: <link href="..."/>
-                href = dict(attrs).get("href", "")
-                if href:
-                    self._current_item["link"] = href
+    # RSS 2.0: <channel><item>
+    for item_el in root.iter("item"):
+        item = {}
+        title_el = item_el.find("title")
+        link_el = item_el.find("link")
+        desc_el = item_el.find("description")
+        date_el = item_el.find("pubDate")
+        if title_el is not None and title_el.text:
+            item["title"] = title_el.text.strip()
+        if link_el is not None and link_el.text:
+            item["link"] = link_el.text.strip()
+        if desc_el is not None and desc_el.text:
+            item["description"] = desc_el.text.strip()
+        if date_el is not None and date_el.text:
+            item["pubdate"] = date_el.text.strip()
+        if item.get("title"):
+            items.append(item)
 
-    def handle_endtag(self, tag):
-        tag_lower = tag.lower()
-        if self._in_item and self._current_tag:
-            text = "".join(self._text_buf).strip()
-            if text:
-                if self._current_tag == "title" and "title" not in self._current_item:
-                    self._current_item["title"] = text
-                elif self._current_tag == "link" and "link" not in self._current_item:
-                    self._current_item["link"] = text
-                elif self._current_tag in ("pubdate", "published", "updated", "dc:date"):
-                    self._current_item["pubdate"] = text
-                elif self._current_tag == "description" and "description" not in self._current_item:
-                    self._current_item["description"] = text
-            self._current_tag = None
-            self._text_buf = []
+    # Atom: <entry>
+    if not items:
+        for entry_el in root.iter("entry"):
+            item = {}
+            title_el = entry_el.find("title")
+            link_el = entry_el.find("link")
+            desc_el = entry_el.find("summary") or entry_el.find("content")
+            date_el = entry_el.find("published") or entry_el.find("updated")
+            if title_el is not None and title_el.text:
+                item["title"] = title_el.text.strip()
+            if link_el is not None:
+                item["link"] = link_el.get("href", "") or (link_el.text or "").strip()
+            if desc_el is not None and desc_el.text:
+                item["description"] = desc_el.text.strip()
+            if date_el is not None and date_el.text:
+                item["pubdate"] = date_el.text.strip()
+            if item.get("title"):
+                items.append(item)
 
-        if tag_lower in ("item", "entry"):
-            if self._current_item.get("title"):
-                self.items.append(self._current_item)
-            self._in_item = False
-            self._current_item = {}
-
-    def handle_data(self, data):
-        if self._in_item and self._current_tag:
-            self._text_buf.append(data)
+    return items
 
 
 def parse_rss_date(date_str):
@@ -405,14 +407,12 @@ def collect_media():
             print(f"[WARN] Failed to fetch {source['name']} RSS")
             continue
 
-        parser = SimpleRSSParser()
-        try:
-            parser.feed(xml)
-        except Exception as e:
-            print(f"[WARN] Failed to parse {source['name']} RSS: {e}", file=sys.stderr)
+        rss_items = parse_rss_xml(xml)
+        if not rss_items:
+            print(f"[WARN] No items parsed from {source['name']} RSS")
             continue
 
-        print(f"[DEBUG] {source['name']}: found {len(parser.items)} RSS items")
+        print(f"[DEBUG] {source['name']}: found {len(rss_items)} RSS items")
 
         # サウジ関連記事をフィルタ（Al Arabiyaは中東全体なのでフィルタ必要）
         saudi_keywords = {
@@ -422,7 +422,7 @@ def collect_media():
         }
 
         count = 0
-        for item in parser.items:
+        for item in rss_items:
             if count >= 5:  # 各ソースから最大5件
                 break
 
