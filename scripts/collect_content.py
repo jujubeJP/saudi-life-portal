@@ -136,6 +136,9 @@ def collect_embassy():
     if not html:
         return None, []
 
+    # デバッグ: 受信HTMLの先頭を表示
+    print(f"[DEBUG] Embassy HTML (first 500 chars):\n{html[:500]}")
+
     text, links = parse_html(html)
 
     # デバッグ: リンク数を表示
