@@ -392,7 +392,7 @@ document.querySelectorAll('nav a[href*="#"]').forEach(link => {
   function updateEmbassyNews(items) {
     const ul = document.getElementById('embassy-news-list');
     if (!ul || !items || !items.length) return;
-    ul.innerHTML = items.slice(0, 5).map(n =>
+    ul.innerHTML = items.slice(0, 10).map(n =>
       '<li style="margin-bottom:6px;line-height:1.4;">' +
         '<span style="color:var(--text-muted);font-size:0.85em;margin-right:6px;">' + esc(n.date || '') + '</span>' +
         (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
