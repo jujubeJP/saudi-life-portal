@@ -1,0 +1,28 @@
+{
+  "lastCollected": null,
+  "security": {
+    "lastUpdated": null,
+    "mofa": {
+      "title": "自動収集待ち...",
+      "body": "スケジュールタスクが情報を収集すると、ここに表示されます。",
+      "url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html"
+    },
+    "embassy": {
+      "title": "自動収集待ち...",
+      "body": "大使館からの最新のお知らせがここに表示されます。",
+      "url": "https://www.ksa.emb-japan.go.jp/itprtop_ja/index.html"
+    },
+    "gov": null
+  },
+  "system": {
+    "lastUpdated": null,
+    "visa": null,
+    "health": null,
+    "tax": null,
+    "labor": null
+  },
+  "news": {
+    "lastUpdated": null,
+    "items": []
+  }
+}
