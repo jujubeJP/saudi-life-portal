@@ -15,6 +15,20 @@
 .compact-section { padding:8px 0; }
 .tip-box { padding:8px 12px; font-size:0.85em; color:var(--text-tertiary); background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 var(--radius-sm) var(--radius-sm) 0; margin-top:8px; }
 .card { background:var(--bg-primary); padding:12px; border-radius:var(--radius-sm); margin-bottom:8px; }
+
+@media (min-width: 900px) {
+  .two-col { column-count: 2; column-gap: 28px; }
+  .two-col > * { break-inside: avoid; }
+  .one-col { column-count: 1; }
+}
+
+.heritage-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+.heritage-card { border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 14px; background: var(--surface); }
+.heritage-card h4 { font-size: 0.95em; font-weight: 700; color: var(--text-primary); margin-bottom: 4px; }
+.heritage-card .heritage-en { font-size: 0.8em; color: var(--text-tertiary); margin-bottom: 6px; }
+.heritage-card p { font-size: var(--font-size-sm); color: var(--text-secondary); line-height: 1.6; margin: 0; }
+
+.community-info { font-size: var(--font-size-sm); color: var(--text-secondary); line-height: 1.7; }
 </style>
 </head>
 <body>
@@ -111,9 +125,12 @@
       アラビア半島の歴史は数千年に遡ります。以下は主要な転機です。
     </p>
     <table class="info-table">
-      <tr><th style="width:15%;">時期</th><th>出来事</th></tr>
+      <tr><th style="width:18%;">時期</th><th>出来事</th></tr>
       <tr><td><strong>紀元前の古代</strong></td><td>ナバテア王国が繁栄。マダインサーレハは交易路の要衝として栄える</td></tr>
-      <tr><td><strong>7世紀</strong></td><td>イスラム教発祥。預言者ムハンマドがマッカでイスラム教を創始。メディナでイスラム政体確立</td></tr>
+      <tr><td><strong>7世紀</strong></td><td>イスラム教の誕生。預言者ムハンマドがマッカで啓示を受け、メディナに移住（ヒジュラ、622年）。正統カリフ時代からウマイヤ朝へ</td></tr>
+      <tr><td><strong>8〜13世紀</strong></td><td>アッバース朝の時代。イスラム世界の学問・文化が花開く。アラビア半島はイスラム帝国の一部として交易路が発展</td></tr>
+      <tr><td><strong>13〜16世紀</strong></td><td>マムルーク朝、次いでオスマン帝国がヒジャーズ地方（マッカ・メディナ）を支配。巡礼路の整備・保護</td></tr>
+      <tr><td><strong>16〜18世紀</strong></td><td>オスマン帝国の支配下。ナジュド（内陸部）は部族社会が続く。半島各地でベドウィンの遊牧生活</td></tr>
       <tr><td><strong>18世紀中盤</strong></td><td>第一次サウジ王国成立。ムハンマド・イブン・サウード家がムハンマド・イブン・アブドゥルワッハーブと連携し、アラビア半島統一を開始</td></tr>
       <tr><td><strong>19〜20世紀初頭</strong></td><td>オスマン帝国の衰退。アラビア半島は地域勢力に分裂</td></tr>
       <tr><td><strong>1932年</strong></td><td><strong>サウジアラビア王国建国</strong>。アブドゥルアジーズ・イブン・サウード国王がアラビア半島を統一</td></tr>
@@ -131,180 +148,255 @@
 
 <!-- ===== 2. 王室と政治体制 ===== -->
 <section class="compact-section">
-  <div class="card">
+  <div class="card two-col">
     <h3 class="section-title">👑 王室と政治体制</h3>
 
-    <h4 class="sub-title">サウード家の統治</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-      サウジアラビアはサウード（Al Saud）家による絶対君主制の国です。1932年の建国以来、この王族が統治を続けています。現在の国王はサルマン・ビン・アブドゥルアジーズ国王（2015年就位）で、実質的な権力はムハンマド・ビン・サルマン皇太子（略称MBS）が主導する改革を通じて行使されています。
-    </p>
+    <div>
+      <h4 class="sub-title">サウード家の統治</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+        サウジアラビアはサウード（Al Saud）家による絶対君主制の国です。1932年の建国以来、この王族が統治を続けています。現在の国王はサルマン・ビン・アブドゥルアジーズ国王（2015年就位）で、実質的な権力はムハンマド・ビン・サルマン皇太子（略称MBS）が主導する改革を通じて行使されています。
+      </p>
+    </div>
 
-    <h4 class="sub-title">国王と皇太子の役割</h4>
-    <table class="info-table" style="margin-top:4px;">
-      <tr><th>地位</th><th>現在の人物</th><th>役割</th></tr>
-      <tr><td><strong>国王</strong></td><td>サルマン・ビン・アブドゥルアジーズ</td><td>国家の最高指導者。宗教的権威と政治権力を兼ね備える</td></tr>
-      <tr><td><strong>皇太子</strong></td><td>ムハンマド・ビン・サルマン（MBS）</td><td>後継者。VISION 2030の主導者。実質的な社会経済改革を推進</td></tr>
-    </table>
+    <div>
+      <h4 class="sub-title">国王と皇太子の役割</h4>
+      <table class="info-table" style="margin-top:4px;">
+        <tr><th>地位</th><th>現在の人物</th><th>役割</th></tr>
+        <tr><td><strong>国王</strong></td><td>サルマン・ビン・アブドゥルアジーズ</td><td>国家の最高指導者。宗教的権威と政治権力を兼ね備える</td></tr>
+        <tr><td><strong>皇太子</strong></td><td>ムハンマド・ビン・サルマン（MBS）</td><td>後継者。VISION 2030の主導者。実質的な社会経済改革を推進</td></tr>
+      </table>
+    </div>
 
-    <h4 class="sub-title">基本統治法と諮問評議会</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
-      サウジアラビアは成文憲法を持たず、1992年に制定された「基本統治法」と「統治評議会法」を国家の基本法としています。クルアーン（イスラムの聖典）とスンナ（預言者ムハンマドの言行）も統治の根拠となります。
-    </p>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-      <strong>諮問評議会（シューラ会議）</strong>は150名の委員で構成され、経済、社会、法律問題について国王に助言します。ただし、最終的な決定権は国王にあります。
-    </p>
-
-    <div class="tip-box">💡 サウジアラビアは民主的な選挙制度を持たない絶対君主制ですが、国王と皇太子を中心とした意思決定体制が国家を統治しています。</div>
+    <div>
+      <h4 class="sub-title">基本統治法と諮問評議会</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+        サウジアラビアは成文憲法を持たず、1992年に制定された「基本統治法」と「統治評議会法」を国家の基本法としています。クルアーン（イスラムの聖典）とスンナ（預言者ムハンマドの言行）も統治の根拠となります。
+      </p>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+        <strong>諮問評議会（シューラ会議）</strong>は150名の委員で構成され、経済、社会、法律問題について国王に助言します。ただし、最終的な決定権は国王にあります。
+      </p>
+    </div>
   </div>
+
+  <div class="tip-box">💡 サウジアラビアは民主的な選挙制度を持たない絶対君主制ですが、国王と皇太子を中心とした意思決定体制が国家を統治しています。</div>
 </section>
 
-<!-- ===== 3. イスラムと二聖モスク ===== -->
+<!-- ===== 3. イスラムの聖地 — マッカとメディナ ===== -->
 <section class="compact-section">
-  <div class="card">
-    <h3 class="section-title">🕌 イスラムと二聖モスクの管理者</h3>
+  <div class="card two-col">
+    <h3 class="section-title">🕌 イスラムの聖地 — マッカとメディナ</h3>
 
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-      サウジアラビアはイスラム教の発祥の地です。預言者ムハンマドはマッカで生まれ、ここからイスラム信仰が広がりました。現在、サウジは<strong>二聖モスク（Holy Two Mosques）</strong>の管理者として、イスラム世界で特別な地位を占めています。
-    </p>
+    <div>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+        サウジアラビアはイスラム教の発祥の地です。預言者ムハンマドはマッカで生まれ、ここからイスラム信仰が広がりました。現在、サウジの国王は<strong>二大聖地の守護者（Custodian of the Two Holy Mosques）</strong>として、イスラム世界で特別な地位を占めています。
+      </p>
 
-    <h4 class="sub-title">マッカ（メッカ）— イスラム教の最も聖なる地</h4>
-    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px; border-left:3px solid var(--accent); margin-top:4px;">
-      <strong>カアバ神殿</strong>があり、イスラム教徒にとって最も神聖な巡礼地です。世界中のムスリムは1日5回の礼拝時にマッカの方向に向かって祈ります。ハッジ（大巡礼）はイスラムの五大義務の一つで、毎年イスラム暦12月にマッカに200万人以上のムスリムが集結します。<strong>マッカへの入境はムスリムのみに制限されています。非ムスリムはマッカ市内に入ることができません。</strong>
+      <h4 class="sub-title">マッカ（メッカ）— イスラム教の最も聖なる地</h4>
+      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px; border-left:3px solid var(--accent); margin-top:4px;">
+        <strong>カアバ神殿</strong>があり、イスラム教徒にとって最も神聖な巡礼地です。世界中のムスリムは1日5回の礼拝時にマッカの方向に向かって祈ります。ハッジ（大巡礼）はイスラムの五大義務の一つで、毎年イスラム暦12月にマッカに200万人以上のムスリムが集結します。<strong>マッカへの入境はムスリムのみに制限されています。非ムスリムはマッカ市内に入ることができません。</strong>
+      </div>
     </div>
 
-    <h4 class="sub-title">メディナ（マディナ）— 預言者の都</h4>
-    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px; border-left:3px solid var(--accent); margin-top:4px;">
-      預言者ムハンマドが晩年を過ごし、埋葬された聖都です。「預言者のモスク」（Al-Masjid al-Nabawi）には預言者の墓所があり、イスラム教徒にとって最も尊敬される場所の一つです。ハッジの後、多くの巡礼者はメディナを訪れます。<strong>マッカと同様、メディナの聖域内（Haram）への非ムスリムの入境も禁止されています。</strong>
+    <div>
+      <h4 class="sub-title">メディナ（マディナ）— 預言者の都</h4>
+      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px; border-left:3px solid var(--accent); margin-top:4px;">
+        預言者ムハンマドが晩年を過ごし、埋葬された聖都です。「預言者のモスク」（Al-Masjid al-Nabawi）には預言者の墓所があり、イスラム教徒にとって最も尊敬される場所の一つです。ハッジの後、多くの巡礼者はメディナを訪れます。<strong>マッカと同様、メディナの聖域内（Haram）への非ムスリムの入境も禁止されています。</strong>
+      </div>
+
+      <h4 class="sub-title">サウジ国王の称号と責務</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+        サウジアラビアの国王は「二大聖地の守護者」（Khādim al-Ḥaramayn al-Sharīfayn）の称号を持ちます。この称号により、サウジの国王はイスラム世界で宗教的権威を有する立場にあります。この責任は、単に施設管理を超えて、イスラム世界全体への精神的指導を象徴しています。
+      </p>
     </div>
-
-    <h4 class="sub-title">サウジ国王の「二聖モスクの管理者」称号</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
-      サウジアラビアの国王は「二聖モスク（マッカとメディナ）の管理者」（Khādim al-Ḥaramayn al-Sharīfayn）の称号を持ちます。この称号により、サウジの国王はイスラム世界で宗教的権威を有する立場にあります。この責任は、単に施設管理を超えて、イスラム世界全体への精神的指導を象徴しています。
-    </p>
-
-    <div class="tip-box">💡 マッカとメディナは非ムスリムの立入禁止区域があります。観光客や駐在員は絶対にこれらの地域に無断で入ることはできません。これはイスラムの最高の敬意を示す重要なルールです。</div>
   </div>
+
+  <div class="tip-box">💡 マッカとメディナは非ムスリムの立入禁止区域があります。観光客や駐在員は絶対にこれらの地域に無断で入ることはできません。これはイスラムの最高の敬意を示す重要なルールです。</div>
 </section>
 
 <!-- ===== 4. 世界遺産 ===== -->
 <section class="compact-section">
-  <div class="card">
+  <div class="card one-col">
     <h3 class="section-title">🌍 サウジアラビアの世界遺産</h3>
     <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
       サウジアラビアはユネスコ世界遺産を6件保有し（2024年時点）、古代の交易路から現代の文明遺跡まで、多くの貴重な文化遺産を保護しています。
     </p>
-    <table class="info-table">
-      <tr><th style="width:20%;">遺産名</th><th>特徴</th><th>登録年</th></tr>
-      <tr><td><strong>マダインサーレハ（ヘグラ）</strong></td><td>ナバテア文明の重要な遺跡。2,000年以上前の岩彫建造物が多数。ペトラ（ヨルダン）の「姉妹都市」として知られる。砂漠に佇む巨大な岩墳墓は圧巻</td><td>2008年</td></tr>
-      <tr><td><strong>ディルイーヤのトライフ地区</strong></td><td>第一次サウジ王国（18世紀）の首都。精密な土造建築が特徴。アラビア半島統一の歴史を象徴する遺跡</td><td>2010年</td></tr>
-      <tr><td><strong>ジェッダ歴史地区（アル・バラド）</strong></td><td>紅海沿いの旧市街。400年以上の歴史を持つ商業都市。イスラム建築、商館、モスクが密集。ハッジ巡礼者の玄関口として栄えた</td><td>2014年</td></tr>
-      <tr><td><strong>ハーイル地方のロックアート</strong></td><td>先史時代（紀元前5000年以降）の岩面彫刻。野生動物や人物が彫刻された数千の遺跡。人類の精神文化の発展を示す重要な記録</td><td>2015年</td></tr>
-      <tr><td><strong>アル・アハサ・オアシス</strong></td><td>世界最大級のオアシス。広大な農業地帯と伝統灌漑システムが特徴。2000年以上の定住の歴史を持つ</td><td>2018年</td></tr>
-      <tr><td><strong>ヒマー文化地域</strong></td><td>南西部の高地地域。新石器時代以降の岩面彫刻が400km以上に渡って分布。古代人の生活や信仰を示す貴重な資料</td><td>2021年</td></tr>
-    </table>
+
+    <div class="heritage-grid">
+      <div class="heritage-card">
+        <h4>マダインサーレハ（ヘグラ）</h4>
+        <p class="heritage-en">Al-Hijr (Mada'in Salih)</p>
+        <p>ナバテア文明の遺跡。ペトラの姉妹都市。2,000年以上前の岩彫建造物が多数。砂漠に佇む巨大な岩墳墓は圧巻。2008年登録</p>
+      </div>
+
+      <div class="heritage-card">
+        <h4>ディルイーヤのトライフ地区</h4>
+        <p class="heritage-en">At-Turaif District in ad-Dir'iyah</p>
+        <p>第一次サウジ王国の首都跡。精密な土造建築が特徴。アラビア半島統一の歴史を象徴する遺跡。2010年登録</p>
+      </div>
+
+      <div class="heritage-card">
+        <h4>ジェッダ歴史地区</h4>
+        <p class="heritage-en">Historic Jeddah</p>
+        <p>紅海沿いの旧市街（アル・バラド）。400年以上の歴史を持つ商業都市。イスラム建築、商館、モスクが密集。ハッジ巡礼者の玄関口として栄えた。2014年登録</p>
+      </div>
+
+      <div class="heritage-card">
+        <h4>ハーイル地方のロックアート</h4>
+        <p class="heritage-en">Rock Art in the Hail Region</p>
+        <p>先史時代（紀元前5000年以降）の岩面彫刻。野生動物や人物が彫刻された数千の遺跡。人類の精神文化の発展を示す重要な記録。2015年登録</p>
+      </div>
+
+      <div class="heritage-card">
+        <h4>アル・アハサ・オアシス</h4>
+        <p class="heritage-en">Al-Ahsa Oasis</p>
+        <p>世界最大級のオアシス。広大な農業地帯と伝統灌漑システムが特徴。250万本のヤシの木。2000年以上の定住の歴史を持つ。2018年登録</p>
+      </div>
+
+      <div class="heritage-card">
+        <h4>ヒマー文化地域</h4>
+        <p class="heritage-en">Ḥimā Cultural Area</p>
+        <p>南西部の高地地域。新石器時代以降の岩面彫刻が400km以上に渡って分布。古代の岩面彫刻と井戸。古代人の生活や信仰を示す貴重な資料。2021年登録</p>
+      </div>
+    </div>
+
     <div class="tip-box">💡 マダインサーレハは観光開放されており、日本人駐在員も訪れやすい世界遺産です。ジェッダ歴史地区も散策に値する素晴らしい場所です。</div>
   </div>
 </section>
 
 <!-- ===== 5. 社会文化とマナー ===== -->
 <section class="compact-section">
-  <div class="card">
+  <div class="card two-col">
     <h3 class="section-title">🤝 社会文化とマナー</h3>
 
-    <h4 class="sub-title">服装文化</h4>
-    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:4px;">
-      <strong>男性：</strong>トーブ（Thobe / ثوب）と呼ばれる白い長袍が標準的です。これに黒や色付きのシュマーグ（頭巾）とイガール（頭巾を留める黒い紐）を組み合わせます。
-    </div>
-    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:4px;">
-      <strong>女性：</strong>伝統的にはアバヤ（黒い外套）を着用します。2019年の観光ビザ解禁後、外国人女性のアバヤ着用は強制されなくなりましたが、<strong>控えめで尊重した服装（腕や脚を露出しない）が引き続き推奨されています。</strong>公共の場での露出度の高い服装は避けるべきです。
-    </div>
-
-    <h4 class="sub-title">挨拶とボディーランゲージ</h4>
-    <table class="info-table" style="margin-top:4px;">
-      <tr><th>挨拶</th><th>説明</th></tr>
-      <tr><td><strong>アッサラーム・アライクム</strong><br/>（السلام عليكم）</td><td>イスラムの正式な挨拶。「あなたの上に平和あれ」という意味。返礼は「ワアライクムアッサラーム」</td></tr>
-      <tr><td><strong>握手</strong></td><td>同性間での握手は一般的。特に初対面時や正式な場面で交わされます</td></tr>
-      <tr><td><strong>右手を使う</strong></td><td>食事、贈り物、握手は必ず右手を使用。左手は不作法とされています</td></tr>
-      <tr><td><strong>異性との接触</strong></td><td>宗教的理由から、異性との身体接触（握手など）は避けられることがあります。相手の反応を尊重してください</td></tr>
-    </table>
-
-    <h4 class="sub-title">おもてなし文化</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
-      アラビア文化には深いおもてなしの伝統があります。サウジ人の家に招待されると、多くの場合：
-    </p>
-    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; padding-left:16px; margin-top:4px;">
-      • <strong>アラビアコーヒー</strong>（香ばしく、砂糖が入らない黒いコーヒー）とデーツが客人に振る舞われます<br/>
-      • 多くの場合、事前に了承なく豪勢な食事がもてなされます<br/>
-      • 客人の満足は家族の誇りであり、かなり手厚いもてなしが期待できます<br/>
-      • 食事の辞退は失礼と見なされることがあるため、できるだけ参加する姿勢が大切です
+    <div>
+      <h4 class="sub-title">服装文化</h4>
+      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:4px;">
+        <strong>男性：</strong>トーブ（Thobe / ثوب）と呼ばれる白い長袍が標準的です。これに黒や色付きのシュマーグ（頭巾）とイガール（頭巾を留める黒い紐）を組み合わせます。
+      </div>
+      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:4px;">
+        <strong>女性：</strong>伝統的にはアバヤ（黒い外套）を着用します。2019年の観光ビザ解禁後、外国人女性のアバヤ着用は強制されなくなりましたが、<strong>控えめで尊重した服装（腕や脚を露出しない）が引き続き推奨されています。</strong>公共の場での露出度の高い服装は避けるべきです。
+      </div>
     </div>
 
-    <h4 class="sub-title">ラマダン中のマナー</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
-      イスラム暦9月のラマダンは、ムスリムにとって最も神聖な月です。日中の公共の場では、ムスリムのみならず<strong>非ムスリムも飲食・喫煙・ガムを控える</strong>ことが期待されます。
-    </p>
-    <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:4px; padding-left:20px;">
-      <li>レストランの多くが日中は営業を限定します</li>
-      <li>公開での飲食は慎むべきです。プライベートな場所での飲食は許可されることもあります</li>
-      <li>イフタール（日没後の食事）後は街全体が活気づき、夜遅くまで賑わいます</li>
-    </ul>
-
-    <h4 class="sub-title">写真撮影のルール</h4>
-    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
-      • <strong>軍事施設・政府建物：</strong>絶対に撮影禁止<br/>
-      • <strong>女性：</strong>無断撮影は厳禁です。必ず許可を得てください<br/>
-      • <strong>宗教施設：</strong>内部撮影は原則不可<br/>
-      • 風景・建造物・男性のグループ撮影は一般的に問題ありません
+    <div>
+      <h4 class="sub-title">挨拶とボディーランゲージ</h4>
+      <table class="info-table" style="margin-top:4px;">
+        <tr><th>挨拶</th><th>説明</th></tr>
+        <tr><td><strong>アッサラーム・アライクム</strong><br/>（السلام عليكم）</td><td>イスラムの正式な挨拶。「あなたの上に平和あれ」という意味。返礼は「ワアライクムアッサラーム」</td></tr>
+        <tr><td><strong>握手</strong></td><td>同性間での握手は一般的。特に初対面時や正式な場面で交わされます</td></tr>
+        <tr><td><strong>右手を使う</strong></td><td>食事、贈り物、握手は必ず右手を使用。左手は不作法とされています</td></tr>
+        <tr><td><strong>異性との接触</strong></td><td>宗教的理由から、異性との身体接触（握手など）は避けられることがあります。相手の反応を尊重してください</td></tr>
+      </table>
     </div>
 
-    <div class="tip-box">💡 サウジ社会での成功は相手への尊重と敬意に基づいています。文化的なマナーを守ることで、サウジ人の信頼と友情を得られます。</div>
+    <div>
+      <h4 class="sub-title">おもてなし文化</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+        アラビア文化には深いおもてなしの伝統があります。サウジ人の家に招待されると、多くの場合：
+      </p>
+      <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:4px; padding-left:20px;">
+        <li><strong>アラビアコーヒー</strong>（香ばしく、砂糖が入らない黒いコーヒー）とデーツが客人に振る舞われます</li>
+        <li>多くの場合、事前に了承なく豪勢な食事がもてなされます</li>
+        <li>客人の満足は家族の誇りであり、かなり手厚いもてなしが期待できます</li>
+        <li>食事の辞退は失礼と見なされることがあるため、できるだけ参加する姿勢が大切です</li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="sub-title">ラマダン中のマナー</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+        イスラム暦9月のラマダンは、ムスリムにとって最も神聖な月です。日中の公共の場では、ムスリムのみならず<strong>非ムスリムも飲食・喫煙・ガムを控える</strong>ことが期待されます。
+      </p>
+      <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:4px; padding-left:20px;">
+        <li>レストランの多くが日中は営業を限定します</li>
+        <li>公開での飲食は慎むべきです。プライベートな場所での飲食は許可されることもあります</li>
+        <li>イフタール（日没後の食事）後は街全体が活気づき、夜遅くまで賑わいます</li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="sub-title">写真撮影のルール</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+        • <strong>軍事施設・政府建物：</strong>絶対に撮影禁止<br/>
+        • <strong>女性：</strong>無断撮影は厳禁です。必ず許可を得てください<br/>
+        • <strong>宗教施設：</strong>内部撮影は原則不可<br/>
+        • 風景・建造物・男性のグループ撮影は一般的に問題ありません
+      </p>
+    </div>
   </div>
+
+  <div class="tip-box">💡 サウジ社会での成功は相手への尊重と敬意に基づいています。文化的なマナーを守ることで、サウジ人の信頼と友情を得られます。</div>
 </section>
 
 <!-- ===== 6. 日本とサウジアラビアの関係 ===== -->
 <section class="compact-section">
-  <div class="card">
+  <div class="card two-col">
     <h3 class="section-title">🤲 日本とサウジアラビアの関係</h3>
 
-    <h4 class="sub-title">外交関係の歴史</h4>
-    <table class="info-table" style="margin-top:4px;">
-      <tr><th>時期</th><th>出来事</th></tr>
-      <tr><td><strong>1955年</strong></td><td>日本とサウジアラビアが外交関係を樹立</td></tr>
-      <tr><td><strong>1960年代〜1970年代</strong></td><td>石油エネルギーに依存する日本にとって、サウジアラビアは最重要パートナーに。商社・エンジニアリング企業が進出</td></tr>
-      <tr><td><strong>1990年代〜2000年代</strong></td><td>ODA（政府開発援助）、技術移転など多角的な協力枠組みを構築</td></tr>
-      <tr><td><strong>2016年〜</strong></td><td>日サウジVISION 2030パートナーシップ。再生可能エネルギー、産業多角化で協力開始</td></tr>
-    </table>
-
-    <h4 class="sub-title">経済関係</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
-      • <strong>石油：</strong>日本の石油輸入の約30%をサウジが占める（主要なエネルギー供給国）<br/>
-      • <strong>日本企業：</strong>トヨタ、日立、三菱重工、豊田通商など大手企業がサウジで事業展開<br/>
-      • <strong>技術協力：</strong>石油精製、リサイクル、水処理などの分野で日本の技術がサウジに貢献<br/>
-      • <strong>VISION 2030：</strong>日本がサウジの経済多角化を支援するパートナーとして位置付けられています
-    </p>
-
-    <h4 class="sub-title">文化交流</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
-      近年、サウジアラビアにおける日本文化への関心が急速に高まっています。
-    </p>
-    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; padding:8px; background:var(--bg-secondary); border-radius:var(--radius-sm); margin-top:4px;">
-      • <strong>マンガ・アニメ：</strong>サウジの若い世代の間で大人気。ジャンプ、アニメ配信サービスの利用者急増<br/>
-      • <strong>Anime Expo：</strong>リヤドで開催されるアニメイベント。日本の文化発信の重要なプラットフォーム<br/>
-      • <strong>日本文化センター：</strong>リヤドとジェッダの日本大使館が日本語教室や文化交流を開催<br/>
-      • <strong>食文化：</strong>ラーメン、寿司、日本料理の人気が高まっている
+    <div>
+      <h4 class="sub-title">外交関係の歴史</h4>
+      <table class="info-table" style="margin-top:4px;">
+        <tr><th>時期</th><th>出来事</th></tr>
+        <tr><td><strong>1955年</strong></td><td>日本とサウジアラビアが外交関係を樹立</td></tr>
+        <tr><td><strong>1960年代〜1970年代</strong></td><td>石油エネルギーに依存する日本にとって、サウジアラビアは最重要パートナーに。商社・エンジニアリング企業が進出</td></tr>
+        <tr><td><strong>1990年代〜2000年代</strong></td><td>ODA（政府開発援助）、技術移転など多角的な協力枠組みを構築</td></tr>
+        <tr><td><strong>2016年〜</strong></td><td>日サウジVISION 2030パートナーシップ。再生可能エネルギー、産業多角化で協力開始</td></tr>
+      </table>
     </div>
 
-    <h4 class="sub-title">在サウジ日本人コミュニティ</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
-      サウジアラビアには現在、約1,000名以上の日本人が駐在・在住しています。
+    <div>
+      <h4 class="sub-title">経済関係</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+        • <strong>石油：</strong>日本の石油輸入の約30%をサウジが占める（主要なエネルギー供給国）<br/>
+        • <strong>日本企業：</strong>トヨタ、日立、三菱重工、豊田通商など大手企業がサウジで事業展開<br/>
+        • <strong>技術協力：</strong>石油精製、リサイクル、水処理などの分野で日本の技術がサウジに貢献<br/>
+        • <strong>VISION 2030：</strong>日本がサウジの経済多角化を支援するパートナーとして位置付けられています
+      </p>
+
+      <h4 class="sub-title">文化交流</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+        近年、サウジアラビアにおける日本文化への関心が急速に高まっています。
+      </p>
+      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; padding:8px; background:var(--bg-secondary); border-radius:var(--radius-sm); margin-top:4px;">
+        • <strong>マンガ・アニメ：</strong>サウジの若い世代の間で大人気。ジャンプ、アニメ配信サービスの利用者急増<br/>
+        • <strong>Anime Expo：</strong>リヤドで開催されるアニメイベント。日本の文化発信の重要なプラットフォーム<br/>
+        • <strong>日本文化センター：</strong>リヤドとジェッダの日本大使館が日本語教室や文化交流を開催<br/>
+        • <strong>食文化：</strong>ラーメン、寿司、日本料理の人気が高まっている
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 7. 在サウジ日本人コミュニティ ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">👨‍👩‍👧‍👦 在サウジ日本人コミュニティ</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      サウジアラビアには現在、約1,000名以上の日本人が駐在・在住しています。主要な拠点と組織は以下の通りです。
     </p>
-    <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:4px; padding-left:20px;">
-      <li><strong>リヤド：</strong>最大の日本人駐在地。企業駐在員、エンジニア、商社マン</li>
-      <li><strong>ジェッダ：</strong>2番目の拠点。かつての外交・商業の中心</li>
-      <li><strong>ダンマーム：</strong>東部地域の石油関連企業の拠点</li>
-      <li><strong>日本人学校：</strong>リヤド日本人学校が開校。多くの日本人子女が教育を受けています</li>
-      <li><strong>日本人会：</strong>リヤド日本人会、ジェッダ日本人会などが活発に活動。親睦や情報交換の場</li>
-    </ul>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-bottom: 12px;">
+      <div style="padding: 10px; background: var(--bg-secondary); border-radius: var(--radius-sm);">
+        <div style="font-weight: 600; font-size: 0.95em; color: var(--accent); margin-bottom: 4px;">リヤド</div>
+        <div class="community-info">最大の日本人駐在地。企業駐在員、エンジニア、商社マン</div>
+      </div>
+      <div style="padding: 10px; background: var(--bg-secondary); border-radius: var(--radius-sm);">
+        <div style="font-weight: 600; font-size: 0.95em; color: var(--accent); margin-bottom: 4px;">ジェッダ</div>
+        <div class="community-info">2番目の拠点。かつての外交・商業の中心</div>
+      </div>
+      <div style="padding: 10px; background: var(--bg-secondary); border-radius: var(--radius-sm);">
+        <div style="font-weight: 600; font-size: 0.95em; color: var(--accent); margin-bottom: 4px;">ダンマーム</div>
+        <div class="community-info">東部地域の石油関連企業の拠点</div>
+      </div>
+      <div style="padding: 10px; background: var(--bg-secondary); border-radius: var(--radius-sm);">
+        <div style="font-weight: 600; font-size: 0.95em; color: var(--accent); margin-bottom: 4px;">日本人学校</div>
+        <div class="community-info">リヤド日本人学校が開校。多くの日本人子女が教育を受けています</div>
+      </div>
+      <div style="padding: 10px; background: var(--bg-secondary); border-radius: var(--radius-sm);">
+        <div style="font-weight: 600; font-size: 0.95em; color: var(--accent); margin-bottom: 4px;">日本人会</div>
+        <div class="community-info">リヤド日本人会、ジェッダ日本人会などが活発に活動。親睦や情報交換の場</div>
+      </div>
+    </div>
 
     <div class="tip-box">💡 サウジアラビアは日本にとって戦略的に極めて重要なパートナー。日本人としてのアイデンティティを大切にしながら、同時にサウジ社会への理解と敬意を深めることが大切です。</div>
   </div>

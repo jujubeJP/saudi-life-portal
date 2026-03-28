@@ -125,6 +125,42 @@
   </div>
 </section>
 
+<!-- ===== 1.5 通貨換算（概算） ===== -->
+<section class="compact-section">
+  <div class="card" style="background: var(--accent-gold-light); border: 1px solid var(--accent-gold);">
+    <h3 class="section-title">🔄 通貨換算（概算）</h3>
+    <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin:10px 0;">
+      <div style="flex:1; min-width:140px;">
+        <label style="font-size:0.8em; color:var(--text-tertiary); display:block; margin-bottom:2px;">日本円 (JPY)</label>
+        <input type="number" id="jpyInput" placeholder="10000" style="width:100%; padding:8px 10px; border:1px solid var(--border); border-radius:var(--radius-sm); font-size:1em;">
+      </div>
+      <span style="font-size:1.2em; color:var(--text-tertiary);">⇄</span>
+      <div style="flex:1; min-width:140px;">
+        <label style="font-size:0.8em; color:var(--text-tertiary); display:block; margin-bottom:2px;">サウジリヤル (SAR)</label>
+        <input type="number" id="sarInput" placeholder="250" style="width:100%; padding:8px 10px; border:1px solid var(--border); border-radius:var(--radius-sm); font-size:1em;">
+      </div>
+      <div style="flex:1; min-width:140px;">
+        <label style="font-size:0.8em; color:var(--text-tertiary); display:block; margin-bottom:2px;">米ドル (USD)</label>
+        <input type="number" id="usdDisplay" readonly style="width:100%; padding:8px 10px; border:1px solid var(--border); border-radius:var(--radius-sm); font-size:1em; background:var(--bg); color:var(--text-secondary);">
+      </div>
+    </div>
+    <p style="font-size:0.75em; color:var(--text-tertiary);">※ 概算レート: 1 SAR ≈ 40.0円 / 1 USD = 3.75 SAR（固定）。実際のレートは金融機関により異なります。</p>
+  </div>
+</section>
+
+<!-- ===== 1.6 SAR/JPY 為替推移 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">📈 SAR/JPY 為替推移（過去1年）</h3>
+    <div id="rateChart" style="width:100%; overflow-x:auto;">
+      <svg viewBox="0 0 600 250" style="width:100%; max-width:600px; display:block; margin:0 auto;">
+        <!-- chart will be drawn here -->
+      </svg>
+    </div>
+    <p style="font-size:0.75em; color:var(--text-tertiary); margin-top:6px;">※ 月末時点の概算値。投資判断の参考にはしないでください。</p>
+  </div>
+</section>
+
 <!-- ===== 2. 両替 ===== -->
 <section class="compact-section">
   <div class="card">
@@ -464,6 +500,187 @@ searchInput.addEventListener('input', () => {
   ).join('');
   searchResults.classList.add('visible');
 });
+
+// ===== CURRENCY CONVERTER =====
+const jpyInput = document.getElementById('jpyInput');
+const sarInput = document.getElementById('sarInput');
+const usdDisplay = document.getElementById('usdDisplay');
+const RATE_SAR_JPY = 40.0; // 1 SAR ≈ 40 JPY
+const RATE_SAR_USD = 3.75; // 1 USD = 3.75 SAR (fixed peg)
+
+jpyInput.addEventListener('input', () => {
+  const jpy = parseFloat(jpyInput.value);
+  if (!isNaN(jpy)) {
+    const sar = jpy / RATE_SAR_JPY;
+    sarInput.value = sar.toFixed(2);
+    usdDisplay.value = (sar / RATE_SAR_USD).toFixed(2);
+  } else {
+    sarInput.value = '';
+    usdDisplay.value = '';
+  }
+});
+
+sarInput.addEventListener('input', () => {
+  const sar = parseFloat(sarInput.value);
+  if (!isNaN(sar)) {
+    jpyInput.value = (sar * RATE_SAR_JPY).toFixed(0);
+    usdDisplay.value = (sar / RATE_SAR_USD).toFixed(2);
+  } else {
+    jpyInput.value = '';
+    usdDisplay.value = '';
+  }
+});
+
+// ===== EXCHANGE RATE CHART =====
+const chartSvg = document.querySelector('#rateChart svg');
+const chartData = [
+  { month: '4月', year: '2025', rate: 38.7 },
+  { month: '5月', year: '2025', rate: 39.5 },
+  { month: '6月', year: '2025', rate: 40.0 },
+  { month: '7月', year: '2025', rate: 40.3 },
+  { month: '8月', year: '2025', rate: 39.2 },
+  { month: '9月', year: '2025', rate: 38.4 },
+  { month: '10月', year: '2025', rate: 39.7 },
+  { month: '11月', year: '2025', rate: 40.5 },
+  { month: '12月', year: '2025', rate: 40.8 },
+  { month: '1月', year: '2026', rate: 41.1 },
+  { month: '2月', year: '2026', rate: 40.3 },
+  { month: '3月', year: '2026', rate: 40.0 }
+];
+
+function drawChart() {
+  const width = 600;
+  const height = 250;
+  const margin = { top: 20, right: 30, bottom: 40, left: 50 };
+  const plotWidth = width - margin.left - margin.right;
+  const plotHeight = height - margin.top - margin.bottom;
+
+  // Find min/max rates for Y-axis
+  const minRate = Math.min(...chartData.map(d => d.rate)) - 1;
+  const maxRate = Math.max(...chartData.map(d => d.rate)) + 1;
+  const rateRange = maxRate - minRate;
+
+  // Scaling functions
+  const xScale = (index) => margin.left + (index / (chartData.length - 1)) * plotWidth;
+  const yScale = (rate) => margin.top + plotHeight - ((rate - minRate) / rateRange) * plotHeight;
+
+  // Clear existing content
+  while (chartSvg.firstChild) {
+    chartSvg.removeChild(chartSvg.firstChild);
+  }
+
+  // Background
+  const bg = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+  bg.setAttribute('width', width);
+  bg.setAttribute('height', height);
+  bg.setAttribute('fill', 'var(--bg)');
+  chartSvg.appendChild(bg);
+
+  // Gridlines (Y-axis)
+  const gridLineCount = 5;
+  for (let i = 0; i <= gridLineCount; i++) {
+    const rate = minRate + (rateRange / gridLineCount) * i;
+    const y = yScale(rate);
+    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    line.setAttribute('x1', margin.left);
+    line.setAttribute('x2', width - margin.right);
+    line.setAttribute('y1', y);
+    line.setAttribute('y2', y);
+    line.setAttribute('stroke', 'var(--border-light)');
+    line.setAttribute('stroke-dasharray', '2,2');
+    line.setAttribute('stroke-width', '0.5');
+    chartSvg.appendChild(line);
+  }
+
+  // X-axis
+  const xAxisLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+  xAxisLine.setAttribute('x1', margin.left);
+  xAxisLine.setAttribute('x2', width - margin.right);
+  xAxisLine.setAttribute('y1', margin.top + plotHeight);
+  xAxisLine.setAttribute('y2', margin.top + plotHeight);
+  xAxisLine.setAttribute('stroke', 'var(--border)');
+  xAxisLine.setAttribute('stroke-width', '1');
+  chartSvg.appendChild(xAxisLine);
+
+  // Y-axis
+  const yAxisLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+  yAxisLine.setAttribute('x1', margin.left);
+  yAxisLine.setAttribute('x2', margin.left);
+  yAxisLine.setAttribute('y1', margin.top);
+  yAxisLine.setAttribute('y2', margin.top + plotHeight);
+  yAxisLine.setAttribute('stroke', 'var(--border)');
+  yAxisLine.setAttribute('stroke-width', '1');
+  chartSvg.appendChild(yAxisLine);
+
+  // Y-axis labels
+  for (let i = 0; i <= gridLineCount; i++) {
+    const rate = minRate + (rateRange / gridLineCount) * i;
+    const y = yScale(rate);
+    const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    text.setAttribute('x', margin.left - 10);
+    text.setAttribute('y', y + 4);
+    text.setAttribute('text-anchor', 'end');
+    text.setAttribute('font-size', '12');
+    text.setAttribute('fill', 'var(--text-tertiary)');
+    text.textContent = rate.toFixed(1);
+    chartSvg.appendChild(text);
+  }
+
+  // Line path
+  let pathData = `M ${xScale(0)} ${yScale(chartData[0].rate)}`;
+  for (let i = 1; i < chartData.length; i++) {
+    pathData += ` L ${xScale(i)} ${yScale(chartData[i].rate)}`;
+  }
+  const line = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  line.setAttribute('d', pathData);
+  line.setAttribute('fill', 'none');
+  line.setAttribute('stroke', 'var(--accent)');
+  line.setAttribute('stroke-width', '2.5');
+  line.setAttribute('stroke-linejoin', 'round');
+  chartSvg.appendChild(line);
+
+  // Data points (dots)
+  chartData.forEach((d, i) => {
+    const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    circle.setAttribute('cx', xScale(i));
+    circle.setAttribute('cy', yScale(d.rate));
+    circle.setAttribute('r', '4');
+    circle.setAttribute('fill', 'var(--accent)');
+    circle.setAttribute('stroke', 'var(--bg)');
+    circle.setAttribute('stroke-width', '2');
+    chartSvg.appendChild(circle);
+  });
+
+  // X-axis labels (month names)
+  chartData.forEach((d, i) => {
+    const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    text.setAttribute('x', xScale(i));
+    text.setAttribute('y', margin.top + plotHeight + 20);
+    text.setAttribute('text-anchor', 'middle');
+    text.setAttribute('font-size', '11');
+    text.setAttribute('fill', 'var(--text-tertiary)');
+    text.textContent = d.month;
+    chartSvg.appendChild(text);
+  });
+
+  // Y-axis label
+  const yLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+  yLabel.setAttribute('x', -height / 2);
+  yLabel.setAttribute('y', 10);
+  yLabel.setAttribute('text-anchor', 'middle');
+  yLabel.setAttribute('font-size', '12');
+  yLabel.setAttribute('fill', 'var(--text-secondary)');
+  yLabel.setAttribute('transform', 'rotate(-90)');
+  yLabel.textContent = 'SAR/JPY';
+  chartSvg.appendChild(yLabel);
+}
+
+// Draw chart on page load
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', drawChart);
+} else {
+  drawChart();
+}
 </script>
 
 </body>

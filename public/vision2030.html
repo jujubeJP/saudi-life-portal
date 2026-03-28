@@ -22,6 +22,10 @@
 .pillar-card p { font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.6; margin:0; }
 .achievement-badge { display:inline-block; background:var(--accent); color:white; padding:3px 8px; border-radius:3px; font-size:0.75em; font-weight:600; margin-right:4px; margin-bottom:4px; }
 .challenge-badge { display:inline-block; background:#ff7043; color:white; padding:3px 8px; border-radius:3px; font-size:0.75em; font-weight:600; margin-right:4px; margin-bottom:4px; }
+.progress-item { display:flex; align-items:baseline; gap:8px; padding:8px 0; border-bottom:1px solid var(--border-light); font-size:var(--font-size-sm); line-height:1.6; }
+.progress-item:last-child { border-bottom:none; }
+.progress-tag { min-width:60px; width:60px; font-size:0.72em; padding:2px 0; border-radius:8px; text-align:center; white-space:nowrap; flex-shrink:0; }
+.progress-desc { flex:1; color:var(--text-secondary); }
 .project-grid { display:grid; grid-template-columns:1fr; gap:10px; }
 @media (min-width:768px) { .project-grid { grid-template-columns:repeat(2, 1fr); } }
 </style>
@@ -309,12 +313,12 @@
     <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
       日本はサウジアラビアのVISION 2030実現に関連し、以下の分野で協力契約を締結しています：
     </p>
-    <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; margin:8px 0 0 16px;">
-      <li><strong>インフラ・交通</strong> — メトロ・高速鉄道・都市交通システムの日本技術採用</li>
-      <li><strong>エネルギー</strong> — 水素・再生可能エネルギー開発での協力</li>
-      <li><strong>スマートシティ</strong> — IoT・AI・デジタル化技術の導入</li>
-      <li><strong>人材育成</strong> — 技能実習生受け入れ、技術者派遣、大学間交流</li>
-    </ul>
+    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; padding-left:8px; border-left:3px solid var(--accent); margin-top:8px;">
+      <p style="margin-bottom:6px;"><strong>インフラ・交通</strong> — メトロ・高速鉄道・都市交通システムの日本技術採用</p>
+      <p style="margin-bottom:6px;"><strong>エネルギー</strong> — 水素・再生可能エネルギー開発での協力</p>
+      <p style="margin-bottom:6px;"><strong>スマートシティ</strong> — IoT・AI・デジタル化技術の導入</p>
+      <p style="margin-bottom:6px;"><strong>人材育成</strong> — 技能実習生受け入れ、技術者派遣、大学間交流</p>
+    </div>
 
     <h4 class="sub-title">日本人在住者への好機・チャンス</h4>
     <div style="padding:10px; background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 3px 3px 0; margin-top:8px;">
@@ -412,12 +416,12 @@
     <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
       2030年は目標年であると同時に、次の段階への転換点となる可能性があります。サウジアラビアは既に「VISION 2030」の後続ビジョンについての検討を開始しており、以下の方向性が想定されています：
     </p>
-    <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; margin:8px 0 0 16px;">
-      <li><strong>完了済みメガプロジェクトの本格稼働</strong> — NEOM・紅海リゾート・Qiddiya等が収益段階へ移行</li>
-      <li><strong>脱炭素化・グリーンエネルギー推進</strong> — 再生可能エネルギーへの大規模投資継続</li>
-      <li><strong>テクノロジー・AI産業の拡大</strong> — スマートシティ・AI・ロボティクス分野での産業育成</li>
-      <li><strong>地域的影響力の増強</strong> — 湾岸地域の経済・文化的リーダーシップ確立</li>
-    </ul>
+    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; padding-left:8px; border-left:3px solid var(--accent); margin-top:8px;">
+      <p style="margin-bottom:6px;"><strong>完了済みメガプロジェクトの本格稼働</strong> — NEOM・紅海リゾート・Qiddiya等が収益段階へ移行</p>
+      <p style="margin-bottom:6px;"><strong>脱炭素化・グリーンエネルギー推進</strong> — 再生可能エネルギーへの大規模投資継続</p>
+      <p style="margin-bottom:6px;"><strong>テクノロジー・AI産業の拡大</strong> — スマートシティ・AI・ロボティクス分野での産業育成</p>
+      <p style="margin-bottom:6px;"><strong>地域的影響力の増強</strong> — 湾岸地域の経済・文化的リーダーシップ確立</p>
+    </div>
     <div class="tip-box">💡 サウジアラビアの長期戦略を理解することで、中東全体の経済・政治動向も見えやすくなります。VISION 2030は単なる国家計画ではなく、21世紀の中東の姿を形作る歴史的プロセスの一部です。</div>
   </div>
 </section>

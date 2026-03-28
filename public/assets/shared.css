@@ -260,8 +260,8 @@ nav a.active { color: var(--accent); border-left-color: var(--accent); backgroun
 .nav-desktop a {
   border-left: none;
   border-bottom: 2px solid transparent;
-  padding: 14px 18px;
-  font-size: var(--font-size-sm);
+  padding: 14px 10px;
+  font-size: 0.8rem;
 }
 .nav-desktop a:hover { background: transparent; }
 .nav-desktop a.active { border-left: none; border-bottom-color: var(--accent); background: transparent; }

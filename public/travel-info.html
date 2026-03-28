@@ -17,6 +17,10 @@
 .checklist { list-style:none; padding:0; }
 .checklist li { font-size:var(--font-size-sm); color:var(--text-secondary); padding:6px 0 6px 24px; position:relative; line-height:1.6; }
 .checklist li:before { content:'✓'; position:absolute; left:0; color:var(--accent); font-weight:700; }
+@media (min-width: 900px) {
+  .two-col { column-count: 2; column-gap: 28px; }
+  .two-col > * { break-inside: avoid; }
+}
 </style>
 </head>
 <body>
@@ -109,21 +113,23 @@
 <section class="compact-section">
   <div class="card">
     <h3 class="section-title">🛂 パスポートと基本要件</h3>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-      サウジアラビアへの渡航には、有効なパスポートが必須です。日本国籍者の場合、以下の条件を満たす必要があります。
-    </p>
+    <div class="two-col">
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+        サウジアラビアへの渡航には、有効なパスポートが必須です。日本国籍者の場合、以下の条件を満たす必要があります。
+      </p>
 
-    <h4 class="sub-title">パスポート残存期間</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-      <strong>ビザ申請時に6ヶ月以上の残存期間が必要</strong>です。多くの場合、ビザ有効期間中はパスポートの有効期限がビザを上回る必要があります。ビザが1年間有効な場合、パスポートも最低1年以上の有効期間が求められることがあります。
-    </p>
+      <h4 class="sub-title">パスポート残存期間</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        <strong>ビザ申請時に6ヶ月以上の残存期間が必要</strong>です。多くの場合、ビザ有効期間中はパスポートの有効期限がビザを上回る必要があります。ビザが1年間有効な場合、パスポートも最低1年以上の有効期間が求められることがあります。
+      </p>
 
-    <h4 class="sub-title">パスポートの空白ページ</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-      査証欄に<strong>連続する2ページ以上の空白ページ</strong>が必要です。ビザシールが貼付される際、両ページに記載されることがあります。古いパスポートは十分な空白ページがない場合があるため、新規取得または更新を検討してください。
-    </p>
+      <h4 class="sub-title">パスポートの空白ページ</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        査証欄に<strong>連続する2ページ以上の空白ページ</strong>が必要です。ビザシールが貼付される際、両ページに記載されることがあります。古いパスポートは十分な空白ページがない場合があるため、新規取得または更新を検討してください。
+      </p>
 
-    <div class="tip-box">💡 パスポート有効期間が短い場合、ビザ申請が却下される可能性があります。渡航予定日から逆算して、十分な余裕を持ってパスポートを確認・更新することをお勧めします。</div>
+      <div class="tip-box">💡 パスポート有効期間が短い場合、ビザ申請が却下される可能性があります。渡航予定日から逆算して、十分な余裕を持ってパスポートを確認・更新することをお勧めします。</div>
+    </div>
   </div>
 </section>
 
@@ -188,66 +194,68 @@
 <section class="compact-section">
   <div class="card">
     <h3 class="section-title">⚡ eVisa（電子ビザ）の申請手順</h3>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
-      観光ビザ（eVisa）はオンラインで申請でき、パスポートを郵送する必要がありません。以下の手順で申請できます。
-    </p>
+    <div class="two-col">
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
+        観光ビザ（eVisa）はオンラインで申請でき、パスポートを郵送する必要がありません。以下の手順で申請できます。
+      </p>
 
-    <h4 class="sub-title">ステップ 1：公式サイトにアクセス</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-      サウジアラビアの公式ビザサイト <a href="https://visa.visitsaudi.com/" target="_blank" rel="noopener" style="color:var(--accent);">visa.visitsaudi.com</a> にアクセスしてください。
-    </p>
+      <h4 class="sub-title">ステップ 1：公式サイトにアクセス</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        サウジアラビアの公式ビザサイト <a href="https://visa.visitsaudi.com/" target="_blank" rel="noopener" style="color:var(--accent);">visa.visitsaudi.com</a> にアクセスしてください。
+      </p>
 
-    <h4 class="sub-title">ステップ 2：個人情報の入力</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-      • パスポート番号（アルファベット＆数字）<br>
-      • 氏名（パスポート記載通り）<br>
-      • 生年月日<br>
-      • 性別<br>
-      • 国籍（Japan）<br>
-      • 出発予定日<br>
-      • メールアドレス（確認メール受信用）<br>
-      • 電話番号（国番号 +81）
-    </p>
+      <h4 class="sub-title">ステップ 2：個人情報の入力</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        • パスポート番号（アルファベット＆数字）<br>
+        • 氏名（パスポート記載通り）<br>
+        • 生年月日<br>
+        • 性別<br>
+        • 国籍（Japan）<br>
+        • 出発予定日<br>
+        • メールアドレス（確認メール受信用）<br>
+        • 電話番号（国番号 +81）
+      </p>
 
-    <h4 class="sub-title">ステップ 3：パスポート写真のアップロード</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-      パスポートの写真ページのスキャン画像またはスマートフォンで撮影した画像をアップロードします。ファイル形式はJPEGまたはPDF。ファイルサイズは5MB以下。
-    </p>
+      <h4 class="sub-title">ステップ 3：パスポート写真のアップロード</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        パスポートの写真ページのスキャン画像またはスマートフォンで撮影した画像をアップロードします。ファイル形式はJPEGまたはPDF。ファイルサイズは5MB以下。
+      </p>
 
-    <h4 class="sub-title">ステップ 4：顔写真のアップロード</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-      白い背景の顔写真をアップロードします。パスポート写真と同等のクオリティが必要です。
-    </p>
+      <h4 class="sub-title">ステップ 4：顔写真のアップロード</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        白い背景の顔写真をアップロードします。パスポート写真と同等のクオリティが必要です。
+      </p>
 
-    <h4 class="sub-title">ステップ 5：申請内容の確認と支払い</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-      申請内容を確認し、クレジットカード（Visa/Mastercard）で費用を支払います。535 SAR（約18,000円）。支払い後、確認メールが送信されます。
-    </p>
+      <h4 class="sub-title">ステップ 5：申請内容の確認と支払い</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        申請内容を確認し、クレジットカード（Visa/Mastercard）で費用を支払います。535 SAR（約18,000円）。支払い後、確認メールが送信されます。
+      </p>
 
-    <h4 class="sub-title">ステップ 6：ビザの受け取り</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-      通常、申請から2〜7営業日でビザが承認され、メールで通知されます。ビザはメール添付のPDFファイルで届きます。このPDFを印刷して、パスポートと一緒に飛行機搭乗時に提示してください。
-    </p>
+      <h4 class="sub-title">ステップ 6：ビザの受け取り</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        通常、申請から2〜7営業日でビザが承認され、メールで通知されます。ビザはメール添付のPDFファイルで届きます。このPDFを印刷して、パスポートと一緒に飛行機搭乗時に提示してください。
+      </p>
 
-    <div class="tip-box">💡 ビザ承認メールのスクリーンショットやPDFコピーを複数保存しておくと安心です。飛行機搭乗前にオンラインアカウントで承認ステータスも確認できます。</div>
+      <div class="tip-box">💡 ビザ承認メールのスクリーンショットやPDFコピーを複数保存しておくと安心です。飛行機搭乗前にオンラインアカウントで承認ステータスも確認できます。</div>
 
-    <h4 class="sub-title">必要書類一覧</h4>
-    <ul class="checklist">
-      <li>有効なパスポート（6ヶ月以上残存期間）</li>
-      <li>パスポート写真ページのスキャン画像またはスマートフォン撮影</li>
-      <li>顔写真（白い背景、3.5cm × 4.5cm程度が理想）</li>
-      <li>クレジットカード（支払い用）</li>
-      <li>メールアドレス</li>
-    </ul>
+      <h4 class="sub-title">必要書類一覧</h4>
+      <ul class="checklist">
+        <li>有効なパスポート（6ヶ月以上残存期間）</li>
+        <li>パスポート写真ページのスキャン画像またはスマートフォン撮影</li>
+        <li>顔写真（白い背景、3.5cm × 4.5cm程度が理想）</li>
+        <li>クレジットカード（支払い用）</li>
+        <li>メールアドレス</li>
+      </ul>
 
-    <h4 class="sub-title">所要時間と注意点</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-      • <strong>申請〜承認：2〜7営業日</strong>（混雑時は最大2週間の場合もあり）<br>
-      • 申請後の変更・キャンセルはできないため、入力内容は慎重に確認<br>
-      • ビザはメールで届く電子ビザ。物理的なシール/スタンプではなく、PDFファイル<br>
-      • 渡航予定日の少なくとも2週間前の申請を強く推奨<br>
-      • 却下される場合もある（パスポート有効期間不足、写真不良など）。その場合の払い戻しはない
-    </p>
+      <h4 class="sub-title">所要時間と注意点</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+        • <strong>申請〜承認：2〜7営業日</strong>（混雑時は最大2週間の場合もあり）<br>
+        • 申請後の変更・キャンセルはできないため、入力内容は慎重に確認<br>
+        • ビザはメールで届く電子ビザ。物理的なシール/スタンプではなく、PDFファイル<br>
+        • 渡航予定日の少なくとも2週間前の申請を強く推奨<br>
+        • 却下される場合もある（パスポート有効期間不足、写真不良など）。その場合の払い戻しはない
+      </p>
+    </div>
   </div>
 </section>
 
@@ -305,36 +313,38 @@
 <section class="compact-section">
   <div class="card">
     <h3 class="section-title">🎒 持ち物チェックリスト</h3>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
-      サウジアラビアへの渡航で必須の持ち物と推奨される持ち物をまとめました。
-    </p>
+    <div class="two-col">
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
+        サウジアラビアへの渡航で必須の持ち物と推奨される持ち物をまとめました。
+      </p>
 
-    <h4 class="sub-title">必須アイテム</h4>
-    <ul class="checklist">
-      <li><strong>パスポート：</strong>6ヶ月以上の残存期間を確認</li>
-      <li><strong>eVisa確認書：</strong>メール添付のPDFを印刷またはスマートフォンに保存</li>
-      <li><strong>海外旅行保険証書：</strong>医療保険への加入を強く推奨。サウジの医療費は高額</li>
-      <li><strong>現金（SAR および USD）：</strong>空港で両替するか、予め日本で用意。1,000〜2,000 SAR（約33,000〜67,000円）程度の現金があると安心</li>
-      <li><strong>クレジットカード：</strong>Visa/Mastercard。American Expressは使える店が限定的</li>
-      <li><strong>スマートフォン：</strong>GPS、タクシーアプリ（Uber/Careem）、翻訳アプリに必須</li>
-      <li><strong>航空券（eチケット）：</strong>メールから再ダウンロード可能だが、念のため印刷またはオフラインで確保</li>
-    </ul>
+      <h4 class="sub-title">必須アイテム</h4>
+      <ul class="checklist">
+        <li><strong>パスポート：</strong>6ヶ月以上の残存期間を確認</li>
+        <li><strong>eVisa確認書：</strong>メール添付のPDFを印刷またはスマートフォンに保存</li>
+        <li><strong>海外旅行保険証書：</strong>医療保険への加入を強く推奨。サウジの医療費は高額</li>
+        <li><strong>現金（SAR および USD）：</strong>空港で両替するか、予め日本で用意。1,000〜2,000 SAR（約33,000〜67,000円）程度の現金があると安心</li>
+        <li><strong>クレジットカード：</strong>Visa/Mastercard。American Expressは使える店が限定的</li>
+        <li><strong>スマートフォン：</strong>GPS、タクシーアプリ（Uber/Careem）、翻訳アプリに必須</li>
+        <li><strong>航空券（eチケット）：</strong>メールから再ダウンロード可能だが、念のため印刷またはオフラインで確保</li>
+      </ul>
 
-    <h4 class="sub-title">推奨アイテム</h4>
-    <ul class="checklist">
-      <li><strong>電源プラグ変換器（Type G）：</strong>サウジはイギリス規格の3つ穴プラグ。日本のA型プラグは使えません</li>
-      <li><strong>日焼け止め（高SPF）：</strong>サウジの日差しは非常に強い。50+推奨</li>
-      <li><strong>帽子・サングラス：</strong>屋外での移動時に必須</li>
-      <li><strong>常備薬（英文処方箋付き）：</strong>胃薬、風邪薬、酔い止め等。サウジの薬局で医者の指示なしに購入は難しい</li>
-      <li><strong>肌ケア用品：</strong>極度に乾燥しているため、化粧水・リップクリーム・ハンドクリーム必須</li>
-      <li><strong>SIMフリースマートフォン：</strong>現地SIM（STC/Mobily/Zain）が使用可能。データ通信量が多い場合は事前確保を推奨</li>
-      <li><strong>モバイルバッテリー：</strong>大容量（20,000 mAh以上）。移動が多い場合に重宝</li>
-      <li><strong>薄手の上着・カーディガン：</strong>屋内と屋外の気温差、モール内のエアコンが強いため、1枚あると便利</li>
-      <li><strong>運転免許証（国際免許証）：</strong>レンタカー利用予定の場合。国内免許証だけでは借りられない</li>
-      <li><strong>写真（パスポートサイズ）：</strong>ホテル登録やビザ延長等で必要になることあり</li>
-    </ul>
+      <h4 class="sub-title">推奨アイテム</h4>
+      <ul class="checklist">
+        <li><strong>電源プラグ変換器（Type G）：</strong>サウジはイギリス規格の3つ穴プラグ。日本のA型プラグは使えません</li>
+        <li><strong>日焼け止め（高SPF）：</strong>サウジの日差しは非常に強い。50+推奨</li>
+        <li><strong>帽子・サングラス：</strong>屋外での移動時に必須</li>
+        <li><strong>常備薬（英文処方箋付き）：</strong>胃薬、風邪薬、酔い止め等。サウジの薬局で医者の指示なしに購入は難しい</li>
+        <li><strong>肌ケア用品：</strong>極度に乾燥しているため、化粧水・リップクリーム・ハンドクリーム必須</li>
+        <li><strong>SIMフリースマートフォン：</strong>現地SIM（STC/Mobily/Zain）が使用可能。データ通信量が多い場合は事前確保を推奨</li>
+        <li><strong>モバイルバッテリー：</strong>大容量（20,000 mAh以上）。移動が多い場合に重宝</li>
+        <li><strong>薄手の上着・カーディガン：</strong>屋内と屋外の気温差、モール内のエアコンが強いため、1枚あると便利</li>
+        <li><strong>運転免許証（国際免許証）：</strong>レンタカー利用予定の場合。国内免許証だけでは借りられない</li>
+        <li><strong>写真（パスポートサイズ）：</strong>ホテル登録やビザ延長等で必要になることあり</li>
+      </ul>
 
-    <div class="tip-box">💡 女性向けの化粧品やトイレタリーはサウジでも入手可能ですが、好みのブランドや日本製品を持参したい場合は先に買い揃えてください。</div>
+      <div class="tip-box">💡 女性向けの化粧品やトイレタリーはサウジでも入手可能ですが、好みのブランドや日本製品を持参したい場合は先に買い揃えてください。</div>
+    </div>
   </div>
 </section>
 
@@ -342,14 +352,16 @@
 <section class="compact-section">
   <div class="card">
     <h3 class="section-title">📝 到着後にやること</h3>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
-      サウジアラビアに到着してから、最初に済ませるべき手続きと準備をリストアップしました。
-    </p>
+    <div class="two-col">
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
+        サウジアラビアに到着してから、最初に済ませるべき手続きと準備をリストアップしました。
+      </p>
 
-    <h4 class="sub-title">ステップ 1：SIMカード購入（到着当日～翌日）</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-      空港またはホテル周辺で現地キャリアのSIMカードを購入します。主な通信会社：
-    </p>
+      <h4 class="sub-title">ステップ 1：SIMカード購入（到着当日～翌日）</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        空港またはホテル周辺で現地キャリアのSIMカードを購入します。主な通信会社：
+      </p>
+    </div>
     <table class="info-table">
       <tr>
         <th style="width:20%;">キャリア</th>
@@ -372,45 +384,47 @@
         <td>プリペイド 50 SAR（バランス型）</td>
       </tr>
     </table>
-    <div class="tip-box">💡 SIMフリーのスマートフォンが必須です。キャリアのロック版スマートフォンでは現地SIMが使えません。</div>
+    <div class="two-col">
+      <div class="tip-box">💡 SIMフリーのスマートフォンが必須です。キャリアのロック版スマートフォンでは現地SIMが使えません。</div>
 
-    <h4 class="sub-title">ステップ 2：Absher（アブシェール）への登録（到着後3〜7日以内）</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-      Absherはサウジアラビアの政府サービスプラットフォーム。パスポート、ビザ、給与、税務等の情報がここで管理されます。Absherアプリをダウンロードし、パスポート番号でアカウント登録します。後に在留届の申請もここを通じて行います。
-    </p>
+      <h4 class="sub-title">ステップ 2：Absher（アブシェール）への登録（到着後3〜7日以内）</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        Absherはサウジアラビアの政府サービスプラットフォーム。パスポート、ビザ、給与、税務等の情報がここで管理されます。Absherアプリをダウンロードし、パスポート番号でアカウント登録します。後に在留届の申請もここを通じて行います。
+      </p>
 
-    <h4 class="sub-title">ステップ 3：交通手段の確保</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-      サウジには公共交通がほぼなく、移動手段は限定的です。ホテルから各地への移動は以下の方法で対応：
-    </p>
-    <ul class="checklist">
-      <li><strong>Uber / Careem：</strong>スマートフォンアプリで呼べるタクシー。最も便利。クレジットカード登録で支払い完結</li>
-      <li><strong>ホテルのコンシェルジュ：</strong>空港送迎やツアー予約。割高だが確実</li>
-      <li><strong>レンタカー：</strong>国際免許証と運転免許証があれば可能。ガソリン代が安い（1リットル2 SAR程度）</li>
-      <li><strong>タクシー（流し）：</strong>相乗り前提。料金交渉が必要で、トラブルのリスクあり。避けるべき</li>
-    </ul>
+      <h4 class="sub-title">ステップ 3：交通手段の確保</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        サウジには公共交通がほぼなく、移動手段は限定的です。ホテルから各地への移動は以下の方法で対応：
+      </p>
+      <ul class="checklist">
+        <li><strong>Uber / Careem：</strong>スマートフォンアプリで呼べるタクシー。最も便利。クレジットカード登録で支払い完結</li>
+        <li><strong>ホテルのコンシェルジュ：</strong>空港送迎やツアー予約。割高だが確実</li>
+        <li><strong>レンタカー：</strong>国際免許証と運転免許証があれば可能。ガソリン代が安い（1リットル2 SAR程度）</li>
+        <li><strong>タクシー（流し）：</strong>相乗り前提。料金交渉が必要で、トラブルのリスクあり。避けるべき</li>
+      </ul>
 
-    <h4 class="sub-title">ステップ 4：在サウジ日本大使館への在留届</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-      3ヶ月以上サウジに滞在する場合、外務省の在留届システムに登録してください。オンラインでの届出が可能です。緊急時に日本大使館から連絡を受けられます。<br>
-      リヤド日本大使館：<a href="https://www.sa.emb-japan.go.jp/" target="_blank" rel="noopener" style="color:var(--accent);">sa.emb-japan.go.jp</a>
-    </p>
+      <h4 class="sub-title">ステップ 4：在サウジ日本大使館への在留届</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        3ヶ月以上サウジに滞在する場合、外務省の在留届システムに登録してください。オンラインでの届出が可能です。緊急時に日本大使館から連絡を受けられます。<br>
+        リヤド日本大使館：<a href="https://www.sa.emb-japan.go.jp/" target="_blank" rel="noopener" style="color:var(--accent);">sa.emb-japan.go.jp</a>
+      </p>
 
-    <h4 class="sub-title">ステップ 5：銀行口座開設（2週間以内）</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-      長期滞在予定の場合、サウジの銀行口座開設を検討してください。給与受取、電気代・水道代等の支払いに便利です。主要銀行：
-    </p>
-    <ul class="checklist">
-      <li>Al Ahli Bank（アル・アハリ銀行）</li>
-      <li>Riyad Bank（リヤド銀行）</li>
-      <li>Saudi National Bank（サウジ・ナショナル・バンク）</li>
-      <li>Bank AlJazira（アルジャジーラ銀行）</li>
-    </ul>
+      <h4 class="sub-title">ステップ 5：銀行口座開設（2週間以内）</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        長期滞在予定の場合、サウジの銀行口座開設を検討してください。給与受取、電気代・水道代等の支払いに便利です。主要銀行：
+      </p>
+      <ul class="checklist">
+        <li>Al Ahli Bank（アル・アハリ銀行）</li>
+        <li>Riyad Bank（リヤド銀行）</li>
+        <li>Saudi National Bank（サウジ・ナショナル・バンク）</li>
+        <li>Bank AlJazira（アルジャジーラ銀行）</li>
+      </ul>
 
-    <h4 class="sub-title">ステップ 6：日本への連絡</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-      家族や友人に到着を報告。LINEやWhatsApp、メール等で連絡します。サウジのネット環境は安定していますが、VPNを使わないと一部のサービス（YouTube、Instagram等の特定機能）が制限されることがあります。
-    </p>
+      <h4 class="sub-title">ステップ 6：日本への連絡</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+        家族や友人に到着を報告。LINEやWhatsApp、メール等で連絡します。サウジのネット環境は安定していますが、VPNを使わないと一部のサービス（YouTube、Instagram等の特定機能）が制限されることがあります。
+      </p>
+    </div>
   </div>
 </section>
 
