@@ -85,6 +85,32 @@ def parse_html(html):
     return parser.get_text(), parser.links
 
 
+def reiwa_to_western(year_str):
+    """令和年を西暦に変換"""
+    try:
+        reiwa_year = int(year_str)
+        return 2018 + reiwa_year  # 令和1年 = 2019年
+    except ValueError:
+        return None
+
+
+def parse_japanese_date(text_around):
+    """令和・西暦の日付を YYYY-MM-DD に変換"""
+    # 令和X年M月D日
+    m = re.search(r"令和(\d{1,2})年(\d{1,2})月(\d{1,2})日", text_around)
+    if m:
+        western = reiwa_to_western(m.group(1))
+        if western:
+            return f"{western}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
+
+    # 西暦 2026年3月16日 or 2026/3/16
+    m = re.search(r"(\d{4})[/年.](\d{1,2})[/月.](\d{1,2})", text_around)
+    if m:
+        return f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
+
+    return None
+
+
 def collect_embassy():
     """大使館サイトから情報を収集"""
     print("[INFO] Fetching embassy page...")
@@ -94,6 +120,9 @@ def collect_embassy():
 
     text, links = parse_html(html)
 
+    # デバッグ: リンク数を表示
+    print(f"[DEBUG] Found {len(links)} links on embassy page")
+
     # 大使館のお知らせリンクを抽出
     news_items = []
     seen_titles = set()
@@ -102,37 +131,60 @@ def collect_embassy():
         title = link["text"].strip()
         href = link["href"]
 
+        # タイトルのクリーンアップ: [56KB] などのファイルサイズ表記を除去
+        title_clean = re.sub(r"\s*\[\d+KB\]\s*", "", title).strip()
+
         # ニュース・お知らせらしいリンクをフィルタ
-        if not title or len(title) < 5:
+        if not title_clean or len(title_clean) < 5:
             continue
-        if title in seen_titles:
+        if title_clean in seen_titles:
             continue
 
-        # 大使館の記事リンクパターン
-        if "/itpr_ja/" in href or "/itprtop_ja/" in href:
+        # ナビゲーションリンクを除外
+        if title_clean in ("一覧へ", "トップページ", "サイトマップ"):
+            continue
+
+        # 大使館の記事リンクパターン（HTML, PDFどちらも含む）
+        is_embassy_link = (
+            "/itpr_ja/" in href or
+            "/itprtop_ja/" in href or
+            href.endswith(".pdf") or
+            href.endswith(".html")
+        )
+
+        if is_embassy_link:
             if not href.startswith("http"):
-                href = EMBASSY_BASE + href
+                if href.startswith("/"):
+                    href = EMBASSY_BASE + href
+                else:
+                    href = EMBASSY_BASE + "/" + href
 
-            seen_titles.add(title)
+            seen_titles.add(title_clean)
             news_items.append({
-                "title": title,
+                "title": title_clean,
                 "url": href,
                 "source": "在サウジ日本大使館"
             })
 
-    # 日付パターンを探す（例: 2026/03/28, 2026年3月28日, 令和8年）
-    date_pattern = re.compile(r"(\d{4})[/年.](\d{1,2})[/月.](\d{1,2})")
-
+    # 各ニュースに日付を付与
     for item in news_items:
-        # タイトル周辺のテキストから日付を探す
-        match = date_pattern.search(text[max(0, text.find(item["title"]) - 50):text.find(item["title"]) + len(item["title"])])
-        if match:
-            y, m, d = match.groups()
-            item["date"] = f"{y}-{int(m):02d}-{int(d):02d}"
+        # タイトルの前後100文字から日付を探す
+        title_pos = text.find(item["title"][:20])  # 部分一致で探す
+        if title_pos >= 0:
+            search_range = text[max(0, title_pos - 100):title_pos + len(item["title"]) + 50]
+            date_str = parse_japanese_date(search_range)
+            if date_str:
+                item["date"] = date_str
+            else:
+                item["date"] = datetime.now(AST).strftime("%Y-%m-%d")
         else:
             item["date"] = datetime.now(AST).strftime("%Y-%m-%d")
 
         item["summary"] = item["title"]
+
+    print(f"[DEBUG] Extracted {len(news_items)} embassy news items")
+    for item in news_items[:5]:
+        print(f"[DEBUG]   - {item['date']}: {item['title'][:50]}")
 
     # 最新の最大10件
     embassy_title = news_items[0]["title"] if news_items else "情報を取得できませんでした"
