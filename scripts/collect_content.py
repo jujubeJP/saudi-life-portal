@@ -501,7 +501,7 @@ def translate_to_japanese(text):
         payload = json.dumps({
             "model": "claude-haiku-4-5-20251001",
             "max_tokens": 200,
-            "messages": [{"role": "user", "content": f"以下のニュース見出しを自然な日本語に翻訳してください。翻訳のみを出力し、説明は不要です。\n注意: \"Live Update\"は「最新情報」、\"Breaking\"は「速報」と訳してください。カタカナ語の乱用を避け、日本のニュースメディアで使われる自然な表現にしてください。\n\n{text[:300]}"}]
+            "messages": [{"role": "user", "content": f"以下のニュース見出しを、NHKや日経新聞のような日本語ニュースの見出しとして自然な日本語に翻訳してください。翻訳のみを出力し、説明は不要です。\n注意:\n- \"Live Update\"→「最新情報」、\"Breaking\"→「速報」\n- 英語の慣用表現を直訳しない（例: \"Now is the time\"→「今が時だ」は不自然）\n- カタカナ語の乱用を避ける\n- 日本の読者が違和感なく読める見出しにする\n\n{text[:300]}"}]
         }).encode("utf-8")
 
         req = urllib.request.Request(
