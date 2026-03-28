@@ -129,16 +129,21 @@
       <span class="updated" id="news-updated">最終更新: 読み込み中...</span>
     </div>
 
-    <div class="card">
-      <div id="news-content">
-        <div class="news-item">
-          <div class="meta">
-            <span class="tag new">NEW</span>
-            <span class="date">自動収集待ち</span>
-          </div>
-          <h3>最新ニュースを読み込み中...</h3>
-          <p>Arab News、Saudi Gazette、Al Arabiya等から自動収集したサウジアラビア関連ニュースの日本語要約が掲載されます。</p>
-        </div>
+    <div style="display:flex; gap:0; margin-bottom:0; border-bottom:2px solid var(--border-light);" id="news-tabs">
+      <button class="news-tab active" data-tab="en" style="flex:1; padding:10px 8px; background:none; border:none; border-bottom:2px solid var(--accent); margin-bottom:-2px; cursor:pointer; font-size:var(--font-size-sm); font-weight:600; color:var(--accent);">英語ニュース</button>
+      <button class="news-tab" data-tab="ar" style="flex:1; padding:10px 8px; background:none; border:none; border-bottom:2px solid transparent; margin-bottom:-2px; cursor:pointer; font-size:var(--font-size-sm); font-weight:500; color:var(--text-tertiary);">アラビア語ニュース</button>
+      <button class="news-tab" data-tab="jp" style="flex:1; padding:10px 8px; background:none; border:none; border-bottom:2px solid transparent; margin-bottom:-2px; cursor:pointer; font-size:var(--font-size-sm); font-weight:500; color:var(--text-tertiary);">日本語ニュース</button>
+    </div>
+
+    <div class="card" style="border-top-left-radius:0; border-top-right-radius:0; border-top:none;">
+      <div id="news-en" class="news-panel">
+        <p style="color:var(--text-tertiary); font-size:var(--font-size-sm);">読み込み中...</p>
+      </div>
+      <div id="news-ar" class="news-panel" style="display:none;">
+        <p style="color:var(--text-tertiary); font-size:var(--font-size-sm);">読み込み中...</p>
+      </div>
+      <div id="news-jp" class="news-panel" style="display:none;">
+        <p style="color:var(--text-tertiary); font-size:var(--font-size-sm);">読み込み中...</p>
       </div>
     </div>
   </div>
@@ -341,22 +346,48 @@ document.querySelectorAll('nav a[href*="#"]').forEach(link => {
     }
   }
 
-  function updateNews(items) {
-    const el = document.getElementById('news-content');
-    if (!el || !items || !items.length) return;
-    el.innerHTML = items.map((n, i) =>
-      '<div class="news-item"' + (i > 0 ? ' style="border-top:1px solid var(--border-light);padding-top:16px;"' : '') + '>' +
-        '<div class="meta">' +
-          (i === 0 ? '<span class="tag new">NEW</span>' : '') +
-          '<span class="date">' + esc(n.date || '') + '</span>' +
-          (n.source ? '<span class="source-tag">' + esc(n.source) + '</span>' : '') +
-        '</div>' +
-        '<h3>' + esc(n.title || '') + '</h3>' +
-        '<p>' + esc(n.summary || '') + '</p>' +
-        (n.url ? '<div class="source" style="margin-top:8px;"><a href="' + esc(n.url) + '" target="_blank" rel="noopener">記事を読む →</a></div>' : '') +
-      '</div>'
-    ).join('');
+  function fmtNewsDate(d) {
+    if (!d) return '';
+    // "2026-03-28T10:30" → "3/28 10:30", "2026-03-28" → "3/28"
+    var m = d.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
+    if (m) return parseInt(m[2]) + '/' + parseInt(m[3]) + ' ' + m[4] + ':' + m[5];
+    m = d.match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (m) return parseInt(m[2]) + '/' + parseInt(m[3]);
+    return d;
   }
+
+  function renderNewsList(panelId, items) {
+    var el = document.getElementById(panelId);
+    if (!el) return;
+    if (!items || !items.length) {
+      el.innerHTML = '<p style="color:var(--text-tertiary); font-size:var(--font-size-sm);">ニュースはまだありません。</p>';
+      return;
+    }
+    el.innerHTML = items.map(function(n) {
+      return '<div style="padding:6px 0; border-bottom:1px solid var(--border-light); line-height:1.5;">' +
+        '<span style="color:var(--text-muted); font-size:0.8em; margin-right:6px; white-space:nowrap;">' + esc(fmtNewsDate(n.date)) + '</span>' +
+        '<span style="color:var(--text-tertiary); font-size:0.8em; margin-right:6px;">' + esc(n.source || '') + '</span>' +
+        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary); text-decoration:none; font-size:var(--font-size-sm);">' + esc(n.title || '') + '</a>' : '<span style="font-size:var(--font-size-sm);">' + esc(n.title || '') + '</span>') +
+      '</div>';
+    }).join('');
+  }
+
+  // タブ切り替え
+  document.getElementById('news-tabs').addEventListener('click', function(e) {
+    var btn = e.target.closest('.news-tab');
+    if (!btn) return;
+    var tab = btn.getAttribute('data-tab');
+    document.querySelectorAll('.news-tab').forEach(function(t) {
+      var isActive = t.getAttribute('data-tab') === tab;
+      t.style.borderBottomColor = isActive ? 'var(--accent)' : 'transparent';
+      t.style.color = isActive ? 'var(--accent)' : 'var(--text-tertiary)';
+      t.style.fontWeight = isActive ? '600' : '500';
+      t.classList.toggle('active', isActive);
+    });
+    document.querySelectorAll('.news-panel').forEach(function(p) {
+      p.style.display = p.id === 'news-' + tab ? 'block' : 'none';
+    });
+  });
 
   function updateEmbassyNews(items) {
     const ul = document.getElementById('embassy-news-list');
@@ -388,15 +419,13 @@ document.querySelectorAll('nav a[href*="#"]').forEach(link => {
         }
       }
 
-      if (data.news) {
-        const n = data.news;
-        if (n.lastUpdated) document.getElementById('news-updated').textContent = '最終更新: ' + fmtDate(n.lastUpdated);
-        // メディアニュースのみ表示（大使館ニュースは大使館パネルに表示済み）
-        if (n.items) {
-          const mediaItems = n.items.filter(item => item.source !== '在サウジ日本大使館');
-          updateNews(mediaItems);
-        }
-      }
+      // 3言語別ニュースを表示
+      if (data.news_en) renderNewsList('news-en', data.news_en.items);
+      if (data.news_ar) renderNewsList('news-ar', data.news_ar.items);
+      if (data.news_jp) renderNewsList('news-jp', data.news_jp.items);
+      // 更新日時（いずれかの最新を表示）
+      var newsUpdated = data.news_en?.lastUpdated || data.news_ar?.lastUpdated || data.news_jp?.lastUpdated;
+      if (newsUpdated) document.getElementById('news-updated').textContent = '最終更新: ' + fmtDate(newsUpdated);
 
       console.log('[Portal] Dynamic content loaded successfully');
     } catch (e) {

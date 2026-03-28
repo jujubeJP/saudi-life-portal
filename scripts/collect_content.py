@@ -453,22 +453,37 @@ def parse_rss_regex(xml_text):
 
 
 def parse_rss_date(date_str):
-    """RSS日付文字列をYYYY-MM-DD形式に変換"""
+    """RSS日付文字列をYYYY-MM-DDTHH:MM形式に変換（時刻付き）"""
     if not date_str:
         return None
     # RFC 2822: "Sat, 28 Mar 2026 10:30:00 +0300"
-    m = re.search(r"(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{4})", date_str)
+    m = re.search(r"(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{4})\s+(\d{2}):(\d{2})", date_str)
     if m:
         months = {"Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6,
                   "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12}
         day = int(m.group(1))
         month = months.get(m.group(2), 1)
         year = int(m.group(3))
+        hour = m.group(4)
+        minute = m.group(5)
+        return f"{year}-{month:02d}-{day:02d}T{hour}:{minute}"
+    # RFC 2822 日付のみ（時刻なし）
+    m2 = re.search(r"(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{4})", date_str)
+    if m2:
+        months = {"Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6,
+                  "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12}
+        day = int(m2.group(1))
+        month = months.get(m2.group(2), 1)
+        year = int(m2.group(3))
         return f"{year}-{month:02d}-{day:02d}"
     # ISO 8601: "2026-03-28T10:30:00+03:00"
-    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", date_str)
-    if m:
-        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+    m3 = re.search(r"(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})", date_str)
+    if m3:
+        return f"{m3.group(1)}-{m3.group(2)}-{m3.group(3)}T{m3.group(4)}:{m3.group(5)}"
+    # ISO 8601 日付のみ
+    m4 = re.search(r"(\d{4})-(\d{2})-(\d{2})", date_str)
+    if m4:
+        return f"{m4.group(1)}-{m4.group(2)}-{m4.group(3)}"
     return None
 
 
@@ -512,10 +527,13 @@ def translate_to_japanese(text):
 
 
 def collect_media():
-    """英語/アラビア語メディアのRSSフィードからサウジ関連ニュースを収集"""
-    media_items = []
+    """英語/アラビア語/日本語メディアのRSSフィードからサウジ関連ニュースを言語別に収集"""
+    # 言語キー: EN, AR, JP
+    lang_keys = ["en", "ar", "jp"]
+    results = {k: [] for k in lang_keys}
 
-    for source in MEDIA_SOURCES:
+    for i, source in enumerate(MEDIA_SOURCES):
+        lang = lang_keys[i] if i < len(lang_keys) else "en"
         print(f"[INFO] Fetching {source['name']} RSS...")
         xml = fetch_url(source["rss_url"])
         if not xml:
@@ -524,7 +542,6 @@ def collect_media():
 
         rss_items = parse_rss_xml(xml)
         if not rss_items:
-            # デバッグ: パース失敗時にフィードの先頭200バイトを表示
             print(f"[DEBUG] {source['name']} preview: {xml[:200]}", file=sys.stderr)
             print(f"[WARN] No items parsed from {source['name']} RSS")
             continue
@@ -533,12 +550,11 @@ def collect_media():
 
         count = 0
         for item in rss_items:
-            if count >= 5:  # 各ソースから最大5件
+            if count >= 10:  # 各言語から最大10件
                 break
 
             title = item.get("title", "")
             link = item.get("link", "")
-            description = strip_html_tags(item.get("description", ""))
 
             if not title or not link:
                 continue
@@ -550,34 +566,30 @@ def collect_media():
                 title = parts[0].strip()
                 source_name = parts[1].strip()
 
-            # 日付パース
+            # 日付パース（時刻付き）
             date_str = parse_rss_date(item.get("pubdate", ""))
             if not date_str:
-                date_str = datetime.now(AST).strftime("%Y-%m-%d")
+                date_str = datetime.now(AST).strftime("%Y-%m-%dT%H:%M")
 
-            # タイトルと要約を日本語に翻訳
+            # タイトルを日本語に翻訳
             title_ja = translate_to_japanese(title)
-            summary_raw = description[:100] if description else title
-            summary_ja = translate_to_japanese(summary_raw)
-            if not summary_ja:
-                summary_ja = title_ja
 
-            media_items.append({
+            results[lang].append({
                 "title": title_ja,
                 "url": link,
                 "date": date_str,
                 "source": source_name,
-                "summary": summary_ja,
             })
             count += 1
 
         print(f"[DEBUG] {source['name']}: collected {count} items")
 
-    # 日付で降順ソート
-    media_items.sort(key=lambda x: x.get("date", ""), reverse=True)
+    # 各言語を日付で降順ソート
+    for lang in lang_keys:
+        results[lang].sort(key=lambda x: x.get("date", ""), reverse=True)
+        print(f"[INFO] {lang.upper()} media items: {len(results[lang])}")
 
-    print(f"[INFO] Total media items collected: {len(media_items)}")
-    return media_items
+    return results
 
 
 def main():
@@ -598,36 +610,43 @@ def main():
     # 外務省情報を収集
     mofa_data = collect_mofa()
 
-    # メディアニュースを収集
-    media_news = collect_media()
+    # メディアニュースを言語別に収集
+    media_by_lang = collect_media()
 
-    # 既存のニュースアイテムを保持
-    existing_news = existing.get("news", {}).get("items", [])
-
-    # 新しいニュースアイテムをマージ（重複排除）
-    all_news = []
+    # 大使館ニュースの重複排除・マージ
+    existing_embassy = existing.get("news", {}).get("items", [])
+    embassy_all = []
     seen_urls = set()
-
-    # 大使館のニュースを追加
     for item in embassy_news:
         if item.get("url") and item["url"] not in seen_urls:
             seen_urls.add(item["url"])
-            all_news.append(item)
-
-    # メディアニュースを追加
-    for item in media_news:
-        if item.get("url") and item["url"] not in seen_urls:
+            embassy_all.append(item)
+    for item in existing_embassy:
+        if item.get("url") and item["url"] not in seen_urls and item.get("source") == "在サウジ日本大使館":
             seen_urls.add(item["url"])
-            all_news.append(item)
+            embassy_all.append(item)
+    embassy_all = embassy_all[:10]
 
-    # 既存のニュースで重複しないものを追加
-    for item in existing_news:
-        if item.get("url") and item["url"] not in seen_urls:
-            seen_urls.add(item["url"])
-            all_news.append(item)
+    # 各言語メディアニュースのマージ（既存と新規、重複排除、各10件）
+    def merge_media(new_items, existing_items):
+        merged = []
+        seen = set()
+        for item in new_items:
+            if item.get("url") and item["url"] not in seen:
+                seen.add(item["url"])
+                merged.append(item)
+        for item in existing_items:
+            if item.get("url") and item["url"] not in seen:
+                seen.add(item["url"])
+                merged.append(item)
+        merged.sort(key=lambda x: x.get("date", ""), reverse=True)
+        return merged[:10]
 
-    # 最新20件に制限（大使館10+メディア10程度）
-    all_news = all_news[:20]
+    news_en = merge_media(media_by_lang.get("en", []), existing.get("news_en", {}).get("items", []))
+    news_ar = merge_media(media_by_lang.get("ar", []), existing.get("news_ar", {}).get("items", []))
+    news_jp = merge_media(media_by_lang.get("jp", []), existing.get("news_jp", {}).get("items", []))
+
+    has_new_media = any(media_by_lang.get(k) for k in ["en", "ar", "jp"])
 
     # content.jsonを組み立て
     content = {
@@ -638,9 +657,21 @@ def main():
             "embassy": embassy_data if embassy_data else existing.get("security", {}).get("embassy"),
         },
         "news": {
-            "lastUpdated": now_iso if (embassy_news or media_news) else existing.get("news", {}).get("lastUpdated"),
-            "items": all_news
-        }
+            "lastUpdated": now_iso if embassy_news else existing.get("news", {}).get("lastUpdated"),
+            "items": embassy_all
+        },
+        "news_en": {
+            "lastUpdated": now_iso if media_by_lang.get("en") else existing.get("news_en", {}).get("lastUpdated"),
+            "items": news_en
+        },
+        "news_ar": {
+            "lastUpdated": now_iso if media_by_lang.get("ar") else existing.get("news_ar", {}).get("lastUpdated"),
+            "items": news_ar
+        },
+        "news_jp": {
+            "lastUpdated": now_iso if media_by_lang.get("jp") else existing.get("news_jp", {}).get("lastUpdated"),
+            "items": news_jp
+        },
     }
 
     # 書き出し
@@ -653,8 +684,10 @@ def main():
     print(f"[OK] content.json updated at {now_iso}")
     print(f"     Embassy: {'OK' if embassy_data else 'FAILED'}")
     print(f"     MOFA: {'OK' if mofa_data else 'FAILED'}")
-    print(f"     Media: {len(media_news)} items")
-    print(f"     Total news: {len(all_news)}")
+    print(f"     Media EN: {len(news_en)} items")
+    print(f"     Media AR: {len(news_ar)} items")
+    print(f"     Media JP: {len(news_jp)} items")
+    print(f"     Embassy news: {len(embassy_all)} items")
 
 
 if __name__ == "__main__":
