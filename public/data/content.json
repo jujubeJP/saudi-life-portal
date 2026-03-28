@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-03-28T11:50:22.417769+03:00",
+  "lastCollected": "2026-03-28T12:02:17.223949+03:00",
   "security": {
-    "lastUpdated": "2026-03-28T11:50:22.417769+03:00",
+    "lastUpdated": "2026-03-28T12:02:17.223949+03:00",
     "mofa": {
       "title": "危険情報：レベル３ 渡航は止めてください",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -14,72 +14,82 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-03-28T11:50:22.417769+03:00",
+    "lastUpdated": "2026-03-28T12:02:17.223949+03:00",
     "items": [
       {
         "title": "【大使館からのお知らせ】領事窓口業務の再開（3月16日）",
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
-        "source": "在サウジ日本大使館"
+        "source": "在サウジ日本大使館",
+        "category": "政治"
       },
       {
         "title": "【大使館からのお知らせ】領事窓口閉鎖のお知らせ（3月8日から当面の間）",
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
-        "source": "在サウジ日本大使館"
+        "source": "在サウジ日本大使館",
+        "category": "政治"
       },
       {
         "title": "在留届の提出及び更新、「たびレジ」登録のお願い",
         "url": "https://www.ksa.emb-japan.go.jp/files/100988773.pdf",
         "date": "2026-03-04",
-        "source": "在サウジ日本大使館"
+        "source": "在サウジ日本大使館",
+        "category": "社会"
       },
       {
         "title": "【大使館からのお知らせ】領事窓口業務の再開（3月4日）",
         "url": "https://www.ksa.emb-japan.go.jp/files/100988294.pdf",
         "date": "2026-03-04",
-        "source": "在サウジ日本大使館"
+        "source": "在サウジ日本大使館",
+        "category": "その他"
       },
       {
         "title": "【大使館からのお知らせ】領事窓口閉鎖のお知らせ（3月3日）について",
         "url": "https://www.ksa.emb-japan.go.jp/files/100987261.pdf",
         "date": "2026-03-03",
-        "source": "在サウジ日本大使館"
+        "source": "在サウジ日本大使館",
+        "category": "その他"
       },
       {
         "title": "2026年日本留学帰国留学生向けイフタール会の開催",
         "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/11_000001_00532.html",
         "date": "2026-02-26",
-        "source": "在サウジ日本大使館"
+        "source": "在サウジ日本大使館",
+        "category": "社会"
       },
       {
         "title": "【大使館からのお知らせ】東部州領事出張サービスの実施（2026年3月13日）について",
         "url": "https://www.ksa.emb-japan.go.jp/files/100981607.pdf",
         "date": "2026-02-19",
-        "source": "在サウジ日本大使館"
+        "source": "在サウジ日本大使館",
+        "category": "その他"
       },
       {
         "title": "【大使館からのお知らせ】ラマダン期間中における当館開館時間等について",
         "url": "https://www.ksa.emb-japan.go.jp/files/100980098.pdf",
         "date": "2026-02-17",
-        "source": "在サウジ日本大使館"
+        "source": "在サウジ日本大使館",
+        "category": "その他"
       },
       {
         "title": "2026年天皇誕生日祝賀レセプションの開催",
         "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/11_000001_00516.html",
         "date": "2026-02-10",
-        "source": "在サウジ日本大使館"
+        "source": "在サウジ日本大使館",
+        "category": "政治"
       },
       {
         "title": "一部メールアプリのサブスクリプション解除機能による領事 メールの配信停止についての注意喚起",
         "url": "https://www.ksa.emb-japan.go.jp/files/100969666.pdf",
         "date": "2026-01-28",
-        "source": "在サウジ日本大使館"
+        "source": "在サウジ日本大使館",
+        "category": "社会"
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-03-28T11:50:22.417769+03:00",
+    "lastUpdated": "2026-03-28T12:02:17.223949+03:00",
     "items": [
       {
         "title": "イラン戦争ライブアップデート：イランの攻撃がサウジアラビア基地の米兵12人を負傷させる、当局者が明かす",
@@ -88,10 +98,11 @@
         "source": "The New York Times"
       },
       {
-        "title": "パキスタン、中東戦争について協議するためサウジアラビア、エジプト、トルコを招待",
+        "title": "パキスタン、中東情勢をめぐりサウジアラビア、エジプト、トルコと協議",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ0l4cGZxdnJzZkVaWS1XTXdlTFRiS3FyVDl0UkdJSzc2NzNiazdtNjh5enJlNkdEU0o4MlBKdC05dVFKMEJYMm91WEVjZDhFQWRZTkFtM3pHV19NTkFiWFNhczRyUkljLTdTSm9ndVJqempHdURLVllDbENwU01SYndTMklHY3FCMTVnNXUzbmE0VElPM2pKOEVoSDlfaV8wVEVvZzltTVJGWEllQnRnRkEzTEcwb1FC?oc=5",
         "date": "2026-03-28T07:49",
-        "source": "The Times of Israel"
+        "source": "The Times of Israel",
+        "category": "政治"
       },
       {
         "title": "インテル：カンセロはサウジアラビアへの復帰を望まず、バルセロナは彼を引き止めようとしているが、彼は再び市場に出される可能性がある",
@@ -100,16 +111,18 @@
         "source": "Goal.com"
       },
       {
-        "title": "イラン軍によるサウジアラビアの空軍基地への攻撃で、少なくとも10人の米兵が負傷",
+        "title": "イラン軍がサウジアラビアの米空軍基地を攻撃 米兵10人以上が負傷",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbGNTRU1LbjlycFU1eGQwc0N0cWZabE5RekxiS1NYc1NpMk1EZmxNekZlNDIxUnFvYXgzSDRVUkRmVVZDdklHQjNTcXN6N2hDc0xSSWx3RllhcFdUZEhyZnlkZ3NzRFd6OVFGYkZmb0Q0U1RhZThVeTRJaUhJYnZLREJXTE10X0c4Tk84c3J5Vm84QU1pdlh1SQ?oc=5",
         "date": "2026-03-28T05:03",
-        "source": "The Washington Post"
+        "source": "The Washington Post",
+        "category": "政治"
       },
       {
-        "title": "「今が時だ」：トランプ前大統領、サウジアラビアにアブラハム合意への参加を促す",
+        "title": "トランプ前大統領、サウジアラビアにアブラハム合意への参加を促す",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMDkxM2tlcmJTQ3A2bkh1UjhuMklpWUc4Zlh1ODd5TzgyX0dQWU5zWUxmUGFQVTBrdnpWbXpocjM2WUpybGNOaU1la2FxVU5HMUxKZVF5ZG95bjZTNUx5cFpNeTh4OUNtTV81b1ZFUmJ0YTlQd1RyY0Y1dXBCdlgxQ0wzcmNMVEFCYVNDYy1LM3JJZVJ3ckNrcU5XQnIyQmdDQ093UGkzYkxYa2gwSXNuYlhIeFZrRjZDek80Snhn?oc=5",
         "date": "2026-03-28T03:47",
-        "source": "i24NEWS"
+        "source": "i24NEWS",
+        "category": "政治"
       },
       {
         "title": "イラン戦争：サウジアラビア基地への攻撃で米軍兵士が負傷",
@@ -144,7 +157,7 @@
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-03-28T11:50:22.417769+03:00",
+    "lastUpdated": "2026-03-28T12:02:17.223949+03:00",
     "items": [
       {
         "title": "エジプト代表がサウジアラビアに勝利し、FIFAランキングで2位上昇",
@@ -153,16 +166,24 @@
         "source": "CNN Arabic"
       },
       {
+        "title": "サウジアラビアのネオムにおける山岳観光プロジェクトの契約解除",
+        "url": "https://news.google.com/rss/articles/CBMi6ANBVV95cUxNOU4wOUsxdWZmOVhnSnFPbGw3d1JVcF9wci1OWVMzRm9adWlmTEl1dnFSRktOT0dDN3plWEZsaVZvaHJMVHJHdGVtMEdBaDBQZDdTWmlpa1dCOV8zLXp5SjZRcXFoSG1aNFJaZkJmT1RKaWdraWFpTUc2LVhPWEhkOS02bHJBR0xkbXNLWDZya2xpSV9SZUFPaVQ1aHFWalctc2hta3VBZGF6cDRkVXlxaVM0SllJX1Q4ZkptVHFqeHNNblVnanNFa2J2WElFWFIxTXFZWFFaTjdTdzdOa2tYaDFGVW5NckVkQ3RENFp5NVZFSnI1bWtWVHMzM0l6TThYRzJ1azNXYlpuYjRNYXNmZVBwemxqalROWlBpcE05UVVpNm5fNzFYbFlRQmptMDdiUEdLUHFWVmMwR0JLeWstYnctemxHcVFDMzJLcWdMNnlWcE5FNV9jOGZqUWo1RHdqYUJwWjFaZUVSblJfZUdMRmNSaWVYa0RNZWxBWE8tcnZhVDR1d1lWdXBNLXp2dmNOYklVX2Z1TkEtSHFBNHVHbzBYUGJqSWhXWldRYk8zM1FuYU5LS2ZVSmZnSE9tWjRmWW5CakZ0WVVKTWZqcGRPdFVMc2lBUDc4Vjk4ckNKZFZTMVA4Um9NLQ?oc=5",
+        "date": "2026-03-28T07:40",
+        "source": "cnnbusinessarabic.com",
+        "category": "経済"
+      },
+      {
         "title": "パキスタン、イランとの戦争についてサウジアラビア、エジプト、トルコとの協議を主催",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaThlTklGejBhLTFOX3lldWdWeG54OFlHTFVRVmdndU0yNV9RLWZEMjBKRGtjU1dESzRQY1BzLW5RYWRDcEw2NlBCM0VDcWJ1dGdsTXFqUjh6WC1vSDNBVXAtR1VsQ1FVV0xmaXhCYXNoTGdjTnV5SXIycWoza2FqbjZZSjgyVHMycXVzcTN4Y1hYVWotRW84OEtQQnRKb1JianZNRk5PVjRiMTBRUkZreGZRT2tNZ9IBwAFBVV95cUxQMUxkNG83eUc1WEdOMFM0RE42QWtBTk02bjY3dWlQTGxwMFZfU01MN1Vra2o5U0txVHMwVVhBM08yNUQ4N3V1cjZqcjFMaWlfdHpwM0FZaGJBTm1qOWlUS3U1SlJjYVRZZzlTdDZXZGFqckFHZzhIV3oxUjgzcVdLMGhaei1OS3hFMmJhZ1lwNDVfWTczNmJfamVub2JNREFWMEdCRi1DaFpxWWNFSTNGSDBaeU5KOWRvMEtMTDZlWDU?oc=5",
         "date": "2026-03-28T06:42",
         "source": "CNN Arabic"
       },
       {
-        "title": "12人の米兵がサウジアラビアのプリンス・スルタン基地への「イラン攻撃」で負傷",
+        "title": "サウジアラビアのアルジャン王子基地へのイラン攻撃で米兵12人が負傷",
         "url": "https://news.google.com/rss/articles/CBMirARBVV95cUxNM2RXdEVjOG9kSmpiLUFPOUlzM0xtMHc0a25MUEhXNjBuU0kyLTBKOF9jaEpucThVUlhBUzdabmlHWFlpeFZ5Nlg4VTNwUC1KVXZCRHNnc2ktY2NWS3BHcXMzZEc0OWRVZW9US2x2YTZIbmNQbl80dUNfeUxyMjd0WnZ1ZE1pVFVJVjBYWlllRElzNWp3aDQ2dG1XUTZ1d3FUakFxdUk4REV5dThMcDVKRkJvR3hxeVI1YmMyQ1I2a05RNHJISWRXZ3VoeENIZGxvSHdtVTlkZnNwalZNY2JQWVRBSXNSRzBlX0pOTWJlcmxXbTNGREVkZUVuN2Z5akdjNTFMSmpFSGlrbFFRTUN3dXExaHY3bVVyY1JjMTR1UGFRTUZZbFpEU21KRVM0RTlXRThGS1dyMl9ER3FrVnVjNGQzYUQ3UF8taENpQWFRZUN3MUdJdVljRncwTmxxV0lrMDQtSDViSjBNYjFVVDVOVEdpZjBmckRwYjJyR0xRMDlDTFBLdnFkV0VhdVBLTERaWTF2RVRwOTNHNlYwejVGWUtmdVM5Rk5oeFdMMVpQSkJVOXA0ZWxxZ09qQ29PVEt3ZC1BTGZ2YXBIYzE5S1IyNm1tSTA4TThIbjNjcDBNazB0eGZRWEJwMVpMcGxKSHFLcjgyRlJMLVZ5SFRMbjZ2dzJMWlhaZXdleXlRc3lIWmdmbW9COTBrYy1IOW5rMjZYSVllamFLWVhXNVlm0gGyBEFVX3lxTE05cllhekUweWJEdnd2LTVCc1V6SzY5SUZvY2ZHRjV0SGFDb0ZqMjZGU24zLU1fYlhwQ2xvSHZfU3FkNzVkR1M1S2ZqQUh6QWdleVhZS05aempGeDdTY3llbGxnMlZzNzZDdnl6cnd3NUhzQlpVc0RNMTZOcFVmTl9VbU5ST3prWGRGUUctNXNYMmlraHZEbEJvNmx5Q0xtbjZKRmQzNTRLdzl6azNhdlZab2lmaDBWY0ZwYVljSHlySmpTV2Raa21peV9hU2g3TzVPekV2M3ZtRnNXNUZEazItY294ZXlBZEZ2TjEwNVNPREdJb3JJTm83TEFvUmlIT25fd2tVb3RZNXlmOVd3M2JVUVlPOGpWV3lTT0VXVDNOZHRKSElBSWF2LXNJb2lUbGxydmhieGdfcXkta3NtNFQtNllhSkJTR0tfLTZJeWcwMWtJTGtHNnNWd1h0T0dBaUNjVHRkZFFKT2ZQUkl3SnRMNElZTGxMbEt4YnJjTHRvZjBKZ0JwYUFLVzdGOVZXMjFLcUtkMU1TcjRHek1QcFIyOV9yWnNCN1Z5c3dOaVlfa05weTFtWGt2RjVka05FaDR2N1UxcUE3b1NKSkJMQVp4M2lSQ3E3UDJodndCZ3VZNjd6NktZVXc3NzczVTdHV2RhMTcxQlBqVmdmaGQ2RzVQcG9pdmk0eC00bmpxd0JNTEhhYzN4TTlhc2hEN1ItZkZCMGNuUVZfbUNOOG5uamlQMmc?oc=5",
         "date": "2026-03-28T03:00",
-        "source": "التلفزيون العربي"
+        "source": "التلفزيون العربي",
+        "category": "政治"
       },
       {
         "title": "日量400万バレルで...サウジアラビアがホルムズを迂回、ヤンブーが新たな転機をもたらす",
@@ -171,10 +192,11 @@
         "source": "صحيفة سبق الإلكترونية"
       },
       {
-        "title": "米国当局者：サウジアラビアの基地へのイラン攻撃で米兵12人が負傷",
+        "title": "米当局者：サウジアラビアの米軍基地へのイラン攻撃で米兵12人が負傷",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBPa1dpaWxoS1dNMGMzUmxBZ1gxV3lMaXpodFFJVFBvaUNCT3BwcFlNZTBaVDEyejRjNy1Lazh4aGxOeU4tN2VEc0hpM25kT3Z1OHV3Sl81OHpITW1xeXlqQi1fc2tteE1vQXN0YVI1eVV3NktVNUFFWGxyUQ?oc=5",
         "date": "2026-03-28T00:08",
-        "source": "Reuters"
+        "source": "Reuters",
+        "category": "政治"
       },
       {
         "title": "サウジアラビアの防空システムが首都リヤドと東部地域で弾道ミサイル6発と無人機26機に対処",
@@ -183,75 +205,78 @@
         "source": "الشرق الأوسط"
       },
       {
-        "title": "サウジアラビア、湾岸諸国からの輸入品と輸出品の60日間の保管料を免除",
+        "title": "サウジアラビア、湾岸諸国との貿易品の保管料60日間を免除",
         "url": "https://news.google.com/rss/articles/CBMiyARBVV95cUxPdjctWG1tTDlYZ3BQcEVUNEVON05oYWtIOGdlRlFaV3pBMmFkaV9FS255TXRxZkVoc1FYRUxmbHIybEtSNks1eVZqR3Z1Qy1JUWw2OXdxSzBRQnhHdHBjaWJ0TXNlX0EyRUFwUnJsLUNGcExNZGVXa2tvcmhaRnBGWGNib1ZPZlBhaXFRTmFISHExZUl0NjM2TXQwdTkxUWUtbDIwOGhuQlZBMndZY2pQbk9CcFE1YWdmOVV4SG5QM1lPRGtweWkxckRZT1FsNVctRFNIWXNiN1dxSU1vY2tUeU1NVHZKUFRVRlE3a01YV0I0Z3huMHRDY1hDanlTcE1fVk42eUJIYWQwbGp2Ylg2OU41WU1xMGotVDFDcmpYV2pyaWVsblJMcW5XS1pOVVltNTdIZjhHYngzczlyby1iZm5aY2djdTU3MXZSVXcyWUF5MnQ1OUViUlN1SVE5cGVXN3MwdmtPQ0VJaTNZVnlPNUZsdVRmNkZIc3dqRWpmWDRKWlRVQXVmSElmWGs0VUhXWGJQMEpfTjNabXZqVXRPdTRnOTRDRGpsOWw1WlpxNGRBZWNvbFFFd1ZPc3pGcUFvdWprSEhtcGZCazk3cWV4S1JCRUVJRWJubXhkWE9NVU9HdFRPcnFIcndpcW9fYWxqSTFVOE1laVdpSkd4UUNKeEZrRVZjU0ptRkxMYkxWNVRuZFFYTkZxSXBSYm1XclJjbWVRbFc3SXhxeU1NREJ5TW9VSmd6aFVlWTk4X3NTbUg4RFM2T3pqdw?oc=5",
         "date": "2026-03-27T23:32",
-        "source": "الشرق الأوسط"
+        "source": "الشرق الأوسط",
+        "category": "経済"
       },
       {
-        "title": "CNN情報筋：イラン軍の攻撃でサウジアラビアの基地にいるアメリカ兵が負傷",
+        "title": "イラン軍がサウジアラビア基地を攻撃、米軍兵士が負傷",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUnFBc2x2SU5WUGdLNVN4bmhBZ21kdG9rUlZtZkYwS2prZTNGRUZ6dXloYVJIazgtVHlWTTR3X3JNOE56ZkswWlI5X1NiRUh0QnhoUUJ3bGwwOWxsQWlaTUItT2hHeHE1X3d6dVVlWWk4UTRNQzA5Q20wbWJnSnFhRmtGUXkyZWdpdjVOVHc2Tlc0X0k2d0dvd3Y4VENEYkdpUXlyeFJNbFRlT000YXk1MTRGZTBzR2VhUEhKVjJPekZualZweFVTWWRmamMtUlZBanp0aE43NNIB4gFBVV95cUxPdno4TE10TjA2UU1hNFlmZlpXRV9Sel9XbWRFM3BaYWdQMlk2VUpmX0wtYzlJRzdJZ09EZW85MWhNRWc4TzMzZHFKXzBqTkZocGFxWmt2S2RHNmxud0xwVmFhcGkwQ0dGblVaa0NuOTNPMTVpTDFxSC11SG5PU2xjeG9GSmtlS2RhajE2THlNaFF1M0hpeXFFV0FMU3hnSjA3ZW1lMUJtX1duazU5RVZPUEd5bEVOTGpfaHNqanB4WU1sZUtxQVgyLWpLbGw1Nkw3MkRFTjVZZTJTLXZUZkpPUlJB?oc=5",
         "date": "2026-03-27T23:12",
-        "source": "CNN Arabic"
+        "source": "CNN Arabic",
+        "category": "政治"
       },
       {
         "title": "見てください：サウジアラビアとエジプトの親善試合の結果とハイライト",
         "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNOTh3amYwX1p5T040NkJwS3B5UVBQX0pZTndQTlJfVTROemVVU0ZjalVfY1U5czktdnRLLXNhanI4SnF3ZmhrbkdMSFZ3aHdmS0lnWGljVlpERDY0Z0FuWUR6ZEtUNFJqbGRSbllVOVdwbjNSZHdhREdJakFjUnRNSFVCNDQtNzcwcWJhbmNzWktjaGttLS1PVTZJQm04T1JmWnZjSkNPMUozYjBKcENzYkNKWVJVLWVFQ2s4V2djLU5HZm9RQkRGT3BsODRlVU1QeHlHZFVxSjhzMGVITmVXMVdnTlpGNWlxamlzSldZNldNVmM2enl5ajNOM2JLdDJ1ZWw4SlQ3clV6U2NwZDhfMl9CbEc4VGZZZXkyU3AxbmxCOHlWSGZKVExJalA4Rm4tdTVGRkVR?oc=5",
         "date": "2026-03-27T20:46",
         "source": "الجزيرة نت"
-      },
-      {
-        "title": "ご覧ください。サウジアラビア対エジプト親善試合の結果とハイライト",
-        "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNOTh3amYwX1p5T040NkJwS3B5UVBQX0pZTndQTlJfVTROemVVU0ZjalVfY1U5czktdnRLLXNhanI4SnF3ZmhrbkdMSFZ3aHdmS0lnWGljVlpERDY0Z0FuWUR6ZEtUNFJqbGRSbllVOVdwbjNSZHdhREdJakFjUnRNSFVCNDQtNzcwcWJhbmNzWktjaGttLS1PVTZJQm04T1JmWnZjSkNPMUozYjBKcENzYkNKWVJVLWVFQ2s4V2djLU5HZm9RQkRGT3BsODRlVU1QeHlHZFVxSjhzMGVITmVXMVdnTlpGNWlxamlzSldZNldNVmM2enl5ajNOM2JLdDJ1ZWw4SlQ3clV6U2NwZDhfMl9CbEc4VGZZZXkyU3AxbmxCOHlWSGZKVExJalA4Rm4tdTVGRkVR0gG7AkFVX3lxTE1XX0ZrWVIxLVVFSE5QMmw5MlNUenRWN0FTQkkxWDQ5UjhPX1dXR1ZGeWZWdWhXRWpCV2VwcEhQMmpUZHAwOFkxMUZJQWFVc0NJQkZ1UnNSb3ZNOWVWVDRKU2MtLUlNSHhoYm55OE16VHkxZVJoekhlakRJcFNyOFk2WVRDQmt4aUpDSXZNdTZYTkFpQk1VbHRrcEZPUXg4ODk5MGxnWi0ybFNpYmlEb2FiQlVGdFdDVTZxRUFlbFNPSkFkWVdkNkRlUDRiUXpYS1FRV2Q3RWxZdUFnTnNHY3lQckMzaUw5WFBQVnpKOVQ2N0w5UEhGWE1CZDNtOUJXSDZraU1MWXZMSVM2QUFKUkNBaXp0Q3htekNVZHhCMzVGdW10T3JreERpSGN2bkNmbnB2c0RKdnZRd1U2UQ?oc=5",
-        "date": "2026-03-27T20:46",
-        "source": "الجزيرة نت"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-03-28T11:50:22.417769+03:00",
+    "lastUpdated": "2026-03-28T12:02:17.223949+03:00",
     "items": [
       {
         "title": "サウジ空軍基地にイランの攻撃、米兵10人負傷 開戦以降の負傷者は300人超える",
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1WdnZCTTdkX09oSFVSOFpBUXlXVGZhYzAwOVZHM25heDFqNTRNLVVRbnpidHlCZEExTU9BbHFuN0NfSDdVRnRyUzNuNVNFTHZIeVhB?oc=5",
         "date": "2026-03-28T03:30",
-        "source": "CNN"
+        "source": "CNN",
+        "category": "政治"
       },
       {
         "title": "イスラエルがイランの民間の原子力関連施設・発電所などを攻撃 イランもサウジアラビアの空軍基地攻撃で米兵12人負傷 事態の悪化懸念",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBZOURXNUZVRU5oRnloTUlJa3RIbC04VWRXSFJmaEEwQUtvdHBXN1loeFdfb1Q5RFNFX19XbG53QmxJTV9jTy02Nnp1WldFeTJueTctWnZXdw?oc=5",
         "date": "2026-03-28T02:57",
-        "source": "TBS NEWS DIG"
+        "source": "TBS NEWS DIG",
+        "category": "政治"
       },
       {
         "title": "「明らかに力不足だった」W杯前に０－４惨敗…サウジ代表FWが反省の弁「ファンには謝罪する」",
         "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02Q0tfYTFjWk1sRV9LWXhHM2kydjdsZ1RKS0RsQm9nYUNWOW4wQ05NN3htQVBEZUpkZGwzTEVJU1dQVHloczZYWlpzR082YXRYYVJrMVpHbFRCU2JUallRVW9Rc1Z1d0t1aGdJ?oc=5",
         "date": "2026-03-28T01:30",
-        "source": "ニフティニュース"
+        "source": "ニフティニュース",
+        "category": "スポーツ"
       },
       {
         "title": "ウクライナとサウジアラビア、防衛協力合意に署名",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSUJsLXFrTk9hcDBaaEplQXJ2NmpEVkF2TWRwSDJwU3ZleEFYX2pOWEFyU19PcTJYRDFwX3lEMGI1ODE0SDBOOGVaaU5MRXVQLThWWHN6aVpDbzRha21YQUlrSnZPT1dyRmwzQmd6TGFjMDNPNkVJTG9XM2RlWkZZNjBfb21GbE5zRm9WZzZHRWRjZjZnYk5hOXF5WVp3U05MenNrNVNCbnRVZWPSAbABQVVfeXFMUENjckE0ekVFTDh1TjZwVjFlc3FzQXRyOTBJQmw3dGR4NlpVQVc5bS1zVmhzSzgtNU9zZXZ2VVhCUzRGVEhWSXRhWVpQRXlnM1ZiYW42Mkpsc2dLZUFPaGdDNUVwZ2kzeV8yc3hSS0NERk5Rclo0WnZ1VnJzcTlPYmt4bm1WQU9CLWZHblRGY3JDaVhHNVJ3Z0hkMng4UENCVndYakZCX045OXhuMElFMU8?oc=5",
         "date": "2026-03-27T09:29",
-        "source": "ウクルインフォルム"
+        "source": "ウクルインフォルム",
+        "category": "政治"
       },
       {
         "title": "ゼレンスキー氏、サウジアラビア訪問　ウクライナのドローン技術を提供の意向",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iem9lQi1tekJNTlpUYW9xMk9LTUhiWkpWV3JkeDByNDZMdDEwU2FKbDR6SEpxQzk3RHYyVGlUTERDRm45ZFpjR0k1ckFPenEzc2laYjh1SXhNcHhvM0xN0gFkQVVfeXFMTUQyX3ZVd3lFc21aSjhENWNuSzZXOU5UR3BtaTRFT0FRdXlKRVRRVEtqa0FGdG4tS29mOFplc3pBd3hNbERTcjctNWdVVXR0Z01HajYzUmRMOEQ2c3h4V3ZFdV96Xw?oc=5",
         "date": "2026-03-27T05:35",
-        "source": "BBC"
+        "source": "BBC",
+        "category": "政治"
       },
       {
         "title": "えっ！会計前に飲んじゃうの!?サウジアラビアのスーパーで驚く…電撃婚して初めての海外生活は異文化ルールに驚愕【作者に聞く】",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WUXZZYzlER2U3c093bFlwQXVhck05REZjVVFuSWFTRjdzSVlDdW1LZTQzQ1NaV2FfbjViM0ZrWi1mRHlNalFMWFg4RFdJemM4Y20tZENWREc4ZDgtdFlmRDNHN0FsbUoyeWNrSGNCN3Vtb1NTOTNjZlZMc1JIQjDSAYQBQVVfeXFMTjdkR0xYc0lrUWFXMTF3TEhlSXNNR21idEdKNWVWV1Y5aktPU3Vlenk1M1Fsd2ZVZnFHM09tejNCYk5qSjVqRmk5ek9pV0RsZHlyalpaUUF5eFBXQW5FeEgxNm1wNmgxeUJBQVhEOWRJdExOcUJpWkpFRXM2TXJWU0NyVGJk?oc=5",
         "date": "2026-03-27T02:00",
-        "source": "ｄメニューニュース"
+        "source": "topics.smt.docomo.ne.jp",
+        "category": "社会"
       },
       {
         "title": "米国とイスラエルがイランを攻撃する中、サウジアラビアの首都リヤドで立ち上る煙＝5日（ロイター＝共同） - 湾岸諸国で高まる対イラン主戦論 背景に米離脱警戒、サウジの自制は限界間近 - 写真・画像(2/3)",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYdEU5bFNoMldGaUI0czFpdkEzSF9ub1ZIVHEyYXZfek1ORVQyOXk4c0pRbHFKaTlvVUFzck4yekY5SnpuMkV2MlJ2SEdxa2RqX012YlktMA?oc=5",
         "date": "2026-03-26T21:39",
-        "source": "西日本新聞me"
+        "source": "西日本新聞me",
+        "category": "政治"
       },
       {
         "title": "2.5倍遠い迂回ルートで中東原油を日本に輸送視野、政府や顧客意向で",
@@ -263,7 +288,8 @@
         "title": "サウジアラビア、米にイランと「戦闘継続」要請との報道を否定",
         "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDZEVOZlZCNUtjZG9WY21oTklzdFNVRTNLcmpWWjdTQkhYV18ybWVqS3BkbGdhOUpDeEY1MXJsRGhVVEdWS25zLXhDN21vMkYxeVV2MHlYcWNMVEhxdkV1cDJzS01JdGNx?oc=5",
         "date": "2026-03-25T02:39",
-        "source": "毎日新聞"
+        "source": "毎日新聞",
+        "category": "政治"
       },
       {
         "title": "サウジ皇太子、トランプ氏に「戦争継続でイラン政権崩壊を」促す（中央日報日本語版）",
