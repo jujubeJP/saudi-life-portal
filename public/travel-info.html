@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>渡航情報 | サウジナビ</title>
+<link rel="stylesheet" href="assets/shared.css">
+<style>
+.info-table { width:100%; font-size:var(--font-size-sm); border-collapse:collapse; }
+.info-table th { text-align:left; padding:8px 6px; color:var(--text-tertiary); font-weight:600; border-bottom:2px solid var(--border-light); }
+.info-table td { padding:7px 6px; border-bottom:1px solid var(--border-light); vertical-align:top; }
+.info-table tr:last-child td { border-bottom:none; }
+.section-title { font-size:1.1em; font-weight:700; color:var(--text-primary); margin:0 0 10px; padding-top:4px; }
+.sub-title { font-size:0.95em; font-weight:600; color:var(--accent); margin:12px 0 6px; }
+.compact-section { padding:8px 0; }
+.tip-box { padding:8px 12px; font-size:0.85em; color:var(--text-tertiary); background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 var(--radius-sm) var(--radius-sm) 0; margin-top:8px; }
+.checklist { list-style:none; padding:0; }
+.checklist li { font-size:var(--font-size-sm); color:var(--text-secondary); padding:6px 0 6px 24px; position:relative; line-height:1.6; }
+.checklist li:before { content:'✓'; position:absolute; left:0; color:var(--accent); font-weight:700; }
+</style>
+</head>
+<body>
+
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="container">
+    <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
+    <p class="subtitle">サウジアラビア在住者・渡航予定者のための日本語生活情報ポータル</p>
+    <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 サウジナビ</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap">
+        <button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html" class="active">✈️ 渡航情報</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+  </div>
+
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html" class="active">✈️ 渡航情報</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+    <div class="search-wrap" style="margin-left:auto;">
+      <button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button>
+    </div>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <span class="search-icon-inner">🔍</span>
+    <input type="text" id="searchInput" placeholder="検索… (例: eVisa, パスポート, 持ち物)" autocomplete="off">
+    <button class="search-clear" id="searchClear">✕</button>
+  </div>
+</nav>
+
+<!-- Search Results Overlay -->
+<div class="search-results" id="searchResults">
+  <div class="search-results-inner">
+    <div class="search-results-header">
+      <h2 id="searchResultsTitle">検索結果</h2>
+      <button class="search-results-close" id="searchResultsClose">✕</button>
+    </div>
+    <div id="searchResultsContent"></div>
+  </div>
+</div>
+
+<main class="container">
+
+<!-- PAGE TITLE -->
+<section style="padding-top:20px; padding-bottom:0;">
+  <h2 style="font-size:1.4em; font-weight:700; color:var(--text-primary); margin-bottom:4px;">✈️ 渡航情報 — ビザ種類・入国手続き・持ち物</h2>
+  <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">サウジアラビアへの渡航に必要なビザの種類、申請方法、入国手続き、持ち物をまとめました。渡航の準備はここから始めましょう。</p>
+</section>
+
+<!-- ===== 1. パスポートと基本要件 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🛂 パスポートと基本要件</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアへの渡航には、有効なパスポートが必須です。日本国籍者の場合、以下の条件を満たす必要があります。
+    </p>
+
+    <h4 class="sub-title">パスポート残存期間</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      <strong>ビザ申請時に6ヶ月以上の残存期間が必要</strong>です。多くの場合、ビザ有効期間中はパスポートの有効期限がビザを上回る必要があります。ビザが1年間有効な場合、パスポートも最低1年以上の有効期間が求められることがあります。
+    </p>
+
+    <h4 class="sub-title">パスポートの空白ページ</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      査証欄に<strong>連続する2ページ以上の空白ページ</strong>が必要です。ビザシールが貼付される際、両ページに記載されることがあります。古いパスポートは十分な空白ページがない場合があるため、新規取得または更新を検討してください。
+    </p>
+
+    <div class="tip-box">💡 パスポート有効期間が短い場合、ビザ申請が却下される可能性があります。渡航予定日から逆算して、十分な余裕を持ってパスポートを確認・更新することをお勧めします。</div>
+  </div>
+</section>
+
+<!-- ===== 2. ビザの種類 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">📋 ビザの種類</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
+      サウジアラビアのビザにはいくつかの種類があります。渡航目的や期間に応じて、最適なビザを選択してください。
+    </p>
+
+    <table class="info-table">
+      <tr>
+        <th style="width:20%;">ビザ種類</th>
+        <th style="width:35%;">特徴</th>
+        <th style="width:25%;">有効期間・滞在</th>
+        <th style="width:20%;">費用（目安）</th>
+      </tr>
+      <tr>
+        <td><strong>観光ビザ（eVisa）</strong></td>
+        <td>オンライン申請可能。観光・親族訪問・商用に対応。最も一般的。</td>
+        <td>1年間有効。1回のみ90日まで滞在可能</td>
+        <td>535 SAR（約18,000円）</td>
+      </tr>
+      <tr>
+        <td><strong>商用ビザ</strong></td>
+        <td>ビジネス会議・商取引目的。スポンサー（招待企業）からの招待状が必要。</td>
+        <td>複数回・複数年の場合あり</td>
+        <td>1,500〜2,500 SAR</td>
+      </tr>
+      <tr>
+        <td><strong>就労ビザ（Iqama）</strong></td>
+        <td>現地企業への就職。雇用主（スポンサー）が申請。イカマという在留許可証が発行される。</td>
+        <td>通常2〜3年更新制。滞在制限なし</td>
+        <td>無料（雇用主負担）</td>
+      </tr>
+      <tr>
+        <td><strong>巡礼ビザ</strong></td>
+        <td>ウムラ（小巡礼）はeVisaで対応。ハッジ（大巡礼）は専用申請が必要。</td>
+        <td>ウムラ：1回30日。ハッジ：期間限定</td>
+        <td>eVisa 535 SAR。ハッジは異なる</td>
+      </tr>
+      <tr>
+        <td><strong>トランジットビザ</strong></td>
+        <td>乗り継ぎのため一時的に入国。無料。</td>
+        <td>96時間以内</td>
+        <td>無料</td>
+      </tr>
+      <tr>
+        <td><strong>プレミアムレジデンシー</strong></td>
+        <td>永住権に準ずる。退職者・個人事業主向け。投資証明が必要。</td>
+        <td>1〜10年間選択可能</td>
+        <td>年間10万 SAR or 一括80万 SAR</td>
+      </tr>
+    </table>
+
+    <div class="tip-box">💡 観光目的の訪問はeVisaが圧倒的に便利です。申請から取得まで数日以内に完了します。</div>
+  </div>
+</section>
+
+<!-- ===== 3. eVisa申請手順 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">⚡ eVisa（電子ビザ）の申請手順</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
+      観光ビザ（eVisa）はオンラインで申請でき、パスポートを郵送する必要がありません。以下の手順で申請できます。
+    </p>
+
+    <h4 class="sub-title">ステップ 1：公式サイトにアクセス</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      サウジアラビアの公式ビザサイト <a href="https://visa.visitsaudi.com/" target="_blank" rel="noopener" style="color:var(--accent);">visa.visitsaudi.com</a> にアクセスしてください。
+    </p>
+
+    <h4 class="sub-title">ステップ 2：個人情報の入力</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      • パスポート番号（アルファベット＆数字）<br>
+      • 氏名（パスポート記載通り）<br>
+      • 生年月日<br>
+      • 性別<br>
+      • 国籍（Japan）<br>
+      • 出発予定日<br>
+      • メールアドレス（確認メール受信用）<br>
+      • 電話番号（国番号 +81）
+    </p>
+
+    <h4 class="sub-title">ステップ 3：パスポート写真のアップロード</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      パスポートの写真ページのスキャン画像またはスマートフォンで撮影した画像をアップロードします。ファイル形式はJPEGまたはPDF。ファイルサイズは5MB以下。
+    </p>
+
+    <h4 class="sub-title">ステップ 4：顔写真のアップロード</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      白い背景の顔写真をアップロードします。パスポート写真と同等のクオリティが必要です。
+    </p>
+
+    <h4 class="sub-title">ステップ 5：申請内容の確認と支払い</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      申請内容を確認し、クレジットカード（Visa/Mastercard）で費用を支払います。535 SAR（約18,000円）。支払い後、確認メールが送信されます。
+    </p>
+
+    <h4 class="sub-title">ステップ 6：ビザの受け取り</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      通常、申請から2〜7営業日でビザが承認され、メールで通知されます。ビザはメール添付のPDFファイルで届きます。このPDFを印刷して、パスポートと一緒に飛行機搭乗時に提示してください。
+    </p>
+
+    <div class="tip-box">💡 ビザ承認メールのスクリーンショットやPDFコピーを複数保存しておくと安心です。飛行機搭乗前にオンラインアカウントで承認ステータスも確認できます。</div>
+
+    <h4 class="sub-title">必要書類一覧</h4>
+    <ul class="checklist">
+      <li>有効なパスポート（6ヶ月以上残存期間）</li>
+      <li>パスポート写真ページのスキャン画像またはスマートフォン撮影</li>
+      <li>顔写真（白い背景、3.5cm × 4.5cm程度が理想）</li>
+      <li>クレジットカード（支払い用）</li>
+      <li>メールアドレス</li>
+    </ul>
+
+    <h4 class="sub-title">所要時間と注意点</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      • <strong>申請〜承認：2〜7営業日</strong>（混雑時は最大2週間の場合もあり）<br>
+      • 申請後の変更・キャンセルはできないため、入力内容は慎重に確認<br>
+      • ビザはメールで届く電子ビザ。物理的なシール/スタンプではなく、PDFファイル<br>
+      • 渡航予定日の少なくとも2週間前の申請を強く推奨<br>
+      • 却下される場合もある（パスポート有効期間不足、写真不良など）。その場合の払い戻しはない
+    </p>
+  </div>
+</section>
+
+<!-- ===== 4. 入国の流れ ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🛫 入国の流れ</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
+      サウジアラビアに到着してから出国するまでの基本的な流れを説明します。
+    </p>
+
+    <h4 class="sub-title">到着から入国審査まで</h4>
+    <table class="info-table">
+      <tr>
+        <td style="width:80px; white-space:nowrap; font-weight:600; vertical-align:top;">到着</td>
+        <td>飛行機がサウジアラビアの空港（ジェッダ、リヤド、ダンマーム等）に到着。パスポートとeVisa（印刷またはスマートフォン画面）を準備。</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600; vertical-align:top;">イミグレーション</td>
+        <td>入国審査ブースに進みます。パスポート、eVisaのPDF、返却用ホテル記載の紙を提示。質問（滞在目的、連絡先等）に英語で答える。</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600; vertical-align:top;">バイオメトリクス</td>
+        <td>指紋スキャン（両手10本）と顔認証を実施。システムに記録されます。</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600; vertical-align:top;">荷物受取</td>
+        <td>ターンテーブルから荷物を取得。破損や盗難がないか確認。</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600; vertical-align:top;">税関</td>
+        <td>通常、観光客の場合は税関検査がスムーズに通過します。持ち込み禁止品がないか申告。</td>
+      </tr>
+    </table>
+
+    <h4 class="sub-title">持ち込み禁止品</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      以下の品目は持ち込み禁止またはきわめて規制が厳しいため、持ち込まないでください。税関で没収されるだけでなく、懲役や罰金の対象になる可能性があります。
+    </p>
+    <ul class="checklist">
+      <li><strong>酒類：</strong>ビール、ワイン、スピリッツなど全ての酒類。宗教的理由から完全禁止。</li>
+      <li><strong>豚肉製品：</strong>ハム、ベーコン、豚の食品。イスラムの食事規律に抵触。</li>
+      <li><strong>ポルノグラフィー：</strong>成人向け雑誌、DVD、アプリ等。検出される可能性あり。</li>
+      <li><strong>宗教書籍：</strong>イスラム教批判の書籍。イスラム関連書籍の大量持ち込みも要注意。</li>
+      <li><strong>薬物：</strong>麻薬、違法医薬品。処方薬も医者の英文処方箋がないと没収される場合あり。</li>
+      <li><strong>武器・爆発物：</strong>ナイフ、銃、花火等。当然ながら完全禁止。</li>
+      <li><strong>多額の現金：</strong>10,000 SAR以上の現金は申告が必要。</li>
+    </ul>
+
+    <div class="tip-box">💡 常備薬がある場合は、渡航前に医師から英文の処方箋（Prescription）を取得してください。医学的必要性があれば、持ち込みが許可される可能性が高まります。</div>
+  </div>
+</section>
+
+<!-- ===== 5. 持ち物チェックリスト ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🎒 持ち物チェックリスト</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
+      サウジアラビアへの渡航で必須の持ち物と推奨される持ち物をまとめました。
+    </p>
+
+    <h4 class="sub-title">必須アイテム</h4>
+    <ul class="checklist">
+      <li><strong>パスポート：</strong>6ヶ月以上の残存期間を確認</li>
+      <li><strong>eVisa確認書：</strong>メール添付のPDFを印刷またはスマートフォンに保存</li>
+      <li><strong>海外旅行保険証書：</strong>医療保険への加入を強く推奨。サウジの医療費は高額</li>
+      <li><strong>現金（SAR および USD）：</strong>空港で両替するか、予め日本で用意。1,000〜2,000 SAR（約33,000〜67,000円）程度の現金があると安心</li>
+      <li><strong>クレジットカード：</strong>Visa/Mastercard。American Expressは使える店が限定的</li>
+      <li><strong>スマートフォン：</strong>GPS、タクシーアプリ（Uber/Careem）、翻訳アプリに必須</li>
+      <li><strong>航空券（eチケット）：</strong>メールから再ダウンロード可能だが、念のため印刷またはオフラインで確保</li>
+    </ul>
+
+    <h4 class="sub-title">推奨アイテム</h4>
+    <ul class="checklist">
+      <li><strong>電源プラグ変換器（Type G）：</strong>サウジはイギリス規格の3つ穴プラグ。日本のA型プラグは使えません</li>
+      <li><strong>日焼け止め（高SPF）：</strong>サウジの日差しは非常に強い。50+推奨</li>
+      <li><strong>帽子・サングラス：</strong>屋外での移動時に必須</li>
+      <li><strong>常備薬（英文処方箋付き）：</strong>胃薬、風邪薬、酔い止め等。サウジの薬局で医者の指示なしに購入は難しい</li>
+      <li><strong>肌ケア用品：</strong>極度に乾燥しているため、化粧水・リップクリーム・ハンドクリーム必須</li>
+      <li><strong>SIMフリースマートフォン：</strong>現地SIM（STC/Mobily/Zain）が使用可能。データ通信量が多い場合は事前確保を推奨</li>
+      <li><strong>モバイルバッテリー：</strong>大容量（20,000 mAh以上）。移動が多い場合に重宝</li>
+      <li><strong>薄手の上着・カーディガン：</strong>屋内と屋外の気温差、モール内のエアコンが強いため、1枚あると便利</li>
+      <li><strong>運転免許証（国際免許証）：</strong>レンタカー利用予定の場合。国内免許証だけでは借りられない</li>
+      <li><strong>写真（パスポートサイズ）：</strong>ホテル登録やビザ延長等で必要になることあり</li>
+    </ul>
+
+    <div class="tip-box">💡 女性向けの化粧品やトイレタリーはサウジでも入手可能ですが、好みのブランドや日本製品を持参したい場合は先に買い揃えてください。</div>
+  </div>
+</section>
+
+<!-- ===== 6. 到着後にやること ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">📝 到着後にやること</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
+      サウジアラビアに到着してから、最初に済ませるべき手続きと準備をリストアップしました。
+    </p>
+
+    <h4 class="sub-title">ステップ 1：SIMカード購入（到着当日～翌日）</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      空港またはホテル周辺で現地キャリアのSIMカードを購入します。主な通信会社：
+    </p>
+    <table class="info-table">
+      <tr>
+        <th style="width:20%;">キャリア</th>
+        <th style="width:50%;">特徴</th>
+        <th style="width:30%;">パッケージ例</th>
+      </tr>
+      <tr>
+        <td><strong>STC</strong></td>
+        <td>最大手。カバレッジが広い。日本への通話が安い（0.70 SAR/分）</td>
+        <td>プリペイド 50 SAR（通話・SMS・データ）</td>
+      </tr>
+      <tr>
+        <td><strong>Mobily</strong></td>
+        <td>第二位。サービスも良好。国内通話が安い</td>
+        <td>プリペイド 50 SAR（データ充実）</td>
+      </tr>
+      <tr>
+        <td><strong>Zain</strong></td>
+        <td>第三位。都市部のカバレッジが良好</td>
+        <td>プリペイド 50 SAR（バランス型）</td>
+      </tr>
+    </table>
+    <div class="tip-box">💡 SIMフリーのスマートフォンが必須です。キャリアのロック版スマートフォンでは現地SIMが使えません。</div>
+
+    <h4 class="sub-title">ステップ 2：Absher（アブシェール）への登録（到着後3〜7日以内）</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      Absherはサウジアラビアの政府サービスプラットフォーム。パスポート、ビザ、給与、税務等の情報がここで管理されます。Absherアプリをダウンロードし、パスポート番号でアカウント登録します。後に在留届の申請もここを通じて行います。
+    </p>
+
+    <h4 class="sub-title">ステップ 3：交通手段の確保</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      サウジには公共交通がほぼなく、移動手段は限定的です。ホテルから各地への移動は以下の方法で対応：
+    </p>
+    <ul class="checklist">
+      <li><strong>Uber / Careem：</strong>スマートフォンアプリで呼べるタクシー。最も便利。クレジットカード登録で支払い完結</li>
+      <li><strong>ホテルのコンシェルジュ：</strong>空港送迎やツアー予約。割高だが確実</li>
+      <li><strong>レンタカー：</strong>国際免許証と運転免許証があれば可能。ガソリン代が安い（1リットル2 SAR程度）</li>
+      <li><strong>タクシー（流し）：</strong>相乗り前提。料金交渉が必要で、トラブルのリスクあり。避けるべき</li>
+    </ul>
+
+    <h4 class="sub-title">ステップ 4：在サウジ日本大使館への在留届</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      3ヶ月以上サウジに滞在する場合、外務省の在留届システムに登録してください。オンラインでの届出が可能です。緊急時に日本大使館から連絡を受けられます。<br>
+      リヤド日本大使館：<a href="https://www.sa.emb-japan.go.jp/" target="_blank" rel="noopener" style="color:var(--accent);">sa.emb-japan.go.jp</a>
+    </p>
+
+    <h4 class="sub-title">ステップ 5：銀行口座開設（2週間以内）</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      長期滞在予定の場合、サウジの銀行口座開設を検討してください。給与受取、電気代・水道代等の支払いに便利です。主要銀行：
+    </p>
+    <ul class="checklist">
+      <li>Al Ahli Bank（アル・アハリ銀行）</li>
+      <li>Riyad Bank（リヤド銀行）</li>
+      <li>Saudi National Bank（サウジ・ナショナル・バンク）</li>
+      <li>Bank AlJazira（アルジャジーラ銀行）</li>
+    </ul>
+
+    <h4 class="sub-title">ステップ 6：日本への連絡</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      家族や友人に到着を報告。LINEやWhatsApp、メール等で連絡します。サウジのネット環境は安定していますが、VPNを使わないと一部のサービス（YouTube、Instagram等の特定機能）が制限されることがあります。
+    </p>
+  </div>
+</section>
+
+<!-- NOTES -->
+<section class="compact-section" style="padding-bottom:20px;">
+  <div class="card" style="background:var(--bg-secondary); border-left:3px solid var(--accent);">
+    <p style="font-size:var(--font-size-sm); color:var(--text-tertiary); line-height:1.7;">
+      <strong>ご注意：</strong>ビザ規則、持ち込み禁止品、手続き要件は予告なく変更されることがあります。渡航前には、必ず<a href="https://visa.visitsaudi.com/" target="_blank" rel="noopener" style="color:var(--accent);">visa.visitsaudi.com</a>および<a href="https://www.sa.emb-japan.go.jp/" target="_blank" rel="noopener" style="color:var(--accent);">在サウジ日本大使館</a>の最新情報をご確認ください。本ページの情報は参考であり、公式情報に優先されます。
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer style="padding: 20px 0 16px;">
+  <div class="container" style="line-height:1.5;">
+    <p>サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
+    <p style="margin-top:3px;">重要事項は必ず公式情報をご確認ください。</p>
+    <p style="margin-top:6px;"><a href="about.html" style="color:var(--accent);text-decoration:none;">運営者情報</a>&emsp;<a href="disclaimer.html" style="color:var(--accent);text-decoration:none;">免責事項</a>&emsp;<a href="mailto:portal@rewah.life" style="color:var(--accent);text-decoration:none;">お問い合わせ</a></p>
+    <p style="margin-top:4px;opacity:0.5;">&copy; 2026 Saudi Navi / ReWAH</p>
+  </div>
+</footer>
+
+<script>
+// ===== HAMBURGER MENU =====
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('open');
+});
+
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('open');
+  });
+});
+
+// ===== SEARCH =====
+const searchToggle = document.getElementById('searchToggle');
+const searchToggleDesktop = document.getElementById('searchToggleDesktop');
+const searchBar = document.getElementById('searchBar');
+const searchInput = document.getElementById('searchInput');
+const searchClear = document.getElementById('searchClear');
+const searchResults = document.getElementById('searchResults');
+const searchResultsContent = document.getElementById('searchResultsContent');
+const searchResultsTitle = document.getElementById('searchResultsTitle');
+const searchResultsClose = document.getElementById('searchResultsClose');
+
+function openSearch() {
+  searchBar.classList.add('open');
+  searchInput.focus();
+  hamburger.classList.remove('active');
+  navLinks.classList.remove('open');
+}
+
+function closeSearch() {
+  searchInput.value = '';
+  searchBar.classList.remove('open');
+  searchResults.classList.remove('visible');
+}
+
+searchToggle.addEventListener('click', openSearch);
+if (searchToggleDesktop) searchToggleDesktop.addEventListener('click', openSearch);
+searchClear.addEventListener('click', closeSearch);
+searchResultsClose.addEventListener('click', () => { searchResults.classList.remove('visible'); });
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeSearch(); searchResults.classList.remove('visible'); }
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+});
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function highlightText(text, query) {
+  const words = query.split(/\s+/).filter(w => w.length > 0);
+  let result = escapeHtml(text);
+  words.forEach(word => {
+    const re = new RegExp('(' + word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    result = result.replace(re, '<mark>$1</mark>');
+  });
+  return result;
+}
+
+const searchData = [
+  {title: 'eVisa', desc: 'オンライン申請。観光ビザ。1年有効で1回90日滞在可能。535 SAR'},
+  {title: 'パスポート残存期間', desc: 'ビザ申請時に6ヶ月以上必要。空白ページは連続2ページ以上'},
+  {title: '観光ビザ', desc: '最一般的。eVisaで申請。オンライン完結'},
+  {title: '商用ビザ', desc: 'ビジネス目的。スポンサー（招待企業）からの招待状が必要'},
+  {title: '就労ビザ（Iqama）', desc: 'サウジで就職。雇用主がスポンサー。在留許可証が発行'},
+  {title: 'ビザ申請サイト', desc: 'visa.visitsaudi.com でオンライン申請'},
+  {title: 'ビザ所要時間', desc: '申請から承認まで2～7営業日。渡航2週間前の申請推奨'},
+  {title: '持ち込み禁止品', desc: '酒類、豚肉製品、ポルノ、宗教批判書籍、薬物'},
+  {title: '常備薬', desc: '英文処方箋（Prescription）があれば持ち込み可能'},
+  {title: 'プラグ変換器', desc: 'Type G（イギリス規格・3穴）。日本のA型は使えない'},
+  {title: '日焼け止め', desc: 'SPF 50+推奨。サウジの日差しは非常に強い'},
+  {title: 'SIMカード', desc: 'STC、Mobily、Zain。空港またはホテル周辺で購入可能'},
+  {title: 'Absher', desc: 'サウジアラビアの政府サービス。アプリで登録。在留届申請等に必須'},
+  {title: 'Uber / Careem', desc: 'タクシーアプリ。サウジの移動手段として最便利'},
+  {title: '日本大使館在留届', desc: '3ヶ月以上滞在の場合、外務省オンラインシステムで登録'},
+  {title: 'クレジットカード', desc: 'Visa/Mastercard推奨。American Expressは使える店が限定的'},
+  {title: 'ハッジ・ウムラ', desc: 'ウムラはeVisaで可能。ハッジは専用申請が必要'},
+  {title: 'トランジットビザ', desc: '96時間以内。無料。乗り継ぎ目的'},
+  {title: 'プレミアムレジデンシー', desc: '永住権に準ずる。年10万 SAR or 一括80万 SAR'},
+  {title: '到着後手続き', desc: 'SIM購入→Absher登録→Uber/Careem設定→在留届→銀行口座'},
+];
+
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.trim().toLowerCase();
+  if (q.length < 1) { searchResults.classList.remove('visible'); return; }
+  const matches = searchData.filter(d =>
+    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q)
+  );
+  searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
+  searchResultsContent.innerHTML = matches.map(m =>
+    '<div style="padding:10px 0;border-bottom:1px solid var(--border-light);">' +
+      '<strong>' + highlightText(m.title, q) + '</strong>' +
+      '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
+    '</div>'
+  ).join('');
+  searchResults.classList.add('visible');
+});
+</script>
+
+</body>
+</html>

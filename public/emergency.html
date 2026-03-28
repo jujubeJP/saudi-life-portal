@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>緊急連絡先 | サウジナビ</title>
+<link rel="stylesheet" href="assets/shared.css">
+<style>
+.info-table { width:100%; font-size:var(--font-size-sm); border-collapse:collapse; }
+.info-table th { text-align:left; padding:8px 6px; color:var(--text-tertiary); font-weight:600; border-bottom:2px solid var(--border-light); }
+.info-table td { padding:7px 6px; border-bottom:1px solid var(--border-light); vertical-align:top; }
+.info-table tr:last-child td { border-bottom:none; }
+.section-title { font-size:1.1em; font-weight:700; color:var(--text-primary); margin:0 0 10px; padding-top:4px; }
+.sub-title { font-size:0.95em; font-weight:600; color:var(--accent); margin:12px 0 6px; }
+.compact-section { padding:8px 0; }
+.tip-box { padding:8px 12px; font-size:0.85em; color:var(--text-tertiary); background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 var(--radius-sm) var(--radius-sm) 0; margin-top:8px; }
+.emergency-number { font-size:2.5em; font-weight:700; padding:16px 12px; text-align:center; margin:12px 0; border-radius:8px; letter-spacing:3px; }
+.emergency-number-primary { background:#c62828; color:white; }
+.emergency-number-secondary { background:#e65100; color:white; }
+.emergency-number-tertiary { background:#f57c00; color:white; }
+.card { }
+</style>
+</head>
+<body>
+
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="container">
+    <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
+    <p class="subtitle">サウジアラビア在住者・渡航予定者のための日本語生活情報ポータル</p>
+    <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 サウジナビ</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap">
+        <button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="emergency.html" class="active">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+  </div>
+
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="emergency.html" class="active">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+    <div class="search-wrap" style="margin-left:auto;">
+      <button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button>
+    </div>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <span class="search-icon-inner">🔍</span>
+    <input type="text" id="searchInput" placeholder="検索… (例: 警察, 大使館, 救急車)" autocomplete="off">
+    <button class="search-clear" id="searchClear">✕</button>
+  </div>
+</nav>
+
+<!-- Search Results Overlay -->
+<div class="search-results" id="searchResults">
+  <div class="search-results-inner">
+    <div class="search-results-header">
+      <h2 id="searchResultsTitle">検索結果</h2>
+      <button class="search-results-close" id="searchResultsClose">✕</button>
+    </div>
+    <div id="searchResultsContent"></div>
+  </div>
+</div>
+
+<main class="container">
+
+<!-- PAGE TITLE -->
+<section style="padding-top:20px; padding-bottom:0;">
+  <h2 style="font-size:1.4em; font-weight:700; color:var(--text-primary); margin-bottom:4px;">🚨 緊急連絡先 — いざという時の電話番号・連絡先一覧</h2>
+  <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">病気・怪我・犯罪・事故など緊急時の対応方法と電話番号をまとめました。スマートフォンに登録しておくことをお勧めします。</p>
+</section>
+
+<!-- ===== 1. 緊急通報番号 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🚨 緊急通報番号 — 覚えておくべき番号</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      サウジアラビアの緊急対応番号は、状況に応じて異なります。これらの番号はすべて24時間対応です。スマートフォンに登録し、いつでもすぐに連絡できるようにしてください。
+    </p>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:12px;">
+      <div>
+        <p style="font-size:0.85em; color:var(--text-tertiary); font-weight:600; margin-bottom:4px;">警察</p>
+        <div class="emergency-number emergency-number-primary">999</div>
+      </div>
+      <div>
+        <p style="font-size:0.85em; color:var(--text-tertiary); font-weight:600; margin-bottom:4px;">救急車</p>
+        <div class="emergency-number emergency-number-primary">997</div>
+      </div>
+      <div>
+        <p style="font-size:0.85em; color:var(--text-tertiary); font-weight:600; margin-bottom:4px;">消防</p>
+        <div class="emergency-number emergency-number-primary">998</div>
+      </div>
+      <div>
+        <p style="font-size:0.85em; color:var(--text-tertiary); font-weight:600; margin-bottom:4px;">交通事故</p>
+        <div class="emergency-number emergency-number-primary">993</div>
+      </div>
+    </div>
+
+    <table class="info-table" style="margin-top:12px;">
+      <tr><th>番号</th><th>対応内容</th><th>対応地域</th></tr>
+      <tr><td style="font-weight:600; color:#c62828;">911</td><td>総合緊急通報（警察・救急・消防一括）</td><td>リヤド・マッカ・東部州</td></tr>
+      <tr><td style="font-weight:600;">995</td><td>麻薬・違法物通報</td><td>全土</td></tr>
+      <tr><td style="font-weight:600;">1919</td><td>家庭内暴力・虐待相談</td><td>全土</td></tr>
+      <tr><td style="font-weight:600;">920001888</td><td>交通事故サポート（Saher）</td><td>全土</td></tr>
+    </table>
+
+    <div class="tip-box">💡 スマートフォンから緊急通報をするとき、電波が入らなくても通報できる場合があります。パスポート番号やイカマ（在留許可証）番号が聞かれることがあるので、メモを手元に置いておくと便利です。</div>
+  </div>
+</section>
+
+<!-- ===== 2. 在サウジアラビア日本国大使館 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🇯🇵 在サウジアラビア日本国大使館</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      大使館は邦人保護のための緊急相談窓口です。病気・怪我・事故・犯罪被害など、困ったときは遠慮なく連絡してください。営業時間外の緊急時には24時間対応の番号があります。
+    </p>
+
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th style="width:35%;">項目</th><th>情報</th></tr>
+      <tr><td style="font-weight:600;">所在地</td><td>Diplomatic Quarter, Riyadh 11483<br>Building No. 8, Street No. 91, Zone D, Old Airport Road</td></tr>
+      <tr><td style="font-weight:600;">電話<br>（平日 8:00-17:00）</td><td>+966-11-488-1100</td></tr>
+      <tr><td style="font-weight:600;">緊急時<br>（閉館時間・夜間・休日）</td><td>+966-11-488-1110</td></tr>
+      <tr><td style="font-weight:600;">メール</td><td>ryiadh@rz.mofa.go.jp</td></tr>
+      <tr><td style="font-weight:600;">ウェブサイト</td><td><a href="https://www.sa.emb-japan.go.jp/ja/" target="_blank" rel="noopener" style="color:var(--accent);">在サウジアラビア日本国大使館</a></td></tr>
+      <tr><td style="font-weight:600;">管轄</td><td>サウジアラビア全土の在留邦人の保護・支援</td></tr>
+    </table>
+
+    <h4 class="sub-title">大使館でできること</h4>
+    <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding-left:20px;">
+      <li>緊急医療の手配・病院への付き添い</li>
+      <li>犯罪被害時の相談・警察対応サポート</li>
+      <li>パスポート紛失・盗難時の再発行</li>
+      <li>在留届の登録・変更</li>
+      <li>領事認証・公式書類の手配</li>
+      <li>現地当局との連絡・交渉サポート</li>
+    </ul>
+
+    <div class="tip-box">💡 <strong>在留届は必ず登録してください。</strong>大使館が緊急時に迅速に連絡をとるために必要です。渡航前は外務省の「たびレジ」にも登録すると、現地の安全情報が定期的に届きます。</div>
+  </div>
+</section>
+
+<!-- ===== 3. 在ジェッダ日本国総領事館 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🇯🇵 在ジェッダ日本国総領事館</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      ジェッダ及び西部地域（紅海沿岸）在住の邦人向け。リヤド経由でのサポートも可能ですが、直接ジェッダ総領事館に連絡することもできます。
+    </p>
+
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th style="width:35%;">項目</th><th>情報</th></tr>
+      <tr><td style="font-weight:600;">所在地</td><td>Jeddah Tower, Floor 30, King Fahd Road, Jeddah 23432</td></tr>
+      <tr><td style="font-weight:600;">電話<br>（平日 8:00-17:00）</td><td>+966-12-651-3850</td></tr>
+      <tr><td style="font-weight:600;">緊急時<br>（夜間・休日）</td><td>+966-12-651-3852</td></tr>
+      <tr><td style="font-weight:600;">メール</td><td>jeddah@rz.mofa.go.jp</td></tr>
+      <tr><td style="font-weight:600;">管轄地域</td><td>ジェッダ、マッカ、メディナ、及び西部地方</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ===== 4. サウジ政府の主要窓口 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🏢 サウジ政府の主要窓口</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      ビザ関連、労働・消費者保護、公共サービスなど、日常的に必要になる政府機関の連絡先です。
+    </p>
+
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th style="width:30%;">部門・サービス</th><th style="width:50%;">説明</th><th>連絡先</th></tr>
+      <tr><td style="font-weight:600;">Absher</td><td>ビザ・在留許可（イカマ）のオンラインポータル。ビザ延長・変更手続きはここから</td><td><a href="https://www.absher.sa" target="_blank" rel="noopener" style="color:var(--accent);">absher.sa</a></td></tr>
+      <tr><td style="font-weight:600;">外国人向け労働苦情</td><td>給与未払い、労働環境問題、契約違反など</td><td>19911</td></tr>
+      <tr><td style="font-weight:600;">消費者保護</td><td>詐欺・不正販売・製品欠陥など</td><td>1900</td></tr>
+      <tr><td style="font-weight:600;">ZATCA</td><td>税関・税務。輸出入申告</td><td>19993</td></tr>
+      <tr><td style="font-weight:600;">SEC（電力）</td><td>停電・配線の問題</td><td>920000222</td></tr>
+      <tr><td style="font-weight:600;">NWC（水道）</td><td>断水・水漏れ・請求問題</td><td>920001744</td></tr>
+    </table>
+
+    <h4 class="sub-title">携帯電話キャリア</h4>
+    <table class="info-table" style="margin-top:4px;">
+      <tr><th style="width:25%;">キャリア</th><th style="width:40%;">説明</th><th>カスタマーサービス</th></tr>
+      <tr><td style="font-weight:600;">STC</td><td>サウジ最大手。最も安定した電波</td><td>900 or *0</td></tr>
+      <tr><td style="font-weight:600;">Mobily</td><td>第二の大手キャリア</td><td>1100</td></tr>
+      <tr><td style="font-weight:600;">Zain</td><td>相対的に安価</td><td>959</td></tr>
+    </table>
+
+    <div class="tip-box">💡 政府機関に電話するときはアラビア語オペレーターが応答することがあります。英語での対応を求めるか（"English please"）、翻訳アプリを用意しておくと安心です。</div>
+  </div>
+</section>
+
+<!-- ===== 5. 医療機関 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🏥 医療機関・病院・薬局</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      重症の場合は迷わず救急車（997）を呼んでください。軽症でも海外旅行保険に加入している場合は、保険会社の指定する病院に行くことで手続きがスムーズになります。
+    </p>
+
+    <h4 class="sub-title">救急対応</h4>
+    <table class="info-table" style="margin-top:4px;">
+      <tr><th style="width:40%;">状況</th><th>対応</th></tr>
+      <tr><td>重度（意識不明、呼吸困難、重度外傷など）</td><td style="color:#c62828; font-weight:600;">救急車を呼ぶ（997）</td></tr>
+      <tr><td>中度（高熱、激しい腹痛、軽度の外傷など）</td><td>病院のER（救急外来）へ直接行くか、保険会社に連絡</td></tr>
+      <tr><td>軽度（風邪、頭痛、皮膚トラブルなど）</td><td>診療所（Clinic）または薬局で相談</td></tr>
+    </table>
+
+    <h4 class="sub-title">主要病院（リヤド）</h4>
+    <table class="info-table" style="margin-top:4px;">
+      <tr><th style="width:35%;">病院名</th><th style="width:40%;">特徴</th><th>電話</th></tr>
+      <tr><td><strong>King Faisal Specialist Hospital &amp; Research Centre</strong></td><td>最高水準の医療。私立。外国人向け。高額</td><td>+966-11-465-0000</td></tr>
+      <tr><td><strong>King Fahad Medical City</strong></td><td>大型総合病院。政府系。ER充実</td><td>+966-11-805-0000</td></tr>
+      <tr><td><strong>Dr. Sulaiman Al Habib Medical Group</strong></td><td>私立チェーン。各都市に支院。設備良好</td><td>+966-11-409-9999</td></tr>
+      <tr><td><strong>Saudi German Hospital</strong></td><td>私立。ドイツ系で信頼度高い</td><td>+966-11-246-0000</td></tr>
+    </table>
+
+    <h4 class="sub-title">主要病院（ジェッダ）</h4>
+    <table class="info-table" style="margin-top:4px;">
+      <tr><th style="width:35%;">病院名</th><th style="width:40%;">特徴</th><th>電話</th></tr>
+      <tr><td><strong>Saudi German Hospital Jeddah</strong></td><td>私立。外国人向け。信頼度高い</td><td>+966-12-660-0000</td></tr>
+      <tr><td><strong>Dr. Sulaiman Al Habib（ジェッダ）</strong></td><td>私立チェーン。24時間ER</td><td>+966-12-225-5550</td></tr>
+      <tr><td><strong>Jeddah Medical Care Center</strong></td><td>中規模。ER対応</td><td>+966-12-640-0040</td></tr>
+    </table>
+
+    <h4 class="sub-title">薬局</h4>
+    <table class="info-table" style="margin-top:4px;">
+      <tr><th style="width:35%;">チェーン</th><th style="width:50%;">特徴</th><th>営業</th></tr>
+      <tr><td><strong>Al Dawaa</strong></td><td>サウジ最大手。全国に支店。処方箋対応</td><td>24時間営業あり</td></tr>
+      <tr><td><strong>Nahdi</strong></td><td>第二の大手チェーン。品揃え豊富</td><td>24時間営業あり</td></tr>
+      <tr><td><strong>Boots</strong></td><td>イギリス発祥。モール内に多数</td><td>通常営業</td></tr>
+    </table>
+
+    <div class="tip-box">💡 病院では英語が通じる場合が多いですが、必ずしも得意ではないスタッフもいます。症状を記した紙を用意するか、翻訳アプリを事前にダウンロードしておくと安心です。医療記録や病歴をアラビア語でも翻訳しておくと、継続的な治療で役立ちます。</div>
+  </div>
+</section>
+
+<!-- ===== 6. 日本語対応・サポート ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🗾 日本語対応・相談窓口</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      日本語での相談や支援が受けられる窓口をまとめました。緊急時だけでなく、困ったことが生じたら気軽に相談してください。
+    </p>
+
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th style="width:35%;">サービス</th><th style="width:50%;">説明・内容</th><th>連絡先</th></tr>
+      <tr><td style="font-weight:600;">大使館<br>領事班</td><td>緊急相談、医療手配、パスポート手続き。日本語対応</td><td>+966-11-488-1100<br>夜間：+966-11-488-1110</td></tr>
+      <tr><td style="font-weight:600;">外務省<br>海外安全ホームページ</td><td>最新の安全情報、ビザ・パスポート手続き情報</td><td><a href="https://www.anzen.mofa.go.jp" target="_blank" rel="noopener" style="color:var(--accent);">anzen.mofa.go.jp</a></td></tr>
+      <tr><td style="font-weight:600;">たびレジ</td><td>渡航予定の事前登録。現地安全情報が届く</td><td><a href="https://www.tabireg.mofa.go.jp" target="_blank" rel="noopener" style="color:var(--accent);">tabireg.mofa.go.jp</a></td></tr>
+      <tr><td style="font-weight:600;">海外旅行保険<br>コールセンター</td><td>24時間日本語対応。医療費補償、医師紹介（加入保険による）</td><td>保険の約款を確認</td></tr>
+      <tr><td style="font-weight:600;">大使館<br>邦人会</td><td>在留邦人の相互扶助。コミュニティイベント、新任者歓迎会など</td><td>大使館サイトで確認</td></tr>
+    </table>
+
+    <div class="tip-box">💡 海外旅行保険のコールセンター番号は、加入時の書類に記載されています。渡航前に番号をメモして、スマートフォンに登録しておくことをお勧めします。</div>
+  </div>
+</section>
+
+<!-- ===== 7. 緊急時の心得 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">⚠️ 緊急時の心得・準備チェックリスト</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      もしもの時に焦らないよう、事前の準備が大切です。以下のチェックリストを参考にしてください。
+    </p>
+
+    <h4 class="sub-title">スマートフォンに登録すべき番号</h4>
+    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); padding:8px 12px; background:var(--bg-secondary); border-radius:4px; margin-top:8px;">
+      <ul style="line-height:1.8; padding-left:20px;">
+        <li>警察: 999</li>
+        <li>救急車: 997</li>
+        <li>消防: 998</li>
+        <li>大使館（昼）: +966-11-488-1100</li>
+        <li>大使館（緊急）: +966-11-488-1110</li>
+        <li>ジェッダ総領事館: +966-12-651-3850</li>
+        <li>海外旅行保険コールセンター: [加入保険の約款参照]</li>
+        <li>信頼できる病院の番号</li>
+      </ul>
+    </div>
+
+    <h4 class="sub-title">常に持ち歩くもの</h4>
+    <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding-left:20px; margin-top:8px;">
+      <li><strong>パスポート</strong>：原本またはコピー。身分証として機能</li>
+      <li><strong>イカマ（在留許可証）</strong>：サウジ在住の場合、常に携帯が義務。警察検問に備えて</li>
+      <li><strong>健康保険証・医療記録</strong>：現在治療中の病気や服用中の薬をまとめたメモ</li>
+      <li><strong>緊急連絡先リスト</strong>：紙に書いたメモ。スマートフォンが使えない場合に備えて</li>
+      <li><strong>保険証券のコピー</strong>：ポリシー番号、カスタマーサービス番号を記したもの</li>
+    </ul>
+
+    <h4 class="sub-title">渡航前・到着後の手続き</h4>
+    <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding-left:20px; margin-top:8px;">
+      <li>✓ <strong>海外旅行保険に加入</strong>：医療費は高額。加入は必須</li>
+      <li>✓ <strong>在留届を提出</strong>：到着後、大使館に届け出（オンライン可）</li>
+      <li>✓ <strong>たびレジに登録</strong>：事前登録で現地情報が定期配信される</li>
+      <li>✓ <strong>大使館の連絡先を確認</strong>：ウェブサイトで最新情報をチェック</li>
+      <li>✓ <strong>かかりつけ病院を決める</strong>：事前に評判を調べておく</li>
+      <li>✓ <strong>持病・アレルギー情報をアラビア語で記す</strong>：緊急時に役立つ</li>
+      <li>✓ <strong>日本での銀行・クレジットカード会社に連絡</strong>：海外利用を事前申告</li>
+    </ul>
+
+    <h4 class="sub-title">緊急時の行動フロー</h4>
+    <div style="background:var(--bg-secondary); padding:12px; border-radius:4px; margin-top:8px; font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8;">
+      <p><strong>1. 状況把握</strong><br>自分や周囲の安全を確保。二次被害がないか確認</p>
+      <p style="margin-top:8px;"><strong>2. 緊急対応</strong><br>必要に応じて警察（999）・救急（997）に電話</p>
+      <p style="margin-top:8px;"><strong>3. 大使館に連絡</strong><br>医療事故や犯罪被害の場合は大使館に報告</p>
+      <p style="margin-top:8px;"><strong>4. 保険会社に連絡</strong><br>医療費補償を受けるため、保険会社にも報告</p>
+      <p style="margin-top:8px;"><strong>5. 記録を保存</strong><br>診断書、警察レポート、領収書など、すべてのドキュメントを保管</p>
+    </div>
+
+    <div class="tip-box">💡 言葉が通じなくても、911や999に電話するとオペレーターが英語や手振り身振りで対応します。落ち着いて、ゆっくり話してください。スマートフォンの翻訳機能も役立ちます。</div>
+  </div>
+</section>
+
+<!-- NOTES -->
+<section class="compact-section" style="padding-bottom:20px;">
+  <div class="card" style="background:var(--bg-secondary); border-left:3px solid var(--accent);">
+    <p style="font-size:var(--font-size-sm); color:var(--text-tertiary); line-height:1.7;">
+      <strong>ご注意：</strong>このページの情報は2026年3月時点のものです。電話番号やサービス内容は変更される場合があります。最新情報は<a href="https://www.sa.emb-japan.go.jp/ja/" target="_blank" rel="noopener" style="color:var(--accent);">在サウジアラビア日本国大使館の公式ウェブサイト</a>でご確認ください。医療については必ず現地のプロフェッショナルの指示に従ってください。
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer style="padding: 20px 0 16px;">
+  <div class="container" style="line-height:1.5;">
+    <p>サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
+    <p style="margin-top:3px;">重要事項は必ず公式情報をご確認ください。</p>
+    <p style="margin-top:6px;"><a href="about.html" style="color:var(--accent);text-decoration:none;">運営者情報</a>&emsp;<a href="disclaimer.html" style="color:var(--accent);text-decoration:none;">免責事項</a>&emsp;<a href="mailto:portal@rewah.life" style="color:var(--accent);text-decoration:none;">お問い合わせ</a></p>
+    <p style="margin-top:4px;opacity:0.5;">&copy; 2026 Saudi Navi / ReWAH</p>
+  </div>
+</footer>
+
+<script>
+// ===== HAMBURGER MENU =====
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('open');
+});
+
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('open');
+  });
+});
+
+// ===== SEARCH =====
+const searchToggle = document.getElementById('searchToggle');
+const searchToggleDesktop = document.getElementById('searchToggleDesktop');
+const searchBar = document.getElementById('searchBar');
+const searchInput = document.getElementById('searchInput');
+const searchClear = document.getElementById('searchClear');
+const searchResults = document.getElementById('searchResults');
+const searchResultsContent = document.getElementById('searchResultsContent');
+const searchResultsTitle = document.getElementById('searchResultsTitle');
+const searchResultsClose = document.getElementById('searchResultsClose');
+
+function openSearch() {
+  searchBar.classList.add('open');
+  searchInput.focus();
+  hamburger.classList.remove('active');
+  navLinks.classList.remove('open');
+}
+
+function closeSearch() {
+  searchInput.value = '';
+  searchBar.classList.remove('open');
+  searchResults.classList.remove('visible');
+}
+
+searchToggle.addEventListener('click', openSearch);
+if (searchToggleDesktop) searchToggleDesktop.addEventListener('click', openSearch);
+searchClear.addEventListener('click', closeSearch);
+searchResultsClose.addEventListener('click', () => { searchResults.classList.remove('visible'); });
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeSearch(); searchResults.classList.remove('visible'); }
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+});
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function highlightText(text, query) {
+  const words = query.split(/\s+/).filter(w => w.length > 0);
+  let result = escapeHtml(text);
+  words.forEach(word => {
+    const re = new RegExp('(' + word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    result = result.replace(re, '<mark>$1</mark>');
+  });
+  return result;
+}
+
+const searchData = [
+  {title: '緊急通報番号', desc: '警察999、救急997、消防998、交通事故993'},
+  {title: '警察', desc: '犯罪被害・身の危険・トラブル。999に電話'},
+  {title: '救急車・医療', desc: '病気・怪我。997に電話。または病院のER'},
+  {title: '消防', desc: '火災・火事。998に電話'},
+  {title: '交通事故', desc: '車の事故。993に電話。警察も呼ぶ'},
+  {title: '在日本国大使館', desc: 'リヤド。+966-11-488-1100。緊急時は1110'},
+  {title: '在ジェッダ総領事館', desc: 'ジェッダ。+966-12-651-3850。西部地域担当'},
+  {title: '病院・医療', desc: 'King Faisal、King Fahad、Al Habib、Saudi German'},
+  {title: '薬局', desc: 'Al Dawaa、Nahdi。24時間営業店舗あり'},
+  {title: '海外旅行保険', desc: '医療費補償。24時間コールセンター。加入時の書類参照'},
+  {title: '在留届', desc: '到着後、大使館に届け出。緊急時連絡に必要'},
+  {title: 'たびレジ', desc: '渡航前登録で安全情報が定期配信'},
+  {title: 'Absher', desc: 'ビザ・イカマのオンラインポータル。absher.sa'},
+  {title: '労働苦情・給与', desc: '外国人向け労働相談。19911に電話'},
+  {title: '消費者保護', desc: '詐欺・不正販売。1900に電話'},
+  {title: '緊急時の心得', desc: 'パスポート・イカマ・保険証を常に携帯'},
+  {title: 'STC・Mobily・Zain', desc: '携帯キャリア。STC900、Mobily1100、Zain959'},
+  {title: 'スマートフォン登録', desc: '緊急連絡先をあらかじめ登録しておく'},
+];
+
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.trim().toLowerCase();
+  if (q.length < 1) { searchResults.classList.remove('visible'); return; }
+  const matches = searchData.filter(d =>
+    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q)
+  );
+  searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
+  searchResultsContent.innerHTML = matches.map(m =>
+    '<div style="padding:10px 0;border-bottom:1px solid var(--border-light);">' +
+      '<strong>' + highlightText(m.title, q) + '</strong>' +
+      '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
+    '</div>'
+  ).join('');
+  searchResults.classList.add('visible');
+});
+</script>
+
+</body>
+</html>

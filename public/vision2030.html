@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VISION 2030 | サウジナビ</title>
+<link rel="stylesheet" href="assets/shared.css">
+<style>
+.info-table { width:100%; font-size:var(--font-size-sm); border-collapse:collapse; }
+.info-table th { text-align:left; padding:8px 6px; color:var(--text-tertiary); font-weight:600; border-bottom:2px solid var(--border-light); }
+.info-table td { padding:7px 6px; border-bottom:1px solid var(--border-light); vertical-align:top; }
+.info-table tr:last-child td { border-bottom:none; }
+.section-title { font-size:1.1em; font-weight:700; color:var(--text-primary); margin:0 0 10px; padding-top:4px; }
+.sub-title { font-size:0.95em; font-weight:600; color:var(--accent); margin:12px 0 6px; }
+.compact-section { padding:8px 0; }
+.tip-box { padding:8px 12px; font-size:0.85em; color:var(--text-tertiary); background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 var(--radius-sm) var(--radius-sm) 0; margin-top:8px; }
+.card { background:var(--bg-tertiary); padding:12px; border-radius:var(--radius-sm); }
+.card-trio { display:grid; grid-template-columns:1fr; gap:12px; }
+@media (min-width:768px) { .card-trio { grid-template-columns:repeat(3, 1fr); } }
+.pillar-card { background:var(--bg-tertiary); padding:12px; border-radius:var(--radius-sm); border-top:4px solid var(--accent); }
+.pillar-card h4 { color:var(--text-primary); font-size:0.95em; font-weight:700; margin:0 0 8px; }
+.pillar-card p { font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.6; margin:0; }
+.achievement-badge { display:inline-block; background:var(--accent); color:white; padding:3px 8px; border-radius:3px; font-size:0.75em; font-weight:600; margin-right:4px; margin-bottom:4px; }
+.challenge-badge { display:inline-block; background:#ff7043; color:white; padding:3px 8px; border-radius:3px; font-size:0.75em; font-weight:600; margin-right:4px; margin-bottom:4px; }
+.project-grid { display:grid; grid-template-columns:1fr; gap:10px; }
+@media (min-width:768px) { .project-grid { grid-template-columns:repeat(2, 1fr); } }
+</style>
+</head>
+<body>
+
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="container">
+    <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
+    <p class="subtitle">サウジアラビア在住者・渡航予定者のための日本語生活情報ポータル</p>
+    <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 サウジナビ</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap">
+        <button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="vision2030.html" class="active">🏗️ VISION 2030</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+  </div>
+
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="vision2030.html" class="active">🏗️ VISION 2030</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+    <div class="search-wrap" style="margin-left:auto;">
+      <button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button>
+    </div>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <span class="search-icon-inner">🔍</span>
+    <input type="text" id="searchInput" placeholder="検索… (例: NEOM, 観光ビザ, Aramco, THE LINE)" autocomplete="off">
+    <button class="search-clear" id="searchClear">✕</button>
+  </div>
+</nav>
+
+<!-- Search Results Overlay -->
+<div class="search-results" id="searchResults">
+  <div class="search-results-inner">
+    <div class="search-results-header">
+      <h2 id="searchResultsTitle">検索結果</h2>
+      <button class="search-results-close" id="searchResultsClose">✕</button>
+    </div>
+    <div id="searchResultsContent"></div>
+  </div>
+</div>
+
+<main class="container">
+
+<!-- PAGE TITLE -->
+<section style="padding-top:20px; padding-bottom:0;">
+  <h2 style="font-size:1.4em; font-weight:700; color:var(--text-primary); margin-bottom:4px;">🏗️ VISION 2030 — サウジアラビアの国家変革計画</h2>
+  <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">2016年に発表されたサウジアラビアの長期国家戦略。石油依存からの脱却、経済多角化、社会開放を柱に、急速な変化が進行中です。</p>
+</section>
+
+<!-- ===== 1. VISION 2030とは ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">📋 VISION 2030とは</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      2016年4月、ムハンマド・ビン・サルマン皇太子（MBS）が発表した<strong>長期国家改革ビジョン</strong>です。サウジアラビアの基盤を「石油」から「多角化した経済」へシフトさせ、2030年までに社会・経済・国家体制の全面的な変革を目指しています。
+    </p>
+    <h4 class="sub-title">3つの柱</h4>
+    <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; margin:8px 0 0 16px;">
+      <li><strong>活気ある社会（Vibrant Society）</strong> — 文化・エンターテインメント解禁、女性の社会進出、観光産業化</li>
+      <li><strong>繁栄する経済（Thriving Economy）</strong> — 非石油収入の拡大、外国投資誘致、メガプロジェクト推進</li>
+      <li><strong>野心的な国家（Ambitious Nation）</strong> — 政府のデジタル化、透明性向上、効率的な行政改革</li>
+    </ul>
+    <div class="tip-box">💡 VISION 2030は単なる開発計画ではなく、サウジアラビアの社会体制そのものの変革を掲げています。在住者・訪問者にとって、この数年のサウジの変化は歴史的に重要な時期を過ごしていることを意味します。</div>
+  </div>
+</section>
+
+<!-- ===== 2. 3本柱の詳細 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🎯 3本柱の詳細</h3>
+    <div class="card-trio">
+      <div class="pillar-card">
+        <h4>🎭 活気ある社会（Vibrant Society）</h4>
+        <p>
+          <strong>文化・エンターテインメント解禁</strong> — 映画館の営業再開（2018年）、コンサート・ライブイベント誘致、スポーツメガイベント開催（ボクシング、テニス、eスポーツ等）
+        </p>
+        <p style="margin-top:8px;">
+          <strong>女性の社会進出</strong> — 女性運転免許取得許可（2018年）、スポーツイベント参観解禁、労働市場参加拡大、シネマでの女性向けスクリーニング
+        </p>
+        <p style="margin-top:8px;">
+          <strong>観光産業化</strong> — 観光ビザ解禁（2019年）、観光インフラ整備、紅海リゾート開発、歴史地区の観光化
+        </p>
+      </div>
+
+      <div class="pillar-card">
+        <h4>💰 繁栄する経済（Thriving Economy）</h4>
+        <p>
+          <strong>非石油収入の拡大</strong> — ビジネス環境の改善、起業支援、中小企業（SME）振興
+        </p>
+        <p style="margin-top:8px;">
+          <strong>外国直接投資（FDI）誘致</strong> — 外資規制の緩和、経済特区設立、サウジ・ビジョン実行委員会（GAVI）による投資促進
+        </p>
+        <p style="margin-top:8px;">
+          <strong>メガプロジェクト推進</strong> — NEOM、紅海プロジェクト、Qiddiya、Diriyah Gate等による雇用創出と経済活性化
+        </p>
+        <p style="margin-top:8px;">
+          <strong>民営化推進</strong> — Aramco IPO（2019年完了）による国営企業の証券化、公共サービス民営化
+        </p>
+      </div>
+
+      <div class="pillar-card">
+        <h4>🏛️ 野心的な国家（Ambitious Nation）</h4>
+        <p>
+          <strong>政府のデジタル化</strong> — e-Government推進、デジタルサービス統一プラットフォーム（ABSHER等）、オンライン行政手続き普及
+        </p>
+        <p style="margin-top:8px;">
+          <strong>透明性・効率性向上</strong> — 汚職防止、行政改革、予算管理の透明化
+        </p>
+        <p style="margin-top:8px;">
+          <strong>人的資本開発</strong> — 教育改革、職業訓練、デジタルスキル強化、「Nitaqat」によるサウジ化推進
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 3. メガプロジェクト一覧 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🌆 メガプロジェクト一覧</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      VISION 2030を象徴する大規模開発プロジェクト。これらは単なる建設事業ではなく、サウジアラビアの経済構造を変える戦略的投資です。
+    </p>
+
+    <table class="info-table" style="margin-top:8px;">
+      <tr>
+        <th style="width:20%;">プロジェクト</th>
+        <th style="width:35%;">概要</th>
+        <th style="width:25%;">進捗状況（2026年）</th>
+        <th style="width:20%;">期待される効果</th>
+      </tr>
+      <tr>
+        <td style="font-weight:600;">NEOM</td>
+        <td>紅海沿岸の砂漠に建設中の未来都市。THE LINE（全長170km直線都市、幅200m）、Oxagon（浮遊型工業都市）、Trojena（山岳リゾート）を含む。総投資額5000億ドル以上</td>
+        <td><span class="achievement-badge">建設進行中</span> THE LINEは規模縮小・段階開発へシフト、Trojejaは2029年冬季アジア大会会場</td>
+        <td>テクノロジー産業誘致、観光・レジャー産業化、新規雇用5万人以上</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600;">紅海プロジェクト（Red Sea Global）</td>
+        <td>紅海沿岸の50の島を開発し、ウルトララグジュアリーリゾートを建設。自然保護と高級観光の両立を標榜</td>
+        <td><span class="achievement-badge">段階開業中</span> 2024年に一部リゾート開業。サウジ人・国際観光客向け</td>
+        <td>観光業雇用、外貨獲得、ビーチリゾート産業確立</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600;">Qiddiya</td>
+        <td>リヤド郊外（西35km）のエンターテインメント・スポーツ・観光総合都市。Six Flagsテーマパーク、スポーツ施設、ホテル、住宅を予定</td>
+        <td><span class="achievement-badge">建設中</span> テーマパーク部分は2024年開設予定から延期、段階的オープン予定</td>
+        <td>リヤド圏域の観光・エンタメ産業化、地域経済活性化</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600;">Diriyah Gate</td>
+        <td>リヤド郊外の歴史地区（旧首都）の再開発。UNESCO世界遺産を中心に、文化・歴史観光、レストラン、ホテル、ショッピングを統合開発</td>
+        <td><span class="achievement-badge">段階開業中</span> 歴史地区の復元進行。文化施設・レストラン・ホテル段階開業</td>
+        <td>文化遺産観光、サウジアラビアのアイデンティティ強化</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600;">Jeddah Tower</td>
+        <td>ジェッダに建設予定の世界一の超高層ビル（予定高さ1000m以上）。混合用途（オフィス・ホテル・住宅・観光展望台）</td>
+        <td><span class="challenge-badge">進捗遅延</span> 建設再開の動き。完成予定時期は複数回延期</td>
+        <td>ジェッダの国際ハブ化、都市景観刷新</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600;">ROSHN</td>
+        <td>国営住宅開発プロジェクト。サウジの中産層向け手頃な住宅大量供給。複数地域で展開</td>
+        <td><span class="achievement-badge">進行中</span> リヤド・ジェッダ・東部地域で段階供給中</td>
+        <td>住宅不足解消、中産層の購買力強化、建設産業活性化</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600;">Saudi Aramco IPO</td>
+        <td>国営石油企業のIPO（2019年12月実施）。時価総額1兆8000億ドル超で世界有数の企業へ。政府の非石油ビジョン推進を象徴</td>
+        <td><span class="achievement-badge">完了</span> リヤドストック取引所（Tadawul）に上場。国内投資家・機関投資家が主</td>
+        <td>国家歳入確保、証券市場活性化、国営企業の民営化推進</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<!-- ===== 4. 実現済み・進行中の成果 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">✅ 2026年時点の実現状況</h3>
+
+    <h4 class="sub-title">実現済み（2016-2026）</h4>
+    <div style="display:grid; grid-template-columns:1fr; gap:8px; margin-bottom:12px;">
+      <div style="padding:10px; background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 3px 3px 0;">
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); margin:0; line-height:1.7;">
+          <span class="achievement-badge">観光ビザ解禁</span> 2019年9月より観光ビザの オンライン申請開始。現在も主流。年間観光客100万人以上受け入れ<br>
+          <span class="achievement-badge">エンターテインメント解禁</span> 映画館営業再開（2018年）、ライブコンサート定期開催、スポーツイベント誘致（ボクシング、テニス、F1等）<br>
+          <span class="achievement-badge">女性運転免許</span> 2018年6月より女性の運転免許取得可。現在も多くの女性ドライバーが増加中<br>
+          <span class="achievement-badge">映画館復活</span> 2018年1月の最初の映画館開館以来、全国で100軒超の映画館が営業<br>
+          <span class="achievement-badge">VAT導入</span> 2018年1月に15%のVAT（付加価値税）導入。基本的な食料品は免税<br>
+          <span class="achievement-badge">Aramco IPO完了</span> 2019年12月のIPO成功で国営企業民営化の象徴的事例に<br>
+          <span class="achievement-badge">リヤドシーズン</span> 冬季の大規模文化・スポーツイベント週間（毎年開催）。エンタメ産業化の代表例<br>
+          <span class="achievement-badge">サウジプロリーグの国際化</span> 大型投資により欧州のトップ選手を多数獲得。アジアの有力リーグへ成長
+        </p>
+      </div>
+    </div>
+
+    <h4 class="sub-title">進行中（2026年現在）</h4>
+    <div style="display:grid; grid-template-columns:1fr; gap:8px; margin-bottom:12px;">
+      <div style="padding:10px; background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 3px 3px 0;">
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); margin:0; line-height:1.7;">
+          <span class="achievement-badge">NEOM建設</span> 正式な建設段階へ。THE LINEは規模・段階を見直し、商業利用施設の先行開発を推進<br>
+          <span class="achievement-badge">紅海リゾート</span> 2024年開業の第1期に続き、段階的にリゾート数増加予定<br>
+          <span class="achievement-badge">Qiddiya建設</span> テーマパーク・スポーツ施設の段階的オープン進行中<br>
+          <span class="achievement-badge">2034 FIFAワールドカップ</span> 2034年開催国に決定。スタジアム・インフラ整備計画始動<br>
+          <span class="achievement-badge">2030年万博準備</span> リヤドでの開催に向け、大規模会場・アクセス整備が進行<br>
+          <span class="achievement-badge">Premium Residency</span> 高額投資家向けの長期滞在ビザ制度導入。富豪・起業家のサウジ進出増加
+        </p>
+      </div>
+    </div>
+
+    <h4 class="sub-title">課題・見直し</h4>
+    <div style="display:grid; grid-template-columns:1fr; gap:8px;">
+      <div style="padding:10px; background:var(--bg-secondary); border-left:3px solid #ff7043; border-radius:0 3px 3px 0;">
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); margin:0; line-height:1.7;">
+          <span class="challenge-badge">石油価格変動</span> 国家財政が油価に依存。2022-2023年の価格乱高下が投資計画に影響<br>
+          <span class="challenge-badge">メガプロジェクト遅延</span> NEOM・Qiddiya等の大型案件でスケジュール見直し・規模調整が相次ぐ<br>
+          <span class="challenge-badge">Jeddah Tower進捗遅延</span> 完成予定が複数回延期。技術的・財政的課題が報道される<br>
+          <span class="challenge-badge">労働力バランス</span> Nitaqat（サウジ化）と外国人労働者のバランス調整が課題。賃金格差・差別問題も存在<br>
+          <span class="challenge-badge">環境への懸念</span> 砂漠開発による生態系への影響、淡水化施設の大規模化等が議論対象
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 5. 日本人・日本企業への影響 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🇯🇵 日本人・日本企業への影響</h3>
+
+    <h4 class="sub-title">日本企業のサウジ進出増加</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
+      VISION 2030の推進に伴い、日本企業のサウジ進出が加速しています。特に<strong>インフラ・建設・エンジニアリング分野</strong>（大林組、鹿島、日本車両等）、<strong>観光・ホテル分野</strong>（marriott等の日本代理店）、<strong>エレクトロニクス・自動車</strong>分野での進出が著しいものです。
+    </p>
+
+    <h4 class="sub-title">JETRO（日本貿易振興機構）活動強化</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
+      JETROはリヤド・ジェッダに事務所を置き、日本企業のサウジ進出をサポート。展示会・ネットワーキングイベント・ビジネスマッチングを定期開催しています。
+    </p>
+
+    <h4 class="sub-title">日本・サウジ二国間協力</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
+      日本はサウジアラビアのVISION 2030実現に関連し、以下の分野で協力契約を締結しています：
+    </p>
+    <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; margin:8px 0 0 16px;">
+      <li><strong>インフラ・交通</strong> — メトロ・高速鉄道・都市交通システムの日本技術採用</li>
+      <li><strong>エネルギー</strong> — 水素・再生可能エネルギー開発での協力</li>
+      <li><strong>スマートシティ</strong> — IoT・AI・デジタル化技術の導入</li>
+      <li><strong>人材育成</strong> — 技能実習生受け入れ、技術者派遣、大学間交流</li>
+    </ul>
+
+    <h4 class="sub-title">日本人在住者への好機・チャンス</h4>
+    <div style="padding:10px; background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 3px 3px 0; margin-top:8px;">
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); margin:0; line-height:1.8;">
+        <strong>就職機会の拡大</strong> — 日本企業のサウジ駐在員需要増加。特に建設・エンジニアリング・営業職<br>
+        <strong>ビジネス展開の機会</strong> — 日本食レストラン、日本商品輸入・販売等の起業機会<br>
+        <strong>Premium Residency</strong> — 一定額の投資またはビジネス設立により、長期滞在ビザ（最大10年）取得が可能に<br>
+        <strong>社会開放の恩恵</strong> — エンターテインメント・観光施設の拡充で日本人在住者のQOL向上
+      </p>
+    </div>
+
+    <h4 class="sub-title">在住日本人コミュニティの成長</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
+      VISION 2030に関連する日本企業の進出増加に伴い、在住日本人数は2016年比で大幅に増加。日本人学校の拡張、日本人会の活動強化、日本食スーパーの開業等、日本人向けサービスも充実しています。
+    </p>
+
+    <div class="tip-box">💡 サウジアラビアの今後10年は、日本人にとって大きな経済的・キャリア的チャンスの時期と言えます。VISION 2030の進捗を理解することは、長期的なキャリア計画立案に有効です。</div>
+  </div>
+</section>
+
+<!-- ===== 6. 国際的な反応と評価 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🌍 国際的な反応と評価</h3>
+
+    <h4 class="sub-title">肯定的評価</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
+      <strong>経済の多角化推進</strong> — IMF、World Bank等の国際機関は、石油依存からの脱却努力を評価。ただし進捗速度への疑問も指摘されています。
+    </p>
+
+    <h4 class="sub-title">批判的指摘</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
+      <strong>人権問題</strong> — 国際人権団体は、女性・労働者・少数民族の権利向上は限定的であると指摘。メガプロジェクトでの労働搾取の疑いも報道されています。
+    </p>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
+      <strong>環境への懸念</strong> — 砂漠開発の生態系への影響、淡水化施設の大規模化等について環境団体が懸念を表明しています。
+    </p>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
+      <strong>財政の持続可能性</strong> — 低油価局面での大規模投資の継続可能性に関する疑問が経済専門家から出ています。
+    </p>
+
+    <div class="tip-box">💡 VISION 2030は革新的である一方、実行段階での課題も多数存在します。在住者・訪問者として、成果と課題の両方を理解して情報吸収することが重要です。</div>
+  </div>
+</section>
+
+<!-- ===== 7. VISION 2030と在住者の日常 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🏙️ VISION 2030と在住者の日常 — どう変わったか</h3>
+
+    <table class="info-table" style="margin-top:8px;">
+      <tr>
+        <th>分野</th>
+        <th>2016年以前</th>
+        <th>2026年現在</th>
+      </tr>
+      <tr>
+        <td style="font-weight:600;">エンターテインメント</td>
+        <td>映画館・コンサート・スポーツイベントなし。週末は家族で集まるのみ</td>
+        <td>映画館100軒超、定期的なコンサート・スポーツイベント開催。文化的選択肢が急増</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600;">女性の活動</td>
+        <td>運転免許取得不可。単独外出が制限される場合が多い</td>
+        <td>運転免許取得可。スポーツイベント参観、職場進出が増加。ただし保守的な家庭との二極化</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600;">観光インフラ</td>
+        <td>観光ビザなし。外国人受け入れ体制がない。</td>
+        <td>観光ビザ制度確立。ホテル・レストラン急増。リヤド・ジェッダ・紅海が観光地化</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600;">交通・都市開発</td>
+        <td>リヤドメトロ建設中。都市渋滞が深刻</td>
+        <td>リヤドメトロ一部開通。都市開発加速。NEOM・Qiddiya等の建設地が観光スポット化</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600;">ビジネス環境</td>
+        <td>官公庁のプロセス複雑。デジタル化進んでいない</td>
+        <td>デジタル化進展（ABSHER等）。起業サポート制度充実。外資投資規制緩和</td>
+      </tr>
+      <tr>
+        <td style="font-weight:600;">日本食・日本製品</td>
+        <td>限定的な入手。日本食レストランは少ない</td>
+        <td>日本食スーパー・レストラン拡大。日本製品の入手利便性向上。日本ブランド認知度上昇</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<!-- ===== 8. 2030年以降のビジョン ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🔮 2030年以降の展望</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      2030年は目標年であると同時に、次の段階への転換点となる可能性があります。サウジアラビアは既に「VISION 2030」の後続ビジョンについての検討を開始しており、以下の方向性が想定されています：
+    </p>
+    <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; margin:8px 0 0 16px;">
+      <li><strong>完了済みメガプロジェクトの本格稼働</strong> — NEOM・紅海リゾート・Qiddiya等が収益段階へ移行</li>
+      <li><strong>脱炭素化・グリーンエネルギー推進</strong> — 再生可能エネルギーへの大規模投資継続</li>
+      <li><strong>テクノロジー・AI産業の拡大</strong> — スマートシティ・AI・ロボティクス分野での産業育成</li>
+      <li><strong>地域的影響力の増強</strong> — 湾岸地域の経済・文化的リーダーシップ確立</li>
+    </ul>
+    <div class="tip-box">💡 サウジアラビアの長期戦略を理解することで、中東全体の経済・政治動向も見えやすくなります。VISION 2030は単なる国家計画ではなく、21世紀の中東の姿を形作る歴史的プロセスの一部です。</div>
+  </div>
+</section>
+
+<!-- NOTES -->
+<section class="compact-section" style="padding-bottom:20px;">
+  <div class="card" style="background:var(--bg-secondary); border-left:3px solid var(--accent);">
+    <p style="font-size:var(--font-size-sm); color:var(--text-tertiary); line-height:1.7;">
+      <strong>ご注意：</strong>VISION 2030に関する情報は随時更新されます。プロジェクトの進捗状況・予算配分・スケジュールは変動する可能性があります。最新情報は<a href="https://www.vision2030.gov.sa/" target="_blank" rel="noopener" style="color:var(--accent);">公式VISION 2030ウェブサイト</a>、<a href="https://www.spa.gov.sa/" target="_blank" rel="noopener" style="color:var(--accent);">Saudi Press Agency (SPA)</a>、JETRO等の公開情報をご確認ください。本ページの記述は2026年3月時点の情報に基づきます。
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer style="padding: 20px 0 16px;">
+  <div class="container" style="line-height:1.5;">
+    <p>サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
+    <p style="margin-top:3px;">重要事項は必ず公式情報をご確認ください。</p>
+    <p style="margin-top:6px;"><a href="about.html" style="color:var(--accent);text-decoration:none;">運営者情報</a>&emsp;<a href="disclaimer.html" style="color:var(--accent);text-decoration:none;">免責事項</a>&emsp;<a href="mailto:portal@rewah.life" style="color:var(--accent);text-decoration:none;">お問い合わせ</a></p>
+    <p style="margin-top:4px;opacity:0.5;">&copy; 2026 Saudi Navi / ReWAH</p>
+  </div>
+</footer>
+
+<script>
+// ===== HAMBURGER MENU =====
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('open');
+});
+
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('open');
+  });
+});
+
+// ===== SEARCH =====
+const searchToggle = document.getElementById('searchToggle');
+const searchToggleDesktop = document.getElementById('searchToggleDesktop');
+const searchBar = document.getElementById('searchBar');
+const searchInput = document.getElementById('searchInput');
+const searchClear = document.getElementById('searchClear');
+const searchResults = document.getElementById('searchResults');
+const searchResultsContent = document.getElementById('searchResultsContent');
+const searchResultsTitle = document.getElementById('searchResultsTitle');
+const searchResultsClose = document.getElementById('searchResultsClose');
+
+function openSearch() {
+  searchBar.classList.add('open');
+  searchInput.focus();
+  hamburger.classList.remove('active');
+  navLinks.classList.remove('open');
+}
+
+function closeSearch() {
+  searchInput.value = '';
+  searchBar.classList.remove('open');
+  searchResults.classList.remove('visible');
+}
+
+searchToggle.addEventListener('click', openSearch);
+if (searchToggleDesktop) searchToggleDesktop.addEventListener('click', openSearch);
+searchClear.addEventListener('click', closeSearch);
+searchResultsClose.addEventListener('click', () => { searchResults.classList.remove('visible'); });
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeSearch(); searchResults.classList.remove('visible'); }
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+});
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function highlightText(text, query) {
+  const words = query.split(/\s+/).filter(w => w.length > 0);
+  let result = escapeHtml(text);
+  words.forEach(word => {
+    const re = new RegExp('(' + word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    result = result.replace(re, '<mark>$1</mark>');
+  });
+  return result;
+}
+
+const searchData = [
+  {title: 'VISION 2030', desc: '2016年発表。石油依存からの脱却、経済多角化、社会開放を柱に'},
+  {title: '3つの柱', desc: '活気ある社会、繁栄する経済、野心的な国家'},
+  {title: '活気ある社会', desc: 'エンターテインメント解禁、女性の社会進出、観光開放'},
+  {title: '繁栄する経済', desc: '非石油収入拡大、外国投資誘致、メガプロジェクト推進'},
+  {title: 'NEOM', desc: '紅海沿岸の未来都市。THE LINE、Oxagon、Trojena'},
+  {title: 'THE LINE', desc: '全長170km直線都市。NEOM内の次世代都市'},
+  {title: '紅海プロジェクト', desc: '50の島を開発したウルトララグジュアリーリゾート'},
+  {title: 'Qiddiya', desc: 'リヤド郊外のエンターテインメント・スポーツ都市'},
+  {title: 'Diriyah Gate', desc: 'リヤド郊外の歴史地区再開発。UNESCO世界遺産'},
+  {title: 'Jeddah Tower', desc: '世界一の超高層ビル予定（1000m超）'},
+  {title: '観光ビザ解禁', desc: '2019年9月より観光ビザのオンライン申請開始'},
+  {title: '女性運転免許', desc: '2018年6月より女性の運転免許取得許可'},
+  {title: '映画館解禁', desc: '2018年1月に映画館営業再開。現在100軒超'},
+  {title: 'Aramco IPO', desc: '2019年12月に国営石油企業が上場'},
+  {title: 'リヤドシーズン', desc: '冬季の大規模文化・スポーツイベント週間'},
+  {title: '日本企業のサウジ進出', desc: 'インフラ・建設・エンターテインメント分野で加速'},
+  {title: 'Premium Residency', desc: '高額投資家向けの長期滞在ビザ制度'},
+  {title: '2034 FIFA World Cup', desc: 'サウジアラビアが開催国に決定'},
+  {title: '2030年万博', desc: 'リヤドでの開催に向け準備進行中'},
+  {title: 'Nitaqat', desc: 'サウジ人化政策。就職市場でのサウジ国民優遇'},
+];
+
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.trim().toLowerCase();
+  if (q.length < 1) { searchResults.classList.remove('visible'); return; }
+  const matches = searchData.filter(d =>
+    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q)
+  );
+  searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
+  searchResultsContent.innerHTML = matches.map(m =>
+    '<div style="padding:10px 0;border-bottom:1px solid var(--border-light);">' +
+      '<strong>' + highlightText(m.title, q) + '</strong>' +
+      '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
+    '</div>'
+  ).join('');
+  searchResults.classList.add('visible');
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>通貨・銀行・決済 | サウジナビ</title>
+<link rel="stylesheet" href="assets/shared.css">
+<style>
+.info-table { width:100%; font-size:var(--font-size-sm); border-collapse:collapse; }
+.info-table th { text-align:left; padding:8px 6px; color:var(--text-tertiary); font-weight:600; border-bottom:2px solid var(--border-light); }
+.info-table td { padding:7px 6px; border-bottom:1px solid var(--border-light); vertical-align:top; }
+.info-table tr:last-child td { border-bottom:none; }
+.section-title { font-size:1.1em; font-weight:700; color:var(--text-primary); margin:0 0 10px; padding-top:4px; }
+.sub-title { font-size:0.95em; font-weight:600; color:var(--accent); margin:12px 0 6px; }
+.compact-section { padding:8px 0; }
+.tip-box { padding:8px 12px; font-size:0.85em; color:var(--text-tertiary); background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 var(--radius-sm) var(--radius-sm) 0; margin-top:8px; }
+</style>
+</head>
+<body>
+
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="container">
+    <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
+    <p class="subtitle">サウジアラビア在住者・渡航予定者のための日本語生活情報ポータル</p>
+    <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 サウジナビ</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap">
+        <button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="money.html" class="active">💰 通貨・銀行</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+  </div>
+
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="money.html" class="active">💰 通貨・銀行</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+    <div class="search-wrap" style="margin-left:auto;">
+      <button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button>
+    </div>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <span class="search-icon-inner">🔍</span>
+    <input type="text" id="searchInput" placeholder="検索… (例: リヤル, ATM, クレジットカード)" autocomplete="off">
+    <button class="search-clear" id="searchClear">✕</button>
+  </div>
+</nav>
+
+<!-- Search Results Overlay -->
+<div class="search-results" id="searchResults">
+  <div class="search-results-inner">
+    <div class="search-results-header">
+      <h2 id="searchResultsTitle">検索結果</h2>
+      <button class="search-results-close" id="searchResultsClose">✕</button>
+    </div>
+    <div id="searchResultsContent"></div>
+  </div>
+</div>
+
+<main class="container">
+
+<!-- PAGE TITLE -->
+<section style="padding-top:20px; padding-bottom:0;">
+  <h2 style="font-size:1.4em; font-weight:700; color:var(--text-primary); margin-bottom:4px;">💰 通貨・銀行・決済 — お金まわりの基礎知識</h2>
+  <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">サウジアラビアでの両替、銀行口座、支払方法を完全解説。キャッシュレス化が進む中での最新情報をまとめました。</p>
+</section>
+
+<!-- ===== 1. 通貨（サウジ・リヤル） ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">💵 通貨（サウジ・リヤル / SAR）</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアの通貨は<strong>サウジ・リヤル（Saudi Riyal、略記SAR）</strong>です。1リヤル＝100ハララ。リヤルはUS ドルに固定相場で連動しており、<strong>1 USD = 3.75 SAR（固定）</strong>です。そのため、サウジでのドル相場の変動はありません。
+    </p>
+
+    <h4 class="sub-title">紙幣と硬貨</h4>
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th>種類</th><th>額面</th><th>特徴</th></tr>
+      <tr><td>紙幣</td><td>1, 5, 10, 50, 100, 200, 500 SAR</td><td>カラフルで識別しやすい。500SAR札は珍しい</td></tr>
+      <tr><td>硬貨</td><td>1, 5, 10, 25, 50 ハララ（1SAR）</td><td>ほぼ使われない。おつりでもらうことはあるが、店員も対応が曖昧</td></tr>
+    </table>
+    <div class="tip-box">💡 硬貨は持つ必要なし。紙幣のみで生活できます。小銭はまとめて寄付するか、次の両替時に紙幣に替えてもらいましょう。</div>
+
+    <h4 class="sub-title">日本円との相場（2026年3月時点）</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      <strong>1 SAR ≈ 40円前後</strong>（USD/JPY連動）。このレートはドル円相場に応じて日々変動します。正確な相場は銀行やXEなどのレート確認サイトで確認してください。例：100SAR ≈ 4,000円、1,000SAR ≈ 40,000円が目安です。
+    </p>
+  </div>
+</section>
+
+<!-- ===== 2. 両替 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🏛️ 両替（日本円 → サウジ・リヤル）</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアで日本円をリヤルに両替する方法は複数あります。レートと手数料は場所によって異なるため、目的と状況に応じて選択してください。
+    </p>
+
+    <h4 class="sub-title">両替の場所と特徴</h4>
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th>場所</th><th>レート</th><th>手数料</th><th>営業時間</th><th>備考</th></tr>
+      <tr><td><strong>空港の両替所</strong></td><td>悪い</td><td>あり（ただし表示なし）</td><td>24時間</td><td>便利だが、他より3-5%損</td></tr>
+      <tr><td><strong>市中の両替所</strong><br/>（Enjaz, Al Rajhi等）</td><td>良い</td><td>最小限</td><td>9:00-17:00<br/>（金曜休）</td><td>最も利用者が多く、レート良好</td></tr>
+      <tr><td><strong>銀行</strong></td><td>中程度</td><td>あり</td><td>営業時間<br/>による</td><td>口座開設者向け。手数料かかることが多い</td></tr>
+      <tr><td><strong>ATM（国際カード）</strong></td><td>最良</td><td>カード発行元の手数料のみ</td><td>24時間</td><td>最も効率的。手数料はカード発行元次第</td></tr>
+    </table>
+
+    <h4 class="sub-title">日本円からの両替に関する注意</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:10px;">
+      日本円からサウジ・リヤルへの<strong>直接両替は難しい場合がある</strong>ため、米ドル経由が確実です。日本で日本円をドルに両替してからサウジで両替するか、サウジの空港でドルに両替してから現地の両替所で処理するのが安心です。
+    </p>
+
+    <div class="tip-box">💡 最もお得なのはサウジ到着後すぐにATMで国際カード（VISA/Mastercard）から現地通貨を引き出すこと。両替所や空港のレートより有利で、手続きが簡潔です。</div>
+  </div>
+</section>
+
+<!-- ===== 3. ATM ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🏧 ATM（現金引き出し）</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      ATMは街中に多数あり、24時間利用可能。国際カード（VISA、Mastercard、JCB）に対応したATMがほとんどのショッピングモール、銀行、駅、空港にあります。これが最も手軽で効率的な現金入手方法です。
+    </p>
+
+    <h4 class="sub-title">ATM利用時の注意点</h4>
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th>項目</th><th>内容</th></tr>
+      <tr><td><strong>対応カード</strong></td><td>VISA、Mastercard、JCB（推奨）。AMEXは非対応の場合が多い</td></tr>
+      <tr><td><strong>1回の引き出し上限</strong></td><td>通常5,000SAR（約200,000円）が上限</td></tr>
+      <tr><td><strong>手数料</strong></td><td>カード発行元による。日本の銀行の国際ATM手数料（通常100-200円）+両替手数料</td></tr>
+      <tr><td><strong>安全性</strong></td><td>繁華街や大型モール内のATMを使用。夜間の単独利用は避ける</td></tr>
+      <tr><td><strong>言語</strong></td><td>英語が基本だが、選択可能な場合も。操作は日本と同じ</td></tr>
+    </table>
+
+    <div class="tip-box">💡 通常は5,000SAR（約200,000円）程度を週1回引き出すのが目安。複数回小分けするより、銀行の手数料体系に応じて判断しましょう。</div>
+  </div>
+</section>
+
+<!-- ===== 4. クレジットカード・デビットカード ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">💳 クレジットカード・デビットカード</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアはキャッシュレス化が進んでおり、クレジットカードやデビットカードはどこでも使えます。ただし、カード種によって対応状況が異なります。
+    </p>
+
+    <h4 class="sub-title">カード種別の対応状況</h4>
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th>カード種</th><th>対応度</th><th>説明</th></tr>
+      <tr><td><strong>VISA</strong></td><td>◎ 広く使える</td><td>最も使える。ほぼすべての店、レストラン、ホテルで対応</td></tr>
+      <tr><td><strong>Mastercard</strong></td><td>◎ 広く使える</td><td>VISAと同等。北米圏より若干対応率は下だが問題なし</td></tr>
+      <tr><td><strong>JCB</strong></td><td>△ 一部対応</td><td>大型チェーンやホテルでは使えるが、小売店は対応していない場合も</td></tr>
+      <tr><td><strong>AMEX</strong></td><td>✕ ほぼ使えない</td><td><strong>AMEXは使えないことが多いため非推奨</strong></td></tr>
+    </table>
+
+    <h4 class="sub-title">スマートフォン決済</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:10px;">
+      Apple Pay、Google Payの対応店舗が急速に増加中です。MADA（サウジ国内デビットネットワーク）に登録されたカードで利用可能。ただし日本から持ち込んだカードは設定が複雑なため、現地銀行口座取得後の利用が実用的です。
+    </p>
+
+    <div class="tip-box">💡 日本から持参するなら<strong>VISA/Mastercard対応のクレジットカードまたはデビットカードが必須</strong>。JCBは補備的に。AMEXは持ち込まないことをお勧めします。複数枚の持参が安心です。</div>
+  </div>
+</section>
+
+<!-- ===== 5. 決済アプリ ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">📱 モバイル決済・支払アプリ</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアはQRコード決済やモバイルウォレットが急速に普及しています。現地の銀行口座がある場合、以下のアプリが利用できます。
+    </p>
+
+    <h4 class="sub-title">主要な支払アプリ</h4>
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th>アプリ名</th><th>機能</th><th>対応銀行</th><th>特徴</th></tr>
+      <tr><td><strong>STCpay</strong></td><td>送金・決済・チャージ</td><td>全銀行対応</td><td>最大手。QRコード決済、請求書払い、国際送金にも対応</td></tr>
+      <tr><td><strong>Urpay</strong></td><td>送金・決済</td><td>Al Rajhi銀行系</td><td>Al Rajhi銀行ユーザーには使いやすい</td></tr>
+      <tr><td><strong>mada Pay</strong></td><td>QRコード決済</td><td>MADA対応カード</td><td>サウジ国内デビット決済ネットワーク。対応店舗拡大中</td></tr>
+      <tr><td><strong>Apple Pay / Google Pay</strong></td><td>タッチレス決済</td><td>主要銀行対応</td><td>対応店舗が急速に増加。便利だが設定にはサウジ銀行口座が必要</td></tr>
+    </table>
+
+    <div class="tip-box">💡 到着直後は現金とクレジットカードで十分。銀行口座開設後、STCpayやmada Payをインストールすると日常生活がより便利になります。</div>
+  </div>
+</section>
+
+<!-- ===== 6. 主要銀行 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🏦 主要銀行と口座開設</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアには複数の商業銀行があります。給与振込口座が必要になる場合が多いため、イカマ（在留許可証）取得後、各銀行で口座開設できます。
+    </p>
+
+    <h4 class="sub-title">主要商業銀行</h4>
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th>銀行名</th><th>アラビア語</th><th>特徴</th></tr>
+      <tr><td><strong>Al Rajhi Bank</strong></td><td>البنك الراجحي</td><td>サウジ最大のイスラム銀行。外国人にも利用しやすい。支店多数</td></tr>
+      <tr><td><strong>Saudi National Bank (SNB)</strong></td><td>البنك الأهلي السعودي</td><td>旧NCB。サウジ最大の商業銀行。給与振込実績多数</td></tr>
+      <tr><td><strong>Riyad Bank</strong></td><td>بنك الرياض</td><td>中堅銀行。サービス良好。リヤド地域で利用者が多い</td></tr>
+      <tr><td><strong>Banque Saudi Fransi (BSF)</strong></td><td>البنك السعودي الفرنسي</td><td>フランス系銀行。国際送金サービスに強み</td></tr>
+      <tr><td><strong>Arab National Bank (ANB)</strong></td><td>البنك العربي الوطني</td><td>中堅銀行。顧客サービス定評あり</td></tr>
+    </table>
+
+    <h4 class="sub-title">口座開設に必要なもの</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:10px;">
+      <strong>イカマ（Iqama / 在留許可証）</strong>、パスポート、現住所を示す書類（契約書など）、雇用者からの推薦状（就業者の場合）。各銀行により細部が異なるため、事前に確認してください。
+    </p>
+
+    <h4 class="sub-title">銀行口座のメリット</h4>
+    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px 0;">
+      • <strong>給与振込</strong>：給与はほぼ全て銀行口座への振込（現金支払いはまれ）<br/>
+      • <strong>オンラインバンキング</strong>：各銀行のアプリは使いやすく、残高確認・送金が簡単<br/>
+      • <strong>デビットカード</strong>：通常、口座開設時に発行される。MADA（国内）とVISA/Mastercard（国際）対応<br/>
+      • <strong>国際送金</strong>：銀行送金、Western Union、Al Rajhi Exchangeなど複数選択肢あり<br/>
+      • <strong>クレジットカード申請</strong>：口座開設6ヶ月後から申請可能な銀行が多い
+    </div>
+
+    <div class="tip-box">💡 就業者であれば、雇用開始時に会社がいずれかの銀行との提携関係があることが多いため、会社の指定銀行で開設するのが効率的です。</div>
+  </div>
+</section>
+
+<!-- ===== 7. 送金（日本への送金方法） ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🌍 国際送金（日本への送金）</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアから日本への送金方法は複数あります。手数料と着金時間のバランスを考慮して選択してください。
+    </p>
+
+    <h4 class="sub-title">送金方法と比較</h4>
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th>方法</th><th>手数料</th><th>着金時間</th><th>最小送金額</th><th>備考</th></tr>
+      <tr><td><strong>銀行送金</strong></td><td>50-100SAR（仲介銀行手数料別）</td><td>3-5営業日</td><td>特に制限なし</td><td>正確だが手続きが煩雑。中間銀行の手数料が上乗せされることがある</td></tr>
+      <tr><td><strong>Wise（旧TransferWise）</strong></td><td>安い（リアルレート+0.7%）</td><td>1-2営業日</td><td>特に制限なし</td><td>レート有利。アプリ利用で手続き簡単。サウジ未対応の場合あり、確認推奨</td></tr>
+      <tr><td><strong>Western Union</strong></td><td>30-50SAR + 送金額の％</td><td>数時間〜1日</td><td>100SAR以上</td><td>速いが手数料割高。小額送金向き</td></tr>
+      <tr><td><strong>Al Rajhi Exchange</strong></td><td>30-50SAR程度</td><td>1-2営業日</td><td>500SAR以上推奨</td><td>Al Rajhi銀行ユーザーに有利。複数の提携銀行へ対応</td></tr>
+    </table>
+
+    <div class="tip-box">💡 家族への定期送金なら<strong>銀行の国際送金</strong>か<strong>Wiseなどのフィンテック</strong>サービスが便利。緊急時で金額が小さければWestern Unionが速い。事前に複数試して最適な方法を見つけましょう。</div>
+  </div>
+</section>
+
+<!-- ===== 8. VAT（付加価値税） ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🛒 VAT（付加価値税）と免税制度</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアは2018年にVAT（Value Added Tax）を導入し、2020年に税率が引き上げられました。表示価格はVAT込みのことがほとんどです。
+    </p>
+
+    <h4 class="sub-title">VATの基本情報</h4>
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th>項目</th><th>内容</th></tr>
+      <tr><td><strong>導入年</strong></td><td>2018年1月</td></tr>
+      <tr><td><strong>税率（2020年以降）</strong></td><td><strong>15%</strong>（以前は5%）</td></tr>
+      <tr><td><strong>表示方式</strong></td><td>店頭表示はVAT込み価格。レシートに「VAT」と明記</td></tr>
+    </table>
+
+    <h4 class="sub-title">VAT対象 / 非対象</h4>
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th>対象</th><th>非対象・一部免税</th></tr>
+      <tr><td>衣料品、電化製品、嗜好品、外食</td><td>基本食料品（米、小麦粉、鶏卵など）</td></tr>
+      <tr><td>ホテル、観光サービス</td><td>医療サービス</td></tr>
+      <tr><td>ガソリン、タクシー</td><td>教育（一部）</td></tr>
+    </table>
+
+    <h4 class="sub-title">観光客向け免税制度（Tax Free）</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:10px;">
+      2024年より、観光客を対象とした免税制度（Tax Free Refund）が開始されました。対象店舗で単一レシート500SAR以上の購入時に、VAT（15%）の返金を受けられます。出国時にレシートと商品を提示して払い戻し手続きを行ってください。詳細は各店舗またはサウジ観光委員会のウェブサイトで確認してください。
+    </p>
+
+    <div class="tip-box">💡 生活者は免税制度の対象外（ビザの種類により異なることがあるため、確認推奨）。VAT15%を含む価格として予算を立てましょう。</div>
+  </div>
+</section>
+
+<!-- ===== 9. チップ文化 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🤝 チップ文化</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアではチップは<strong>義務ではありませんが、サービスへの感謝として一般的</strong>です。西洋文化の影響が強く、サービス業界では期待されることが多くなっています。
+    </p>
+
+    <h4 class="sub-title">シーン別チップの目安</h4>
+    <table class="info-table" style="margin-top:8px;">
+      <tr><th>シーン</th><th>目安</th><th>説明</th></tr>
+      <tr><td><strong>レストラン</strong></td><td>10-15%</td><td>高級店は15%、カジュアルな店は10%。現金か請求書に追加</td></tr>
+      <tr><td><strong>カフェ</strong></td><td>1-2SAR</td><td>カウンター払いの場合、簡単に小銭を置く</td></tr>
+      <tr><td><strong>ホテル</strong></td><td>ポーター：5-10SAR<br/>ハウスキーピング：5-10SAR/泊</td><td>ポーターは荷物を運んだ時に、清掃スタッフは毎日</td></tr>
+      <tr><td><strong>タクシー</strong></td><td>端数切り上げ</td><td>メーター金額を切り上げる。例：48SAR → 50SAR</td></tr>
+      <tr><td><strong>美容院・マッサージ</strong></td><td>10-15%</td><td>満足度に応じて</td></tr>
+      <tr><td><strong>ガソリンスタンド・駐車係</strong></td><td>2-5SAR</td><td>ガソリン満タン時、駐車料金の後に小銭を</td></tr>
+    </table>
+
+    <h4 class="sub-title">チップの払い方</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:10px;">
+      • <strong>現金</strong>：テーブルまたはカウンターに直接置く<br/>
+      • <strong>カード払い</strong>：レシップに「Tip」欄があり、金額を書き込んで署名。その場で了承されることが多い<br/>
+      • <strong>デジタル決済</strong>：STCpayやmada Payでもチップ欄がある場合あり
+    </p>
+
+    <div class="tip-box">💡 チップは感謝の表現。良いサービスを受けたら払う、そうでなければ払わないで大丈夫。額の厳密さより、気持ちが大切です。</div>
+  </div>
+</section>
+
+<!-- NOTES -->
+<section class="compact-section" style="padding-bottom:20px;">
+  <div class="card" style="background:var(--bg-secondary); border-left:3px solid var(--accent);">
+    <p style="font-size:var(--font-size-sm); color:var(--text-tertiary); line-height:1.7;">
+      <strong>ご注意：</strong>為替レートは日々変動します。最新の相場は<a href="https://www.xe.com/" target="_blank" rel="noopener" style="color:var(--accent);">XE.com</a>や各銀行のウェブサイトでご確認ください。カード対応状況は店舗や時期により変わることがあります。不明な点は店員に確認するか、現地の日本人コミュニティで最新情報を共有してもらうことをお勧めします。
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer style="padding: 20px 0 16px;">
+  <div class="container" style="line-height:1.5;">
+    <p>サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
+    <p style="margin-top:3px;">重要事項は必ず公式情報をご確認ください。</p>
+    <p style="margin-top:6px;"><a href="about.html" style="color:var(--accent);text-decoration:none;">運営者情報</a>&emsp;<a href="disclaimer.html" style="color:var(--accent);text-decoration:none;">免責事項</a>&emsp;<a href="mailto:portal@rewah.life" style="color:var(--accent);text-decoration:none;">お問い合わせ</a></p>
+    <p style="margin-top:4px;opacity:0.5;">&copy; 2026 Saudi Navi / ReWAH</p>
+  </div>
+</footer>
+
+<script>
+// ===== HAMBURGER MENU =====
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('open');
+});
+
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('open');
+  });
+});
+
+// ===== SEARCH =====
+const searchToggle = document.getElementById('searchToggle');
+const searchToggleDesktop = document.getElementById('searchToggleDesktop');
+const searchBar = document.getElementById('searchBar');
+const searchInput = document.getElementById('searchInput');
+const searchClear = document.getElementById('searchClear');
+const searchResults = document.getElementById('searchResults');
+const searchResultsContent = document.getElementById('searchResultsContent');
+const searchResultsTitle = document.getElementById('searchResultsTitle');
+const searchResultsClose = document.getElementById('searchResultsClose');
+
+function openSearch() {
+  searchBar.classList.add('open');
+  searchInput.focus();
+  hamburger.classList.remove('active');
+  navLinks.classList.remove('open');
+}
+
+function closeSearch() {
+  searchInput.value = '';
+  searchBar.classList.remove('open');
+  searchResults.classList.remove('visible');
+}
+
+searchToggle.addEventListener('click', openSearch);
+if (searchToggleDesktop) searchToggleDesktop.addEventListener('click', openSearch);
+searchClear.addEventListener('click', closeSearch);
+searchResultsClose.addEventListener('click', () => { searchResults.classList.remove('visible'); });
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeSearch(); searchResults.classList.remove('visible'); }
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+});
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function highlightText(text, query) {
+  const words = query.split(/\s+/).filter(w => w.length > 0);
+  let result = escapeHtml(text);
+  words.forEach(word => {
+    const re = new RegExp('(' + word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    result = result.replace(re, '<mark>$1</mark>');
+  });
+  return result;
+}
+
+const searchData = [
+  {title: 'サウジ・リヤル（SAR）', desc: '通貨単位。1SAR=100ハララ、1USD=3.75SAR固定'},
+  {title: 'リヤル相場（日本円）', desc: '2026年3月時点で1SAR≈40円（USD/JPY連動）'},
+  {title: '紙幣', desc: '1,5,10,50,100,200,500SAR。硬貨はほぼ使われない'},
+  {title: '両替所', desc: 'Enjaz、Al Rajhi Exchange等。レート比較が重要'},
+  {title: 'ATM', desc: '24時間利用可。国際カード対応。1回上限5,000SAR'},
+  {title: 'クレジットカード', desc: 'VISA/Mastercard○、JCB△、AMEX使えない'},
+  {title: 'STCpay', desc: '最大手の決済アプリ。QRコード決済、国際送金対応'},
+  {title: 'Al Rajhi Bank', desc: '最大のイスラム銀行。外国人にも利用しやすい'},
+  {title: 'Saudi National Bank', desc: '旧NCB。最大の商業銀行。給与振込実績多数'},
+  {title: 'イカマ（Iqama）', desc: '在留許可証。銀行口座開設に必要'},
+  {title: '国際送金', desc: '銀行送金、Wise、Western Union、Al Rajhi Exchangeから選択'},
+  {title: 'VAT', desc: '15%の付加価値税。2018年導入、2020年に15%に引上げ'},
+  {title: '免税制度（Tax Free）', desc: '2024年開始。観光客向け。500SAR以上の購入で対象'},
+  {title: 'チップ', desc: 'レストラン10-15%、ホテルポーター5-10SAR、タクシーは端数切り上げ'},
+  {title: 'Wise', desc: '国際送金サービス。レート有利。着金1-2営業日'},
+  {title: 'mada Pay', desc: 'QRコード決済。MADAデビット対応。対応店舗拡大中'},
+  {title: 'Apple Pay / Google Pay', desc: '対応店舗増加中。設定にはサウジ銀行口座が必要'},
+  {title: 'Western Union', desc: '速い国際送金。手数料割高。小額送金向き'},
+];
+
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.trim().toLowerCase();
+  if (q.length < 1) { searchResults.classList.remove('visible'); return; }
+  const matches = searchData.filter(d =>
+    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q)
+  );
+  searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
+  searchResultsContent.innerHTML = matches.map(m =>
+    '<div style="padding:10px 0;border-bottom:1px solid var(--border-light);">' +
+      '<strong>' + highlightText(m.title, q) + '</strong>' +
+      '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
+    '</div>'
+  ).join('');
+  searchResults.classList.add('visible');
+});
+</script>
+
+</body>
+</html>

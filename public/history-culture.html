@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>歴史・文化 | サウジナビ</title>
+<link rel="stylesheet" href="assets/shared.css">
+<style>
+.info-table { width:100%; font-size:var(--font-size-sm); border-collapse:collapse; }
+.info-table th { text-align:left; padding:8px 6px; color:var(--text-tertiary); font-weight:600; border-bottom:2px solid var(--border-light); }
+.info-table td { padding:7px 6px; border-bottom:1px solid var(--border-light); vertical-align:top; }
+.info-table tr:last-child td { border-bottom:none; }
+.section-title { font-size:1.1em; font-weight:700; color:var(--text-primary); margin:0 0 10px; padding-top:4px; }
+.sub-title { font-size:0.95em; font-weight:600; color:var(--accent); margin:12px 0 6px; }
+.compact-section { padding:8px 0; }
+.tip-box { padding:8px 12px; font-size:0.85em; color:var(--text-tertiary); background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 var(--radius-sm) var(--radius-sm) 0; margin-top:8px; }
+.card { background:var(--bg-primary); padding:12px; border-radius:var(--radius-sm); margin-bottom:8px; }
+</style>
+</head>
+<body>
+
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="container">
+    <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
+    <p class="subtitle">サウジアラビア在住者・渡航予定者のための日本語生活情報ポータル</p>
+    <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 サウジナビ</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap">
+        <button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <a href="history-culture.html" class="active">🕌 歴史・文化</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+  </div>
+
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <a href="history-culture.html" class="active">🕌 歴史・文化</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+    <div class="search-wrap" style="margin-left:auto;">
+      <button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button>
+    </div>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <span class="search-icon-inner">🔍</span>
+    <input type="text" id="searchInput" placeholder="検索… (例: イスラム, 王室, ハッジ, 世界遺産)" autocomplete="off">
+    <button class="search-clear" id="searchClear">✕</button>
+  </div>
+</nav>
+
+<!-- Search Results Overlay -->
+<div class="search-results" id="searchResults">
+  <div class="search-results-inner">
+    <div class="search-results-header">
+      <h2 id="searchResultsTitle">検索結果</h2>
+      <button class="search-results-close" id="searchResultsClose">✕</button>
+    </div>
+    <div id="searchResultsContent"></div>
+  </div>
+</div>
+
+<main class="container">
+
+<!-- PAGE TITLE -->
+<section style="padding-top:20px; padding-bottom:0;">
+  <h2 style="font-size:1.4em; font-weight:700; color:var(--text-primary); margin-bottom:4px;">🕌 歴史と文化 — サウジアラビアを知る</h2>
+  <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">古代ナバテア文明から現代VISION 2030へ。イスラムの中心地として、そして急速に発展する経済大国として、サウジアラビアの歴史と文化を深く理解することは、この国での生活をより豊かにします。</p>
+</section>
+
+<!-- ===== 1. 略史 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">📚 サウジアラビアの略史</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      アラビア半島の歴史は数千年に遡ります。以下は主要な転機です。
+    </p>
+    <table class="info-table">
+      <tr><th style="width:15%;">時期</th><th>出来事</th></tr>
+      <tr><td><strong>紀元前の古代</strong></td><td>ナバテア王国が繁栄。マダインサーレハは交易路の要衝として栄える</td></tr>
+      <tr><td><strong>7世紀</strong></td><td>イスラム教発祥。預言者ムハンマドがマッカでイスラム教を創始。メディナでイスラム政体確立</td></tr>
+      <tr><td><strong>18世紀中盤</strong></td><td>第一次サウジ王国成立。ムハンマド・イブン・サウード家がムハンマド・イブン・アブドゥルワッハーブと連携し、アラビア半島統一を開始</td></tr>
+      <tr><td><strong>19〜20世紀初頭</strong></td><td>オスマン帝国の衰退。アラビア半島は地域勢力に分裂</td></tr>
+      <tr><td><strong>1932年</strong></td><td><strong>サウジアラビア王国建国</strong>。アブドゥルアジーズ・イブン・サウード国王がアラビア半島を統一</td></tr>
+      <tr><td><strong>1938年</strong></td><td><strong>石油発見</strong>。ダンマーム油田でアラムコ（ARAMCO）が大規模油田を確認。石油産業のスタート</td></tr>
+      <tr><td><strong>1950〜1970年代</strong></td><td>石油収入による急速な経済成長。インフラ整備と産業化が加速</td></tr>
+      <tr><td><strong>1973年</strong></td><td><strong>オイルショック</strong>。石油禁輸によりサウジが国際経済の中心舞台へ。OPEC加盟国として影響力増大</td></tr>
+      <tr><td><strong>2000年代</strong></td><td>教育改革。観光の限定的受け入れ開始</td></tr>
+      <tr><td><strong>2016年</strong></td><td><strong>VISION 2030発表</strong>。ムハンマド・ビン・サルマン皇太子が社会・経済改革を宣言</td></tr>
+      <tr><td><strong>2019年</strong></td><td><strong>観光ビザ解禁</strong>。非ムスリム外国人に初めて観光ビザを発給。女性の就業拡大、社会改革加速</td></tr>
+      <tr><td><strong>2023年以降</strong></td><td>MBS主導による社会改革続行。エンターテインメント、スポーツの急速な発展</td></tr>
+    </table>
+    <div class="tip-box">💡 1932年の建国と1938年の石油発見が、現在のサウジアラビアの基礎を形作りました。</div>
+  </div>
+</section>
+
+<!-- ===== 2. 王室と政治体制 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">👑 王室と政治体制</h3>
+
+    <h4 class="sub-title">サウード家の統治</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアはサウード（Al Saud）家による絶対君主制の国です。1932年の建国以来、この王族が統治を続けています。現在の国王はサルマン・ビン・アブドゥルアジーズ国王（2015年就位）で、実質的な権力はムハンマド・ビン・サルマン皇太子（略称MBS）が主導する改革を通じて行使されています。
+    </p>
+
+    <h4 class="sub-title">国王と皇太子の役割</h4>
+    <table class="info-table" style="margin-top:4px;">
+      <tr><th>地位</th><th>現在の人物</th><th>役割</th></tr>
+      <tr><td><strong>国王</strong></td><td>サルマン・ビン・アブドゥルアジーズ</td><td>国家の最高指導者。宗教的権威と政治権力を兼ね備える</td></tr>
+      <tr><td><strong>皇太子</strong></td><td>ムハンマド・ビン・サルマン（MBS）</td><td>後継者。VISION 2030の主導者。実質的な社会経済改革を推進</td></tr>
+    </table>
+
+    <h4 class="sub-title">基本統治法と諮問評議会</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+      サウジアラビアは成文憲法を持たず、1992年に制定された「基本統治法」と「統治評議会法」を国家の基本法としています。クルアーン（イスラムの聖典）とスンナ（預言者ムハンマドの言行）も統治の根拠となります。
+    </p>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      <strong>諮問評議会（シューラ会議）</strong>は150名の委員で構成され、経済、社会、法律問題について国王に助言します。ただし、最終的な決定権は国王にあります。
+    </p>
+
+    <div class="tip-box">💡 サウジアラビアは民主的な選挙制度を持たない絶対君主制ですが、国王と皇太子を中心とした意思決定体制が国家を統治しています。</div>
+  </div>
+</section>
+
+<!-- ===== 3. イスラムと二聖モスク ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🕌 イスラムと二聖モスクの管理者</h3>
+
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアはイスラム教の発祥の地です。預言者ムハンマドはマッカで生まれ、ここからイスラム信仰が広がりました。現在、サウジは<strong>二聖モスク（Holy Two Mosques）</strong>の管理者として、イスラム世界で特別な地位を占めています。
+    </p>
+
+    <h4 class="sub-title">マッカ（メッカ）— イスラム教の最も聖なる地</h4>
+    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px; border-left:3px solid var(--accent); margin-top:4px;">
+      <strong>カアバ神殿</strong>があり、イスラム教徒にとって最も神聖な巡礼地です。世界中のムスリムは1日5回の礼拝時にマッカの方向に向かって祈ります。ハッジ（大巡礼）はイスラムの五大義務の一つで、毎年イスラム暦12月にマッカに200万人以上のムスリムが集結します。<strong>マッカへの入境はムスリムのみに制限されています。非ムスリムはマッカ市内に入ることができません。</strong>
+    </div>
+
+    <h4 class="sub-title">メディナ（マディナ）— 預言者の都</h4>
+    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px; border-left:3px solid var(--accent); margin-top:4px;">
+      預言者ムハンマドが晩年を過ごし、埋葬された聖都です。「預言者のモスク」（Al-Masjid al-Nabawi）には預言者の墓所があり、イスラム教徒にとって最も尊敬される場所の一つです。ハッジの後、多くの巡礼者はメディナを訪れます。<strong>マッカと同様、メディナの聖域内（Haram）への非ムスリムの入境も禁止されています。</strong>
+    </div>
+
+    <h4 class="sub-title">サウジ国王の「二聖モスクの管理者」称号</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+      サウジアラビアの国王は「二聖モスク（マッカとメディナ）の管理者」（Khādim al-Ḥaramayn al-Sharīfayn）の称号を持ちます。この称号により、サウジの国王はイスラム世界で宗教的権威を有する立場にあります。この責任は、単に施設管理を超えて、イスラム世界全体への精神的指導を象徴しています。
+    </p>
+
+    <div class="tip-box">💡 マッカとメディナは非ムスリムの立入禁止区域があります。観光客や駐在員は絶対にこれらの地域に無断で入ることはできません。これはイスラムの最高の敬意を示す重要なルールです。</div>
+  </div>
+</section>
+
+<!-- ===== 4. 世界遺産 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🌍 サウジアラビアの世界遺産</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      サウジアラビアはユネスコ世界遺産を6件保有し（2024年時点）、古代の交易路から現代の文明遺跡まで、多くの貴重な文化遺産を保護しています。
+    </p>
+    <table class="info-table">
+      <tr><th style="width:20%;">遺産名</th><th>特徴</th><th>登録年</th></tr>
+      <tr><td><strong>マダインサーレハ（ヘグラ）</strong></td><td>ナバテア文明の重要な遺跡。2,000年以上前の岩彫建造物が多数。ペトラ（ヨルダン）の「姉妹都市」として知られる。砂漠に佇む巨大な岩墳墓は圧巻</td><td>2008年</td></tr>
+      <tr><td><strong>ディルイーヤのトライフ地区</strong></td><td>第一次サウジ王国（18世紀）の首都。精密な土造建築が特徴。アラビア半島統一の歴史を象徴する遺跡</td><td>2010年</td></tr>
+      <tr><td><strong>ジェッダ歴史地区（アル・バラド）</strong></td><td>紅海沿いの旧市街。400年以上の歴史を持つ商業都市。イスラム建築、商館、モスクが密集。ハッジ巡礼者の玄関口として栄えた</td><td>2014年</td></tr>
+      <tr><td><strong>ハーイル地方のロックアート</strong></td><td>先史時代（紀元前5000年以降）の岩面彫刻。野生動物や人物が彫刻された数千の遺跡。人類の精神文化の発展を示す重要な記録</td><td>2015年</td></tr>
+      <tr><td><strong>アル・アハサ・オアシス</strong></td><td>世界最大級のオアシス。広大な農業地帯と伝統灌漑システムが特徴。2000年以上の定住の歴史を持つ</td><td>2018年</td></tr>
+      <tr><td><strong>ヒマー文化地域</strong></td><td>南西部の高地地域。新石器時代以降の岩面彫刻が400km以上に渡って分布。古代人の生活や信仰を示す貴重な資料</td><td>2021年</td></tr>
+    </table>
+    <div class="tip-box">💡 マダインサーレハは観光開放されており、日本人駐在員も訪れやすい世界遺産です。ジェッダ歴史地区も散策に値する素晴らしい場所です。</div>
+  </div>
+</section>
+
+<!-- ===== 5. 社会文化とマナー ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🤝 社会文化とマナー</h3>
+
+    <h4 class="sub-title">服装文化</h4>
+    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:4px;">
+      <strong>男性：</strong>トーブ（Thobe / ثوب）と呼ばれる白い長袍が標準的です。これに黒や色付きのシュマーグ（頭巾）とイガール（頭巾を留める黒い紐）を組み合わせます。
+    </div>
+    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:4px;">
+      <strong>女性：</strong>伝統的にはアバヤ（黒い外套）を着用します。2019年の観光ビザ解禁後、外国人女性のアバヤ着用は強制されなくなりましたが、<strong>控えめで尊重した服装（腕や脚を露出しない）が引き続き推奨されています。</strong>公共の場での露出度の高い服装は避けるべきです。
+    </div>
+
+    <h4 class="sub-title">挨拶とボディーランゲージ</h4>
+    <table class="info-table" style="margin-top:4px;">
+      <tr><th>挨拶</th><th>説明</th></tr>
+      <tr><td><strong>アッサラーム・アライクム</strong><br/>（السلام عليكم）</td><td>イスラムの正式な挨拶。「あなたの上に平和あれ」という意味。返礼は「ワアライクムアッサラーム」</td></tr>
+      <tr><td><strong>握手</strong></td><td>同性間での握手は一般的。特に初対面時や正式な場面で交わされます</td></tr>
+      <tr><td><strong>右手を使う</strong></td><td>食事、贈り物、握手は必ず右手を使用。左手は不作法とされています</td></tr>
+      <tr><td><strong>異性との接触</strong></td><td>宗教的理由から、異性との身体接触（握手など）は避けられることがあります。相手の反応を尊重してください</td></tr>
+    </table>
+
+    <h4 class="sub-title">おもてなし文化</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+      アラビア文化には深いおもてなしの伝統があります。サウジ人の家に招待されると、多くの場合：
+    </p>
+    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; padding-left:16px; margin-top:4px;">
+      • <strong>アラビアコーヒー</strong>（香ばしく、砂糖が入らない黒いコーヒー）とデーツが客人に振る舞われます<br/>
+      • 多くの場合、事前に了承なく豪勢な食事がもてなされます<br/>
+      • 客人の満足は家族の誇りであり、かなり手厚いもてなしが期待できます<br/>
+      • 食事の辞退は失礼と見なされることがあるため、できるだけ参加する姿勢が大切です
+    </div>
+
+    <h4 class="sub-title">ラマダン中のマナー</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+      イスラム暦9月のラマダンは、ムスリムにとって最も神聖な月です。日中の公共の場では、ムスリムのみならず<strong>非ムスリムも飲食・喫煙・ガムを控える</strong>ことが期待されます。
+    </p>
+    <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:4px; padding-left:20px;">
+      <li>レストランの多くが日中は営業を限定します</li>
+      <li>公開での飲食は慎むべきです。プライベートな場所での飲食は許可されることもあります</li>
+      <li>イフタール（日没後の食事）後は街全体が活気づき、夜遅くまで賑わいます</li>
+    </ul>
+
+    <h4 class="sub-title">写真撮影のルール</h4>
+    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+      • <strong>軍事施設・政府建物：</strong>絶対に撮影禁止<br/>
+      • <strong>女性：</strong>無断撮影は厳禁です。必ず許可を得てください<br/>
+      • <strong>宗教施設：</strong>内部撮影は原則不可<br/>
+      • 風景・建造物・男性のグループ撮影は一般的に問題ありません
+    </div>
+
+    <div class="tip-box">💡 サウジ社会での成功は相手への尊重と敬意に基づいています。文化的なマナーを守ることで、サウジ人の信頼と友情を得られます。</div>
+  </div>
+</section>
+
+<!-- ===== 6. 日本とサウジアラビアの関係 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🤲 日本とサウジアラビアの関係</h3>
+
+    <h4 class="sub-title">外交関係の歴史</h4>
+    <table class="info-table" style="margin-top:4px;">
+      <tr><th>時期</th><th>出来事</th></tr>
+      <tr><td><strong>1955年</strong></td><td>日本とサウジアラビアが外交関係を樹立</td></tr>
+      <tr><td><strong>1960年代〜1970年代</strong></td><td>石油エネルギーに依存する日本にとって、サウジアラビアは最重要パートナーに。商社・エンジニアリング企業が進出</td></tr>
+      <tr><td><strong>1990年代〜2000年代</strong></td><td>ODA（政府開発援助）、技術移転など多角的な協力枠組みを構築</td></tr>
+      <tr><td><strong>2016年〜</strong></td><td>日サウジVISION 2030パートナーシップ。再生可能エネルギー、産業多角化で協力開始</td></tr>
+    </table>
+
+    <h4 class="sub-title">経済関係</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+      • <strong>石油：</strong>日本の石油輸入の約30%をサウジが占める（主要なエネルギー供給国）<br/>
+      • <strong>日本企業：</strong>トヨタ、日立、三菱重工、豊田通商など大手企業がサウジで事業展開<br/>
+      • <strong>技術協力：</strong>石油精製、リサイクル、水処理などの分野で日本の技術がサウジに貢献<br/>
+      • <strong>VISION 2030：</strong>日本がサウジの経済多角化を支援するパートナーとして位置付けられています
+    </p>
+
+    <h4 class="sub-title">文化交流</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+      近年、サウジアラビアにおける日本文化への関心が急速に高まっています。
+    </p>
+    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; padding:8px; background:var(--bg-secondary); border-radius:var(--radius-sm); margin-top:4px;">
+      • <strong>マンガ・アニメ：</strong>サウジの若い世代の間で大人気。ジャンプ、アニメ配信サービスの利用者急増<br/>
+      • <strong>Anime Expo：</strong>リヤドで開催されるアニメイベント。日本の文化発信の重要なプラットフォーム<br/>
+      • <strong>日本文化センター：</strong>リヤドとジェッダの日本大使館が日本語教室や文化交流を開催<br/>
+      • <strong>食文化：</strong>ラーメン、寿司、日本料理の人気が高まっている
+    </div>
+
+    <h4 class="sub-title">在サウジ日本人コミュニティ</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:8px;">
+      サウジアラビアには現在、約1,000名以上の日本人が駐在・在住しています。
+    </p>
+    <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:4px; padding-left:20px;">
+      <li><strong>リヤド：</strong>最大の日本人駐在地。企業駐在員、エンジニア、商社マン</li>
+      <li><strong>ジェッダ：</strong>2番目の拠点。かつての外交・商業の中心</li>
+      <li><strong>ダンマーム：</strong>東部地域の石油関連企業の拠点</li>
+      <li><strong>日本人学校：</strong>リヤド日本人学校が開校。多くの日本人子女が教育を受けています</li>
+      <li><strong>日本人会：</strong>リヤド日本人会、ジェッダ日本人会などが活発に活動。親睦や情報交換の場</li>
+    </ul>
+
+    <div class="tip-box">💡 サウジアラビアは日本にとって戦略的に極めて重要なパートナー。日本人としてのアイデンティティを大切にしながら、同時にサウジ社会への理解と敬意を深めることが大切です。</div>
+  </div>
+</section>
+
+<!-- NOTES -->
+<section class="compact-section" style="padding-bottom:20px;">
+  <div class="card" style="background:var(--bg-secondary); border-left:3px solid var(--accent);">
+    <p style="font-size:var(--font-size-sm); color:var(--text-tertiary); line-height:1.7;">
+      <strong>ご注意：</strong>このページの情報は2026年3月時点のものです。宗教的、政治的、文化的事項は複雑で、個人差・地域差があります。より詳しい情報は、公式情報源やサウジアラビア大使館、在サウジ日本大使館にご確認ください。
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer style="padding: 20px 0 16px;">
+  <div class="container" style="line-height:1.5;">
+    <p>サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
+    <p style="margin-top:3px;">重要事項は必ず公式情報をご確認ください。</p>
+    <p style="margin-top:6px;"><a href="about.html" style="color:var(--accent);text-decoration:none;">運営者情報</a>&emsp;<a href="disclaimer.html" style="color:var(--accent);text-decoration:none;">免責事項</a>&emsp;<a href="mailto:portal@rewah.life" style="color:var(--accent);text-decoration:none;">お問い合わせ</a></p>
+    <p style="margin-top:4px;opacity:0.5;">&copy; 2026 Saudi Navi / ReWAH</p>
+  </div>
+</footer>
+
+<script>
+// ===== HAMBURGER MENU =====
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('open');
+});
+
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('open');
+  });
+});
+
+// ===== SEARCH =====
+const searchToggle = document.getElementById('searchToggle');
+const searchToggleDesktop = document.getElementById('searchToggleDesktop');
+const searchBar = document.getElementById('searchBar');
+const searchInput = document.getElementById('searchInput');
+const searchClear = document.getElementById('searchClear');
+const searchResults = document.getElementById('searchResults');
+const searchResultsContent = document.getElementById('searchResultsContent');
+const searchResultsTitle = document.getElementById('searchResultsTitle');
+const searchResultsClose = document.getElementById('searchResultsClose');
+
+function openSearch() {
+  searchBar.classList.add('open');
+  searchInput.focus();
+  hamburger.classList.remove('active');
+  navLinks.classList.remove('open');
+}
+
+function closeSearch() {
+  searchInput.value = '';
+  searchBar.classList.remove('open');
+  searchResults.classList.remove('visible');
+}
+
+searchToggle.addEventListener('click', openSearch);
+if (searchToggleDesktop) searchToggleDesktop.addEventListener('click', openSearch);
+searchClear.addEventListener('click', closeSearch);
+searchResultsClose.addEventListener('click', () => { searchResults.classList.remove('visible'); });
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeSearch(); searchResults.classList.remove('visible'); }
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+});
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function highlightText(text, query) {
+  const words = query.split(/\s+/).filter(w => w.length > 0);
+  let result = escapeHtml(text);
+  words.forEach(word => {
+    const re = new RegExp('(' + word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    result = result.replace(re, '<mark>$1</mark>');
+  });
+  return result;
+}
+
+const searchData = [
+  {title: '古代ナバテア王国', desc: 'マダインサーレハの交易路。古代の繁栄'},
+  {title: 'イスラム発祥', desc: '7世紀、預言者ムハンマド、マッカとメディナ'},
+  {title: '1932年建国', desc: 'アブドゥルアジーズ国王、サウジアラビア王国樹立'},
+  {title: '1938年石油発見', desc: 'ダンマーム油田、ARAMCO、経済基盤確立'},
+  {title: 'オイルショック（1973年）', desc: '国際経済への影響力増大、OPEC加盟国'},
+  {title: 'VISION 2030', desc: 'ムハンマド・ビン・サルマン皇太子の改革計画'},
+  {title: '観光ビザ解禁（2019年）', desc: '非ムスリム外国人観光の受け入れ開始'},
+  {title: 'サウード家', desc: '1932年以来の統治王族、絶対君主制'},
+  {title: 'サルマン国王', desc: '現国王。国家の最高指導者'},
+  {title: 'ムハンマド・ビン・サルマン皇太子', desc: 'MBS。実質的な改革推進者'},
+  {title: 'カアバ神殿', desc: 'マッカの最も聖なる場所。ハッジの目的地'},
+  {title: 'ハッジ', desc: '大巡礼。イスラム五大義務の一つ。年200万人超が参加'},
+  {title: 'マッカの立入禁止', desc: '非ムスリムはマッカ市内に入ることができない'},
+  {title: 'メディナ', desc: '預言者の都。預言者の墓所がある聖都'},
+  {title: 'マダインサーレハ', desc: 'ナバテア遺跡。世界遺産。岩彫建造物'},
+  {title: 'ディルイーヤ', desc: '第一次サウジ王国の首都。世界遺産'},
+  {title: 'ジェッダ歴史地区', desc: '紅海沿いの旧市街。400年以上の歴史。世界遺産'},
+  {title: 'ハーイル岩面彫刻', desc: '先史時代の遺跡。5000年以上前の芸術'},
+  {title: 'トーブ', desc: 'サウジ男性の白い長袍。標準的な服装'},
+  {title: 'アバヤ', desc: 'サウジ女性の黒い外套。伝統的衣装'},
+  {title: 'アッサラーム・アライクム', desc: 'イスラムの正式な挨拶'},
+  {title: 'アラビアコーヒー', desc: 'おもてなしの象徴。香ばしい黒いコーヒー'},
+  {title: 'ラマダン中のマナー', desc: '日中の公共の場での飲食は控える'},
+  {title: '日本との外交関係', desc: '1955年樹立。石油を通じた経済関係'},
+  {title: 'マンガ・アニメ人気', desc: 'サウジの若い世代で急速に高まる'},
+  {title: '在サウジ日本人', desc: '1000名以上が駐在。日本人学校、日本人会'},
+];
+
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.trim().toLowerCase();
+  if (q.length < 1) { searchResults.classList.remove('visible'); return; }
+  const matches = searchData.filter(d =>
+    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q)
+  );
+  searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
+  searchResultsContent.innerHTML = matches.map(m =>
+    '<div style="padding:10px 0;border-bottom:1px solid var(--border-light);">' +
+      '<strong>' + highlightText(m.title, q) + '</strong>' +
+      '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
+    '</div>'
+  ).join('');
+  searchResults.classList.add('visible');
+});
+</script>
+
+</body>
+</html>
