@@ -302,7 +302,7 @@ window.addEventListener('scroll', () => {
 
 // ===== DYNAMIC CONTENT LOADER =====
 (function() {
-  const API_URL = '/api/content';
+  const API_URL = new URL('data/content.json', document.baseURI).href;
 
   function esc(s) { return s ? s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])) : ''; }
 
