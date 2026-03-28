@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026年イベントカレンダー | サウジナビ</title>
+<link rel="stylesheet" href="assets/shared.css">
+</head>
+<body>
+
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="container">
+    <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
+    <p class="subtitle">サウジアラビア在住者・渡航予定者のための日本語生活情報ポータル</p>
+    <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 サウジナビ</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap">
+        <button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html" class="active">📅 イベント</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+  </div>
+
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html" class="active">📅 イベント</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+    <div class="search-wrap" style="margin-left:auto;">
+      <button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button>
+    </div>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <span class="search-icon-inner">🔍</span>
+    <input type="text" id="searchInput" placeholder="検索… (例: F1, ラマダン, 建国記念日)" autocomplete="off">
+    <button class="search-clear" id="searchClear">✕</button>
+  </div>
+</nav>
+
+<!-- Search Results Overlay -->
+<div class="search-results" id="searchResults">
+  <div class="search-results-inner">
+    <div class="search-results-header">
+      <h2 id="searchResultsTitle">検索結果</h2>
+      <button class="search-results-close" id="searchResultsClose">✕</button>
+    </div>
+    <div id="searchResultsContent"></div>
+  </div>
+</div>
+
+<main class="container">
+
+<!-- PAGE TITLE -->
+<section style="margin-top:24px;">
+  <h2 style="font-size:1.4em; font-weight:700; color:var(--text-primary); margin-bottom:4px;">📅 2026年 サウジアラビア イベントカレンダー</h2>
+  <p style="font-size:var(--font-size-sm); color:var(--text-tertiary); margin-bottom:16px;">祝日・宗教行事・大型イベントを月別にまとめました。イスラム暦に基づく日程は月の観測により前後する場合があります。</p>
+
+  <!-- FILTER BUTTONS -->
+  <div id="event-filters" style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px;">
+    <button class="evt-filter active" data-filter="all" style="padding:4px 14px; border-radius:20px; border:1px solid var(--accent); background:var(--accent); color:#fff; font-size:0.8em; cursor:pointer;">すべて</button>
+    <button class="evt-filter" data-filter="holiday" style="padding:4px 14px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.8em; cursor:pointer;">🔴 祝日</button>
+    <button class="evt-filter" data-filter="religion" style="padding:4px 14px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.8em; cursor:pointer;">🌙 宗教行事</button>
+    <button class="evt-filter" data-filter="sports" style="padding:4px 14px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.8em; cursor:pointer;">🏆 スポーツ</button>
+    <button class="evt-filter" data-filter="culture" style="padding:4px 14px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.8em; cursor:pointer;">🎨 文化・芸術</button>
+    <button class="evt-filter" data-filter="tech" style="padding:4px 14px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.8em; cursor:pointer;">💡 テック・ビジネス</button>
+    <button class="evt-filter" data-filter="entertain" style="padding:4px 14px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.8em; cursor:pointer;">🎉 エンタメ</button>
+  </div>
+</section>
+
+<!-- ====== 1月 ====== -->
+<section class="month-section" style="margin-bottom:20px;">
+  <h3 style="font-size:1.1em; font-weight:600; color:var(--accent); border-bottom:2px solid var(--accent); padding-bottom:6px; margin-bottom:12px;">1月 January</h3>
+
+  <div class="card evt-card" data-type="sports" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#e8f5e9; color:#2e7d32;">🏆 スポーツ</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">ダカールラリー・サウジアラビア</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">世界最過酷なオフロードレース。サウジの砂漠を縦断するコースで開催。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">1/3〜17</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="culture" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#f3e5f5; color:#7b1fa2;">🎨 文化・芸術</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">アルウラ芸術祭 (AlUla Arts Festival)</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">世界遺産の地アルウラを舞台にした芸術祭。砂漠ポロ選手権（1/16-17）やトレイルレース（1/22-23）を含む。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">1/15〜2/16</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="culture" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#f3e5f5; color:#7b1fa2;">🎨 文化・芸術</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">ディルイーヤ現代アートビエンナーレ</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">世界各国のアーティストが参加する国際現代アート展。ディルイーヤ（リヤド近郊）で開催。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">1月〜</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="sports" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#e8f5e9; color:#2e7d32;">🏆 スポーツ</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">WWE ロイヤルランブル</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">世界最大級のプロレスイベント。サウジアラビアでの開催は通算6回目。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">1/31</span>
+    </div>
+  </div>
+</section>
+
+<!-- ====== 2月 ====== -->
+<section class="month-section" style="margin-bottom:20px;">
+  <h3 style="font-size:1.1em; font-weight:600; color:var(--accent); border-bottom:2px solid var(--accent); padding-bottom:6px; margin-bottom:12px;">2月 February</h3>
+
+  <div class="card evt-card" data-type="sports" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#e8f5e9; color:#2e7d32;">🏆 スポーツ</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">フォーミュラE ディルイーヤ</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">電気自動車レースの最高峰。ディルイーヤ市街地コースで開催。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">2/13〜14</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="sports" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#e8f5e9; color:#2e7d32;">🏆 スポーツ</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">サウジカップ (The Saudi Cup)</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">賞金総額3,800万ドル超、世界最高額の競馬レース。リヤドのキングアブドゥルアジーズ競馬場で開催。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">2/14</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="religion" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#fff3e0; color:#e65100;">🌙 宗教行事</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">ラマダン開始</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">イスラム暦の断食月。日の出から日没まで飲食を控える。飲食店の営業時間が大幅に変わり、街の雰囲気が一変する。公共の場での飲食は非ムスリムも控えるのがマナー。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">2/18頃</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="holiday" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#ffebee; color:#c62828;">🔴 祝日</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">建国記念日 (Founding Day)</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">1727年にイマーム・ムハンマド・ビン・サウードが第一次サウジ王国を建国したことを記念する祝日。2022年に制定。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">2/22 (日)</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="entertain" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#e3f2fd; color:#1565c0;">🎉 エンタメ</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">ウィンターワンダーランド・ジェッダ</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">紅海沿岸で開催される冬季限定の大型エンターテインメントイベント。アトラクションやショーが充実。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">〜2月末</span>
+    </div>
+  </div>
+</section>
+
+<!-- ====== 3月 ====== -->
+<section class="month-section" style="margin-bottom:20px;">
+  <h3 style="font-size:1.1em; font-weight:600; color:var(--accent); border-bottom:2px solid var(--accent); padding-bottom:6px; margin-bottom:12px;">3月 March</h3>
+
+  <div class="card evt-card" data-type="religion" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#fff3e0; color:#e65100;">🌙 宗教行事</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">ラマダン（継続）</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">ラマダン期間中。就業時間が短縮され、イフタール（日没後の食事）が各地で盛んに行われる。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">〜3/19頃</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="holiday" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#ffebee; color:#c62828;">🔴 祝日</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">イード・アル＝フィトル (Eid al-Fitr)</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">ラマダン明けの大祭。公式休暇は4日間程度（3/19〜24頃）。家族での集まりや贈り物の交換が行われ、街中が祝祭ムードに包まれる。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">3/20頃</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="entertain" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#e3f2fd; color:#1565c0;">🎉 エンタメ</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">リヤドシーズン（終盤）</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">10月から続くサウジ最大の総合エンタメフェスティバル。コンサート、展示会、アトラクション、グルメイベントなど多数開催。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">〜3月</span>
+    </div>
+  </div>
+</section>
+
+<!-- ====== 4月 ====== -->
+<section class="month-section" style="margin-bottom:20px;">
+  <h3 style="font-size:1.1em; font-weight:600; color:var(--accent); border-bottom:2px solid var(--accent); padding-bottom:6px; margin-bottom:12px;">4月 April</h3>
+
+  <div class="card evt-card" data-type="tech" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#e0f2f1; color:#00695c;">💡 テック・ビジネス</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">LEAP 2026</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">世界最大規模のテクノロジーカンファレンス。AI、クラウド、フィンテックなど最先端技術が集結。リヤドで開催。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">4/13〜16</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="sports" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#e8f5e9; color:#2e7d32;">🏆 スポーツ</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">F1 サウジアラビアGP（ジェッダ）</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">ジェッダ・コルニッシュ・サーキットで開催されるF1グランプリ。6回目のサウジ開催。世界最速の市街地コースとして有名。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">4/17〜19</span>
+    </div>
+  </div>
+</section>
+
+<!-- ====== 5月 ====== -->
+<section class="month-section" style="margin-bottom:20px;">
+  <h3 style="font-size:1.1em; font-weight:600; color:var(--accent); border-bottom:2px solid var(--accent); padding-bottom:6px; margin-bottom:12px;">5月 May</h3>
+
+  <div class="card evt-card" data-type="religion" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#fff3e0; color:#e65100;">🌙 宗教行事</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">ハッジ（大巡礼）</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">メッカへの大巡礼。世界中から数百万人のムスリムが集まる。メッカ・メディナ周辺は大規模な交通規制が実施される。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">5/25〜</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="religion" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#fff3e0; color:#e65100;">🌙 宗教行事</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">アラファの日 (Day of Arafah)</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">ハッジの最も重要な日。巡礼者がアラファト山に集結する。非巡礼者も断食を行うことが多い。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">5/26</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="holiday" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#ffebee; color:#c62828;">🔴 祝日</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">イード・アル＝アドハー (Eid al-Adha)</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">犠牲祭。イスラム最大の祝日の一つ。公式休暇は約5日間。羊などの犠牲と家族の集まりが行われる。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">5/27頃</span>
+    </div>
+  </div>
+</section>
+
+<!-- ====== 6月〜8月 ====== -->
+<section class="month-section" style="margin-bottom:20px;">
+  <h3 style="font-size:1.1em; font-weight:600; color:var(--accent); border-bottom:2px solid var(--accent); padding-bottom:6px; margin-bottom:12px;">6月〜8月 Summer</h3>
+
+  <div class="card evt-card" data-type="religion" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#fff3e0; color:#e65100;">🌙 宗教行事</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">イスラム暦新年 (Islamic New Year)</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">ヒジュラ暦1448年の始まり。公式祝日ではないが、宗教的に重要な日。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">6/17頃</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="entertain" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#e3f2fd; color:#1565c0;">🎉 エンタメ</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">ジェッダシーズン（夏季）</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">ジェッダで開催される夏の大型エンタメイベント。コンサート、グルメフェスティバル、ウォーターパークなど。紅海沿いの涼しい夜のイベントが人気。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">夏季</span>
+    </div>
+  </div>
+
+  <div class="card" style="margin-bottom:10px; background:var(--bg-secondary); border-left:3px solid var(--accent);">
+    <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">💡 <strong>夏季の注意</strong>：6〜8月はリヤドで50℃近くに達することもあり、屋外イベントは少なめです。ジェッダなど沿岸部ではナイトイベントが中心になります。</p>
+  </div>
+</section>
+
+<!-- ====== 9月 ====== -->
+<section class="month-section" style="margin-bottom:20px;">
+  <h3 style="font-size:1.1em; font-weight:600; color:var(--accent); border-bottom:2px solid var(--accent); padding-bottom:6px; margin-bottom:12px;">9月 September</h3>
+
+  <div class="card evt-card" data-type="holiday" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#ffebee; color:#c62828;">🔴 祝日</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">建国記念日 (Saudi National Day)</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">1932年のサウジアラビア王国建国を記念する最大の祝日。全国で花火、パレード、特別イベントが開催される。街中が緑色に染まる。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">9/23 (水)</span>
+    </div>
+  </div>
+</section>
+
+<!-- ====== 10月〜12月 ====== -->
+<section class="month-section" style="margin-bottom:20px;">
+  <h3 style="font-size:1.1em; font-weight:600; color:var(--accent); border-bottom:2px solid var(--accent); padding-bottom:6px; margin-bottom:12px;">10月〜12月 Autumn / Winter</h3>
+
+  <div class="card evt-card" data-type="entertain" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#e3f2fd; color:#1565c0;">🎉 エンタメ</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">リヤドシーズン 2026-27 開幕</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">第8回リヤドシーズン開幕。世界的アーティストのコンサート、スポーツイベント、テーマパーク、各国料理フェスティバルなど大規模に展開。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">10月〜</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="culture" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#f3e5f5; color:#7b1fa2;">🎨 文化・芸術</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">ヌール・リヤド (Noor Riyadh)</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">リヤド全域で開催される光とアートの祭典。第6回。建物や公共空間が光のインスタレーションで彩られる。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">秋頃</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="tech" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#e0f2f1; color:#00695c;">💡 テック・ビジネス</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">Jewels of the World（ジェッダ）</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">世界の宝飾品・ジュエリーが集まる国際展示会。ジェッダで開催。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">10/19〜22</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="culture" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#f3e5f5; color:#7b1fa2;">🎨 文化・芸術</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">リヤド国際ブックフェア</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">サウジ最大の書籍・出版イベント。世界各国の出版社が参加し、著者のトークイベントも多数開催。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">秋〜冬</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="sports" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#e8f5e9; color:#2e7d32;">🏆 スポーツ</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">eスポーツ・ネーションズカップ (ENC)</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">約100カ国が参加するeスポーツの国際大会。15以上のゲームタイトルで競技。サウジで初開催。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">2026年内</span>
+    </div>
+  </div>
+
+  <div class="card evt-card" data-type="culture" style="margin-bottom:10px;">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <div>
+        <span style="font-size:0.75em; padding:2px 8px; border-radius:10px; background:#f3e5f5; color:#7b1fa2;">🎨 文化・芸術</span>
+        <h4 style="margin:6px 0 2px; font-size:1em;">インタービジョン (Intervision)</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">サウジ・アラブ音楽の伝統と国際的な音楽文化を融合させた国際音楽コンペティション。第2回。</p>
+      </div>
+      <span style="white-space:nowrap; font-size:0.85em; color:var(--text-muted); margin-left:12px;">2026年内</span>
+    </div>
+  </div>
+</section>
+
+<!-- ====== 今後の大型イベント ====== -->
+<section style="margin-bottom:20px;">
+  <h2 style="font-size:1.2em; font-weight:700; color:var(--text-primary); margin-bottom:12px;">🔮 今後予定されている大型イベント</h2>
+
+  <div class="card" style="margin-bottom:10px;">
+    <table style="width:100%; font-size:var(--font-size-sm); border-collapse:collapse;">
+      <thead>
+        <tr style="border-bottom:2px solid var(--border-light);">
+          <th style="text-align:left; padding:8px 4px; color:var(--text-tertiary);">年</th>
+          <th style="text-align:left; padding:8px 4px; color:var(--text-tertiary);">イベント</th>
+          <th style="text-align:left; padding:8px 4px; color:var(--text-tertiary);">備考</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid var(--border-light);">
+          <td style="padding:8px 4px; white-space:nowrap; font-weight:600;">2027</td>
+          <td style="padding:8px 4px;">AFCアジアカップ</td>
+          <td style="padding:8px 4px; color:var(--text-tertiary);">サウジ初開催。複数都市で開催予定</td>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border-light);">
+          <td style="padding:8px 4px; white-space:nowrap; font-weight:600;">2029</td>
+          <td style="padding:8px 4px;">アジア冬季競技大会</td>
+          <td style="padding:8px 4px; color:var(--text-tertiary);">NEOM・トロジェナで開催。砂漠の国で冬季大会という歴史的イベント</td>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border-light);">
+          <td style="padding:8px 4px; white-space:nowrap; font-weight:600;">2030</td>
+          <td style="padding:8px 4px;">国際博覧会（万博）リヤド</td>
+          <td style="padding:8px 4px; color:var(--text-tertiary);">Expo 2030 Riyadh。約4,000万人の来場を見込む</td>
+        </tr>
+        <tr>
+          <td style="padding:8px 4px; white-space:nowrap; font-weight:600;">2034</td>
+          <td style="padding:8px 4px;">FIFAワールドカップ</td>
+          <td style="padding:8px 4px; color:var(--text-tertiary);">サウジ初開催。リヤド、ジェッダ、ホバル、NEOM、アブハの5都市15スタジアムで開催予定</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- NOTES -->
+<section style="margin-bottom:30px;">
+  <div class="card" style="background:var(--bg-secondary); border-left:3px solid var(--accent);">
+    <p style="font-size:var(--font-size-sm); color:var(--text-tertiary); margin-bottom:6px;"><strong>ご注意</strong></p>
+    <p style="font-size:var(--font-size-sm); color:var(--text-tertiary); line-height:1.7;">
+      イスラム暦に基づく日程（ラマダン、イード、ハッジなど）は月の観測により1〜2日前後します。正式な日程はサウジプレスエージェンシー（SPA）から発表されます。
+      その他のイベントについても、日程や内容が変更される場合があります。最新情報は<a href="https://www.visitsaudi.com/en/saudi-calendar" target="_blank" rel="noopener" style="color:var(--accent);">Visit Saudi公式カレンダー</a>をご確認ください。
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer style="padding: 20px 0 16px;">
+  <div class="container" style="line-height:1.5;">
+    <p>サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
+    <p style="margin-top:3px;">重要事項は必ず公式情報をご確認ください。</p>
+    <p style="margin-top:6px;"><a href="about.html" style="color:var(--accent);text-decoration:none;">運営者情報</a>&emsp;<a href="disclaimer.html" style="color:var(--accent);text-decoration:none;">免責事項</a>&emsp;<a href="mailto:portal@rewah.life" style="color:var(--accent);text-decoration:none;">お問い合わせ</a></p>
+    <p style="margin-top:4px;opacity:0.5;">&copy; 2026 Saudi Navi / ReWAH</p>
+  </div>
+</footer>
+
+<script>
+// ===== HAMBURGER MENU =====
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('open');
+});
+
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('open');
+  });
+});
+
+// ===== SEARCH =====
+const searchToggle = document.getElementById('searchToggle');
+const searchToggleDesktop = document.getElementById('searchToggleDesktop');
+const searchBar = document.getElementById('searchBar');
+const searchInput = document.getElementById('searchInput');
+const searchClear = document.getElementById('searchClear');
+const searchResults = document.getElementById('searchResults');
+const searchResultsContent = document.getElementById('searchResultsContent');
+const searchResultsTitle = document.getElementById('searchResultsTitle');
+const searchResultsClose = document.getElementById('searchResultsClose');
+
+function openSearch() {
+  searchBar.classList.add('open');
+  searchInput.focus();
+  hamburger.classList.remove('active');
+  navLinks.classList.remove('open');
+}
+
+function closeSearch() {
+  searchInput.value = '';
+  searchBar.classList.remove('open');
+  searchResults.classList.remove('visible');
+}
+
+searchToggle.addEventListener('click', openSearch);
+if (searchToggleDesktop) searchToggleDesktop.addEventListener('click', openSearch);
+searchClear.addEventListener('click', closeSearch);
+searchResultsClose.addEventListener('click', () => { searchResults.classList.remove('visible'); });
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeSearch(); searchResults.classList.remove('visible'); }
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+});
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function highlightText(text, query) {
+  const words = query.split(/\s+/).filter(w => w.length > 0);
+  let result = escapeHtml(text);
+  words.forEach(word => {
+    const re = new RegExp('(' + word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    result = result.replace(re, '<mark>$1</mark>');
+  });
+  return result;
+}
+
+// Page-local search data
+const searchData = [
+  {title: 'ダカールラリー', desc: '1月 - 世界最過酷なオフロードレース', section: '1月'},
+  {title: 'アルウラ芸術祭', desc: '1-2月 - 世界遺産アルウラでの芸術祭', section: '1月'},
+  {title: 'ディルイーヤ現代アートビエンナーレ', desc: '1月 - 国際現代アート展', section: '1月'},
+  {title: 'WWE ロイヤルランブル', desc: '1月31日 - プロレス', section: '1月'},
+  {title: 'フォーミュラE', desc: '2月13-14日 - 電気自動車レース', section: '2月'},
+  {title: 'サウジカップ', desc: '2月14日 - 世界最高額の競馬レース', section: '2月'},
+  {title: 'ラマダン', desc: '2月18日頃〜3月19日頃 - 断食月', section: '2月'},
+  {title: '建国記念日 Founding Day', desc: '2月22日 - 第一次サウジ王国建国記念', section: '2月'},
+  {title: 'イード・アル＝フィトル', desc: '3月20日頃 - ラマダン明けの大祭', section: '3月'},
+  {title: 'リヤドシーズン', desc: '10月〜3月 - サウジ最大の総合エンタメ', section: '10月'},
+  {title: 'LEAP 2026', desc: '4月13-16日 - テクノロジーカンファレンス', section: '4月'},
+  {title: 'F1 サウジアラビアGP', desc: '4月17-19日 - ジェッダF1グランプリ', section: '4月'},
+  {title: 'ハッジ 大巡礼', desc: '5月25日頃 - メッカへの大巡礼', section: '5月'},
+  {title: 'イード・アル＝アドハー 犠牲祭', desc: '5月27日頃 - イスラム最大の祝日', section: '5月'},
+  {title: '建国記念日 National Day', desc: '9月23日 - サウジアラビア王国建国記念', section: '9月'},
+  {title: 'ヌール・リヤド', desc: '秋 - 光とアートの祭典', section: '10月'},
+  {title: 'AFCアジアカップ 2027', desc: '2027年 - サウジ初開催', section: '今後'},
+  {title: 'アジア冬季競技大会 2029', desc: '2029年 - NEOM・トロジェナで開催', section: '今後'},
+  {title: '万博 Expo 2030 リヤド', desc: '2030年 - 国際博覧会', section: '今後'},
+  {title: 'FIFAワールドカップ 2034', desc: '2034年 - サウジ初開催', section: '今後'},
+];
+
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.trim().toLowerCase();
+  if (q.length < 1) { searchResults.classList.remove('visible'); return; }
+  const matches = searchData.filter(d =>
+    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q)
+  );
+  searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
+  searchResultsContent.innerHTML = matches.map(m =>
+    '<div style="padding:10px 0;border-bottom:1px solid var(--border-light);">' +
+      '<strong>' + highlightText(m.title, q) + '</strong>' +
+      '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
+    '</div>'
+  ).join('');
+  searchResults.classList.add('visible');
+});
+
+// ===== EVENT FILTER =====
+var currentFilter = 'all';
+document.getElementById('event-filters').addEventListener('click', function(e) {
+  var btn = e.target.closest('.evt-filter');
+  if (!btn) return;
+  currentFilter = btn.getAttribute('data-filter');
+
+  document.querySelectorAll('.evt-filter').forEach(function(b) {
+    var isActive = b.getAttribute('data-filter') === currentFilter;
+    b.style.background = isActive ? 'var(--accent)' : 'none';
+    b.style.color = isActive ? '#fff' : 'var(--text-tertiary)';
+    b.style.borderColor = isActive ? 'var(--accent)' : 'var(--border-light)';
+  });
+
+  document.querySelectorAll('.evt-card').forEach(function(card) {
+    if (currentFilter === 'all' || card.getAttribute('data-type') === currentFilter) {
+      card.style.display = '';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+
+  // 月セクションの表示/非表示（中身が全部非表示なら月見出しも隠す）
+  document.querySelectorAll('.month-section').forEach(function(sec) {
+    var visibleCards = sec.querySelectorAll('.evt-card:not([style*="display: none"])');
+    sec.style.display = visibleCards.length > 0 || currentFilter === 'all' ? '' : 'none';
+  });
+});
+</script>
+
+</body>
+</html>
