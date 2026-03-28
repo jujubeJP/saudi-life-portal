@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>生活・コミュニティ | Saudi Life Portal</title>
+<link rel="stylesheet" href="assets/shared.css">
+</head>
+<body>
+
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+
+<!-- HEADER -->
+<header>
+  <svg class="header-arabesque" viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100px;height:80px;">
+    <path d="M100 8 L170 40 L180 100 L100 152 L20 100 L30 40Z" stroke="#1b6b4a" stroke-width="1.5" opacity="0.5" fill="none"/>
+    <path d="M100 18 L160 45 L168 95 L100 140 L32 95 L40 45Z" stroke="#c5a55a" stroke-width="1" opacity="0.5" fill="none"/>
+    <path d="M100 35 L115 65 L145 55 L125 80 L155 90 L125 100 L145 125 L115 115 L100 145 L85 115 L55 125 L75 100 L45 90 L75 80 L55 55 L85 65Z" stroke="#1b6b4a" stroke-width="1.2" opacity="0.45" fill="none"/>
+    <path d="M100 55 L125 90 L100 125 L75 90Z" stroke="#c5a55a" stroke-width="0.8" opacity="0.4" fill="none"/>
+    <circle cx="100" cy="90" r="16" stroke="#c5a55a" stroke-width="1" opacity="0.45"/>
+    <circle cx="100" cy="90" r="6" stroke="#1b6b4a" stroke-width="0.8" opacity="0.35"/>
+    <circle cx="100" cy="90" r="2.5" fill="#1b6b4a" opacity="0.25"/>
+    <path d="M100 8 L100 18 M70 22 L75 30 M130 22 L125 30" stroke="#c5a55a" stroke-width="0.8" opacity="0.4"/>
+  </svg>
+  <div class="container">
+    <h1>サウジアラビア生活情報</h1>
+    <p class="subtitle">在住日本人のための総合ポータル</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 Saudi Life Portal</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap">
+        <button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html#life" class="active">🏠 生活情報</a>
+    <a href="life.html#community">🤝 コミュニティ</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+  </div>
+
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html#life" class="active">🏠 生活情報</a>
+    <a href="life.html#community">🤝 コミュニティ</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+    <div class="search-wrap" style="margin-left:auto;">
+      <button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button>
+    </div>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <span class="search-icon-inner">🔍</span>
+    <input type="text" id="searchInput" placeholder="検索… (例: 住居, 学校, コミュニティ)" autocomplete="off">
+    <button class="search-clear" id="searchClear">✕</button>
+  </div>
+</nav>
+
+<!-- Search Results Overlay -->
+<div class="search-results" id="searchResults">
+  <div class="search-results-inner">
+    <div class="search-results-header">
+      <h2 id="searchResultsTitle">検索結果</h2>
+      <button class="search-results-close" id="searchResultsClose">✕</button>
+    </div>
+    <div id="searchResultsContent"></div>
+  </div>
+</div>
+
+<!-- ===== SECTION: 生活情報 ===== -->
+<section id="life">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-icon blue">🏠</div>
+      <h2>生活情報・ハウツー</h2>
+      <span class="updated" id="life-updated">最終更新: 読み込み中...</span>
+    </div>
+
+    <div class="card-grid cols-2">
+      <div class="card" id="life-housing">
+        <div class="card-label">住居・不動産</div>
+        <h3>自動収集待ち...</h3>
+        <p>家賃相場や居住エリア情報がここに表示されます。</p>
+        <div class="source">出典: <a href="https://www.bayut.sa/" target="_blank" rel="noopener">Bayut</a> / <a href="https://www.expatica.com/sa/housing/" target="_blank" rel="noopener">Expatica</a></div>
+      </div>
+
+      <div class="card" id="life-education">
+        <div class="card-label">教育・学校</div>
+        <h3>自動収集待ち...</h3>
+        <p>インターナショナルスクール・日本人学校関連の情報がここに表示されます。</p>
+        <div class="source">出典: <a href="https://www.sa.emb-japan.go.jp/itprtop_ja/" target="_blank" rel="noopener">在サウジ日本大使館</a></div>
+      </div>
+
+      <div class="card" id="life-finance">
+        <div class="card-label">金融・銀行</div>
+        <h3>自動収集待ち...</h3>
+        <p>口座開設や送金に関する情報がここに表示されます。</p>
+        <div class="source">出典: <a href="https://www.sama.gov.sa/en-us/" target="_blank" rel="noopener">SAMA (中央銀行)</a></div>
+      </div>
+
+      <div class="card" id="life-events">
+        <div class="card-label">イベント・レジャー</div>
+        <h3>自動収集待ち...</h3>
+        <p>リヤドシーズンなどのイベント情報がここに表示されます。</p>
+        <div class="source">出典: <a href="https://www.visitsaudi.com/" target="_blank" rel="noopener">Visit Saudi</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"><svg viewBox="0 0 200 20" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="0" y1="10" x2="70" y2="10" stroke="#c5a55a" stroke-width="0.5"/><path d="M80 10 L90 4 L100 10 L90 16Z" stroke="#1b6b4a" stroke-width="0.8"/><circle cx="100" cy="10" r="3" stroke="#c5a55a" stroke-width="0.6"/><path d="M110 10 L120 4 L130 10 L120 16Z" stroke="#1b6b4a" stroke-width="0.8" transform="rotate(180 120 10)"/><line x1="130" y1="10" x2="200" y2="10" stroke="#c5a55a" stroke-width="0.5"/></svg></div></div>
+
+<!-- ===== SECTION: コミュニティ ===== -->
+<section id="community">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-icon purple">🤝</div>
+      <h2>コミュニティ</h2>
+    </div>
+
+    <div class="card">
+      <p style="margin-bottom: 16px;">サウジアラビアで生活する外国人コミュニティとつながるためのリソースです。</p>
+      <ul>
+        <li><strong><a href="https://www.internations.org/saudi-arabia-expats" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">InterNations Saudi Arabia</a></strong> — 駐在員コミュニティ、イベント、フォーラム</li>
+        <li><strong><a href="https://www.meetup.com/find/?location=sa--Riyadh&source=EVENTS" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">Meetup – Saudi Expats</a></strong> — リヤド・ジェッダのオフラインミートアップ</li>
+        <li><strong><a href="https://www.facebook.com/groups/" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">Facebook / WhatsApp グループ</a></strong> — 都市別・国籍別の情報交換グループ</li>
+      </ul>
+    </div>
+
+    <div style="margin-top: 16px;">
+      <h3 style="font-size: var(--font-size-base); font-weight: 600; margin-bottom: 12px; color: var(--text-secondary);">関連リンク</h3>
+      <div class="link-grid">
+        <a class="link-card" href="https://www.internations.org/saudi-arabia-expats" target="_blank" rel="noopener">
+          <div class="link-icon">👥</div>
+          <div class="link-info"><h4>InterNations</h4><p>駐在員コミュニティ・イベント</p></div>
+        </a>
+        <a class="link-card" href="https://www.expatica.com/sa/" target="_blank" rel="noopener">
+          <div class="link-icon">🌍</div>
+          <div class="link-info"><h4>Expatica SA</h4><p>駐在生活総合ガイド</p></div>
+        </a>
+        <a class="link-card" href="https://www.saudiexpatriates.com/" target="_blank" rel="noopener">
+          <div class="link-icon">📝</div>
+          <div class="link-info"><h4>Saudi-Expatriates</h4><p>手続きハウツー記事</p></div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="arabesque-line"></div>
+    <p>Saudi Life Portal — 在サウジアラビア日本人向け情報ポータル</p>
+    <p style="margin-top: 6px;">情報は自動収集されたものであり、正確性を保証するものではありません。<br>重要な判断は必ず公式情報源をご確認ください。</p>
+    <p style="margin-top: 12px; opacity: 0.6;">Powered by Claude AI — Auto-updated via Cowork</p>
+  </div>
+</footer>
+
+<script>
+// ===== HAMBURGER MENU =====
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('open');
+});
+
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('open');
+  });
+});
+
+// ===== SEARCH =====
+const searchToggle = document.getElementById('searchToggle');
+const searchToggleDesktop = document.getElementById('searchToggleDesktop');
+const searchBar = document.getElementById('searchBar');
+const searchInput = document.getElementById('searchInput');
+const searchClear = document.getElementById('searchClear');
+const searchResults = document.getElementById('searchResults');
+const searchResultsContent = document.getElementById('searchResultsContent');
+const searchResultsTitle = document.getElementById('searchResultsTitle');
+const searchResultsClose = document.getElementById('searchResultsClose');
+
+function openSearch() {
+  searchBar.classList.add('open');
+  searchInput.focus();
+  hamburger.classList.remove('active');
+  navLinks.classList.remove('open');
+}
+
+function closeSearch() {
+  searchInput.value = '';
+  searchBar.classList.remove('open');
+  searchResults.classList.remove('visible');
+}
+
+searchToggle.addEventListener('click', openSearch);
+if (searchToggleDesktop) searchToggleDesktop.addEventListener('click', openSearch);
+searchClear.addEventListener('click', closeSearch);
+searchResultsClose.addEventListener('click', () => { searchResults.classList.remove('visible'); });
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeSearch(); searchResults.classList.remove('visible'); }
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+});
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function highlightText(text, query) {
+  const words = query.split(/\s+/).filter(w => w.length > 0);
+  let result = escapeHtml(text);
+  words.forEach(w => {
+    const re = new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+    result = result.replace(re, '<mark>$1</mark>');
+  });
+  return result;
+}
+
+function buildSearchIndex() {
+  const index = [];
+  document.querySelectorAll('.card').forEach(card => {
+    const section = card.closest('section');
+    if (!section) return;
+    const sectionName = section.querySelector('.section-header h2')?.textContent || '';
+    const label = card.querySelector('.card-label')?.textContent || '';
+    const title = card.querySelector('h3')?.textContent || '';
+    const text = card.querySelector('p')?.textContent || '';
+    const id = section.id;
+    index.push({ category: sectionName, label, title, text, sectionId: id });
+  });
+  return index;
+}
+
+let searchIndex = [];
+let searchTimeout;
+searchInput.addEventListener('input', () => {
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(() => {
+    const q = searchInput.value.trim().toLowerCase();
+    if (q.length < 2) { searchResults.classList.remove('visible'); return; }
+    if (searchIndex.length === 0) searchIndex = buildSearchIndex();
+    const results = searchIndex.filter(item => {
+      const haystack = (item.category + ' ' + item.label + ' ' + item.title + ' ' + item.text).toLowerCase();
+      return q.split(/\s+/).every(word => haystack.includes(word));
+    });
+    searchResultsTitle.textContent = '「' + q + '」の検索結果';
+    if (results.length === 0) {
+      searchResultsContent.innerHTML = '<div class="search-no-results"><div class="big-icon">🔍</div><p>「' + escapeHtml(q) + '」に一致する結果はありませんでした。</p></div>';
+    } else {
+      searchResultsContent.innerHTML = '<p style="margin-bottom:16px;color:var(--text-tertiary);font-size:var(--font-size-sm)">' + results.length + '件の結果</p>' +
+        results.map(r => '<div class="sr-item" onclick="document.getElementById(\'' + r.sectionId + '\')?.scrollIntoView({behavior:\'smooth\'})"><div class="sr-category">' + escapeHtml(r.category) + '</div><div class="sr-title">' + highlightText(r.title, q) + '</div><div class="sr-excerpt">' + highlightText(r.text, q) + '</div></div>').join('');
+    }
+    searchResults.classList.add('visible');
+  }, 200);
+});
+
+// Smooth scroll for same-page anchors
+document.querySelectorAll('nav a[href*="#"]').forEach(link => {
+  link.addEventListener('click', e => {
+    const href = link.getAttribute('href');
+    const hash = href.split('#')[1];
+    if (hash && document.getElementById(hash)) {
+      e.preventDefault();
+      const target = document.getElementById(hash);
+      const offset = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height')) || 56;
+      const y = target.getBoundingClientRect().top + window.pageYOffset - offset - 8;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  });
+});
+
+// Nav active state on scroll
+const allSections = document.querySelectorAll('section[id]');
+window.addEventListener('scroll', () => {
+  let current = '';
+  const offset = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height')) || 56;
+  allSections.forEach(section => {
+    const top = section.offsetTop - offset - 16;
+    if (scrollY >= top) current = section.getAttribute('id');
+  });
+  document.querySelectorAll('nav a').forEach(link => {
+    const href = link.getAttribute('href');
+    if (href && href.includes('#')) {
+      const hash = href.split('#')[1];
+      link.classList.toggle('active', hash === current);
+    }
+  });
+}, { passive: true });
+
+// ===== DYNAMIC CONTENT LOADER =====
+(function() {
+  const API_URL = '/api/content';
+
+  function esc(s) { return s ? s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])) : ''; }
+
+  function fmtDate(iso) {
+    if (!iso) return '';
+    try {
+      const d = new Date(iso);
+      return d.toLocaleDateString('ja-JP', {year:'numeric',month:'numeric',day:'numeric'}) + ' ' +
+             d.toLocaleTimeString('ja-JP', {hour:'2-digit',minute:'2-digit'});
+    } catch { return iso; }
+  }
+
+  function updateCard(id, data) {
+    const el = document.getElementById(id);
+    if (!el || !data) return;
+    const h3 = el.querySelector('h3');
+    const p = el.querySelector('p');
+    if (h3 && data.title) h3.textContent = data.title;
+    if (p && data.body) p.textContent = data.body;
+    if (data.items && data.items.length) {
+      let ul = el.querySelector('ul.dynamic-list');
+      if (!ul) {
+        ul = document.createElement('ul');
+        ul.className = 'dynamic-list';
+        ul.style.cssText = 'margin:8px 0;padding-left:18px;color:var(--text-secondary);font-size:var(--font-size-sm);';
+        const refEl = p || h3;
+        if (refEl) refEl.parentNode.insertBefore(ul, refEl.nextSibling);
+        if (p) p.style.display = 'none';
+      }
+      ul.innerHTML = data.items.map(i => '<li style="margin-bottom:4px;">' + esc(i) + '</li>').join('');
+    }
+  }
+
+  async function loadContent() {
+    try {
+      const res = await fetch(API_URL);
+      if (!res.ok) return;
+      const { data } = await res.json();
+      if (!data) return;
+
+      if (data.life) {
+        const l = data.life;
+        if (l.lastUpdated) document.getElementById('life-updated').textContent = '最終更新: ' + fmtDate(l.lastUpdated);
+        updateCard('life-housing', l.housing);
+        updateCard('life-education', l.education);
+        updateCard('life-finance', l.finance);
+        updateCard('life-events', l.events);
+      }
+
+      console.log('[Portal] Life content loaded successfully');
+    } catch (e) {
+      console.log('[Portal] Dynamic content unavailable:', e.message);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', loadContent);
+  } else {
+    loadContent();
+  }
+  setInterval(loadContent, 30 * 60 * 1000);
+})();
+</script>
+
+</body>
+</html>

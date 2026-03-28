@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>用語集 | Saudi Life Portal</title>
+<link rel="stylesheet" href="assets/shared.css">
+</head>
+<body>
+
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+
+<!-- HEADER -->
+<header>
+  <svg class="header-arabesque" viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100px;height:80px;">
+    <path d="M100 8 L170 40 L180 100 L100 152 L20 100 L30 40Z" stroke="#1b6b4a" stroke-width="1.5" opacity="0.5" fill="none"/>
+    <path d="M100 18 L160 45 L168 95 L100 140 L32 95 L40 45Z" stroke="#c5a55a" stroke-width="1" opacity="0.5" fill="none"/>
+    <path d="M100 35 L115 65 L145 55 L125 80 L155 90 L125 100 L145 125 L115 115 L100 145 L85 115 L55 125 L75 100 L45 90 L75 80 L55 55 L85 65Z" stroke="#1b6b4a" stroke-width="1.2" opacity="0.45" fill="none"/>
+    <path d="M100 55 L125 90 L100 125 L75 90Z" stroke="#c5a55a" stroke-width="0.8" opacity="0.4" fill="none"/>
+    <circle cx="100" cy="90" r="16" stroke="#c5a55a" stroke-width="1" opacity="0.45"/>
+    <circle cx="100" cy="90" r="6" stroke="#1b6b4a" stroke-width="0.8" opacity="0.35"/>
+    <circle cx="100" cy="90" r="2.5" fill="#1b6b4a" opacity="0.25"/>
+    <path d="M100 8 L100 18 M70 22 L75 30 M130 22 L125 30" stroke="#c5a55a" stroke-width="0.8" opacity="0.4"/>
+  </svg>
+  <div class="container">
+    <h1>サウジアラビア生活情報</h1>
+    <p class="subtitle">在住日本人のための総合ポータル</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 Saudi Life Portal</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html" class="active">📖 用語集</a>
+  </div>
+
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">⚠️ 治安・制度・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html" class="active">📖 用語集</a>
+  </div>
+</nav>
+
+<!-- ===== SECTION: 用語集 ===== -->
+<section id="glossary">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-icon gold">📖</div>
+      <h2>サウジ生活 用語インデックス</h2>
+    </div>
+
+    <div class="glossary-search-wrap">
+      <span class="g-search-icon">🔍</span>
+      <input type="text" class="glossary-search" id="glossarySearch" placeholder="用語を検索… (日本語・英語・アラビア語)">
+    </div>
+
+    <div class="glossary-tabs" id="glossaryTabs">
+      <button class="glossary-tab active" data-cat="all">すべて</button>
+      <button class="glossary-tab" data-cat="gov">行政・制度</button>
+      <button class="glossary-tab" data-cat="app">アプリ・サービス</button>
+      <button class="glossary-tab" data-cat="life">日常生活</button>
+      <button class="glossary-tab" data-cat="biz">ビジネス</button>
+    </div>
+
+    <div class="glossary-count" id="glossaryCount"></div>
+    <div class="glossary-grid" id="glossaryGrid"></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="arabesque-line"></div>
+    <p>Saudi Life Portal — 在サウジアラビア日本人向け情報ポータル</p>
+    <p style="margin-top: 6px;">情報は自動収集されたものであり、正確性を保証するものではありません。<br>重要な判断は必ず公式情報源をご確認ください。</p>
+    <p style="margin-top: 12px; opacity: 0.6;">Powered by Claude AI — Auto-updated via Cowork</p>
+  </div>
+</footer>
+
+<script>
+// ===== HAMBURGER MENU =====
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('open');
+});
+
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('open');
+  });
+});
+
+// ===== GLOSSARY DATA =====
+const glossaryData = [
+  { term: "Iqama", arabic: "إقامة", reading: "イカーマ", cat: "gov", def: "外国人在留許可証。サウジで働く・住む外国人に必須のIDカード。銀行口座開設、SIM契約、出国時にも必要。有効期限切れは罰金対象。" },
+  { term: "Absher", arabic: "أبشر", reading: "アブシェル", cat: "app", def: "政府の電子サービスポータル。ビザ申請、在留許可更新、出国許可、交通違反照会・支払いなど多数の手続きをオンラインで行えるアプリ/サイト。" },
+  { term: "Kafala", arabic: "كفالة", reading: "カファーラ", cat: "gov", def: "スポンサーシップ制度。外国人労働者は原則サウジの雇用主（カフィール）がスポンサーとなる。近年の改革で労働移動の自由度が拡大中。" },
+  { term: "Kafeel", arabic: "كفيل", reading: "カフィール", cat: "gov", def: "スポンサー（保証人）。Kafala制度における外国人労働者の雇用主。ビザ・在留資格の維持に関わる。" },
+  { term: "Tawakkalna", arabic: "تواكلنا", reading: "タワッカルナ", cat: "app", def: "デジタルIDアプリ。身分証明、政府サービスアクセス、デジタルカード表示に使用。COVID-19時にはワクチン証明アプリとしても機能。" },
+  { term: "Sehhaty", arabic: "صحتي", reading: "セッハティ", cat: "app", def: "保健省の公式ヘルスケアアプリ。医療予約、検査結果確認、ワクチン記録、電子処方箋など。在留外国人も利用可能。" },
+  { term: "Muqeem", arabic: "مقيم", reading: "ムキーム", cat: "app", def: "雇用主（企業）が外国人従業員のIqama更新や出国許可をオンラインで管理するためのポータル。" },
+  { term: "Nitaqat", arabic: "نطاقات", reading: "ニターカート", cat: "gov", def: "サウジ化（自国民雇用促進）プログラム。企業のサウジ人雇用比率に応じて「プラチナ・緑・黄・赤」にランク付け。赤ランクはビザ発給制限あり。" },
+  { term: "Saudization", arabic: "سعودة", reading: "サウダイゼーション", cat: "biz", def: "サウジ人の民間セクター雇用を促進する政策の総称。特定職種の外国人就労禁止なども含む。Vision 2030の主要柱の一つ。" },
+  { term: "Vision 2030", arabic: "رؤية 2030", reading: "ビジョン2030", cat: "biz", def: "ムハンマド皇太子主導の国家改革計画。石油依存脱却、経済多角化、観光振興、社会開放などを目指す。NEOM・紅海プロジェクト等の大型開発を含む。" },
+  { term: "NEOM", arabic: "نيوم", reading: "ネオム", cat: "biz", def: "北西部タブーク州に建設中の次世代メガシティ計画。総投資額5000億ドル。直線都市「The Line」が象徴的。技術・観光の中心地を目指す。" },
+  { term: "ZATCA", arabic: "هيئة الزكاة والضريبة والجمارك", reading: "ザトカ", cat: "gov", def: "ザカート・税・関税総局。VAT（付加価値税15%）の徴収、輸入関税、税務申告などを管理する政府機関。" },
+  { term: "VAT", arabic: "ضريبة القيمة المضافة", reading: "バット", cat: "gov", def: "付加価値税。2018年に5%で導入、2020年に15%に引き上げ。ほぼ全ての商品・サービスに課税。一部の食料品や医療は免税。" },
+  { term: "Zakat", arabic: "زكاة", reading: "ザカート", cat: "gov", def: "イスラム教の喜捨義務。サウジ企業・サウジ人に課される（外国人には非課税、代わりに法人税が適用）。GCC/サウジ資本の企業が対象。" },
+  { term: "GOSI", arabic: "التأمينات الاجتماعية", reading: "ゴシ", cat: "gov", def: "社会保険公社。労災保険・年金（サウジ人向け）を管理。外国人労働者は労災保険のみ加入義務あり（給与の2%を雇用主負担）。" },
+  { term: "CCHI", arabic: "مجلس الضمان الصحي", reading: "シーシーエイチアイ", cat: "gov", def: "健康保険評議会。全外国人居住者に民間健康保険への加入を義務付けている。雇用主が保険を提供する義務がある。" },
+  { term: "Hajj", arabic: "حج", reading: "ハッジ", cat: "life", def: "イスラム五行の一つ、メッカ大巡礼。毎年イスラム暦ズルヒッジャ月に行われる。期間中はメッカ・メディナ周辺の交通規制あり。非ムスリムは入域不可。" },
+  { term: "Umrah", arabic: "عمرة", reading: "ウムラ", cat: "life", def: "小巡礼。Hajjと異なり年中可能。在留外国人ムスリムはAbsherから許可申請可能。メッカ中心部は非ムスリム立入禁止。" },
+  { term: "Salah / Salat", arabic: "صلاة", reading: "サラー / サラート", cat: "life", def: "イスラムの礼拝（1日5回）。礼拝時間帯は多くの店舗が一時閉店。Fajr（夜明け）、Dhuhr（正午）、Asr（午後）、Maghrib（日没）、Isha（夜）。" },
+  { term: "Ramadan", arabic: "رمضان", reading: "ラマダーン", cat: "life", def: "イスラム暦の断食月。日の出から日没まで飲食禁止（非ムスリムも公共の場では控えるのがマナー）。飲食店は日中閉店、夜間に開く。勤務時間も短縮。" },
+  { term: "Eid al-Fitr", arabic: "عيد الفطر", reading: "イード・アル・フィトル", cat: "life", def: "ラマダーン明けの祭日（約3-4日間の祝日）。家族での食事、贈り物、お祝いの期間。政府機関・企業は長期休暇。" },
+  { term: "Eid al-Adha", arabic: "عيد الأضحى", reading: "イード・アル・アドハー", cat: "life", def: "羊祭。Hajj巡礼に合わせた祝日（約4-5日間）。羊・牛などを屠殺にする伝統行事。年間最大の連休。" },
+  { term: "Muezzin / Adhan", arabic: "مؤذن / أذان", reading: "ムアッジン / アザーン", cat: "life", def: "アザーン＝礼拝への呼びかけ（モスクのスピーカーから流れる）。ムアッジン＝アザーンを行う人。初めは驚くが慣れると生活リズムの目安に。" },
+  { term: "Haram", arabic: "حرام", reading: "ハラーム", cat: "life", def: "イスラム法で禁止されているもの（豚肉、飲酒、利息など）。サウジでは飲酒は厳しく禁止。豚肉製品の持ち込みも不可。" },
+  { term: "Halal", arabic: "حلال", reading: "ハラール", cat: "life", def: "イスラム法で許可されたもの。特に食品に関して使われる。サウジでは基本的に全ての食品がHalal。" },
+  { term: "Mahram", arabic: "محرم", reading: "マハラム", cat: "life", def: "女性の近親男性（父、兄弟、夫、息子など）。以前は女性の移動にMahramの同伴が必要だったが、改革により大幅に緩和。" },
+  { term: "Abaya", arabic: "عباية", reading: "アバーヤ", cat: "life", def: "女性が着用する黒い長衣。以前は外出時に必須だったが、近年はドレスコードが緩和。ただし公共の場では控えめな服装が推奨。" },
+  { term: "Thobe", arabic: "ثوب", reading: "ソーブ", cat: "life", def: "サウジ男性の伝統的な白い長衣。ビジネスシーンでも正装として着用。外国人は着なくてよいが、フォーマルな場では長ズボンが無難。" },
+  { term: "Wasta", arabic: "واسطة", reading: "ワスタ", cat: "life", def: "コネ・人脈を使って物事を円滑に進めること。中東社会では人間関係が重要。良い意味でのネットワーキングから、不正な口利きまで幅広い。" },
+  { term: "Majlis", arabic: "مجلس", reading: "マジュリス", cat: "life", def: "応接間・会議室。サウジの家庭にはゲスト用のMajlisが設けられることが多い。また「シューラ評議会」のMajlisは議会の意味。" },
+  { term: "SAGIA / MISA", arabic: "وزارة الاستثمار", reading: "サギア / ミサ", cat: "biz", def: "投資省（旧SAGIA）。外国企業のサウジ進出、投資ライセンス発行、RHQ（地域統括拠点）プログラムなどを管理。" },
+  { term: "RHQ", arabic: "", reading: "アールエイチキュー", cat: "biz", def: "Regional Headquarters（地域統括本部）。2024年からサウジ政府との取引にはRHQ設置が条件。多くの多国籍企業がリヤドに本部を移転中。" },
+  { term: "Iqama Transfer", arabic: "نقل كفالة", reading: "イカーマ・トランスファー", cat: "gov", def: "スポンサー変更（転職時）。以前はKafeelの同意が必須だったが、改革により一定条件で労働者が自主的に転職可能に。" },
+  { term: "Exit / Re-entry Visa", arabic: "تأشيرة خروج وعودة", reading: "エグジット・リエントリービザ", cat: "gov", def: "出国・再入国ビザ。Iqama保持者がサウジを出国する際に必要。Singlel（1回）とMultiple（複数回）がある。Absherで申請可能。" },
+  { term: "Final Exit Visa", arabic: "تأشيرة خروج نهائية", reading: "ファイナル・エグジット", cat: "gov", def: "最終出国ビザ。サウジを完全に離れる際に必要。発行後Iqamaは無効になる。退職・帰国時にスポンサー経由で申請。" },
+  { term: "Muqeem Portal", arabic: "بوابة مقيم", reading: "ムキーム・ポータル", cat: "app", def: "企業向けの外国人従業員管理ポータル。Iqama更新、出国許可、従業員のステータス管理を行う雇用主側のシステム。" },
+  { term: "Saudi Riyal (SAR)", arabic: "ريال سعودي", reading: "サウジ・リヤル", cat: "life", def: "サウジアラビアの通貨。1 USD ≈ 3.75 SAR（固定レート）。1 SAR ≈ 約40円前後。紙幣は1, 5, 10, 50, 100, 500リヤル。" },
+  { term: "Mada", arabic: "مدى", reading: "マダ", cat: "app", def: "サウジのデビットカード決済ネットワーク。銀行口座に直結。日常の買い物はほぼMadaカードで完結。Apple Pay対応。" },
+  { term: "STC / Zain / Mobily", arabic: "", reading: "エスティーシー / ゼイン / モビリー", cat: "life", def: "サウジの3大通信キャリア。STC（最大手）、Zain、Mobilyから選べる。SIM契約にはIqamaまたはパスポート+ビジネスビザが必要。" },
+  { term: "Namma", arabic: "نما", reading: "ナンマ", cat: "app", def: "リヤドの公共交通アプリ/システム。メトロ（6路線、2024年開業）とバスネットワーク。Namma Cardで乗車。" },
+  { term: "Riyadh Season", arabic: "موسم الرياض", reading: "リヤドシーズン", cat: "life", def: "毎年10月～3月頃にリヤドで開催される大規模エンタメフェスティバル。コンサート、テーマパーク、スポーツイベントなど。" },
+  { term: "Jeddah Season", arabic: "موسم جدة", reading: "ジェッダシーズン", cat: "life", def: "ジェッダで開催される季節イベント。F1サウジGP、文化イベント、音楽フェスなど。" },
+  { term: "HRSD", arabic: "وزارة الموارد البشرية", reading: "エイチアールエスディー", cat: "gov", def: "人的資源・社会開発省。労働法、外国人労働者の権利保護、雇用紛争解決、Saudization政策などを管理。" },
+  { term: "Labor Court", arabic: "المحكمة العمالية", reading: "レイバーコート", cat: "gov", def: "労働裁判所。雇用主との紛争（給与未払い、不当解雇など）を扱う。外国人も申立可能。まずHRSDの調停を経て、解決しない場合に提訴。" }
+];
+
+// ===== GLOSSARY RENDERER =====
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function highlightText(text, query) {
+  const words = query.split(/\s+/).filter(w => w.length > 0);
+  let result = escapeHtml(text);
+  words.forEach(w => {
+    const re = new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+    result = result.replace(re, '<mark>$1</mark>');
+  });
+  return result;
+}
+
+let currentCat = 'all';
+const glossaryGrid = document.getElementById('glossaryGrid');
+const glossaryCount = document.getElementById('glossaryCount');
+const glossarySearchInput = document.getElementById('glossarySearch');
+
+function renderGlossary(filter, cat) {
+  filter = filter || '';
+  cat = cat || 'all';
+  const catLabels = {gov:'行政・制度',app:'アプリ',life:'日常生活',biz:'ビジネス'};
+  const filtered = glossaryData.filter(g => {
+    const matchCat = cat === 'all' || g.cat === cat;
+    if (!filter) return matchCat;
+    const q = filter.toLowerCase();
+    const haystack = (g.term + ' ' + g.arabic + ' ' + g.reading + ' ' + g.def).toLowerCase();
+    return matchCat && q.split(/\s+/).every(w => haystack.includes(w));
+  });
+  glossaryCount.textContent = filtered.length + '件の用語';
+  if (filtered.length === 0) {
+    glossaryGrid.innerHTML = '<p style="padding:32px 0;text-align:center;color:var(--text-tertiary)">該当する用語はありません。</p>';
+    return;
+  }
+  glossaryGrid.innerHTML = filtered.map(g =>
+    '<div class="glossary-item" data-cat="' + g.cat + '">' +
+      '<div class="glossary-term">' +
+        '<span class="term-main">' + escapeHtml(g.term) + '</span>' +
+        (g.arabic ? '<span class="term-arabic">' + g.arabic + '</span>' : '') +
+        '<span class="term-tag ' + g.cat + '">' + catLabels[g.cat] + '</span>' +
+      '</div>' +
+      '<div class="glossary-def">' +
+        '<strong>' + escapeHtml(g.reading) + '</strong> — ' + (filter ? highlightText(g.def, filter) : escapeHtml(g.def)) +
+      '</div>' +
+    '</div>'
+  ).join('');
+}
+
+// Glossary tabs
+document.getElementById('glossaryTabs').addEventListener('click', e => {
+  const tab = e.target.closest('.glossary-tab');
+  if (!tab) return;
+  document.querySelectorAll('.glossary-tab').forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+  currentCat = tab.dataset.cat;
+  renderGlossary(glossarySearchInput.value.trim(), currentCat);
+});
+
+// Glossary search
+glossarySearchInput.addEventListener('input', () => {
+  renderGlossary(glossarySearchInput.value.trim(), currentCat);
+});
+
+// Init
+renderGlossary();
+</script>
+
+</body>
+</html>
