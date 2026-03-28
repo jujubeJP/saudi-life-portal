@@ -44,8 +44,14 @@ MEDIA_SOURCES = [
     {
         "name": "Al Arabiya",
         "name_ja": "アルアラビーヤ",
-        "rss_url": "https://english.alarabiya.net/tools/mrss",
+        "rss_url": "https://english.alarabiya.net/feed/flipboard/en.xml",
         "base_url": "https://english.alarabiya.net",
+    },
+    {
+        "name": "Gulf News",
+        "name_ja": "ガルフニュース",
+        "rss_url": "https://gulfnews.com/rss/uae",
+        "base_url": "https://gulfnews.com",
     },
 ]
 
@@ -319,48 +325,49 @@ def collect_mofa():
     }
 
 
+def clean_xml_for_parsing(xml_text):
+    """XMLパース前にHTMLエンティティや不正タグを修正"""
+    # HTMLエンティティをXML互換に変換（&amp; &lt; &gt; &quot; &apos; 以外）
+    html_entities = {
+        "&nbsp;": " ", "&ndash;": "-", "&mdash;": "--", "&lsquo;": "'",
+        "&rsquo;": "'", "&ldquo;": '"', "&rdquo;": '"', "&bull;": "*",
+        "&hellip;": "...", "&copy;": "(c)", "&reg;": "(R)", "&trade;": "(TM)",
+        "&eacute;": "e", "&egrave;": "e", "&ouml;": "o", "&uuml;": "u",
+    }
+    for entity, replacement in html_entities.items():
+        xml_text = xml_text.replace(entity, replacement)
+
+    # 未知のHTMLエンティティを除去 (&amp; &lt; &gt; &quot; &apos; は保持)
+    xml_text = re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#)\w+;', '', xml_text)
+
+    # CDATA内のコンテンツはそのまま保持されるのでOK
+    # 名前空間を除去
+    xml_text = re.sub(r'xmlns\s*=\s*"[^"]*"', '', xml_text)
+    xml_text = re.sub(r'xmlns:\w+\s*=\s*"[^"]*"', '', xml_text)
+
+    return xml_text
+
+
 def parse_rss_xml(xml_text):
-    """RSS/Atom XMLをパースしてアイテムリストを返す（xml.etree使用）"""
+    """RSS/Atom XMLをパースしてアイテムリストを返す（xml.etree使用、フォールバックあり）"""
     items = []
+
+    # まずxml.etreeで試行
+    xml_clean = clean_xml_for_parsing(xml_text)
     try:
-        # 名前空間を無視するためにプレフィックスを除去
-        xml_clean = re.sub(r'xmlns\s*=\s*"[^"]*"', '', xml_text)
-        xml_clean = re.sub(r'xmlns:\w+\s*=\s*"[^"]*"', '', xml_clean)
         root = ET.fromstring(xml_clean)
-    except ET.ParseError as e:
-        print(f"[WARN] XML parse error: {e}", file=sys.stderr)
-        return items
 
-    # RSS 2.0: <channel><item>
-    for item_el in root.iter("item"):
-        item = {}
-        title_el = item_el.find("title")
-        link_el = item_el.find("link")
-        desc_el = item_el.find("description")
-        date_el = item_el.find("pubDate")
-        if title_el is not None and title_el.text:
-            item["title"] = title_el.text.strip()
-        if link_el is not None and link_el.text:
-            item["link"] = link_el.text.strip()
-        if desc_el is not None and desc_el.text:
-            item["description"] = desc_el.text.strip()
-        if date_el is not None and date_el.text:
-            item["pubdate"] = date_el.text.strip()
-        if item.get("title"):
-            items.append(item)
-
-    # Atom: <entry>
-    if not items:
-        for entry_el in root.iter("entry"):
+        # RSS 2.0: <channel><item>
+        for item_el in root.iter("item"):
             item = {}
-            title_el = entry_el.find("title")
-            link_el = entry_el.find("link")
-            desc_el = entry_el.find("summary") or entry_el.find("content")
-            date_el = entry_el.find("published") or entry_el.find("updated")
+            title_el = item_el.find("title")
+            link_el = item_el.find("link")
+            desc_el = item_el.find("description")
+            date_el = item_el.find("pubDate")
             if title_el is not None and title_el.text:
                 item["title"] = title_el.text.strip()
-            if link_el is not None:
-                item["link"] = link_el.get("href", "") or (link_el.text or "").strip()
+            if link_el is not None and link_el.text:
+                item["link"] = link_el.text.strip()
             if desc_el is not None and desc_el.text:
                 item["description"] = desc_el.text.strip()
             if date_el is not None and date_el.text:
@@ -368,6 +375,82 @@ def parse_rss_xml(xml_text):
             if item.get("title"):
                 items.append(item)
 
+        # Atom: <entry>
+        if not items:
+            for entry_el in root.iter("entry"):
+                item = {}
+                title_el = entry_el.find("title")
+                link_el = entry_el.find("link")
+                desc_el = entry_el.find("summary") or entry_el.find("content")
+                date_el = entry_el.find("published") or entry_el.find("updated")
+                if title_el is not None and title_el.text:
+                    item["title"] = title_el.text.strip()
+                if link_el is not None:
+                    item["link"] = link_el.get("href", "") or (link_el.text or "").strip()
+                if desc_el is not None and desc_el.text:
+                    item["description"] = desc_el.text.strip()
+                if date_el is not None and date_el.text:
+                    item["pubdate"] = date_el.text.strip()
+                if item.get("title"):
+                    items.append(item)
+
+        if items:
+            return items
+
+    except ET.ParseError as e:
+        print(f"[DEBUG] XML parse failed, trying regex fallback: {e}", file=sys.stderr)
+
+    # フォールバック: 正規表現でRSSアイテムを抽出
+    items = parse_rss_regex(xml_text)
+    return items
+
+
+def parse_rss_regex(xml_text):
+    """正規表現でRSS/Atomフィードからアイテムを抽出（XMLパース失敗時のフォールバック）"""
+    items = []
+
+    # <item>...</item> ブロックを抽出
+    item_blocks = re.findall(r'<item\b[^>]*>(.*?)</item>', xml_text, re.DOTALL | re.IGNORECASE)
+
+    # Atom <entry>...</entry> も試行
+    if not item_blocks:
+        item_blocks = re.findall(r'<entry\b[^>]*>(.*?)</entry>', xml_text, re.DOTALL | re.IGNORECASE)
+
+    for block in item_blocks:
+        item = {}
+
+        # タイトル（CDATA対応）
+        m = re.search(r'<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>', block, re.DOTALL)
+        if m:
+            item["title"] = strip_html_tags(m.group(1)).strip()
+
+        # リンク
+        m = re.search(r'<link[^>]*>(?:<!\[CDATA\[)?(https?://[^<\]]+?)(?:\]\]>)?</link>', block, re.DOTALL)
+        if not m:
+            m = re.search(r'<link[^>]*href="([^"]+)"', block)
+        if m:
+            item["link"] = m.group(1).strip()
+
+        # 説明
+        m = re.search(r'<description[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</description>', block, re.DOTALL)
+        if not m:
+            m = re.search(r'<summary[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</summary>', block, re.DOTALL)
+        if m:
+            item["description"] = strip_html_tags(m.group(1)).strip()
+
+        # 日付
+        m = re.search(r'<pubDate[^>]*>(.*?)</pubDate>', block, re.DOTALL)
+        if not m:
+            m = re.search(r'<published[^>]*>(.*?)</published>', block, re.DOTALL)
+        if not m:
+            m = re.search(r'<updated[^>]*>(.*?)</updated>', block, re.DOTALL)
+        if m:
+            item["pubdate"] = m.group(1).strip()
+
+        if item.get("title"):
+            items.append(item)
+
+    print(f"[DEBUG] Regex fallback extracted {len(items)} items")
     return items
 
 
@@ -433,8 +516,8 @@ def collect_media():
             if not title or not link:
                 continue
 
-            # Al Arabiyaはサウジ関連のみフィルタ
-            if source["name"] == "Al Arabiya":
+            # Al Arabiya/Gulf Newsはサウジ関連のみフィルタ
+            if source["name"] in ("Al Arabiya", "Gulf News"):
                 combined = (title + " " + description).lower()
                 if not any(kw in combined for kw in saudi_keywords):
                     continue
