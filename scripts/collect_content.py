@@ -264,8 +264,8 @@ def collect_embassy():
 
     # 最新10件に制限
     news_items = news_items[:10]
-    embassy_title = news_items[0]["title"] if news_items else "情報を取得できませんでした"
-    embassy_body = f"直近{len(news_items)}件のお知らせを取得しました。" if news_items else "大使館サイトからの情報取得に失敗しました。"
+    embassy_title = f"直近{len(news_items)}件のお知らせを取得しました。" if news_items else "情報を取得できませんでした"
+    embassy_body = ""
 
     embassy_data = {
         "title": embassy_title,
