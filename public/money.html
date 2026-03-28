@@ -323,7 +323,7 @@
 
     <h4 class="sub-title">VATの基本情報</h4>
     <table class="info-table" style="margin-top:8px;">
-      <tr><th>項目</th><th>内容</th></tr>
+      <tr><th style="width:35%;">項目</th><th>内容</th></tr>
       <tr><td><strong>導入年</strong></td><td>2018年1月</td></tr>
       <tr><td><strong>税率（2020年以降）</strong></td><td><strong>15%</strong>（以前は5%）</td></tr>
       <tr><td><strong>表示方式</strong></td><td>店頭表示はVAT込み価格。レシートに「VAT」と明記</td></tr>
@@ -331,7 +331,7 @@
 
     <h4 class="sub-title">VAT対象 / 非対象</h4>
     <table class="info-table" style="margin-top:8px;">
-      <tr><th>対象</th><th>非対象・一部免税</th></tr>
+      <tr><th style="width:35%;">対象</th><th>非対象・一部免税</th></tr>
       <tr><td>衣料品、電化製品、嗜好品、外食</td><td>基本食料品（米、小麦粉、鶏卵など）</td></tr>
       <tr><td>ホテル、観光サービス</td><td>医療サービス</td></tr>
       <tr><td>ガソリン、タクシー</td><td>教育（一部）</td></tr>
@@ -397,6 +397,7 @@
   </div>
 </footer>
 
+<script src="assets/search-index.js"></script>
 <script>
 // ===== HAMBURGER MENU =====
 const hamburger = document.getElementById('hamburger');
@@ -464,39 +465,19 @@ function highlightText(text, query) {
   return result;
 }
 
-const searchData = [
-  {title: 'サウジ・リヤル（SAR）', desc: '通貨単位。1SAR=100ハララ、1USD=3.75SAR固定'},
-  {title: 'リヤル相場（日本円）', desc: '2026年3月時点で1SAR≈40円（USD/JPY連動）'},
-  {title: '紙幣', desc: '1,5,10,50,100,200,500SAR。硬貨はほぼ使われない'},
-  {title: '両替所', desc: 'Enjaz、Al Rajhi Exchange等。レート比較が重要'},
-  {title: 'ATM', desc: '24時間利用可。国際カード対応。1回上限5,000SAR'},
-  {title: 'クレジットカード', desc: 'VISA/Mastercard○、JCB△、AMEX使えない'},
-  {title: 'STCpay', desc: '最大手の決済アプリ。QRコード決済、国際送金対応'},
-  {title: 'Al Rajhi Bank', desc: '最大のイスラム銀行。外国人にも利用しやすい'},
-  {title: 'Saudi National Bank', desc: '旧NCB。最大の商業銀行。給与振込実績多数'},
-  {title: 'イカマ（Iqama）', desc: '在留許可証。銀行口座開設に必要'},
-  {title: '国際送金', desc: '銀行送金、Wise、Western Union、Al Rajhi Exchangeから選択'},
-  {title: 'VAT', desc: '15%の付加価値税。2018年導入、2020年に15%に引上げ'},
-  {title: '免税制度（Tax Free）', desc: '2024年開始。観光客向け。500SAR以上の購入で対象'},
-  {title: 'チップ', desc: 'レストラン10-15%、ホテルポーター5-10SAR、タクシーは端数切り上げ'},
-  {title: 'Wise', desc: '国際送金サービス。レート有利。着金1-2営業日'},
-  {title: 'mada Pay', desc: 'QRコード決済。MADAデビット対応。対応店舗拡大中'},
-  {title: 'Apple Pay / Google Pay', desc: '対応店舗増加中。設定にはサウジ銀行口座が必要'},
-  {title: 'Western Union', desc: '速い国際送金。手数料割高。小額送金向き'},
-];
-
 searchInput.addEventListener('input', () => {
   const q = searchInput.value.trim().toLowerCase();
   if (q.length < 1) { searchResults.classList.remove('visible'); return; }
-  const matches = searchData.filter(d =>
-    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q)
+  const matches = SITE_SEARCH_INDEX.filter(d =>
+    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q) || d.pageTitle.toLowerCase().includes(q)
   );
   searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
   searchResultsContent.innerHTML = matches.map(m =>
-    '<div style="padding:10px 0;border-bottom:1px solid var(--border-light);">' +
+    '<a href="' + m.page + '" style="display:block; padding:10px 0; border-bottom:1px solid var(--border-light); text-decoration:none; color:inherit;">' +
+      '<span style="font-size:0.75em; color:var(--accent); display:block; margin-bottom:2px;">' + escapeHtml(m.pageTitle) + '</span>' +
       '<strong>' + highlightText(m.title, q) + '</strong>' +
       '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
-    '</div>'
+    '</a>'
   ).join('');
   searchResults.classList.add('visible');
 });

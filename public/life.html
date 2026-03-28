@@ -184,6 +184,7 @@
   </div>
 </footer>
 
+<script src="assets/search-index.js"></script>
 <script>
 // ===== HAMBURGER MENU =====
 const hamburger = document.getElementById('hamburger');
@@ -251,40 +252,23 @@ function highlightText(text, query) {
   return result;
 }
 
-function buildSearchIndex() {
-  const index = [];
-  document.querySelectorAll('.card').forEach(card => {
-    const section = card.closest('section');
-    if (!section) return;
-    const sectionName = section.querySelector('.section-header h2')?.textContent || '';
-    const label = card.querySelector('.card-label')?.textContent || '';
-    const title = card.querySelector('h3')?.textContent || '';
-    const text = card.querySelector('p')?.textContent || '';
-    const id = section.id;
-    index.push({ category: sectionName, label, title, text, sectionId: id });
-  });
-  return index;
-}
-
-let searchIndex = [];
 let searchTimeout;
 searchInput.addEventListener('input', () => {
   clearTimeout(searchTimeout);
   searchTimeout = setTimeout(() => {
     const q = searchInput.value.trim().toLowerCase();
-    if (q.length < 2) { searchResults.classList.remove('visible'); return; }
-    if (searchIndex.length === 0) searchIndex = buildSearchIndex();
-    const results = searchIndex.filter(item => {
-      const haystack = (item.category + ' ' + item.label + ' ' + item.title + ' ' + item.text).toLowerCase();
-      return q.split(/\s+/).every(word => haystack.includes(word));
-    });
-    searchResultsTitle.textContent = '「' + q + '」の検索結果';
-    if (results.length === 0) {
-      searchResultsContent.innerHTML = '<div class="search-no-results"><div class="big-icon">🔍</div><p>「' + escapeHtml(q) + '」に一致する結果はありませんでした。</p></div>';
-    } else {
-      searchResultsContent.innerHTML = '<p style="margin-bottom:16px;color:var(--text-tertiary);font-size:var(--font-size-sm)">' + results.length + '件の結果</p>' +
-        results.map(r => '<div class="sr-item" onclick="document.getElementById(\'' + r.sectionId + '\')?.scrollIntoView({behavior:\'smooth\'})"><div class="sr-category">' + escapeHtml(r.category) + '</div><div class="sr-title">' + highlightText(r.title, q) + '</div><div class="sr-excerpt">' + highlightText(r.text, q) + '</div></div>').join('');
-    }
+    if (q.length < 1) { searchResults.classList.remove('visible'); return; }
+    const matches = SITE_SEARCH_INDEX.filter(d =>
+      d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q) || d.pageTitle.toLowerCase().includes(q)
+    );
+    searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
+    searchResultsContent.innerHTML = matches.map(m =>
+      '<a href="' + m.page + '" style="display:block; padding:10px 0; border-bottom:1px solid var(--border-light); text-decoration:none; color:inherit;">' +
+        '<span style="font-size:0.75em; color:var(--accent); display:block; margin-bottom:2px;">' + escapeHtml(m.pageTitle) + '</span>' +
+        '<strong>' + highlightText(m.title, q) + '</strong>' +
+        '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
+      '</a>'
+    ).join('');
     searchResults.classList.add('visible');
   }, 200);
 });

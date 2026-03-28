@@ -369,6 +369,7 @@
   </div>
 </footer>
 
+<script src="assets/search-index.js"></script>
 <script>
 // ===== HAMBURGER MENU =====
 const hamburger = document.getElementById('hamburger');
@@ -436,39 +437,19 @@ function highlightText(text, query) {
   return result;
 }
 
-const searchData = [
-  {title: '緊急通報番号', desc: '警察999、救急997、消防998、交通事故993'},
-  {title: '警察', desc: '犯罪被害・身の危険・トラブル。999に電話'},
-  {title: '救急車・医療', desc: '病気・怪我。997に電話。または病院のER'},
-  {title: '消防', desc: '火災・火事。998に電話'},
-  {title: '交通事故', desc: '車の事故。993に電話。警察も呼ぶ'},
-  {title: '在日本国大使館', desc: 'リヤド。+966-11-488-1100。緊急時は1110'},
-  {title: '在ジェッダ総領事館', desc: 'ジェッダ。+966-12-651-3850。西部地域担当'},
-  {title: '病院・医療', desc: 'King Faisal、King Fahad、Al Habib、Saudi German'},
-  {title: '薬局', desc: 'Al Dawaa、Nahdi。24時間営業店舗あり'},
-  {title: '海外旅行保険', desc: '医療費補償。24時間コールセンター。加入時の書類参照'},
-  {title: '在留届', desc: '到着後、大使館に届け出。緊急時連絡に必要'},
-  {title: 'たびレジ', desc: '渡航前登録で安全情報が定期配信'},
-  {title: 'Absher', desc: 'ビザ・イカマのオンラインポータル。absher.sa'},
-  {title: '労働苦情・給与', desc: '外国人向け労働相談。19911に電話'},
-  {title: '消費者保護', desc: '詐欺・不正販売。1900に電話'},
-  {title: '緊急時の心得', desc: 'パスポート・イカマ・保険証を常に携帯'},
-  {title: 'STC・Mobily・Zain', desc: '携帯キャリア。STC900、Mobily1100、Zain959'},
-  {title: 'スマートフォン登録', desc: '緊急連絡先をあらかじめ登録しておく'},
-];
-
 searchInput.addEventListener('input', () => {
   const q = searchInput.value.trim().toLowerCase();
   if (q.length < 1) { searchResults.classList.remove('visible'); return; }
-  const matches = searchData.filter(d =>
-    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q)
+  const matches = SITE_SEARCH_INDEX.filter(d =>
+    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q) || d.pageTitle.toLowerCase().includes(q)
   );
   searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
   searchResultsContent.innerHTML = matches.map(m =>
-    '<div style="padding:10px 0;border-bottom:1px solid var(--border-light);">' +
+    '<a href="' + m.page + '" style="display:block; padding:10px 0; border-bottom:1px solid var(--border-light); text-decoration:none; color:inherit;">' +
+      '<span style="font-size:0.75em; color:var(--accent); display:block; margin-bottom:2px;">' + escapeHtml(m.pageTitle) + '</span>' +
       '<strong>' + highlightText(m.title, q) + '</strong>' +
       '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
-    '</div>'
+    '</a>'
   ).join('');
   searchResults.classList.add('visible');
 });

@@ -262,6 +262,7 @@
   </div>
 </footer>
 
+<script src="assets/search-index.js"></script>
 <script>
 // ===== HAMBURGER MENU =====
 const hamburger = document.getElementById('hamburger');
@@ -329,42 +330,19 @@ function highlightText(text, query) {
   return result;
 }
 
-// Page-local search data
-const searchData = [
-  {title: 'ダカールラリー', desc: '1月 - 世界最過酷なオフロードレース', section: '1月'},
-  {title: 'アルウラ芸術祭', desc: '1-2月 - 世界遺産アルウラでの芸術祭', section: '1月'},
-  {title: 'ディルイーヤ現代アートビエンナーレ', desc: '1月 - 国際現代アート展', section: '1月'},
-  {title: 'WWE ロイヤルランブル', desc: '1月31日 - プロレス', section: '1月'},
-  {title: 'フォーミュラE', desc: '2月13-14日 - 電気自動車レース', section: '2月'},
-  {title: 'サウジカップ', desc: '2月14日 - 世界最高額の競馬レース', section: '2月'},
-  {title: 'ラマダン', desc: '2月18日頃〜3月19日頃 - 断食月', section: '2月'},
-  {title: '建国記念日 Founding Day', desc: '2月22日 - 第一次サウジ王国建国記念', section: '2月'},
-  {title: 'イード・アル＝フィトル', desc: '3月20日頃 - ラマダン明けの大祭', section: '3月'},
-  {title: 'リヤドシーズン', desc: '10月〜3月 - サウジ最大の総合エンタメ', section: '10月'},
-  {title: 'LEAP 2026', desc: '4月13-16日 - テクノロジーカンファレンス', section: '4月'},
-  {title: 'F1 サウジアラビアGP', desc: '4月17-19日 - ジェッダF1グランプリ', section: '4月'},
-  {title: 'ハッジ 大巡礼', desc: '5月25日頃 - メッカへの大巡礼', section: '5月'},
-  {title: 'イード・アル＝アドハー 犠牲祭', desc: '5月27日頃 - イスラム最大の祝日', section: '5月'},
-  {title: '建国記念日 National Day', desc: '9月23日 - サウジアラビア王国建国記念', section: '9月'},
-  {title: 'ヌール・リヤド', desc: '秋 - 光とアートの祭典', section: '10月'},
-  {title: 'AFCアジアカップ 2027', desc: '2027年 - サウジ初開催', section: '今後'},
-  {title: 'アジア冬季競技大会 2029', desc: '2029年 - NEOM・トロジェナで開催', section: '今後'},
-  {title: '万博 Expo 2030 リヤド', desc: '2030年 - 国際博覧会', section: '今後'},
-  {title: 'FIFAワールドカップ 2034', desc: '2034年 - サウジ初開催', section: '今後'},
-];
-
 searchInput.addEventListener('input', () => {
   const q = searchInput.value.trim().toLowerCase();
   if (q.length < 1) { searchResults.classList.remove('visible'); return; }
-  const matches = searchData.filter(d =>
-    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q)
+  const matches = SITE_SEARCH_INDEX.filter(d =>
+    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q) || d.pageTitle.toLowerCase().includes(q)
   );
   searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
   searchResultsContent.innerHTML = matches.map(m =>
-    '<div style="padding:10px 0;border-bottom:1px solid var(--border-light);">' +
+    '<a href="' + m.page + '" style="display:block; padding:10px 0; border-bottom:1px solid var(--border-light); text-decoration:none; color:inherit;">' +
+      '<span style="font-size:0.75em; color:var(--accent); display:block; margin-bottom:2px;">' + escapeHtml(m.pageTitle) + '</span>' +
       '<strong>' + highlightText(m.title, q) + '</strong>' +
       '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
-    '</div>'
+    '</a>'
   ).join('');
   searchResults.classList.add('visible');
 });

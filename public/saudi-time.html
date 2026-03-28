@@ -301,6 +301,7 @@
   </div>
 </footer>
 
+<script src="assets/search-index.js"></script>
 <script>
 // ===== HAMBURGER MENU =====
 const hamburger = document.getElementById('hamburger');
@@ -368,31 +369,19 @@ function highlightText(text, query) {
   return result;
 }
 
-const searchData = [
-  {title: '時差・タイムゾーン', desc: 'UTC+3、日本との時差マイナス6時間'},
-  {title: '週末', desc: '金曜・土曜が休み。日曜が週の始まり'},
-  {title: '就業時間（通常）', desc: '官公庁7:30-14:30、民間8:00-17:00'},
-  {title: '就業時間（ラマダン）', desc: '官公庁10:00-15:00、民間6時間/日'},
-  {title: '礼拝時間', desc: '1日5回。店舗が15-30分閉店'},
-  {title: '食事の時間帯', desc: '昼食13-15時、夕食21-23時'},
-  {title: '月別気温', desc: 'リヤド夏44℃、冬9-22℃。ジェッダは年中温暖'},
-  {title: '夏の生活', desc: '夜型。モールが涼みスポット。ディナーは22時以降'},
-  {title: '冬の生活', desc: '砂漠キャンプ、屋外バーベキュー、デューンバッシング'},
-  {title: 'カシュタ', desc: '冬の砂漠キャンプ。焚き火とBBQと星空'},
-];
-
 searchInput.addEventListener('input', () => {
   const q = searchInput.value.trim().toLowerCase();
   if (q.length < 1) { searchResults.classList.remove('visible'); return; }
-  const matches = searchData.filter(d =>
-    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q)
+  const matches = SITE_SEARCH_INDEX.filter(d =>
+    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q) || d.pageTitle.toLowerCase().includes(q)
   );
   searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
   searchResultsContent.innerHTML = matches.map(m =>
-    '<div style="padding:10px 0;border-bottom:1px solid var(--border-light);">' +
+    '<a href="' + m.page + '" style="display:block; padding:10px 0; border-bottom:1px solid var(--border-light); text-decoration:none; color:inherit;">' +
+      '<span style="font-size:0.75em; color:var(--accent); display:block; margin-bottom:2px;">' + escapeHtml(m.pageTitle) + '</span>' +
       '<strong>' + highlightText(m.title, q) + '</strong>' +
       '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
-    '</div>'
+    '</a>'
   ).join('');
   searchResults.classList.add('visible');
 });
