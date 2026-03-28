@@ -21,6 +21,10 @@
   .two-col { column-count: 2; column-gap: 28px; }
   .two-col > * { break-inside: avoid; }
 }
+
+@media (max-width: 640px) {
+  .side-panels { grid-template-columns: 1fr !important; }
+}
 </style>
 </head>
 <body>
@@ -263,11 +267,12 @@
 <section class="compact-section">
   <div class="card">
     <h3 class="section-title">🛫 入国の流れ</h3>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
-      サウジアラビアに到着してから出国するまでの基本的な流れを説明します。
-    </p>
+    <div class="two-col">
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
+        サウジアラビアに到着してから出国するまでの基本的な流れを説明します。
+      </p>
 
-    <h4 class="sub-title">到着から入国審査まで</h4>
+      <h4 class="sub-title">到着から入国審査まで</h4>
     <table class="info-table">
       <tr>
         <td style="width:80px; white-space:nowrap; font-weight:600; vertical-align:top;">到着</td>
@@ -306,6 +311,7 @@
     </ul>
 
     <div class="tip-box">💡 常備薬がある場合は、渡航前に医師から英文の処方箋（Prescription）を取得してください。医学的必要性があれば、持ち込みが許可される可能性が高まります。</div>
+    </div>
   </div>
 </section>
 
@@ -313,38 +319,39 @@
 <section class="compact-section">
   <div class="card">
     <h3 class="section-title">🎒 持ち物チェックリスト</h3>
-    <div class="two-col">
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
-        サウジアラビアへの渡航で必須の持ち物と推奨される持ち物をまとめました。
-      </p>
-
-      <h4 class="sub-title">必須アイテム</h4>
-      <ul class="checklist">
-        <li><strong>パスポート：</strong>6ヶ月以上の残存期間を確認</li>
-        <li><strong>eVisa確認書：</strong>メール添付のPDFを印刷またはスマートフォンに保存</li>
-        <li><strong>海外旅行保険証書：</strong>医療保険への加入を強く推奨。サウジの医療費は高額</li>
-        <li><strong>現金（SAR および USD）：</strong>空港で両替するか、予め日本で用意。1,000〜2,000 SAR（約33,000〜67,000円）程度の現金があると安心</li>
-        <li><strong>クレジットカード：</strong>Visa/Mastercard。American Expressは使える店が限定的</li>
-        <li><strong>スマートフォン：</strong>GPS、タクシーアプリ（Uber/Careem）、翻訳アプリに必須</li>
-        <li><strong>航空券（eチケット）：</strong>メールから再ダウンロード可能だが、念のため印刷またはオフラインで確保</li>
-      </ul>
-
-      <h4 class="sub-title">推奨アイテム</h4>
-      <ul class="checklist">
-        <li><strong>電源プラグ変換器（Type G）：</strong>サウジはイギリス規格の3つ穴プラグ。日本のA型プラグは使えません</li>
-        <li><strong>日焼け止め（高SPF）：</strong>サウジの日差しは非常に強い。50+推奨</li>
-        <li><strong>帽子・サングラス：</strong>屋外での移動時に必須</li>
-        <li><strong>常備薬（英文処方箋付き）：</strong>胃薬、風邪薬、酔い止め等。サウジの薬局で医者の指示なしに購入は難しい</li>
-        <li><strong>肌ケア用品：</strong>極度に乾燥しているため、化粧水・リップクリーム・ハンドクリーム必須</li>
-        <li><strong>SIMフリースマートフォン：</strong>現地SIM（STC/Mobily/Zain）が使用可能。データ通信量が多い場合は事前確保を推奨</li>
-        <li><strong>モバイルバッテリー：</strong>大容量（20,000 mAh以上）。移動が多い場合に重宝</li>
-        <li><strong>薄手の上着・カーディガン：</strong>屋内と屋外の気温差、モール内のエアコンが強いため、1枚あると便利</li>
-        <li><strong>運転免許証（国際免許証）：</strong>レンタカー利用予定の場合。国内免許証だけでは借りられない</li>
-        <li><strong>写真（パスポートサイズ）：</strong>ホテル登録やビザ延長等で必要になることあり</li>
-      </ul>
-
-      <div class="tip-box">💡 女性向けの化粧品やトイレタリーはサウジでも入手可能ですが、好みのブランドや日本製品を持参したい場合は先に買い揃えてください。</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
+      サウジアラビアへの渡航で必須の持ち物と推奨される持ち物をまとめました。
+    </p>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+      <div>
+        <h4 class="sub-title">必須アイテム</h4>
+        <ul class="checklist">
+          <li><strong>パスポート：</strong>6ヶ月以上の残存期間を確認</li>
+          <li><strong>eVisa確認書：</strong>メール添付のPDFを印刷またはスマートフォンに保存</li>
+          <li><strong>海外旅行保険証書：</strong>医療保険への加入を強く推奨。サウジの医療費は高額</li>
+          <li><strong>現金（SAR および USD）：</strong>空港で両替するか、予め日本で用意。1,000〜2,000 SAR（約33,000〜67,000円）程度の現金があると安心</li>
+          <li><strong>クレジットカード：</strong>Visa/Mastercard。American Expressは使える店が限定的</li>
+          <li><strong>スマートフォン：</strong>GPS、タクシーアプリ（Uber/Careem）、翻訳アプリに必須</li>
+          <li><strong>航空券（eチケット）：</strong>メールから再ダウンロード可能だが、念のため印刷またはオフラインで確保</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="sub-title">推奨アイテム</h4>
+        <ul class="checklist">
+          <li><strong>電源プラグ変換器（Type G）：</strong>サウジはイギリス規格の3つ穴プラグ。日本のA型プラグは使えません</li>
+          <li><strong>日焼け止め（高SPF）：</strong>サウジの日差しは非常に強い。50+推奨</li>
+          <li><strong>帽子・サングラス：</strong>屋外での移動時に必須</li>
+          <li><strong>常備薬（英文処方箋付き）：</strong>胃薬、風邪薬、酔い止め等。サウジの薬局で医者の指示なしに購入は難しい</li>
+          <li><strong>肌ケア用品：</strong>極度に乾燥しているため、化粧水・リップクリーム・ハンドクリーム必須</li>
+          <li><strong>SIMフリースマートフォン：</strong>現地SIM（STC/Mobily/Zain）が使用可能。データ通信量が多い場合は事前確保を推奨</li>
+          <li><strong>モバイルバッテリー：</strong>大容量（20,000 mAh以上）。移動が多い場合に重宝</li>
+          <li><strong>薄手の上着・カーディガン：</strong>屋内と屋外の気温差、モール内のエアコンが強いため、1枚あると便利</li>
+          <li><strong>運転免許証（国際免許証）：</strong>レンタカー利用予定の場合。国内免許証だけでは借りられない</li>
+          <li><strong>写真（パスポートサイズ）：</strong>ホテル登録やビザ延長等で必要になることあり</li>
+        </ul>
+      </div>
     </div>
+    <div class="tip-box">💡 女性向けの化粧品やトイレタリーはサウジでも入手可能ですが、好みのブランドや日本製品を持参したい場合は先に買い揃えてください。</div>
   </div>
 </section>
 
@@ -352,15 +359,59 @@
 <section class="compact-section">
   <div class="card">
     <h3 class="section-title">📝 到着後にやること</h3>
-    <div class="two-col">
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
-        サウジアラビアに到着してから、最初に済ませるべき手続きと準備をリストアップしました。
-      </p>
-
-      <h4 class="sub-title">ステップ 1：SIMカード購入（到着当日～翌日）</h4>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-        空港またはホテル周辺で現地キャリアのSIMカードを購入します。主な通信会社：
-      </p>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
+      サウジアラビアに到着してから、最初に済ませるべき手続きと準備をリストアップしました。
+    </p>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;" class="side-panels">
+      <div>
+        <h4 class="sub-title">ステップ 1：SIMカード購入（到着当日～翌日）</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          空港またはホテル周辺で現地キャリアのSIMカードを購入します。主な通信会社：
+        </p>
+      </div>
+      <div>
+        <h4 class="sub-title">ステップ 2：Absher（アブシェール）への登録（到着後3〜7日以内）</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          Absherはサウジアラビアの政府サービスプラットフォーム。パスポート、ビザ、給与、税務等の情報がここで管理されます。Absherアプリをダウンロードし、パスポート番号でアカウント登録します。後に在留届の申請もここを通じて行います。
+        </p>
+      </div>
+      <div>
+        <h4 class="sub-title">ステップ 3：交通手段の確保</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          サウジには公共交通がほぼなく、移動手段は限定的です。ホテルから各地への移動は以下の方法で対応：
+        </p>
+        <ul class="checklist">
+          <li><strong>Uber / Careem：</strong>スマートフォンアプリで呼べるタクシー。最も便利。クレジットカード登録で支払い完結</li>
+          <li><strong>ホテルのコンシェルジュ：</strong>空港送迎やツアー予約。割高だが確実</li>
+          <li><strong>レンタカー：</strong>国際免許証と運転免許証があれば可能。ガソリン代が安い（1リットル2 SAR程度）</li>
+          <li><strong>タクシー（流し）：</strong>相乗り前提。料金交渉が必要で、トラブルのリスクあり。避けるべき</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="sub-title">ステップ 4：在サウジ日本大使館への在留届</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          3ヶ月以上サウジに滞在する場合、外務省の在留届システムに登録してください。オンラインでの届出が可能です。緊急時に日本大使館から連絡を受けられます。<br>
+          リヤド日本大使館：<a href="https://www.sa.emb-japan.go.jp/" target="_blank" rel="noopener" style="color:var(--accent);">sa.emb-japan.go.jp</a>
+        </p>
+      </div>
+      <div>
+        <h4 class="sub-title">ステップ 5：銀行口座開設（2週間以内）</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          長期滞在予定の場合、サウジの銀行口座開設を検討してください。給与受取、電気代・水道代等の支払いに便利です。主要銀行：
+        </p>
+        <ul class="checklist">
+          <li>Al Ahli Bank（アル・アハリ銀行）</li>
+          <li>Riyad Bank（リヤド銀行）</li>
+          <li>Saudi National Bank（サウジ・ナショナル・バンク）</li>
+          <li>Bank AlJazira（アルジャジーラ銀行）</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="sub-title">ステップ 6：日本への連絡</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+          家族や友人に到着を報告。LINEやWhatsApp、メール等で連絡します。サウジのネット環境は安定していますが、VPNを使わないと一部のサービス（YouTube、Instagram等の特定機能）が制限されることがあります。
+        </p>
+      </div>
     </div>
     <table class="info-table">
       <tr>
@@ -384,47 +435,7 @@
         <td>プリペイド 50 SAR（バランス型）</td>
       </tr>
     </table>
-    <div class="two-col">
-      <div class="tip-box">💡 SIMフリーのスマートフォンが必須です。キャリアのロック版スマートフォンでは現地SIMが使えません。</div>
-
-      <h4 class="sub-title">ステップ 2：Absher（アブシェール）への登録（到着後3〜7日以内）</h4>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-        Absherはサウジアラビアの政府サービスプラットフォーム。パスポート、ビザ、給与、税務等の情報がここで管理されます。Absherアプリをダウンロードし、パスポート番号でアカウント登録します。後に在留届の申請もここを通じて行います。
-      </p>
-
-      <h4 class="sub-title">ステップ 3：交通手段の確保</h4>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-        サウジには公共交通がほぼなく、移動手段は限定的です。ホテルから各地への移動は以下の方法で対応：
-      </p>
-      <ul class="checklist">
-        <li><strong>Uber / Careem：</strong>スマートフォンアプリで呼べるタクシー。最も便利。クレジットカード登録で支払い完結</li>
-        <li><strong>ホテルのコンシェルジュ：</strong>空港送迎やツアー予約。割高だが確実</li>
-        <li><strong>レンタカー：</strong>国際免許証と運転免許証があれば可能。ガソリン代が安い（1リットル2 SAR程度）</li>
-        <li><strong>タクシー（流し）：</strong>相乗り前提。料金交渉が必要で、トラブルのリスクあり。避けるべき</li>
-      </ul>
-
-      <h4 class="sub-title">ステップ 4：在サウジ日本大使館への在留届</h4>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-        3ヶ月以上サウジに滞在する場合、外務省の在留届システムに登録してください。オンラインでの届出が可能です。緊急時に日本大使館から連絡を受けられます。<br>
-        リヤド日本大使館：<a href="https://www.sa.emb-japan.go.jp/" target="_blank" rel="noopener" style="color:var(--accent);">sa.emb-japan.go.jp</a>
-      </p>
-
-      <h4 class="sub-title">ステップ 5：銀行口座開設（2週間以内）</h4>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-        長期滞在予定の場合、サウジの銀行口座開設を検討してください。給与受取、電気代・水道代等の支払いに便利です。主要銀行：
-      </p>
-      <ul class="checklist">
-        <li>Al Ahli Bank（アル・アハリ銀行）</li>
-        <li>Riyad Bank（リヤド銀行）</li>
-        <li>Saudi National Bank（サウジ・ナショナル・バンク）</li>
-        <li>Bank AlJazira（アルジャジーラ銀行）</li>
-      </ul>
-
-      <h4 class="sub-title">ステップ 6：日本への連絡</h4>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        家族や友人に到着を報告。LINEやWhatsApp、メール等で連絡します。サウジのネット環境は安定していますが、VPNを使わないと一部のサービス（YouTube、Instagram等の特定機能）が制限されることがあります。
-      </p>
-    </div>
+    <div class="tip-box">💡 SIMフリーのスマートフォンが必須です。キャリアのロック版スマートフォンでは現地SIMが使えません。</div>
   </div>
 </section>
 

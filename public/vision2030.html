@@ -28,6 +28,10 @@
 .progress-desc { flex:1; color:var(--text-secondary); }
 .project-grid { display:grid; grid-template-columns:1fr; gap:10px; }
 @media (min-width:768px) { .project-grid { grid-template-columns:repeat(2, 1fr); } }
+.two-col { display:grid; grid-template-columns:1fr; gap:12px; }
+@media (min-width:900px) { .two-col { grid-template-columns:repeat(2, 1fr); } }
+.side-panels { display:grid; gap:14px; }
+@media (max-width:640px) { .side-panels { grid-template-columns:1fr !important; } }
 </style>
 </head>
 <body>
@@ -250,45 +254,90 @@
     <h3 class="section-title">✅ 2026年時点の実現状況</h3>
 
     <h4 class="sub-title">実現済み（2016-2026）</h4>
-    <div style="display:grid; grid-template-columns:1fr; gap:8px; margin-bottom:12px;">
-      <div style="padding:10px; background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 3px 3px 0;">
-        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); margin:0; line-height:1.7;">
-          <span class="achievement-badge">観光ビザ解禁</span> 2019年9月より観光ビザの オンライン申請開始。現在も主流。年間観光客100万人以上受け入れ<br>
-          <span class="achievement-badge">エンターテインメント解禁</span> 映画館営業再開（2018年）、ライブコンサート定期開催、スポーツイベント誘致（ボクシング、テニス、F1等）<br>
-          <span class="achievement-badge">女性運転免許</span> 2018年6月より女性の運転免許取得可。現在も多くの女性ドライバーが増加中<br>
-          <span class="achievement-badge">映画館復活</span> 2018年1月の最初の映画館開館以来、全国で100軒超の映画館が営業<br>
-          <span class="achievement-badge">VAT導入</span> 2018年1月に15%のVAT（付加価値税）導入。基本的な食料品は免税<br>
-          <span class="achievement-badge">Aramco IPO完了</span> 2019年12月のIPO成功で国営企業民営化の象徴的事例に<br>
-          <span class="achievement-badge">リヤドシーズン</span> 冬季の大規模文化・スポーツイベント週間（毎年開催）。エンタメ産業化の代表例<br>
-          <span class="achievement-badge">サウジプロリーグの国際化</span> 大型投資により欧州のトップ選手を多数獲得。アジアの有力リーグへ成長
-        </p>
+    <div style="margin-bottom:12px;">
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#e8f5e9;color:#2e7d32;">実現済み</span>
+        <span class="progress-desc"><strong>観光ビザ解禁</strong> — 2019年9月より観光ビザのオンライン申請開始。現在も主流。年間観光客100万人以上受け入れ</span>
+      </div>
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#e8f5e9;color:#2e7d32;">実現済み</span>
+        <span class="progress-desc"><strong>エンターテインメント解禁</strong> — 映画館営業再開（2018年）、ライブコンサート定期開催、スポーツイベント誘致（ボクシング、テニス、F1等）</span>
+      </div>
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#e8f5e9;color:#2e7d32;">実現済み</span>
+        <span class="progress-desc"><strong>女性運転免許</strong> — 2018年6月より女性の運転免許取得可。現在も多くの女性ドライバーが増加中</span>
+      </div>
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#e8f5e9;color:#2e7d32;">実現済み</span>
+        <span class="progress-desc"><strong>映画館復活</strong> — 2018年1月の最初の映画館開館以来、全国で100軒超の映画館が営業</span>
+      </div>
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#e8f5e9;color:#2e7d32;">実現済み</span>
+        <span class="progress-desc"><strong>VAT導入</strong> — 2018年1月に15%のVAT（付加価値税）導入。基本的な食料品は免税</span>
+      </div>
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#e8f5e9;color:#2e7d32;">実現済み</span>
+        <span class="progress-desc"><strong>Aramco IPO完了</strong> — 2019年12月のIPO成功で国営企業民営化の象徴的事例に</span>
+      </div>
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#e8f5e9;color:#2e7d32;">実現済み</span>
+        <span class="progress-desc"><strong>リヤドシーズン</strong> — 冬季の大規模文化・スポーツイベント週間（毎年開催）。エンタメ産業化の代表例</span>
+      </div>
+      <div class="progress-item" style="border-bottom:none;">
+        <span class="progress-tag" style="background:#e8f5e9;color:#2e7d32;">実現済み</span>
+        <span class="progress-desc"><strong>サウジプロリーグの国際化</strong> — 大型投資により欧州のトップ選手を多数獲得。アジアの有力リーグへ成長</span>
       </div>
     </div>
 
     <h4 class="sub-title">進行中（2026年現在）</h4>
-    <div style="display:grid; grid-template-columns:1fr; gap:8px; margin-bottom:12px;">
-      <div style="padding:10px; background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 3px 3px 0;">
-        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); margin:0; line-height:1.7;">
-          <span class="achievement-badge">NEOM建設</span> 正式な建設段階へ。THE LINEは規模・段階を見直し、商業利用施設の先行開発を推進<br>
-          <span class="achievement-badge">紅海リゾート</span> 2024年開業の第1期に続き、段階的にリゾート数増加予定<br>
-          <span class="achievement-badge">Qiddiya建設</span> テーマパーク・スポーツ施設の段階的オープン進行中<br>
-          <span class="achievement-badge">2034 FIFAワールドカップ</span> 2034年開催国に決定。スタジアム・インフラ整備計画始動<br>
-          <span class="achievement-badge">2030年万博準備</span> リヤドでの開催に向け、大規模会場・アクセス整備が進行<br>
-          <span class="achievement-badge">Premium Residency</span> 高額投資家向けの長期滞在ビザ制度導入。富豪・起業家のサウジ進出増加
-        </p>
+    <div style="margin-bottom:12px;">
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#fff3e0;color:#e65100;">進行中</span>
+        <span class="progress-desc"><strong>NEOM建設</strong> — 正式な建設段階へ。THE LINEは規模・段階を見直し、商業利用施設の先行開発を推進</span>
+      </div>
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#fff3e0;color:#e65100;">進行中</span>
+        <span class="progress-desc"><strong>紅海リゾート</strong> — 2024年開業の第1期に続き、段階的にリゾート数増加予定</span>
+      </div>
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#fff3e0;color:#e65100;">進行中</span>
+        <span class="progress-desc"><strong>Qiddiya建設</strong> — テーマパーク・スポーツ施設の段階的オープン進行中</span>
+      </div>
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#fff3e0;color:#e65100;">進行中</span>
+        <span class="progress-desc"><strong>2034 FIFAワールドカップ</strong> — 2034年開催国に決定。スタジアム・インフラ整備計画始動</span>
+      </div>
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#fff3e0;color:#e65100;">進行中</span>
+        <span class="progress-desc"><strong>2030年万博準備</strong> — リヤドでの開催に向け、大規模会場・アクセス整備が進行</span>
+      </div>
+      <div class="progress-item" style="border-bottom:none;">
+        <span class="progress-tag" style="background:#fff3e0;color:#e65100;">進行中</span>
+        <span class="progress-desc"><strong>Premium Residency</strong> — 高額投資家向けの長期滞在ビザ制度導入。富豪・起業家のサウジ進出増加</span>
       </div>
     </div>
 
     <h4 class="sub-title">課題・見直し</h4>
-    <div style="display:grid; grid-template-columns:1fr; gap:8px;">
-      <div style="padding:10px; background:var(--bg-secondary); border-left:3px solid #ff7043; border-radius:0 3px 3px 0;">
-        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); margin:0; line-height:1.7;">
-          <span class="challenge-badge">石油価格変動</span> 国家財政が油価に依存。2022-2023年の価格乱高下が投資計画に影響<br>
-          <span class="challenge-badge">メガプロジェクト遅延</span> NEOM・Qiddiya等の大型案件でスケジュール見直し・規模調整が相次ぐ<br>
-          <span class="challenge-badge">Jeddah Tower進捗遅延</span> 完成予定が複数回延期。技術的・財政的課題が報道される<br>
-          <span class="challenge-badge">労働力バランス</span> Nitaqat（サウジ化）と外国人労働者のバランス調整が課題。賃金格差・差別問題も存在<br>
-          <span class="challenge-badge">環境への懸念</span> 砂漠開発による生態系への影響、淡水化施設の大規模化等が議論対象
-        </p>
+    <div>
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#ffebee;color:#c62828;">課題</span>
+        <span class="progress-desc"><strong>石油価格変動</strong> — 国家財政が油価に依存。2022-2023年の価格乱高下が投資計画に影響</span>
+      </div>
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#ffebee;color:#c62828;">課題</span>
+        <span class="progress-desc"><strong>メガプロジェクト遅延</strong> — NEOM・Qiddiya等の大型案件でスケジュール見直し・規模調整が相次ぐ</span>
+      </div>
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#ffebee;color:#c62828;">課題</span>
+        <span class="progress-desc"><strong>Jeddah Tower進捗遅延</strong> — 完成予定が複数回延期。技術的・財政的課題が報道される</span>
+      </div>
+      <div class="progress-item">
+        <span class="progress-tag" style="background:#ffebee;color:#c62828;">課題</span>
+        <span class="progress-desc"><strong>労働力バランス</strong> — Nitaqat（サウジ化）と外国人労働者のバランス調整が課題。賃金格差・差別問題も存在</span>
+      </div>
+      <div class="progress-item" style="border-bottom:none;">
+        <span class="progress-tag" style="background:#ffebee;color:#c62828;">課題</span>
+        <span class="progress-desc"><strong>環境への懸念</strong> — 砂漠開発による生態系への影響、淡水化施設の大規模化等が議論対象</span>
       </div>
     </div>
   </div>
@@ -299,41 +348,47 @@
   <div class="card">
     <h3 class="section-title">🇯🇵 日本人・日本企業への影響</h3>
 
-    <h4 class="sub-title">日本企業のサウジ進出増加</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
-      VISION 2030の推進に伴い、日本企業のサウジ進出が加速しています。特に<strong>インフラ・建設・エンジニアリング分野</strong>（大林組、鹿島、日本車両等）、<strong>観光・ホテル分野</strong>（marriott等の日本代理店）、<strong>エレクトロニクス・自動車</strong>分野での進出が著しいものです。
-    </p>
+    <div class="two-col">
+      <div>
+        <h4 class="sub-title">日本企業のサウジ進出増加</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
+          VISION 2030の推進に伴い、日本企業のサウジ進出が加速しています。特に<strong>インフラ・建設・エンジニアリング分野</strong>（大林組、鹿島、日本車両等）、<strong>観光・ホテル分野</strong>（marriott等の日本代理店）、<strong>エレクトロニクス・自動車</strong>分野での進出が著しいものです。
+        </p>
 
-    <h4 class="sub-title">JETRO（日本貿易振興機構）活動強化</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
-      JETROはリヤド・ジェッダに事務所を置き、日本企業のサウジ進出をサポート。展示会・ネットワーキングイベント・ビジネスマッチングを定期開催しています。
-    </p>
+        <h4 class="sub-title">JETRO（日本貿易振興機構）活動強化</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
+          JETROはリヤド・ジェッダに事務所を置き、日本企業のサウジ進出をサポート。展示会・ネットワーキングイベント・ビジネスマッチングを定期開催しています。
+        </p>
 
-    <h4 class="sub-title">日本・サウジ二国間協力</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
-      日本はサウジアラビアのVISION 2030実現に関連し、以下の分野で協力契約を締結しています：
-    </p>
-    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; padding-left:8px; border-left:3px solid var(--accent); margin-top:8px;">
-      <p style="margin-bottom:6px;"><strong>インフラ・交通</strong> — メトロ・高速鉄道・都市交通システムの日本技術採用</p>
-      <p style="margin-bottom:6px;"><strong>エネルギー</strong> — 水素・再生可能エネルギー開発での協力</p>
-      <p style="margin-bottom:6px;"><strong>スマートシティ</strong> — IoT・AI・デジタル化技術の導入</p>
-      <p style="margin-bottom:6px;"><strong>人材育成</strong> — 技能実習生受け入れ、技術者派遣、大学間交流</p>
+        <h4 class="sub-title">日本・サウジ二国間協力</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
+          日本はサウジアラビアのVISION 2030実現に関連し、以下の分野で協力契約を締結しています：
+        </p>
+        <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; padding-left:8px; border-left:3px solid var(--accent); margin-top:8px;">
+          <p style="margin-bottom:6px;"><strong>インフラ・交通</strong> — メトロ・高速鉄道・都市交通システムの日本技術採用</p>
+          <p style="margin-bottom:6px;"><strong>エネルギー</strong> — 水素・再生可能エネルギー開発での協力</p>
+          <p style="margin-bottom:6px;"><strong>スマートシティ</strong> — IoT・AI・デジタル化技術の導入</p>
+          <p style="margin-bottom:6px;"><strong>人材育成</strong> — 技能実習生受け入れ、技術者派遣、大学間交流</p>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="sub-title">日本人在住者への好機・チャンス</h4>
+        <div style="padding:10px; background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 3px 3px 0; margin-top:8px;">
+          <p style="font-size:var(--font-size-sm); color:var(--text-secondary); margin:0; line-height:1.8;">
+            <strong>就職機会の拡大</strong> — 日本企業のサウジ駐在員需要増加。特に建設・エンジニアリング・営業職<br>
+            <strong>ビジネス展開の機会</strong> — 日本食レストラン、日本商品輸入・販売等の起業機会<br>
+            <strong>Premium Residency</strong> — 一定額の投資またはビジネス設立により、長期滞在ビザ（最大10年）取得が可能に<br>
+            <strong>社会開放の恩恵</strong> — エンターテインメント・観光施設の拡充で日本人在住者のQOL向上
+          </p>
+        </div>
+
+        <h4 class="sub-title">在住日本人コミュニティの成長</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
+          VISION 2030に関連する日本企業の進出増加に伴い、在住日本人数は2016年比で大幅に増加。日本人学校の拡張、日本人会の活動強化、日本食スーパーの開業等、日本人向けサービスも充実しています。
+        </p>
+      </div>
     </div>
-
-    <h4 class="sub-title">日本人在住者への好機・チャンス</h4>
-    <div style="padding:10px; background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 3px 3px 0; margin-top:8px;">
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); margin:0; line-height:1.8;">
-        <strong>就職機会の拡大</strong> — 日本企業のサウジ駐在員需要増加。特に建設・エンジニアリング・営業職<br>
-        <strong>ビジネス展開の機会</strong> — 日本食レストラン、日本商品輸入・販売等の起業機会<br>
-        <strong>Premium Residency</strong> — 一定額の投資またはビジネス設立により、長期滞在ビザ（最大10年）取得が可能に<br>
-        <strong>社会開放の恩恵</strong> — エンターテインメント・観光施設の拡充で日本人在住者のQOL向上
-      </p>
-    </div>
-
-    <h4 class="sub-title">在住日本人コミュニティの成長</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
-      VISION 2030に関連する日本企業の進出増加に伴い、在住日本人数は2016年比で大幅に増加。日本人学校の拡張、日本人会の活動強化、日本食スーパーの開業等、日本人向けサービスも充実しています。
-    </p>
 
     <div class="tip-box">💡 サウジアラビアの今後10年は、日本人にとって大きな経済的・キャリア的チャンスの時期と言えます。VISION 2030の進捗を理解することは、長期的なキャリア計画立案に有効です。</div>
   </div>
@@ -344,21 +399,30 @@
   <div class="card">
     <h3 class="section-title">🌍 国際的な反応と評価</h3>
 
-    <h4 class="sub-title">肯定的評価</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
-      <strong>経済の多角化推進</strong> — IMF、World Bank等の国際機関は、石油依存からの脱却努力を評価。ただし進捗速度への疑問も指摘されています。
-    </p>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;" class="side-panels">
+      <div style="border:1px solid #c8e6c9; border-radius:var(--radius-sm); padding:14px; background:#f1f8e9;">
+        <h4 style="font-size:0.95em; font-weight:600; color:#2e7d32; margin:0 0 8px;">👍 肯定的評価</h4>
+        <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+          <p style="margin:0 0 8px;"><strong>経済多角化の成功</strong> — 非石油収入が2016年の約35%から2025年には50%超へ拡大。IMF・World Bankは石油依存からの脱却努力を評価しています。</p>
+          <p style="margin:0 0 8px;"><strong>観光産業の急成長</strong> — 年間1億人の訪問者目標に向けて着実に進展。紅海リゾートやリヤドシーズンなど新しい観光目的地として国際的な関心を獲得。</p>
+          <p style="margin:0 0 8px;"><strong>女性の社会参加率の大幅向上</strong> — 労働参加率が17%から35%超へ増加。運転免許取得、職場進出、スポーツ観戦等の権利拡大が認識されています。</p>
+          <p style="margin:0 0 8px;"><strong>エンターテインメント産業の活性化</strong> — コンサート、映画、スポーツイベント（F1、ボクシング、テニス等）の開催により、地域的なエンタメハブとして台頭。</p>
+          <p style="margin:0 0 8px;"><strong>デジタル政府化の進展</strong> — ABSHER等の電子サービスプラットフォーム構築。行政手続きのデジタル化が評価されています。</p>
+          <p style="margin:0;"><strong>国際投資の拡大</strong> — FDI誘致の成果が認識され、グローバル企業のサウジ進出が加速中。</p>
+        </div>
+      </div>
 
-    <h4 class="sub-title">批判的指摘</h4>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
-      <strong>人権問題</strong> — 国際人権団体は、女性・労働者・少数民族の権利向上は限定的であると指摘。メガプロジェクトでの労働搾取の疑いも報道されています。
-    </p>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
-      <strong>環境への懸念</strong> — 砂漠開発の生態系への影響、淡水化施設の大規模化等について環境団体が懸念を表明しています。
-    </p>
-    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:6px;">
-      <strong>財政の持続可能性</strong> — 低油価局面での大規模投資の継続可能性に関する疑問が経済専門家から出ています。
-    </p>
+      <div style="border:1px solid #ffcdd2; border-radius:var(--radius-sm); padding:14px; background:#fff5f5;">
+        <h4 style="font-size:0.95em; font-weight:600; color:#c62828; margin:0 0 8px;">⚠️ 批判的視点</h4>
+        <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+          <p style="margin:0 0 8px;"><strong>人権問題</strong> — 国際人権団体は、女性・労働者・少数民族の権利向上は限定的であると指摘。メガプロジェクトでの労働搾取の疑いも報道されています。</p>
+          <p style="margin:0 0 8px;"><strong>環境への懸念</strong> — 砂漠開発の生態系への影響、淡水化施設の大規模化、炭素集約産業への投資継続等について環境団体が懸念を表明しています。</p>
+          <p style="margin:0 0 8px;"><strong>財政の持続可能性</strong> — 低油価局面での大規模投資の継続可能性に関する疑問が経済専門家から出ています。PIF（Public Investment Fund）の資金規模に限界が指摘されます。</p>
+          <p style="margin:0 0 8px;"><strong>メガプロジェクトのスケジュール遅延</strong> — NEOM・Qiddiya・Jeddah Towerの完成遅延により、野心的な目標の達成可能性に疑問の声。</p>
+          <p style="margin:0;"><strong>社会改革の選別性</strong> — 改革が都市部・富裕層中心であり、農村部やマイノリティへの恩恵が限定的との指摘。</p>
+        </div>
+      </div>
+    </div>
 
     <div class="tip-box">💡 VISION 2030は革新的である一方、実行段階での課題も多数存在します。在住者・訪問者として、成果と課題の両方を理解して情報吸収することが重要です。</div>
   </div>
@@ -416,11 +480,23 @@
     <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
       2030年は目標年であると同時に、次の段階への転換点となる可能性があります。サウジアラビアは既に「VISION 2030」の後続ビジョンについての検討を開始しており、以下の方向性が想定されています：
     </p>
-    <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; padding-left:8px; border-left:3px solid var(--accent); margin-top:8px;">
-      <p style="margin-bottom:6px;"><strong>完了済みメガプロジェクトの本格稼働</strong> — NEOM・紅海リゾート・Qiddiya等が収益段階へ移行</p>
-      <p style="margin-bottom:6px;"><strong>脱炭素化・グリーンエネルギー推進</strong> — 再生可能エネルギーへの大規模投資継続</p>
-      <p style="margin-bottom:6px;"><strong>テクノロジー・AI産業の拡大</strong> — スマートシティ・AI・ロボティクス分野での産業育成</p>
-      <p style="margin-bottom:6px;"><strong>地域的影響力の増強</strong> — 湾岸地域の経済・文化的リーダーシップ確立</p>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;" class="side-panels">
+      <div style="border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:14px; background:var(--surface);">
+        <h4 style="font-size:0.9em; font-weight:600; color:var(--text-primary); margin:0 0 6px;">🏗️ メガプロジェクト稼働</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.6;">NEOM・紅海リゾート・Qiddiya等が収益段階へ移行。国家歳入における多角化の完成段階へ。</p>
+      </div>
+      <div style="border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:14px; background:var(--surface);">
+        <h4 style="font-size:0.9em; font-weight:600; color:var(--text-primary); margin:0 0 6px;">🌱 脱炭素・グリーンエネルギー</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.6;">再生可能エネルギーへの大規模投資継続。太陽光・風力・水素技術での産業確立。</p>
+      </div>
+      <div style="border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:14px; background:var(--surface);">
+        <h4 style="font-size:0.9em; font-weight:600; color:var(--text-primary); margin:0 0 6px;">🤖 テクノロジー・AI産業</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.6;">スマートシティ・AI・ロボティクス分野での産業育成。シリコンバレーに対抗する技術ハブ形成。</p>
+      </div>
+      <div style="border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:14px; background:var(--surface);">
+        <h4 style="font-size:0.9em; font-weight:600; color:var(--text-primary); margin:0 0 6px;">🌍 地域的影響力</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.6;">湾岸地域の経済・文化的リーダーシップ確立。中東全体の成長エンジンとしての地位確固。</p>
+      </div>
     </div>
     <div class="tip-box">💡 サウジアラビアの長期戦略を理解することで、中東全体の経済・政治動向も見えやすくなります。VISION 2030は単なる国家計画ではなく、21世紀の中東の姿を形作る歴史的プロセスの一部です。</div>
   </div>
