@@ -1,10 +1,10 @@
 {
-  "lastCollected": "2026-03-28T06:09:08+03:00",
+  "lastCollected": "2026-03-28T06:31:49.289582+03:00",
   "security": {
-    "lastUpdated": null,
+    "lastUpdated": "2026-03-28T06:31:49.289582+03:00",
     "mofa": {
-      "title": "自動収集待ち...",
-      "body": "スケジュールタスクが情報を収集すると、ここに表示されます。",
+      "title": "危険情報：レベル３ 渡航は止めてください",
+      "body": "海外安全ホームページ: 危険・スポット・広域情報",
       "url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html"
     },
     "embassy": {
@@ -22,7 +22,7 @@
     "labor": null
   },
   "news": {
-    "lastUpdated": null,
+    "lastUpdated": "2026-03-28T06:31:49.289582+03:00",
     "items": []
   }
 }
