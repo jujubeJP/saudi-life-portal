@@ -1,21 +1,35 @@
 {
-  "lastCollected": "2026-03-28T11:18:53.308463+03:00",
+  "lastCollected": "2026-03-28T11:26:00.899132+03:00",
   "security": {
-    "lastUpdated": "2026-03-28T11:18:53.308463+03:00",
+    "lastUpdated": "2026-03-28T11:26:00.899132+03:00",
     "mofa": {
       "title": "危険情報：レベル３ 渡航は止めてください",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
       "url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html"
     },
     "embassy": {
-      "title": "【大使館からのお知らせ】領事窓口業務の再開（3月16日）",
-      "body": "新着情報から9件のお知らせを取得しました。",
+      "title": "2026年天皇誕生日祝賀レセプションの開催",
+      "body": "新着情報から10件のお知らせを取得しました。",
       "url": "https://www.ksa.emb-japan.go.jp/itprtop_ja/index.html"
     }
   },
   "news": {
-    "lastUpdated": "2026-03-28T11:18:53.308463+03:00",
+    "lastUpdated": "2026-03-28T11:26:00.899132+03:00",
     "items": [
+      {
+        "title": "2026年天皇誕生日祝賀レセプションの開催",
+        "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/11_000001_00516.html",
+        "source": "在サウジ日本大使館",
+        "date": "2026-02-10",
+        "summary": "2026年天皇誕生日祝賀レセプションの開催"
+      },
+      {
+        "title": "2026年日本留学帰国留学生向けイフタール会の開催",
+        "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/11_000001_00532.html",
+        "source": "在サウジ日本大使館",
+        "date": "2026-02-26",
+        "summary": "2026年日本留学帰国留学生向けイフタール会の開催"
+      },
       {
         "title": "【大使館からのお知らせ】領事窓口業務の再開（3月16日）",
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
@@ -71,58 +85,44 @@
         "source": "在サウジ日本大使館",
         "date": "2026-01-28",
         "summary": "一部メールアプリのサブスクリプション解除機能による領事 メールの配信停止についての注意喚起"
-      },
-      {
-        "title": "【大使館からのお知らせ】領事窓口の閉鎖（3月3日）について",
-        "url": "https://www.ksa.emb-japan.go.jp/files/100987269.pdf",
-        "source": "在サウジ日本大使館",
-        "date": "2026-03-16",
-        "summary": "【大使館からのお知らせ】領事窓口の閉鎖（3月3日）について"
-      },
-      {
-        "title": "【大使館からのお知らせ】令和8年度前期用教科書無償配布の申込みについて",
-        "url": "https://www.ksa.emb-japan.go.jp/files/100915215.pdf",
-        "source": "在サウジ日本大使館",
-        "date": "2026-03-28",
-        "summary": "【大使館からのお知らせ】令和8年度前期用教科書無償配布の申込みについて"
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-03-28T11:18:53.308463+03:00",
+    "lastUpdated": "2026-03-28T11:26:00.899132+03:00",
     "items": [
       {
-        "title": "パキスタン、中東戦争について サウジアラビア、エジプト、トルコとの協議を開催へ",
+        "title": "イラン戦争ライブアップデート：イランの攻撃がサウジアラビア基地の米兵12人を負傷させる、当局者が明かす",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1SUXlyejRmMjFJZWV1M1NlOUVqLWpaY0pOUkZtd3N6M2NDbm5xZGVMYUpuYXZJbFA2bzJ4d05kVUllZmtFcjEtNlU1WW5BSk0wbkViY0hOb2xoekFQSHFYUFdxZklzam9fdENkXzZRYmRjUUZTNFFJMUhZZw?oc=5",
+        "date": "2026-03-28T08:07",
+        "source": "The New York Times"
+      },
+      {
+        "title": "パキスタン、中東戦争をめぐりサウジアラビア、エジプト、トルコとの会談を主催",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ0l4cGZxdnJzZkVaWS1XTXdlTFRiS3FyVDl0UkdJSzc2NzNiazdtNjh5enJlNkdEU0o4MlBKdC05dVFKMEJYMm91WEVjZDhFQWRZTkFtM3pHV19NTkFiWFNhczRyUkljLTdTSm9ndVJqempHdURLVllDbENwU01SYndTMklHY3FCMTVnNXUzbmE0VElPM2pKOEVoSDlfaV8wVEVvZzltTVJGWEllQnRnRkEzTEcwb1FC?oc=5",
         "date": "2026-03-28T07:49",
         "source": "The Times of Israel"
       },
       {
-        "title": "イラン情勢ライブ更新：イランによるサウジアラビア基地への攻撃で米兵12人が負傷、当局者が発表",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1SUXlyejRmMjFJZWV1M1NlOUVqLWpaY0pOUkZtd3N6M2NDbm5xZGVMYUpuYXZJbFA2bzJ4d05kVUllZmtFcjEtNlU1WW5BSk0wbkViY0hOb2xoekFQSHFYUFdxZklzam9fdENkXzZRYmRjUUZTNFFJMUhZZw?oc=5",
-        "date": "2026-03-28T06:52",
-        "source": "nytimes.com"
-      },
-      {
-        "title": "イラン軍のサウジアラビア空軍基地への攻撃で、米軍兵士少なくとも10人が負傷",
+        "title": "米国のサウジアラビア空軍基地に対するイラン攻撃で、米軍兵士少なくとも10人が負傷",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbGNTRU1LbjlycFU1eGQwc0N0cWZabE5RekxiS1NYc1NpMk1EZmxNekZlNDIxUnFvYXgzSDRVUkRmVVZDdklHQjNTcXN6N2hDc0xSSWx3RllhcFdUZEhyZnlkZ3NzRFd6OVFGYkZmb0Q0U1RhZThVeTRJaUhJYnZLREJXTE10X0c4Tk84c3J5Vm84QU1pdlh1SQ?oc=5",
         "date": "2026-03-28T05:03",
         "source": "The Washington Post"
       },
       {
-        "title": "「今がその時だ」トランプ前大統領、サウジアラビアにアブラハム合意への参加を促す",
+        "title": "「今が時だ」トランプ前大統領、サウジアラビアにアブラハム協定への参加を促す",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMDkxM2tlcmJTQ3A2bkh1UjhuMklpWUc4Zlh1ODd5TzgyX0dQWU5zWUxmUGFQVTBrdnpWbXpocjM2WUpybGNOaU1la2FxVU5HMUxKZVF5ZG95bjZTNUx5cFpNeTh4OUNtTV81b1ZFUmJ0YTlQd1RyY0Y1dXBCdlgxQ0wzcmNMVEFCYVNDYy1LM3JJZVJ3ckNrcU5XQnIyQmdDQ093UGkzYkxYa2gwSXNuYlhIeFZrRjZDek80Snhn?oc=5",
         "date": "2026-03-28T03:47",
         "source": "i24NEWS"
       },
       {
-        "title": "イラン戦争：サウジアラビアの基地への攻撃で米兵が負傷",
+        "title": "イラン戦争：サウジアラビア基地への攻撃で米軍兵士が負傷",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcmR3WGlhLTRNa3JnamJ1T2ZINlhuRXhzRGpKOFEwNEF2UGczRmItYzJDb1JqU3VoM1Zqdnl6MThPTk1rcHBwOHVlUU9YMjd3REdHOW8zb2p1RjF2bXhQT1QtcFZXaTEzTWdoSFBxMGlkeWF3N0FNYmdzdVFiYWhmQkFfZnhSQy1rTURSbjlTQQ?oc=5",
         "date": "2026-03-28T03:28",
         "source": "DW.com"
       },
       {
-        "title": "米軍基地へのイラン攻撃で兵士が負傷、サウジアラビアで。ライブアップデート。",
+        "title": "米軍兵士がサウジアラビアの基地へのイラン攻撃で負傷。最新情報。",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUh0b1FzQ2Z1S2dsc1NidFJkQ2V1cW8xekZpSmlBUEdBc2Q0Y1dVOUdDTVA1S0xMaklHSVFwZ3lQWEZZd190d0p5dnNDZ2pTOFZ4OWktdjZrVkxwaTd2WlZRYm5fTTJPcl9RZXpVNEU0M0xOb2FRZGJPekVFaEFTS1FkaEtjYXFTV0V6T1VJem9KaFFqMjhyc3JJWG4tWkxPcWdWWGhRXzc?oc=5",
         "date": "2026-03-28T03:00",
         "source": "USA Today"
@@ -134,19 +134,19 @@
         "source": "The New York Times"
       },
       {
-        "title": "米軍がサウジアラビアの空軍基地でイラン攻撃を受ける",
+        "title": "米国軍がサウジアラビアの空軍基地でイラン攻撃を受ける",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OV0NJMnFGMGxzMVRNdVJHYTVDWXhPQ2VhRThaX29tbnkwcjdVbmpnNC14cmRmcW1LRU44Ym5CTDJWNDJCM2ZkZng0bEUzZUdhVGZ6czB5Y0dwZ3JQWWZaMGRtTnUtZjBobzBwZGd1dzFNWEpMZnNXSQ?oc=5",
         "date": "2026-03-28T01:35",
         "source": "Air & Space Forces Magazine"
       },
       {
-        "title": "イラン戦争での攻撃が急増、サウジアラビアの米軍に対する攻撃を含む",
+        "title": "イラン戦争で攻撃が激化、サウジアラビアの米軍に対する攻撃を含む",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYVg3ck5HTHlKaFpfakRLWVJRcl9OWGVmSktjZmZHWUkzSWJBbTJpOUgxcDd1ZF9zRHV5M2tXc3N3LUZHenV0cGkycGt0UDlfVGpkaEpvYzZ5ZDE3WGlUR09BeTJDLV9hZ1QzNmRkblpuM09lOTJ6czJnSXB6OTFWa1BmNHBUNVQ2ajdrQUJWZER1M2IyRzJ4LWRheVI3cGUwYklRRFB0c0ljdEdNQ01KNEYwSnpUclVHSmp3UlFMZU1aUQ?oc=5",
         "date": "2026-03-28T00:00",
         "source": "Politico"
       },
       {
-        "title": "米国高官によると、サウジアラビアの基地へのイラン攻撃で米兵12人が負傷",
+        "title": "米国の将校が発表、イラン軍がサウジアラビアの基地を攻撃し米兵12人が負傷",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTlBMamdMdnU2Zk5tWE1TMWpWRVJ2SGp3eGMxVHJycmVjYUR4TU40N2lPN1Z0RlBXXzYzdmNpc2FKQzBfcFBYdlEtYlVhN1RNVDItMVI3Q1o4cFVCN1Jnejd6bjRkRmFDbkk5cndGbUNFM1NjRkt2UjQyNlZ6WXV2elFLRVFkU2pGdWZVcndvTXFxb3FUbU5TRmdLZzY1U1pLaVBCT1dXcWZIZGJ2WWJZU2N2NFluT2FXdF9oYXE1a2xpQ1k?oc=5",
         "date": "2026-03-27T23:59",
         "source": "Reuters"
@@ -154,7 +154,7 @@
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-03-28T11:18:53.308463+03:00",
+    "lastUpdated": "2026-03-28T11:26:00.899132+03:00",
     "items": [
       {
         "title": "パキスタン、イランとの戦争についてサウジアラビア、エジプト、トルコとの協議を主催",
@@ -163,19 +163,25 @@
         "source": "CNN Arabic"
       },
       {
-        "title": "日量400万バレルで..サウジアラビアがホルムズ海峡を迂回、ヤンブーが戦略を変える",
+        "title": "サウジアラビア、ホルムズ海峡を迂回 日量400万バレル ヤンブー港が新たな転機をもたらす",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBaMUhQeThTNXh5RmFVVkdxQ1VZNUxwZXFMR1FPRVhDbWtZZTJUX3Z5X1lWMFgzQUNSS2NZeWNrVkdtcXAwdHNz?oc=5",
         "date": "2026-03-28T01:30",
         "source": "صحيفة سبق الإلكترونية"
       },
       {
-        "title": "サウジアラビア、湾岸諸国の輸入品・輸出品の保管料を60日間免除",
+        "title": "サウジアラビアの防空システムが首都リヤドと東部地域で弾道ミサイル6発と無人機26機に対処",
+        "url": "https://news.google.com/rss/articles/CBMipgVBVV95cUxOSmw2b3VrNFIzd3lBbXJZbHdLR09mVEdmRXNvX2EwRXFqT3VJN1h3T1U0RkVQTFlrZExVWlNBUFVhWW9KYlliUGtrdGhQUFFUdE1IQjg3a0UwZmRDNFlDbTQzSmM2SjVtdVNPZ3laT2VNSWJ5enluX1BPbTJSdmNvZHdtaENfTGhUbnUyWTFRaDFySGVMZnBNVkdDWVQwV0xsaDVNdFNyOUFVT0RYb0hQbkJBUEJVSkg1dXJ1aVBNNEVjYmdKb2pkRzdzNmxSTkpGLVVRbU5YOVJxQWpLTnhwblVmb0p0X0kzbmdIMDlwNmxMZDNJb2xCM3B6X3FFcy1OUVNILUNWRzVjZldVNHNoV3dqUTJ4RUE5OUJBRFM4bmpTdzdEM1pzaHB3eTd5TVYwaFlVRG5RaUF1UUNJWEFXZ0ZKWDYwQTk0SS1fWkk4MjNidm51dHh5V3lqSmFreml5em5EUXNvWTF3dmdET2VVZEFVazVvWWM1ZldNdjZuNTZyU3JLYVNjOUhLMHdhRjl3dnVLYWhUNmhKNkMxWVBMWWw0ejhyWWhVdHhnejR3a0dqQ2M5MUNfNFJBLWY3T2k2VlpmcjJCNUZqcGQ0ZWlMYWF1SnpBT2V0OTRzYUN5S1JmTGtyQU9ZNGRUY05TYnhmRFBheWRVdmU0QnB3NzdhZThyNHM1NFlRS2kyRVBBNGw4S241eFQyaWZoMVBTd1ZiWkNxU19HMGd0UkE0Nmhpa2JaMXJwUHhHQlAwR2s1V2luTjdBS09TU2txc1BHQ25XOUFfdVlhcUVBWVNMR1R1dTFoOEZNWVFibUhvVzdzaWQ1R1NCYUtlakM3a3JIYUZlZWZTcHlPcTJRdG1tVVhrLTZuOV9ncC1Ra0xuSmpraTRVY2dJV0E?oc=5",
+        "date": "2026-03-27T23:47",
+        "source": "الشرق الأوسط"
+      },
+      {
+        "title": "サウジアラビア、湾岸諸国の輸入・輸出品の保管料を60日間免除",
         "url": "https://news.google.com/rss/articles/CBMiyARBVV95cUxPdjctWG1tTDlYZ3BQcEVUNEVON05oYWtIOGdlRlFaV3pBMmFkaV9FS255TXRxZkVoc1FYRUxmbHIybEtSNks1eVZqR3Z1Qy1JUWw2OXdxSzBRQnhHdHBjaWJ0TXNlX0EyRUFwUnJsLUNGcExNZGVXa2tvcmhaRnBGWGNib1ZPZlBhaXFRTmFISHExZUl0NjM2TXQwdTkxUWUtbDIwOGhuQlZBMndZY2pQbk9CcFE1YWdmOVV4SG5QM1lPRGtweWkxckRZT1FsNVctRFNIWXNiN1dxSU1vY2tUeU1NVHZKUFRVRlE3a01YV0I0Z3huMHRDY1hDanlTcE1fVk42eUJIYWQwbGp2Ylg2OU41WU1xMGotVDFDcmpYV2pyaWVsblJMcW5XS1pOVVltNTdIZjhHYngzczlyby1iZm5aY2djdTU3MXZSVXcyWUF5MnQ1OUViUlN1SVE5cGVXN3MwdmtPQ0VJaTNZVnlPNUZsdVRmNkZIc3dqRWpmWDRKWlRVQXVmSElmWGs0VUhXWGJQMEpfTjNabXZqVXRPdTRnOTRDRGpsOWw1WlpxNGRBZWNvbFFFd1ZPc3pGcUFvdWprSEhtcGZCazk3cWV4S1JCRUVJRWJubXhkWE9NVU9HdFRPcnFIcndpcW9fYWxqSTFVOE1laVdpSkd4UUNKeEZrRVZjU0ptRkxMYkxWNVRuZFFYTkZxSXBSYm1XclJjbWVRbFc3SXhxeU1NREJ5TW9VSmd6aFVlWTk4X3NTbUg4RFM2T3pqdw?oc=5",
         "date": "2026-03-27T23:32",
         "source": "الشرق الأوسط"
       },
       {
-        "title": "CNNの情報筋によると、サウジアラビアの米軍基地へのイラン攻撃でアメリカ兵が負傷",
+        "title": "CNNの情報筋によると、イラン攻撃によるサウジアラビアの基地での米軍兵士の負傷",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUnFBc2x2SU5WUGdLNVN4bmhBZ21kdG9rUlZtZkYwS2prZTNGRUZ6dXloYVJIazgtVHlWTTR3X3JNOE56ZkswWlI5X1NiRUh0QnhoUUJ3bGwwOWxsQWlaTUItT2hHeHE1X3d6dVVlWWk4UTRNQzA5Q20wbWJnSnFhRmtGUXkyZWdpdjVOVHc2Tlc0X0k2d0dvd3Y4VENEYkdpUXlyeFJNbFRlT000YXk1MTRGZTBzR2VhUEhKVjJPekZualZweFVTWWRmamMtUlZBanp0aE43NNIB4gFBVV95cUxPdno4TE10TjA2UU1hNFlmZlpXRV9Sel9XbWRFM3BaYWdQMlk2VUpmX0wtYzlJRzdJZ09EZW85MWhNRWc4TzMzZHFKXzBqTkZocGFxWmt2S2RHNmxud0xwVmFhcGkwQ0dGblVaa0NuOTNPMTVpTDFxSC11SG5PU2xjeG9GSmtlS2RhajE2THlNaFF1M0hpeXFFV0FMU3hnSjA3ZW1lMUJtX1duazU5RVZPUEd5bEVOTGpfaHNqanB4WU1sZUtxQVgyLWpLbGw1Nkw3MkRFTjVZZTJTLXZUZkpPUlJB?oc=5",
         "date": "2026-03-27T23:12",
         "source": "CNN Arabic"
@@ -187,39 +193,33 @@
         "source": "الجزيرة نت"
       },
       {
-        "title": "ビデオ：エジプト、サラーの不在の夜にサウジアラビアを4点で震撼させる",
+        "title": "ビデオ：サラーの不在の夜、エジプトがサウジアラビアを4得点で圧倒",
         "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxOajBQUGZlLXNjdnJFVEJhOVJjZm9ldGxGWmc3RENMTERQU0kyWnpjV19hd3ZUZjRFU0g1NlFsZXZmb18wUkhMSlcyOVVxU3p3c2l3XzEwUkZoUWtKb3JxSkdRS0VUS3JMN09WX1gtOU05cnkyOHpISDRXSEpjakZnMjA0SjlScF90OUdncVY3bzJmSUFWV3pRcG5qaXFFVzFET2ZqOGxDWVRfU2F0NW13Snc4bkZCZ1JZT1diZ3pmc1hZRF8tRFpVaVg2a3Z6a1NGenAzTFVuZG53b1dzWGlSaHRsRWNfdWZ1elNzTktubEpnU2NLdTN0ZWRKUEhyTkdFWW1ndG5vanE3ZGl3SEJVWFY2cnNKeUVqaXcwY19hMHQ5Snh3WmJ1STNjWXZGdHVNWTJoWkEzRWt4aURpdTZpb3FJZzBEOHROOENSUTNZQk9hdVlmVHB4WTZwN0h2NWNTbnY5SG5HaU5lS0pTQnp1di1ySXJaV29wTDFpQzhRREFJcWFkSC13dVhWOXlxc0lJVV9paktFZzU4MkU3d0t5MHZtSzBHYldnSU81YktJTFRJeHZjZWhmU1JQZDRkZVAza3BwSHVOTGlHS1VwVWE4cUxEaXpwYmVfQjFaQUpVbk1fcEVNMjU5TVNKZE5wYW94cVVRcUd5R1ZPTnh0TnBOcWtXaFNrdnYydUhiZDI2MEVkNENV?oc=5",
         "date": "2026-03-27T19:31",
         "source": "Kooora"
       },
       {
-        "title": "サウジアラビア内務省は、ロケットと無人機への対抗に関する情報の撮影と公開に対する警告を発表",
+        "title": "サウジアラビア内務省、ミサイルと無人機への対抗に関する情報の撮影・公開を警告",
         "url": "https://news.google.com/rss/articles/CBMi9ARBVV95cUxOWldGVnhpRFdIbnFvZnNBRDViQ0tpTUdtNkFJWHoyazlKUDZfVXlMNWYwMnFVci0zRGNsVmtRZkZBUWlHRHBFbEg5TnUtQUNFVDZjY0t3NWYwZ2xpNFRuOFVwVWVXQ3EtVXEtalMwZk9mV2RJQUUyZ0hEa3dCNnRpcXdxUjhnalNEeGV5QnVDVmN1R1IzMDFCVnJoMHpFUXVmb3lsbTlqencwRERnMHE2YWNhVHJJYmJVUWFqUmhnWHppcVdkaUJjY1JES2J2Nk9MRmhGOXY5eVFDNlNLTE5reVBxQU9GT1dEcjYzaWN3MHNsMzNmVGJvbjZYU1NZZzAxWkxodElYY2Y2OFp1dUQwMkFXRThmNkRKZENtaHQ2bFJzblBhc1NLTnkwaXA0U0xPSDNRb0U4S3VjWjlNMm9fMzZjWm5fSnVBMGllb25iSjhyOU94cUVfOG1ybkVMWVdpZndZV0FNcFFhMDN5ZFdtaFRxZkNVWFNVVW50RjFsQzVkRkpJY2JMN1lCTkUwREh1S25qdVVFbGo5ZzB0SlVYTTluUVY5OV9DMzZxRE96V01JVzQzTTBXWkFLWmdhNGtwZWEzZ1VkcHcwVWo0R2VvVFFmMWNSeUZ0UlhCQjVqa1NTaUZCTnZ5SGtlam9ZWWlOMFl4bFotTnNiZC14RERsTTdmX1E3LXBlcDJNZzI4bjlGV09kQnc5Z1UtNEJLcU9TNV9DMFlWRkhWS0pER0g3dnRzQm1OWlBRbkZnYzhuVDY3V1djdXZmYVByMVMtdmxsOUtEa3FFRUk0LW5sSGk4b0I4QmJ2enlfMHVQdDRERTdscHFo0gH6BEFVX3lxTFBkVUF5T0l3XzdZR2ZZTjRRZlJWenJFcEo4NGhqRFlZVDFKQTQyQU9TZ082VnRQdXFVczhuTnl1a3I4T2dldk9KSkRCVkhXNmoyM0xBNXJRakQwYlcyV1phOXdEV21mNVcxXzV5RmJYalRYV2Z6aUpGVFFaUWFza3RsOGZHQWlqSHhmRTFKMWVqSXFialRKdzJUU0lwNXpLNE5iaHJaWGlxTFJEb1pITUF0d0FmN3RsZ3JkWVVJUTg4cFhiOTluS2ZoX1hTMlhGcHlpNUFVTGtPUEpHRXFkWWJldmw0OWZRa3VNRjZQTkI4ZVlEdklvZG4zMXZxWlMwY0JkR1pzdVFCRnFpekI2emhvZ1l1ZHhQYzVvb0QyejlIdnZRNzZVMGdub1JzZnlrRXg1RVVxR0JzVGtWVGtXeF9DSjJRYTFGY2k4S3ozOTlPMkFnc2gzUWR4dW1lOVFpSVYtU1RrclJyay1qQnF4ZHlZSHBsNzlDOW5IbEtZb3R1X0NSbVY5RUVaT3lrdVpyTFdlVTRvYXVrWFQ1MXJnblkwUGJxdXBmOEtlOGc4R3J3WjRBenF6bnRWUDRaaUd6cWFzUTZxSkk5Q2RzOVdDNHRfLWF4UTBMMWptWTVHa0xRZm0ycEN2QWo0OXMzcVBVVm5sUS1Id1djVjdEN2xaa1lSbE9HZUl5YXYwdU52NGZKYS1wTGlNd2RDUFlyNEEtZWtiV0d4WGo3cjc5aVktNXcwd3VxNE5xUzNYU3p4eldUcUxhLVhMb3dNdUFxWFFDUHdRdFAyOHBoU1V1MVJlN0htTVJLbGtnQ2pUVlFSc1ZsVlg3Ylk4RHhBUnc?oc=5",
         "date": "2026-03-27T17:28",
         "source": "العربية"
       },
       {
-        "title": "サウジアラビア、湾岸とヨルダンを鉄道で結ぶロジスティック回廊を開設",
+        "title": "サウジアラビアが湾岸地域とヨルダンを鉄道で結ぶ物流回廊を開設",
         "url": "https://news.google.com/rss/articles/CBMioANBVV95cUxPTkZlTFpyWGctRS1vYlVaNk52MkJ1bkM4d0lFUzR0VnBocGRCeGlxT0doRzJkQno4TENSQi03cENVcU12LUlWNFZOaTJSQlZtZmFmNkQ2MUVISVdWbGxXdjRuMm1fQTNSaEFVbVdCaEk1ODdTNUpnaUJXVjMyNDhBM3hQeUx2anBKbW1OY0NMbk1aUUp3T1lwWnR3V0JMampZUXBDMnBMNDFDeVZfMXFWb0FZRUtaRmlwVjdXdV9DMWFUbnlQTEp3bzZIaXJtNU5KbDVvaHk1NW53TkNIVVRPNmo4OElGYkNzNm91amk0eTZPcXU4SDVIZnZMc1ZMS21fdEdVcmVObWlfR3FtejNJZWpLY25ZdzR3QjJnRWs5SzVDLVM0blNFcXN0QnpqeG13M0lBWThhZ2RkWnltWWV3akN2YUFHLWJhTWVmeE9LWEpJeFhqbkZubTdidEt1dEF0YTlnQTRWclZncUt6WjNGSHU3NENPUW5Ndi1RSTlhV1pLdm5Cei1KUDlYVDctLWk1Qmh6T1FuTl9heVd4SS1EMQ?oc=5",
         "date": "2026-03-26T18:43",
         "source": "اقتصاد الشرق مع بلومبرغ"
       },
       {
-        "title": "サウジアラビア、東部の港とヨルダンを結ぶ国際物流回廊を開設",
+        "title": "サウジアラビアが国内東部の港とヨルダンを結ぶ国際ロジスティック回廊を開設",
         "url": "https://news.google.com/rss/articles/CBMikwRBVV95cUxQZVFKeS13cGxGLXliNENTbExtbGw2MWE2M0ljbXBhVVhIazNMblhHSldjVmRtVlZFcmwxU013WlFBSnQ3RVhvLTU1Y3NLLWhjd1k0SjJPeHZIdG16eDVvY2RWcDN6RTB3MDJRYWZLWTBkdDluUFF5MGZkNDljd0xtYXl6S1pMU3VPT1R3bThma0ZSb1UyMFBwQ1M3SGdmNTE1TXJURlVwcW9hVVpQYWVfWG5CN2U1YU5ybmlJUEh1dFB0NjZCLWpNdUFtaHgzMXJMdnpkTXg0LXdHSDJad3FKcllhV093YVRyZmVjVWQxTUlWVnZONmxoWlZmdUtfenc1VlN1Sy1rdU5uWjcxNU8tb3BSVlB5dDcyVjFFemVmVHpZRzE1UmdBT2pTNlVROHBjRXlvU1Vfb2h3VEJRcURwRm5qT29ZZVJVTXRYbC00QVhwdFQxaWtOMVlGSl80aFRhYUVEMzV6QTFXWFZ3YmRzY1FtaVJMclI1cGFiZFBqbV9sVzFxU0F1bjR4N1VwRDBCSTlLV1M0TUl2T2tFY2FCZ3JhS3NraFFmNHlPR0VSbGllZUFoRnNGUjZxX0RadzRqMWVYQ21hb1ZneEpxUk5OZDA3dmZGTVBXYlFWemMwLU9QTUpCMEE3bG9NZmVEREtiSnBaVXVmQlVtRzBJalQ1MUZFb0lhNkdaN3F2YjdYTjd0S2fSAZgEQVVfeXFMUGxuc2o2MTdMZ19zemdxaW5jNm9qcXVxMkZUOGQ4aW5RTlRDSHFfWHBLRlJRYTFYUUFNdm42SWU3cndHcVVBYkxoUWx5YWJEdDRWSmlZc2RSQ1UxNk5yeGpTTDRrS0Y3S2l3T1FYdlF5OTR6TUh3T04zdW5uclBOMmNiSS1aWjBTUkpnejJIcWZzNHNGM09lMmc4Y3U4UVNRdUtCd1RhUUhRZlRoTGIxVEg1WkVvVl94VU41VWhtMW16X3hnY0ZsUVJKTVUxT2dwRzZhN2JDSlRoLUdaWkRIc1BwSDlLRVRJXzFxVFBZeEhBR2xLNFBUUFJ1bjZfdUlBOWFmZng2VHJKOFpUdXllWWtVanNEelBaeTI2bEFvcDBTcDhtMUJpR3pvUVozRUJrMnVEM3hBMjdZd0NvVk9mWFFsV0NFRkpnbTdLRVRwWDRJcWd5bC0tZ0VaWHFwa1NXbE5ldC1EMGJ5YVEyVkNWWHlocm11d3FUM21MQWZYSktaNlJ5eU5waW10VnZBZmRfVGJkUWZCeVNiRi10RWZ1Rk95dFpkeGVnczZpRDVXclFYTHgySU9uWkVtREx6YmZfTGNSazBLd0NKR1A5NGw5QWV4WThSZm93Q1dxenVPaDRfdkpJX2pjQnFSMWdrc0IxSmRNdVRxNlpBSzRvX2pnLW44MEktenBpX1lLUUxGTEZmLVZqSXd4aFA?oc=5",
         "date": "2026-03-26T13:51",
         "source": "العربية"
-      },
-      {
-        "title": "インフォグラフィック：サウジアラビアの石油輸出、3月にヤンブー港経由で急増",
-        "url": "https://news.google.com/rss/articles/CBMi9wNBVV95cUxQVllNdWV4RGF2OTFxRHFjLUEzTXNsUG1CV24wb1NtSFJvNXFHR1hfQThhT1FaUFhGQW12UnFxQlBCcHNpSlE5cUZmX29oc2tYdDlDRzV2eWRUOUw2anRfcXV0UjNCc2hLZUhRbHBRcmxMUEljNHBMR3FCay1xdXBSWDNKNTBBSlh5cTdMYkhERHpFZ0RaUmI1NnZqZnlLUE1hV1BWRjNmREdGS2c3VWpONWt5TElpT3BkUW81X1FKbUlObUVTdUlCbmFmQnJCdmtwM2hDVkN4alg3RDUtWkh0MjFtY1RLWU5sWDY3U08tTHVQd18tM0JlUFZlT3JHbjF6WnNfbzgzeVFBXy1DajM2RVZiUm1EMzZ3T25vNmhjZ3JSM2E1Yk53MGVFWmwzcUxia3RYY3hzajFrMGlKSU8zZ3JFaVZTdUxDNWIwcnJYWE52elVXNGRsMGc3Y0R3aWloa3E3bmlrUi1rZHJfZDl3OGlsWFl5cmpTWmROaS00OWdJWkVrMmxldE43SEtBd0NQS0FpQ3RlYjVXc2tpZ0hMTzViOHZTcG1nbmw5WUhPVlNmcUR5NWtTenlmNzNBY2ptaXJPRjVmNkRvRGR2ZjFuVVhKekJaWjRfY3ZrMm9mS0NRVi1KVC1uVTZncjFqQXR1SzAwUW5XYw?oc=5",
-        "date": "2026-03-26T07:47",
-        "source": "اقتصاد الشرق مع بلومبرغ"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-03-28T11:18:53.308463+03:00",
+    "lastUpdated": "2026-03-28T11:26:00.899132+03:00",
     "items": [
       {
         "title": "サウジ空軍基地にイランの攻撃、米兵10人負傷 開戦以降の負傷者は300人超える",
