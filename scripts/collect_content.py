@@ -6,11 +6,10 @@
 
 import json
 import re
+import subprocess
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from urllib.request import urlopen, Request
-from urllib.error import URLError, HTTPError
 from html.parser import HTMLParser
 
 AST = timezone(timedelta(hours=3))
@@ -29,13 +28,30 @@ HEADERS = {
 
 
 def fetch_url(url):
-    """URLからHTMLを取得"""
+    """URLからHTMLを取得（curlを使用）"""
     try:
-        req = Request(url, headers=HEADERS)
-        with urlopen(req, timeout=30) as resp:
-            charset = resp.headers.get_content_charset() or "utf-8"
-            return resp.read().decode(charset, errors="replace")
-    except (URLError, HTTPError) as e:
+        result = subprocess.run(
+            [
+                "curl", "-s", "-L",
+                "--max-time", "30",
+                "-H", f"User-Agent: {HEADERS['User-Agent']}",
+                "-H", f"Accept: {HEADERS['Accept']}",
+                "-H", f"Accept-Language: {HEADERS['Accept-Language']}",
+                url,
+            ],
+            capture_output=True,
+            timeout=45,
+        )
+        if result.returncode != 0:
+            print(f"[WARN] curl failed for {url}: exit code {result.returncode}", file=sys.stderr)
+            return None
+        html = result.stdout.decode("utf-8", errors="replace")
+        if not html.strip():
+            print(f"[WARN] Empty response from {url}", file=sys.stderr)
+            return None
+        print(f"[DEBUG] Fetched {url}: {len(html)} bytes")
+        return html
+    except Exception as e:
         print(f"[WARN] Failed to fetch {url}: {e}", file=sys.stderr)
         return None
 
