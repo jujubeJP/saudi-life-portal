@@ -91,192 +91,100 @@
   </div>
 </section>
 
+<!-- 共通スタイル: 日付幅・カテゴリ幅を固定 -->
+<style>
+.evt-row { display:flex; align-items:baseline; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:6px; line-height:1.4; }
+.evt-row:last-child { border-bottom:none; }
+.evt-date { width:68px; min-width:68px; font-size:0.8em; color:var(--text-muted); white-space:nowrap; }
+.evt-tag { width:52px; min-width:52px; font-size:0.68em; padding:1px 0; border-radius:8px; white-space:nowrap; text-align:center; display:inline-block; }
+.evt-name { font-size:0.88em; color:var(--text-primary); flex:1; }
+.evt-name small { color:var(--text-tertiary); font-size:0.88em; font-weight:normal; }
+.evt-bg-holiday { background:#fff5f5; }
+.evt-bg-religion { background:#fffbf0; }
+.month-h { font-size:1em; font-weight:600; color:var(--accent); margin:0; padding:6px 0 4px; border-bottom:2px solid var(--accent); }
+.month-card { border-top:none; border-top-left-radius:0; border-top-right-radius:0; padding:0; }
+</style>
+
 <!-- ====== 1月 ====== -->
 <section class="month-section" style="margin-bottom:4px; padding:0;">
-  <h3 style="font-size:1em; font-weight:600; color:var(--accent); margin-bottom:0; padding:6px 0 4px; border-bottom:2px solid var(--accent);">1月</h3>
-  <div class="card" style="border-top:none; border-top-left-radius:0; border-top-right-radius:0; padding:0;">
-    <div class="evt-card evt-row" data-type="sports" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">1/3〜17</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#e8f5e9; color:#2e7d32; white-space:nowrap;">スポーツ</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>ダカールラリー</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 砂漠縦断オフロードレース</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="culture" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">1/15〜2/16</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#f3e5f5; color:#7b1fa2; white-space:nowrap;">文化</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>アルウラ芸術祭</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 世界遺産アルウラで芸術祭・ポロ・トレイルレース</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="culture" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">1月〜</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#f3e5f5; color:#7b1fa2; white-space:nowrap;">文化</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>ディルイーヤ現代アートビエンナーレ</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 国際現代アート展</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="sports" style="display:flex; align-items:center; padding:7px 12px; gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">1/31</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#e8f5e9; color:#2e7d32; white-space:nowrap;">スポーツ</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>WWE ロイヤルランブル</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 世界最大級プロレスイベント</span></span>
-    </div>
+  <h3 class="month-h">1月</h3>
+  <div class="card month-card">
+    <div class="evt-row" data-type="sports"><span class="evt-date">1/3〜17</span><span class="evt-tag" style="background:#e8f5e9;color:#2e7d32;">スポーツ</span><span class="evt-name"><strong>ダカールラリー</strong> / Dakar Rally</span></div>
+    <div class="evt-row" data-type="culture"><span class="evt-date">1/15〜2/16</span><span class="evt-tag" style="background:#f3e5f5;color:#7b1fa2;">文化</span><span class="evt-name"><strong>アルウラ芸術祭</strong> / AlUla Arts Festival</span></div>
+    <div class="evt-row" data-type="culture"><span class="evt-date">1月〜</span><span class="evt-tag" style="background:#f3e5f5;color:#7b1fa2;">文化</span><span class="evt-name"><strong>ディルイーヤ現代アートビエンナーレ</strong> / Diriyah Contemporary Art Biennale</span></div>
+    <div class="evt-row" data-type="sports"><span class="evt-date">1/31</span><span class="evt-tag" style="background:#e8f5e9;color:#2e7d32;">スポーツ</span><span class="evt-name"><strong>WWE ロイヤルランブル</strong> / WWE Royal Rumble</span></div>
   </div>
 </section>
 
 <!-- ====== 2月 ====== -->
 <section class="month-section" style="margin-bottom:4px; padding:0;">
-  <h3 style="font-size:1em; font-weight:600; color:var(--accent); margin-bottom:0; padding:6px 0 4px; border-bottom:2px solid var(--accent);">2月</h3>
-  <div class="card" style="border-top:none; border-top-left-radius:0; border-top-right-radius:0; padding:0;">
-    <div class="evt-card evt-row" data-type="sports" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">2/13〜14</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#e8f5e9; color:#2e7d32; white-space:nowrap;">スポーツ</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>フォーミュラE</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— ディルイーヤ市街地コース</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="sports" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">2/14</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#e8f5e9; color:#2e7d32; white-space:nowrap;">スポーツ</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>サウジカップ</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 賞金3,800万ドル超の世界最高額競馬</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="religion" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4; background:#fffbf0;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">2/18頃</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#fff3e0; color:#e65100; white-space:nowrap;">宗教</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>ラマダン開始</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 断食月。飲食店営業時間変更、公共の場での飲食を控える</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="holiday" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4; background:#fff5f5;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">2/22 (日)</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#ffebee; color:#c62828; white-space:nowrap;">祝日</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>建国記念日 (Founding Day)</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 1727年第一次サウジ王国建国を記念</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="entertain" style="display:flex; align-items:center; padding:7px 12px; gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">〜2月末</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#e3f2fd; color:#1565c0; white-space:nowrap;">エンタメ</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>ウィンターワンダーランド・ジェッダ</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 紅海沿岸の冬季エンタメ</span></span>
-    </div>
+  <h3 class="month-h">2月</h3>
+  <div class="card month-card">
+    <div class="evt-row" data-type="sports"><span class="evt-date">2/13〜14</span><span class="evt-tag" style="background:#e8f5e9;color:#2e7d32;">スポーツ</span><span class="evt-name"><strong>フォーミュラE</strong> / Formula E Diriyah</span></div>
+    <div class="evt-row" data-type="sports"><span class="evt-date">2/14</span><span class="evt-tag" style="background:#e8f5e9;color:#2e7d32;">スポーツ</span><span class="evt-name"><strong>サウジカップ</strong> / The Saudi Cup <small>— 賞金総額3,800万ドル超</small></span></div>
+    <div class="evt-row evt-bg-religion" data-type="religion"><span class="evt-date">2/18頃</span><span class="evt-tag" style="background:#fff3e0;color:#e65100;">宗教</span><span class="evt-name"><strong>ラマダン開始</strong> / Ramadan <small>— 断食月。飲食店営業時間変更</small></span></div>
+    <div class="evt-row evt-bg-holiday" data-type="holiday"><span class="evt-date">2/22 (日)</span><span class="evt-tag" style="background:#ffebee;color:#c62828;">祝日</span><span class="evt-name"><strong>建国記念日</strong> / Founding Day <small>— 1727年第一次サウジ王国建国</small></span></div>
+    <div class="evt-row" data-type="entertain"><span class="evt-date">〜2月末</span><span class="evt-tag" style="background:#e3f2fd;color:#1565c0;">エンタメ</span><span class="evt-name"><strong>ウィンターワンダーランド</strong> / Winter Wonderland Jeddah</span></div>
   </div>
 </section>
 
 <!-- ====== 3月 ====== -->
 <section class="month-section" style="margin-bottom:4px; padding:0;">
-  <h3 style="font-size:1em; font-weight:600; color:var(--accent); margin-bottom:0; padding:6px 0 4px; border-bottom:2px solid var(--accent);">3月</h3>
-  <div class="card" style="border-top:none; border-top-left-radius:0; border-top-right-radius:0; padding:0;">
-    <div class="evt-card evt-row" data-type="religion" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4; background:#fffbf0;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">〜3/19頃</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#fff3e0; color:#e65100; white-space:nowrap;">宗教</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>ラマダン（継続）</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 就業時間短縮、イフタール盛ん</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="holiday" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4; background:#fff5f5;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">3/20頃</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#ffebee; color:#c62828; white-space:nowrap;">祝日</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>イード・アル＝フィトル</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— ラマダン明け大祭。公式休暇4日間（3/19〜24頃）</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="entertain" style="display:flex; align-items:center; padding:7px 12px; gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">〜3月</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#e3f2fd; color:#1565c0; white-space:nowrap;">エンタメ</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>リヤドシーズン（終盤）</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— サウジ最大の総合エンタメフェスティバル</span></span>
-    </div>
+  <h3 class="month-h">3月</h3>
+  <div class="card month-card">
+    <div class="evt-row evt-bg-religion" data-type="religion"><span class="evt-date">〜3/19頃</span><span class="evt-tag" style="background:#fff3e0;color:#e65100;">宗教</span><span class="evt-name"><strong>ラマダン（継続）</strong> / Ramadan <small>— 就業時間短縮</small></span></div>
+    <div class="evt-row evt-bg-holiday" data-type="holiday"><span class="evt-date">3/20頃</span><span class="evt-tag" style="background:#ffebee;color:#c62828;">祝日</span><span class="evt-name"><strong>イード・アル＝フィトル</strong> / Eid al-Fitr <small>— 休暇4日間</small></span></div>
+    <div class="evt-row" data-type="entertain"><span class="evt-date">〜3月</span><span class="evt-tag" style="background:#e3f2fd;color:#1565c0;">エンタメ</span><span class="evt-name"><strong>リヤドシーズン（終盤）</strong> / Riyadh Season</span></div>
   </div>
 </section>
 
 <!-- ====== 4月 ====== -->
 <section class="month-section" style="margin-bottom:4px; padding:0;">
-  <h3 style="font-size:1em; font-weight:600; color:var(--accent); margin-bottom:0; padding:6px 0 4px; border-bottom:2px solid var(--accent);">4月</h3>
-  <div class="card" style="border-top:none; border-top-left-radius:0; border-top-right-radius:0; padding:0;">
-    <div class="evt-card evt-row" data-type="tech" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">4/13〜16</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#e0f2f1; color:#00695c; white-space:nowrap;">テック</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>LEAP 2026</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 世界最大規模テクノロジーカンファレンス（リヤド）</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="sports" style="display:flex; align-items:center; padding:7px 12px; gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">4/17〜19</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#e8f5e9; color:#2e7d32; white-space:nowrap;">スポーツ</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>F1 サウジアラビアGP</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— ジェッダ・コルニッシュ・サーキット</span></span>
-    </div>
+  <h3 class="month-h">4月</h3>
+  <div class="card month-card">
+    <div class="evt-row" data-type="tech"><span class="evt-date">4/13〜16</span><span class="evt-tag" style="background:#e0f2f1;color:#00695c;">テック</span><span class="evt-name"><strong>LEAP 2026</strong> <small>— テクノロジーカンファレンス（リヤド）</small></span></div>
+    <div class="evt-row" data-type="sports"><span class="evt-date">4/17〜19</span><span class="evt-tag" style="background:#e8f5e9;color:#2e7d32;">スポーツ</span><span class="evt-name"><strong>F1 サウジアラビアGP</strong> / Saudi Arabian Grand Prix <small>— ジェッダ</small></span></div>
   </div>
 </section>
 
 <!-- ====== 5月 ====== -->
 <section class="month-section" style="margin-bottom:4px; padding:0;">
-  <h3 style="font-size:1em; font-weight:600; color:var(--accent); margin-bottom:0; padding:6px 0 4px; border-bottom:2px solid var(--accent);">5月</h3>
-  <div class="card" style="border-top:none; border-top-left-radius:0; border-top-right-radius:0; padding:0;">
-    <div class="evt-card evt-row" data-type="religion" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4; background:#fffbf0;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">5/25〜</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#fff3e0; color:#e65100; white-space:nowrap;">宗教</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>ハッジ（大巡礼）</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— メッカへ数百万人が集結。周辺交通規制あり</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="religion" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4; background:#fffbf0;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">5/26</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#fff3e0; color:#e65100; white-space:nowrap;">宗教</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>アラファの日</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— ハッジ最重要日。巡礼者がアラファト山に集結</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="holiday" style="display:flex; align-items:center; padding:7px 12px; gap:8px; line-height:1.4; background:#fff5f5;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">5/27頃</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#ffebee; color:#c62828; white-space:nowrap;">祝日</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>イード・アル＝アドハー（犠牲祭）</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— イスラム最大の祝日。公式休暇約5日間</span></span>
-    </div>
+  <h3 class="month-h">5月</h3>
+  <div class="card month-card">
+    <div class="evt-row evt-bg-religion" data-type="religion"><span class="evt-date">5/25〜</span><span class="evt-tag" style="background:#fff3e0;color:#e65100;">宗教</span><span class="evt-name"><strong>ハッジ</strong> / Hajj <small>— メッカ大巡礼。周辺交通規制あり</small></span></div>
+    <div class="evt-row evt-bg-religion" data-type="religion"><span class="evt-date">5/26</span><span class="evt-tag" style="background:#fff3e0;color:#e65100;">宗教</span><span class="evt-name"><strong>アラファの日</strong> / Day of Arafah</span></div>
+    <div class="evt-row evt-bg-holiday" data-type="holiday"><span class="evt-date">5/27頃</span><span class="evt-tag" style="background:#ffebee;color:#c62828;">祝日</span><span class="evt-name"><strong>イード・アル＝アドハー</strong> / Eid al-Adha <small>— 犠牲祭。休暇約5日間</small></span></div>
   </div>
 </section>
 
 <!-- ====== 6月〜8月 ====== -->
 <section class="month-section" style="margin-bottom:4px; padding:0;">
-  <h3 style="font-size:1em; font-weight:600; color:var(--accent); margin-bottom:0; padding:6px 0 4px; border-bottom:2px solid var(--accent);">6〜8月</h3>
-  <div class="card" style="border-top:none; border-top-left-radius:0; border-top-right-radius:0; padding:0;">
-    <div class="evt-card evt-row" data-type="religion" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4; background:#fffbf0;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">6/17頃</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#fff3e0; color:#e65100; white-space:nowrap;">宗教</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>イスラム暦新年</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— ヒジュラ暦1448年の始まり</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="entertain" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">夏季</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#e3f2fd; color:#1565c0; white-space:nowrap;">エンタメ</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>ジェッダシーズン</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 紅海沿いのナイトイベント中心</span></span>
-    </div>
-    <div style="padding:6px 12px; font-size:0.82em; color:var(--text-tertiary); background:var(--bg-secondary);">
-      💡 夏季はリヤドで50℃近くに達し屋外イベントは少なめ。沿岸部のナイトイベントが中心。
-    </div>
+  <h3 class="month-h">6〜8月</h3>
+  <div class="card month-card">
+    <div class="evt-row evt-bg-religion" data-type="religion"><span class="evt-date">6/17頃</span><span class="evt-tag" style="background:#fff3e0;color:#e65100;">宗教</span><span class="evt-name"><strong>イスラム暦新年</strong> / Islamic New Year <small>— ヒジュラ暦1448年</small></span></div>
+    <div class="evt-row" data-type="entertain"><span class="evt-date">夏季</span><span class="evt-tag" style="background:#e3f2fd;color:#1565c0;">エンタメ</span><span class="evt-name"><strong>ジェッダシーズン</strong> / Jeddah Season <small>— 紅海沿いナイトイベント</small></span></div>
+    <div style="padding:5px 12px; font-size:0.8em; color:var(--text-tertiary); background:var(--bg-secondary);">💡 夏季はリヤドで50℃近くに達し屋外イベントは少なめ。沿岸部のナイトイベントが中心。</div>
   </div>
 </section>
 
 <!-- ====== 9月 ====== -->
 <section class="month-section" style="margin-bottom:4px; padding:0;">
-  <h3 style="font-size:1em; font-weight:600; color:var(--accent); margin-bottom:0; padding:6px 0 4px; border-bottom:2px solid var(--accent);">9月</h3>
-  <div class="card" style="border-top:none; border-top-left-radius:0; border-top-right-radius:0; padding:0;">
-    <div class="evt-card evt-row" data-type="holiday" style="display:flex; align-items:center; padding:7px 12px; gap:8px; line-height:1.4; background:#fff5f5;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">9/23 (水)</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#ffebee; color:#c62828; white-space:nowrap;">祝日</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>建国記念日 (National Day)</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 1932年建国。花火・パレード・街中が緑に</span></span>
-    </div>
+  <h3 class="month-h">9月</h3>
+  <div class="card month-card">
+    <div class="evt-row evt-bg-holiday" data-type="holiday"><span class="evt-date">9/23 (水)</span><span class="evt-tag" style="background:#ffebee;color:#c62828;">祝日</span><span class="evt-name"><strong>建国記念日</strong> / Saudi National Day <small>— 花火・パレード</small></span></div>
   </div>
 </section>
 
 <!-- ====== 10月〜12月 ====== -->
 <section class="month-section" style="margin-bottom:4px; padding:0;">
-  <h3 style="font-size:1em; font-weight:600; color:var(--accent); margin-bottom:0; padding:6px 0 4px; border-bottom:2px solid var(--accent);">10〜12月</h3>
-  <div class="card" style="border-top:none; border-top-left-radius:0; border-top-right-radius:0; padding:0;">
-    <div class="evt-card evt-row" data-type="entertain" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">10月〜</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#e3f2fd; color:#1565c0; white-space:nowrap;">エンタメ</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>リヤドシーズン 2026-27 開幕</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— コンサート・テーマパーク・グルメ等</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="culture" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">秋頃</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#f3e5f5; color:#7b1fa2; white-space:nowrap;">文化</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>ヌール・リヤド</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 光とアートの祭典（第6回）</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="tech" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">10/19〜22</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#e0f2f1; color:#00695c; white-space:nowrap;">テック</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>Jewels of the World</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 国際宝飾品展（ジェッダ）</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="culture" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">秋〜冬</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#f3e5f5; color:#7b1fa2; white-space:nowrap;">文化</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>リヤド国際ブックフェア</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— サウジ最大の書籍・出版イベント</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="sports" style="display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid var(--border-light); gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">年内</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#e8f5e9; color:#2e7d32; white-space:nowrap;">スポーツ</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>eスポーツ・ネーションズカップ</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 約100カ国参加の国際eスポーツ大会</span></span>
-    </div>
-    <div class="evt-card evt-row" data-type="culture" style="display:flex; align-items:center; padding:7px 12px; gap:8px; line-height:1.4;">
-      <span style="min-width:60px; font-size:0.8em; color:var(--text-muted); white-space:nowrap;">年内</span>
-      <span class="evt-tag" style="font-size:0.7em; padding:1px 6px; border-radius:8px; background:#f3e5f5; color:#7b1fa2; white-space:nowrap;">文化</span>
-      <span style="font-size:0.88em; color:var(--text-primary); flex:1;"><strong>インタービジョン</strong> <span style="color:var(--text-tertiary); font-size:0.88em;">— 国際音楽コンペティション（第2回）</span></span>
-    </div>
+  <h3 class="month-h">10〜12月</h3>
+  <div class="card month-card">
+    <div class="evt-row" data-type="entertain"><span class="evt-date">10月〜</span><span class="evt-tag" style="background:#e3f2fd;color:#1565c0;">エンタメ</span><span class="evt-name"><strong>リヤドシーズン 2026-27</strong> / Riyadh Season</span></div>
+    <div class="evt-row" data-type="culture"><span class="evt-date">秋頃</span><span class="evt-tag" style="background:#f3e5f5;color:#7b1fa2;">文化</span><span class="evt-name"><strong>ヌール・リヤド</strong> / Noor Riyadh <small>— 光とアートの祭典</small></span></div>
+    <div class="evt-row" data-type="tech"><span class="evt-date">10/19〜22</span><span class="evt-tag" style="background:#e0f2f1;color:#00695c;">テック</span><span class="evt-name"><strong>ジュエルズ・オブ・ザ・ワールド</strong> / Jewels of the World <small>— ジェッダ</small></span></div>
+    <div class="evt-row" data-type="culture"><span class="evt-date">秋〜冬</span><span class="evt-tag" style="background:#f3e5f5;color:#7b1fa2;">文化</span><span class="evt-name"><strong>リヤド国際ブックフェア</strong> / Riyadh Intl Book Fair</span></div>
+    <div class="evt-row" data-type="sports"><span class="evt-date">年内</span><span class="evt-tag" style="background:#e8f5e9;color:#2e7d32;">スポーツ</span><span class="evt-name"><strong>eスポーツ・ネーションズカップ</strong> / Esports Nations Cup</span></div>
+    <div class="evt-row" data-type="culture"><span class="evt-date">年内</span><span class="evt-tag" style="background:#f3e5f5;color:#7b1fa2;">文化</span><span class="evt-name"><strong>インタービジョン</strong> / Intervision <small>— 国際音楽コンペ（第2回）</small></span></div>
   </div>
 </section>
 
