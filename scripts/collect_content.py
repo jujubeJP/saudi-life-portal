@@ -27,31 +27,25 @@ HEADERS = {
     "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
 }
 
-# 英語・アラビア語メディアソース（RSS）
+# メディアソース（Google News RSSを使用 - bot保護なし、複数ソースを集約）
 MEDIA_SOURCES = [
     {
-        "name": "Arab News",
-        "name_ja": "アラブニュース",
-        "rss_url": "https://www.arabnews.com/rss",
-        "base_url": "https://www.arabnews.com",
+        "name": "Google News (EN)",
+        "name_ja": "英語ニュース",
+        "rss_url": "https://news.google.com/rss/search?q=Saudi+Arabia&hl=en&gl=SA&ceid=SA:en",
+        "filter_saudi": False,  # 検索クエリ自体がサウジ関連
     },
     {
-        "name": "Saudi Gazette",
-        "name_ja": "サウジガゼット",
-        "rss_url": "https://saudigazette.com.sa/rss",
-        "base_url": "https://saudigazette.com.sa",
+        "name": "Google News (AR)",
+        "name_ja": "アラビア語ニュース",
+        "rss_url": "https://news.google.com/rss/search?q=%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9&hl=ar&gl=SA&ceid=SA:ar",
+        "filter_saudi": False,
     },
     {
-        "name": "Al Arabiya",
-        "name_ja": "アルアラビーヤ",
-        "rss_url": "https://english.alarabiya.net/feed/flipboard/en.xml",
-        "base_url": "https://english.alarabiya.net",
-    },
-    {
-        "name": "Gulf News",
-        "name_ja": "ガルフニュース",
-        "rss_url": "https://gulfnews.com/rss/uae",
-        "base_url": "https://gulfnews.com",
+        "name": "Google News (JP)",
+        "name_ja": "日本語ニュース",
+        "rss_url": "https://news.google.com/rss/search?q=%E3%82%B5%E3%82%A6%E3%82%B8%E3%82%A2%E3%83%A9%E3%83%93%E3%82%A2&hl=ja&gl=JP&ceid=JP:ja",
+        "filter_saudi": False,
     },
 ]
 
@@ -490,22 +484,14 @@ def collect_media():
             print(f"[WARN] Failed to fetch {source['name']} RSS")
             continue
 
-        # デバッグ: フィードの先頭500バイトを表示
-        print(f"[DEBUG] {source['name']} RSS preview: {xml[:500]}")
-
         rss_items = parse_rss_xml(xml)
         if not rss_items:
+            # デバッグ: パース失敗時にフィードの先頭200バイトを表示
+            print(f"[DEBUG] {source['name']} preview: {xml[:200]}", file=sys.stderr)
             print(f"[WARN] No items parsed from {source['name']} RSS")
             continue
 
         print(f"[DEBUG] {source['name']}: found {len(rss_items)} RSS items")
-
-        # サウジ関連記事をフィルタ（Al Arabiyaは中東全体なのでフィルタ必要）
-        saudi_keywords = {
-            "saudi", "riyadh", "jeddah", "mecca", "medina", "neom",
-            "vision 2030", "aramco", "mbs", "kingdom",
-            "サウジ", "リヤド", "ジェッダ",
-        }
 
         count = 0
         for item in rss_items:
@@ -519,11 +505,12 @@ def collect_media():
             if not title or not link:
                 continue
 
-            # Al Arabiya/Gulf Newsはサウジ関連のみフィルタ
-            if source["name"] in ("Al Arabiya", "Gulf News"):
-                combined = (title + " " + description).lower()
-                if not any(kw in combined for kw in saudi_keywords):
-                    continue
+            # Google Newsのタイトルからソース名を抽出（"見出し - ソース名" 形式）
+            source_name = source["name_ja"]
+            if " - " in title:
+                parts = title.rsplit(" - ", 1)
+                title = parts[0].strip()
+                source_name = parts[1].strip()
 
             # 日付パース
             date_str = parse_rss_date(item.get("pubdate", ""))
@@ -539,7 +526,7 @@ def collect_media():
                 "title": title,
                 "url": link,
                 "date": date_str,
-                "source": source["name_ja"],
+                "source": source_name,
                 "summary": summary,
             })
             count += 1
