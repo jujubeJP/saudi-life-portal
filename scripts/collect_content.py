@@ -180,21 +180,23 @@ def collect_embassy():
     text, links = parse_html(html)
     print(f"[DEBUG] Found {len(links)} total links on embassy page")
 
-    # 「新着情報」「領事情報」セクション以降のリンクだけを抽出
-    # テキスト内のセクション開始位置を特定
+    # 「新着情報」セクションのみからリンクを抽出（領事情報は除外）
     news_section_start = text.find("新着情報")
     ryoji_section_start = text.find("領事情報")
 
-    if news_section_start < 0 and ryoji_section_start < 0:
-        print("[WARN] Could not find 新着情報 or 領事情報 section in embassy page")
-        # フォールバック: タイトルパターンでフィルタ
+    if news_section_start < 0:
+        print("[WARN] Could not find 新着情報 section in embassy page")
         section_start = 0
+        section_end = len(text)
     else:
-        section_start = min(
-            pos for pos in [news_section_start, ryoji_section_start] if pos >= 0
-        )
+        section_start = news_section_start
+        # 領事情報セクションが新着情報の後にあれば、そこで区切る
+        if ryoji_section_start > news_section_start:
+            section_end = ryoji_section_start
+        else:
+            section_end = len(text)
 
-    print(f"[DEBUG] News section starts at position {section_start}")
+    print(f"[DEBUG] News section: position {section_start} to {section_end}")
 
     # お知らせリンクを抽出
     news_items = []
@@ -228,9 +230,11 @@ def collect_embassy():
         if title_clean in nav_keywords:
             continue
 
-        # テキスト内でこのリンクタイトルがニュースセクション以降にあるか確認
+        # テキスト内でこのリンクタイトルが新着情報セクション内にあるか確認
         title_pos = text.find(title_clean[:15])
         if title_pos < 0 or (section_start > 0 and title_pos < section_start):
+            continue
+        if title_pos >= section_end:
             continue
 
         # URLを正規化
@@ -267,8 +271,9 @@ def collect_embassy():
         print(f"[DEBUG]   - {item['date']}: {item['title'][:60]}")
 
     # 最新の最大10件
+    news_items = news_items[:10]
     embassy_title = news_items[0]["title"] if news_items else "情報を取得できませんでした"
-    embassy_body = f"最新{min(len(news_items), 10)}件のお知らせを取得しました。" if news_items else "大使館サイトからの情報取得に失敗しました。"
+    embassy_body = f"新着情報から{len(news_items)}件のお知らせを取得しました。" if news_items else "大使館サイトからの情報取得に失敗しました。"
 
     embassy_data = {
         "title": embassy_title,
@@ -276,7 +281,7 @@ def collect_embassy():
         "url": EMBASSY_URL
     }
 
-    return embassy_data, news_items[:10]
+    return embassy_data, news_items
 
 
 def collect_mofa():
