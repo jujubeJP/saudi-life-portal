@@ -101,8 +101,7 @@
 
       <div class="card" id="security-embassy">
         <div class="card-label">在サウジ日本大使館</div>
-        <h3>自動収集待ち...</h3>
-        <p>大使館からの最新のお知らせがここに表示されます。</p>
+        <p id="embassy-status" style="font-size:var(--font-size-sm); color:var(--text-tertiary); margin-bottom:4px;">大使館からの最新のお知らせがここに表示されます。</p>
         <ul class="embassy-news-list" id="embassy-news-list" style="margin:12px 0 8px;padding-left:0;list-style:none;font-size:var(--font-size-sm);"></ul>
         <div class="source">出典: <a href="https://www.ksa.emb-japan.go.jp/itpr_ja/index.html" target="_blank" rel="noopener">在サウジ日本大使館</a></div>
       </div>
@@ -411,8 +410,11 @@ document.querySelectorAll('nav a[href*="#"]').forEach(link => {
         const s = data.security;
         if (s.lastUpdated) document.getElementById('security-updated').textContent = '最終更新: ' + fmtDate(s.lastUpdated);
         updateCard('security-mofa', s.mofa);
-        updateCard('security-embassy', s.embassy);
-        // 大使館ニュースリストを表示
+        // 大使館ステータスとニュースリストを表示
+        if (s.embassy && s.embassy.title) {
+          var statusEl = document.getElementById('embassy-status');
+          if (statusEl) statusEl.textContent = s.embassy.title;
+        }
         if (data.news && data.news.items) {
           const embassyItems = data.news.items.filter(n => n.source === '在サウジ日本大使館');
           updateEmbassyNews(embassyItems);
