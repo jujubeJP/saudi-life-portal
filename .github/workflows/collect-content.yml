@@ -1,0 +1,41 @@
+name: Collect Content
+
+on:
+  schedule:
+    # サウジ時間 13:30 (UTC 10:30) - ズフル後
+    - cron: '30 10 * * *'
+    # サウジ時間 19:00 (UTC 16:00) - マグリブ後
+    - cron: '0 16 * * *'
+  workflow_dispatch: # 手動実行も可能
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run collection script
+        run: python scripts/collect_content.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet public/data/content.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/content.json
+          git commit -m "auto: update content $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
