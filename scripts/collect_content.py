@@ -150,63 +150,81 @@ def collect_embassy():
     if not html:
         return None, []
 
-    # デバッグ: 受信HTMLの先頭を表示
-    print(f"[DEBUG] Embassy HTML (first 500 chars):\n{html[:500]}")
-
     text, links = parse_html(html)
+    print(f"[DEBUG] Found {len(links)} total links on embassy page")
 
-    # デバッグ: リンク数を表示
-    print(f"[DEBUG] Found {len(links)} links on embassy page")
+    # 「新着情報」「領事情報」セクション以降のリンクだけを抽出
+    # テキスト内のセクション開始位置を特定
+    news_section_start = text.find("新着情報")
+    ryoji_section_start = text.find("領事情報")
 
-    # 大使館のお知らせリンクを抽出
+    if news_section_start < 0 and ryoji_section_start < 0:
+        print("[WARN] Could not find 新着情報 or 領事情報 section in embassy page")
+        # フォールバック: タイトルパターンでフィルタ
+        section_start = 0
+    else:
+        section_start = min(
+            pos for pos in [news_section_start, ryoji_section_start] if pos >= 0
+        )
+
+    print(f"[DEBUG] News section starts at position {section_start}")
+
+    # お知らせリンクを抽出
     news_items = []
     seen_titles = set()
+
+    # ナビゲーションリンクの除外パターン
+    nav_keywords = {
+        "一覧へ", "トップページ", "サイトマップ", "English", "大使館案内",
+        "領事・治安・医療", "経済・技術協力", "パスポート", "戸籍国籍届",
+        "海外子女教育", "日本へのビザ", "外務省", "サイトポリシー",
+        "リンク集", "個人情報保護方針", "アクセシビリティ",
+    }
 
     for link in links:
         title = link["text"].strip()
         href = link["href"]
 
-        # タイトルのクリーンアップ: [56KB] などのファイルサイズ表記を除去
+        # 改行・空白をクリーンアップ
+        title = re.sub(r"\s+", " ", title).strip()
+
+        # [56KB] などのファイルサイズ表記を除去
         title_clean = re.sub(r"\s*\[\d+KB\]\s*", "", title).strip()
 
-        # ニュース・お知らせらしいリンクをフィルタ
-        if not title_clean or len(title_clean) < 5:
+        # 短すぎるタイトルを除外
+        if not title_clean or len(title_clean) < 8:
             continue
         if title_clean in seen_titles:
             continue
 
         # ナビゲーションリンクを除外
-        if title_clean in ("一覧へ", "トップページ", "サイトマップ"):
+        if title_clean in nav_keywords:
             continue
 
-        # 大使館の記事リンクパターン（HTML, PDFどちらも含む）
-        is_embassy_link = (
-            "/itpr_ja/" in href or
-            "/itprtop_ja/" in href or
-            href.endswith(".pdf") or
-            href.endswith(".html")
-        )
+        # テキスト内でこのリンクタイトルがニュースセクション以降にあるか確認
+        title_pos = text.find(title_clean[:15])
+        if title_pos < 0 or (section_start > 0 and title_pos < section_start):
+            continue
 
-        if is_embassy_link:
-            if not href.startswith("http"):
-                if href.startswith("/"):
-                    href = EMBASSY_BASE + href
-                else:
-                    href = EMBASSY_BASE + "/" + href
+        # URLを正規化
+        if not href.startswith("http"):
+            if href.startswith("/"):
+                href = EMBASSY_BASE + href
+            else:
+                href = EMBASSY_BASE + "/" + href
 
-            seen_titles.add(title_clean)
-            news_items.append({
-                "title": title_clean,
-                "url": href,
-                "source": "在サウジ日本大使館"
-            })
+        seen_titles.add(title_clean)
+        news_items.append({
+            "title": title_clean,
+            "url": href,
+            "source": "在サウジ日本大使館"
+        })
 
     # 各ニュースに日付を付与
     for item in news_items:
-        # タイトルの前後100文字から日付を探す
-        title_pos = text.find(item["title"][:20])  # 部分一致で探す
+        title_pos = text.find(item["title"][:15])
         if title_pos >= 0:
-            search_range = text[max(0, title_pos - 100):title_pos + len(item["title"]) + 50]
+            search_range = text[max(0, title_pos - 150):title_pos + 10]
             date_str = parse_japanese_date(search_range)
             if date_str:
                 item["date"] = date_str
@@ -219,11 +237,11 @@ def collect_embassy():
 
     print(f"[DEBUG] Extracted {len(news_items)} embassy news items")
     for item in news_items[:5]:
-        print(f"[DEBUG]   - {item['date']}: {item['title'][:50]}")
+        print(f"[DEBUG]   - {item['date']}: {item['title'][:60]}")
 
     # 最新の最大10件
     embassy_title = news_items[0]["title"] if news_items else "情報を取得できませんでした"
-    embassy_body = f"最新{len(news_items)}件のお知らせを取得しました。" if news_items else "大使館サイトからの情報取得に失敗しました。"
+    embassy_body = f"最新{min(len(news_items), 10)}件のお知らせを取得しました。" if news_items else "大使館サイトからの情報取得に失敗しました。"
 
     embassy_data = {
         "title": embassy_title,
