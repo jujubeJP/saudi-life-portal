@@ -215,13 +215,23 @@
   border-bottom: 1px solid var(--border-light);
   line-height: 1.6;
   font-size: 0.9em;
-  display: grid;
-  grid-template-columns: auto auto auto 1fr;
-  gap: 0 6px;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+}
+.news-meta-fixed {
+  flex: 0 0 280px;
+  display: flex;
   align-items: baseline;
+  gap: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media (max-width: 600px) {
+  .news-item { flex-direction: column; }
+  .news-meta-fixed { flex: none; margin-bottom: 2px; }
 }
 .news-date-col {
-  white-space: nowrap;
   color: var(--text-muted);
   font-size: 0.85em;
 }
@@ -232,17 +242,15 @@
   background: var(--bg-secondary);
   color: var(--text-tertiary);
   font-size: 0.78em;
-  white-space: nowrap;
 }
 .news-src-col {
   color: var(--text-tertiary);
   font-size: 0.85em;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 14em;
 }
 .news-title-col {
+  flex: 1;
   min-width: 0;
 }
 
@@ -803,8 +811,10 @@ function filterNews() {
       return;
     }
     ul.innerHTML = items.map(n =>
-      '<li class="news-item" style="grid-template-columns: auto 1fr;">' +
-        '<span class="news-date-col">' + esc(n.date || '') + '</span>' +
+      '<li class="news-item">' +
+        '<span class="news-meta-fixed" style="flex-basis:auto;">' +
+          '<span class="news-date-col">' + esc(n.date || '') + '</span>' +
+        '</span>' +
         '<span class="news-title-col">' +
           (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
         '</span>' +
@@ -822,9 +832,11 @@ function filterNews() {
     }
     ul.innerHTML = items.map(n =>
       '<li class="news-item" data-category="' + esc(n.category || 'その他') + '">' +
-        '<span class="news-date-col">' + esc(fmtNewsDate(n.date)) + '</span>' +
-        '<span class="news-cat-col">' + esc(n.category || 'その他') + '</span>' +
-        '<span class="news-src-col">' + esc(n.source || '') + '</span>' +
+        '<span class="news-meta-fixed">' +
+          '<span class="news-date-col">' + esc(fmtNewsDate(n.date)) + '</span>' +
+          '<span class="news-cat-col">' + esc(n.category || 'その他') + '</span>' +
+          '<span class="news-src-col">' + esc(n.source || '') + '</span>' +
+        '</span>' +
         '<span class="news-title-col">' +
           (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
         '</span>' +

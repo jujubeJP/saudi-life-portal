@@ -136,16 +136,19 @@
   border-bottom: 1px solid var(--border-light);
   font-size: 0.82em;
   line-height: 1.5;
-  display: grid;
-  grid-template-columns: auto auto 1fr;
-  gap: 0 5px;
-  align-items: baseline;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
 }
-.notice-list li.two-col {
-  grid-template-columns: auto 1fr;
+.n-meta {
+  flex-shrink: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  margin-right: 6px;
+  white-space: nowrap;
 }
 .n-date {
-  white-space: nowrap;
   color: var(--text-muted);
 }
 .n-src {
@@ -155,7 +158,6 @@
   background: var(--bg-secondary);
   color: var(--text-tertiary);
   font-size: 0.85em;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 12em;
@@ -617,8 +619,8 @@ function escapeHtml(str) {
     const ul = document.getElementById('embassy-news-list');
     if (!ul || !items || !items.length) return;
     ul.innerHTML = items.slice(0, 3).map(n =>
-      '<li class="two-col">' +
-        '<span class="n-date">' + esc(n.date || '') + '</span>' +
+      '<li>' +
+        '<span class="n-meta"><span class="n-date">' + esc(n.date || '') + '</span></span>' +
         '<span class="n-title">' +
           (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
         '</span>' +
@@ -644,8 +646,10 @@ function escapeHtml(str) {
     }
     ul.innerHTML = top.map(function(n) {
       return '<li>' +
-        '<span class="n-date">' + esc(fmtNewsDate(n.date)) + '</span>' +
-        '<span class="n-src">' + esc(n.source || '') + '</span>' +
+        '<span class="n-meta">' +
+          '<span class="n-date">' + esc(fmtNewsDate(n.date)) + '</span>' +
+          '<span class="n-src">' + esc(n.source || '') + '</span>' +
+        '</span>' +
         '<span class="n-title">' +
           (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
         '</span>' +
