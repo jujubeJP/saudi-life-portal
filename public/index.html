@@ -141,12 +141,13 @@
   align-items: flex-start;
 }
 .n-meta {
-  flex-shrink: 0;
+  flex: 0 0 220px;
   display: flex;
   align-items: baseline;
   gap: 5px;
   margin-right: 6px;
   white-space: nowrap;
+  overflow: hidden;
 }
 .n-date {
   color: var(--text-muted);
@@ -163,7 +164,12 @@
   max-width: 12em;
 }
 .n-title {
+  flex: 1;
   min-width: 0;
+}
+@media (max-width: 600px) {
+  .notice-list li { flex-direction: column; }
+  .n-meta { flex: none; margin-bottom: 2px; }
 }
 .notice-list li:last-child { border-bottom: none; }
 
