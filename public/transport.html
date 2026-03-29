@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>国内交通 | サウジナビ</title>
+<link rel="stylesheet" href="assets/shared.css">
+<style>
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; margin: 20px 0; }
+.card { background: linear-gradient(135deg, #f5f5f5 0%, #fff 100%); border-left: 4px solid var(--accent); padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.card h3 { margin: 0 0 10px 0; color: var(--accent); font-size: 1.2em; }
+.card p { margin: 8px 0; line-height: 1.6; }
+.card ul { margin: 10px 0; padding-left: 20px; }
+.card li { margin: 6px 0; }
+.comparison-table { width: 100%; border-collapse: collapse; margin: 15px 0; background: white; }
+.comparison-table th { background: var(--accent); color: white; padding: 12px; text-align: left; font-weight: 600; }
+.comparison-table td { padding: 12px; border-bottom: 1px solid var(--border-light); }
+.comparison-table tr:nth-child(even) { background: #f9f9f9; }
+.highlight-box { background: linear-gradient(to right, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.05)); border-left: 4px solid var(--accent); padding: 15px; margin: 15px 0; border-radius: 4px; }
+.emoji-bullet { font-size: 1.3em; margin-right: 8px; }
+.section-title { border-bottom: 2px solid var(--accent); padding-bottom: 10px; margin-top: 30px; margin-bottom: 15px; font-size: 1.3em; }
+.price-tag { background: var(--accent); color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+.info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 15px 0; }
+.info-item { background: white; padding: 15px; border-radius: 6px; border: 1px solid var(--border-light); }
+.info-item strong { color: var(--accent); display: block; margin-bottom: 5px; }
+@media (max-width: 768px) {
+  .card-grid { grid-template-columns: 1fr; }
+  .info-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+<header>
+  <div class="container">
+    <div class="header-badges">
+      <a href="https://www.vision2030.gov.sa/" target="_blank" rel="noopener" class="header-badge vision">🌿 VISION 2030</a>
+      <a href="https://riyadhexpo2030.sa/" target="_blank" rel="noopener" class="header-badge expo">🌍 EXPO 2030 RIYADH</a>
+      <a href="https://www.visitsaudi.com/" target="_blank" rel="noopener" class="header-badge tourism">✨ Visit Saudi</a>
+    </div>
+    <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
+    <p class="subtitle">サウジアラビア日本語情報ポータルサイト</p>
+    <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 サウジナビ</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap"><button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button></div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">🏠 ホーム</a>
+    <a href="news.html">📰 治安・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="telecom.html">📱 通信・アプリ</a>
+    <a href="transport.html" class="active">🚗 国内交通</a>
+    <a href="food.html">🍽️ サウジ料理</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="city-guide.html">🏙️ 都市ガイド</a>
+    <a href="medical.html">🏥 医療</a>
+    <a href="entertainment.html">🎡 娯楽</a>
+    <a href="business.html">💼 ビジネスマナー</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+  </div>
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">🏠 ホーム</a>
+    <a href="news.html">📰 治安・ニュース</a>
+    <a href="life.html">🏠 生活</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <div class="nav-more" id="navMore">
+      <button class="nav-more-btn" id="navMoreBtn">その他 ▼</button>
+      <div class="nav-more-dropdown" id="navMoreDropdown">
+        <a href="telecom.html">📱 通信・アプリ</a>
+        <a href="transport.html" class="active">🚗 国内交通</a>
+        <a href="food.html">🍽️ サウジ料理</a>
+        <a href="events.html">📅 イベント</a>
+        <a href="vision2030.html">🏗️ VISION 2030</a>
+        <a href="history-culture.html">🕌 歴史・文化</a>
+        <a href="city-guide.html">🏙️ 都市ガイド</a>
+        <a href="medical.html">🏥 医療</a>
+        <a href="entertainment.html">🎡 娯楽</a>
+        <a href="business.html">💼 ビジネスマナー</a>
+        <a href="emergency.html">🚨 緊急連絡先</a>
+        <a href="links.html">🔗 リンク集</a>
+        <a href="glossary.html">📖 用語集</a>
+      </div>
+    </div>
+    <div class="search-wrap" style="margin-left:auto;"><button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button></div>
+  </div>
+  <div class="search-bar" id="searchBar">
+    <span class="search-icon-inner">🔍</span>
+    <input type="text" id="searchInput" placeholder="検索… (例: ビザ, Absher, 病院)" autocomplete="off">
+    <button class="search-clear" id="searchClear">✕</button>
+  </div>
+</nav>
+<div class="search-results" id="searchResults">
+  <div class="search-results-inner">
+    <div class="search-results-header">
+      <h2 id="searchResultsTitle">検索結果</h2>
+      <button class="search-results-close" id="searchResultsClose">✕</button>
+    </div>
+    <div id="searchResultsContent"></div>
+  </div>
+</div>
+
+<main class="container">
+  <h2 style="text-align: center; color: var(--accent); margin-top: 30px;">🚗 国内交通</h2>
+  <p style="text-align: center; color: var(--text-secondary); margin-bottom: 30px;">
+    サウジアラビア国内の主要な交通手段をご紹介します。飛行機、鉄道、自動車、タクシー、ライドシェアなど、各手段の特徴と利用方法をわかりやすく説明します。
+  </p>
+
+  <!-- 国内線 -->
+  <h3 class="section-title">✈️ 国内線（ドメスティック航空）</h3>
+  <p>
+    サウジアラビアは広大な国土を持つため、国内線利用は一般的です。リヤド、ジェッダ、ダンマームの3大主要空港を中心に、複数の航空会社が運航しています。
+  </p>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>✈️ Saudia（サウディア）</h3>
+      <p><strong>国営航空会社・フラッグキャリア</strong></p>
+      <ul>
+        <li>運航路線が最も充実</li>
+        <li>国内の主要都市を広くカバー</li>
+        <li>機材：Boeing 787, 737など</li>
+        <li>予約：<a href="https://www.saudia.com" target="_blank" rel="noopener">saudia.com</a></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>🛫 flynas（フライナス）</h3>
+      <p><strong>格安航空会社（LCC）</strong></p>
+      <ul>
+        <li>リーズナブルな料金設定</li>
+        <li>国内主要都市間の便が豊富</li>
+        <li>特にリヤド、ジェッダ、ダンマーム路線が充実</li>
+        <li>予約：<a href="https://www.flynas.com" target="_blank" rel="noopener">flynas.com</a></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>💙 flyadeal（フライディール）</h3>
+      <p><strong>超格安航空会社（新興LCC）</strong></p>
+      <ul>
+        <li>最も安い運賃で知られる</li>
+        <li>キャビンサービスはシンプル</li>
+        <li>国内線の本数が増加中</li>
+        <li>予約：<a href="https://www.flyadeal.com" target="_blank" rel="noopener">flyadeal.com</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="highlight-box">
+    <span class="emoji-bullet">📌</span>
+    <strong>主要空港</strong><br>
+    • キング・アブドゥル・アジーズ国際空港（ジェッダ - JED）<br>
+    • キング・ファハド国際空港（ダンマーム - DMM）<br>
+    • キング・ハーリド国際空港（リヤド - RUH）<br>
+    • プリンス・モハンマド・ビン・アブドゥル・アジーズ空港（メディナ - MED）
+  </div>
+
+  <!-- ハラマイン高速鉄道 -->
+  <h3 class="section-title">🚄 ハラマイン高速鉄道（Haramain High Speed Railway）</h3>
+  <p>
+    2018年に開通した中東最高水準の高速鉄道。メッカとメディナを結ぶイスラムの聖地間の重要な交通手段です。
+  </p>
+
+  <div class="info-grid">
+    <div class="info-item">
+      <strong>路線構成</strong>
+      <p>メディナ → ジェッダ → メッカ<br>
+      経由地：キング・アブドゥラー経済都市（KAEC）</p>
+    </div>
+    <div class="info-item">
+      <strong>運行距離</strong>
+      <p>約450km<br>
+      所要時間：約2.5〜3時間</p>
+    </div>
+    <div class="info-item">
+      <strong>運行速度</strong>
+      <p>最高速度 320km/h<br>
+      最新技術採用</p>
+    </div>
+    <div class="info-item">
+      <strong>運営会社</strong>
+      <p>Haram Express<br>
+      （サウジ鉄道公社傘下）</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>乗車クラスと料金</h3>
+    <table class="comparison-table" style="width: 100%;">
+      <tr>
+        <th>クラス</th>
+        <th>説明</th>
+        <th>目安価格</th>
+      </tr>
+      <tr>
+        <td><strong>Gold</strong></td>
+        <td>1等車。個室、食事付き、アメニティ充実</td>
+        <td><span class="price-tag">600〜800 SAR</span></td>
+      </tr>
+      <tr>
+        <td><strong>Silver</strong></td>
+        <td>2等車。快適な座席、軽食あり</td>
+        <td><span class="price-tag">350〜500 SAR</span></td>
+      </tr>
+      <tr>
+        <td><strong>Standard</strong></td>
+        <td>3等車。基本的な座席</td>
+        <td><span class="price-tag">150〜250 SAR</span></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="highlight-box">
+    <span class="emoji-bullet">🎟️</span>
+    <strong>予約方法</strong><br>
+    • 公式ウェブサイト：<a href="https://www.saptco.com.sa" target="_blank" rel="noopener">saptco.com.sa</a>（旧名称）<br>
+    • 駅での直接購入も可能（混雑期は早めの購入推奨）<br>
+    • 巡礼シーズン（ハッジ）は2-3ヶ月前から予約が埋まる
+  </div>
+
+  <!-- SAR -->
+  <h3 class="section-title">🚂 SAR（サウディ・アラビアン・レイルウェイ）</h3>
+  <p>
+    リヤドとダンマーム間を結ぶ従来型鉄道。貨物輸送がメインですが、限定的な旅客サービスも提供しています。
+  </p>
+
+  <div class="card">
+    <h3>基本情報</h3>
+    <ul>
+      <li><strong>路線：</strong>リヤド ↔ ダンマーム（約470km）</li>
+      <li><strong>所要時間：</strong>約12〜14時間</li>
+      <li><strong>運行頻度：</strong>週に限定運行（事前確認推奨）</li>
+      <li><strong>運行会社：</strong>Saudi Railways Organization</li>
+      <li><strong>特徴：</strong>ハラマイン高速鉄道より古く、所要時間が長い</li>
+    </ul>
+    <p style="margin-top: 15px; padding-top: 15px; border-top: 1px solid var(--border-light); color: var(--text-secondary);">
+      現在はハラマイン高速鉄道が主流となり、SARの利用は減少傾向です。
+    </p>
+  </div>
+
+  <!-- リヤド・メトロ -->
+  <h3 class="section-title">🚆 リヤド・メトロ（Riyadh Metro）</h3>
+  <p>
+    Vision 2030の象徴的プロジェクト。リヤド市内の主要交通手段として、今後さらに重要性が高まります。
+  </p>
+
+  <div class="highlight-box">
+    <span class="emoji-bullet">⏰</span>
+    <strong>完成スケジュール</strong><br>
+    現在段階的に開通中。既に複数の路線が運用開始、さらに拡張予定です。
+  </div>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>路線構成</h3>
+      <ul>
+        <li>6本の主要路線を計画</li>
+        <li>総延長：176km</li>
+        <li>駅数：85駅</li>
+        <li>所要時間：中心部5分で到着</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>乗り方</h3>
+      <ul>
+        <li><strong>乗車券：</strong>非接触型スマートカード</li>
+        <li><strong>料金体系：</strong>距離別料金（2〜6 SAR程度）</li>
+        <li><strong>営業時間：</strong>朝5時30分〜午前0時</li>
+        <li><strong>予約/情報：</strong><a href="https://www.riyadhmetro.sa" target="_blank" rel="noopener">riyadhmetro.sa</a></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>利点</h3>
+      <ul>
+        <li>渋滞知らず、定時性が優れている</li>
+        <li>最新技術による快適な車両</li>
+        <li>安全で清潔な環境</li>
+        <li>女性専用車両あり</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- レンタカー -->
+  <h3 class="section-title">🚗 レンタカー（Car Rental）</h3>
+  <p>
+    サウジアラビアでの移動の自由度を最大限に活用するなら、レンタカーが便利です。大規模なレンタカー企業から小規模な地元企業まで選択肢が豊富です。
+  </p>
+
+  <div class="card">
+    <h3>主要レンタカー会社</h3>
+    <table class="comparison-table" style="width: 100%;">
+      <tr>
+        <th>会社</th>
+        <th>特徴</th>
+        <th>対応言語</th>
+      </tr>
+      <tr>
+        <td><strong>Hertz</strong></td>
+        <td>国際的な大手企業。多数の営業所</td>
+        <td>英語、アラビア語</td>
+      </tr>
+      <tr>
+        <td><strong>Avis</strong></td>
+        <td>信頼性が高く、24時間対応</td>
+        <td>英語、アラビア語</td>
+      </tr>
+      <tr>
+        <td><strong>Budget</strong></td>
+        <td>料金が比較的安い</td>
+        <td>英語</td>
+      </tr>
+      <tr>
+        <td><strong>Europcar</strong></td>
+        <td>ヨーロッパ系、信頼性が高い</td>
+        <td>英語、アラビア語</td>
+      </tr>
+      <tr>
+        <td><strong>THRIFTY</strong></td>
+        <td>地元市場への適応度が高い</td>
+        <td>英語</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>運転免許証の要件</h3>
+      <ul>
+        <li><strong>国際免許：</strong>保持推奨（ジュネーブ条約に基づく）</li>
+        <li><strong>サウジ国内免許：</strong>必須（所得から約3ヶ月で取得可）</li>
+        <li><strong>年齢要件：</strong>最低18歳以上</li>
+        <li><strong>有効期限：</strong>確認して携帯</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>必要な書類</h3>
+      <ul>
+        <li>有効なパスポート</li>
+        <li>ビザ</li>
+        <li>運転免許証（国際または国内）</li>
+        <li>クレジットカード（デポジット）</li>
+        <li>メールアドレス・電話番号</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>料金目安</h3>
+      <ul>
+        <li><strong>軽自動車：</strong>50〜150 SAR/日</li>
+        <li><strong>セダン：</strong>100〜250 SAR/日</li>
+        <li><strong>SUV：</strong>200〜400 SAR/日</li>
+        <li>ガソリン代は比較的安い（約2 SAR/L）</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="highlight-box">
+    <span class="emoji-bullet">⚠️</span>
+    <strong>レンタカー利用時の注意</strong><br>
+    • ラマダン月は営業時間が変わることがある<br>
+    • 砂漠走行時の事前確認が必須<br>
+    • 事故・破損時は必ず警察に通報<br>
+    • 保険加入を強く推奨
+  </div>
+
+  <!-- Uber/Careem -->
+  <h3 class="section-title">📱 ライドシェア：Uber & Careem</h3>
+  <p>
+    サウジアラビアの大都市ではライドシェアサービスが発展しており、スマートフォンでの利用が一般的です。
+  </p>
+
+  <div class="card">
+    <h3>Uber vs Careem 比較表</h3>
+    <table class="comparison-table" style="width: 100%;">
+      <tr>
+        <th>項目</th>
+        <th>Uber</th>
+        <th>Careem</th>
+      </tr>
+      <tr>
+        <td><strong>利用可能地域</strong></td>
+        <td>リヤド、ジェッダ、ダンマームなど主要都市</td>
+        <td>ほぼ全国展開。より広い対応地域</td>
+      </tr>
+      <tr>
+        <td><strong>料金体系</strong></td>
+        <td>距離 + 時間制。やや割高傾向</td>
+        <td>同等か割安。キャンペーン頻繁</td>
+      </tr>
+      <tr>
+        <td><strong>ドライバー数</strong></td>
+        <td>多い（大都市では待機時間短い）</td>
+        <td>非常に多い</td>
+      </tr>
+      <tr>
+        <td><strong>サービス品質</strong></td>
+        <td>高く統一。評価システム厳格</td>
+        <td>良好。ローカル対応が強い</td>
+      </tr>
+      <tr>
+        <td><strong>支払い方法</strong></td>
+        <td>クレジットカード、Apple Pay等</td>
+        <td>クレジットカード、現金払い可</td>
+      </tr>
+      <tr>
+        <td><strong>言語対応</strong></td>
+        <td>英語。インターフェース日本語対応</td>
+        <td>英語・アラビア語。インターフェース日本語対応</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="info-grid">
+    <div class="info-item">
+      <strong>使い方（基本手順）</strong>
+      <p>1. アプリをダウンロード<br>
+      2. アカウント登録<br>
+      3. ピックアップ地点を設定<br>
+      4. 車種選択<br>
+      5. 確認・乗車<br>
+      6. 支払い（自動）</p>
+    </div>
+    <div class="info-item">
+      <strong>料金の目安</strong>
+      <p>リヤド市内短距離：5〜20 SAR<br>
+      中距離：20〜50 SAR<br>
+      ピークタイム（朝夕）：20〜30%割増</p>
+    </div>
+    <div class="info-item">
+      <strong>女性利用時の注意</strong>
+      <p>女性運転手を指定できる「Women Only」オプションあり<br>
+      安全性は高い<br>
+      ドレスコード（アバヤ）強制なし</p>
+    </div>
+    <div class="info-item">
+      <strong>支払い方法</strong>
+      <p>クレジットカード登録推奨<br>
+      Careem：現金払いも可能<br>
+      Uber：事前チャージ方式</p>
+    </div>
+  </div>
+
+  <!-- タクシー -->
+  <h3 class="section-title">🚕 タクシー</h3>
+  <p>
+    従来型のタクシーはまだ存在しますが、ライドシェアに押されて減少傾向にあります。機関や駅での利用が一般的です。
+  </p>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>白タクシー（Traditional Taxi）</h3>
+      <ul>
+        <li><strong>色：</strong>白が標準</li>
+        <li><strong>乗車：</strong>ホテル、駅、空港で乗車</li>
+        <li><strong>メーター：</strong>走行距離で課金</li>
+        <li><strong>料金：</strong>交渉ベース（事前に確認推奨）</li>
+        <li><strong>特徴：</strong>ドライバーは現地語のみが多い</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>空港タクシー</h3>
+      <ul>
+        <li><strong>乗り方：</strong>空港出口の専用乗り場</li>
+        <li><strong>料金体系：</strong>市内中心部まで200〜350 SAR</li>
+        <li><strong>特徴：</strong>メーター無し（事前確認）</li>
+        <li><strong>推奨：</strong>Uberの方が透明性が高い</li>
+        <li><strong>営業24時間</strong></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 公共交通 -->
+  <h3 class="section-title">🚌 公共交通</h3>
+  <p>
+    バス網は都市によって発達度が異なります。リヤドではバスネットワークが拡充されていますが、ジェッダではやや限定的です。
+  </p>
+
+  <div class="card">
+    <h3>SAPTCO（サウジアラビア公営バス会社）</h3>
+    <ul>
+      <li><strong>サービス：</strong>都市間長距離バス、市内バス</li>
+      <li><strong>対応地域：</strong>全国ネットワーク</li>
+      <li><strong>料金：</strong>距離別。リヤド-ジェッダ約100〜150 SAR</li>
+      <li><strong>所要時間：</strong>遠距離は8〜12時間</li>
+      <li><strong>特徴：</strong>エアコン完備、WC付き</li>
+      <li><strong>Web：</strong><a href="https://www.saptco.com.sa" target="_blank" rel="noopener">saptco.com.sa</a></li>
+    </ul>
+  </div>
+
+  <div class="highlight-box">
+    <span class="emoji-bullet">🏙️</span>
+    <strong>リヤド市内バス（BRT）</strong><br>
+    RTIDC（Riyadh Rapid Transit）が運営する高速バスシステム<br>
+    • 主要地点を結ぶ専用レーン<br>
+    • スマートカード払い<br>
+    • リヤド・メトロ開通に伴い統合予定
+  </div>
+
+  <!-- 運転文化と安全 -->
+  <h3 class="section-title">🛣️ 運転文化と安全に関するアドバイス</h3>
+  <p>
+    サウジアラビアでの運転は独特な特性があります。安全で快適な運転のために、以下のポイントに注意してください。
+  </p>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>速度制限</h3>
+      <ul>
+        <li><strong>市街地：</strong>40〜60 km/h</li>
+        <li><strong>一般道：</strong>80 km/h</li>
+        <li><strong>高速道路：</strong>120 km/h（制限あり）</li>
+        <li><strong>罰金：</strong>厳しい。スピード超過10 km/hごとに課金</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>信号・標識</h3>
+      <ul>
+        <li><strong>信号：</strong>国際基準に準拠</li>
+        <li><strong>右左折：</strong>信号無視が多い。慎重に</li>
+        <li><strong>優先道路：</strong>矢印標識を確認</li>
+        <li><strong>ラウンドアバウト：</strong>左回転。複数ある</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>スピードカメラ・Saher</h3>
+      <ul>
+        <li><strong>Saher：</strong>自動速度違反取締システム</li>
+        <li><strong>カメラ設置：</strong>市街地・高速道路</li>
+        <li><strong>違反通知：</strong>SMS・メールで到達</li>
+        <li><strong>罰金：</strong>最大3,000 SAR</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>その他のルール</h3>
+      <ul>
+        <li><strong>シートベルト：</strong>着用義務（全座席）</li>
+        <li><strong>駐車違反：</strong>厳しく取締り</li>
+        <li><strong>夜間運転：</strong>ヘッドライト点灯義務</li>
+        <li><strong>スマホ使用：</strong>運転中は禁止</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="highlight-box">
+    <span class="emoji-bullet">⚠️</span>
+    <strong>運転時の注意点</strong><br>
+    • サウジドライバーの運転は時に危険（スピード出しすぎ、無理な割り込み）<br>
+    • 防衛的運転を心がける<br>
+    • 夜間走行時は特に注意（街灯が少ない地域も多い）<br>
+    • 砂漠での運転は経験者を同乗させる<br>
+    • 事故時は警察通報（Absherアプリで報告も可）<br>
+    • 行き先をホテルか信頼できる人に伝える
+  </div>
+
+  <!-- まとめ -->
+  <h3 class="section-title">📋 交通手段の選び方（シーン別ガイド）</h3>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>都市間の移動</h3>
+      <p><strong>推奨：</strong>ハラマイン高速鉄道 or 飛行機</p>
+      <ul>
+        <li>メッカ-メディナ間：ハラマイン一択</li>
+        <li>遠距離：飛行機が時間効率良い</li>
+        <li>予算重視：flynas/flyadeal</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>市内観光・短距離</h3>
+      <p><strong>推奨：</strong>Uber/Careem</p>
+      <ul>
+        <li>最も便利で安全</li>
+        <li>アプリが日本語対応</li>
+        <li>領収書が自動発行される</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>長期滞在者</h3>
+      <p><strong>推奨：</strong>レンタカー</p>
+      <ul>
+        <li>自由度が最大</li>
+        <li>国内免許を取得</li>
+        <li>砂漠ツアーも可能</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>ビジネス・確実性重視</h3>
+      <p><strong>推奨：</strong>プライベート運転手</p>
+      <ul>
+        <li>ホテル経由で手配</li>
+        <li>言語サポート</li>
+        <li>文化的なアドバイス</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="highlight-box">
+    <span class="emoji-bullet">💡</span>
+    <strong>最後に</strong><br>
+    サウジアラビアは2030年に向けてインフラが急速に充実しています。ハラマイン高速鉄道、リヤド・メトロ、空港のリノベーションなど、交通網は大きく改善されました。ただし、運転文化は独特です。安全と時間に余裕を持って、サウジの旅を楽しんでください。
+  </div>
+
+</main>
+
+<footer style="padding: 20px 0 16px;">
+  <div class="container" style="line-height:1.5;">
+    <p>サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
+    <p style="margin-top:3px;">重要事項は必ず公式情報をご確認ください。</p>
+    <p style="margin-top:6px;"><a href="about.html" style="color:var(--accent);text-decoration:none;">運営者情報</a>&emsp;<a href="disclaimer.html" style="color:var(--accent);text-decoration:none;">免責事項</a>&emsp;<a href="mailto:portal@rewah.life" style="color:var(--accent);text-decoration:none;">お問い合わせ</a></p>
+    <p style="margin-top:4px;opacity:0.5;">&copy; 2026 Saudi Navi / ReWAH</p>
+  </div>
+</footer>
+
+<script src="assets/search-index.js"></script>
+<script>
+const hamburger=document.getElementById('hamburger'),navLinks=document.getElementById('navLinks');hamburger.addEventListener('click',()=>{hamburger.classList.toggle('active');navLinks.classList.toggle('open')});navLinks.querySelectorAll('a').forEach(l=>{l.addEventListener('click',()=>{hamburger.classList.remove('active');navLinks.classList.remove('open')})});var navMore=document.getElementById('navMore'),navMoreBtn=document.getElementById('navMoreBtn');if(navMore&&navMoreBtn){navMoreBtn.addEventListener('click',function(e){e.stopPropagation();navMore.classList.toggle('open')});document.addEventListener('click',function(e){if(!navMore.contains(e.target))navMore.classList.remove('open')})}
+const searchToggle=document.getElementById('searchToggle'),searchToggleDesktop=document.getElementById('searchToggleDesktop'),searchBar=document.getElementById('searchBar'),searchInput=document.getElementById('searchInput'),searchClear=document.getElementById('searchClear'),searchResults=document.getElementById('searchResults'),searchResultsContent=document.getElementById('searchResultsContent'),searchResultsTitle=document.getElementById('searchResultsTitle'),searchResultsClose=document.getElementById('searchResultsClose');function openSearch(){searchBar.classList.add('open');searchInput.focus();hamburger.classList.remove('active');navLinks.classList.remove('open')}function closeSearch(){searchInput.value='';searchBar.classList.remove('open');searchResults.classList.remove('visible')}searchToggle.addEventListener('click',openSearch);if(searchToggleDesktop)searchToggleDesktop.addEventListener('click',openSearch);searchClear.addEventListener('click',closeSearch);searchResultsClose.addEventListener('click',()=>{searchResults.classList.remove('visible')});document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeSearch();searchResults.classList.remove('visible')}if((e.metaKey||e.ctrlKey)&&e.key==='k'){e.preventDefault();openSearch()}});let searchTimeout;searchInput.addEventListener('input',()=>{clearTimeout(searchTimeout);searchTimeout=setTimeout(()=>{const q=searchInput.value.trim().toLowerCase();if(q.length<1){searchResults.classList.remove('visible');return}const matches=SITE_SEARCH_INDEX.filter(d=>d.title.toLowerCase().includes(q)||d.desc.toLowerCase().includes(q)||d.pageTitle.toLowerCase().includes(q));searchResultsTitle.textContent=matches.length?'検索結果 ('+matches.length+'件)':'該当なし';searchResultsContent.innerHTML=matches.map(m=>'<a href="'+m.page+'" style="display:block;padding:10px 0;border-bottom:1px solid var(--border-light);text-decoration:none;color:inherit;"><span style="font-size:0.75em;color:var(--accent);display:block;margin-bottom:2px;">'+m.pageTitle+'</span><strong>'+m.title+'</strong><p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">'+m.desc+'</p></a>').join('');searchResults.classList.add('visible')},200)});
+</script>
+</body>
+</html>

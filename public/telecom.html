@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>通信・必須アプリ | サウジナビ</title>
+<link rel="stylesheet" href="assets/shared.css">
+</head>
+<body>
+
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="container">
+    <div class="header-badges">
+      <a href="https://www.vision2030.gov.sa/" target="_blank" rel="noopener" class="header-badge vision">🌿 VISION 2030</a>
+      <a href="https://riyadhexpo2030.sa/" target="_blank" rel="noopener" class="header-badge expo">🌍 EXPO 2030 RIYADH</a>
+      <a href="https://www.visitsaudi.com/" target="_blank" rel="noopener" class="header-badge tourism">✨ Visit Saudi</a>
+    </div>
+    <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
+    <p class="subtitle">サウジアラビア日本語情報ポータルサイト</p>
+    <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 サウジナビ</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap">
+        <button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">🏠 ホーム</a>
+    <a href="news.html">📰 治安・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="telecom.html" class="active">📱 通信・アプリ</a>
+    <a href="transport.html">🚗 国内交通</a>
+    <a href="food.html">🍽️ サウジ料理</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="city-guide.html">🏙️ 都市ガイド</a>
+    <a href="medical.html">🏥 医療</a>
+    <a href="entertainment.html">🎡 娯楽</a>
+    <a href="business.html">💼 ビジネスマナー</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+  </div>
+
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">🏠 ホーム</a>
+    <a href="news.html">📰 治安・ニュース</a>
+    <a href="life.html">🏠 生活</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <div class="nav-more" id="navMore">
+      <button class="nav-more-btn" id="navMoreBtn">その他 ▼</button>
+      <div class="nav-more-dropdown" id="navMoreDropdown">
+        <a href="telecom.html" class="active">📱 通信・アプリ</a>
+        <a href="transport.html">🚗 国内交通</a>
+        <a href="food.html">🍽️ サウジ料理</a>
+        <a href="events.html">📅 イベント</a>
+        <a href="vision2030.html">🏗️ VISION 2030</a>
+        <a href="history-culture.html">🕌 歴史・文化</a>
+        <a href="city-guide.html">🏙️ 都市ガイド</a>
+        <a href="medical.html">🏥 医療</a>
+        <a href="entertainment.html">🎡 娯楽</a>
+        <a href="business.html">💼 ビジネスマナー</a>
+        <a href="emergency.html">🚨 緊急連絡先</a>
+        <a href="links.html">🔗 リンク集</a>
+        <a href="glossary.html">📖 用語集</a>
+      </div>
+    </div>
+    <div class="search-wrap" style="margin-left:auto;">
+      <button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button>
+    </div>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <span class="search-icon-inner">🔍</span>
+    <input type="text" id="searchInput" placeholder="検索… (例: ビザ, Absher, 病院)" autocomplete="off">
+    <button class="search-clear" id="searchClear">✕</button>
+  </div>
+</nav>
+
+<!-- Search Results Overlay -->
+<div class="search-results" id="searchResults">
+  <div class="search-results-inner">
+    <div class="search-results-header">
+      <h2 id="searchResultsTitle">検索結果</h2>
+      <button class="search-results-close" id="searchResultsClose">✕</button>
+    </div>
+    <div id="searchResultsContent"></div>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<main class="container">
+  <div style="margin-top: 20px; margin-bottom: 30px;">
+    <h2 style="margin-bottom: 8px;">📱 通信・必須アプリ</h2>
+    <p style="color: var(--text-secondary); font-size: var(--font-size-sm);">
+      サウジアラビアで生活するために必須の通信サービスと政府・生活アプリの完全ガイド
+    </p>
+  </div>
+
+  <!-- SIM CARDS & TELECOM SECTION -->
+  <section style="margin-bottom: 40px;">
+    <h3 style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+      <span style="font-size: 1.4em;">📞</span>
+      SIMカード・携帯通信
+    </h3>
+
+    <div class="card">
+      <h4 style="color: var(--accent); margin-bottom: 12px;">サウジアラビアの携帯キャリア</h4>
+      <p>サウジアラビアには3大携帯キャリアがあります。全国的にカバー範囲が広く、どこを選んでもほぼ問題ありません。決め手は料金プランと自分のニーズです。</p>
+    </div>
+
+    <!-- STC Card -->
+    <div class="card">
+      <h4>🟡 STC (Saudi Telecom Company)</h4>
+      <p style="margin-bottom: 12px;"><strong>最大手キャリア・最も広いカバレッジ</strong></p>
+
+      <div style="background: var(--bg-tertiary); padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+        <p style="margin-bottom: 8px;"><strong>購入方法：</strong></p>
+        <ul style="margin: 0; padding-left: 20px;">
+          <li>STCストア（ショッピングモール内など）</li>
+          <li>Jarir Bookstore などの電器量販店</li>
+          <li>空港のカウンター</li>
+          <li>セブンイレブンなどのコンビニ</li>
+        </ul>
+      </div>
+
+      <p style="margin-bottom: 12px;"><strong>一般的な料金体系（2026年現在）：</strong></p>
+      <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+        <li><strong>プリペイド（Hittelaa）：</strong> 基本料金なし。データと通話を従量制で購入。月額15～50SAR程度で学生・留学生に人気</li>
+        <li><strong>ポストペイド（月額契約）：</strong> 月49～149SAR。無制限データ、国内通話、SMSを含む。給与引き落とし方式</li>
+        <li><strong>データパック：</strong> 500MB～100GB。7～30日単位で購入可能</li>
+      </ul>
+
+      <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+        <strong>特徴：</strong> 最も古く、信頼性が高い。カバレッジ最高。STC My Mobile アプリで残高確認・プラン変更が簡単。
+      </p>
+    </div>
+
+    <!-- Mobily Card -->
+    <div class="card">
+      <h4>🔵 Mobily</h4>
+      <p style="margin-bottom: 12px;"><strong>若年層向け・競争的な料金</strong></p>
+
+      <div style="background: var(--bg-tertiary); padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+        <p style="margin-bottom: 8px;"><strong>購入方法：</strong></p>
+        <ul style="margin: 0; padding-left: 20px;">
+          <li>Mobilyショップ（都市部）</li>
+          <li>Carrefour, Spinneys などのスーパー</li>
+          <li>オンライン（公式サイト）で配送</li>
+          <li>モール内の携帯ショップ</li>
+        </ul>
+      </div>
+
+      <p style="margin-bottom: 12px;"><strong>一般的な料金体系：</strong></p>
+      <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+        <li><strong>プリペイド（I&I）：</strong> 料金体系はSTCと同様。若年層向けの割引が豊富</li>
+        <li><strong>ポストペイド：</strong> 月39～139SAR。学割プランあり</li>
+        <li><strong>家族プラン：</strong> 複数回線契約時に割引</li>
+      </ul>
+
+      <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+        <strong>特徴：</strong> 第2位キャリア。カバレッジは良好。学生や若年層向けの割引が充実。Mobily アプリが使いやすい。
+      </p>
+    </div>
+
+    <!-- Zain Card -->
+    <div class="card">
+      <h4>🟢 Zain</h4>
+      <p style="margin-bottom: 12px;"><strong>国際ローミング・ビジネス向け</strong></p>
+
+      <div style="background: var(--bg-tertiary); padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+        <p style="margin-bottom: 8px;"><strong>購入方法：</strong></p>
+        <ul style="margin: 0; padding-left: 20px;">
+          <li>Zainショップ</li>
+          <li>スーパー・モール内の携帯コーナー</li>
+          <li>オンライン注文</li>
+        </ul>
+      </div>
+
+      <p style="margin-bottom: 12px;"><strong>一般的な料金体系：</strong></p>
+      <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+        <li><strong>プリペイド：</strong> STCと同水準。従量制もあり</li>
+        <li><strong>ポストペイド：</strong> 月49～169SAR。国際ローミング重視</li>
+        <li><strong>国際ローミング：</strong> 日本など多くの国で利用可能。割引率が良い傾向</li>
+      </ul>
+
+      <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+        <strong>特徴：</strong> 第3位。中東全域で使える国際ローミングが強み。出張が多い人向け。
+      </p>
+    </div>
+
+    <!-- SIM Card Purchase Guide -->
+    <div class="card">
+      <h4 style="color: var(--accent); margin-bottom: 12px;">🛒 SIMカード購入の手順</h4>
+
+      <ol style="margin: 0; padding-left: 20px;">
+        <li style="margin-bottom: 10px;">
+          <strong>ショップまたは販売店に行く</strong> - パスポート（またはビザ）を持参
+        </li>
+        <li style="margin-bottom: 10px;">
+          <strong>希望のプランを店員に告げる</strong> - プリペイドかポストペイドか、データ量など
+        </li>
+        <li style="margin-bottom: 10px;">
+          <strong>身分確認を受ける</strong> - サウジ政府への登録（SRTP: Saudi Registered Telecom Provider）が必須。パスポートと署名で確認
+        </li>
+        <li style="margin-bottom: 10px;">
+          <strong>SIMカードを受け取る</strong> - その場でアクティベーション。電話番号が発行される
+        </li>
+        <li style="margin-bottom: 10px;">
+          <strong>初期チャージをする</strong> - プリペイドなら現金またはクレジットカードで最初のリロードを実施
+        </li>
+      </ol>
+
+      <div style="background: #fff3cd; padding: 12px; border-radius: 8px; margin-top: 15px; border-left: 4px solid #ffc107;">
+        <p style="margin: 0; font-size: var(--font-size-sm);">
+          <strong>⚠️ 重要：</strong> 短期滞在でも登録が必須。ビザの種類によって有効期間に制限がある場合があります。観光ビザ（90日）でも登録可能。
+        </p>
+      </div>
+    </div>
+
+    <!-- Data & Plans Comparison -->
+    <div class="card">
+      <h4 style="color: var(--accent); margin-bottom: 12px;">📊 データ・プランの選び方</h4>
+
+      <p style="margin-bottom: 15px;">サウジアラビアの通信速度は良好です。4G LTEが広く普及しており、3大キャリアすべてで高速通信が可能。</p>
+
+      <div style="margin-bottom: 15px;">
+        <p style="font-weight: 600; margin-bottom: 8px;">軽いユーザー向け（月15～25SAR）：</p>
+        <ul style="margin: 0; padding-left: 20px; color: var(--text-secondary);">
+          <li>データ500MB～1GB</li>
+          <li>通話・SMS無制限 or 月50分</li>
+          <li>学生・スマート利用者向け</li>
+        </ul>
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <p style="font-weight: 600; margin-bottom: 8px;">標準ユーザー向け（月35～55SAR）：</p>
+        <ul style="margin: 0; padding-left: 20px; color: var(--text-secondary);">
+          <li>データ5～10GB</li>
+          <li>通話・SMS無制限</li>
+          <li>SNS・動画視聴にちょうど良い</li>
+        </ul>
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <p style="font-weight: 600; margin-bottom: 8px;">ヘビーユーザー向け（月75～150SAR）：</p>
+        <ul style="margin: 0; padding-left: 20px; color: var(--text-secondary);">
+          <li>データ無制限 or 50～100GB</li>
+          <li>通話・SMS・ホットスポット無制限</li>
+          <li>テレワーク・頻繁な動画配信向け</li>
+        </ul>
+      </div>
+
+      <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+        <strong>💡 Tip:</strong> 最初はプリペイドで少額チャージして試し、自分の使用量を把握してからポストペイドに乗り換えるのが賢明です。
+      </p>
+    </div>
+  </section>
+
+  <!-- GOVERNMENT & ESSENTIAL APPS SECTION -->
+  <section style="margin-bottom: 40px;">
+    <h3 style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+      <span style="font-size: 1.4em;">🏛️</span>
+      政府・必須アプリ
+    </h3>
+
+    <p style="color: var(--text-secondary); margin-bottom: 20px;">
+      サウジアラビアで生活するうえで、政府アプリのインストールはほぼ必須です。多くの行政手続き・健康証明・ID確認がアプリを通じて行われます。
+    </p>
+
+    <!-- Absher Card -->
+    <div class="card">
+      <h4>📋 Absher（アブシェール）</h4>
+      <p style="margin-bottom: 12px;"><strong>政府サービスの中核アプリ。最優先でインストール必須。</strong></p>
+
+      <div style="background: var(--bg-tertiary); padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+        <p style="margin-bottom: 8px;"><strong>Absher とは：</strong></p>
+        <p style="margin: 0; color: var(--text-secondary); font-size: var(--font-size-sm);">
+          サウジ政府の統合ポータルサイト・アプリ。内務省が運営しており、個人向けサービス（Absher for Citizens）と企業向けサービス（Absher for Business）がある。日本語未対応。
+        </p>
+      </div>
+
+      <p style="margin-bottom: 12px;"><strong>Absher でできる主な手続き：</strong></p>
+      <ul style="margin: 0 0 15px 0; padding-left: 20px;">
+        <li><strong>ビザ関連：</strong> ビザ申請、ビザ延長、出国許可（Exit Permit）、再入国許可</li>
+        <li><strong>身分証明：</strong> IDカード（Iqama）の申請・更新・確認</li>
+        <li><strong>労働：</strong> 労働契約の登録・確認、事業主との紛争解決</li>
+        <li><strong>交通：</strong> 運転免許証の申請・更新、車両登録</li>
+        <li><strong>住宅：</strong> 賃貸契約の登録・確認</li>
+        <li><strong>その他：</strong> 出生証明、結婚証明、警察証明（Police Clearance）申請</li>
+      </ul>
+
+      <div style="background: #fff3cd; padding: 12px; border-radius: 8px; border-left: 4px solid #ffc107;">
+        <p style="margin-bottom: 8px;"><strong>⚠️ 重要な注意点：</strong></p>
+        <ul style="margin: 0; padding-left: 20px; font-size: var(--font-size-sm);">
+          <li>出国許可（Exit Permit）がないと飛行機に乗れません。出国前に必ず確認を</li>
+          <li>英語インターフェースがありますが、アラビア語が基本。英語対応が完全ではない部分もあります</li>
+          <li>手続きによって承認に数日～数週間かかります。直前の申請は避けて</li>
+        </ul>
+      </div>
+
+      <p style="margin-top: 15px;"><strong>🔗 ダウンロード：</strong> App Store / Google Play で「Absher」検索</p>
+    </div>
+
+    <!-- Tawakkalna Card -->
+    <div class="card">
+      <h4>💚 Tawakkalna（タワッカルナ）</h4>
+      <p style="margin-bottom: 12px;"><strong>健康・COVID-19対応アプリ。日常的に使用。</strong></p>
+
+      <div style="background: var(--bg-tertiary); padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+        <p style="margin-bottom: 8px;"><strong>Tawakkalna とは：</strong></p>
+        <p style="margin: 0; color: var(--text-secondary); font-size: var(--font-size-sm);">
+          保健省が開発した健康・ワクチン接種管理アプリ。当初はCOVID-19対応でしたが、現在は予防接種記録、健康証明、自宅隔離監視などに使用されています。
+        </p>
+      </div>
+
+      <p style="margin-bottom: 12px;"><strong>Tawakkalna の主な機能：</strong></p>
+      <ul style="margin: 0 0 15px 0; padding-left: 20px;">
+        <li><strong>ワクチン接種証明：</strong> COVID-19、インフルエンザなどの予防接種記録をデジタル管理。QRコード表示対応</li>
+        <li><strong>健康状態管理：</strong> 自分の健康ステータス表示（Green / Yellow / Red ステータス）</li>
+        <li><strong>検査結果：</strong> PCR検査結果が記録される。病院から自動登録</li>
+        <li><strong>証明書発行：</strong> 健康証明書をPDF形式で発行可能</li>
+        <li><strong>通知：</strong> 重要な健康情報や厚生労働省からのお知らせ</li>
+      </ul>
+
+      <div style="background: #d4edda; padding: 12px; border-radius: 8px; border-left: 4px solid #28a745;">
+        <p style="margin: 0; font-size: var(--font-size-sm);">
+          <strong>✓ 役立つ情報：</strong> 多くの民間企業が従業員の健康状態を Tawakkalna で確認しています。職場への出勤時にステータスチェックされることも。常に最新に保つことが重要です。
+        </p>
+      </div>
+
+      <p style="margin-top: 15px;"><strong>🔗 ダウンロード：</strong> App Store / Google Play で「Tawakkalna」検索</p>
+    </div>
+
+    <!-- Nafath Card -->
+    <div class="card">
+      <h4>🔐 Nafath（ナファス）</h4>
+      <p style="margin-bottom: 12px;"><strong>国家デジタル認証。オンライン取引の承認に使用。</strong></p>
+
+      <div style="background: var(--bg-tertiary); padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+        <p style="margin-bottom: 8px;"><strong>Nafath とは：</strong></p>
+        <p style="margin: 0; color: var(--text-secondary); font-size: var(--font-size-sm);">
+          国家情報セキュリティ庁（NCA）が提供するデジタル署名・認証プラットフォーム。政府や銀行などのオンラインサービスで身元確認・取引承認に使用されます。
+        </p>
+      </div>
+
+      <p style="margin-bottom: 12px;"><strong>Nafath の使用場面：</strong></p>
+      <ul style="margin: 0 0 15px 0; padding-left: 20px;">
+        <li><strong>銀行取引：</strong> 大額送金・口座開設時の認証</li>
+        <li><strong>政府手続き：</strong> Absher での許可申請の最終承認</li>
+        <li><strong>電子署名：</strong> 契約書・重要文書への法的署名</li>
+        <li><strong>オンライン申請：</strong> 公式なオンライン手続きの本人確認</li>
+      </ul>
+
+      <div style="background: #fff3cd; padding: 12px; border-radius: 8px; border-left: 4px solid #ffc107;">
+        <p style="margin: 0; font-size: var(--font-size-sm);">
+          <strong>注意：</strong> Nafath を使用する際、認証用のSMSが届きます。確認コードを入力して取引を承認する二段階認証方式です。
+        </p>
+      </div>
+
+      <p style="margin-top: 15px;"><strong>🔗 ダウンロード：</strong> App Store / Google Play で「Nafath」検索</p>
+    </div>
+  </section>
+
+  <!-- LIFESTYLE APPS SECTION -->
+  <section style="margin-bottom: 40px;">
+    <h3 style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+      <span style="font-size: 1.4em;">🚕</span>
+      生活・移動アプリ
+    </h3>
+
+    <p style="color: var(--text-secondary); margin-bottom: 20px;">
+      サウジアラビアでの日常生活を便利にするアプリ。タクシー・食事・配送・ショッピングなど、ほぼすべてアプリを経由します。
+    </p>
+
+    <!-- Uber Card -->
+    <div class="card">
+      <h4>🔴 Uber</h4>
+      <p style="margin-bottom: 12px;"><strong>タクシー配車。リヤドで最も一般的。</strong></p>
+
+      <p style="margin-bottom: 12px;"><strong>特徴：</strong></p>
+      <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+        <li>アプリから車をリアルタイム配車。GPS で運転手位置を確認可能</li>
+        <li>料金は事前に見積もり表示。透明性が高い</li>
+        <li>支払いはアプリ内クレジットカード・Apple Pay / Google Pay に対応</li>
+        <li>運転手と乗客の相互評価システム。トラブル時のサポートが充実</li>
+      </ul>
+
+      <p style="margin-bottom: 12px;"><strong>料金目安（リヤド）：</strong></p>
+      <ul style="margin: 0 0 12px 0; padding-left: 20px; font-size: var(--font-size-sm);">
+        <li>市内移動: 15～35SAR（距離による）</li>
+        <li>基本料金: 3SAR + 距離料金 + 時間料金</li>
+        <li>ピーク時は1.5～2倍のサージプライスが発生</li>
+      </ul>
+
+      <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+        <strong>💡 Tip：</strong> Uber のプロモーションコードを使うと初回割引あり。同僚や友人の紹介コードを使うと両者にクレジットが付与されます。
+      </p>
+    </div>
+
+    <!-- Careem Card -->
+    <div class="card">
+      <h4>🟠 Careem</h4>
+      <p style="margin-bottom: 12px;"><strong>地元発のライドシェア・配達サービス。アラブ諸国で有力。</strong></p>
+
+      <p style="margin-bottom: 12px;"><strong>特徴：</strong></p>
+      <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+        <li>Uber に非常に似たサービス。地元企業として高い信頼度</li>
+        <li>Careem Now（デリバリーサービス）も提供。飲食店やスーパーから配送</li>
+        <li>支払い方法が豊富。クレジットカード、デビットカード、Mobile Wallet 対応</li>
+        <li>サウジアラビア特有の支払い方法（Mada, Visa Electron）に対応</li>
+      </ul>
+
+      <p style="margin-bottom: 12px;"><strong>Careem Now（デリバリー）の特徴：</strong></p>
+      <ul style="margin: 0 0 12px 0; padding-left: 20px; color: var(--text-secondary);">
+        <li>飲食店・スーパー・薬局からの配達</li>
+        <li>配送料金は距離と店舗数による</li>
+        <li>最小注文額なし。単品の配達も可能</li>
+      </ul>
+
+      <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+        <strong>💡 Tip：</strong> Uber との価格比較をしてから利用すると良いでしょう。時間帯によって料金が変動します。
+      </p>
+    </div>
+
+    <!-- HungerStation Card -->
+    <div class="card">
+      <h4>🍔 HungerStation</h4>
+      <p style="margin-bottom: 12px;"><strong>サウジ発の食事デリバリーアプリ。飲食店の品揃えが豊富。</strong></p>
+
+      <p style="margin-bottom: 12px;"><strong>特徴：</strong></p>
+      <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+        <li>サウジアラビアで最も利用者が多い食事デリバリー</li>
+        <li>ファストフード・カフェ・レストランなど3,000以上の店舗に対応</li>
+        <li>日本食・韓国料理・インド料理・サウジ料理など選択肢豊富</li>
+        <li>支払いはアプリ内ウォレット、クレジットカード、現金払い対応</li>
+      </ul>
+
+      <p style="margin-bottom: 12px;"><strong>配送料金：</strong></p>
+      <ul style="margin: 0 0 12px 0; padding-left: 20px; font-size: var(--font-size-sm);">
+        <li>基本配送料: 5～15SAR（距離による）</li>
+        <li>最小注文額: 15～25SAR（店舗による）</li>
+        <li>配送時間: 30～45分程度（ピーク時は長めになる傾向）</li>
+      </ul>
+
+      <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+        <strong>💡 Tip：</strong> HungerStation Plus という月額サブスクプラン（29SAR/月）があり、配送料金が無料・割引になります。頻繁に利用する人向け。
+      </p>
+    </div>
+
+    <!-- Jahez Card -->
+    <div class="card">
+      <h4>📦 Jahez</h4>
+      <p style="margin-bottom: 12px;"><strong>食事配達アプリ。HungerStation に次いで人気。</strong></p>
+
+      <p style="margin-bottom: 12px;"><strong>特徴：</strong></p>
+      <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+        <li>HungerStation とよく似たサービス。店舗数は若干少ないが、品質は高い評価</li>
+        <li>クーポンとプロモーションが頻繁</li>
+        <li>ロイヤリティプログラムで、注文ごとにポイント獲得</li>
+        <li>支払い: クレジットカード、アプリウォレット、現金</li>
+      </ul>
+
+      <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+        <strong>💡 Tip：</strong> HungerStation と Jahez の両方をインストールして、その日のキャンペーンや配送時間を比較するユーザーが多いです。
+      </p>
+    </div>
+
+    <!-- Nana Card -->
+    <div class="card">
+      <h4>🛍️ Nana</h4>
+      <p style="margin-bottom: 12px;"><strong>オンラインショッピングアプリ。衣類・アクセサリーが豊富。</strong></p>
+
+      <p style="margin-bottom: 12px;"><strong>特徴：</strong></p>
+      <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+        <li>サウジアラビアの地元ブランド・デザイナーショップを集約</li>
+        <li>Zara, H&M などの国際ブランドも販売</li>
+        <li>ローカルファッション・アバヤ・ヒジャブが特に充実</li>
+        <li>配送は自社配送網。通常3～7日で到着</li>
+        <li>返品手数料は無料。30日以内の返品に対応</li>
+      </ul>
+
+      <p style="margin-bottom: 12px;"><strong>配送料金：</strong></p>
+      <ul style="margin: 0 0 12px 0; padding-left: 20px; font-size: var(--font-size-sm);">
+        <li>配送料: 0～15SAR（購入金額による）</li>
+        <li>100SAR 以上購入で配送料無料</li>
+      </ul>
+
+      <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+        <strong>💡 Tip：</strong> Nana は月ごとにフラッシュセール開催。特定の時間に50%～70%割引セールが発生。アプリで事前通知を受け取れます。
+      </p>
+    </div>
+
+    <!-- SMSA Express Card -->
+    <div class="card">
+      <h4>📮 SMSA Express</h4>
+      <p style="margin-bottom: 12px;"><strong>配送・物流サービス。国内・国際配送対応。</strong></p>
+
+      <p style="margin-bottom: 12px;"><strong>特徴：</strong></p>
+      <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+        <li>サウジアラビア最大手の配送会社。信頼度が高い</li>
+        <li>国内配送: 1～3日で到着</li>
+        <li>国際配送: 日本を含む世界中に発送可能</li>
+        <li>追跡機能が完備。配送状況をリアルタイム確認可能</li>
+        <li>支払いはアプリ、ウェブサイト、または配送時に現金払い</li>
+      </ul>
+
+      <p style="margin-bottom: 12px;"><strong>利用シーン：</strong></p>
+      <ul style="margin: 0 0 12px 0; padding-left: 20px; color: var(--text-secondary);">
+        <li>オンラインショップの荷物受け取り</li>
+        <li>日本への荷物発送（引越し、土産など）</li>
+        <li>企業からの配送</li>
+      </ul>
+
+      <p style="font-size: var(--font-size-sm); color: var(--text-secondary);">
+        <strong>💡 Tip：</strong> 国際配送料金は重量によって決まります。日本への小型荷物（1kg）なら50～80SAR 程度。
+      </p>
+    </div>
+  </section>
+
+  <!-- INTERNET & CONNECTIVITY SECTION -->
+  <section style="margin-bottom: 40px;">
+    <h3 style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+      <span style="font-size: 1.4em;">📡</span>
+      インターネット・Wi-Fi
+    </h3>
+
+    <div class="card">
+      <h4 style="color: var(--accent); margin-bottom: 12px;">サウジアラビアのWi-Fi事情</h4>
+      <p style="margin-bottom: 15px;">
+        サウジアラビアは中東で最も高速なインターネット環境を持つ国です。都市部ではWi-Fi、4G LTEが非常に充実しています。
+      </p>
+
+      <p style="margin-bottom: 12px;"><strong>公共Wi-Fi の利用可能な場所：</strong></p>
+      <ul style="margin: 0 0 15px 0; padding-left: 20px;">
+        <li><strong>ショッピングモール：</strong> ほぼすべてのモールで無料Wi-Fi（Mobily Wave, STC など）</li>
+        <li><strong>カフェチェーン：</strong> Costa Coffee, Starbucks, Maqhabr など</li>
+        <li><strong>空港：</strong> リヤド国際空港・ジェッダ空港で無料Wi-Fi（最初の時間は登録不要）</li>
+        <li><strong>ホテル：</strong> ほぼすべてのホテルでWi-Fi 完備</li>
+        <li><strong>駅・バスターミナル：</strong> 新しい施設では完備</li>
+      </ul>
+
+      <p style="margin-bottom: 12px;"><strong>接続方法：</strong></p>
+      <ul style="margin: 0 0 15px 0; padding-left: 20px;">
+        <li>ほぼすべてのWi-Fi は登録不要（Open Access）</li>
+        <li>サウジ電話番号があれば、SMS認証で接続可能</li>
+        <li>一部のネットワークはSSOサポート対応（Facebook, Google ログイン）</li>
+      </ul>
+
+      <p style="margin-bottom: 12px;"><strong>ホームWi-Fi（自宅インターネット）の契約：</strong></p>
+      <div style="background: var(--bg-tertiary); padding: 12px; border-radius: 8px;">
+        <p style="margin-bottom: 8px;"><strong>主なISP（インターネットプロバイダ）：</strong></p>
+        <ul style="margin: 0; padding-left: 20px;">
+          <li><strong>STC (Fiber Optic)：</strong> 500Mbps～1Gbps。月額60～120SAR</li>
+          <li><strong>Mobily Home Internet：</strong> 300Mbps。月額49～99SAR</li>
+          <li><strong>Zain Home：</strong> 無制限データ。月額99～149SAR</li>
+          <li><strong>Virgin Megastore Mobile Internet：</strong> ポケットWi-Fi型。月額29～49SAR</li>
+        </ul>
+      </div>
+
+      <p style="margin-top: 15px; font-size: var(--font-size-sm); color: var(--text-secondary);">
+        <strong>💡 Tip：</strong> 住宅取得後、電気・ガス・水道と一緒にインターネット契約するのが一般的。引越し直後は不動産管理会社に相談するとスムーズです。
+      </p>
+    </div>
+
+    <div class="card">
+      <h4 style="color: var(--accent); margin-bottom: 12px;">通信速度について</h4>
+      <p>サウジアラビアは中東でも特に通信速度が速い国として知られています。</p>
+
+      <ul style="margin: 15px 0; padding-left: 20px;">
+        <li><strong>4G LTE：</strong> 平均ダウンロード速度 50～150Mbps（ピーク時100Mbps以上）</li>
+        <li><strong>5G：</strong> 2024年から展開開始。一部地域で利用可能。500Mbps 以上の超高速</li>
+        <li><strong>固定回線：</strong> 500Mbps～1Gbps（光ファイバー）</li>
+      </ul>
+
+      <p style="color: var(--text-secondary); font-size: var(--font-size-sm);">
+        参考：世界平均の固定回線速度は約50Mbps。サウジはこれを大きく上回り、先進国水準です。
+      </p>
+    </div>
+  </section>
+
+  <!-- INTERNATIONAL & VPN SECTION -->
+  <section style="margin-bottom: 40px;">
+    <h3 style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+      <span style="font-size: 1.4em;">🌐</span>
+      国際通話・VPN
+    </h3>
+
+    <div class="card">
+      <h4 style="color: var(--accent); margin-bottom: 12px;">国際通話の方法</h4>
+
+      <p style="margin-bottom: 15px;"><strong>1. 国際ローミングを使う（最も簡単だが高い）</strong></p>
+      <ul style="margin: 0 0 15px 0; padding-left: 20px;">
+        <li>STC, Mobily, Zain ともに国際ローミングに対応</li>
+        <li>サウジから日本への通話: 3～5SAR/分（キャリアとプランによる）</li>
+        <li>SMS: 1～2SAR/通</li>
+        <li>データ: 1MB 当たり数SAR（非常に高額。避けるべき）</li>
+        <li>事前に国際ローミングプランを申し込むと割引（月額30SAR 前後で使い放題パックあり）</li>
+      </ul>
+
+      <p style="margin-bottom: 15px;"><strong>2. IP電話 / インターネット通話（最も安い）</strong></p>
+      <ul style="margin: 0 0 15px 0; padding-left: 20px;">
+        <li><strong>WhatsApp：</strong> Wi-Fi または 4G LTE を使用。完全無料</li>
+        <li><strong>Skype：</strong> クレジット購入で国際通話可能。1分 1～3円程度</li>
+        <li><strong>Google Duo/Meet：</strong> 無料ビデオ通話</li>
+        <li><strong>Viber, Telegram：</strong> メッセージは無料。通話も無料</li>
+      </ul>
+
+      <p style="margin-bottom: 15px;"><strong>3. 国際プリペイドカード（中程度の価格）</strong></p>
+      <ul style="margin: 0 0 15px 0; padding-left: 20px;">
+        <li>ディスカウント国際通話サービス。専用番号に電話してからダイヤル</li>
+        <li>コンビニで購入可能。通常50～100SAR 単位</li>
+        <li>国によって料金が異なる。日本への通話は 1分 0.5～1SAR 程度</li>
+      </ul>
+
+      <div style="background: #d4edda; padding: 12px; border-radius: 8px; border-left: 4px solid #28a745; margin-top: 15px;">
+        <p style="margin: 0; font-size: var(--font-size-sm);">
+          <strong>✓ おすすめ：</strong> 日本の家族・友人との通話は WhatsApp が最強。Wi-Fi があれば完全無料。毎日でも使用可能です。
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h4 style="color: var(--accent); margin-bottom: 12px;">VPN について</h4>
+
+      <p style="margin-bottom: 15px;">
+        <strong>重要な注意：</strong> サウジアラビアでは政府による通信監視・コンテンツフィルタリングが厳しく行われています。違法コンテンツアクセスは犯罪となります。
+      </p>
+
+      <p style="margin-bottom: 12px;"><strong>VPN の法的位置づけ：</strong></p>
+      <ul style="margin: 0 0 15px 0; padding-left: 20px;">
+        <li><strong>グレーゾーン：</strong> VPN の使用自体は違法ではありませんが、政府は無認可VPNの使用を厳しく監視</li>
+        <li><strong>違法コンテンツアクセスはNG：</strong> VPN を使ってポルノサイト、ギャンブル、反政府サイトなどにアクセスすると逮捕される可能性</li>
+        <li><strong>企業VPN：</strong> 会社が提供するVPN（社員用リモートアクセス）は問題ない</li>
+      </ul>
+
+      <p style="margin-bottom: 12px;"><strong>実務上の注意点：</strong></p>
+      <ul style="margin: 0 0 15px 0; padding-left: 20px;">
+        <li>SNS（Facebook, Instagram, X など）は国内から自由にアクセス可能。VPN は不要</li>
+        <li>仕事でのデータ通信が必要な場合は、企業VPN を使用すること</li>
+        <li>個人VPN の使用は自己責任で。パスポート・ビザ取り消しなどのリスクあり</li>
+      </ul>
+
+      <div style="background: #fff3cd; padding: 12px; border-radius: 8px; border-left: 4px solid #ffc107;">
+        <p style="margin: 0; font-size: var(--font-size-sm);">
+          <strong>⚠️ 警告：</strong> 違法コンテンツへのアクセスは、VPN の有無を問わず犯罪です。サウジアラビアでは法的処罰が非常に厳しい国です。自分の行動に責任を持ちましょう。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIPS & SUMMARY SECTION -->
+  <section style="margin-bottom: 40px;">
+    <h3 style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+      <span style="font-size: 1.4em;">💡</span>
+      実用的なTips・まとめ
+    </h3>
+
+    <div class="card">
+      <h4 style="color: var(--accent); margin-bottom: 12px;">最初の1週間にやっておくべきこと</h4>
+
+      <ol style="margin: 0; padding-left: 20px;">
+        <li style="margin-bottom: 12px;">
+          <strong>SIM カード購入・アクティベーション</strong>
+          <p style="margin-top: 5px; color: var(--text-secondary);">到着初日。パスポート持参で空港または市内のショップで。</p>
+        </li>
+        <li style="margin-bottom: 12px;">
+          <strong>Absher アプリダウンロード・登録</strong>
+          <p style="margin-top: 5px; color: var(--text-secondary);">出国許可申請に必須。ビザ期限を毎月確認する習慣をつけて。</p>
+        </li>
+        <li style="margin-bottom: 12px;">
+          <strong>Tawakkalna をダウンロード・登録</strong>
+          <p style="margin-top: 5px; color: var(--text-secondary);">健康証明・ワクチン記録が統一される。職場で確認される可能性あり。</p>
+        </li>
+        <li style="margin-bottom: 12px;">
+          <strong>Uber / Careem をインストール</strong>
+          <p style="margin-top: 5px; color: var(--text-secondary);">タクシーは怖いので、アプリ配車が安全。登録は2分で完了。</p>
+        </li>
+        <li style="margin-bottom: 12px;">
+          <strong>HungerStation, Jahez インストール</strong>
+          <p style="margin-top: 5px; color: var(--text-secondary);">食事の配達が日常の大部分。複数入れておくとプロモーション比較できる。</p>
+        </li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h4 style="color: var(--accent); margin-bottom: 12px;">よくある質問</h4>
+
+      <div style="margin-bottom: 15px;">
+        <p style="font-weight: 600; margin-bottom: 8px;">Q: 観光ビザでもSIMカードは買える？</p>
+        <p style="margin: 0; color: var(--text-secondary);">A: はい。90日観光ビザでも登録して購入できます。ビザ期限までが有効期限です。</p>
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <p style="font-weight: 600; margin-bottom: 8px;">Q: SIM カードなしで Wi-Fi だけで生活できる？</p>
+        <p style="margin: 0; color: var(--text-secondary);">A: 可能ですが、Absher などで SMS 認証が必要な場面が出てきます。最低限のプリペイドプラン契約をおすすめします。</p>
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <p style="font-weight: 600; margin-bottom: 8px;">Q: ポストペイド（月額契約）に乗り換えるときは何が必要？</p>
+        <p style="margin: 0; color: var(--text-secondary);">A: 給与口座情報。サウジ企業に雇用されている場合は、給与をもらっている銀行情報でOK。その他の身分情報（Iqama 番号など）が必要な場合もあります。店員に相談を。</p>
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <p style="font-weight: 600; margin-bottom: 8px;">Q: 国際ローミング料金って本当に高い？</p>
+        <p style="margin: 0; color: var(--text-secondary);">A: はい。WhatsApp などのIP電話がほぼ無料なので、通常の音声通話の国際ローミングはおすすめしません。ただし、仕事で緊急に必要な場合は月額プラン購入を。</p>
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <p style="font-weight: 600; margin-bottom: 8px;">Q: Absher で出国許可を忘れたら飛行機に乗れない？</p>
+        <p style="margin: 0; color: var(--text-secondary);">A: その通り。空港に到着して初めて気づく人が毎年大勢います。出国予定の数日前に Absher で必ず確認してください。</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h4 style="color: var(--accent); margin-bottom: 12px;">アプリ・サービス一覧（ダウンロード優先度順）</h4>
+
+      <div style="display: grid; gap: 15px;">
+        <div style="background: var(--bg-tertiary); padding: 12px; border-radius: 8px;">
+          <p style="margin: 0; font-weight: 600; color: var(--accent);">🔴 必須（3～7日以内）</p>
+          <p style="margin: 8px 0 0 0; color: var(--text-secondary); font-size: var(--font-size-sm);">
+            Absher, Tawakkalna, Nafath, Uber, Careem, WhatsApp
+          </p>
+        </div>
+
+        <div style="background: var(--bg-tertiary); padding: 12px; border-radius: 8px;">
+          <p style="margin: 0; font-weight: 600; color: var(--accent);">🟡 推奨（最初の1～2週間）</p>
+          <p style="margin: 8px 0 0 0; color: var(--text-secondary); font-size: var(--font-size-sm);">
+            HungerStation, Jahez, Google Maps, Banking Apps（銀行の個別アプリ）
+          </p>
+        </div>
+
+        <div style="background: var(--bg-tertiary); padding: 12px; border-radius: 8px;">
+          <p style="margin: 0; font-weight: 600; color: var(--accent);">🟢 あると便利（余裕があれば）</p>
+          <p style="margin: 8px 0 0 0; color: var(--text-secondary); font-size: var(--font-size-sm);">
+            Nana, SMSA Express, Amazon Saudi, Noon, Zain, STC, Mobily
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h4 style="color: var(--accent); margin-bottom: 12px;">安全・セキュリティのポイント</h4>
+
+      <ul style="margin: 0; padding-left: 20px;">
+        <li style="margin-bottom: 10px;">
+          <strong>Absher のパスワード管理：</strong> 強力なパスワード（大文字・小文字・数字・記号の混合）を使用。定期的に変更。
+        </li>
+        <li style="margin-bottom: 10px;">
+          <strong>Tawakkalna のスクリーンショット：</strong> ワクチン証明のスクリーンショットを撮っておくと、アプリが落ちた時の代替になります。
+        </li>
+        <li style="margin-bottom: 10px;">
+          <strong>タクシー（Uber/Careem）選択：</strong> ドライバー評価が4.8以上のものを選ぶ。事前に料金見積もりを確認。
+        </li>
+        <li style="margin-bottom: 10px;">
+          <strong>食事配達の追跡：</strong> 注文が来るまでリアルタイムで追跡可能。食べ物が安全なのか確認できます。
+        </li>
+        <li style="margin-bottom: 10px;">
+          <strong>支払い情報：</strong> クレジットカード情報はアプリウォレットに登録して、毎回入力しない。
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer style="padding: 20px 0 16px;">
+  <div class="container" style="line-height:1.5;">
+    <p>サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
+    <p style="margin-top:3px;">重要事項は必ず公式情報をご確認ください。</p>
+    <p style="margin-top:6px;"><a href="about.html" style="color:var(--accent);text-decoration:none;">運営者情報</a>&emsp;<a href="disclaimer.html" style="color:var(--accent);text-decoration:none;">免責事項</a>&emsp;<a href="mailto:portal@rewah.life" style="color:var(--accent);text-decoration:none;">お問い合わせ</a></p>
+    <p style="margin-top:4px;opacity:0.5;">&copy; 2026 Saudi Navi / ReWAH</p>
+  </div>
+</footer>
+
+<script src="assets/search-index.js"></script>
+<script>
+// ===== HAMBURGER MENU =====
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('open');
+});
+
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('open');
+  });
+});
+
+// ===== NAV DROPDOWN =====
+var navMore = document.getElementById('navMore');
+var navMoreBtn = document.getElementById('navMoreBtn');
+if (navMore && navMoreBtn) {
+  navMoreBtn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    navMore.classList.toggle('open');
+  });
+  document.addEventListener('click', function(e) {
+    if (!navMore.contains(e.target)) {
+      navMore.classList.remove('open');
+    }
+  });
+}
+
+// ===== SEARCH FUNCTIONALITY =====
+const searchToggle = document.getElementById('searchToggle');
+const searchToggleDesktop = document.getElementById('searchToggleDesktop');
+const searchBar = document.getElementById('searchBar');
+const searchInput = document.getElementById('searchInput');
+const searchClear = document.getElementById('searchClear');
+const searchResults = document.getElementById('searchResults');
+const searchResultsContent = document.getElementById('searchResultsContent');
+const searchResultsTitle = document.getElementById('searchResultsTitle');
+const searchResultsClose = document.getElementById('searchResultsClose');
+
+function openSearch() {
+  searchBar.classList.add('open');
+  searchInput.focus();
+  hamburger.classList.remove('active');
+  navLinks.classList.remove('open');
+}
+
+function closeSearch() {
+  searchInput.value = '';
+  searchBar.classList.remove('open');
+  searchResults.classList.remove('visible');
+}
+
+searchToggle.addEventListener('click', openSearch);
+if (searchToggleDesktop) searchToggleDesktop.addEventListener('click', openSearch);
+searchClear.addEventListener('click', closeSearch);
+searchResultsClose.addEventListener('click', () => { searchResults.classList.remove('visible'); });
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeSearch(); searchResults.classList.remove('visible'); }
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+});
+
+let searchTimeout;
+searchInput.addEventListener('input', () => {
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(() => {
+    const q = searchInput.value.trim().toLowerCase();
+    if (q.length < 1) { searchResults.classList.remove('visible'); return; }
+    const matches = SITE_SEARCH_INDEX.filter(d =>
+      d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q) || d.pageTitle.toLowerCase().includes(q)
+    );
+    searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
+    searchResultsContent.innerHTML = matches.map(m =>
+      '<a href="' + m.page + '" style="display:block; padding:10px 0; border-bottom:1px solid var(--border-light); text-decoration:none; color:inherit;">' +
+        '<span style="font-size:0.75em; color:var(--accent); display:block; margin-bottom:2px;">' + m.pageTitle + '</span>' +
+        '<strong>' + m.title + '</strong>' +
+        '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + m.desc + '</p>' +
+      '</a>'
+    ).join('');
+    searchResults.classList.add('visible');
+  }, 200);
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>医療 | サウジナビ</title>
+<link rel="stylesheet" href="assets/shared.css">
+<style>
+.info-table { width:100%; font-size:var(--font-size-sm); border-collapse:collapse; }
+.info-table th { text-align:left; padding:8px 6px; color:var(--text-tertiary); font-weight:600; border-bottom:2px solid var(--border-light); }
+.info-table td { padding:7px 6px; border-bottom:1px solid var(--border-light); vertical-align:top; }
+.info-table tr:last-child td { border-bottom:none; }
+.section-title { font-size:1.1em; font-weight:700; color:var(--text-primary); margin:0 0 10px; padding-top:4px; }
+.sub-title { font-size:0.95em; font-weight:600; color:var(--accent); margin:12px 0 6px; }
+.compact-section { padding:8px 0; }
+.tip-box { padding:8px 12px; font-size:0.85em; color:var(--text-tertiary); background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 var(--radius-sm) var(--radius-sm) 0; margin-top:8px; }
+.checklist { list-style:none; padding:0; }
+.checklist li { font-size:var(--font-size-sm); color:var(--text-secondary); padding:6px 0 6px 24px; position:relative; line-height:1.6; }
+.checklist li:before { content:'✓'; position:absolute; left:0; color:var(--accent); font-weight:700; }
+.hospital-card { padding:12px; background:var(--bg-secondary); border-radius:var(--radius-sm); margin:8px 0; border-left:4px solid var(--accent); }
+.hospital-card h4 { margin:0 0 4px; font-size:0.95em; color:var(--text-primary); }
+.hospital-card p { font-size:var(--font-size-sm); color:var(--text-secondary); margin:4px 0; line-height:1.6; }
+.cost-table { width:100%; font-size:0.85em; }
+.cost-table td { padding:6px; border-bottom:1px solid var(--border-light); }
+.cost-table tr:last-child td { border-bottom:none; }
+@media (min-width: 900px) {
+  .two-col { column-count: 2; column-gap: 28px; }
+  .two-col > * { break-inside: avoid; }
+}
+@media (max-width: 640px) {
+  .side-panels { grid-template-columns: 1fr !important; }
+}
+</style>
+</head>
+<body>
+
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="container">
+    <div class="header-badges">
+      <a href="https://www.vision2030.gov.sa/" target="_blank" rel="noopener" class="header-badge vision">🌿 VISION 2030</a>
+      <a href="https://riyadhexpo2030.sa/" target="_blank" rel="noopener" class="header-badge expo">🌍 EXPO 2030 RIYADH</a>
+      <a href="https://www.visitsaudi.com/" target="_blank" rel="noopener" class="header-badge tourism">✨ Visit Saudi</a>
+    </div>
+    <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
+    <p class="subtitle">サウジアラビア日本語情報ポータルサイト</p>
+    <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 サウジナビ</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap">
+        <button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">🏠 ホーム</a>
+    <a href="news.html">📰 治安・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+  </div>
+
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">🏠 ホーム</a>
+    <a href="news.html">📰 治安・ニュース</a>
+    <a href="life.html">🏠 生活</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <div class="nav-more" id="navMore">
+      <button class="nav-more-btn" id="navMoreBtn">その他 ▼</button>
+      <div class="nav-more-dropdown" id="navMoreDropdown">
+        <a href="events.html">📅 イベント</a>
+        <a href="vision2030.html">🏗️ VISION 2030</a>
+        <a href="history-culture.html">🕌 歴史・文化</a>
+        <a href="emergency.html">🚨 緊急連絡先</a>
+        <a href="links.html">🔗 リンク集</a>
+        <a href="glossary.html">📖 用語集</a>
+      </div>
+    </div>
+    <div class="search-wrap" style="margin-left:auto;">
+      <button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button>
+    </div>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <span class="search-icon-inner">🔍</span>
+    <input type="text" id="searchInput" placeholder="検索… (例: 病院, 保険, ワクチン, 薬局)" autocomplete="off">
+    <button class="search-clear" id="searchClear">✕</button>
+  </div>
+</nav>
+
+<!-- Search Results Overlay -->
+<div class="search-results" id="searchResults">
+  <div class="search-results-inner">
+    <div class="search-results-header">
+      <h2 id="searchResultsTitle">検索結果</h2>
+      <button class="search-results-close" id="searchResultsClose">✕</button>
+    </div>
+    <div id="searchResultsContent"></div>
+  </div>
+</div>
+
+<main class="container">
+
+<!-- PAGE TITLE -->
+<section style="padding-top:20px; padding-bottom:0;">
+  <h2 style="font-size:1.4em; font-weight:700; color:var(--text-primary); margin-bottom:4px;">🏥 医療 — 病院・健康保険・ワクチン・薬局</h2>
+  <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">サウジアラビアの医療システム、主要病院、健康保険、予防接種、薬局情報をまとめました。突然の病気や怪我の際の対応方法も確認しましょう。</p>
+</section>
+
+<!-- ===== 1. 医療システム概要 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🏥 医療システム概要</h3>
+    <div class="two-col">
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+        サウジアラビアの医療システムは、公立病院と民間病院の二本立てです。国民と長期在住者は公立病院の利用が比較的安価ですが、待ち時間が長い傾向にあります。民間病院は料金が高い代わりに、より迅速なサービスと英語対応が充実しています。
+      </p>
+
+      <h4 class="sub-title">公立病院（Government Hospitals）</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        <strong>利点：</strong>費用が安い、医療レベルは高い<br>
+        <strong>欠点：</strong>待ち時間が長い（数時間〜数日）、医者の診察までに時間がかかる、ドイツ語や日本語対応が少ない<br>
+        <strong>対象者：</strong>サウジ国民、GCC国籍者、労働許可者、長期ビザ保持者
+      </p>
+
+      <h4 class="sub-title">民間病院（Private Hospitals）</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        <strong>利点：</strong>待ち時間が短い、英語対応が充実、設備が充実している<br>
+        <strong>欠点：</strong>費用が高い（公立の3〜5倍）、事前の健康保険加入が推奨される<br>
+        <strong>対象者：</strong>観光客、短期滞在者、保険加入者
+      </p>
+
+      <div class="tip-box">💡 観光客や短期滞在者は民間病院の利用を強く推奨します。海外旅行保険に加入していることを確認してから受診してください。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 2. 主要病院・クリニック ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🏨 主要病院・クリニック</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      リヤド、ジェッダ、ダンマームの主要都市にある大規模民間病院をまとめました。英語対応が充実しており、国際的な医療標準を維持しています。
+    </p>
+
+    <h4 class="sub-title">キング・ファイサル専門病院（King Faisal Specialist Hospital & Research Centre）</h4>
+    <div class="hospital-card">
+      <h4>位置：リヤド・ジェッダ・ダンマーム</h4>
+      <p><strong>概要：</strong>サウジアラビアで最も評判の高い専門病院。各科の医者が高度な専門知識を持つ。</p>
+      <p><strong>特徴：</strong>がん治療、心臓病、移植手術などの高度な医療に対応。国際患者向けのコンシェルジュサービスあり。</p>
+      <p><strong>言語：</strong>英語、フランス語、イタリア語対応</p>
+      <p><strong>電話（リヤド）：</strong>+966 11 4414427</p>
+    </div>
+
+    <h4 class="sub-title">ドクター・スレイマン・アルハビブ病院（Dr. Sulaiman Al Habib Medical Services）</h4>
+    <div class="hospital-card">
+      <h4>位置：リヤド・ジェッダ・ダンマーム・他多数</h4>
+      <p><strong>概要：</strong>中東全域に展開する大規模民間病院チェーン。最新設備が揃っており、救急車対応も24時間体制。</p>
+      <p><strong>特徴：</strong>複数の専門医が在籍。日本語を話す医療スタッフがいる場合もある。予約システムが整備されている。</p>
+      <p><strong>言語：</strong>英語、アラビア語、その他言語対応</p>
+      <p><strong>電話（リヤド）：</strong>+966 11 4646464</p>
+    </div>
+
+    <h4 class="sub-title">サウジドイツ病院（Saudi German Hospital）</h4>
+    <div class="hospital-card">
+      <h4>位置：リヤド・ジェッダ・ダンマーム</h4>
+      <p><strong>概要：</strong>サウジアラビアとドイツの医療技術を結合。欧州基準の医療サービスを提供。</p>
+      <p><strong>特徴：</strong>整形外科、心臓科、産婦人科が専門。ヨーロッパの医学基準に従った診療。</p>
+      <p><strong>言語：</strong>英語、ドイツ語対応</p>
+      <p><strong>電話（リヤド）：</strong>+966 11 8055555</p>
+    </div>
+
+    <h4 class="sub-title">キングダム病院（Kingdom Hospital）</h4>
+    <div class="hospital-card">
+      <h4>位置：リヤド・ジェッダ・ダンマーム</h4>
+      <p><strong>概要：</strong>急速に成長する民間病院チェーン。若い世代の医者を中心に構成。</p>
+      <p><strong>特徴：</strong>最新の医療技術を導入。救急車から入院まで一貫した対応。</p>
+      <p><strong>言語：</strong>英語対応</p>
+      <p><strong>電話（リヤド）：</strong>+966 11 4801111</p>
+    </div>
+
+    <div class="tip-box">💡 病院によって得意分野が異なります。歯科、眼科、皮膚科などの専門診療を希望する場合は、事前に電話で該当科の医者がいるか確認することをお勧めします。</div>
+  </div>
+</section>
+
+<!-- ===== 3. 病院・クリニックの探し方 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🔍 病院・クリニックの探し方</h3>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+      <div>
+        <h4 class="sub-title">オンライン検索</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          Google Maps、Careem Health（配車アプリCareem傘下の医療予約アプリ）、Seha（サウジの国営医療ポータル）で病院やクリニックを検索できます。Googleで「hospital near me」と検索すれば、現在地周辺の病院がマップに表示されます。
+        </p>
+
+        <h4 class="sub-title">電話での問い合わせ</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          病院の代表電話に連絡して、「I need to see a doctor. Is there an English-speaking doctor?」と聞いてください。予約システムがある場合は、その場で予約できます。
+        </p>
+
+        <h4 class="sub-title">アプリ利用</h4>
+        <ul class="checklist">
+          <li><strong>Careem Health：</strong>配車アプリと統合された医療予約アプリ。医者の専門分野、料金、患者評価が表示される</li>
+          <li><strong>Ask A Doctor：</strong>遠隔医療アプリ。テキストや音声で医者に相談可能</li>
+          <li><strong>Bayyana：</strong>医療提供者ディレクトリ。保険加入者向け</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="sub-title">英語を話す医者の確認</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          民間病院の大多数は英語対応していますが、公立病院の場合はアラビア語が主言語です。以下の方法で英語対応の有無を確認してください：
+        </p>
+        <ul class="checklist">
+          <li>病院ウェブサイトで医者のプロフィールを確認</li>
+          <li>言語スキルが表記されている</li>
+          <li>医療翻訳者（Medical Interpreter）を配置している病院を選ぶ</li>
+          <li>アプリで「English-speaking」フィルターを使用</li>
+          <li>事前予約時に「I need an English-speaking doctor」と明記</li>
+        </ul>
+
+        <h4 class="sub-title">費用確認</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+          民間病院の初診料は通常300〜800 SARです。血液検査や画像診断が必要な場合は追加費用がかかります。保険がある場合は、保険がカバーする範囲を確認してから受診してください。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 4. 健康保険 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">💳 健康保険（Health Insurance）</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      サウジアラビアでは、長期在住者（労働許可を持つ者）に対して、健康保険の加入が法律で義務付けられています。観光客や短期滞在者は海外旅行保険の加入を強く推奨します。
+    </p>
+
+    <h4 class="sub-title">保険の種類</h4>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+      <div>
+        <h4 class="sub-title">CCHI（Cooperative Health Insurance）</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          <strong>対象者：</strong>長期ビザ保持者（労働、家族呼び寄せ等）<br>
+          <strong>特徴：</strong>強制加入。雇用主と従業員が保険料を負担（通常、雇用主が大部分を負担）<br>
+          <strong>カバー範囲：</strong>公立・民間病院での外来診療、入院、手術、検査<br>
+          <strong>自己負担：</strong>通常、診察料の一部を自己負担（10〜20%程度）
+        </p>
+      </div>
+      <div>
+        <h4 class="sub-title">雇用主支給保険（Employer-Provided Insurance）</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          <strong>対象者：</strong>大規模企業や外資系企業の従業員<br>
+          <strong>特徴：</strong>雇用主が民間保険会社と契約。より広い範囲のカバレッジを提供<br>
+          <strong>カバー範囲：</strong>CCHI + 歯科、眼科、精神医学、遠隔医療など<br>
+          <strong>自己負担：</strong>ゼロまたは低額
+        </p>
+      </div>
+    </div>
+
+    <h4 class="sub-title">海外旅行保険（Travel Insurance）</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      観光客や短期滞在者は、渡航前に海外旅行保険に加入することを強く推奨します。医療費が高額になる可能性があります。
+    </p>
+    <ul class="checklist">
+      <li>日本の損保ジャパン、AIG、三井住友海上などが提供する海外旅行保険を利用</li>
+      <li>カバー範囲：入院、外来診療、救急車、医療器具、医療搬送</li>
+      <li>渡航前にオンラインで加入可能。短期（1日〜30日程度）から長期（1年）まで選択可能</li>
+      <li>保険証券またはPDFコピーを常に携帯</li>
+    </ul>
+
+    <div class="tip-box">💡 サウジアラビアの医療費は非常に高額です。民間病院での入院は1日あたり3,000〜10,000 SARを超える可能性があります。保険なしでは対応できません。</div>
+  </div>
+</section>
+
+<!-- ===== 5. 緊急医療サービス ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🚑 緊急医療サービス（Emergency Services）</h3>
+    <div class="two-col">
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
+        医療上の緊急事態（心臓発作、重傷、意識喪失等）が発生した場合は、躊躇なく救急車を呼んでください。
+      </p>
+
+      <h4 class="sub-title">救急車（Ambulance）</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        <strong>電話番号：997（サウジアラビア全域）</strong><br>
+        <strong>対応言語：</strong>アラビア語、英語<br>
+        <strong>対応時間：</strong>24時間・365日<br>
+        <strong>対応内容：</strong>事故現場での応急処置、最寄りの病院への搬送<br>
+      </p>
+
+      <h4 class="sub-title">救急車の呼び方</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        <strong>英語：</strong><br>
+        「Ambulance, please! I have a medical emergency at [住所または現在地]. The patient is [症状]. Please hurry!」<br>
+        <strong>アラビア語：</strong><br>
+        「سيارة إسعاف، من فضلك! لديّ حالة طبية طارئة」
+      </p>
+
+      <h4 class="sub-title">注意点</h4>
+      <ul class="checklist">
+        <li>住所または正確な現在地を明確に伝える（Google Mapsで現在地を確認）</li>
+        <li>症状を簡潔に説明する</li>
+        <li>意識がある場合は、医療保険情報を用意しておく</li>
+        <li>応答者の指示に従う</li>
+        <li>到着まで平均10〜15分（都市部）、20〜40分（郊外）</li>
+      </ul>
+
+      <div class="tip-box">💡 アプリ「ICE（In Case of Emergency）」をスマートフォンに設定しておくと、緊急時に医療情報が表示されるため便利です。</div>
+
+      <h4 class="sub-title">夜間クリニック（Night Clinics）</h4>
+      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        軽微な怪我や風邪などで、日中の病院が営業していない場合は、夜間クリニックが便利です。多くの主要病院は夜間診療を提供しています。事前に電話で営業時間と対応医者を確認してください。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 6. 薬局（Pharmacies） ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">💊 薬局（Pharmacies）</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      サウジアラビアの薬局では、医者の処方箋があれば医療用医薬品を購入できます。一部の医薬品は処方箋なしで購入可能です。
+    </p>
+
+    <h4 class="sub-title">主要薬局チェーン</h4>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+      <div>
+        <h4 class="sub-title">アルナハディ（Al Nahdi Pharmacy）</h4>
+        <div class="hospital-card">
+          <p><strong>特徴：</strong>サウジアラビア最大級の薬局チェーン。全国に数百店舗。</p>
+          <p><strong>営業時間：</strong>通常午前6時〜午後10時（一部店舗は24時間営業）</p>
+          <p><strong>支払い方法：</strong>現金、カード</p>
+          <p><strong>言語：</strong>アラビア語・英語対応</p>
+        </div>
+
+        <h4 class="sub-title">ホワイツ（Whites Pharmacy）</h4>
+        <div class="hospital-card">
+          <p><strong>特徴：</strong>中級規模の薬局チェーン。リヤド、ジェッダ、ダンマームに展開。</p>
+          <p><strong>営業時間：</strong>午前6時〜午後11時（一部は24時間）</p>
+          <p><strong>支払い方法：</strong>現金、カード</p>
+          <p><strong>言語：</strong>アラビア語・英語対応</p>
+        </div>
+      </div>
+      <div>
+        <h4 class="sub-title">サファワ（Safawa）</h4>
+        <div class="hospital-card">
+          <p><strong>特徴：</strong>新興薬局チェーン。モダンな店舗設計で若い世代に人気。</p>
+          <p><strong>営業時間：</strong>午前7時〜午後10時（店舗による異なる）</p>
+          <p><strong>支払い方法：</strong>現金、カード</p>
+          <p><strong>言語：</strong>アラビア語・英語対応</p>
+        </div>
+
+        <h4 class="sub-title">24時間薬局</h4>
+        <div class="hospital-card">
+          <p><strong>概要：</strong>大都市（リヤド、ジェッダ、ダンマーム）には24時間営業の薬局があります。</p>
+          <p><strong>探し方：</strong>Google Mapsで「24-hour pharmacy」と検索</p>
+          <p><strong>利用：</strong>夜間や早朝の緊急時に便利</p>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="sub-title">医薬品購入に関する注意</h4>
+    <ul class="checklist">
+      <li><strong>処方箋医薬品：</strong>医者の処方箋が必須。処方箋を薬局に提出してください</li>
+      <li><strong>一般医薬品：</strong>風邪薬、解熱剤、胃薬など処方箋不要な医薬品も多数ある</li>
+      <li><strong>禁止医薬品：</strong>ドーピング系、向精神薬、麻薬性鎮痛剤は厳しく規制されている</li>
+      <li><strong>日本の薬：</strong>持ち込み時は医者の英文処方箋があると安心</li>
+      <li><strong>価格：</strong>医薬品は一般的に日本より安い</li>
+      <li><strong>支払い：</strong>現金またはカードで決済。保険カードを提示すると割引される場合もある</li>
+    </ul>
+
+    <div class="tip-box">💡 常備薬が必要な場合は、渡航前に医者から英文の処方箋（Prescription）を入手してください。サウジの薬局で購入可能です。</div>
+  </div>
+</section>
+
+<!-- ===== 7. 予防接種（Vaccinations） ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">💉 予防接種（Vaccinations）</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      サウジアラビアへの渡航時に、特定の予防接種が必須またはお勧めされています。渡航前に医者に相談してください。
+    </p>
+
+    <h4 class="sub-title">必須予防接種</h4>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+      <div>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          <strong>黄熱病ワクチン：</strong>黄熱病流行地域からの入国者に対して証明書の提出が求められることがあります。
+        </p>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          <strong>髄膜炎菌ワクチン（Meningococcal）：</strong>メッカ巡礼者向けに推奨。特にハッジシーズン（イスラム暦12月）の渡航者は接種を強く推奨。
+        </p>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          <strong>新型コロナウイルス（COVID-19）：</strong>現在、特別な規制はありませんが、接種歴があると安心です。
+        </p>
+      </div>
+      <div>
+        <h4 class="sub-title">推奨予防接種</h4>
+        <ul class="checklist">
+          <li><strong>A型肝炎：</strong>水や食事による感染のリスクがあります</li>
+          <li><strong>B型肝炎：</strong>血液や体液への曝露リスクがあります</li>
+          <li><strong>腸チフス：</strong>衛生環境による感染リスク</li>
+          <li><strong>破傷風：</strong>標準的な予防接種</li>
+          <li><strong>麻疹・風疹：</strong>免疫がない場合</li>
+          <li><strong>インフルエンザ：</strong>冬季（10月〜3月）の渡航時</li>
+        </ul>
+      </div>
+    </div>
+
+    <h4 class="sub-title">ワクチン接種場所</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      <strong>日本での接種（推奨）：</strong>渡航前に日本の予防接種センターまたは医療機関で接種してください。記録を「予防接種国際証明書」にまとめてもらい、パスポートに貼付します。<br>
+      <strong>サウジでの接種：</strong>到着後、民間病院やクリニックで接種可能です。予約が必要な場合があります。
+    </p>
+
+    <div class="tip-box">💡 ワクチンによっては複数回接種が必要で、各回の間に数週間の間隔が必要です。渡航予定日の4〜6週間前から接種を開始することをお勧めします。</div>
+  </div>
+</section>
+
+<!-- ===== 8. よくある健康問題 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">⚠️ よくある健康問題</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      サウジアラビアの気候や環境が原因で起こりやすい健康問題と対応方法をまとめました。
+    </p>
+
+    <h4 class="sub-title">熱中症・熱による疾患（Heat-Related Illness）</h4>
+    <div class="hospital-card">
+      <p><strong>症状：</strong>頭痛、めまい、吐き気、大量発汗、衰弱感</p>
+      <p><strong>原因：</strong>夏季の気温は50℃を超えることもあり、極度に危険。日中の外出は避けるべき。</p>
+      <p><strong>対策：</strong>
+        <ul style="margin:6px 0; padding-left:20px; font-size:0.9em;">
+          <li>午前10時〜午後4時は屋内にいる</li>
+          <li>外出時は帽子、サングラス、軽い衣類を着用</li>
+          <li>水分補給を頻繁に行う（1日3〜4リットル推奨）</li>
+          <li>塩分補給も重要（電解質スポーツドリンク）</li>
+        </ul>
+      </p>
+    </div>
+
+    <h4 class="sub-title">水による疾患（Water-Related Issues）</h4>
+    <div class="hospital-card">
+      <p><strong>症状：</strong>下痢、腹痛、吐き気</p>
+      <p><strong>原因：</strong>水道水は一般的に安全ですが、地域によって塩分が高い。脱塩水処理施設が多いため、長期飲用で腎臓に負担がかかる可能性。</p>
+      <p><strong>対策：</strong>
+        <ul style="margin:6px 0; padding-left:20px; font-size:0.9em;">
+          <li>ミネラルウォーターを飲む（5リットルボトルがスーパーで安く購入可能）</li>
+          <li>水道水でうがいや歯磨きは問題ない</li>
+          <li>ホテルの氷も安全</li>
+          <li>路上の飲食店では注意</li>
+        </ul>
+      </p>
+    </div>
+
+    <h4 class="sub-title">空気汚染（Air Quality Issues）</h4>
+    <div class="hospital-card">
+      <p><strong>症状：</strong>咳、喘息の悪化、目の刺激</p>
+      <p><strong>原因：</strong>砂嵐（Dust Storms）が発生する時期（3月〜5月、9月〜11月）に空気汚染が深刻化。PM2.5濃度が非常に高い。</p>
+      <p><strong>対策：</strong>
+        <ul style="margin:6px 0; padding-left:20px; font-size:0.9em;">
+          <li>Air Quality Indexアプリで空気品質を確認</li>
+          <li>汚染が高い日は外出を避ける</li>
+          <li>外出時はN95マスクを着用</li>
+          <li>室内でHEPA空気清浄機を使用</li>
+        </ul>
+      </p>
+    </div>
+
+    <h4 class="sub-title">紫外線被害（Sun Exposure）</h4>
+    <div class="hospital-card">
+      <p><strong>症状：</strong>日焼け、皮膚がん、目の損傷</p>
+      <p><strong>原因：</strong>赤道に近い砂漠気候で紫外線が非常に強い。</p>
+      <p><strong>対策：</strong>
+        <ul style="margin:6px 0; padding-left:20px; font-size:0.9em;">
+          <li>SPF 50+の日焼け止めを毎日使用</li>
+          <li>長袖・長ズボンの着用を推奨</li>
+          <li>UVカット眼鏡を着用</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 9. メンタルヘルス（Mental Health） ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🧠 メンタルヘルス（Mental Health）</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      新しい環境への適応、言語障壁、文化的違いによるストレスを感じることは自然です。適切なメンタルヘルスサービスの利用をお勧めします。
+    </p>
+
+    <h4 class="sub-title">心理療法・カウンセリング</h4>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+      <div>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          サウジアラビアでは心理療法がまだ普及途上段階ですが、主要都市の民間病院や国際クリニックで心理士（Psychologist）による相談が受けられます。遠隔療法も選択肢です。
+        </p>
+        <h4 class="sub-title">利用可能なサービス</h4>
+        <ul class="checklist">
+          <li><strong>民間病院の精神科：</strong>King Faisal、Dr. Al Habib等で対応</li>
+          <li><strong>国際クリニック：</strong>英語を話す心理士がいる</li>
+          <li><strong>遠隔療法：</strong>オンラインで日本の心理士に相談可能</li>
+          <li><strong>企業EAP：</strong>大企業勤務者は無料相談できる場合あり</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="sub-title">文化的配慮</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          サウジアラビアはイスラム社会で、精神衛生に関する社会的スティグマが存在する場合があります。個人情報保護は確保されていますが、内向的なコミュニティでは心理カウンセリングの利用が知られることに不安を感じる人もいます。
+        </p>
+        <h4 class="sub-title">ストレス対策</h4>
+        <ul class="checklist">
+          <li>同じ立場の日本人コミュニティとの交流</li>
+          <li>宗教的活動（瞑想、祈り等）</li>
+          <li>運動（ジム、ヨガ、水泳）</li>
+          <li>趣味活動</li>
+          <li>家族・友人との連絡（オンライン含む）</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tip-box">💡 新しい環境でのストレスは正常です。助けを求めることは勇敢な行動です。必要な場合は躊躇なく専門家に相談してください。</div>
+  </div>
+</section>
+
+<!-- ===== 10. 歯科治療（Dental Care） ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🦷 歯科治療（Dental Care）</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      サウジアラビアの歯科医療は高い水準にあります。民間の歯科クリニックは最新設備を備えており、英語対応しているクリニックが多くあります。
+    </p>
+
+    <h4 class="sub-title">歯科治療の利用</h4>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+      <div>
+        <h4 class="sub-title">主な歯科クリニック</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          リヤド、ジェッダ、ダンマームの主要商業地区に多くの歯科クリニックがあります。インターネットで「Dental clinic near me」と検索して、患者評価を確認してからアポイントメントを取ってください。
+        </p>
+        <h4 class="sub-title">費用の目安</h4>
+        <table class="cost-table">
+          <tr>
+            <td style="font-weight:600;">定期検診</td>
+            <td>200〜400 SAR</td>
+          </tr>
+          <tr>
+            <td style="font-weight:600;">スケーリング（歯垢除去）</td>
+            <td>300〜600 SAR</td>
+          </tr>
+          <tr>
+            <td style="font-weight:600;">充填（虫歯治療）</td>
+            <td>400〜800 SAR</td>
+          </tr>
+          <tr>
+            <td style="font-weight:600;">根管治療</td>
+            <td>1,000〜2,000 SAR</td>
+          </tr>
+          <tr>
+            <td style="font-weight:600;">抜歯</td>
+            <td>300〜1,000 SAR</td>
+          </tr>
+          <tr>
+            <td style="font-weight:600;">インプラント</td>
+            <td>5,000〜10,000 SAR</td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <h4 class="sub-title">予防歯科</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          定期的な歯科検診（6ヶ月ごと）と予防処置が重要です。多くの歯科クリニックが予防プログラムを提供しています。
+        </p>
+
+        <h4 class="sub-title">緊急歯科対応</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          歯痛や歯の外傷が発生した場合は、夜間・週末対応の歯科クリニックを探してください。大型民間病院は歯科科を備えており、緊急対応が可能です。
+        </p>
+
+        <h4 class="sub-title">歯科保険</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+          CCHI基本保険には歯科が含まれません。民間保険またはオプション追加で歯科カバレッジを得られます。保険カバレッジは事前に確認してください。
+        </p>
+      </div>
+    </div>
+
+    <div class="tip-box">💡 長期滞在の場合、歯科定期検診は健康維持の上で重要です。信頼できるクリニックを見つけておくと安心です。</div>
+  </div>
+</section>
+
+<!-- ===== 11. 医療費・費用相場 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">💰 医療費・費用相場</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      民間病院の医療費は日本よりも高い傾向にあります。保険の有無で負担額が大きく異なります。
+    </p>
+
+    <h4 class="sub-title">民間病院の費用相場</h4>
+    <table class="info-table">
+      <tr>
+        <th>医療サービス</th>
+        <th>保険なし（SAR）</th>
+        <th>保険あり（推定自己負担SAR）</th>
+      </tr>
+      <tr>
+        <td><strong>初診（一般医）</strong></td>
+        <td>300〜800</td>
+        <td>50〜150</td>
+      </tr>
+      <tr>
+        <td><strong>初診（専門医）</strong></td>
+        <td>500〜1,200</td>
+        <td>100〜250</td>
+      </tr>
+      <tr>
+        <td><strong>血液検査（簡易）</strong></td>
+        <td>200〜500</td>
+        <td>0〜100</td>
+      </tr>
+      <tr>
+        <td><strong>血液検査（包括）</strong></td>
+        <td>800〜1,500</td>
+        <td>100〜300</td>
+      </tr>
+      <tr>
+        <td><strong>X線撮影</strong></td>
+        <td>200〜400</td>
+        <td>0〜100</td>
+      </tr>
+      <tr>
+        <td><strong>CT/MRI</strong></td>
+        <td>2,000〜4,000</td>
+        <td>200〜800</td>
+      </tr>
+      <tr>
+        <td><strong>入院（1日）</strong></td>
+        <td>3,000〜10,000</td>
+        <td>300〜1,500</td>
+      </tr>
+      <tr>
+        <td><strong>手術（簡易、入院なし）</strong></td>
+        <td>5,000〜15,000</td>
+        <td>500〜2,000</td>
+      </tr>
+      <tr>
+        <td><strong>手術（複雑、入院あり）</strong></td>
+        <td>30,000+</td>
+        <td>3,000+</td>
+      </tr>
+    </table>
+
+    <h4 class="sub-title">公立病院の費用相場</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      初診：50〜200 SAR<br>
+      入院：500〜1,000 SAR/日<br>
+      手術：観察のみで無料または数百SAR<br>
+      <strong>注：</strong>待ち時間が長く、英語対応が限定的。国民・長期在住者向け。
+    </p>
+
+    <h4 class="sub-title">医療費削減のコツ</h4>
+    <ul class="checklist">
+      <li><strong>保険加入：</strong>最優先。医療費を大幅削減できる</li>
+      <li><strong>複数の見積もり：</strong>異なる医院で費用見積もりを取る</li>
+      <li><strong>予防医療：</strong>定期検診で重大な疾患の早期発見</li>
+      <li><strong>クリニック利用：</strong>大型病院より費用が安い場合が多い</li>
+      <li><strong>薬剤師相談：</strong>薬局で医薬品相談を無料で受けられる</li>
+      <li><strong>医療観光利用：</strong>重大手術が必要な場合、タイやインドの医療費が大幅に安い</li>
+    </ul>
+
+    <div class="tip-box">💡 サウジアラビアの医療費は非常に高額です。保険なしで対応できない事態を避けるため、必ず海外旅行保険に加入してください。</div>
+  </div>
+</section>
+
+<!-- ===== 12. 医療搬送（Medical Evacuation） ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">✈️ 医療搬送（Medical Evacuation）</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      サウジアラビアで高度な医療が必要な場合、隣国アラブ首長国連邦（UAE）やタイへの医療搬送が必要になる場合があります。
+    </p>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+      <div>
+        <h4 class="sub-title">医療搬送が必要な場合</h4>
+        <ul class="checklist">
+          <li>重篤な外傷または急性疾患</li>
+          <li>複雑な手術が必要</li>
+          <li>がん治療が必要</li>
+          <li>心臓病などの心血管疾患</li>
+          <li>脳卒中</li>
+          <li>多臓器障害</li>
+        </ul>
+
+        <h4 class="sub-title">搬送先</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          <strong>アラブ首長国連邦（UAE）：</strong>最も近い選択肢。ドバイやアブダビの医療水準はサウジを上回る。<br>
+          <strong>タイ：</strong>医療費が安く、バムルンラッド国際病院など世界水準の医療機関がある。<br>
+          <strong>日本：</strong>日本への医療搬送も可能。保険でカバーされるかを確認。
+        </p>
+      </div>
+      <div>
+        <h4 class="sub-title">医療搬送の手続き</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          医療搬送は保険会社が調整します。医者が医療搬送の必要性を判断し、保険会社に連絡します。搬送方法は症状により異なります（救急車、飛行機、チャーター機）。
+        </p>
+
+        <h4 class="sub-title">費用</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          医療搬送の費用は非常に高額です（数百万円）。健康保険の「医療搬送費用補償」に必ず加入してください。
+        </p>
+
+        <h4 class="sub-title">保険確認</h4>
+        <ul class="checklist">
+          <li>保険証券で医療搬送がカバーされているか確認</li>
+          <li>24時間医療搬送ホットラインに連絡</li>
+          <li>医療搬送先の確認</li>
+          <li>家族への連絡</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tip-box">💡 医療搬送保険は海外旅行保険に含まれることが多いですが、保険によって補償内容が異なります。渡航前に必ず確認してください。</div>
+  </div>
+</section>
+
+<!-- ===== 13. 医療関連リソース ===== -->
+<section class="compact-section" style="padding-bottom:20px;">
+  <div class="card">
+    <h3 class="section-title">📱 医療関連リソース・アプリ</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      医療情報や医療サービスの利用に役立つアプリやウェブサイトをまとめました。
+    </p>
+
+    <h4 class="sub-title">医療予約・相談アプリ</h4>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+      <div class="hospital-card">
+        <h4>Careem Health</h4>
+        <p>配車アプリ「Careem」傘下の医療予約アプリ。医者の検索、予約、遠隔相談が可能。</p>
+      </div>
+      <div class="hospital-card">
+        <h4>Ask A Doctor</h4>
+        <p>遠隔医療アプリ。医者にチャットまたは音声で相談可能。処方箋の受け取りも可能。</p>
+      </div>
+      <div class="hospital-card">
+        <h4>Bayyana</h4>
+        <p>健康保険加入者向けアプリ。医療提供者ディレクトリ、予約、保険情報閲覧。</p>
+      </div>
+      <div class="hospital-card">
+        <h4>Google Maps</h4>
+        <p>医者・病院・薬局の位置検索、営業時間確認、患者評価確認。</p>
+      </div>
+    </div>
+
+    <h4 class="sub-title">有用なウェブサイト</h4>
+    <ul class="checklist">
+      <li><strong>Seha.sa：</strong>サウジアラビア国営医療ポータル。病院情報、医療制度情報</li>
+      <li><strong>King Faisal Specialist Hospital：</strong>www.kfshrc.edu.sa</li>
+      <li><strong>Dr. Sulaiman Al Habib：</strong>www.dralhabib.com</li>
+      <li><strong>Saudi German Hospital：</strong>www.sghospital.com.sa</li>
+      <li><strong>Kingdom Hospital：</strong>www.kgh.com.sa</li>
+    </ul>
+
+    <h4 class="sub-title">日本領事館・大使館</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      <strong>日本大使館（リヤド）：</strong>医療関連の相談、医者紹介、海外旅行保険に関する情報提供<br>
+      <strong>電話：</strong>+966-11-4142080（領事部）<br>
+      <strong>ウェブサイト：</strong>https://www.sa.emb-japan.go.jp/
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p style="font-size:var(--font-size-sm); color:var(--text-tertiary); line-height:1.8; margin-bottom:12px;">
+      <strong>免責事項：</strong>本ページの情報は2026年3月時点のものです。医療制度、費用、施設情報は随時変わる可能性があります。正確な情報については、各医療機関、保険会社、日本大使館に直接お問い合わせください。本ページの利用により生じた損害について、当サイトは責任を負いません。
+    </p>
+    <div style="display:flex; gap:20px; flex-wrap:wrap; font-size:var(--font-size-sm); color:var(--text-tertiary);">
+      <a href="index.html" style="color:inherit; text-decoration:none;">ホーム</a>
+      <a href="emergency.html" style="color:inherit; text-decoration:none;">緊急連絡先</a>
+      <a href="links.html" style="color:inherit; text-decoration:none;">リンク集</a>
+      <span>© 2026 サウジナビ by ReWAH</span>
+    </div>
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script>
+const SITE_SEARCH_INDEX = [
+  { title: 'King Faisal Specialist Hospital', desc: 'サウジアラビアで最も評判の高い専門病院。がん治療、心臓病、移植手術等に対応。', pageTitle: '医療', page: 'medical.html' },
+  { title: 'Dr. Sulaiman Al Habib Medical Services', desc: '中東全域に展開する大規模民間病院。日本語を話す医療スタッフがいる場合も。', pageTitle: '医療', page: 'medical.html' },
+  { title: 'Saudi German Hospital', desc: 'サウジとドイツの医療技術を結合。欧州基準の医療サービス。', pageTitle: '医療', page: 'medical.html' },
+  { title: 'Kingdom Hospital', desc: '急速に成長する民間病院チェーン。最新医療技術を導入。', pageTitle: '医療', page: 'medical.html' },
+  { title: 'CCHI健康保険', desc: '長期ビザ保持者向け。強制加入。公立・民間病院での外来診療、入院、手術がカバーされる。', pageTitle: '医療', page: 'medical.html' },
+  { title: '海外旅行保険', desc: '観光客や短期滞在者は渡航前の加入を強く推奨。入院、外来診療、救急車、医療搬送がカバーされる。', pageTitle: '医療', page: 'medical.html' },
+  { title: '救急車', desc: '医療上の緊急事態が発生した場合は電話997で救急車を呼んでください。24時間対応。', pageTitle: '医療', page: 'medical.html' },
+  { title: 'アルナハディ薬局', desc: 'サウジアラビア最大級の薬局チェーン。全国に数百店舗。医者の処方箋で医薬品購入可能。', pageTitle: '医療', page: 'medical.html' },
+  { title: 'ホワイツ薬局', desc: '中級規模の薬局チェーン。リヤド、ジェッダ、ダンマームに展開。', pageTitle: '医療', page: 'medical.html' },
+  { title: 'ワクチン接種', desc: '黄熱病、髄膜炎菌は必須またはお勧め。A型肝炎、B型肝炎、腸チフス等も推奨。', pageTitle: '医療', page: 'medical.html' },
+  { title: '熱中症対策', desc: '夏季は気温50℃を超える。午前10時〜午後4時は屋内にいる。水分補給は1日3〜4リットル。', pageTitle: '医療', page: 'medical.html' },
+  { title: 'メンタルヘルス', desc: '新環境へのストレスは自然。心理療法やカウンセリングが民間病院で受けられる。', pageTitle: '医療', page: 'medical.html' },
+  { title: '歯科治療', desc: 'サウジの歯科医療は高い水準。民間クリニックは最新設備と英語対応が充実。', pageTitle: '医療', page: 'medical.html' },
+  { title: '医療費相場', desc: '初診300〜800 SAR、入院3,000〜10,000 SAR/日。保険有無で大きく異なる。', pageTitle: '医療', page: 'medical.html' },
+  { title: '医療搬送', desc: '複雑な手術が必要な場合、UEやタイへの医療搬送が可能。保険で医療搬送費がカバーされることを確認。', pageTitle: '医療', page: 'medical.html' }
+];
+
+// Hamburger menu toggle
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('open');
+  hamburger.classList.toggle('open');
+});
+
+// Nav more dropdown
+const navMoreBtn = document.getElementById('navMoreBtn');
+const navMoreDropdown = document.getElementById('navMoreDropdown');
+navMoreBtn?.addEventListener('click', () => {
+  navMoreDropdown.classList.toggle('open');
+});
+
+// Search
+const searchToggle = document.getElementById('searchToggle');
+const searchToggleDesktop = document.getElementById('searchToggleDesktop');
+const searchBar = document.getElementById('searchBar');
+const searchInput = document.getElementById('searchInput');
+const searchClear = document.getElementById('searchClear');
+const searchResults = document.getElementById('searchResults');
+const searchResultsTitle = document.getElementById('searchResultsTitle');
+const searchResultsContent = document.getElementById('searchResultsContent');
+const searchResultsClose = document.getElementById('searchResultsClose');
+
+function openSearch() {
+  searchBar.classList.add('open');
+  searchInput.focus();
+}
+
+function closeSearch() {
+  searchInput.value = '';
+  searchBar.classList.remove('open');
+  searchResults.classList.remove('visible');
+}
+
+searchToggle.addEventListener('click', openSearch);
+if (searchToggleDesktop) searchToggleDesktop.addEventListener('click', openSearch);
+searchClear.addEventListener('click', closeSearch);
+searchResultsClose.addEventListener('click', () => { searchResults.classList.remove('visible'); });
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeSearch(); searchResults.classList.remove('visible'); }
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+});
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function highlightText(text, query) {
+  const words = query.split(/\s+/).filter(w => w.length > 0);
+  let result = escapeHtml(text);
+  words.forEach(word => {
+    const re = new RegExp('(' + word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    result = result.replace(re, '<mark>$1</mark>');
+  });
+  return result;
+}
+
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.trim().toLowerCase();
+  if (q.length < 1) { searchResults.classList.remove('visible'); return; }
+  const matches = SITE_SEARCH_INDEX.filter(d =>
+    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q) || d.pageTitle.toLowerCase().includes(q)
+  );
+  searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
+  searchResultsContent.innerHTML = matches.map(m =>
+    '<a href="' + m.page + '" style="display:block; padding:10px 0; border-bottom:1px solid var(--border-light); text-decoration:none; color:inherit;">' +
+      '<span style="font-size:0.75em; color:var(--accent); display:block; margin-bottom:2px;">' + escapeHtml(m.pageTitle) + '</span>' +
+      '<strong>' + highlightText(m.title, q) + '</strong>' +
+      '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
+    '</a>'
+  ).join('');
+  searchResults.classList.add('visible');
+});
+</script>
+
+</body>
+</html>

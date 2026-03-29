@@ -88,4 +88,59 @@ const SITE_SEARCH_INDEX = [
 
   // disclaimer.html
   {page: 'disclaimer.html', pageTitle: '免責事項', title: '免責事項', desc: '利用規約と免責について'},
+
+  // telecom.html - 通信・アプリ
+  {page: 'telecom.html', pageTitle: '📱 通信・アプリ', title: 'SIMカード', desc: 'STC、Mobily、Zain。購入方法とプラン'},
+  {page: 'telecom.html', pageTitle: '📱 通信・アプリ', title: 'Absher', desc: '政府サービスポータル。ビザ・在留許可管理'},
+  {page: 'telecom.html', pageTitle: '📱 通信・アプリ', title: 'Tawakkalna', desc: '健康・身分証明アプリ'},
+  {page: 'telecom.html', pageTitle: '📱 通信・アプリ', title: 'Nafath', desc: '国家デジタル認証システム'},
+  {page: 'telecom.html', pageTitle: '📱 通信・アプリ', title: 'VPN', desc: 'VPN利用の注意点'},
+
+  // transport.html - 国内交通
+  {page: 'transport.html', pageTitle: '🚗 国内交通', title: '国内線フライト', desc: 'Saudia、flynas、flyadeal'},
+  {page: 'transport.html', pageTitle: '🚗 国内交通', title: 'ハラマイン高速鉄道', desc: 'マッカ〜マディーナ間の高速鉄道'},
+  {page: 'transport.html', pageTitle: '🚗 国内交通', title: 'リヤドメトロ', desc: '6路線の新都市鉄道'},
+  {page: 'transport.html', pageTitle: '🚗 国内交通', title: 'Uber・Careem', desc: 'ライドシェアアプリ'},
+  {page: 'transport.html', pageTitle: '🚗 国内交通', title: 'レンタカー', desc: '国際免許・サウジ免許・主要レンタカー会社'},
+  {page: 'transport.html', pageTitle: '🚗 国内交通', title: '運転文化', desc: 'スピード違反カメラ、交通ルール'},
+
+  // food.html - サウジ料理
+  {page: 'food.html', pageTitle: '🍽️ サウジ料理', title: 'カブサ', desc: 'サウジの国民食。スパイス米と肉'},
+  {page: 'food.html', pageTitle: '🍽️ サウジ料理', title: 'マンディ', desc: '燻製風炊き込みご飯'},
+  {page: 'food.html', pageTitle: '🍽️ サウジ料理', title: 'シャワルマ', desc: '人気のストリートフード'},
+  {page: 'food.html', pageTitle: '🍽️ サウジ料理', title: 'アラビアコーヒー', desc: 'カフワとデーツ。おもてなしの文化'},
+  {page: 'food.html', pageTitle: '🍽️ サウジ料理', title: 'スーパーマーケット', desc: 'Tamimi、Danube、Panda、LuLu'},
+  {page: 'food.html', pageTitle: '🍽️ サウジ料理', title: 'フードデリバリー', desc: 'HungerStation、Jahez、Careem Food'},
+
+  // city-guide.html - 都市ガイド
+  {page: 'city-guide.html', pageTitle: '🏙️ 都市ガイド', title: 'リヤド', desc: '首都。人口約800万。ビジネスの中心'},
+  {page: 'city-guide.html', pageTitle: '🏙️ 都市ガイド', title: 'ジェッダ', desc: '紅海沿い。マッカへの玄関口。アルバラド旧市街'},
+  {page: 'city-guide.html', pageTitle: '🏙️ 都市ガイド', title: 'ダンマーム・東部州', desc: 'アラムコ本社。石油産業の中心'},
+  {page: 'city-guide.html', pageTitle: '🏙️ 都市ガイド', title: 'メディナ', desc: '預言者のモスク。イスラム第二の聖地'},
+  {page: 'city-guide.html', pageTitle: '🏙️ 都市ガイド', title: 'NEOM', desc: 'Vision 2030の未来都市プロジェクト'},
+
+  // medical.html - 医療
+  {page: 'medical.html', pageTitle: '🏥 医療', title: '病院の探し方', desc: '公立・私立病院、英語対応医師'},
+  {page: 'medical.html', pageTitle: '🏥 医療', title: '健康保険', desc: 'CCHI、雇用主提供保険、カバー範囲'},
+  {page: 'medical.html', pageTitle: '🏥 医療', title: '救急医療', desc: '997番。救急車の呼び方'},
+  {page: 'medical.html', pageTitle: '🏥 医療', title: '薬局', desc: 'Al Nahdi、Whites。処方箋ルール'},
+  {page: 'medical.html', pageTitle: '🏥 医療', title: '予防接種', desc: '必須・推奨ワクチン'},
+  {page: 'medical.html', pageTitle: '🏥 医療', title: '医療費', desc: '保険あり・なしの費用目安'},
+
+  // entertainment.html - 娯楽
+  {page: 'entertainment.html', pageTitle: '🎡 娯楽', title: 'テーマパーク', desc: 'Boulevard Riyadh、Winter Wonderland、Qiddiya'},
+  {page: 'entertainment.html', pageTitle: '🎡 娯楽', title: '映画館', desc: 'AMC、VOX、Muvi。2018年解禁'},
+  {page: 'entertainment.html', pageTitle: '🎡 娯楽', title: 'スポーツ', desc: 'F1サウジGP、サッカー、WWE'},
+  {page: 'entertainment.html', pageTitle: '🎡 娯楽', title: 'リヤドシーズン', desc: '冬の大型エンタメイベント'},
+  {page: 'entertainment.html', pageTitle: '🎡 娯楽', title: '砂漠体験', desc: 'デューンバッシング、キャンプ、星空観賞'},
+  {page: 'entertainment.html', pageTitle: '🎡 娯楽', title: '紅海ダイビング', desc: '世界クラスのサンゴ礁'},
+  {page: 'entertainment.html', pageTitle: '🎡 娯楽', title: 'アルウラ', desc: 'ヘグラ遺跡（UNESCO）、マラヤコンサートホール'},
+
+  // business.html - ビジネスマナー
+  {page: 'business.html', pageTitle: '💼 ビジネスマナー', title: '挨拶・名刺交換', desc: '握手の作法、右手の使用'},
+  {page: 'business.html', pageTitle: '💼 ビジネスマナー', title: '会議の文化', desc: '関係構築重視、コーヒー儀礼'},
+  {page: 'business.html', pageTitle: '💼 ビジネスマナー', title: 'ラマダン中のビジネス', desc: '短縮営業、公共での飲食禁止'},
+  {page: 'business.html', pageTitle: '💼 ビジネスマナー', title: 'ワスタ', desc: '人脈・コネクションの重要性'},
+  {page: 'business.html', pageTitle: '💼 ビジネスマナー', title: 'サウジ化（Nitaqat）', desc: 'サウジ人雇用義務化政策'},
+  {page: 'business.html', pageTitle: '💼 ビジネスマナー', title: 'JETRO', desc: '日本貿易振興機構のサポート'},
 ];

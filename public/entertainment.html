@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>娯楽 | サウジナビ</title>
+<link rel="stylesheet" href="assets/shared.css">
+<style>
+.info-table { width:100%; font-size:var(--font-size-sm); border-collapse:collapse; }
+.info-table th { text-align:left; padding:8px 6px; color:var(--text-tertiary); font-weight:600; border-bottom:2px solid var(--border-light); }
+.info-table td { padding:7px 6px; border-bottom:1px solid var(--border-light); vertical-align:top; }
+.info-table tr:last-child td { border-bottom:none; }
+.section-title { font-size:1.1em; font-weight:700; color:var(--text-primary); margin:0 0 10px; padding-top:4px; }
+.sub-title { font-size:0.95em; font-weight:600; color:var(--accent); margin:12px 0 6px; }
+.compact-section { padding:8px 0; }
+.tip-box { padding:8px 12px; font-size:0.85em; color:var(--text-tertiary); background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 var(--radius-sm) var(--radius-sm) 0; margin-top:8px; }
+.card { background:var(--bg-primary); padding:12px; border-radius:var(--radius-sm); margin-bottom:8px; }
+.venue-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+.venue-card { border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 14px; background: var(--surface); }
+.venue-card h4 { font-size: 0.95em; font-weight: 700; color: var(--text-primary); margin-bottom: 4px; }
+.venue-card .venue-en { font-size: 0.8em; color: var(--text-tertiary); margin-bottom: 6px; }
+.venue-card p { font-size: var(--font-size-sm); color: var(--text-secondary); line-height: 1.6; margin: 0; }
+.entertainment-info { font-size: var(--font-size-sm); color: var(--text-secondary); line-height: 1.7; }
+.side-panels { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+@media (max-width: 640px) {
+  .side-panels { grid-template-columns: 1fr !important; }
+}
+
+</style>
+</head>
+<body>
+
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="container">
+    <div class="header-badges">
+      <a href="https://www.vision2030.gov.sa/" target="_blank" rel="noopener" class="header-badge vision">🌿 VISION 2030</a>
+      <a href="https://riyadhexpo2030.sa/" target="_blank" rel="noopener" class="header-badge expo">🌍 EXPO 2030 RIYADH</a>
+      <a href="https://www.visitsaudi.com/" target="_blank" rel="noopener" class="header-badge tourism">✨ Visit Saudi</a>
+    </div>
+    <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
+    <p class="subtitle">サウジアラビア日本語情報ポータルサイト</p>
+    <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 サウジナビ</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap">
+        <button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">🏠 ホーム</a>
+    <a href="news.html">📰 治安・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="entertainment.html" class="active">🎬 娯楽</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+  </div>
+
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">🏠 ホーム</a>
+    <a href="news.html">📰 治安・ニュース</a>
+    <a href="life.html">🏠 生活</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <div class="nav-more" id="navMore">
+      <button class="nav-more-btn has-active" id="navMoreBtn">その他 ▼</button>
+      <div class="nav-more-dropdown" id="navMoreDropdown">
+        <a href="events.html">📅 イベント</a>
+        <a href="vision2030.html">🏗️ VISION 2030</a>
+        <a href="history-culture.html">🕌 歴史・文化</a>
+        <a href="emergency.html">🚨 緊急連絡先</a>
+        <a href="entertainment.html" class="active">🎬 娯楽</a>
+        <a href="links.html">🔗 リンク集</a>
+        <a href="glossary.html">📖 用語集</a>
+      </div>
+    </div>
+    <div class="search-wrap" style="margin-left:auto;">
+      <button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button>
+    </div>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <span class="search-icon-inner">🔍</span>
+    <input type="text" id="searchInput" placeholder="検索… (例: 映画, テーマパーク, スポーツ, Al-Ula, リヤドシーズン)" autocomplete="off">
+    <button class="search-clear" id="searchClear">✕</button>
+  </div>
+</nav>
+
+<!-- Search Results Overlay -->
+<div class="search-results" id="searchResults">
+  <div class="search-results-inner">
+    <div class="search-results-header">
+      <h2 id="searchResultsTitle">検索結果</h2>
+      <button class="search-results-close" id="searchResultsClose">✕</button>
+    </div>
+    <div id="searchResultsContent"></div>
+  </div>
+</div>
+
+<main class="container">
+
+<!-- PAGE TITLE -->
+<section style="padding-top:20px; padding-bottom:0;">
+  <h2 style="font-size:1.4em; font-weight:700; color:var(--text-primary); margin-bottom:4px;">🎬 サウジの娯楽 — エンターテインメントガイド</h2>
+  <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">ここ数年、サウジアラビアの娯楽シーンは劇的に変化しています。新しいテーマパーク、映画館の復活、ワールドクラスのスポーツイベント、そして砂漠での冒険体験。このセクションでは、リヤドからジッダ、アル=ウラまで、様々な娯楽の選択肢をご紹介します。</p>
+</section>
+
+<!-- ===== 1. テーマパーク ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🎡 テーマパークとアトラクション</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      サウジアラビアは急速に世界級のテーマパークの目的地へと変わりつつあります。
+    </p>
+    <div class="venue-grid">
+      <div class="venue-card">
+        <h4>Boulevard Riyadh City</h4>
+        <p style="margin: 6px 0 4px;">リヤドの中心部にある大型エンターテインメント施設。乗り物、ゲーム、ショーピング、飲食が一体化。家族向けの娯楽拠点として毎週末賑わっています。</p>
+      </div>
+      <div class="venue-card">
+        <h4>Winter Wonderland</h4>
+        <p style="margin: 6px 0 4px;">冬季に限定オープンする大人気の季節型テーマパーク。サウジの温かい気候でも体験できるウィンターアクティビティやイルミネーション。家族連れで混雑します。</p>
+      </div>
+      <div class="venue-card">
+        <h4>Six Flags Qiddiya</h4>
+        <p style="margin: 6px 0 4px;">リヤド西部のキッディヤ開発地区に建設予定の大型テーマパーク。複数のサテライト施設と共に、中東最大級の娯楽複合施設になる予定です。2025年以降の開園を目指しています。</p>
+      </div>
+      <div class="venue-card">
+        <h4>Via Riyadh</h4>
+        <p style="margin: 6px 0 4px;">リヤド郊外の新興エンターテインメントパーク。ショッピング、レストラン、屋外イベント会場を兼ね備えた総合施設。季節ごとのイベントが人気。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 2. 映画館 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🎥 映画館 — 映画上映の復活</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      2018年に35年ぶりに映画館の上映禁止が解除されたサウジアラビア。現在、大手チェーンが続々と進出しています。
+    </p>
+    <table class="info-table">
+      <tr><th>チェーン</th><th>特徴</th></tr>
+      <tr>
+        <td><strong>AMC Cinemas</strong></td>
+        <td>最大規模の映画館チェーン。リヤド、ジッダ、ダンマーム、アル=コバールなど主要都市に多数スクリーンを展開。最新のハリウッド映画からアラビア映画まで。</td>
+      </tr>
+      <tr>
+        <td><strong>VOX Cinemas</strong></td>
+        <td>中東発祥の高級映画館チェーン。プレミアムシートやプライベートスクリーンオプション。リヤドとジッダに複数の劇場。</td>
+      </tr>
+      <tr>
+        <td><strong>Muvi</strong></td>
+        <td>地元発祥の映画館チェーン。家族向けプログラミングを重視。リヤドを中心に拡大中。アラビア映画の上映に力を入れています。</td>
+      </tr>
+    </table>
+    <div class="tip-box">
+      <strong>💡 チケット情報：</strong> 通常のシートは1枚30〜50 SAR（800〜1,300円程度）。プレミアムシートやVIP経験は更に高い。オンラインで事前購入推奨。
+    </div>
+  </div>
+</section>
+
+<!-- ===== 3. スポーツ ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">⚽ スポーツイベント</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      サウジアラビアはスポーツ大国へと急速に変わりつつあります。以下は主要なスポーツシーン：
+    </p>
+
+    <div class="sub-title">⚡ Formula 1 — サウジアラビア・グランプリ</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      2021年より、ジッダの海沿いストリートコースで毎年開催。世界最高速のモータースポーツをライブで体験できます。シーズンは通常12月。チケットは高額ですが、VIPパッケージから一般入場まで様々なオプションあります。
+    </p>
+
+    <div class="sub-title">⚽ 足球（サウジ・プロリーグ）</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      <strong>Al Hilal</strong>（アル・ヒラル）と<strong>Al Nassr</strong>（アル・ナスル）は国内最強チームです。特に2023年から2024年シーズンはポルトガルのスーパースター、<strong>クリスティアーノ・ロナウド</strong>がAl Nassrに加入し、世界的な注目を浴びています。リヤドとジッダのスタジアムで試合を観戦でき、サポーターの熱気は素晴らしい体験です。</p>
+
+    <div class="sub-title">🎭 WWE（プロレス）</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      SABDイベント（Saudi Arabia Business Development）などを通じて、国際的なWWEショーが定期開催されるようになりました。世界的なプロレスラーがリヤドのキングダムアリーナで戦います。
+    </p>
+
+    <div class="sub-title">🥊 ボクシング・格闘技</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      国際ボクシング・格闘技イベントが増加。キングダムアリーナなど大規模施設での開催。オンラインで国際開催情報をチェック。
+    </p>
+
+    <div class="sub-title">🏌️ ゴルフ</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      サウジアラビアはプロゴルフの新しいホームになりつつあります。LIVゴルフ（LIV Golf）が資本を注入し、複数のトーナメントが開催されます。リヤドを中心に複数の高級ゴルフコースが存在。国際レベルのゴルファーが訪れます。
+    </p>
+  </div>
+</section>
+
+<!-- ===== 4. 季節イベント ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🎪 リヤドシーズン & ジッダシーズン</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      サウジアラビアの観光・文化政策の中心的なイベント。</p>
+
+    <div class="sub-title">🎊 Riyadh Season（リヤドシーズン）</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      毎年秋冬（10月〜1月）に開催される大規模フェスティバル。音楽コンサート、演劇、アート展示、グルメイベント、キッズ向けアクティビティなど。有名国際アーティストが出演し、数百万人が訪れます。リヤド市内の複数の会場で同時開催。</p>
+
+    <div class="sub-title">🎶 Jeddah Season（ジッダシーズン）</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      ジッダを中心とした季節イベント。ビーチイベント、海岸沿いコンサート、食文化フェスティバルなど。紅海の景色を背景にしたユニークな体験。</p>
+  </div>
+</section>
+
+<!-- ===== 5. 砂漠体験 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🏜️ 砂漠体験とアドベンチャー</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      サウジアラビアの広大な砂漠は、ユニークな娯楽体験の最高の舞台です。</p>
+
+    <div class="sub-title">🏜️ デューンバッシング</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      SUVで砂丘を駆け下りる。リヤド近郊（Red Sands など）でツアーが豊富。半日・終日ツアーあり。安全運転ガイドとともに興奮度たっぷりのエクスペリエンス。</p>
+
+    <div class="sub-title">🏕️ 砂漠キャンプ</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      ベドウィンスタイルのキャンプ体験。テント泊、焚き火、グルメディナー、音楽・ダンス。都会の喧騒から離れた静寂の中での夜間。星がたくさん見えます。</p>
+
+    <div class="sub-title">🐪 ラクダライド</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      本物のラクダに乗って砂漠を進む。30分コースから終日ツアーまで。観光客向けのやさしい体験から、本格的な砂漠トレッキングまで。</p>
+
+    <div class="sub-title">⭐ 星空観測</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      光害が少ない砂漠の空。天の川が肉眼で見え、無数の星々が。天文台ツアーや砂漠キャンプでの観測が人気。</p>
+  </div>
+</section>
+
+<!-- ===== 6. 水上スポーツ ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🌊 ダイビング＆水上スポーツ</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      サウジアラビアは紅海に面し、世界最高峰のダイビングスポットが多数あります。</p>
+
+    <div class="sub-title">🤿 紅海ダイビング</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      ジッダ、ヤンブ、ウムルジュなど複数のダイビングリゾートがあります。多彩なサンゴ礁、熱帯魚、時にはウミガメやマンタエイも。透明度の高い水。ダイビング認定学校も複数あり、初心者向けコースから上級者向けまで。ダイブマスター在籍。</p>
+
+    <div class="sub-title">🏖️ ビーチアクティビティ</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      スノーケリング、ジェットスキー、パドルボーディング、セーリングなど。NEOM のビーチリゾート開発も進み、新しい水上スポーツハブの形成が予想されます。</p>
+  </div>
+</section>
+
+<!-- ===== 7. ショッピングモール ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🛍️ ショッピングモール＆エンターテインメント</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      サウジアラビアのショッピングモールは単なる買い物の場所ではなく、エンターテインメント複合施設です。</p>
+
+    <div class="venue-grid">
+      <div class="venue-card">
+        <h4>Kingdom Centre</h4>
+        <p style="margin: 6px 0 4px;">リヤドの象徴的な超高層ビル。高級ブランド、レストラン、映画館、展望台を備えた総合施設。リヤドの買い物・食事の中心。</p>
+      </div>
+      <div class="venue-card">
+        <h4>Riyadh Park</h4>
+        <p style="margin: 6px 0 4px;">リヤド郊外の大型モール。アンカーテナント、家族向けエンターテインメント、フードコートが充実。広大な駐車場。</p>
+      </div>
+      <div class="venue-card">
+        <h4>Red Sea Mall</h4>
+        <p style="margin: 6px 0 4px;">ジッダの新型リゾートモール。高級ブランド、国際的なダイニング、エンターテインメント。海の景色が素晴らしい。</p>
+      </div>
+      <div class="venue-card">
+        <h4>Mall of Dhahran</h4>
+        <p style="margin: 6px 0 4px;">東部油田地帯のダンマーム周辺の大型モール。地元民と労働者向けの多くの選択肢。家族向けサービス充実。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 8. 美術館＆文化施設 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🎨 美術館・文化施設</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      サウジアラビアの文化政策の一環として、美術館・文化センターが次々と開館しています。</p>
+
+    <div class="sub-title">🏛️ National Museum Riyadh</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      サウジアラビアの歴史、文化、イスラム遺産を展示。アラビア半島の先史時代からサウジ王国建国、現代までを網羅。何日もかけて見学できるほどの規模と深さ。日本語ガイドの利用可能性を確認しましょう。</p>
+
+    <div class="sub-title">🎭 Ithra（King Abdulaziz Center for World Culture）</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      ダンマーム市の最新文化センター。美術館、図書館、シアター、スクリーニングルームを備えた総合施設。国際的なアート展示、パフォーマンス、学術講演会を定期開催。サウジの文化ソフトパワーの拠点。</p>
+  </div>
+</section>
+
+<!-- ===== 9. Al-Ula ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">🏺 Al-Ula — 古代遺跡と芸術</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      北西部のアル=ウラは、サウジアラビア屈指の観光地。古代ナバテア文明の遺跡と最新のアート会場が融合しています。</p>
+
+    <div class="sub-title">🗿 Hegra（マダイン・サーレハ）</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      UNESCO世界遺産。紀元1世紀のナバテア王国の古代都市遺跡。岩を彫った壮麗な墓碑群が砂漠に立ち並ぶ。ペトラ（ヨルダン）と並ぶ中東の考古学的傑作。</p>
+
+    <div class="sub-title">🎼 Maraya Concert Hall</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      砂漠の真ん中に建つ、鏡面で覆われた最新のコンサートホール。国際的な音楽家が公演。アラビア、クラシック、ロック、ポップなど多様なジャンル。夜間のライティングが幻想的。</p>
+  </div>
+</section>
+
+<!-- ===== 10. カフェシーン ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">☕ カフェ文化とソーシャルシーン</h3>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      ここ数年、サウジアラビアはカフェ文化のブームを経験しています。リヤド、ジッダを中心に、高級カフェ、スペシャリティコーヒー店、社交スペースが急増。</p>
+
+    <div class="sub-title">☕ スペシャリティコーヒーハウス</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      第三波コーヒー文化が根付き、各地で高品質のサードウェーブカフェが営業。ラテアート、ハンドドリップなど。サウジ産コーヒーの取り扱いも増えています。</p>
+
+    <div class="sub-title">🪑 ソーシャルカフェ</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      長時間滞在できる社交スペース兼カフェ。Wi-Fi、コンセント、セミナースペース完備。特に若者や起業家の集う場所。女性同士、混合グループでの利用も一般的に。</p>
+
+    <div class="sub-title">🍵 伝統的アラビアコーヒー</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      モダンカフェと並行して、伝統的なアラビアコーヒー（カハワ）文化も健在。豆をローストしてから淹れる独特の調理法。訪問先やビジネス会談での重要なホスピタリティ要素。</p>
+  </div>
+</section>
+
+<!-- ===== 11. 実用的なTips ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">ℹ️ 娯楽情報・チケット購入Tips</h3>
+
+    <div class="sub-title">🎫 チケット購入</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      大多数のイベント、映画館、テーマパークはオンライン事前購入が推奨。Ticketmasterの中東版、各施設の公式サイト、または現地代理店を利用。ピークシーズン（金曜・土曜日、季節イベント開催時）は事前購入が必須。</p>
+
+    <div class="sub-title">💰 費用目安</div>
+    <ul style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; margin: 8px 0; padding-left: 20px;">
+      <li>映画チケット: 30-50 SAR（800-1,300円）</li>
+      <li>テーマパーク入場: 50-150 SAR（1,300-4,000円）</li>
+      <li>スポーツイベント: 100-5,000+ SAR（2,600-130,000+円）※F1は最高額</li>
+      <li>砂漠ツアー（半日）: 150-300 SAR（4,000-7,800円）</li>
+      <li>ダイビング（2ボート）: 250-400 SAR（6,500-10,400円）</li>
+    </ul>
+
+    <div class="sub-title">🕐 営業時間</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      テーマパーク・映画館: 午後4時～深夜0時（金曜日は早朝からオープン）。ショッピングモール: 午前10時～深夜0時以降。カフェ: 午前7時～深夜1時。確認推奨。</p>
+
+    <div class="sub-title">📱 必要事項</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      携帯電話（チケットQRコード表示用）、ID（年齢確認など施設によっては必要）、現金またはクレジットカード。ほぼ全ての施設がカード決済対応。</p>
+  </div>
+</section>
+
+<!-- ===== Safety & Etiquette ===== -->
+<section class="compact-section">
+  <div class="card">
+    <h3 class="section-title">⚠️ 注意事項とエチケット</h3>
+
+    <div class="sub-title">👥 ドレスコード・行動規範</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      テーマパーク、映画館、スポーツイベント: 通常のカジュアルウェア。特に女性は公開の場でも適度に露出控えめな服装が安全。砂漠での活動は日焼け・日中熱対策必須（帽子、日焼け止め、水）。</p>
+
+    <div class="sub-title">🍷 飲酒・喫煙</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      サウジアラビアはイスラム教国で、飲酒は法律で禁止。喫煙は屋内では制限され、屋外でも諸条件あり。国際的なモダンテーマパークやリゾートでも遵守が必須。</p>
+
+    <div class="sub-title">📸 写真撮影</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      大多数のパブリックエリアは撮影OK。ただし、個人や特定グループを許可なく撮影するのは避ける。宗教施設やプライベートスペースは撮影禁止。セキュリティカメラもあるため要注意。</p>
+
+    <div class="sub-title">⏰ 礼拝時間</div>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+      1日5回の礼拝時間に一部の施設は営業停止または縮小。午前や夜間の特定時間帯は営業時間が異なる可能性あり。大型施設やモールは礼拝ルームを備えています。</p>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer style="padding: 20px 0 16px;">
+  <div class="container" style="line-height:1.5;">
+    <p>サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
+    <p style="margin-top:3px;">重要事項は必ず公式情報をご確認ください。</p>
+    <p style="margin-top:6px;"><a href="about.html" style="color:var(--accent);text-decoration:none;">運営者情報</a>&emsp;<a href="disclaimer.html" style="color:var(--accent);text-decoration:none;">免責事項</a>&emsp;<a href="mailto:portal@rewah.life" style="color:var(--accent);text-decoration:none;">お問い合わせ</a></p>
+    <p style="margin-top:4px;opacity:0.5;">&copy; 2026 Saudi Navi / ReWAH</p>
+  </div>
+</footer>
+
+<script src="assets/search-index.js"></script>
+<script>
+// ===== HAMBURGER MENU =====
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('open');
+});
+
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('open');
+  });
+});
+
+// ===== NAV DROPDOWN =====
+var navMore = document.getElementById('navMore');
+var navMoreBtn = document.getElementById('navMoreBtn');
+if (navMore && navMoreBtn) {
+  navMoreBtn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    navMore.classList.toggle('open');
+  });
+  document.addEventListener('click', function(e) {
+    if (!navMore.contains(e.target)) {
+      navMore.classList.remove('open');
+    }
+  });
+}
+
+// ===== SEARCH FUNCTIONALITY =====
+const searchToggle = document.getElementById('searchToggle');
+const searchToggleDesktop = document.getElementById('searchToggleDesktop');
+const searchBar = document.getElementById('searchBar');
+const searchInput = document.getElementById('searchInput');
+const searchClear = document.getElementById('searchClear');
+const searchResults = document.getElementById('searchResults');
+const searchResultsContent = document.getElementById('searchResultsContent');
+const searchResultsTitle = document.getElementById('searchResultsTitle');
+const searchResultsClose = document.getElementById('searchResultsClose');
+
+function openSearch() {
+  searchBar.classList.add('open');
+  searchInput.focus();
+  hamburger.classList.remove('active');
+  navLinks.classList.remove('open');
+}
+
+function closeSearch() {
+  searchInput.value = '';
+  searchBar.classList.remove('open');
+  searchResults.classList.remove('visible');
+}
+
+searchToggle.addEventListener('click', openSearch);
+if (searchToggleDesktop) searchToggleDesktop.addEventListener('click', openSearch);
+searchClear.addEventListener('click', closeSearch);
+searchResultsClose.addEventListener('click', () => { searchResults.classList.remove('visible'); });
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeSearch(); searchResults.classList.remove('visible'); }
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+});
+
+let searchTimeout;
+searchInput.addEventListener('input', () => {
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(() => {
+    const q = searchInput.value.trim().toLowerCase();
+    if (q.length < 1) { searchResults.classList.remove('visible'); return; }
+    const matches = SITE_SEARCH_INDEX.filter(d =>
+      d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q) || d.pageTitle.toLowerCase().includes(q)
+    );
+    searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
+    searchResultsContent.innerHTML = matches.map(m =>
+      '<a href="' + m.page + '" style="display:block; padding:10px 0; border-bottom:1px solid var(--border-light); text-decoration:none; color:inherit;">' +
+        '<span style="font-size:0.75em; color:var(--accent); display:block; margin-bottom:2px;">' + escapeHtml(m.pageTitle) + '</span>' +
+        '<strong>' + highlightText(m.title, q) + '</strong>' +
+        '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
+      '</a>'
+    ).join('');
+    searchResults.classList.add('visible');
+  }, 200);
+});
+
+function highlightText(text, query) {
+  const words = query.split(/\s+/).filter(w => w.length > 0);
+  let result = escapeHtml(text);
+  words.forEach(w => {
+    const re = new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+    result = result.replace(re, '<mark>$1</mark>');
+  });
+  return result;
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+</script>
+
+</body>
+</html>

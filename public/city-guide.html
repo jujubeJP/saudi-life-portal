@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>都市ガイド - サウジナビ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .badges {
+            display: flex;
+            gap: 0.8rem;
+            font-size: 0.85rem;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background-color: rgba(255,255,255,0.2);
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.4);
+        }
+
+        .badge.vision {
+            background-color: rgba(34, 139, 34, 0.3);
+            border-color: rgba(34, 139, 34, 0.6);
+        }
+
+        .badge.expo {
+            background-color: rgba(220, 20, 60, 0.3);
+            border-color: rgba(220, 20, 60, 0.6);
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #f0f0f0;
+            border-bottom: 2px solid #ddd;
+            padding: 0;
+            position: sticky;
+            top: 70px;
+            z-index: 99;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        .nav-links {
+            display: none;
+            list-style: none;
+            gap: 0;
+        }
+
+        .nav-links.active {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #f0f0f0;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .nav-links li {
+            border-bottom: 1px solid #ddd;
+        }
+
+        .nav-links a {
+            display: block;
+            padding: 0.8rem 2rem;
+            color: #333;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            background-color: #e0e0e0;
+            color: #1e3c72;
+            font-weight: bold;
+        }
+
+        .hamburger {
+            display: block;
+            background: none;
+            border: none;
+            color: #333;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .hamburger:hover {
+            color: #1e3c72;
+        }
+
+        /* Desktop Navigation */
+        @media (min-width: 768px) {
+            .hamburger {
+                display: none;
+            }
+
+            .nav-links {
+                display: flex !important;
+                flex-direction: row;
+                position: static;
+                background-color: transparent;
+                border: none;
+            }
+
+            .nav-links li {
+                border: none;
+            }
+
+            .nav-links a {
+                padding: 1rem 0.8rem;
+                border-bottom: 3px solid transparent;
+            }
+
+            .nav-links a:hover,
+            .nav-links a.active {
+                background-color: transparent;
+                border-bottom-color: #1e3c72;
+            }
+
+            .nav-dropdown-trigger {
+                position: relative;
+                cursor: pointer;
+            }
+
+            .nav-dropdown {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: white;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                min-width: 150px;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                z-index: 200;
+            }
+
+            .nav-dropdown-trigger:hover .nav-dropdown {
+                display: block;
+            }
+
+            .nav-dropdown a {
+                display: block;
+                padding: 0.8rem 1rem;
+                color: #333;
+                text-decoration: none;
+                border: none;
+                padding-left: 1rem;
+            }
+
+            .nav-dropdown a:hover {
+                background-color: #f0f0f0;
+            }
+        }
+
+        /* Search Box */
+        .search-box {
+            display: flex;
+            gap: 0.5rem;
+            margin-left: auto;
+        }
+
+        .search-box input {
+            padding: 0.5rem 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            width: 200px;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #1e3c72;
+            box-shadow: 0 0 5px rgba(30, 60, 114, 0.3);
+        }
+
+        .search-box button {
+            padding: 0.5rem 1rem;
+            background-color: #1e3c72;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .search-box button:hover {
+            background-color: #2a5298;
+        }
+
+        @media (max-width: 768px) {
+            .search-box {
+                width: 100%;
+                margin: 1rem 0 0 0;
+            }
+
+            .search-box input {
+                flex: 1;
+            }
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        h1 {
+            color: #1e3c72;
+            margin-bottom: 1rem;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+
+        .intro {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .cities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .city-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .city-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+        }
+
+        .city-header {
+            background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
+            color: white;
+            padding: 1.5rem;
+            border-bottom: 4px solid #228b22;
+        }
+
+        .city-name {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .city-subtitle {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .city-content {
+            padding: 1.5rem;
+        }
+
+        .city-content h3 {
+            color: #1e3c72;
+            margin-top: 1rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+
+        .city-content h3:first-child {
+            margin-top: 0;
+        }
+
+        .city-content ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .city-content li {
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+            position: relative;
+        }
+
+        .city-content li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #2a5298;
+        }
+
+        .city-content p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .highlight {
+            background-color: #fffacd;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+        }
+
+        .upcoming-city {
+            background-color: #f5f5f5;
+            border-left: 4px solid #ffa500;
+        }
+
+        .upcoming-city .city-header {
+            background: linear-gradient(135deg, #ffa500 0%, #ff8c00 100%);
+            border-bottom-color: #ffa500;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1e3c72;
+            color: white;
+            padding: 2rem;
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+            padding-bottom: 0.5rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section a {
+            color: #b0c4de;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.3);
+            padding-top: 1rem;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .cities-grid {
+                grid-template-columns: 1fr;
+            }
+
+            main {
+                padding: 0 1rem;
+            }
+
+            .header-container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .badges {
+                width: 100%;
+                justify-content: flex-start;
+            }
+
+            .nav-container {
+                padding: 0 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">🇸🇦 サウジナビ</a>
+            <div class="badges">
+                <div class="badge vision">Vision 2030</div>
+                <div class="badge expo">Expo 2030 RIYADH</div>
+                <div class="badge">Visit Saudi</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <button class="hamburger" id="hamburger">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">🏠 ホーム</a></li>
+                <li><a href="news.html">📰 治安・ニュース</a></li>
+                <li><a href="life.html">🏠 生活</a></li>
+                <li><a href="time.html">🕐 サウジ時間</a></li>
+                <li><a href="travel.html">✈️ 渡航情報</a></li>
+                <li><a href="banking.html">💰 通貨・銀行</a></li>
+                <li class="nav-dropdown-trigger">
+                    <a href="#">その他 ▼</a>
+                    <div class="nav-dropdown">
+                        <a href="communication.html">📱 通信・アプリ</a>
+                        <a href="transport.html">🚗 国内交通</a>
+                        <a href="cuisine.html">🍽️ サウジ料理</a>
+                        <a href="events.html">📅 イベント</a>
+                        <a href="vision2030.html">🏗️ VISION 2030</a>
+                        <a href="culture.html">🕌 歴史・文化</a>
+                        <a href="city-guide.html" class="active">🏙️ 都市ガイド</a>
+                        <a href="health.html">🏥 医療</a>
+                        <a href="entertainment.html">🎡 娯楽</a>
+                        <a href="business.html">💼 ビジネスマナー</a>
+                        <a href="emergency.html">🚨 緊急連絡先</a>
+                        <a href="links.html">🔗 リンク集</a>
+                        <a href="glossary.html">📖 用語集</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="search-box">
+                <input type="text" placeholder="検索..." id="searchInput">
+                <button id="searchBtn">検索</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <h1>🏙️ 主要都市ガイド</h1>
+
+        <div class="intro">
+            <p>サウジアラビアの主要都市を紹介します。各都市には独特の特徴、気候、見所、そして日本人コミュニティに関する情報があります。</p>
+        </div>
+
+        <div class="cities-grid">
+            <!-- Riyadh -->
+            <div class="city-card">
+                <div class="city-header">
+                    <div class="city-name">リヤド</div>
+                    <div class="city-subtitle">Riyadh - 首都</div>
+                </div>
+                <div class="city-content">
+                    <h3>概要</h3>
+                    <p>サウジアラビアの首都にして最大の都市。人口約800万人（都市圏）。政治、経済、文化の中心地です。近年の急速な発展により、現代的な建築物が立ち並びます。</p>
+
+                    <h3>主な見所</h3>
+                    <ul>
+                        <li><span class="highlight">キングダムタワー</span> - 高さ302mの象徴的なビル。展望台からは街全体を一望できます</li>
+                        <li><span class="highlight">ディルイーヤ</span> - UNESCO世界遺産。サウジの歴史的中心地で、伝統的な建築が復興されています</li>
+                        <li><span class="highlight">リヤドシーズン</span> - 冬のメガイベント。エンターテインメント、文化、アート展示が繰り広げられます</li>
+                        <li>ナジュド博物館 - 伝統的なアラビア建築を展示</li>
+                        <li>リヤド動物園</li>
+                    </ul>
+
+                    <h3>気候</h3>
+                    <p>砂漠気候で、<span class="highlight">夏は極度に暑く</span>（45°C以上）、冬は快適です。ほぼ降水がありません。6月～8月は外出に注意が必要です。</p>
+
+                    <h3>経済・ビジネス</h3>
+                    <p>サウジアラビアの<span class="highlight">ビジネスハブ</span>。石油産業、金融、ホテル、建設セクターに多くの外国人労働者がいます。日本企業も多数進出しています。</p>
+
+                    <h3>日本人コミュニティ</h3>
+                    <p>最大規模の日本人コミュニティがあります。日本食レストラン、日本語学校、医療機関なども充実。日本大使館も在住。</p>
+
+                    <h3>実用情報</h3>
+                    <ul>
+                        <li>交通：タクシー、Uberが便利。公共バス（SAPTCO）も利用可</li>
+                        <li>ショッピング：Riyadh Gallery、Centrepoint、The Avenues</li>
+                        <li>外食：国際料理から現地料理まで豊富</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Jeddah -->
+            <div class="city-card">
+                <div class="city-header">
+                    <div class="city-name">ジェッダ</div>
+                    <div class="city-subtitle">Jeddah - 紅海の宝石</div>
+                </div>
+                <div class="city-content">
+                    <h3>概要</h3>
+                    <p>紅海に面する港湾都市。人口約400万人。<span class="highlight">マッカへの玄関口</span>として歴史的に重要です。リヤドより比較的自由で開放的な雰囲気があります。</p>
+
+                    <h3>主な見所</h3>
+                    <ul>
+                        <li><span class="highlight">アルバラド旧市街</span> - UNESCO世界遺産。伝統的な建築、狭い路地、古い商店街が特徴</li>
+                        <li><span class="highlight">コルニッシュ</span> - 紅海沿いの美しいプロムナード。散歩やシーフード餐廳が人気</li>
+                        <li>ファウンテン（噴水）- コルニッシュの象徴的なランドマーク</li>
+                        <li>ジェッダ水族館</li>
+                        <li>現代美術館</li>
+                    </ul>
+
+                    <h3>気候</h3>
+                    <p>沿岸地域のため、年間を通して温暖。夏は暑く湿度が高い（35～40°C）。冬は過ごしやすい季節です。</p>
+
+                    <h3>雰囲気</h3>
+                    <p>リヤドと比較して、より国際的で開放的な雰囲気。外国人人口も多く、レストランやカフェの選択肢も豊富。女性のドライブが許可されるなど、より柔軟な社会規範が見られます。</p>
+
+                    <h3>日本人コミュニティ</h3>
+                    <p>中程度のコミュニティがあります。日本食レストランや日本に関連する施設も利用できます。</p>
+
+                    <h3>実用情報</h3>
+                    <ul>
+                        <li>交通：タクシー、Uber、Careem利用可</li>
+                        <li>ショッピング：Red Sea Mall、Jeddah Mall</li>
+                        <li>ビーチ：Corniche周辺でビーチアクティビティが可能</li>
+                        <li>飲食：シーフード料理が豊富</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Dammam/Eastern Province -->
+            <div class="city-card">
+                <div class="city-header">
+                    <div class="city-name">ダンマーム/東部州</div>
+                    <div class="city-subtitle">Dammam & Eastern Province - 油田の中心</div>
+                </div>
+                <div class="city-content">
+                    <h3>概要</h3>
+                    <p>東部州の中心都市。ダンマーム、ホバル、ダーランの3都市がまとまった地域（「黄金の三角形」）を形成しています。<span class="highlight">サウジの石油産業の中心地</span>です。</p>
+
+                    <h3>主な都市と見所</h3>
+                    <ul>
+                        <li><span class="highlight">ダンマーム</span> - 行政中心。The Avenues ShoppingMall、Khobar Corniche</li>
+                        <li><span class="highlight">ホバル（Khobar）</span> - より国際的で開放的。レストラン、カフェ、ショッピング施設が充実</li>
+                        <li><span class="highlight">ダーラン（Dhahran）</span> - Aramco（サウジアラビア石油公社）本社の所在地</li>
+                        <li>Half Moon Bay - 美しいビーチリゾート</li>
+                    </ul>
+
+                    <h3>気候</h3>
+                    <p>沿岸部のため、夏は暑く湿度が高い（40°C以上）。冬は快適で日中は温暖。</p>
+
+                    <h3>産業・雇用</h3>
+                    <p><span class="highlight">Aramcoをはじめ、石油・ガス関連企業が多数存在</span>。また、港湾都市として商業活動も活発です。多くの外国人労働者が就労しています。</p>
+
+                    <h3>日本人コミュニティ</h3>
+                    <p>Aramcoや関連企業の駐在員を中心とした日本人コミュニティがあります。生活に必要な施設は比較的整備されています。</p>
+
+                    <h3>実用情報</h3>
+                    <ul>
+                        <li>交通：タクシー、Uber利用可</li>
+                        <li>ショッピング：The Avenues Dammam（大型モール）</li>
+                        <li>レジャー：ビーチ、水上スポーツ</li>
+                        <li>飲食：多様な国際料理が利用可</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Madinah -->
+            <div class="city-card">
+                <div class="city-header">
+                    <div class="city-name">メディナ</div>
+                    <div class="city-subtitle">Madinah - イスラム史の聖地</div>
+                </div>
+                <div class="city-content">
+                    <h3>概要</h3>
+                    <p>イスラム教第2の聖地。人口約150万人。預言者ムハンマドがメッカから逃げた時に到着した地で、イスラム文明発展の重要な中心地です。平和で落ち着いた雰囲気です。</p>
+
+                    <h3>主な見所</h3>
+                    <ul>
+                        <li><span class="highlight">預言者モスク（アル・マスジッド・アル・ナバウィ）</span> - イスラム教で最も重要なモスクの一つ。イスラム教徒なら内部へのアクセスが可能</li>
+                        <li>アル・バキー墓地 - イスラム教の初期の著名人が埋葬</li>
+                        <li>マウント・オフィド - 預言者がここで初説教をしたと言われます</li>
+                        <li>ウフド戦地跡 - 歴史的な戦場</li>
+                    </ul>
+
+                    <h3>非イスラム教徒へのアクセス</h3>
+                    <p>かつてはメディナ旧市街の大部分が非イスラム教徒に閉鎖されていました。現在、<span class="highlight">規制が徐々に拡大</span>されており、特定の地域はビジター向けにアクセス可能になっています。</p>
+
+                    <h3>気候</h3>
+                    <p>砂漠気候で、夏は非常に暑く（40°C以上）、乾燥しています。冬は過ごしやすい季節です。</p>
+
+                    <h3>雰囲気</h3>
+                    <p>マッカと比べると宗教的な厳格性は少なく、比較的平和でゆったりとした雰囲気です。朝礼時間には圧倒的な美しさを感じられます。</p>
+
+                    <h3>実用情報</h3>
+                    <ul>
+                        <li>ビザ：以前は制限がありましたが、観光ビザでのアクセスが可能になっています</li>
+                        <li>ホテル：様々な価格帯のホテルが利用可</li>
+                        <li>交通：タクシー、Uber利用可</li>
+                        <li>注意：礼拝時間には音声放送があります</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Makkah (Brief) -->
+            <div class="city-card">
+                <div class="city-header">
+                    <div class="city-name">マッカ</div>
+                    <div class="city-subtitle">Makkah - イスラム教の最聖地</div>
+                </div>
+                <div class="city-content">
+                    <h3>概要</h3>
+                    <p>イスラム教の最も神聖な都市。人口約200万人（ハッジ時期は300万人超）。毎年イスラム教の5番目の柱「ハッジ（巡礼）」により、世界中からムスリムが訪れます。</p>
+
+                    <h3>非イスラム教徒へのアクセス</h3>
+                    <p><span class="highlight">非イスラム教徒はマッカへの進入が厳格に禁止されています</span>。これはイスラム教の指示に基づいています。旧市街全体がイスラム教徒のみのエリアです。</p>
+
+                    <h3>ハッジについて</h3>
+                    <p>ハッジはイスラム教の5つの柱の一つ。イスラム教信仰者は一生に一度ハッジを行う義務があります。ハッジ時期（イスラム暦の12月）には、都市は圧倒的な混雑を経験します。</p>
+
+                    <h3>実用情報</h3>
+                    <ul>
+                        <li>非イスラム教徒は进入不可</li>
+                        <li>ハッジ中は一般的な観光も制限される場合があります</li>
+                        <li>周辺地域（ジェッダなど）からのアクセスが一般的</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- NEOM (Upcoming) -->
+            <div class="city-card upcoming-city">
+                <div class="city-header">
+                    <div class="city-name">NEOM</div>
+                    <div class="city-subtitle">🏗️ 未来都市 - 建設中</div>
+                </div>
+                <div class="city-content">
+                    <h3>概要</h3>
+                    <p>サウジアラビアが推し進めている<span class="highlight">Vision 2030の旗艦プロジェクト</span>。紅海沿いに建設予定の、最先端テクノロジーを備えた「未来の都市」です。完成は2030年前後を予定しています。</p>
+
+                    <h3>特徴</h3>
+                    <ul>
+                        <li>AI、ロボティクス、再生可能エネルギーが統合</li>
+                        <li>スマートシティの全機能を備えた設計</li>
+                        <li>75,000人の居住を想定</li>
+                        <li>アラビア湾、紅海、デッドゾーンを含む広大なエリアをカバー</li>
+                    </ul>
+
+                    <h3>進捗状況</h3>
+                    <p>現在、建設が進行中です。2024年以降、段階的にオープンしていく予定です。</p>
+
+                    <h3>今後の情報</h3>
+                    <p>NEOMについての最新情報は、公式ウェブサイトやサウジ政府観光局から入手できます。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Information Section -->
+        <div class="intro" style="margin-top: 2rem;">
+            <h2 style="color: #1e3c72; margin-bottom: 1rem;">サウジアラビア都市訪問時の共通注意事項</h2>
+            <ul style="text-align: left; display: inline-block;">
+                <li><strong>パスポート：</strong> すべての都市訪問には有効なパスポートが必須</li>
+                <li><strong>ビザ：</strong> 観光ビザの取得が必要（詳細は渡航情報ページを参照）</li>
+                <li><strong>気候への対応：</strong> 特に夏は十分な水分補給と帽子、サングラスが必須</li>
+                <li><strong>服装：</strong> 各都市で文化的配慮が必要。保守的な服装が推奨</li>
+                <li><strong>言語：</strong> アラビア語が主言語。英語は主要都市で一般的です。日本語は限定的</li>
+                <li><strong>通信：</strong> SIMカード取得は比較的簡単（詳細は通信・アプリページを参照）</li>
+                <li><strong>両替：</strong> サウジ・リアル（SAR）への両替は銀行やATMで可能</li>
+            </ul>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-sections">
+                <div class="footer-section">
+                    <h3>情報カテゴリ</h3>
+                    <ul>
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="news.html">治安・ニュース</a></li>
+                        <li><a href="life.html">生活・コミュニティ</a></li>
+                        <li><a href="communication.html">通信・アプリ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>実用情報</h3>
+                    <ul>
+                        <li><a href="transport.html">国内交通</a></li>
+                        <li><a href="cuisine.html">サウジ料理</a></li>
+                        <li><a href="time.html">サウジ時間</a></li>
+                        <li><a href="travel.html">渡航情報</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>文化・経済</h3>
+                    <ul>
+                        <li><a href="vision2030.html">VISION 2030</a></li>
+                        <li><a href="banking.html">通貨・銀行</a></li>
+                        <li><a href="culture.html">歴史・文化</a></li>
+                        <li><a href="events.html">イベント</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>その他</h3>
+                    <ul>
+                        <li><a href="health.html">医療</a></li>
+                        <li><a href="entertainment.html">娯楽</a></li>
+                        <li><a href="business.html">ビジネスマナー</a></li>
+                        <li><a href="emergency.html">緊急連絡先</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 サウジナビ - サウジアラビア総合ガイド | <a href="links.html" style="color: #b0c4de;">リンク集</a> | <a href="glossary.html" style="color: #b0c4de;">用語集</a></p>
+                <p>このサイトは日本人がサウジアラビアで充実した生活を送るための情報を提供します。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Hamburger Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function() {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Search functionality
+        const searchBtn = document.getElementById('searchBtn');
+        const searchInput = document.getElementById('searchInput');
+
+        searchBtn.addEventListener('click', function() {
+            const query = searchInput.value.trim();
+            if (query) {
+                // Simple search implementation - could be enhanced
+                const mainText = document.body.innerText.toLowerCase();
+                if (mainText.includes(query.toLowerCase())) {
+                    alert(`検索キーワード「${query}」が見つかりました。`);
+                } else {
+                    alert(`申し訳ございません。検索キーワード「${query}」は見つかりませんでした。`);
+                }
+            }
+        });
+
+        searchInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchBtn.click();
+            }
+        });
+
+        // Mark current page as active
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+            document.querySelectorAll('a').forEach(link => {
+                const href = link.getAttribute('href');
+                if (href === currentPage || (currentPage === '' && href === 'index.html')) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

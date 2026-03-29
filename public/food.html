@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サウジ料理・食文化 | サウジナビ</title>
+<link rel="stylesheet" href="assets/shared.css">
+<style>
+  .food-hero {
+    background: linear-gradient(135deg, #d4af37 0%, #b8960f 100%);
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+
+  .food-hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .food-hero p {
+    font-size: 1.1rem;
+    opacity: 0.95;
+  }
+
+  .dish-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .dish-card {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-left: 4px solid #d4af37;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .dish-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+
+  .dish-card h3 {
+    color: #8b3a00;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .dish-card p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    color: #8b3a00;
+    margin: 2.5rem 0 1.5rem 0;
+    border-bottom: 3px solid #d4af37;
+    padding-bottom: 0.5rem;
+  }
+
+  .info-box {
+    background: #fff9e6;
+    border-left: 4px solid #d4af37;
+    padding: 1.5rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+  }
+
+  .info-box strong {
+    color: #8b3a00;
+  }
+
+  .dining-tips {
+    background: #f5f5f5;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+
+  .dining-tips ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .dining-tips li {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+  }
+
+  .dining-tips li:last-child {
+    border-bottom: none;
+  }
+
+  .dining-tips li:before {
+    content: "✓ ";
+    color: #d4af37;
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+
+  .restaurant-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .restaurant-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-top: 3px solid #d4af37;
+  }
+
+  .restaurant-item h4 {
+    color: #8b3a00;
+    margin-bottom: 0.5rem;
+  }
+
+  .restaurant-item p {
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .app-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .app-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    border-bottom: 3px solid #d4af37;
+  }
+
+  .app-card h4 {
+    color: #8b3a00;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .app-card p {
+    color: #666;
+    font-size: 0.95rem;
+  }
+
+  .highlight-text {
+    background: linear-gradient(120deg, #fff9e6, #ffe6cc);
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+  }
+
+  .coffee-ritual {
+    background: linear-gradient(135deg, #e8dcc4 0%, #d4c4b0 100%);
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    color: #3d2817;
+  }
+
+  .coffee-ritual h3 {
+    color: #8b3a00;
+    margin-bottom: 1rem;
+  }
+
+  .ramadan-box {
+    background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+    border-left: 5px solid #8b3a00;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+
+  .ramadan-box h3 {
+    color: #8b3a00;
+    margin-bottom: 1rem;
+  }
+
+  .ramadan-box ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .ramadan-box li {
+    padding: 0.7rem 0;
+    color: #3d2817;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+
+  .ramadan-box li:last-child {
+    border-bottom: none;
+  }
+
+  .ramadan-box li:before {
+    content: "🌙 ";
+    margin-right: 0.5rem;
+  }
+</style>
+</head>
+<body>
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+<header>
+  <div class="container">
+    <div class="header-badges">
+      <a href="https://www.vision2030.gov.sa/" target="_blank" rel="noopener" class="header-badge vision">🌿 VISION 2030</a>
+      <a href="https://riyadhexpo2030.sa/" target="_blank" rel="noopener" class="header-badge expo">🌍 EXPO 2030 RIYADH</a>
+      <a href="https://www.visitsaudi.com/" target="_blank" rel="noopener" class="header-badge tourism">✨ Visit Saudi</a>
+    </div>
+    <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
+    <p class="subtitle">サウジアラビア日本語情報ポータルサイト</p>
+    <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 サウジナビ</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap"><button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button></div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">🏠 ホーム</a><a href="news.html">📰 治安・ニュース</a><a href="life.html">🏠 生活・コミュニティ</a><a href="telecom.html">📱 通信・アプリ</a><a href="transport.html">🚗 国内交通</a><a href="food.html" class="active">🍽️ サウジ料理</a><a href="events.html">📅 イベント</a><a href="saudi-time.html">🕐 サウジ時間</a><a href="travel-info.html">✈️ 渡航情報</a><a href="vision2030.html">🏗️ VISION 2030</a><a href="money.html">💰 通貨・銀行</a><a href="history-culture.html">🕌 歴史・文化</a><a href="city-guide.html">🏙️ 都市ガイド</a><a href="medical.html">🏥 医療</a><a href="entertainment.html">🎡 娯楽</a><a href="business.html">💼 ビジネスマナー</a><a href="emergency.html">🚨 緊急連絡先</a><a href="links.html">🔗 リンク集</a><a href="glossary.html">📖 用語集</a>
+  </div>
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">🏠 ホーム</a><a href="news.html">📰 治安・ニュース</a><a href="life.html">🏠 生活</a><a href="saudi-time.html">🕐 サウジ時間</a><a href="travel-info.html">✈️ 渡航情報</a><a href="money.html">💰 通貨・銀行</a>
+    <div class="nav-more" id="navMore">
+      <button class="nav-more-btn" id="navMoreBtn">その他 ▼</button>
+      <div class="nav-more-dropdown" id="navMoreDropdown">
+        <a href="telecom.html">📱 通信・アプリ</a><a href="transport.html">🚗 国内交通</a><a href="food.html" class="active">🍽️ サウジ料理</a><a href="events.html">📅 イベント</a><a href="vision2030.html">🏗️ VISION 2030</a><a href="history-culture.html">🕌 歴史・文化</a><a href="city-guide.html">🏙️ 都市ガイド</a><a href="medical.html">🏥 医療</a><a href="entertainment.html">🎡 娯楽</a><a href="business.html">💼 ビジネスマナー</a><a href="emergency.html">🚨 緊急連絡先</a><a href="links.html">🔗 リンク集</a><a href="glossary.html">📖 用語集</a>
+      </div>
+    </div>
+    <div class="search-wrap" style="margin-left:auto;"><button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button></div>
+  </div>
+  <div class="search-bar" id="searchBar"><span class="search-icon-inner">🔍</span><input type="text" id="searchInput" placeholder="検索… (例: ビザ, Absher, 病院)" autocomplete="off"><button class="search-clear" id="searchClear">✕</button></div>
+</nav>
+
+<div class="container">
+  <div class="food-hero">
+    <h2>🍽️ サウジ料理・食文化</h2>
+    <p>歴史と伝統が織り交ざる、豊かな風味の世界へようこそ</p>
+  </div>
+
+  <div class="info-box">
+    <strong>📍 このページについて</strong><br>
+    サウジアラビアの伝統料理から食文化、レストラン情報、食事時のマナーまで、日本人駐在者や旅行者が知っておきたい情報をまとめました。サウジ料理の魅力を発見してください。
+  </div>
+
+  <!-- 主要な伝統料理 -->
+  <h2 class="section-title">🥘 サウジアラビアを代表する料理</h2>
+
+  <div class="dish-grid">
+    <div class="dish-card">
+      <h3>🍚 カブサ (Kabsa)</h3>
+      <p><strong>サウジアラビアの国民食</strong>として知られるカブサは、スパイスで味付けされた米の上に、鶏肉または羊肉、ラム肉をのせた豪華な一品です。</p>
+      <p><strong>特徴：</strong> バスマティライスを使い、ターメリック、カルダモン、シナモン、月桂樹の葉などの香りのよいスパイスで炒めます。肉は別途調理され、米の上に盛られます。</p>
+      <p><strong>食べ方：</strong> 伝統的には右手を使い、指でつかんで食べます。シェアプレート（ダリーシャ）で複数人で一緒に食べることが多いです。</p>
+    </div>
+
+    <div class="dish-card">
+      <h3>🔥 マンディ (Mandi)</h3>
+      <p>イエメン発祥で、サウジアラビアでも非常に人気のある料理です。タンドール式オーブン（マンディ釜）で薫製・焼き上げた肉と米の組み合わせです。</p>
+      <p><strong>特徴：</strong> 地下式または縦型の釜で調理され、肉から滴る油が米に落ち、独特の薫製香と柔らかさが生まれます。濃厚な味わいが特徴です。</p>
+      <p><strong>地域差：</strong> ジッダやメッカのマンディは海の影響を受けた味付けが異なります。</p>
+    </div>
+
+    <div class="dish-card">
+      <h3>🌯 シャワルマ (Shawarma)</h3>
+      <p>サウジアラビアで最も人気のある<span class="highlight-text">ストリートフード</span>です。回転させた肉を焼き、ピタパンに詰めた料理です。</p>
+      <p><strong>種類：</strong> チキンシャワルマ、ビーフシャワルマ、ラムシャワルマがあります。</p>
+      <p><strong>トッピング：</strong> トマト、玉ねぎ、ピクルス、タヒナソース（ゴマペースト）、ガーリックソースが加えられます。朝食から深夜のおやつまで、いつでも食べられます。</p>
+    </div>
+
+    <div class="dish-card">
+      <h3>🟫 ファラフェル (Falafel)</h3>
+      <p>ひよこ豆またはそら豆を塩、スパイス、ハーブで味付けし、揚げたボール状の食べ物です。</p>
+      <p><strong>栄養：</strong> タンパク質豊富で、ベジタリアン向けのポピュラーなオプションです。</p>
+      <p><strong>食べ方：</strong> ピタパンに詰めたり、サラダの上にのせたり、ディップとして食べられます。朝食や軽食として人気です。</p>
+    </div>
+
+    <div class="dish-card">
+      <h3>🫘 フール (Ful)</h3>
+      <p>空豆をオリーブオイル、ニンニク、レモン汁で調理した、中東全域で愛される朝食の定番です。</p>
+      <p><strong>食べ方：</strong> ピタパンをスプーンのようにして、ペースト状のフールをすくって食べます。</p>
+      <p><strong>栄養価：</strong> 豆類は食物繊維と植物性タンパク質が豊富で、ヘルシーな選択肢です。</p>
+    </div>
+
+    <div class="dish-card">
+      <h3>🥖 ムタッバク (Mutabbaq)</h3>
+      <p>小麦粉の薄い生地を折りたたんで焼いた、セイボリーまたはスイートな揚げ菓子です。</p>
+      <p><strong>セイボリー版：</strong> 挽き肉、玉ねぎ、スパイスを詰めて焼きます。ディナーや軽食に。</p>
+      <p><strong>スイート版：</strong> チーズ、ナッツ、蜂蜜を詰めてシロップをかけたデザート版もあります。</p>
+    </div>
+  </div>
+
+  <!-- コーヒーとデーツ -->
+  <div class="coffee-ritual">
+    <h3>☕ アラビアコーヒー (Qahwa) とデーツの文化</h3>
+    <p>サウジアラビアにおいて、<span class="highlight-text">アラビアコーヒーとデーツの提供は、おもてなしと伝統的なホスピタリティの象徴</span>です。</p>
+
+    <p><strong>🤎 アラビアコーヒーの特徴：</strong></p>
+    <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+      <li>黒色でカルダモン、クローブ、サフラン、ローズウォーターで香り付けされます</li>
+      <li>伝統的な銅製の細口の壺（ダッラ）で供されます</li>
+      <li>小さな一口サイズのカップで、3杯まで飲むのが礼儀です</li>
+      <li>シンプルで、砂糖を加えることは少ないです</li>
+    </ul>
+
+    <p style="margin-top: 1rem;"><strong>🍯 デーツ (棗/ナツメヤシ)：</strong></p>
+    <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+      <li>コーヒーと共に提供される重要な要素</li>
+      <li>サウジアラビアは世界有数のデーツ生産国で、品質が高いです</li>
+      <li>自然な甘さと栄養が豊富で、エネルギーチャージに最適</li>
+      <li>ビジネス会議、社交集まり、結婚式など、すべての重要な場面で欠かせません</li>
+    </ul>
+  </div>
+
+  <!-- 食事時のマナーと文化 -->
+  <h2 class="section-title">🍽️ サウジアラビアの食事文化とマナー</h2>
+
+  <div class="dining-tips">
+    <h3 style="color: #8b3a00; margin-top: 0;">食事時間と習慣</h3>
+    <ul>
+      <li><strong>朝食 (Iftar)：</strong> 夜明け頃（4:00-6:00am）。ライトな食事が多い。</li>
+      <li><strong>昼食 (Ghada)：</strong> 午後1:00-3:00pmが一般的。一日で最も大きな食事。政府機関・企業も休止時間が設けられています。</li>
+      <li><strong>夕食 (Asha)：</strong> 夜8:00pm以降。家族で食べることが多く、軽めの食事です。</li>
+      <li><strong>夜食 (Suhour)：</strong> 夜中0:30-2:00amにラマダン中だけ食べられます。</li>
+    </ul>
+  </div>
+
+  <div class="dining-tips">
+    <h3 style="color: #8b3a00; margin-top: 0;">食事のマナーと礼儀</h3>
+    <ul>
+      <li><strong>右手で食べる：</strong> イスラム文化では、食事は右手で行うのが基本です。左手は使いません。</li>
+      <li><strong>ハラル食：</strong> すべての肉類はイスラム法に基づいて屠殺・処理されたハラル食です。豚肉は一切提供されません。</li>
+      <li><strong>アルコール禁止：</strong> サウジアラビアではアルコールの製造・販売・消費が厳禁です。レストランやカフェではアルコールメニューはありません。</li>
+      <li><strong>共食（シェアリング）：</strong> 家族や友人とのプレート共食が一般的で、親密さの表現です。</li>
+      <li><strong>ホスト側の配慮：</strong> 招待されて食事をする場合、ホストがすべての食事世話をします。遠慮なく食べることで、ホストに対する敬意を示します。</li>
+    </ul>
+  </div>
+
+  <div class="info-box" style="background: #f0f8ff; border-left-color: #4169e1;">
+    <strong>💡 食事招待への作法</strong><br>
+    サウジ人から食事招待を受けた場合、靴を脱いで座り、右手で食べることを心がけてください。食後、コーヒーが提供されたら、それは食事が終わったサインです。あまり長居をせず、適度に感謝して退出するのが礼儀です。
+  </div>
+
+  <!-- ラマダン期間の食事 -->
+  <div class="ramadan-box">
+    <h3>🌙 ラマダン期間の食事と過ごし方</h3>
+    <p>イスラム歴の9番目の月であるラマダンは、イスラム教の5本の柱の一つで、断食の月として知られています。</p>
+
+    <ul>
+      <li><strong>断食時間：</strong> 夜明け（フジュル）から日没（マグリブ）まで、飲食が禁止されます。</li>
+      <li><strong>イフタル（断食明け）：</strong> 日没直後に家族や友人と一緒に食事をします。多くのレストランでバイキング形式の「イフタルビュッフェ」が開催されます。</li>
+      <li><strong>スウール（夜食）：</strong> ラマダン夜中のおよそ2:00-4:00amに、軽めの食事をして次の日の断食に備えます。</li>
+      <li><strong>営業時間の変更：</strong> 多くの店舗やオフィスは短時間営業になります。昼間は人出が少なく、夜間は非常に混雑します。</li>
+      <li><strong>食べ物の配慮：</strong> ラマダン期間は、イスラム教徒でない人も昼間に公の場での飲食は控えるべきマナーがあります。</li>
+      <li><strong>イード (Eid Al-Fitr)：</strong> ラマダン明けの祭日には、家族が集まり、特別な食事を準備します。</li>
+    </ul>
+  </div>
+
+  <!-- 日本食レストラン -->
+  <h2 class="section-title">🍱 サウジアラビアの日本食レストラン</h2>
+
+  <div class="info-box">
+    <strong>🌏 日本食の入手可能性</strong><br>
+    リヤドとジッダの都市部では、日本食レストランやカフェが増加しており、寿司、ラーメン、天ぷら、焼き肉などが食べられます。ただし、ソースや味付けは現地の好みに合わせて調整されることがあります。
+  </div>
+
+  <h3 style="color: #8b3a00; margin-top: 2rem; margin-bottom: 1rem;">📍 リヤド (Riyadh) の日本食レストラン</h3>
+  <div class="restaurant-list">
+    <div class="restaurant-item">
+      <h4>🍜 Ramen Ya</h4>
+      <p>本格的なラーメンチェーン。豚骨ベースのスープをハラル対応にした豚骨ラーメンが人気。</p>
+      <p>場所：アル・ナハダ、アル・ウルバ地区</p>
+    </div>
+    <div class="restaurant-item">
+      <h4>🍣 Koi Sushi</h4>
+      <p>現代的な日本料理レストラン。寿司、握り、巻き物の他、焼き物やコース料理も提供。</p>
+      <p>場所：キング・ファハド地区</p>
+    </div>
+    <div class="restaurant-item">
+      <h4>🥢 Taro Japanese Kitchen</h4>
+      <p>カジュアルな日本レストラン。定食、天ぷら、唐揚げなどのファミリー向けメニュー。</p>
+      <p>場所：オライヤ地区、モール内</p>
+    </div>
+    <div class="restaurant-item">
+      <h4>🍱 Edo Japan</h4>
+      <p>テッパン焼きと寿司の融合。シェフのライブパフォーマンスを見ながら食事ができます。</p>
+      <p>場所：アル・ハルマイン地区</p>
+    </div>
+  </div>
+
+  <h3 style="color: #8b3a00; margin-top: 2rem; margin-bottom: 1rem;">📍 ジッダ (Jeddah) の日本食レストラン</h3>
+  <div class="restaurant-list">
+    <div class="restaurant-item">
+      <h4>🍣 Akira Sushi</h4>
+      <p>モダンな雰囲気の寿司レストラン。紅海の眺めが素晴らしい高級店。</p>
+      <p>場所：コルニッシュ地区（海沿い）</p>
+    </div>
+    <div class="restaurant-item">
+      <h4>🍜 Tokyo Ramen House</h4>
+      <p>地元に人気のラーメン専門店。スープは優しく、ハラル対応。</p>
+      <p>場所：バラド地区</p>
+    </div>
+    <div class="restaurant-item">
+      <h4>🥢 Sakura Japanese Restaurant</h4>
+      <p>ファミリー向けの日本料理レストラン。定食から懐石料理まで幅広いメニュー。</p>
+      <p>場所：ショッピングモール内</p>
+    </div>
+  </div>
+
+  <div class="info-box" style="background: #fff5e6; border-left-color: #ff8c00;">
+    <strong>📌 予約について</strong><br>
+    特に金曜日や祝日、夕食時は混雑するため、事前の電話予約をお勧めします。大型ショッピングモール内のレストランは比較的予約しやすいです。
+  </div>
+
+  <!-- 食品スーパーマーケット -->
+  <h2 class="section-title">🛒 食品スーパーマーケットと買い物</h2>
+
+  <div class="info-box">
+    <strong>🏬 大型スーパーマーケット</strong><br>
+    サウジアラビアの大型スーパーマーケットは品揃えが充実しており、国際的な食材も多く取り扱っています。多くの店舗が海外からの輸入食材に対応しています。
+  </div>
+
+  <div class="app-grid">
+    <div class="app-card">
+      <h4>🛒 Tamimi Markets</h4>
+      <p>サウジアラビア最大級のスーパーマーケットチェーン。全国に200以上の店舗があり、鮮度の高い食材から日本食材まで揃っています。</p>
+    </div>
+    <div class="app-card">
+      <h4>🏪 Danube</h4>
+      <p>湾岸地域全体で展開するスーパーマーケット。インド、タイ、東南アジア系の食材が豊富です。</p>
+    </div>
+    <div class="app-card">
+      <h4>🛍️ Panda Supermarket</h4>
+      <p>中東全域で展開。アジア系食材（醤油、味噌、お米など）の品揃えが特に良いです。</p>
+    </div>
+    <div class="app-card">
+      <h4>🏬 LuLu Hypermarket</h4>
+      <p>インド系の大型チェーン。食材の種類が非常に豊富で、価格も競争力があります。国際線の一般区画にも出店しています。</p>
+    </div>
+  </div>
+
+  <div class="dining-tips">
+    <h3 style="color: #8b3a00; margin-top: 0;">🥬 日本食材の入手</h3>
+    <ul>
+      <li><strong>味噌・醤油：</strong> Panda、LuLu、Taminmiで一般的な種類が入手できます。</li>
+      <li><strong>お米：</strong> 日本米（コシヒカリ、いぶき）は高級スーパーで販売されていますが、非常に高価です。</li>
+      <li><strong>うどん・そば：</strong> 即席麺の種類は豊富です。生麺は入手困難。</li>
+      <li><strong>海苔・わかめ：</strong> アジア系食材店で販売されています。</li>
+      <li><strong>豆腐：</strong> 一部の大型スーパーで販売されていますが、品質や種類は限定的です。</li>
+      <li><strong>日本の調味料：</strong> リヤドのジャパン・ショップやオンラインで入手可能（割高になります）。</li>
+    </ul>
+  </div>
+
+  <!-- フードデリバリーアプリ -->
+  <h2 class="section-title">📱 フードデリバリーアプリ</h2>
+
+  <div class="info-box">
+    <strong>🚚 オンライン配達サービス</strong><br>
+    サウジアラビアは中東でも最先端のデジタル決済・配達インフラが整っており、複数のフードデリバリーアプリが利用できます。
+  </div>
+
+  <div class="app-grid">
+    <div class="app-card">
+      <h4>🍕 HungerStation</h4>
+      <p>サウジアラビア発祥で最も人気のフードデリバリーアプリ。レストランとカフェの選択肢が豊富で、配達速度が速いです。</p>
+      <p>対応：リヤド、ジッダ、ダンマーム、他主要都市</p>
+    </div>
+    <div class="app-card">
+      <h4>🚗 Jahez</h4>
+      <p>中東全体で展開する配達アプリ。HungerStationと同様に広くカバーしており、時々割引キャンペーンがあります。</p>
+      <p>対応：全国の主要都市</p>
+    </div>
+    <div class="app-card">
+      <h4>🚕 Careem Food</h4>
+      <p>ライドシェアサービスのCareem傘下。既存顧客が多く、Careem ウォレットとの連携が便利です。</p>
+      <p>対応：リヤド、ジッダ、ダンマーム</p>
+    </div>
+  </div>
+
+  <div class="dining-tips">
+    <h3 style="color: #8b3a00; margin-top: 0;">💳 デリバリー利用のコツ</h3>
+    <ul>
+      <li><strong>支払い方法：</strong> すべてのアプリはクレジットカード、デビットカード、Appleペイに対応しています。</li>
+      <li><strong>配達時間：</strong> ピーク時間（昼食12:00-2:00pm、夕食7:00-10:00pm）は配達が遅くなることがあります。</li>
+      <li><strong>配達手数料：</strong> 通常5-15SARですが、最小注文額を満たすと割引になることがあります。</li>
+      <li><strong>評価システム：</strong> レストランと配達員の両方を評価できます。良い評価は配達品質の向上につながります。</li>
+      <li><strong>特別メニュー：</strong> ラマダン期間はイフタル用の特別セットやプロモーションが多くなります。</li>
+    </ul>
+  </div>
+
+  <!-- 食事の一般的なマナー -->
+  <h2 class="section-title">👥 ビジネス・社交場面での食事マナー</h2>
+
+  <div class="info-box">
+    <strong>🤝 重要な食事文化</strong><br>
+    サウジアラビアではビジネス食事や社交活動が非常に大切で、食事を通じた人間関係構築が重視されます。
+  </div>
+
+  <div class="dining-tips">
+    <h3 style="color: #8b3a00; margin-top: 0;">会食時のマナー</h3>
+    <ul>
+      <li><strong>宗教への敬意：</strong> ホストがイスラム教徒の場合、ラマダンやイード期間のスケジュール調整を心がけてください。</li>
+      <li><strong>同性での食事：</strong> ビジネスの場では通常同性同士の食事が一般的です。異性との食事は家族同伴が礼儀です。</li>
+      <li><strong>ゲストの配慮：</strong> 招待する場合、ゲストのハラル・非ハラル、べジタリアン対応など、食事制限を事前に確認しましょう。</li>
+      <li><strong>コーヒー儀式：</strong> 食事後のアラビアコーヒーとデーツは、文化的に重要な儀式です。感謝して受け取ってください。</li>
+      <li><strong>廃棄を避ける：</strong> 食べ物を残すことは失礼と見なされることがあります。食べられる量だけを取ってください。</li>
+      <li><strong>退出のタイミング：</strong> コーヒーが出た後、すぐに退出するのではなく、若干の社交時間を設けてから帰るのが礼儀です。</li>
+    </ul>
+  </div>
+
+  <!-- 最後の情報ボックス -->
+  <div class="info-box" style="background: #f0fff0; border-left-color: #228b22; margin-top: 3rem;">
+    <strong>✨ まとめ</strong><br>
+    サウジアラビアの食文化は、伝統と現代性が交わる豊かな世界です。国民食のカブサからストリートフードのシャワルマまで、毎日の食事を通じてサウジアラビアの人々の生活と文化を深く理解することができます。異文化への敬意を忘れずに、サウジ料理の魅力を堪能してください。
+  </div>
+
+</div>
+
+<div class="search-results" id="searchResults"><div class="search-results-inner"><div class="search-results-header"><h2 id="searchResultsTitle">検索結果</h2><button class="search-results-close" id="searchResultsClose">✕</button></div><div id="searchResultsContent"></div></div></div>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2024-2025 サウジナビ (Saudi Navi) | by ReWAH</p>
+    <div style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-tertiary);">
+      <p><strong>Disclaimer:</strong> This site provides information for Japanese residents and travelers in Saudi Arabia. Information is provided as-is and may change without notice. Always verify official sources for legal and government information.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/shared.js"></script>
+</body>
+</html>

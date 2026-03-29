@@ -149,6 +149,10 @@ header .subtitle {
   background: linear-gradient(135deg, #1a237e, #3949ab);
   color: #fff;
 }
+.header-badge.tourism {
+  background: linear-gradient(135deg, #b8860b, #d4a843);
+  color: #fff;
+}
 
 /* ===== ALERT BANNER ===== */
 .alert-banner {
