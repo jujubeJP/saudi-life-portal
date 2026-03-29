@@ -64,7 +64,7 @@ const SITE_SEARCH_INDEX = [
   {page: 'emergency.html', pageTitle: '🚨 緊急連絡先', title: '警察', desc: '999'},
   {page: 'emergency.html', pageTitle: '🚨 緊急連絡先', title: '救急車', desc: '997'},
   {page: 'emergency.html', pageTitle: '🚨 緊急連絡先', title: '消防', desc: '998'},
-  {page: 'emergency.html', pageTitle: '🚨 緊急連絡先', title: '総合緊急番号', desc: '911（リヤド・マッカ・東部州）'},
+  {page: 'emergency.html', pageTitle: '🚨 緊急連絡先', title: '総合緊急番号', desc: '911（全土対応）'},
   {page: 'emergency.html', pageTitle: '🚨 緊急連絡先', title: '日本大使館', desc: '+966-11-488-1100（リヤド）'},
   {page: 'emergency.html', pageTitle: '🚨 緊急連絡先', title: '病院', desc: 'King Faisal、Dr. Sulaiman Al Habib等'},
 
