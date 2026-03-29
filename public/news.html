@@ -29,6 +29,10 @@
 <title>治安・ニュース | サウジナビ</title>
 <link rel="stylesheet" href="assets/shared.css">
 <style>
+/* ===== Mobile overflow fix ===== */
+html, body { overflow-x: hidden; max-width: 100vw; }
+section, .card, .tab-content, .news-list { overflow-x: hidden; max-width: 100%; word-break: break-word; }
+
 /* ===== News & Security Page Styles ===== */
 
 .section-header {
@@ -226,45 +230,27 @@
 }
 
 .news-item {
-  padding: 10px 0;
+  padding: 12px 0;
   border-bottom: 1px solid var(--border-light);
   line-height: 1.6;
   font-size: 0.9em;
   list-style: none;
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
+  gap: 8px;
 }
-.news-meta-fixed {
-  flex: 0 0 280px;
-  display: flex;
+
+.news-item > .news-meta {
+  flex: 0 0 auto;
+  display: inline-flex;
   align-items: baseline;
   gap: 6px;
   white-space: nowrap;
-  overflow: hidden;
+  min-width: 200px;
 }
-@media (max-width: 600px) {
-  .news-item { flex-direction: column; }
-  .news-meta-fixed { flex: none; margin-bottom: 2px; }
-}
-.news-date-col {
-  color: var(--text-muted);
-  font-size: 0.85em;
-}
-.news-cat-col {
-  display: inline-block;
-  padding: 1px 6px;
-  border-radius: 8px;
-  background: var(--bg-secondary);
-  color: var(--text-tertiary);
-  font-size: 0.78em;
-}
-.news-src-col {
-  color: var(--text-tertiary);
-  font-size: 0.85em;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.news-title-col {
+
+.news-item > a,
+.news-item > .news-title-col {
   flex: 1;
   min-width: 0;
 }
@@ -273,16 +259,24 @@
   border-bottom: none;
 }
 
-.news-date {
-  font-size: 0.8em;
+.news-date, .news-date-col {
+  font-size: 0.82em;
   color: var(--text-tertiary);
+}
+
+.news-src, .news-src-col {
+  font-size: 0.78em;
+  color: var(--text-tertiary);
+  background: var(--surface-hover);
+  padding: 1px 6px;
+  border-radius: 4px;
 }
 
 .news-source {
   display: inline-block;
   padding: 2px 8px;
   border-radius: 4px;
-  background: var(--bg-secondary);
+  background: var(--surface-hover);
   color: var(--text-tertiary);
   font-size: 0.75em;
   font-weight: 600;
@@ -293,8 +287,18 @@
   color: var(--text-primary);
   text-decoration: none;
 }
-
 .news-title:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.news-item a {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.news-item a:hover {
   color: var(--accent);
   text-decoration: underline;
 }
@@ -303,6 +307,41 @@
   font-size: 0.9em;
   color: var(--text-secondary);
   line-height: 1.5;
+}
+
+.news-meta-fixed {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  white-space: nowrap;
+  min-width: 200px;
+}
+.news-cat-col {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: var(--surface-hover);
+  color: var(--text-tertiary);
+  font-size: 0.78em;
+}
+
+/* --- Mobile: news items stack vertically --- */
+@media (max-width: 600px) {
+  .news-item {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .news-item > .news-meta,
+  .news-meta-fixed {
+    min-width: 0;
+    flex: none;
+    margin-bottom: 2px;
+  }
+  .card {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
 }
 
 /* ===== Embassy Safety List ===== */
@@ -630,7 +669,7 @@
 </section>
 
 <!-- FOOTER -->
-<footer style="padding: 20px 0 16px;">
+<footer>
   <div class="container" style="line-height:1.5;">
     <p>サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
     <p style="margin-top:3px;">重要事項は必ず公式情報をご確認ください。</p>
@@ -841,10 +880,11 @@ function filterNews() {
     }
     ul.innerHTML = items.map(n =>
       '<li class="news-item">' +
-        '<span class="news-date-col" style="flex:0 0 90px; margin-right:8px;">' + esc(n.date || '') + '</span>' +
-        '<span class="news-title-col">' +
-          (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
+        '<span class="news-meta">' +
+          '<span class="news-date">' + esc(n.date || '') + '</span>' +
+          '<span class="news-src">在サウジ日本大使館</span>' +
         '</span>' +
+        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener">' + esc(n.title || '') + '</a>' : '<span>' + esc(n.title || '') + '</span>') +
       '</li>'
     ).join('');
   }
@@ -859,14 +899,11 @@ function filterNews() {
     }
     ul.innerHTML = items.map(n =>
       '<li class="news-item" data-category="' + esc(n.category || 'その他') + '">' +
-        '<span class="news-meta-fixed">' +
-          '<span class="news-date-col">' + esc(fmtNewsDate(n.date)) + '</span>' +
-          '<span class="news-cat-col">' + esc(n.category || 'その他') + '</span>' +
-          '<span class="news-src-col">' + esc(n.source || '') + '</span>' +
+        '<span class="news-meta">' +
+          '<span class="news-date">' + esc(fmtNewsDate(n.date)) + '</span>' +
+          '<span class="news-src">' + esc(n.source || '') + '</span>' +
         '</span>' +
-        '<span class="news-title-col">' +
-          (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
-        '</span>' +
+        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener">' + esc(n.title || '') + '</a>' : '<span>' + esc(n.title || '') + '</span>') +
       '</li>'
     ).join('');
   }
