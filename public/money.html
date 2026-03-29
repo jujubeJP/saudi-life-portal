@@ -185,7 +185,7 @@
         <input type="number" id="usdDisplay" readonly style="width:100%; padding:8px 10px; border:1px solid var(--border); border-radius:var(--radius-sm); font-size:1em; background:var(--bg); color:var(--text-secondary);">
       </div>
     </div>
-    <p style="font-size:0.75em; color:var(--text-tertiary);">※ 概算レート: 1 SAR ≈ 40.0円 / 1 USD = 3.75 SAR（固定）。実際のレートは金融機関により異なります。</p>
+    <p style="font-size:0.75em; color:var(--text-tertiary);">※ 概算レート: 1 SAR ≈ 40.0円 / 1 USD = 3.75 SAR（固定ペッグ制）。<br>参考レート取得日: 2026年3月30日時点。実際のレートは金融機関により異なります。最新レートは <a href="https://www.xe.com/currencyconverter/convert/?From=SAR&To=JPY" target="_blank" rel="noopener" style="color:var(--accent);">XE.com</a> でご確認ください。</p>
   </div>
 </section>
 
@@ -616,10 +616,12 @@ function drawChart() {
 }
 
 // Draw chart on page load
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', drawChart);
-} else {
-  drawChart();
+if (chartSvg) {
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', drawChart);
+  } else {
+    drawChart();
+  }
 }
 </script>
 
