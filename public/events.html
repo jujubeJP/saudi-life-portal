@@ -53,16 +53,21 @@
   <div class="nav-desktop" id="navDesktop">
     <a href="index.html">🏠 ホーム</a>
     <a href="news.html">📰 治安・ニュース</a>
-    <a href="life.html">🏠 生活・コミュニティ</a>
-    <a href="events.html" class="active">📅 イベント</a>
+    <a href="life.html">🏠 生活</a>
     <a href="saudi-time.html">🕐 サウジ時間</a>
     <a href="travel-info.html">✈️ 渡航情報</a>
-    <a href="vision2030.html">🏗️ VISION 2030</a>
     <a href="money.html">💰 通貨・銀行</a>
-    <a href="history-culture.html">🕌 歴史・文化</a>
-    <a href="emergency.html">🚨 緊急連絡先</a>
-    <a href="links.html">🔗 リンク集</a>
-    <a href="glossary.html">📖 用語集</a>
+    <div class="nav-more" id="navMore">
+      <button class="nav-more-btn has-active" id="navMoreBtn">その他 ▼</button>
+      <div class="nav-more-dropdown" id="navMoreDropdown">
+        <a href="events.html" class="active">📅 イベント</a>
+        <a href="vision2030.html">🏗️ VISION 2030</a>
+        <a href="history-culture.html">🕌 歴史・文化</a>
+        <a href="emergency.html">🚨 緊急連絡先</a>
+        <a href="links.html">🔗 リンク集</a>
+        <a href="glossary.html">📖 用語集</a>
+      </div>
+    </div>
     <div class="search-wrap" style="margin-left:auto;">
       <button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button>
     </div>
@@ -281,6 +286,21 @@ navLinks.querySelectorAll('a').forEach(link => {
     navLinks.classList.remove('open');
   });
 });
+
+// ===== NAV DROPDOWN =====
+var navMore = document.getElementById('navMore');
+var navMoreBtn = document.getElementById('navMoreBtn');
+if (navMore && navMoreBtn) {
+  navMoreBtn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    navMore.classList.toggle('open');
+  });
+  document.addEventListener('click', function(e) {
+    if (!navMore.contains(e.target)) {
+      navMore.classList.remove('open');
+    }
+  });
+}
 
 // ===== SEARCH =====
 const searchToggle = document.getElementById('searchToggle');
