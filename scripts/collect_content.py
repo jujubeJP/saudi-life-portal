@@ -355,6 +355,97 @@ def collect_embassy():
     return embassy_data, news_items
 
 
+def _parse_mofa_levels(text):
+    """外務省テキストから地域別の危険レベルを全件抽出する。
+
+    外務省の危険情報ページは概ね以下のパターン:
+      レベル3：渡航は止めてください。（渡航中止勧告）
+        ●リヤド州
+        ●東部州
+        ●ジャーザーン州 ...
+      レベル2：不要不急の渡航は止めてください。
+        ●イラクとの国境地帯
+      レベル1：十分注意してください。
+        ●上記を除く全土
+
+    返り値: [{"level": 3, "label": "渡航は止めてください", "regions": ["リヤド州", ...]}, ...]
+    """
+    LEVEL_LABELS = {
+        1: "十分注意してください",
+        2: "不要不急の渡航は止めてください",
+        3: "渡航は止めてください",
+        4: "退避してください",
+    }
+
+    # テキスト中の全「レベルN」出現位置を探す
+    level_pattern = re.compile(r"レベル\s*(\d)\s*[：:]")
+    matches = list(level_pattern.finditer(text))
+    if not matches:
+        return []
+
+    levels = []
+    for i, m in enumerate(matches):
+        level_num = int(m.group(1))
+        # このレベルセクションのテキスト範囲 = 現マッチ位置〜次のマッチ位置
+        start = m.end()
+        end = matches[i + 1].start() if i + 1 < len(matches) else min(start + 1500, len(text))
+        section = text[start:end]
+
+        # 地域名を抽出: ●マーク、番号付き（(1)）、括弧付き、行頭パターン
+        region_parts = []
+        # ●区切り
+        for rp in re.findall(r"[●・](.+?)(?=[●・\n]|$)", section):
+            rp = rp.strip().rstrip("。）)")
+            if rp and len(rp) < 80:
+                region_parts.append(rp)
+        # (1)(2) 番号区切り
+        if not region_parts:
+            for rp in re.findall(r"[（(]\d+[)）]\s*(.+?)(?=[（(]\d|$)", section):
+                rp = rp.strip().rstrip("。）)")
+                if rp and len(rp) < 80:
+                    region_parts.append(rp)
+        # フォールバック: レベル説明の直後〜改行までを1つの地域として扱う
+        if not region_parts:
+            lines = [ln.strip() for ln in section.split("\n") if ln.strip()]
+            for ln in lines[:5]:
+                # レベル説明文自体は除く
+                if "注意" in ln or "渡航" in ln or "退避" in ln or "不要不急" in ln:
+                    continue
+                if len(ln) > 2 and len(ln) < 80:
+                    region_parts.append(ln)
+
+        # 重複削除しつつ順序保持
+        seen = set()
+        regions = []
+        for r in region_parts:
+            if r not in seen:
+                seen.add(r)
+                regions.append(r)
+
+        label = LEVEL_LABELS.get(level_num, f"レベル{level_num}")
+        levels.append({
+            "level": level_num,
+            "label": label,
+            "regions": regions if regions else ["（地域詳細は外務省HPを確認してください）"],
+        })
+
+    # レベルの高い順にソート
+    levels.sort(key=lambda x: -x["level"])
+
+    # 同一レベルをマージ（同じレベルが複数箇所に出る場合）
+    merged = {}
+    for lv in levels:
+        key = lv["level"]
+        if key in merged:
+            merged[key]["regions"].extend(lv["regions"])
+        else:
+            merged[key] = lv
+    levels = sorted(merged.values(), key=lambda x: -x["level"])
+
+    print(f"[DEBUG] MOFA levels parsed: {json.dumps(levels, ensure_ascii=False)}")
+    return levels
+
+
 def collect_mofa():
     """外務省海外安全HPから情報を収集"""
     print("[INFO] Fetching MOFA page...")
@@ -364,12 +455,13 @@ def collect_mofa():
 
     text, links = parse_html(html)
 
-    # 危険レベルを抽出
-    level_match = re.search(r"レベル\s*(\d)\s*[：:]\s*(.+?)(?:\n|。|$)", text)
-    if level_match:
-        level_num = level_match.group(1)
-        level_desc = level_match.group(2).strip()
-        title = f"危険情報：レベル{level_num} {level_desc}"
+    # 地域別の危険レベルを全件抽出
+    levels = _parse_mofa_levels(text)
+
+    # タイトル: 最も高いレベルを使用
+    if levels:
+        highest = levels[0]  # 既に降順ソート済み
+        title = f"危険情報：レベル{highest['level']} {highest['label']}"
     else:
         # レベル表記がない場合のフォールバック
         if "十分注意" in text:
@@ -395,7 +487,8 @@ def collect_mofa():
     return {
         "title": title,
         "body": body,
-        "url": MOFA_URL
+        "url": MOFA_URL,
+        "levels": levels,
     }
 
 
