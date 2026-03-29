@@ -1,0 +1,102 @@
+name: AI Multi-Check Pipeline
+
+on:
+  schedule:
+    # 毎週水曜 01:00 UTC (JST 10:00) — 月曜のKBレビューチェックと曜日をずらす
+    - cron: '0 1 * * 3'
+  workflow_dispatch:
+    inputs:
+      check_type:
+        description: 'チェック種別'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - fact
+          - freshness
+          - consistency
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  multicheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Run AI Multi-Check
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          CHECK_TYPE="${{ github.event.inputs.check_type || 'all' }}"
+          python scripts/ai_multicheck.py --check "$CHECK_TYPE" || true
+
+      - name: Parse results
+        id: results
+        run: |
+          REPORT=$(cat knowledge-base/_reports/multicheck_latest.json 2>/dev/null || echo '{}')
+          FACT=$(echo "$REPORT" | python3 -c "import sys,json; r=json.load(sys.stdin); print(r.get('summary',{}).get('fact_issues',0))")
+          FRESH=$(echo "$REPORT" | python3 -c "import sys,json; r=json.load(sys.stdin); print(r.get('summary',{}).get('freshness_issues',0))")
+          CONFLICT=$(echo "$REPORT" | python3 -c "import sys,json; r=json.load(sys.stdin); print(r.get('summary',{}).get('consistency_conflicts',0))")
+          HIGH=$(echo "$REPORT" | python3 -c "import sys,json; r=json.load(sys.stdin); print(r.get('summary',{}).get('high_severity_count',0))")
+          TOTAL=$((FACT + FRESH + CONFLICT))
+          echo "total=$TOTAL" >> $GITHUB_OUTPUT
+          echo "fact=$FACT" >> $GITHUB_OUTPUT
+          echo "fresh=$FRESH" >> $GITHUB_OUTPUT
+          echo "conflict=$CONFLICT" >> $GITHUB_OUTPUT
+          echo "high=$HIGH" >> $GITHUB_OUTPUT
+
+      - name: Close previous multicheck issues
+        if: steps.results.outputs.total != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list --label "ai-multicheck" --state open --json number -q '.[].number' | while read num; do
+            gh issue close "$num" -c "新しいマルチチェック結果で置き換え"
+          done
+
+      - name: Create issue if problems found
+        if: steps.results.outputs.total != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          REPORT=$(cat knowledge-base/_reports/multicheck_latest.json)
+
+          # Build issue body
+          BODY="## 🔍 AI マルチチェック結果\n\n"
+          BODY+="| チェック | 検出数 |\n|---|---|\n"
+          BODY+="| ファクト問題 | ${{ steps.results.outputs.fact }} |\n"
+          BODY+="| 鮮度問題 | ${{ steps.results.outputs.fresh }} |\n"
+          BODY+="| 一貫性の矛盾 | ${{ steps.results.outputs.conflict }} |\n"
+          BODY+="| **高深刻度** | **${{ steps.results.outputs.high }}** |\n\n"
+
+          # High severity items
+          HIGH_ITEMS=$(echo "$REPORT" | python3 -c "
+          import sys, json
+          r = json.load(sys.stdin)
+          for section in ['fact_check', 'freshness_check']:
+              for item in r.get(section, []):
+                  for issue in item.get('result', {}).get('issues', []):
+                      if issue.get('severity') == 'high':
+                          print(f\"- [ ] **{item.get('file', '?')}**: {issue['problem']}\")
+          " 2>/dev/null || echo "- 詳細はレポートJSONを参照")
+
+          BODY+="### ⚠️ 要対応\n${HIGH_ITEMS}\n\n"
+          BODY+="---\n*自動生成: $(date -u +%Y-%m-%dT%H:%M:%SZ)*"
+
+          echo -e "$BODY" | gh issue create \
+            --title "🔍 AI マルチチェック: ${{ steps.results.outputs.total }}件の問題検出" \
+            --body-file - \
+            --label "ai-multicheck,automated"

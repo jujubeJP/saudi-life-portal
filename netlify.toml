@@ -10,3 +10,9 @@
   from = "/api/content"
   to = "/.netlify/functions/content"
   status = 200
+
+# チャットボット API
+[[redirects]]
+  from = "/api/chat"
+  to = "/.netlify/functions/chat"
+  status = 200
