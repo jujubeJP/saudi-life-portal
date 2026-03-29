@@ -215,6 +215,21 @@
   border-bottom: 1px solid var(--border-light);
   line-height: 1.6;
   font-size: 0.9em;
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+}
+.news-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  margin-right: 8px;
+  white-space: nowrap;
+}
+.news-body {
+  flex: 1;
+  min-width: 0;
 }
 
 .news-item:last-child {
@@ -775,8 +790,12 @@ function filterNews() {
     }
     ul.innerHTML = items.map(n =>
       '<li class="news-item">' +
-        '<span style="color:var(--text-muted);font-size:0.85em;margin-right:6px;">' + esc(n.date || '') + '</span>' +
-        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
+        '<span class="news-meta">' +
+          '<span style="color:var(--text-muted);font-size:0.85em;">' + esc(n.date || '') + '</span>' +
+        '</span>' +
+        '<span class="news-body">' +
+          (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
+        '</span>' +
       '</li>'
     ).join('');
   }
@@ -791,10 +810,14 @@ function filterNews() {
     }
     ul.innerHTML = items.map(n =>
       '<li class="news-item" data-category="' + esc(n.category || 'その他') + '">' +
-        '<span style="color:var(--text-muted);font-size:0.85em;margin-right:6px;white-space:nowrap;">' + esc(fmtNewsDate(n.date)) + '</span>' +
-        '<span style="display:inline-block;padding:1px 6px;border-radius:8px;background:var(--bg-secondary);color:var(--text-tertiary);font-size:0.78em;margin-right:6px;">' + esc(n.category || 'その他') + '</span>' +
-        '<span style="color:var(--text-tertiary);font-size:0.85em;margin-right:6px;">' + esc(n.source || '') + '</span>' +
-        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
+        '<span class="news-meta">' +
+          '<span style="color:var(--text-muted);font-size:0.85em;">' + esc(fmtNewsDate(n.date)) + '</span>' +
+          '<span style="display:inline-block;padding:1px 6px;border-radius:8px;background:var(--bg-secondary);color:var(--text-tertiary);font-size:0.78em;">' + esc(n.category || 'その他') + '</span>' +
+          '<span style="color:var(--text-tertiary);font-size:0.85em;">' + esc(n.source || '') + '</span>' +
+        '</span>' +
+        '<span class="news-body">' +
+          (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
+        '</span>' +
       '</li>'
     ).join('');
   }
