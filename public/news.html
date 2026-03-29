@@ -812,9 +812,7 @@ function filterNews() {
     }
     ul.innerHTML = items.map(n =>
       '<li class="news-item">' +
-        '<span class="news-meta-fixed" style="flex-basis:auto;">' +
-          '<span class="news-date-col">' + esc(n.date || '') + '</span>' +
-        '</span>' +
+        '<span class="news-date-col" style="flex:0 0 90px; margin-right:8px;">' + esc(n.date || '') + '</span>' +
         '<span class="news-title-col">' +
           (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
         '</span>' +
