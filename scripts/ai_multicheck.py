@@ -32,7 +32,7 @@ CONTENT_JSON = BASE_DIR / "public" / "data" / "content.json"
 REPORT_DIR = KB_DIR / "_reports"
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-MODEL = "claude-haiku-4-5-20241022"
+MODEL = "claude-haiku-4-5-20251001"
 MAX_TOKENS = 1024
 
 logging.basicConfig(

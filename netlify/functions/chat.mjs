@@ -8,7 +8,7 @@
  */
 
 const ANTHROPIC_API_KEY = Netlify.env.get("ANTHROPIC_API_KEY") || "";
-const MODEL = "claude-haiku-4-5-20241022";
+const MODEL = "claude-haiku-4-5-20251001";
 const MAX_CHUNKS = 5;
 const MAX_TOKENS = 1024;
 
