@@ -106,34 +106,7 @@
         <div class="card-label">外務省 海外安全情報</div>
 
         <!-- 地域別危険レベル -->
-        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:10px 0;" class="side-panels">
-          <!-- SVG色分け地図 -->
-          <div style="text-align:center;">
-            <svg viewBox="0 0 300 270" style="width:100%; max-width:280px;">
-              <!-- サウジアラビア簡易地図 -->
-              <!-- 主要部（レベル1: 黄色） -->
-              <path d="M70,35 L110,20 L150,15 L190,18 L230,30 L260,50 L280,75 L290,105 L295,140 L290,175 L275,210 L255,235 L230,252 L200,262 L170,265 L140,260 L115,248 L92,230 L72,205 L58,175 L50,140 L48,105 L52,70 Z" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.5"/>
-              <!-- イエメン国境地帯（レベル3: オレンジ） -->
-              <path d="M50,140 L58,175 L72,205 L92,230 L115,248 L140,260 L170,265 L170,250 L140,245 L115,235 L95,218 L78,195 L65,170 L55,145 Z" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
-              <!-- 凡例 -->
-              <rect x="10" y="5" width="12" height="12" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
-              <text x="26" y="15" font-size="9" fill="#333">レベル1：十分注意</text>
-              <rect x="10" y="22" width="12" height="12" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
-              <text x="26" y="32" font-size="9" fill="#333">レベル3：渡航中止勧告</text>
-              <!-- 都市マーカー -->
-              <circle cx="195" cy="115" r="3" fill="#333"/>
-              <text x="202" y="118" font-size="8" fill="#666">リヤド</text>
-              <circle cx="85" cy="155" r="3" fill="#333"/>
-              <text x="60" y="152" font-size="8" fill="#666">ジェッダ</text>
-              <circle cx="270" cy="120" r="3" fill="#333"/>
-              <text x="240" y="133" font-size="8" fill="#666">ダンマーム</text>
-              <circle cx="78" cy="185" r="3" fill="#333"/>
-              <text x="55" y="198" font-size="8" fill="#666">マッカ</text>
-            </svg>
-          </div>
-
-          <!-- 地域別レベルテーブル -->
-          <div>
+        <div style="margin:10px 0;">
             <table style="width:100%; font-size:0.82em; border-collapse:collapse;">
               <tr>
                 <td style="padding:6px 4px; border-bottom:1px solid var(--border-light);">
@@ -157,7 +130,6 @@
             <div style="margin-top:8px; font-size:0.78em; color:var(--text-tertiary);">
               ※ 危険レベルは2026年3月時点。最新情報は必ず<a href="https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html" target="_blank" rel="noopener" style="color:var(--accent);">外務省 海外安全HP</a>でご確認ください。
             </div>
-          </div>
         </div>
 
         <div id="security-mofa-detail" style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.6; margin-top:8px; padding-top:8px; border-top:1px solid var(--border-light);">
@@ -470,7 +442,7 @@ document.querySelectorAll('nav a[href*="#"]').forEach(link => {
     });
   });
 
-  const SAFETY_KEYWORDS = ['安全','注意喚起','テロ','犯罪','緊急','危険','爆発','事件','事故','避難','不審','警戒','感染症','渡航','退避','誘拐','デモ','暴動','地震','洪水'];
+  const SAFETY_KEYWORDS = ['安全','注意喚起','テロ','犯罪','緊急','危険','爆発','事件','事故','避難','不審','警戒','感染症','退避','誘拐','デモ','暴動','地震','洪水','在留届','たびレジ','情勢','注意','スポット情報','広域情報','邦人','保護','治安'];
 
   function isSafetyNews(title) {
     return SAFETY_KEYWORDS.some(kw => title.includes(kw));
