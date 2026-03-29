@@ -33,11 +33,29 @@
   .grid-2col {
     grid-template-columns: 1fr 1fr;
   }
+  main {
+    padding: 0 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    padding: 0 32px;
+  }
 }
 
 /* Full-width sections (notes, single panels) */
 .full-width {
   grid-column: 1 / -1;
+}
+
+/* Main content wrapper - apply container padding */
+main {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 16px;
+  position: relative;
+  z-index: 1;
 }
 </style>
 </head>

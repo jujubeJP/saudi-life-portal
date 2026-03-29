@@ -20,6 +20,9 @@
 .hospital-card { padding:12px; background:var(--bg-secondary); border-radius:var(--radius-sm); margin:8px 0; border-left:4px solid var(--accent); }
 .hospital-card h4 { margin:0 0 4px; font-size:0.95em; color:var(--text-primary); }
 .hospital-card p { font-size:var(--font-size-sm); color:var(--text-secondary); margin:4px 0; line-height:1.6; }
+.app-btn { display:inline-block; padding:4px 10px; border-radius:14px; font-size:0.72rem; text-decoration:none; font-weight:600; margin:2px; }
+.app-btn.ios { background:#000; color:#fff; }
+.app-btn.android { background:#1b6b4a; color:#fff; }
 .cost-table { width:100%; font-size:0.85em; }
 .cost-table td { padding:6px; border-bottom:1px solid var(--border-light); }
 .cost-table tr:last-child td { border-bottom:none; }
@@ -787,7 +790,35 @@
       医療情報や医療サービスの利用に役立つアプリやウェブサイトをまとめました。
     </p>
 
-    <h4 class="sub-title">医療予約・相談アプリ</h4>
+    <h4 class="sub-title">サウジ保健省（MOH）公式アプリ</h4>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;" class="side-panels">
+      <div class="hospital-card">
+        <h4>Seha</h4>
+        <p>サウジアラビア保健省公式アプリ。医療サービス、病院情報、健康記録の管理が可能。</p>
+        <div style="margin-top:8px;">
+          <a href="https://apps.apple.com/app/seha/id1459837498" class="app-btn ios" target="_blank">🍎 App Store</a>
+          <a href="https://play.google.com/store/apps/details?id=sa.gov.moh.seha" class="app-btn android" target="_blank">🔵 Google Play</a>
+        </div>
+      </div>
+      <div class="hospital-card">
+        <h4>Mawid</h4>
+        <p>保健省公式予約アプリ。病院やクリニックの診察予約、予約管理が可能。</p>
+        <div style="margin-top:8px;">
+          <a href="https://apps.apple.com/app/mawid/id1186498417" class="app-btn ios" target="_blank">🍎 App Store</a>
+          <a href="https://play.google.com/store/apps/details?id=com.moh.mawid" class="app-btn android" target="_blank">🔵 Google Play</a>
+        </div>
+      </div>
+      <div class="hospital-card">
+        <h4>Wasfaty</h4>
+        <p>保健省公式電子処方箋アプリ。医者の処方箋をデジタル化、薬局で利用可能。</p>
+        <div style="margin-top:8px;">
+          <a href="https://apps.apple.com/app/wasfaty/id1445498498" class="app-btn ios" target="_blank">🍎 App Store</a>
+          <a href="https://play.google.com/store/apps/details?id=sa.gov.moh.wasfaty" class="app-btn android" target="_blank">🔵 Google Play</a>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="sub-title">その他の医療予約・相談アプリ</h4>
     <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;" class="side-panels">
       <div class="hospital-card">
         <h4>Careem Health</h4>

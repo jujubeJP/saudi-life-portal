@@ -51,6 +51,12 @@
   font-size: 1em;
 }
 
+.carrier-card .carrier-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
 .carrier-card .info-box {
   background: var(--bg-tertiary);
   padding: 12px;
@@ -313,25 +319,27 @@
       <!-- STC Card -->
       <div class="carrier-card">
         <h3>🟡 STC</h3>
-        <p class="carrier-highlight">Saudi Telecom Company - 最大手キャリア・最も広いカバレッジ</p>
+        <div class="carrier-content">
+          <p class="carrier-highlight">Saudi Telecom Company - 最大手キャリア・最も広いカバレッジ</p>
 
-        <div class="info-box">
-          <strong>購入方法：</strong>
-          <ul style="margin: 8px 0 0 0; padding-left: 16px;">
-            <li>STCストア（ショッピングモール内など）</li>
-            <li>Jarir Bookstore などの電器量販店</li>
-            <li>空港のカウンター</li>
-            <li>セブンイレブンなどのコンビニ</li>
-          </ul>
-        </div>
+          <div class="info-box">
+            <strong>購入方法：</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 16px;">
+              <li>STCストア（ショッピングモール内など）</li>
+              <li>Jarir Bookstore などの電器量販店</li>
+              <li>空港のカウンター</li>
+              <li>セブンイレブンなどのコンビニ</li>
+            </ul>
+          </div>
 
-        <div class="info-box">
-          <strong>料金体系（2026年）：</strong>
-          <ul style="margin: 8px 0 0 0; padding-left: 16px; font-size: 0.95em;">
-            <li><strong>プリペイド（Hittelaa）：</strong> 月額15～50SAR、学生に人気</li>
-            <li><strong>ポストペイド：</strong> 月49～149SAR、給与引き落とし</li>
-            <li><strong>データパック：</strong> 500MB～100GB、7～30日単位</li>
-          </ul>
+          <div class="info-box">
+            <strong>料金体系（2026年）：</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 16px; font-size: 0.95em;">
+              <li><strong>プリペイド（Hittelaa）：</strong> 月額15～50SAR、学生に人気</li>
+              <li><strong>ポストペイド：</strong> 月49～149SAR、給与引き落とし</li>
+              <li><strong>データパック：</strong> 500MB～100GB、7～30日単位</li>
+            </ul>
+          </div>
         </div>
 
         <p style="font-size: 0.9em; color: var(--text-secondary); margin-top: auto;">
@@ -342,25 +350,27 @@
       <!-- Mobily Card -->
       <div class="carrier-card">
         <h3>🔵 Mobily</h3>
-        <p class="carrier-highlight">若年層向け・競争的な料金プラン</p>
+        <div class="carrier-content">
+          <p class="carrier-highlight">若年層向け・競争的な料金プラン</p>
 
-        <div class="info-box">
-          <strong>購入方法：</strong>
-          <ul style="margin: 8px 0 0 0; padding-left: 16px;">
-            <li>Mobilyショップ（都市部）</li>
-            <li>Carrefour, Spinneys などのスーパー</li>
-            <li>オンライン（公式サイト）で配送</li>
-            <li>モール内の携帯ショップ</li>
-          </ul>
-        </div>
+          <div class="info-box">
+            <strong>購入方法：</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 16px;">
+              <li>Mobilyショップ（都市部）</li>
+              <li>Carrefour, Spinneys などのスーパー</li>
+              <li>オンライン（公式サイト）で配送</li>
+              <li>モール内の携帯ショップ</li>
+            </ul>
+          </div>
 
-        <div class="info-box">
-          <strong>料金体系：</strong>
-          <ul style="margin: 8px 0 0 0; padding-left: 16px; font-size: 0.95em;">
-            <li><strong>プリペイド（I&I）：</strong> STCと同様、若年層割引豊富</li>
-            <li><strong>ポストペイド：</strong> 月39～139SAR、学割プランあり</li>
-            <li><strong>家族プラン：</strong> 複数回線契約時に割引</li>
-          </ul>
+          <div class="info-box">
+            <strong>料金体系：</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 16px; font-size: 0.95em;">
+              <li><strong>プリペイド（I&I）：</strong> STCと同様、若年層割引豊富</li>
+              <li><strong>ポストペイド：</strong> 月39～139SAR、学割プランあり</li>
+              <li><strong>家族プラン：</strong> 複数回線契約時に割引</li>
+            </ul>
+          </div>
         </div>
 
         <p style="font-size: 0.9em; color: var(--text-secondary); margin-top: auto;">
@@ -371,24 +381,26 @@
       <!-- Zain Card -->
       <div class="carrier-card">
         <h3>🟢 Zain</h3>
-        <p class="carrier-highlight">国際ローミング・ビジネス向け</p>
+        <div class="carrier-content">
+          <p class="carrier-highlight">国際ローミング・ビジネス向け</p>
 
-        <div class="info-box">
-          <strong>購入方法：</strong>
-          <ul style="margin: 8px 0 0 0; padding-left: 16px;">
-            <li>Zainショップ</li>
-            <li>スーパー・モール内の携帯コーナー</li>
-            <li>オンライン注文</li>
-          </ul>
-        </div>
+          <div class="info-box">
+            <strong>購入方法：</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 16px;">
+              <li>Zainショップ</li>
+              <li>スーパー・モール内の携帯コーナー</li>
+              <li>オンライン注文</li>
+            </ul>
+          </div>
 
-        <div class="info-box">
-          <strong>料金体系：</strong>
-          <ul style="margin: 8px 0 0 0; padding-left: 16px; font-size: 0.95em;">
-            <li><strong>プリペイド：</strong> STCと同水準、従量制もあり</li>
-            <li><strong>ポストペイド：</strong> 月49～169SAR、国際ローミング重視</li>
-            <li><strong>国際ローミング：</strong> 割引率が良い傾向</li>
-          </ul>
+          <div class="info-box">
+            <strong>料金体系：</strong>
+            <ul style="margin: 8px 0 0 0; padding-left: 16px; font-size: 0.95em;">
+              <li><strong>プリペイド：</strong> STCと同水準、従量制もあり</li>
+              <li><strong>ポストペイド：</strong> 月49～169SAR、国際ローミング重視</li>
+              <li><strong>国際ローミング：</strong> 割引率が良い傾向</li>
+            </ul>
+          </div>
         </div>
 
         <p style="font-size: 0.9em; color: var(--text-secondary); margin-top: auto;">
