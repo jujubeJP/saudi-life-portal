@@ -608,9 +608,13 @@ function escapeHtml(str) {
     }
     ul.innerHTML = safetyItems.slice(0, 3).map(n =>
       '<li>' +
-        '<span style="color:#c62828;font-size:0.9em;margin-right:4px;">⚠️</span>' +
-        '<span style="color:var(--text-muted);margin-right:6px;">' + esc(n.date || '') + '</span>' +
-        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
+        '<span class="n-meta">' +
+          '<span style="color:#c62828;font-size:0.9em;">⚠️</span>' +
+          '<span class="n-date">' + esc(n.date || '') + '</span>' +
+        '</span>' +
+        '<span class="n-title">' +
+          (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
+        '</span>' +
       '</li>'
     ).join('');
   }
