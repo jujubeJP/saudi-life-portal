@@ -26,7 +26,8 @@
 <link rel="icon" href="favicon.ico">
 <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-    <title>都市ガイド - サウジナビ</title>
+<title>都市ガイド - サウジナビ</title>
+<link rel="stylesheet" href="assets/shared.css">
     <style>
         * {
             margin: 0;
@@ -41,239 +42,6 @@
             background-color: #f9f9f9;
         }
 
-        /* Header */
-        header {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: white;
-            padding: 1rem 2rem;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        .header-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-
-        .logo {
-            font-size: 1.8rem;
-            font-weight: bold;
-            text-decoration: none;
-            color: white;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .badges {
-            display: flex;
-            gap: 0.8rem;
-            font-size: 0.85rem;
-            flex-wrap: wrap;
-        }
-
-        .badge {
-            background-color: rgba(255,255,255,0.2);
-            padding: 0.4rem 0.8rem;
-            border-radius: 20px;
-            border: 1px solid rgba(255,255,255,0.4);
-        }
-
-        .badge.vision {
-            background-color: rgba(34, 139, 34, 0.3);
-            border-color: rgba(34, 139, 34, 0.6);
-        }
-
-        .badge.expo {
-            background-color: rgba(220, 20, 60, 0.3);
-            border-color: rgba(220, 20, 60, 0.6);
-        }
-
-        /* Navigation */
-        nav {
-            background-color: #f0f0f0;
-            border-bottom: 2px solid #ddd;
-            padding: 0;
-            position: sticky;
-            top: 70px;
-            z-index: 99;
-        }
-
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 2rem;
-        }
-
-        .nav-links {
-            display: none;
-            list-style: none;
-            gap: 0;
-        }
-
-        .nav-links.active {
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            right: 0;
-            background-color: #f0f0f0;
-            border-bottom: 2px solid #ddd;
-        }
-
-        .nav-links li {
-            border-bottom: 1px solid #ddd;
-        }
-
-        .nav-links a {
-            display: block;
-            padding: 0.8rem 2rem;
-            color: #333;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
-
-        .nav-links a:hover,
-        .nav-links a.active {
-            background-color: #e0e0e0;
-            color: #1e3c72;
-            font-weight: bold;
-        }
-
-        .hamburger {
-            display: block;
-            background: none;
-            border: none;
-            color: #333;
-            font-size: 1.5rem;
-            cursor: pointer;
-        }
-
-        .hamburger:hover {
-            color: #1e3c72;
-        }
-
-        /* Desktop Navigation */
-        @media (min-width: 768px) {
-            .hamburger {
-                display: none;
-            }
-
-            .nav-links {
-                display: flex !important;
-                flex-direction: row;
-                position: static;
-                background-color: transparent;
-                border: none;
-            }
-
-            .nav-links li {
-                border: none;
-            }
-
-            .nav-links a {
-                padding: 1rem 0.8rem;
-                border-bottom: 3px solid transparent;
-            }
-
-            .nav-links a:hover,
-            .nav-links a.active {
-                background-color: transparent;
-                border-bottom-color: #1e3c72;
-            }
-
-            .nav-dropdown-trigger {
-                position: relative;
-                cursor: pointer;
-            }
-
-            .nav-dropdown {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                background-color: white;
-                border: 1px solid #ddd;
-                border-radius: 4px;
-                min-width: 150px;
-                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-                z-index: 200;
-            }
-
-            .nav-dropdown-trigger:hover .nav-dropdown {
-                display: block;
-            }
-
-            .nav-dropdown a {
-                display: block;
-                padding: 0.8rem 1rem;
-                color: #333;
-                text-decoration: none;
-                border: none;
-                padding-left: 1rem;
-            }
-
-            .nav-dropdown a:hover {
-                background-color: #f0f0f0;
-            }
-        }
-
-        /* Search Box */
-        .search-box {
-            display: flex;
-            gap: 0.5rem;
-            margin-left: auto;
-        }
-
-        .search-box input {
-            padding: 0.5rem 1rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 0.9rem;
-            width: 200px;
-        }
-
-        .search-box input:focus {
-            outline: none;
-            border-color: #1e3c72;
-            box-shadow: 0 0 5px rgba(30, 60, 114, 0.3);
-        }
-
-        .search-box button {
-            padding: 0.5rem 1rem;
-            background-color: #1e3c72;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 0.9rem;
-        }
-
-        .search-box button:hover {
-            background-color: #2a5298;
-        }
-
-        @media (max-width: 768px) {
-            .search-box {
-                width: 100%;
-                margin: 1rem 0 0 0;
-            }
-
-            .search-box input {
-                flex: 1;
-            }
-        }
 
         /* Main Content */
         main {
@@ -454,72 +222,87 @@
             main {
                 padding: 0 1rem;
             }
-
-            .header-container {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .badges {
-                width: 100%;
-                justify-content: flex-start;
-            }
-
-            .nav-container {
-                padding: 0 1rem;
-            }
         }
     </style>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="header-container">
-            <a href="index.html" class="logo">🇸🇦 サウジナビ</a>
-            <div class="badges">
-                <div class="badge vision">Vision 2030</div>
-                <div class="badge expo">Expo 2030 RIYADH</div>
-                <div class="badge">Visit Saudi</div>
-            </div>
-        </div>
-    </header>
+<header>
+  <div class="container">
+    <div class="header-badges">
+      <a href="https://www.vision2030.gov.sa/" target="_blank" rel="noopener" class="header-badge vision">🌿 VISION 2030</a>
+      <a href="https://riyadhexpo2030.sa/" target="_blank" rel="noopener" class="header-badge expo">🌍 EXPO 2030 RIYADH</a>
+      <a href="https://www.visitsaudi.com/" target="_blank" rel="noopener" class="header-badge tourism">✨ Visit Saudi</a>
+    </div>
+    <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
+    <p class="subtitle">サウジアラビア日本語情報ポータルサイト</p>
+    <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
 
-    <!-- Navigation -->
-    <nav>
-        <div class="nav-container">
-            <button class="hamburger" id="hamburger">☰</button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html">🏠 ホーム</a></li>
-                <li><a href="news.html">📰 治安・ニュース</a></li>
-                <li><a href="life.html">🏠 生活ガイド</a></li>
-                <li><a href="saudi-time.html">🕐 サウジ時間</a></li>
-                <li><a href="travel-info.html">✈️ 渡航情報</a></li>
-                <li><a href="money.html">💰 通貨・銀行</a></li>
-                <li class="nav-dropdown-trigger">
-                    <a href="#">その他 ▼</a>
-                    <div class="nav-dropdown">
-                        <a href="telecom.html">📱 通信・アプリ</a>
-                        <a href="transport.html">🚗 国内交通</a>
-                        <a href="food.html">🍽️ サウジ料理</a>
-                        <a href="events.html">📅 イベント</a>
-                        <a href="vision2030.html">🏗️ VISION 2030</a>
-                        <a href="history-culture.html">🕌 歴史・文化</a>
-                        <a href="city-guide.html" class="active">🏙️ 都市ガイド</a>
-                        <a href="medical.html">🏥 医療</a>
-                        <a href="entertainment.html">🎡 娯楽</a>
-                        <a href="business.html">💼 ビジネスマナー</a>
-                        <a href="emergency.html">🚨 緊急連絡先</a>
-                        <a href="links.html">🔗 リンク集</a>
-                        <a href="glossary.html">📖 用語集</a>
-                    </div>
-                </li>
-            </ul>
-            <div class="search-box">
-                <input type="text" placeholder="検索..." id="searchInput">
-                <button id="searchBtn">検索</button>
-            </div>
-        </div>
-    </nav>
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 サウジナビ</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap"><button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button></div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">🏠 ホーム</a>
+    <a href="for-first-visit.html">✈️ 初めての方へ</a>
+    <a href="travel-info.html">🛂 渡航情報</a>
+    <a href="news.html">📰 治安・ニュース</a>
+    <a href="life.html">🏠 生活ガイド</a>
+    <a href="money.html">💰 お金・通信</a>
+    <a href="business.html">💼 ビジネス</a>
+    <a href="food.html">🍽️ サウジ料理</a>
+    <a href="transport.html">🚗 国内交通</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="entertainment.html">🎡 娯楽</a>
+    <a href="misunderstandings.html">⚠️ 誤解しやすいこと</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="city-guide.html" class="active">🏙️ 都市ガイド</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="telecom.html">📱 通信・アプリ</a>
+    <a href="medical.html">🏥 医療</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+  </div>
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">🏠 ホーム</a>
+    <a href="for-first-visit.html">✈️ 初めての方へ</a>
+    <a href="travel-info.html">🛂 渡航情報</a>
+    <a href="news.html">📰 治安・ニュース</a>
+    <a href="life.html">🏠 生活ガイド</a>
+    <a href="money.html">💰 お金・通信</a>
+    <div class="nav-more" id="navMore">
+      <button class="nav-more-btn" id="navMoreBtn">その他 ▼</button>
+      <div class="nav-more-dropdown" id="navMoreDropdown">
+        <a href="business.html">💼 ビジネス</a>
+        <a href="food.html">🍽️ サウジ料理</a>
+        <a href="transport.html">🚗 国内交通</a>
+        <a href="events.html">📅 イベント</a>
+        <a href="entertainment.html">🎡 娯楽</a>
+        <a href="misunderstandings.html">⚠️ 誤解しやすいこと</a>
+        <a href="emergency.html">🚨 緊急連絡先</a>
+        <a href="saudi-time.html">🕐 サウジ時間</a>
+        <a href="city-guide.html" class="active">🏙️ 都市ガイド</a>
+        <a href="vision2030.html">🏗️ VISION 2030</a>
+        <a href="history-culture.html">🕌 歴史・文化</a>
+        <a href="telecom.html">📱 通信・アプリ</a>
+        <a href="medical.html">🏥 医療</a>
+        <a href="links.html">🔗 リンク集</a>
+        <a href="glossary.html">📖 用語集</a>
+      </div>
+    </div>
+    <div class="search-wrap" style="margin-left:auto;">
+      <button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button>
+    </div>
+  </div>
+</nav>
 
     <!-- Main Content -->
     <main>
@@ -803,55 +586,6 @@
         </div>
     </footer>
 
-    <script>
-        // Hamburger Menu Toggle
-        const hamburger = document.getElementById('hamburger');
-        const navLinks = document.getElementById('navLinks');
-
-        hamburger.addEventListener('click', function() {
-            navLinks.classList.toggle('active');
-        });
-
-        // Close menu when a link is clicked
-        navLinks.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', function() {
-                navLinks.classList.remove('active');
-            });
-        });
-
-        // Search functionality
-        const searchBtn = document.getElementById('searchBtn');
-        const searchInput = document.getElementById('searchInput');
-
-        searchBtn.addEventListener('click', function() {
-            const query = searchInput.value.trim();
-            if (query) {
-                // Simple search implementation - could be enhanced
-                const mainText = document.body.innerText.toLowerCase();
-                if (mainText.includes(query.toLowerCase())) {
-                    alert(`検索キーワード「${query}」が見つかりました。`);
-                } else {
-                    alert(`申し訳ございません。検索キーワード「${query}」は見つかりませんでした。`);
-                }
-            }
-        });
-
-        searchInput.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                searchBtn.click();
-            }
-        });
-
-        // Mark current page as active
-        document.addEventListener('DOMContentLoaded', function() {
-            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-            document.querySelectorAll('a').forEach(link => {
-                const href = link.getAttribute('href');
-                if (href === currentPage || (currentPage === '' && href === 'index.html')) {
-                    link.classList.add('active');
-                }
-            });
-        });
-    </script>
+    <script src="assets/shared.js"></script>
 </body>
 </html>
