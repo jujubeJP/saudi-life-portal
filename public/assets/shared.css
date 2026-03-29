@@ -121,12 +121,12 @@ header .subtitle {
   font-weight: 400;
 }
 
-/* Header support badges */
+/* Header support badges - positioned at top */
 .header-badges {
   display: flex;
   justify-content: center;
-  gap: 12px;
-  margin-top: 12px;
+  gap: 10px;
+  margin-bottom: 14px;
 }
 .header-badge {
   display: inline-flex;
