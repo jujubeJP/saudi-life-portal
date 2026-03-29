@@ -23,12 +23,27 @@
 .cost-table { width:100%; font-size:0.85em; }
 .cost-table td { padding:6px; border-bottom:1px solid var(--border-light); }
 .cost-table tr:last-child td { border-bottom:none; }
-@media (min-width: 900px) {
-  .two-col { column-count: 2; column-gap: 28px; }
-  .two-col > * { break-inside: avoid; }
+
+/* New Grid-based Layouts */
+.side-panels { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+.hospital-grid { display:grid; grid-template-columns:1fr; gap:12px; }
+.vaccine-grid { display:grid; grid-template-columns:1fr; gap:16px; }
+.health-issues-grid { display:grid; grid-template-columns:1fr; gap:12px; }
+.mental-health-grid { display:grid; grid-template-columns:1fr; gap:16px; }
+
+@media (min-width: 768px) {
+  .hospital-grid { grid-template-columns: 1fr 1fr; }
+  .vaccine-grid { grid-template-columns: 1fr 1fr; }
+  .health-issues-grid { grid-template-columns: 1fr 1fr; }
+  .mental-health-grid { grid-template-columns: 1fr 1fr; }
 }
+
 @media (max-width: 640px) {
   .side-panels { grid-template-columns: 1fr !important; }
+  .hospital-grid { grid-template-columns: 1fr !important; }
+  .vaccine-grid { grid-template-columns: 1fr !important; }
+  .health-issues-grid { grid-template-columns: 1fr !important; }
+  .mental-health-grid { grid-template-columns: 1fr !important; }
 }
 </style>
 </head>
@@ -134,26 +149,42 @@
 <section class="compact-section">
   <div class="card">
     <h3 class="section-title">🏥 医療システム概要</h3>
-    <div class="two-col">
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        サウジアラビアの医療システムは、公立病院と民間病院の二本立てです。国民と長期在住者は公立病院の利用が比較的安価ですが、待ち時間が長い傾向にあります。民間病院は料金が高い代わりに、より迅速なサービスと英語対応が充実しています。
-      </p>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:12px;">
+      サウジアラビアの医療システムは、公立病院と民間病院の二本立てです。国民と長期在住者は公立病院の利用が比較的安価ですが、待ち時間が長い傾向にあります。民間病院は料金が高い代わりに、より迅速なサービスと英語対応が充実しています。
+    </p>
 
-      <h4 class="sub-title">公立病院（Government Hospitals）</h4>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-        <strong>利点：</strong>費用が安い、医療レベルは高い<br>
-        <strong>欠点：</strong>待ち時間が長い（数時間〜数日）、医者の診察までに時間がかかる、ドイツ語や日本語対応が少ない<br>
-        <strong>対象者：</strong>サウジ国民、GCC国籍者、労働許可者、長期ビザ保持者
-      </p>
+    <div class="tip-box" style="margin-bottom:12px;">💡 観光客や短期滞在者は民間病院の利用を強く推奨します。海外旅行保険に加入していることを確認してから受診してください。</div>
+  </div>
+</section>
 
-      <h4 class="sub-title">民間病院（Private Hospitals）</h4>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-        <strong>利点：</strong>待ち時間が短い、英語対応が充実、設備が充実している<br>
-        <strong>欠点：</strong>費用が高い（公立の3〜5倍）、事前の健康保険加入が推奨される<br>
-        <strong>対象者：</strong>観光客、短期滞在者、保険加入者
-      </p>
-
-      <div class="tip-box">💡 観光客や短期滞在者は民間病院の利用を強く推奨します。海外旅行保険に加入していることを確認してから受診してください。</div>
+<!-- ===== 1b. 公立病院 vs 民間病院 ===== -->
+<section class="compact-section">
+  <div class="card">
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+      <div>
+        <h4 class="sub-title">公立病院（Government Hospitals）</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          <strong>利点：</strong>費用が安い、医療レベルは高い
+        </p>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          <strong>欠点：</strong>待ち時間が長い（数時間〜数日）、医者の診察までに時間がかかる、ドイツ語や日本語対応が少ない
+        </p>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+          <strong>対象者：</strong>サウジ国民、GCC国籍者、労働許可者、長期ビザ保持者
+        </p>
+      </div>
+      <div>
+        <h4 class="sub-title">民間病院（Private Hospitals）</h4>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          <strong>利点：</strong>待ち時間が短い、英語対応が充実、設備が充実している
+        </p>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+          <strong>欠点：</strong>費用が高い（公立の3〜5倍）、事前の健康保険加入が推奨される
+        </p>
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
+          <strong>対象者：</strong>観光客、短期滞在者、保険加入者
+        </p>
+      </div>
     </div>
   </div>
 </section>
@@ -166,43 +197,45 @@
       リヤド、ジェッダ、ダンマームの主要都市にある大規模民間病院をまとめました。英語対応が充実しており、国際的な医療標準を維持しています。
     </p>
 
-    <h4 class="sub-title">キング・ファイサル専門病院（King Faisal Specialist Hospital & Research Centre）</h4>
-    <div class="hospital-card">
-      <h4>位置：リヤド・ジェッダ・ダンマーム</h4>
-      <p><strong>概要：</strong>サウジアラビアで最も評判の高い専門病院。各科の医者が高度な専門知識を持つ。</p>
-      <p><strong>特徴：</strong>がん治療、心臓病、移植手術などの高度な医療に対応。国際患者向けのコンシェルジュサービスあり。</p>
-      <p><strong>言語：</strong>英語、フランス語、イタリア語対応</p>
-      <p><strong>電話（リヤド）：</strong>+966 11 4414427</p>
+    <div class="hospital-grid">
+      <div class="hospital-card">
+        <h4>キング・ファイサル専門病院</h4>
+        <p><strong>位置：</strong>リヤド・ジェッダ・ダンマーム</p>
+        <p><strong>概要：</strong>サウジアラビアで最も評判の高い専門病院。各科の医者が高度な専門知識を持つ。</p>
+        <p><strong>特徴：</strong>がん治療、心臓病、移植手術などの高度な医療に対応。国際患者向けのコンシェルジュサービスあり。</p>
+        <p><strong>言語：</strong>英語、フランス語、イタリア語対応</p>
+        <p><strong>電話（リヤド）：</strong>+966 11 4414427</p>
+      </div>
+
+      <div class="hospital-card">
+        <h4>ドクター・スレイマン・アルハビブ病院</h4>
+        <p><strong>位置：</strong>リヤド・ジェッダ・ダンマーム・他多数</p>
+        <p><strong>概要：</strong>中東全域に展開する大規模民間病院チェーン。最新設備が揃っており、救急車対応も24時間体制。</p>
+        <p><strong>特徴：</strong>複数の専門医が在籍。日本語を話す医療スタッフがいる場合もある。予約システムが整備されている。</p>
+        <p><strong>言語：</strong>英語、アラビア語、その他言語対応</p>
+        <p><strong>電話（リヤド）：</strong>+966 11 4646464</p>
+      </div>
+
+      <div class="hospital-card">
+        <h4>サウジドイツ病院</h4>
+        <p><strong>位置：</strong>リヤド・ジェッダ・ダンマーム</p>
+        <p><strong>概要：</strong>サウジアラビアとドイツの医療技術を結合。欧州基準の医療サービスを提供。</p>
+        <p><strong>特徴：</strong>整形外科、心臓科、産婦人科が専門。ヨーロッパの医学基準に従った診療。</p>
+        <p><strong>言語：</strong>英語、ドイツ語対応</p>
+        <p><strong>電話（リヤド）：</strong>+966 11 8055555</p>
+      </div>
+
+      <div class="hospital-card">
+        <h4>キングダム病院</h4>
+        <p><strong>位置：</strong>リヤド・ジェッダ・ダンマーム</p>
+        <p><strong>概要：</strong>急速に成長する民間病院チェーン。若い世代の医者を中心に構成。</p>
+        <p><strong>特徴：</strong>最新の医療技術を導入。救急車から入院まで一貫した対応。</p>
+        <p><strong>言語：</strong>英語対応</p>
+        <p><strong>電話（リヤド）：</strong>+966 11 4801111</p>
+      </div>
     </div>
 
-    <h4 class="sub-title">ドクター・スレイマン・アルハビブ病院（Dr. Sulaiman Al Habib Medical Services）</h4>
-    <div class="hospital-card">
-      <h4>位置：リヤド・ジェッダ・ダンマーム・他多数</h4>
-      <p><strong>概要：</strong>中東全域に展開する大規模民間病院チェーン。最新設備が揃っており、救急車対応も24時間体制。</p>
-      <p><strong>特徴：</strong>複数の専門医が在籍。日本語を話す医療スタッフがいる場合もある。予約システムが整備されている。</p>
-      <p><strong>言語：</strong>英語、アラビア語、その他言語対応</p>
-      <p><strong>電話（リヤド）：</strong>+966 11 4646464</p>
-    </div>
-
-    <h4 class="sub-title">サウジドイツ病院（Saudi German Hospital）</h4>
-    <div class="hospital-card">
-      <h4>位置：リヤド・ジェッダ・ダンマーム</h4>
-      <p><strong>概要：</strong>サウジアラビアとドイツの医療技術を結合。欧州基準の医療サービスを提供。</p>
-      <p><strong>特徴：</strong>整形外科、心臓科、産婦人科が専門。ヨーロッパの医学基準に従った診療。</p>
-      <p><strong>言語：</strong>英語、ドイツ語対応</p>
-      <p><strong>電話（リヤド）：</strong>+966 11 8055555</p>
-    </div>
-
-    <h4 class="sub-title">キングダム病院（Kingdom Hospital）</h4>
-    <div class="hospital-card">
-      <h4>位置：リヤド・ジェッダ・ダンマーム</h4>
-      <p><strong>概要：</strong>急速に成長する民間病院チェーン。若い世代の医者を中心に構成。</p>
-      <p><strong>特徴：</strong>最新の医療技術を導入。救急車から入院まで一貫した対応。</p>
-      <p><strong>言語：</strong>英語対応</p>
-      <p><strong>電話（リヤド）：</strong>+966 11 4801111</p>
-    </div>
-
-    <div class="tip-box">💡 病院によって得意分野が異なります。歯科、眼科、皮膚科などの専門診療を希望する場合は、事前に電話で該当科の医者がいるか確認することをお勧めします。</div>
+    <div class="tip-box" style="margin-top:12px;">💡 病院によって得意分野が異なります。歯科、眼科、皮膚科などの専門診療を希望する場合は、事前に電話で該当科の医者がいるか確認することをお勧めします。</div>
   </div>
 </section>
 
@@ -210,7 +243,7 @@
 <section class="compact-section">
   <div class="card">
     <h3 class="section-title">🔍 病院・クリニックの探し方</h3>
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+    <div class="side-panels">
       <div>
         <h4 class="sub-title">オンライン検索</h4>
         <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
@@ -260,7 +293,7 @@
     </p>
 
     <h4 class="sub-title">保険の種類</h4>
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+    <div class="side-panels">
       <div>
         <h4 class="sub-title">CCHI（Cooperative Health Insurance）</h4>
         <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
@@ -300,43 +333,41 @@
 <section class="compact-section">
   <div class="card">
     <h3 class="section-title">🚑 緊急医療サービス（Emergency Services）</h3>
-    <div class="two-col">
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
-        医療上の緊急事態（心臓発作、重傷、意識喪失等）が発生した場合は、躊躇なく救急車を呼んでください。
-      </p>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:10px;">
+      医療上の緊急事態（心臓発作、重傷、意識喪失等）が発生した場合は、躊躇なく救急車を呼んでください。
+    </p>
 
-      <h4 class="sub-title">救急車（Ambulance）</h4>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-        <strong>電話番号：997（サウジアラビア全域）</strong><br>
-        <strong>対応言語：</strong>アラビア語、英語<br>
-        <strong>対応時間：</strong>24時間・365日<br>
-        <strong>対応内容：</strong>事故現場での応急処置、最寄りの病院への搬送<br>
-      </p>
+    <h4 class="sub-title">救急車（Ambulance）</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      <strong>電話番号：997（サウジアラビア全域）</strong><br>
+      <strong>対応言語：</strong>アラビア語、英語<br>
+      <strong>対応時間：</strong>24時間・365日<br>
+      <strong>対応内容：</strong>事故現場での応急処置、最寄りの病院への搬送<br>
+    </p>
 
-      <h4 class="sub-title">救急車の呼び方</h4>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-        <strong>英語：</strong><br>
-        「Ambulance, please! I have a medical emergency at [住所または現在地]. The patient is [症状]. Please hurry!」<br>
-        <strong>アラビア語：</strong><br>
-        「سيارة إسعاف، من فضلك! لديّ حالة طبية طارئة」
-      </p>
+    <h4 class="sub-title">救急車の呼び方</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      <strong>英語：</strong><br>
+      「Ambulance, please! I have a medical emergency at [住所または現在地]. The patient is [症状]. Please hurry!」<br>
+      <strong>アラビア語：</strong><br>
+      「سيارة إسعاف، من فضلك! لديّ حالة طبية طارئة」
+    </p>
 
-      <h4 class="sub-title">注意点</h4>
-      <ul class="checklist">
-        <li>住所または正確な現在地を明確に伝える（Google Mapsで現在地を確認）</li>
-        <li>症状を簡潔に説明する</li>
-        <li>意識がある場合は、医療保険情報を用意しておく</li>
-        <li>応答者の指示に従う</li>
-        <li>到着まで平均10〜15分（都市部）、20〜40分（郊外）</li>
-      </ul>
+    <h4 class="sub-title">注意点</h4>
+    <ul class="checklist">
+      <li>住所または正確な現在地を明確に伝える（Google Mapsで現在地を確認）</li>
+      <li>症状を簡潔に説明する</li>
+      <li>意識がある場合は、医療保険情報を用意しておく</li>
+      <li>応答者の指示に従う</li>
+      <li>到着まで平均10〜15分（都市部）、20〜40分（郊外）</li>
+    </ul>
 
-      <div class="tip-box">💡 アプリ「ICE（In Case of Emergency）」をスマートフォンに設定しておくと、緊急時に医療情報が表示されるため便利です。</div>
+    <div class="tip-box">💡 アプリ「ICE（In Case of Emergency）」をスマートフォンに設定しておくと、緊急時に医療情報が表示されるため便利です。</div>
 
-      <h4 class="sub-title">夜間クリニック（Night Clinics）</h4>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
-        軽微な怪我や風邪などで、日中の病院が営業していない場合は、夜間クリニックが便利です。多くの主要病院は夜間診療を提供しています。事前に電話で営業時間と対応医者を確認してください。
-      </p>
-    </div>
+    <h4 class="sub-title">夜間クリニック（Night Clinics）</h4>
+    <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+      軽微な怪我や風邪などで、日中の病院が営業していない場合は、夜間クリニックが便利です。多くの主要病院は夜間診療を提供しています。事前に電話で営業時間と対応医者を確認してください。
+    </p>
   </div>
 </section>
 
@@ -349,7 +380,7 @@
     </p>
 
     <h4 class="sub-title">主要薬局チェーン</h4>
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+    <div class="side-panels">
       <div>
         <h4 class="sub-title">アルナハディ（Al Nahdi Pharmacy）</h4>
         <div class="hospital-card">
@@ -407,16 +438,16 @@
       サウジアラビアへの渡航時に、特定の予防接種が必須またはお勧めされています。渡航前に医者に相談してください。
     </p>
 
-    <h4 class="sub-title">必須予防接種</h4>
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+    <div class="vaccine-grid">
       <div>
+        <h4 class="sub-title">必須予防接種</h4>
         <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
           <strong>黄熱病ワクチン：</strong>黄熱病流行地域からの入国者に対して証明書の提出が求められることがあります。
         </p>
         <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
           <strong>髄膜炎菌ワクチン（Meningococcal）：</strong>メッカ巡礼者向けに推奨。特にハッジシーズン（イスラム暦12月）の渡航者は接種を強く推奨。
         </p>
-        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
+        <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
           <strong>新型コロナウイルス（COVID-19）：</strong>現在、特別な規制はありませんが、接種歴があると安心です。
         </p>
       </div>
@@ -451,59 +482,61 @@
       サウジアラビアの気候や環境が原因で起こりやすい健康問題と対応方法をまとめました。
     </p>
 
-    <h4 class="sub-title">熱中症・熱による疾患（Heat-Related Illness）</h4>
-    <div class="hospital-card">
-      <p><strong>症状：</strong>頭痛、めまい、吐き気、大量発汗、衰弱感</p>
-      <p><strong>原因：</strong>夏季の気温は50℃を超えることもあり、極度に危険。日中の外出は避けるべき。</p>
-      <p><strong>対策：</strong>
-        <ul style="margin:6px 0; padding-left:20px; font-size:0.9em;">
-          <li>午前10時〜午後4時は屋内にいる</li>
-          <li>外出時は帽子、サングラス、軽い衣類を着用</li>
-          <li>水分補給を頻繁に行う（1日3〜4リットル推奨）</li>
-          <li>塩分補給も重要（電解質スポーツドリンク）</li>
-        </ul>
-      </p>
-    </div>
+    <div class="health-issues-grid">
+      <div class="hospital-card">
+        <h4>熱中症・熱による疾患</h4>
+        <p><strong>症状：</strong>頭痛、めまい、吐き気、大量発汗、衰弱感</p>
+        <p><strong>原因：</strong>夏季の気温は50℃を超えることもあり、極度に危険。日中の外出は避けるべき。</p>
+        <p><strong>対策：</strong>
+          <ul style="margin:6px 0; padding-left:20px; font-size:0.9em;">
+            <li>午前10時〜午後4時は屋内にいる</li>
+            <li>外出時は帽子、サングラス、軽い衣類を着用</li>
+            <li>水分補給を頻繁に行う（1日3〜4リットル推奨）</li>
+            <li>塩分補給も重要（電解質スポーツドリンク）</li>
+          </ul>
+        </p>
+      </div>
 
-    <h4 class="sub-title">水による疾患（Water-Related Issues）</h4>
-    <div class="hospital-card">
-      <p><strong>症状：</strong>下痢、腹痛、吐き気</p>
-      <p><strong>原因：</strong>水道水は一般的に安全ですが、地域によって塩分が高い。脱塩水処理施設が多いため、長期飲用で腎臓に負担がかかる可能性。</p>
-      <p><strong>対策：</strong>
-        <ul style="margin:6px 0; padding-left:20px; font-size:0.9em;">
-          <li>ミネラルウォーターを飲む（5リットルボトルがスーパーで安く購入可能）</li>
-          <li>水道水でうがいや歯磨きは問題ない</li>
-          <li>ホテルの氷も安全</li>
-          <li>路上の飲食店では注意</li>
-        </ul>
-      </p>
-    </div>
+      <div class="hospital-card">
+        <h4>水による疾患</h4>
+        <p><strong>症状：</strong>下痢、腹痛、吐き気</p>
+        <p><strong>原因：</strong>水道水は一般的に安全ですが、地域によって塩分が高い。脱塩水処理施設が多いため、長期飲用で腎臓に負担がかかる可能性。</p>
+        <p><strong>対策：</strong>
+          <ul style="margin:6px 0; padding-left:20px; font-size:0.9em;">
+            <li>ミネラルウォーターを飲む（5リットルボトルがスーパーで安く購入可能）</li>
+            <li>水道水でうがいや歯磨きは問題ない</li>
+            <li>ホテルの氷も安全</li>
+            <li>路上の飲食店では注意</li>
+          </ul>
+        </p>
+      </div>
 
-    <h4 class="sub-title">空気汚染（Air Quality Issues）</h4>
-    <div class="hospital-card">
-      <p><strong>症状：</strong>咳、喘息の悪化、目の刺激</p>
-      <p><strong>原因：</strong>砂嵐（Dust Storms）が発生する時期（3月〜5月、9月〜11月）に空気汚染が深刻化。PM2.5濃度が非常に高い。</p>
-      <p><strong>対策：</strong>
-        <ul style="margin:6px 0; padding-left:20px; font-size:0.9em;">
-          <li>Air Quality Indexアプリで空気品質を確認</li>
-          <li>汚染が高い日は外出を避ける</li>
-          <li>外出時はN95マスクを着用</li>
-          <li>室内でHEPA空気清浄機を使用</li>
-        </ul>
-      </p>
-    </div>
+      <div class="hospital-card">
+        <h4>空気汚染</h4>
+        <p><strong>症状：</strong>咳、喘息の悪化、目の刺激</p>
+        <p><strong>原因：</strong>砂嵐（Dust Storms）が発生する時期（3月〜5月、9月〜11月）に空気汚染が深刻化。PM2.5濃度が非常に高い。</p>
+        <p><strong>対策：</strong>
+          <ul style="margin:6px 0; padding-left:20px; font-size:0.9em;">
+            <li>Air Quality Indexアプリで空気品質を確認</li>
+            <li>汚染が高い日は外出を避ける</li>
+            <li>外出時はN95マスクを着用</li>
+            <li>室内でHEPA空気清浄機を使用</li>
+          </ul>
+        </p>
+      </div>
 
-    <h4 class="sub-title">紫外線被害（Sun Exposure）</h4>
-    <div class="hospital-card">
-      <p><strong>症状：</strong>日焼け、皮膚がん、目の損傷</p>
-      <p><strong>原因：</strong>赤道に近い砂漠気候で紫外線が非常に強い。</p>
-      <p><strong>対策：</strong>
-        <ul style="margin:6px 0; padding-left:20px; font-size:0.9em;">
-          <li>SPF 50+の日焼け止めを毎日使用</li>
-          <li>長袖・長ズボンの着用を推奨</li>
-          <li>UVカット眼鏡を着用</li>
-        </ul>
-      </p>
+      <div class="hospital-card">
+        <h4>紫外線被害</h4>
+        <p><strong>症状：</strong>日焼け、皮膚がん、目の損傷</p>
+        <p><strong>原因：</strong>赤道に近い砂漠気候で紫外線が非常に強い。</p>
+        <p><strong>対策：</strong>
+          <ul style="margin:6px 0; padding-left:20px; font-size:0.9em;">
+            <li>SPF 50+の日焼け止めを毎日使用</li>
+            <li>長袖・長ズボンの着用を推奨</li>
+            <li>UVカット眼鏡を着用</li>
+          </ul>
+        </p>
+      </div>
     </div>
   </div>
 </section>
@@ -516,13 +549,12 @@
       新しい環境への適応、言語障壁、文化的違いによるストレスを感じることは自然です。適切なメンタルヘルスサービスの利用をお勧めします。
     </p>
 
-    <h4 class="sub-title">心理療法・カウンセリング</h4>
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+    <div class="mental-health-grid">
       <div>
+        <h4 class="sub-title">利用可能なサービス</h4>
         <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
           サウジアラビアでは心理療法がまだ普及途上段階ですが、主要都市の民間病院や国際クリニックで心理士（Psychologist）による相談が受けられます。遠隔療法も選択肢です。
         </p>
-        <h4 class="sub-title">利用可能なサービス</h4>
         <ul class="checklist">
           <li><strong>民間病院の精神科：</strong>King Faisal、Dr. Al Habib等で対応</li>
           <li><strong>国際クリニック：</strong>英語を話す心理士がいる</li>
@@ -531,11 +563,10 @@
         </ul>
       </div>
       <div>
-        <h4 class="sub-title">文化的配慮</h4>
+        <h4 class="sub-title">文化的配慮とストレス対策</h4>
         <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
           サウジアラビアはイスラム社会で、精神衛生に関する社会的スティグマが存在する場合があります。個人情報保護は確保されていますが、内向的なコミュニティでは心理カウンセリングの利用が知られることに不安を感じる人もいます。
         </p>
-        <h4 class="sub-title">ストレス対策</h4>
         <ul class="checklist">
           <li>同じ立場の日本人コミュニティとの交流</li>
           <li>宗教的活動（瞑想、祈り等）</li>
@@ -558,8 +589,7 @@
       サウジアラビアの歯科医療は高い水準にあります。民間の歯科クリニックは最新設備を備えており、英語対応しているクリニックが多くあります。
     </p>
 
-    <h4 class="sub-title">歯科治療の利用</h4>
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+    <div class="side-panels">
       <div>
         <h4 class="sub-title">主な歯科クリニック</h4>
         <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
@@ -707,7 +737,7 @@
       サウジアラビアで高度な医療が必要な場合、隣国アラブ首長国連邦（UAE）やタイへの医療搬送が必要になる場合があります。
     </p>
 
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="side-panels">
+    <div class="side-panels">
       <div>
         <h4 class="sub-title">医療搬送が必要な場合</h4>
         <ul class="checklist">
@@ -732,12 +762,10 @@
           医療搬送は保険会社が調整します。医者が医療搬送の必要性を判断し、保険会社に連絡します。搬送方法は症状により異なります（救急車、飛行機、チャーター機）。
         </p>
 
-        <h4 class="sub-title">費用</h4>
+        <h4 class="sub-title">費用と保険確認</h4>
         <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-bottom:8px;">
           医療搬送の費用は非常に高額です（数百万円）。健康保険の「医療搬送費用補償」に必ず加入してください。
         </p>
-
-        <h4 class="sub-title">保険確認</h4>
         <ul class="checklist">
           <li>保険証券で医療搬送がカバーされているか確認</li>
           <li>24時間医療搬送ホットラインに連絡</li>
@@ -760,7 +788,7 @@
     </p>
 
     <h4 class="sub-title">医療予約・相談アプリ</h4>
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;" class="side-panels">
       <div class="hospital-card">
         <h4>Careem Health</h4>
         <p>配車アプリ「Careem」傘下の医療予約アプリ。医者の検索、予約、遠隔相談が可能。</p>

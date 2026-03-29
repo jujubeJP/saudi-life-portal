@@ -58,6 +58,44 @@
     margin-bottom: 0.8rem;
   }
 
+  .dish-header {
+    background: linear-gradient(135deg, #d4af37 0%, #b8960f 100%);
+    padding: 1.5rem 1rem;
+    margin: -2rem -2rem 1.5rem -2rem;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    min-height: 100px;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+
+  .dish-header.kabsa {
+    background: linear-gradient(135deg, #d2691e 0%, #8b4513 100%);
+  }
+
+  .dish-header.mandi {
+    background: linear-gradient(135deg, #dc143c 0%, #8b0000 100%);
+  }
+
+  .dish-header.shawarma {
+    background: linear-gradient(135deg, #ff8c00 0%, #cc6600 100%);
+  }
+
+  .dish-header.falafel {
+    background: linear-gradient(135deg, #daa520 0%, #8b7500 100%);
+  }
+
+  .dish-header.ful {
+    background: linear-gradient(135deg, #bc8f8f 0%, #654321 100%);
+  }
+
+  .dish-header.mutabbak {
+    background: linear-gradient(135deg, #cd853f 0%, #8b4513 100%);
+  }
+
   .section-title {
     font-size: 2rem;
     color: #8b3a00;
@@ -269,42 +307,48 @@
 
   <div class="dish-grid">
     <div class="dish-card">
-      <h3>🍚 カブサ (Kabsa)</h3>
+      <div class="dish-header kabsa">🍚</div>
+      <h3>カブサ (Kabsa)</h3>
       <p><strong>サウジアラビアの国民食</strong>として知られるカブサは、スパイスで味付けされた米の上に、鶏肉または羊肉、ラム肉をのせた豪華な一品です。</p>
       <p><strong>特徴：</strong> バスマティライスを使い、ターメリック、カルダモン、シナモン、月桂樹の葉などの香りのよいスパイスで炒めます。肉は別途調理され、米の上に盛られます。</p>
       <p><strong>食べ方：</strong> 伝統的には右手を使い、指でつかんで食べます。シェアプレート（ダリーシャ）で複数人で一緒に食べることが多いです。</p>
     </div>
 
     <div class="dish-card">
-      <h3>🔥 マンディ (Mandi)</h3>
+      <div class="dish-header mandi">🔥</div>
+      <h3>マンディ (Mandi)</h3>
       <p>イエメン発祥で、サウジアラビアでも非常に人気のある料理です。タンドール式オーブン（マンディ釜）で薫製・焼き上げた肉と米の組み合わせです。</p>
       <p><strong>特徴：</strong> 地下式または縦型の釜で調理され、肉から滴る油が米に落ち、独特の薫製香と柔らかさが生まれます。濃厚な味わいが特徴です。</p>
       <p><strong>地域差：</strong> ジッダやメッカのマンディは海の影響を受けた味付けが異なります。</p>
     </div>
 
     <div class="dish-card">
-      <h3>🌯 シャワルマ (Shawarma)</h3>
+      <div class="dish-header shawarma">🌯</div>
+      <h3>シャワルマ (Shawarma)</h3>
       <p>サウジアラビアで最も人気のある<span class="highlight-text">ストリートフード</span>です。回転させた肉を焼き、ピタパンに詰めた料理です。</p>
       <p><strong>種類：</strong> チキンシャワルマ、ビーフシャワルマ、ラムシャワルマがあります。</p>
       <p><strong>トッピング：</strong> トマト、玉ねぎ、ピクルス、タヒナソース（ゴマペースト）、ガーリックソースが加えられます。朝食から深夜のおやつまで、いつでも食べられます。</p>
     </div>
 
     <div class="dish-card">
-      <h3>🟫 ファラフェル (Falafel)</h3>
+      <div class="dish-header falafel">🟫</div>
+      <h3>ファラフェル (Falafel)</h3>
       <p>ひよこ豆またはそら豆を塩、スパイス、ハーブで味付けし、揚げたボール状の食べ物です。</p>
       <p><strong>栄養：</strong> タンパク質豊富で、ベジタリアン向けのポピュラーなオプションです。</p>
       <p><strong>食べ方：</strong> ピタパンに詰めたり、サラダの上にのせたり、ディップとして食べられます。朝食や軽食として人気です。</p>
     </div>
 
     <div class="dish-card">
-      <h3>🫘 フール (Ful)</h3>
+      <div class="dish-header ful">🫘</div>
+      <h3>フール (Ful)</h3>
       <p>空豆をオリーブオイル、ニンニク、レモン汁で調理した、中東全域で愛される朝食の定番です。</p>
       <p><strong>食べ方：</strong> ピタパンをスプーンのようにして、ペースト状のフールをすくって食べます。</p>
       <p><strong>栄養価：</strong> 豆類は食物繊維と植物性タンパク質が豊富で、ヘルシーな選択肢です。</p>
     </div>
 
     <div class="dish-card">
-      <h3>🥖 ムタッバク (Mutabbaq)</h3>
+      <div class="dish-header mutabbak">🥖</div>
+      <h3>ムタッバク (Mutabbaq)</h3>
       <p>小麦粉の薄い生地を折りたたんで焼いた、セイボリーまたはスイートな揚げ菓子です。</p>
       <p><strong>セイボリー版：</strong> 挽き肉、玉ねぎ、スパイスを詰めて焼きます。ディナーや軽食に。</p>
       <p><strong>スイート版：</strong> チーズ、ナッツ、蜂蜜を詰めてシロップをかけたデザート版もあります。</p>
@@ -460,17 +504,6 @@
     </div>
   </div>
 
-  <div class="dining-tips">
-    <h3 style="color: #8b3a00; margin-top: 0;">🥬 日本食材の入手</h3>
-    <ul>
-      <li><strong>味噌・醤油：</strong> Panda、LuLu、Taminmiで一般的な種類が入手できます。</li>
-      <li><strong>お米：</strong> 日本米（コシヒカリ、いぶき）は高級スーパーで販売されていますが、非常に高価です。</li>
-      <li><strong>うどん・そば：</strong> 即席麺の種類は豊富です。生麺は入手困難。</li>
-      <li><strong>海苔・わかめ：</strong> アジア系食材店で販売されています。</li>
-      <li><strong>豆腐：</strong> 一部の大型スーパーで販売されていますが、品質や種類は限定的です。</li>
-      <li><strong>日本の調味料：</strong> リヤドのジャパン・ショップやオンラインで入手可能（割高になります）。</li>
-    </ul>
-  </div>
 
   <!-- フードデリバリーアプリ -->
   <h2 class="section-title">📱 フードデリバリーアプリ</h2>

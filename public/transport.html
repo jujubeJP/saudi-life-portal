@@ -27,6 +27,11 @@
   .card-grid { grid-template-columns: 1fr; }
   .info-grid { grid-template-columns: 1fr; }
 }
+.app-links { display: flex; gap: 10px; margin-top: 10px; flex-wrap: wrap; }
+.app-button { display: inline-block; padding: 6px 12px; background: var(--accent); color: white; border-radius: 20px; text-decoration: none; font-size: 0.9em; font-weight: 500; transition: background 0.3s ease; border: 1px solid var(--accent); }
+.app-button:hover { background: rgba(212, 175, 55, 0.8); }
+.app-button.ios::before { content: "🍎 "; }
+.app-button.gplay::before { content: "🔵 "; }
 </style>
 </head>
 <body>
@@ -312,17 +317,17 @@
         <th>対応言語</th>
       </tr>
       <tr>
-        <td><strong>Hertz</strong></td>
+        <td><strong><a href="https://www.hertz.com.sa/" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: none;">Hertz</a></strong></td>
         <td>国際的な大手企業。多数の営業所</td>
         <td>英語、アラビア語</td>
       </tr>
       <tr>
-        <td><strong>Avis</strong></td>
+        <td><strong><a href="https://www.avis.com.sa/" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: none;">Avis</a></strong></td>
         <td>信頼性が高く、24時間対応</td>
         <td>英語、アラビア語</td>
       </tr>
       <tr>
-        <td><strong>Budget</strong></td>
+        <td><strong><a href="https://www.budget.com.sa/" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: none;">Budget</a></strong></td>
         <td>料金が比較的安い</td>
         <td>英語</td>
       </tr>
@@ -335,6 +340,21 @@
         <td><strong>THRIFTY</strong></td>
         <td>地元市場への適応度が高い</td>
         <td>英語</td>
+      </tr>
+      <tr>
+        <td><strong><a href="https://www.hancorent.com/" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: none;">Hanco</a></strong></td>
+        <td>地元企業。競争力のある価格</td>
+        <td>英語、アラビア語</td>
+      </tr>
+      <tr>
+        <td><strong><a href="https://www.theeb.com.sa/" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: none;">Theeb</a></strong></td>
+        <td>サウジアラビア大手。幅広い選択肢</td>
+        <td>英語、アラビア語</td>
+      </tr>
+      <tr>
+        <td><strong><a href="https://www.yelo.sa/" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: none;">Yelo</a></strong></td>
+        <td>地元企業。手頃な価格</td>
+        <td>英語、アラビア語</td>
       </tr>
     </table>
   </div>
@@ -424,6 +444,21 @@
         <td>英語・アラビア語。インターフェース日本語対応</td>
       </tr>
     </table>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid var(--border-light);">
+      <strong>アプリをダウンロード：</strong><br>
+      <div class="app-links">
+        <a href="https://apps.apple.com/app/uber/id368677368" target="_blank" rel="noopener" class="app-button ios">App Store</a>
+        <a href="https://play.google.com/store/apps/details?id=com.ubercab" target="_blank" rel="noopener" class="app-button gplay">Google Play</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 20px;">
+    <h3>Careem アプリダウンロード</h3>
+    <div class="app-links">
+      <a href="https://apps.apple.com/app/careem/id592978487" target="_blank" rel="noopener" class="app-button ios">App Store</a>
+      <a href="https://play.google.com/store/apps/details?id=com.careem.acma" target="_blank" rel="noopener" class="app-button gplay">Google Play</a>
+    </div>
   </div>
 
   <div class="info-grid">
