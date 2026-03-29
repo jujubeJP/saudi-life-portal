@@ -29,50 +29,7 @@
 <title>ビジネスマナー・商習慣 | サウジナビ</title>
 <link rel="stylesheet" href="assets/shared.css">
 <style>
-.info-table { width:100%; font-size:var(--font-size-sm); border-collapse:collapse; }
-.info-table th { text-align:left; padding:8px 6px; color:var(--text-tertiary); font-weight:600; border-bottom:2px solid var(--border-light); }
-.info-table td { padding:7px 6px; border-bottom:1px solid var(--border-light); vertical-align:top; }
-.info-table tr:last-child td { border-bottom:none; }
-.section-title { font-size:1.1em; font-weight:700; color:var(--text-primary); margin:0 0 10px; padding-top:4px; }
-.sub-title { font-size:0.95em; font-weight:600; color:var(--accent); margin:12px 0 6px; }
-.compact-section { padding:8px 0; }
-.tip-box { padding:8px 12px; font-size:0.85em; color:var(--text-tertiary); background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 var(--radius-sm) var(--radius-sm) 0; margin-top:8px; }
-
-/* 2-Column Grid Layout */
-.grid-2col {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 16px;
-  margin-bottom: 16px;
-}
-
-.grid-2col .card {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-@media (min-width: 768px) {
-  .grid-2col {
-    grid-template-columns: 1fr 1fr;
-  }
-  main {
-    padding: 0 24px;
-  }
-}
-
-@media (min-width: 1024px) {
-  main {
-    padding: 0 32px;
-  }
-}
-
-/* Full-width sections (notes, single panels) */
-.full-width {
-  grid-column: 1 / -1;
-}
-
-/* Main content wrapper - apply container padding */
+/* Main content wrapper */
 main {
   max-width: var(--content-width);
   margin: 0 auto;
@@ -80,6 +37,52 @@ main {
   position: relative;
   z-index: 1;
 }
+@media (min-width: 768px) { main { padding: 0 24px; } }
+@media (min-width: 1024px) { main { padding: 0 32px; } }
+
+/* Each topic = full-width card, 2-column inside */
+.biz-section {
+  margin-bottom: 18px;
+}
+.biz-section .card {
+  padding: 20px 18px;
+}
+.biz-inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+@media (min-width: 768px) {
+  .biz-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+}
+
+.section-title { font-size:1.15em; font-weight:700; color:var(--text-primary); margin:0 0 14px; }
+.col-title { font-size:0.95em; font-weight:700; color:var(--accent); margin:0 0 8px; }
+.biz-text { font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.85; }
+.biz-text p { margin-bottom: 10px; }
+.biz-text strong { color: var(--text-primary); }
+
+.info-table { width:100%; font-size:var(--font-size-sm); border-collapse:collapse; margin-top:8px; }
+.info-table th { text-align:left; padding:8px 6px; color:var(--text-tertiary); font-weight:600; border-bottom:2px solid var(--border-light); }
+.info-table td { padding:7px 6px; border-bottom:1px solid var(--border-light); vertical-align:top; color:var(--text-secondary); }
+.info-table tr:last-child td { border-bottom:none; }
+
+.tip-box { padding:10px 14px; font-size:0.85em; color:var(--text-tertiary); background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 var(--radius-sm) var(--radius-sm) 0; margin-top:12px; line-height:1.7; }
+
+.disclaimer-box {
+  background: var(--bg-secondary);
+  border: 1px solid var(--accent-gold);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  margin-bottom: 20px;
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+.disclaimer-box strong { color: var(--accent); }
 </style>
 </head>
 <body>
@@ -177,473 +180,436 @@ main {
 <!-- MAIN CONTENT -->
 <main>
 
-<!-- ===== GROUP 1: 挨拶・名刺交換 + コミュニケーションスタイル ===== -->
-<div class="grid-2col">
-  <section class="compact-section">
-    <div class="card">
-      <h3 class="section-title">🤝 挨拶とビジネスカード交換</h3>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        サウジアラビアでのビジネス初対面は、第一印象を左右する重要な儀式です。性別や関係性によって異なる作法があります。
-      </p>
-
-      <h4 class="sub-title">握手の文化</h4>
-      <table class="info-table" style="margin-top:8px;">
-        <tr><th>状況</th><th>作法</th><th>説明</th></tr>
-        <tr><td><strong>同性同士</strong></td><td>握手でOK</td><td>男性同士、女性同士の握手は問題ありません。右手を使い、しっかりした握手が好まれます</td></tr>
-        <tr><td><strong>異性</strong></td><td>相手の反応を見る</td><td>保守的なサウジ人は男女の肉体接触を避けることがあります。相手が手を出さなければ、頭を軽く下げて敬意を示すのが安全です。相手が手を出した時だけ握手してください</td></tr>
-        <tr><td><strong>右手の使用</strong></td><td>必須</td><td>左手は不潔とされるため、右手（または両手）で握手・ギフト交換・食事をします。左利きの場合も右手を使用する努力をしましょう</td></tr>
-      </table>
-
-      <h4 class="sub-title">ビジネスカード交換</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px 0;">
-        • <strong>タイミング</strong>：初対面の挨拶直後、右手でカードを差し出します<br/>
-        • <strong>受け取り方</strong>：相手のカードは両手で丁寧に受け取り、内容を読んで敬意を示してから、自分のカードを差し出します<br/>
-        • <strong>カード設計</strong>：英語とアラビア語が併記されたカードを用意してください。アラビア語訳は正確さが重要です<br/>
-        • <strong>保存方法</strong>：受け取ったカードは名刺入れにしまい、机の上に積み重ねたり、ポケットに入れたりしないようにします<br/>
-        • <strong>アラビア語ページアップ</strong>：カードを渡す時、相手が読みやすいようアラビア語面を上にして差し出すと親切です
-      </div>
-
-      <div class="tip-box">💡 カード交換は敬意と信頼の築き始め。丁寧さを心がけることで、相手に好印象を与えます。</div>
-    </div>
-  </section>
-
-  <section class="compact-section">
-    <div class="card">
-      <h3 class="section-title">💬 コミュニケーションスタイル</h3>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        サウジアラビアのビジネスコミュニケーションは、直接的で論理的な西洋スタイルと異なります。文脈、感情、人間関係を重視する間接的なアプローチが主流です。
-      </p>
-
-      <h4 class="sub-title">コミュニケーション特性</h4>
-      <table class="info-table" style="margin-top:8px;">
-        <tr><th>特性</th><th>説明</th><th>対応</th></tr>
-        <tr><td><strong>間接的表現</strong></td><td>「no」と直接言わない。「maybe」「inshallah」「we'll see」など曖昧な返答</td><td>これは「no」の可能性がある。推測力と確認が必要</td></tr>
-        <tr><td><strong>関係性優先</strong></td><td>ビジネスの内容より、相手との関係性・信頼度を優先する</td><td>急いで本題に入らず、人間関係構築に時間を使う</td></tr>
-        <tr><td><strong>感情・尊重</strong></td><td>ロジックと同等に、感情や敬意が重要。相手を傷つけない言い方が必須</td><td>批判する時も、まず相手を褒め、理由を丁寧に説明</td></tr>
-        <tr><td><strong>聞き上手になる</strong></td><td>相手の話を遮らず、最後まで聞く。途中で反論しない</td><td>相手の意見を認めてから、自分の提案を述べる</td></tr>
-      </table>
-
-      <h4 class="sub-title">避けるべき発言</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px 0;">
-        • <strong>直接的な「no」</strong>：相手のプランを直接否定しない。「Good idea, but...」から始める<br/>
-        • <strong>宗教批判</strong>：イスラム教、サウジ文化、王族への批判は厳禁。政治的発言も避ける<br/>
-        • <strong>せかす</strong>：「時間がない」「早く決定してほしい」という急かしは、相手に失礼<br/>
-        • <strong>個人的詮索</strong>：給与、年齢、家族状況を聞くのはプロとして避ける（相手から聞かれたら答える）<br/>
-        • <strong>酒・豚肉の話題</strong>：これらはハラール（禁止）。冗談でも触れない
-      </div>
-
-      <div class="tip-box">💡 「Why?」より「How?」「What if?」を使う。提案を形作るプロセスに相手を巻き込むことで、主体性が生まれます。</div>
-    </div>
-  </section>
+<!-- ===== 冒頭の重要な注意 ===== -->
+<div class="disclaimer-box">
+  <strong>⚠️ このページをお読みになる前に</strong><br>
+  サウジアラビアは Vision 2030 のもと、社会・経済・文化のあらゆる面で急速な変革期にあります。かつての「サウジアラビアではこうだ」という常識が、わずか数年で通用しなくなっているケースも少なくありません。このページに記載する内容は、あくまで<strong>一般的な傾向</strong>であり、すべてのサウジ人やすべての企業に当てはまるものではありません。相手の企業文化、世代、地域、個人の価値観によって、ビジネス慣行は大きく異なります。特に若い世代のビジネスパーソンは、グローバルスタンダードに近いスタイルで仕事をする方も増えています。実際のビジネスの場では、相手をよく観察し、柔軟に対応することが最も大切です。
 </div>
 
-<!-- ===== GROUP 2: 会議の文化 + 服装（ドレスコード） ===== -->
-<div class="grid-2col">
-  <section class="compact-section">
-    <div class="card">
-      <h3 class="section-title">📊 ミーティング・会議文化</h3>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        サウジアラビアでのビジネス会議は、時間管理より人間関係構築を重視する傾向があります。欧米式の効率性だけでなく、信頼醸成に時間を割く必要があります。
-      </p>
-
-      <h4 class="sub-title">時間と会議の進め方</h4>
-      <table class="info-table" style="margin-top:8px;">
-        <tr><th>項目</th><th>説明</th></tr>
-        <tr><td><strong>時間厳守</strong></td><td>西洋よりは柔軟。相手が遅れることは多々あります。大事な会議でも15-30分遅れることがあります。焦らず待つ忍耐が必要</td></tr>
-        <tr><td><strong>最初の20-30分</strong></td><td>ビジネストークの前に、雑談（weather, family, recent trips等）で信頼関係を築きます。ここを飛ばすと相手に失礼です</td></tr>
-        <tr><td><strong>会議の構成</strong></td><td>雑談→茶・コーヒーサーブ→本題という流れが一般的。本題に入るのは30分後の場合もあります</td></tr>
-        <tr><td><strong>複数回の会議</strong></td><td>重要な決定は1回で完結せず、複数回のミーティングで段階的に進むことがほとんど</td></tr>
-      </table>
-
-      <h4 class="sub-title">茶・コーヒープロトコル</h4>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:10px;">
-        <strong>• アラビアコーヒー（ダッラ）</strong>：小さなカップで提供される、香辛料入りの黒いコーヒー。受け取ったら必ず一口飲んでください。拒否すると失礼です。<br/>
-        <strong>• 紅茶</strong>：甘い紅茶が提供されることもあります。<br/>
-        <strong>• 回数の目安</strong>：通常1-2杯がサーブされます。「カフィ」（コーヒー）または「シャイ」（紅茶）と言って、自分の好みを伝えます。<br/>
-        <strong>• 飲まない場合</strong>：やむを得ず飲めない場合は、カップの底を軽く3回叩くジェスチャーで「もう十分です」を表現します。
-      </p>
-
-      <div class="tip-box">💡 急いでいても、茶・コーヒーのやり取りの時間を大切にしてください。これは単なる飲料ではなく、信頼構築儀式です。</div>
+<!-- ===== 1. 挨拶とビジネスカード交換 ===== -->
+<div class="biz-section">
+  <div class="card">
+    <h3 class="section-title">🤝 挨拶とビジネスカード交換</h3>
+    <p class="biz-text">サウジアラビアでの初対面は、その後のビジネス関係を大きく左右する重要な場面です。挨拶の仕方、名刺の渡し方ひとつで、相手に与える印象は大きく変わります。特に、性別や関係性によって異なる作法を理解しておくことが大切です。</p>
+    <div class="biz-inner">
+      <div>
+        <h4 class="col-title">挨拶・握手のマナー</h4>
+        <div class="biz-text">
+          <p><strong>同性同士の握手</strong>：男性同士・女性同士の握手は自然に行われます。右手でしっかりと握手し、目を合わせて笑顔で挨拶しましょう。関係が深まると、頬へのキス（男性同士）を交わす場合もあります。</p>
+          <p><strong>異性との挨拶</strong>：保守的なサウジ人の間では、男女間の身体接触を避ける方もいます。異性の相手が自ら手を差し出した場合にのみ握手してください。相手が手を出さない場合は、軽く頭を下げるか、右手を胸に当てて敬意を示すのが自然です。近年は握手に抵抗がない方も増えていますが、最初は相手の反応を見ることが安全です。</p>
+          <p><strong>右手を使う</strong>：左手は不浄とされるため、握手・物の受け渡し・食事はすべて右手で行います。左利きの方も、意識して右手を使うよう心がけてください。</p>
+          <p><strong>挨拶のフレーズ</strong>：「As-salamu alaykum（アッサラーム・アライクム）」と言えると好印象です。相手は「Wa alaykum as-salam（ワ・アライクム・アッサラーム）」と応じます。</p>
+        </div>
+      </div>
+      <div>
+        <h4 class="col-title">ビジネスカード（名刺）交換</h4>
+        <div class="biz-text">
+          <p><strong>名刺の準備</strong>：英語とアラビア語を併記した名刺を用意してください。アラビア語面は正確な翻訳が重要です。現地の翻訳サービスを利用することをお勧めします。</p>
+          <p><strong>渡し方</strong>：初対面の挨拶が済んだ後、右手で相手にカードを差し出します。相手が読みやすいよう、アラビア語面を上にして渡すと丁寧です。</p>
+          <p><strong>受け取り方</strong>：相手の名刺は両手、または右手で丁寧に受け取ります。すぐにしまわず、内容に目を通して「素晴らしいお役職ですね」など一言添えると、敬意が伝わります。</p>
+          <p><strong>保管</strong>：受け取った名刺は名刺入れに丁寧にしまいます。テーブルに無造作に置いたり、ズボンのポケットに入れたりするのは避けてください。</p>
+          <p><strong>デジタル名刺</strong>：最近はLinkedInのQRコード交換も増えていますが、紙の名刺も依然として重視されています。両方用意しておくと安心です。</p>
+        </div>
+      </div>
     </div>
-  </section>
-
-  <section class="compact-section">
-    <div class="card">
-      <h3 class="section-title">👔 服装・ドレスコード</h3>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        サウジアラビアは保守的な社会です。ビジネスシーン、特に初対面や正式な会議では、フォーマルな服装が求められます。
-      </p>
-
-      <h4 class="sub-title">ビジネスシーン別ドレスコード</h4>
-      <table class="info-table" style="margin-top:8px;">
-        <tr><th>シーン</th><th>男性</th><th>女性</th></tr>
-        <tr><td><strong>公式会議・商談</strong></td><td>濃紺またはグレーのスーツ、白シャツ、ネクタイ。サウジ人はthobe（白い伝統衣装）を着用することも多い</td><td>濃色のスーツ、またはワンピース。膝下の長さ、長袖必須。ヘジャブ（スカーフ）は着用を強く勧める</td></tr>
-        <tr><td><strong>カジュアルな打ち合わせ</strong></td><td>ダークジーンズ、ポロシャツ、blazer。ただし最初の数回は正装が安全</td><td>ロングスカート、上半身は腕が見えない服装</td></tr>
-        <tr><td><strong>オフィス勤務</strong></td><td>毎日スーツまたはthobe。職場文化により異なる。サウジ人スタッフに確認</td><td>プロフェッショナルで控えめな服装。透け素材やぴったりした服は避ける</td></tr>
-      </table>
-
-      <h4 class="sub-title">女性のビジネス服装の注意点</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px 0;">
-        • <strong>ヘジャブ</strong>：外国人女性にはまだ義務ではありませんが、ビジネスシーンでは着用することで相手に大きな敬意を示せます<br/>
-        • <strong>露出</strong>：腕、脚、首元は絶対に隠してください<br/>
-        • <strong>透け素材</strong>：避けてください<br/>
-        • <strong>体のラインが出る服</strong>：避けてください<br/>
-        • <strong>濃いメイク</strong>：プロフェッショナルだが控えめなメイクが好まれます<br/>
-        • <strong>香水</strong>：強香水は避けてください
-      </div>
-
-      <h4 class="sub-title">サウジ人男性のthobe文化</h4>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:10px;">
-        サウジ人男性の大多数はthobeと呼ばれる白い長衣を着用します。これは公式・カジュアルを問わず、彼らの日常着です。外国人男性がthobeを着ることはお勧めしません（敬意を欠く可能性）。スーツでフォーマルさを表現してください。
-      </p>
-
-      <div class="tip-box">💡 最初のビジネス訪問では、絶対に正装を心がけてください。相手も正装で対応し、関係が進むにつれ、より casual になります。</div>
-    </div>
-  </section>
-</div>
-
-<!-- ===== GROUP 3: ラマダン + 祈りの時間 ===== -->
-<div class="grid-2col">
-  <section class="compact-section">
-    <div class="card">
-      <h3 class="section-title">🌙 ラマダン期間のビジネスエチケット</h3>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        ラマダンはイスラム暦9月で、毎年西暦日付が11日程度ずつ早まります。この期間、成人のイスラム教徒は夜明けから日暮れまで飲食と喫煙を断ちます。ビジネスのやり方も大きく変わります。
-      </p>
-
-      <h4 class="sub-title">ラマダン中のビジネス環境</h4>
-      <table class="info-table" style="margin-top:8px;">
-        <tr><th>項目</th><th>説明</th></tr>
-        <tr><td><strong>営業時間</strong></td><td>短縮される。朝8:00-11:00、夜間（iftar以降）18:00-22:00程度。昼間は閉店・営業形態縮小も</td></tr>
-        <tr><td><strong>生産性</strong></td><td>昼間は従業員が断食で疲労しているため、生産性が著しく低下。重大な決定は避ける</td></tr>
-        <tr><td><strong>会議設定</strong></td><td>重要な会議は避け、やむを得ない場合は朝早い時間帯に設定してください</td></tr>
-        <tr><td><strong>飲食</strong></td><td>公共の場での飲食・喫煙は禁止（違法）。外国人であっても、カフェやオフィスの部屋でも避けるべき</td></tr>
-      </table>
-
-      <h4 class="sub-title">外国人として守るべきエチケット</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px 0;">
-        • <strong>昼間の飲食・喫煙</strong>：公共の場で絶対にしないでください。違法です<br/>
-        • <strong>同情と忍耐</strong>：相手が疲れていても理解を示し、ペースを落とす<br/>
-        • <strong>Iftar招待</strong>：サウジ同僚からiftar（断食明け食）への招待をもらったら、必ず受けてください。ビジネス信頼構築の大チャンス<br/>
-        • <strong>感謝の言葉</strong>：相手が断食している努力に対し、敬意を示すコメントをしてください<br/>
-        • <strong>スケジュール調整</strong>：重要な交渉はラマダン前後にずらす賢明さ
-      </div>
-
-      <div class="tip-box">💡 ラマダンは単なる宗教行事ではなく、サウジ社会全体の大切な時間。外国人も敬意を持って対応することが、長期ビジネス関係を築きます。</div>
-    </div>
-  </section>
-
-  <section class="compact-section">
-    <div class="card">
-      <h3 class="section-title">🕌 祈りの時間とビジネス</h3>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        サウジアラビアではイスラム教の5日5回の祈り（サラー）が生活リズムの中心です。ビジネスは祈りの時間で一時停止することを理解する必要があります。
-      </p>
-
-      <h4 class="sub-title">5つの祈り時間と対応</h4>
-      <table class="info-table" style="margin-top:8px;">
-        <tr><th>祈り名</th><th>時間帯</th><th>ビジネスへの影響</th><th>対応方法</th></tr>
-        <tr><td><strong>Fajr（ファジル）</strong></td><td>夜明け前（冬5:00-夏4:30頃）</td><td>朝の営業開始に影響なし</td><td>特に対応不要</td></tr>
-        <tr><td><strong>Dhuhr（ドゥフル）</strong></td><td>正午頃（12:00-12:30）</td><td>昼間のミーティングが一時中断</td><td>この時間帯のmeetingは避ける。短いため、待機OK</td></tr>
-        <tr><td><strong>Asr（アスル）</strong></td><td>午後（15:00-16:00頃）</td><td>午後の会議が中断。ただし短いため待機可</td><td>重要な商談をこの直前に設定しない</td></tr>
-        <tr><td><strong>Maghrib（マグリブ）</strong></td><td>日没直後（17:30-18:30）</td><td>夕方の営業終了時に重なることあり</td><td>イフタール（夜間営業）の時間帯</td></tr>
-        <tr><td><strong>Isha（イシャー）</strong></td><td>夜遅く（19:30-20:30）</td><td>夜間営業中に中断の可能性</td><td>知識として持つが、実務影響は少ない</td></tr>
-      </table>
-
-      <h4 class="sub-title">祈りの時間中のビジネス対応</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px 0;">
-        • <strong>会議の中断</strong>：Dhuhr と Asr の時間に会議が中断されます。これは自然で、相手を急かしてはいけません<br/>
-        • <strong>アザーン（call to prayer）</strong>：モスクから放送される祈りの呼びかけが聞こえたら、すぐに会話を停止します。「Go, no problem」と促す<br/>
-        • <strong>待機時間</strong>：祈りは通常15-20分で終わります。コーヒーを飲む、メール確認するなど、待機します<br/>
-        • <strong>スケジュール作成時</strong>：長時間の会議を設定する時、祈り時間を避けるか、休憩を入れてください<br/>
-        • <strong>外国人の立場</strong>：あなたが祈る必要がなくても、相手への敬意として会議室に待機します。この間、さらにメール対応や準備ができます
-      </div>
-
-      <div class="tip-box">💡 祈りの中断はビジネス障害ではなく、サウジ文化の重要要素。スムーズに対応できることで、相手の信頼が深まります。</div>
-    </div>
-  </section>
-</div>
-
-<!-- ===== GROUP 4: 階層・意思決定 + 交渉スタイル ===== -->
-<div class="grid-2col">
-  <section class="compact-section">
-    <div class="card">
-      <h3 class="section-title">🏛️ 階層と意思決定プロセス</h3>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        サウジアラビアはコンサルタティブな階層制を持っています。意思決定は経営層に集中し、従業員の意見は参考程度です。
-      </p>
-
-      <h4 class="sub-title">組織文化の特徴</h4>
-      <table class="info-table" style="margin-top:8px;">
-        <tr><th>項目</th><th>説明</th></tr>
-        <tr><td><strong>意思決定者</strong></td><td>最高経営者（CEO、社長など）に集中。下位の従業員に決定権はほぼない</td></tr>
-        <tr><td><strong>階層の敬重</strong></td><td>年上、高い地位の人への敬意は絶対。若い従業員が上司に異を唱えることはない</td></tr>
-        <tr><td><strong>ワスタ（Wasta）</strong></td><td>「人的ネットワーク・コネ」の意。ビジネスはワスタで大きく左右される。適切なレベルの人間関係が必須</td></tr>
-        <tr><td><strong>複数回の承認</strong></td><td>重要な決定には複数の経営層の承認が必要。1回の会議では決まらない</td></tr>
-      </table>
-
-      <h4 class="sub-title">ビジネスアプローチのポイント</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px 0;">
-        • <strong>正しいレベルの人に接触</strong>：提案は経営層に直接もたらす。中間層で止まると進まない<br/>
-        • <strong>ワスタの構築</strong>：信頼できる仲介者を通じて、重要人物への紹介を受ける<br/>
-        • <strong>複数回の打ち合わせ予算</strong>：1回の説得では不可。同じプロポーザルを複数回、異なる層に説明する想定<br/>
-        • <strong>親族関係の理解</strong>：サウジ企業の多くは家族経営。経営陣の親族関係を理解すると、意思決定メカニズムが見える<br/>
-        • <strong>忍耐強さ</strong>：決定は遅いことが多いですが、「no」と言われるまで諦めません
-      </div>
-
-      <div class="tip-box">💡 ワスタなしでは大きなビジネスは難しい。最初のプロジェクトで信頼を勝ち取り、以後のワスタの基盤にすることが戦略です。</div>
-    </div>
-  </section>
-
-  <section class="compact-section">
-    <div class="card">
-      <h3 class="section-title">🤝 交渉スタイル</h3>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        サウジアラビアのビジネス交渉は、急速な決定を期待する西洋スタイルとは大きく異なります。忍耐、複数回の対話、関係構築が必須です。
-      </p>
-
-      <h4 class="sub-title">交渉の進め方</h4>
-      <table class="info-table" style="margin-top:8px;">
-        <tr><th>段階</th><th>特徴</th><th>対応</th></tr>
-        <tr><td><strong>初期段階</strong></td><td>関係構築が優先。ビジネス内容は後回し</td><td>相手を知ることに時間を使う。急いで条件交渉しない</td></tr>
-        <tr><td><strong>情報交換</strong></td><td>相手は詳細情報を要求。複数回の説明が必要</td><td>同じプロポーザルを複数回説明する準備。各回で異なる視点から</td></tr>
-        <tr><td><strong>条件交渉</strong></td><td>砂漠の商人文化。議論の余地を作る。最初の提示条件は最終ではない</td><td>初期提案は実現可能な上限で。相手の価値観に合わせて調整する余地を残す</td></tr>
-        <tr><td><strong>合意形成</strong></td><td>複数層の承認が必要。経営層の最終決定に時間がかかる</td><td>合意文書は丁寧に。署名後のアフターケアも重要</td></tr>
-      </table>
-
-      <h4 class="sub-title">交渉の注意点</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px 0;">
-        • <strong>砂漠の市場文化</strong>：サウジの伝統的な商人は「bargain」を楽しむ文化。最初の提案が100%ではなく、交渉の余地をある程度意図的に残す<br/>
-        • <strong>忍耐</strong>：決定は遅い。「今月中に」という約束で数ヶ月待つことは稀ではありません。焦らず、定期的にフォローアップ<br/>
-        • <strong>複数の決定者</strong>：一人のマネージャーの「yes」でも、上司の承認が必要。複数層に説得する戦略<br/>
-        • <strong>e-mailより会議</strong>：詳細な説明は直接会議で。e-mailだけでは誤解が生じやすい<br/>
-        • <strong>対面の重要性</strong>：信頼構築には顔が見える対話が必須。リモート会議より対面を優先<br/>
-        • <strong>「God willing」（Inshallah）</strong>：相手の約束に「inshallah」がついていれば、確定ではなく「予定」程度の認識で
-      </div>
-
-      <div class="tip-box">💡 早期の合意より、長期的信頼を築くことを優先してください。最初の交渉に時間をかけることで、以後のビジネスはスムーズになります。</div>
-    </div>
-  </section>
-</div>
-
-<!-- ===== GROUP 5: ギフト + 接待・食事 ===== -->
-<div class="grid-2col">
-  <section class="compact-section">
-    <div class="card">
-      <h3 class="section-title">🎁 ギフト・プレゼント文化</h3>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        ビジネスギフトはサウジアラビアでの信頼構築の重要な手段です。しかし、何を贈るかによって相手に対する敬意が示されます。選択を間違えると、逆効果になる可能性があります。
-      </p>
-
-      <h4 class="sub-title">適切なギフト</h4>
-      <table class="info-table" style="margin-top:8px;">
-        <tr><th>カテゴリ</th><th>例</th><th>理由・注意</th></tr>
-        <tr><td><strong>高級ペン</strong></td><td>Montblanc、Parker等</td><td>ビジネスパーソンに最適。実用的で格も示せる</td></tr>
-        <tr><td><strong>会社ロゴ入り品</strong></td><td>高級なデスク用品、バッグ</td><td>会社の格を示す。粗悪品は避ける</td></tr>
-        <tr><td><strong>日本文化関連</strong></td><td>九谷焼、本陶製品、日本刀モチーフのペーパーナイフ</td><td>日本を代表する工芸品。相手が日本文化に興味を持つと一層良い</td></tr>
-        <tr><td><strong>時計</strong></td><td>高級ブランド（Seiko, Orient等）</td><td>ビジネスで時間厳守を示唆。ただし高額で関係が浅い場合は避ける</td></tr>
-        <tr><td><strong>書籍</strong></td><td>サウジのビジネス事情本、業界分析本</td><td>相手の興味に合わせた本。言語はアラビア語か英語</td></tr>
-      </table>
-
-      <h4 class="sub-title">避けるべきギフト</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px 0;">
-        • <strong>酒・アルコール飲料</strong>：イスラム教徒へのギフトとして絶対タブー<br/>
-        • <strong>豚肉関連製品</strong>：豚は不潔とみなされる。ハム、ベーコンも含む<br/>
-        • <strong>女性への贈り物（男性から）</strong>：異性への親密なギフト（香水、アクセサリー等）は誤解を招く。会社ロゴ入りの品なら安全<br/>
-        • <strong>左手で渡すギフト</strong>：左手は不潔。右手で渡す<br/>
-        • <strong>時計</strong>：「死」を連想させるため、故人へのギフトとされる。生きている人への時計は避ける風習も存在（高級時計は除く）<br/>
-        • <strong>靴</strong>：足は不潔とみなされるため、靴のギフトはタブー<br/>
-        • <strong>刃物</strong>：関係を「切る」を連想させるため避ける（日本刀モチーフのペンはOK）
-      </div>
-
-      <h4 class="sub-title">ギフト交換のエチケット</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; padding:8px 0;">
-        • <strong>タイミング</strong>：初対面で即座に贈ると、ビジネスよりギフトを重視している印象。会議後や関係が進んでから<br/>
-        • <strong>プレゼンテーション</strong>：両手で丁寧に渡す。包装も高級感のあるものを選ぶ<br/>
-        • <strong>受け取り拒否</strong>：相手がギフトを拒否することがあります。礼儀としての拒否の場合もあるため、軽く勧める程度で強制しない<br/>
-        • <strong>高価なギフト</strong>：政府機関や公務員への高級ギフトは贈賄と見なされることがあるため、注意
-      </div>
-
-      <div class="tip-box">💡 ギフトは関係構築の手段であって目的ではありません。相手が喜ぶもの、相手を尊重していることが伝わるものを選んでください。</div>
-    </div>
-  </section>
-
-  <section class="compact-section">
-    <div class="card">
-      <h3 class="section-title">🍽️ ビジネスディナー・食事での作法</h3>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        サウジアラビアの食事は、ビジネス信頼構築の重要な場です。サウジ人のホスピタリティは寛大で、招待に応じることは相手への大きな敬意を示します。
-      </p>
-
-      <h4 class="sub-title">食事招待への対応</h4>
-      <table class="info-table" style="margin-top:8px;">
-        <tr><th>状況</th><th>対応</th><th>説明</th></tr>
-        <tr><td><strong>招待を受けた</strong></td><td>可能な限り受ける</td><td>ビジネスパーソンとしての信頼構築チャンス。都合つけて参加する価値がある</td></tr>
-        <tr><td><strong>招待を断る</strong></td><td>礼儀正しく丁寧に</td><td>「申し訳ありませんが、この日は既に予約が...」など理由をつけて丁寧に。以後の招待を待つ</td></tr>
-        <tr><td><strong>食事代の支払い</strong></td><td>相手が支払う</td><td>相手が招待した場合、絶対に支払いを出そうとしてはいけません。相手の誘いに応じる形が礼儀。以後、あなたが招待を返す</td></tr>
-        <tr><td><strong>招待の返し</strong></td><td>同等かそれ以上の場所で</td><td>相手が高級レストランで招待したら、次回は同等以上の場所を選ぶ</td></tr>
-      </table>
-
-      <h4 class="sub-title">食事の作法</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px 0;">
-        • <strong>右手での食事</strong>：サウジアラビアでは多くの料理を手で食べます。左手は不潔とされるため、必ず右手を使用<br/>
-        • <strong>アルコール飲料</strong>：サウジアラビアではアルコール販売が禁止です。レストランでも酒は出されません。水やソフトドリンク、コーヒーを飲む<br/>
-        • <strong>豚肉</strong>：メニューに豚肉（ハム、ベーコン等）はありません。代わりに羊肉、鶏肉、魚が主流<br/>
-        • <strong>全て食べる</strong>：相手の厚意のおもてなしなので、出されたものはできるだけ食べる。完食できなくても、食べ残しを最小限に<br/>
-        • <strong>賛辞</strong>：「Delicious」「Thank you for this wonderful meal」など、食事と相手のおもてなしに感謝を示す<br/>
-        • <strong>デーツ（棗）</strong>：食後にデーツが出されることが多い。これはサウジ文化。一つは食べるのが礼儀
-      </div>
-
-      <h4 class="sub-title">会話のポイント</h4>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; margin-top:10px;">
-        ビジネスディナーでも、最初の30-60分は雑談です。相手の家族、サウジアラビアでの経験、趣味などを話題にします。ビジネス本題は食事が進んでから、自然に入るようにしてください。
-      </p>
-
-      <div class="tip-box">💡 サウジ人のホスピタリティは世界的に有名です。招待された時は心から感謝し、その経験を大切にしてください。</div>
-    </div>
-  </section>
-</div>
-
-<!-- ===== GROUP 6: サウジ化（Nitaqat） + 女性のビジネス参画 ===== -->
-<div class="grid-2col">
-  <section class="compact-section">
-    <div class="card">
-      <h3 class="section-title">🇸🇦 ニタカット（Nitaqat）とサウジ化政策</h3>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        ニタカット（Nitaqat）は、サウジアラビア企業が採用する従業員の一定割合をサウジ国民にすることを義務付けた政策です。外国人採用を希望する企業にとって、理解は必須です。
-      </p>
-
-      <h4 class="sub-title">ニタカットの基本</h4>
-      <table class="info-table" style="margin-top:8px;">
-        <tr><th>項目</th><th>説明</th></tr>
-        <tr><td><strong>目的</strong></td><td>サウジアラビアの失業率低下、国民の雇用機会確保</td></tr>
-        <tr><td><strong>対象</strong></td><td>民間企業（外国系企業も含む）。従業員数により要件が異なる</td></tr>
-        <tr><td><strong>要件</strong></td><td>企業規模に応じて、サウジ国民の採用比率が異なる（例：50名以上の企業は15-25%がサウジ国民）</td></tr>
-        <tr><td><strong>罰則</strong></td><td>要件未達企業は、外国人労働者の新規採用が制限される。政府契約の入札資格も失う可能性</td></tr>
-      </table>
-
-      <h4 class="sub-title">ビジネスへの影響</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px 0;">
-        • <strong>採用戦略</strong>：外国人を雇用したい企業も、まずサウジ国民の採用を検討する必要がある<br/>
-        • <strong>給与相場</strong>：サウジ国民と外国人労働者の給与差があり、外国人の給与が高いことが多い<br/>
-        • <strong>労働許可の取得</strong>：外国人労働者はイカマ（在留許可証）と共に、労働省の許可が必要<br/>
-        • <strong>企業選択の基準</strong>：ニタカットのランクが高い企業ほど、外国人採用枠が大きい<br/>
-        • <strong>医療・教育の特例</strong>：一部の業種（医療、教育等）はサウジ国民が少ないため、外国人採用の柔軟性あり
-      </div>
-
-      <div class="tip-box">💡 ニタカットは政策の一部。企業がこれを遵守していることは、サウジ政策への協調姿勢を示すため、ビジネス信頼構築に有利です。</div>
-    </div>
-  </section>
-
-  <section class="compact-section">
-    <div class="card">
-      <h3 class="section-title">👩 女性のビジネスキャリア</h3>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        サウジアラビアは伝統的に男性中心の社会ですが、近年、ビジョン2030の影響下で女性の就業が急速に進んでいます。ただし、保守的な慣行も残っています。
-      </p>
-
-      <h4 class="sub-title">女性のビジネス環境の変化</h4>
-      <table class="info-table" style="margin-top:8px;">
-        <tr><th>項目</th><th>以前</th><th>現在（2024年以降）</th></tr>
-        <tr><td><strong>運転</strong></td><td>禁止</strong></td><td>2018年から許可。女性ドライバー増加中</td></tr>
-        <tr><td><strong>雇用</strong></td><td>限定的。主に教育・医療</td><td>全業種での雇用推進。ニタカットで女性採用も加算</td></tr>
-        <tr><td><strong>仕事着</strong></td><td>ヘジャブ必須</td><td>外国人女性はヘジャブ任意（ただしビジネスシーンでは着用推奨）</td></tr>
-        <tr><td><strong>女性起業家</strong></td><td>稀</td><td>政府支援で増加。女性向けビジネス融資制度あり</td></tr>
-      </table>
-
-      <h4 class="sub-title">女性ビジネスパーソンへの配慮</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px 0;">
-        • <strong>握手</strong>：サウジ女性との握手は、相手が手を出した場合のみ。無理強いしない<br/>
-        • <strong>ジェンダー分離</strong>：一部の保守的な企業では、イベントや会食で男女を分ける慣行がまだ存在<br/>
-        • <strong>リーダーシップ</strong>：女性経営者・女性マネージャーの増加。女性との交渉も同等に扱う<br/>
-        • <strong>敬意の表現</strong>：女性だからといって軽く見ない。プロフェッショナルとしての敬意を同等に示す<br/>
-        • <strong>プライベートについて聞く</strong>：男性より多く聞かれることがあるかもしれません。家族構成などプライベートを聞かれても、ビジネス関係を保つ限り問題ありません<br/>
-        • <strong>一人での外出</strong>：女性一人でのタクシー、食事は避ける傾向がまだ一部にあります。安全面では問題ありませんが、相手の文化的背景を尊重
-      </div>
-
-      <div class="tip-box">💡 サウジ女性は急速に力を付けています。ビジネスパートナーとして、ジェンダーを考慮しながらも、平等な専門家関係を築くことが大切です。</div>
-    </div>
-  </section>
-</div>
-
-<!-- ===== GROUP 7: 週末・カレンダー + JETRO・日本人ビジネスコミュニティ ===== -->
-<div class="grid-2col">
-  <section class="compact-section">
-    <div class="card">
-      <h3 class="section-title">📅 営業日・週末</h3>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        サウジアラビアの営業日は多くの中東・イスラム諸国と異なります。金曜日と土曜日が週末で、日曜日から木曜日が営業日です。
-      </p>
-
-      <h4 class="sub-title">営業カレンダー</h4>
-      <table class="info-table" style="margin-top:8px;">
-        <tr><th>曜日</th><th>営業状況</th><th>説明</th></tr>
-        <tr><td><strong>日曜日</strong></td><td>営業日</td><td>多くのビジネスは通常営業。会議設定可</td></tr>
-        <tr><td><strong>月〜木</strong></td><td>営業日</td><td>通常のビジネス時間。会議・商談実施可</td></tr>
-        <tr><td><strong>金曜日</strong></td><td>週末</td><td>公式の週末。多くのビジネス施設は閉店。金曜日の朝は一部の店舗のみ営業</td></tr>
-        <tr><td><strong>土曜日</strong></td><td>週末</td><td>公式の週末。家族との時間を優先。ビジネス会議は避ける</td></tr>
-      </table>
-
-      <h4 class="sub-title">営業時間と注意点</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px 0;">
-        • <strong>オフィス営業時間</strong>：通常8:00 AM - 5:00 PM（または8:30 AM - 5:30 PM）<br/>
-        • <strong>昼休み</strong>：12:00-13:30（ラマダン中はさらに短い営業時間）<br/>
-        • <strong>祝日</strong>：サウジアラビアは多数のイスラム祝日を観察。加えて、建国記念日（9月23日）、ナショナルデー（1月29日）等<br/>
-        • <strong>金曜・土曜の会議</strong>：緊急以外、設定しない。相手が断ることが多い<br/>
-        • <strong>日曜日の立場</strong>：週の始まりは日曜日。重要な会議や発表を日曜日に設定することは大切さの表現
-      </div>
-
-      <div class="tip-box">💡 金曜日・土曜日の予定は個人時間。ビジネス目的で接触するのは控えてください。相手のプライベートを尊重することが長期関係の秘訣です。</div>
-    </div>
-  </section>
-
-  <section class="compact-section">
-    <div class="card">
-      <h3 class="section-title">🏢 ビジネス支援機関・JETRO と日本人コミュニティ</h3>
-      <p style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7;">
-        サウジアラビアで日本企業がビジネスを展開する際、複数の支援機関と日本人コミュニティが存在します。ネットワーキング、情報交換、問題解決の重要なリソースです。
-      </p>
-
-      <h4 class="sub-title">主要な支援機関</h4>
-      <table class="info-table" style="margin-top:8px;">
-        <tr><th>組織</th><th>概要</th><th>連絡先目安</th></tr>
-        <tr><td><strong>JETRO（日本貿易振興機構）リヤド事務所</strong></td><td>日本企業のサウジビジネス支援。市場情報提供、パートナー紹介、ビザサポート等</td><td>www.jetro.go.jp</td></tr>
-        <tr><td><strong>日本大使館</strong></td><td>在留邦人保護、ビザ発給、政治経済情報。緊急事態の相談先</td><td>https://www.sa.emb-japan.go.jp</td></tr>
-        <tr><td><strong>日本商工会議所（リヤド）</strong></td><td>日本企業同士のネットワーキング、サウジ進出支援、セミナー開催</td><td>リヤド地域に存在。日本大使館経由で連絡可</td></tr>
-        <tr><td><strong>Saudi-Japan Business Council</strong></td><td>サウジと日本の経済協力推進。官民協力によるビジネス機会創出</td><td>不定期に活動。大使館に問い合わせ</td></tr>
-      </table>
-
-      <h4 class="sub-title">日本人ビジネスコミュニティ</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.8; padding:8px 0;">
-        • <strong>主要な駐在地</strong>：リヤド（首都、経済中心）、ジェッダ（レッドシー沿岸、商業港湾）、ダンマーム（東部石油地帯）<br/>
-        • <strong>コミュニティイベント</strong>：日本文化イベント、ビジネスセミナー、懇親会。定期的に開催<br/>
-        • <strong>情報シェア</strong>：LinedIn、Whatsappグループで、最新ビジネス情報・生活情報を共有<br/>
-        • <strong>困った時の相談</strong>：労働問題、生活トラブル、ビジネス相談。先輩駐在者からのアドバイスが貴重<br/>
-        • <strong>語学支援</strong>：アラビア語学習グループ。ビジネスで必要となる専門用語も学べる
-      </div>
-
-      <h4 class="sub-title">JETROが提供する主要サービス</h4>
-      <div style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.7; padding:8px 0;">
-        • <strong>市場調査</strong>：サウジアラビアのビジネス環境、産業分析、競合調査<br/>
-        • <strong>パートナー探索</strong>：現地代理店、流通業者、製造パートナー等の紹介<br/>
-        • <strong>ビザ手続きサポート</strong>：ビジネスビザ、駐在員ビザの取得支援<br/>
-        • <strong>セミナー・トレーニング</strong>：ビジネスマナー、アラビア語、法規制等の勉強会<br/>
-        • <strong>その他リソース</strong>：日本製品のプロモーション、展示会への出展支援等
-      </div>
-
-      <div class="tip-box">💡 初期段階では、JETROと日本大使館に相談することが、スムーズな市場参入に繋がります。サウジアラビアのビジネス経験者からのネットワークは何物にも代え難い資産です。</div>
-    </div>
-  </section>
-</div>
-
-<!-- NOTES -->
-<section class="compact-section" style="padding-bottom:20px;">
-  <div class="card" style="background:var(--bg-secondary); border-left:3px solid var(--accent);">
-    <p style="font-size:var(--font-size-sm); color:var(--text-tertiary); line-height:1.7;">
-      <strong>ご注意：</strong>サウジアラビアのビジネス慣行は、企業文化、業界、相手の背景により異なります。このページは一般的なガイドラインです。具体的な交渉や重要な判断の前に、現地の専門家（JETROコンサルタント、会計士、法務顧問）に相談することをお勧めします。宗教・政治情勢も変わるため、定期的に最新情報をご確認ください。
-    </p>
+    <div class="tip-box">💡 名刺交換は敬意と信頼関係の第一歩です。小さな丁寧さが、その後のビジネス関係に大きな差を生みます。</div>
   </div>
-</section>
+</div>
+
+<!-- ===== 2. 服装・ドレスコード ===== -->
+<div class="biz-section">
+  <div class="card">
+    <h3 class="section-title">👔 服装・ドレスコード</h3>
+    <p class="biz-text">ビジネスの場では、服装は相手への敬意を示す重要な要素です。特に初対面や公式な場では、フォーマルな服装を心がけることで、信頼感を高めることができます。</p>
+    <div class="biz-inner">
+      <div>
+        <h4 class="col-title">男性のドレスコード</h4>
+        <div class="biz-text">
+          <p><strong>公式会議・商談</strong>：濃紺またはチャコールグレーのスーツに白シャツ、ネクタイが基本です。サウジ人ビジネスパーソンは thobe（トーブ＝白い伝統衣装）に ghutrah（グトラ＝頭布）を着用していることが多いですが、外国人はスーツで問題ありません。</p>
+          <p><strong>ビジネスにおける thobe の着用について</strong>：ビジネスの場では、外国人男性が thobe を着用することはお勧めしません。文化的な敬意を欠くと受け取られる可能性があります。ただし、これはあくまでビジネスシーンでの話です。プライベートな場面で thobe を着ることは、特に招待された場合など、むしろ喜ばれることもあります。</p>
+          <p><strong>カジュアルな打ち合わせ</strong>：関係が深まった後は、ブレザーにチノパン程度でも構いません。ただし、最初の数回は正装が無難です。</p>
+        </div>
+      </div>
+      <div>
+        <h4 class="col-title">女性のドレスコード</h4>
+        <div class="biz-text">
+          <p><strong>公式な場</strong>：濃色のスーツ、またはワンピース。膝下丈で長袖が基本です。体のラインが出すぎない、控えめなデザインを選んでください。</p>
+          <p><strong>ヘジャブ（スカーフ）</strong>：外国人女性に法的な着用義務はありませんが、ビジネスの場で着用すると、相手に大きな敬意を示すことができます。特に初対面や保守的な相手との会議では効果的です。</p>
+          <p><strong>避けるべき服装</strong>：腕や脚が見える服、透ける素材、体のラインが強調される服は避けてください。メイクは清潔感のあるプロフェッショナルな印象を心がけ、強い香水も控えましょう。</p>
+          <p><strong>変化する環境</strong>：Vision 2030 以降、特にリヤドやジェッダの国際的な企業では、ドレスコードが以前より柔軟になってきています。所属する企業やクライアントの雰囲気に合わせて判断してください。</p>
+        </div>
+      </div>
+    </div>
+    <div class="tip-box">💡 迷ったら、フォーマル寄りを選びましょう。関係が深まるにつれ、相手に合わせて服装を調整できます。</div>
+  </div>
+</div>
+
+<!-- ===== 3. ミーティング・会議文化 ===== -->
+<div class="biz-section">
+  <div class="card">
+    <h3 class="section-title">📊 ミーティング・会議文化</h3>
+    <p class="biz-text">サウジアラビアのビジネス会議は、効率だけでなく、人間関係の構築を重視する傾向があります。特に初期段階では、信頼関係を築くための時間を十分に確保することが、その後の成功につながります。</p>
+    <div class="biz-inner">
+      <div>
+        <h4 class="col-title">会議の進め方</h4>
+        <div class="biz-text">
+          <p><strong>時間の感覚</strong>：約束の時間に対して柔軟な場合があります。相手が15〜30分遅れることも珍しくありません。自分は時間通りに到着しつつ、相手の遅れには焦らず対応してください。</p>
+          <p><strong>最初の雑談</strong>：本題に入る前に、天気、最近の旅行、家族のことなどの雑談に20〜30分かけることが一般的です。この時間を飛ばすと、相手に「急いでいる」「自分に興味がない」と感じさせてしまう可能性があります。</p>
+          <p><strong>会議の流れ</strong>：雑談 → コーヒー・お茶のサーブ → 本題、という流れが一般的です。重要な決定は1回の会議では完結せず、複数回のミーティングを経て段階的に進むことがほとんどです。</p>
+        </div>
+      </div>
+      <div>
+        <h4 class="col-title">コーヒー・お茶のプロトコル</h4>
+        <div class="biz-text">
+          <p><strong>アラビアコーヒー（カフワ）</strong>：カルダモン等の香辛料入りの薄い金色のコーヒーが、小さなカップ（フィンジャーン）で提供されます。勧められたら必ず一口いただくのが礼儀です。断ると失礼にあたることがあります。</p>
+          <p><strong>紅茶（シャイ）</strong>：甘い紅茶が提供されることもあります。「カフワ」か「シャイ」か好みを聞かれたら、遠慮なく伝えてください。</p>
+          <p><strong>おかわりを断る方法</strong>：十分にいただいたら、空のカップを左右に軽く振ってください。これが「もう結構です」のサインです。</p>
+          <p><strong>デーツ（ナツメヤシの実）</strong>：コーヒーと一緒にデーツが添えられることが多いです。一つは食べるのが礼儀です。</p>
+        </div>
+      </div>
+    </div>
+    <div class="tip-box">💡 コーヒーやお茶の時間は単なる休憩ではなく、信頼を築くための重要な儀式です。急いでいても、この時間を大切にしてください。</div>
+  </div>
+</div>
+
+<!-- ===== 4. 祈りの時間とビジネス ===== -->
+<div class="biz-section">
+  <div class="card">
+    <h3 class="section-title">🕌 祈りの時間とビジネス</h3>
+    <p class="biz-text">サウジアラビアでは、イスラム教の1日5回の祈り（サラー）が生活リズムの中心にあります。ビジネスの場でも祈りの時間は尊重され、会議や商談が一時中断されることがあります。これは自然なことであり、スムーズに対応できることが信頼構築につながります。</p>
+    <div class="biz-inner">
+      <div>
+        <h4 class="col-title">5つの祈り時間</h4>
+        <table class="info-table">
+          <tr><th>祈り名</th><th>時間帯（目安）</th><th>ビジネスへの影響</th></tr>
+          <tr><td><strong>Fajr（ファジル）</strong></td><td>夜明け前</td><td>通常、営業開始前のため影響は少ない</td></tr>
+          <tr><td><strong>Dhuhr（ズフル）</strong></td><td>正午頃</td><td>昼のミーティングが一時中断する可能性あり</td></tr>
+          <tr><td><strong>Asr（アスル）</strong></td><td>午後（15:00〜16:00頃）</td><td>午後の会議が中断する可能性あり</td></tr>
+          <tr><td><strong>Maghrib（マグリブ）</strong></td><td>日没直後</td><td>夕方の営業終了時間と重なることがある</td></tr>
+          <tr><td><strong>Isha（イシャー）</strong></td><td>夜（19:30〜20:30頃）</td><td>実務への影響は比較的少ない</td></tr>
+        </table>
+        <p class="biz-text" style="margin-top:10px;">※ 祈りの時間は季節や日の出・日の入りによって変動します。</p>
+      </div>
+      <div>
+        <h4 class="col-title">ビジネスでの対応方法</h4>
+        <div class="biz-text">
+          <p><strong>会議中の中断</strong>：アザーン（祈りの呼びかけ）が聞こえたら会話を止め、相手が祈りに向かえるようにしてください。「どうぞ、お待ちしています」と伝えれば十分です。</p>
+          <p><strong>待機時間</strong>：祈りは通常15〜20分で終わります。この間はコーヒーを飲む、メールを確認するなど、静かに待機しましょう。</p>
+          <p><strong>スケジュール設定</strong>：会議を設定する際は、祈りの時間帯を避けるか、その前後に休憩を入れるよう配慮してください。</p>
+          <p><strong>店舗・施設の閉店</strong>：祈りの時間中はショッピングモール等の店舗が一時閉店します。ビジネスランチの場合、レストランの営業時間にも注意が必要です。</p>
+        </div>
+      </div>
+    </div>
+    <div class="tip-box">💡 祈りの中断はビジネスの障害ではなく、サウジアラビアの日常の一部です。自然に対応できる姿勢が、相手からの信頼につながります。</div>
+  </div>
+</div>
+
+<!-- ===== 5. コミュニケーションスタイル ===== -->
+<div class="biz-section">
+  <div class="card">
+    <h3 class="section-title">💬 コミュニケーションスタイル</h3>
+    <p class="biz-text">サウジアラビアは「ハイコンテクスト文化」に分類される社会です。言葉そのものだけでなく、文脈・表情・声のトーン・人間関係の中に多くの情報が含まれています。これは日本と似ている部分もありますが、重要な違いもあります。</p>
+    <div class="biz-inner">
+      <div>
+        <h4 class="col-title">ハイコンテクスト文化としての特徴</h4>
+        <div class="biz-text">
+          <p><strong>間接的な表現</strong>：「No」と直接言わず、「Maybe」「We'll see」「Inshallah（インシャアッラー）」など、曖昧な表現で意思を伝えることがあります。これは相手の面子を保ち、関係を損なわないための配慮です。</p>
+          <p><strong>Inshallah の理解</strong>：「インシャアッラー（神の御意志があれば）」は、イスラム文化において「Yes」と答える場合にも添えられる言葉です。「すべては神のみぞ知る」という信仰が基盤にあり、確定的な「Yes」ではないものの、必ずしも「No」を意味するわけでもありません。「前向きだが、絶対の約束ではない」くらいの理解が適切です。具体的な進捗を確認したい場合は、丁寧にフォローアップしましょう。</p>
+          <p><strong>関係性が最優先</strong>：ビジネスの内容や条件よりも、まず「この人は信頼できるか」が重視されます。急いで本題に入らず、人間関係の構築に十分な時間を使うことが、結果的にビジネスを円滑に進めます。</p>
+        </div>
+      </div>
+      <div>
+        <h4 class="col-title">日本のハイコンテクスト文化との違い</h4>
+        <div class="biz-text">
+          <p>日本もハイコンテクスト文化ですが、サウジアラビアとはいくつかの点で異なります。</p>
+          <p><strong>感情表現</strong>：日本では感情を抑えることが美徳とされますが、サウジアラビアでは感情をある程度オープンに表現します。熱意や友情を言葉で示すことが信頼構築につながります。</p>
+          <p><strong>階層と権力</strong>：日本は合議制で意思決定しますが、サウジアラビアではトップダウンの傾向が強く、最終決定者への直接的なアプローチが重要です。</p>
+          <p><strong>時間感覚</strong>：日本の時間厳守は世界的にも際立っていますが、サウジアラビアでは時間に対してより柔軟です。</p>
+          <p><strong>人間関係の深さ</strong>：日本では名刺交換後すぐにビジネスに入れますが、サウジアラビアでは個人的な信頼関係なしにビジネスが前に進みにくい傾向があります。</p>
+        </div>
+        <h4 class="col-title" style="margin-top:14px;">避けるべき話題・言動</h4>
+        <div class="biz-text">
+          <p><strong>宗教・王族への批判</strong>、<strong>政治的な発言</strong>は厳禁です。<strong>酒や豚肉の話題</strong>も冗談であっても避けてください。相手を急かす言動（「早く決定してほしい」等）は失礼にあたります。</p>
+        </div>
+      </div>
+    </div>
+    <div class="tip-box">💡 「Why?」より「How?」「What if?」を使いましょう。相手を巻き込む形で提案を進めることで、主体性と協調性の両方を示せます。</div>
+  </div>
+</div>
+
+<!-- ===== 6. 階層と意思決定プロセス ===== -->
+<div class="biz-section">
+  <div class="card">
+    <h3 class="section-title">🏛️ 階層と意思決定プロセス</h3>
+    <p class="biz-text">サウジアラビアの多くの企業では、意思決定が経営トップに集中する傾向があります。ビジネスを進めるには、組織の構造を理解し、適切な相手にアプローチすることが不可欠です。</p>
+    <div class="biz-inner">
+      <div>
+        <h4 class="col-title">組織文化の特徴</h4>
+        <div class="biz-text">
+          <p><strong>トップダウンの意思決定</strong>：最終的な決定権はCEOやオーナーに集中していることが多く、中間管理職の「前向きな反応」がそのまま承認を意味するとは限りません。</p>
+          <p><strong>年長者・上位者への敬意</strong>：年齢や地位の高い人への敬意は非常に重要です。会議では上位者が先に発言し、若手が上司に公然と異を唱えることはほぼありません。</p>
+          <p><strong>家族経営</strong>：サウジ企業の多くは家族経営です。経営陣の親族関係を理解すると、意思決定のメカニズムが見えてきます。</p>
+          <p><strong>複数回の承認</strong>：重要な決定には複数の経営層の承認が必要です。1回の会議で結論が出ることは稀と考えてください。</p>
+        </div>
+      </div>
+      <div>
+        <h4 class="col-title">ワスタ（Wasta）と人脈</h4>
+        <div class="biz-text">
+          <p><strong>ワスタとは</strong>：「人的ネットワーク・紹介・コネクション」を意味する言葉です。サウジアラビアのビジネスでは、適切な人脈を通じたアプローチが成果に大きく影響します。</p>
+          <p><strong>紹介の重要性</strong>：信頼できる第三者を通じて重要人物に紹介してもらうことが、ビジネスを前に進める最も効果的な方法のひとつです。</p>
+          <p><strong>信頼の積み重ね</strong>：最初のプロジェクトで信頼を勝ち取ることが、その後のワスタ（人脈）の基盤になります。短期的な成果より、長期的な信頼関係を重視してください。</p>
+          <p><strong>忍耐</strong>：意思決定には時間がかかることが多いですが、「No」と明確に言われない限り、可能性は残っています。定期的に丁寧なフォローアップを続けましょう。</p>
+        </div>
+      </div>
+    </div>
+    <div class="tip-box">💡 最初の取引で大きな利益を求めるより、信頼を築くことを優先してください。サウジアラビアのビジネスは、長い関係の中で大きく実を結びます。</div>
+  </div>
+</div>
+
+<!-- ===== 7. 交渉スタイル ===== -->
+<div class="biz-section">
+  <div class="card">
+    <h3 class="section-title">🤝 交渉スタイル</h3>
+    <p class="biz-text">サウジアラビアのビジネス交渉は、信頼関係の上に成り立ちます。急いで結論を求めるのではなく、複数回の対話を通じて合意形成を進めるスタイルが一般的です。</p>
+    <div class="biz-inner">
+      <div>
+        <h4 class="col-title">交渉の進め方</h4>
+        <table class="info-table">
+          <tr><th>段階</th><th>特徴と対応</th></tr>
+          <tr><td><strong>初期段階</strong></td><td>関係構築が最優先。ビジネスの条件交渉は後回しにし、相手を知ることに時間を使ってください</td></tr>
+          <tr><td><strong>情報交換</strong></td><td>相手は詳細な情報を求めます。同じ提案を複数回、異なる視点から説明する準備をしておきましょう</td></tr>
+          <tr><td><strong>条件交渉</strong></td><td>サウジアラビアには伝統的に活発な商取引の文化があります。最初の提示条件は交渉の出発点であり、調整の余地を残しておくことが一般的です</td></tr>
+          <tr><td><strong>合意形成</strong></td><td>複数の経営層の承認が必要です。合意文書は丁寧に作成し、署名後のアフターケアも重要です</td></tr>
+        </table>
+      </div>
+      <div>
+        <h4 class="col-title">交渉の注意点</h4>
+        <div class="biz-text">
+          <p><strong>忍耐が鍵</strong>：「今月中に」という約束で数ヶ月待つことも珍しくありません。焦らず、定期的にフォローアップを続けてください。</p>
+          <p><strong>対面を優先</strong>：重要な交渉はメールだけでなく、直接会って進めることが信頼構築に効果的です。リモート会議より対面が好まれる傾向があります。</p>
+          <p><strong>複数の決定者</strong>：担当者の「Yes」だけでは決まりません。上位者の承認を得るプロセスを想定し、複数の層に対して説明する戦略を持ちましょう。</p>
+          <p><strong>Inshallah への対応</strong>：交渉中の「Inshallah」は「前向きだが確定ではない」という意味合いです。具体的な次のステップや期日を丁寧に確認することで、進捗を把握できます。</p>
+        </div>
+      </div>
+    </div>
+    <div class="tip-box">💡 早期の合意より、長期的な信頼を築くことを優先してください。最初の交渉に時間をかけることで、以後のビジネスがスムーズになります。</div>
+  </div>
+</div>
+
+<!-- ===== 8. ラマダン期間のビジネスエチケット ===== -->
+<div class="biz-section">
+  <div class="card">
+    <h3 class="section-title">🌙 ラマダン期間のビジネスエチケット</h3>
+    <p class="biz-text">ラマダンはイスラム暦第9月で、毎年西暦の日付が約11日ずつ前倒しになります。この期間、成人のムスリムは日の出から日没まで飲食・喫煙を断ちます。ビジネスの進め方も大きく変わるため、事前の理解が欠かせません。</p>
+    <div class="biz-inner">
+      <div>
+        <h4 class="col-title">ラマダン中のビジネス環境</h4>
+        <div class="biz-text">
+          <p><strong>営業時間の短縮</strong>：多くの企業が勤務時間を短縮します（例：朝8時〜午後1時程度）。官公庁や銀行の窓口時間にも変更があります。</p>
+          <p><strong>生産性の変化</strong>：断食中の午後は集中力が下がりやすいため、重大な交渉や意思決定は避けたほうが賢明です。会議を設定する場合は、朝の早い時間帯を選んでください。</p>
+          <p><strong>飲食の制限</strong>：公共の場での飲食・喫煙は法律で禁止されています。外国人であっても、オフィスやカフェなどでの飲食は避けてください。</p>
+        </div>
+      </div>
+      <div>
+        <h4 class="col-title">外国人として守るべきエチケット</h4>
+        <div class="biz-text">
+          <p><strong>飲食への配慮</strong>：断食中の相手の前で飲食をしないでください。オフィス内でも、目立たない場所で済ませるのが礼儀です。</p>
+          <p><strong>イフタール（断食明けの食事）への招待</strong>：同僚やビジネスパートナーからの招待は、信頼関係を深める絶好の機会です。可能な限り参加してください。</p>
+          <p><strong>相手への敬意</strong>：断食している方への労いの言葉（「ラマダン・カリーム」＝恵み多きラマダンを）を添えると好印象です。</p>
+          <p><strong>スケジュール調整</strong>：重要な交渉やプロジェクトの開始は、可能であればラマダンの前後にずらすのが賢明です。</p>
+        </div>
+      </div>
+    </div>
+    <div class="tip-box">💡 ラマダンは宗教行事であると同時に、サウジ社会全体にとって大切な時間です。外国人が敬意を持って対応することは、長期的なビジネス関係の構築につながります。</div>
+  </div>
+</div>
+
+<!-- ===== 9. ギフト・プレゼント文化 ===== -->
+<div class="biz-section">
+  <div class="card">
+    <h3 class="section-title">🎁 ギフト・プレゼント文化</h3>
+    <p class="biz-text">ビジネスギフトは信頼関係を深めるための手段です。何を贈るかで相手への敬意が伝わりますが、文化的に不適切なものを選ぶと逆効果になりかねません。</p>
+    <div class="biz-inner">
+      <div>
+        <h4 class="col-title">適切なギフトの例</h4>
+        <div class="biz-text">
+          <p><strong>高級文房具</strong>：Montblanc や Parker などのペンは実用的で格調高く、好まれます。</p>
+          <p><strong>日本の工芸品</strong>：九谷焼、漆器、高品質な陶磁器など、日本文化を代表する品は喜ばれます。</p>
+          <p><strong>高級時計</strong>：Seiko や Grand Seiko など、日本ブランドの時計は「日本の技術力」を示す良いギフトです。アラブ文化では時計に否定的な意味はありません。</p>
+          <p><strong>香水・ウード</strong>：サウジアラビアでは香りの文化が非常に重要です。ただし異性への香水は避けてください。</p>
+          <p><strong>会社ロゴ入りの高品質な品</strong>：デスク用品やバッグなど。ただし安っぽいものは逆効果です。</p>
+        </div>
+      </div>
+      <div>
+        <h4 class="col-title">避けるべきギフトとマナー</h4>
+        <div class="biz-text">
+          <p><strong>絶対に避ける</strong>：酒・アルコール飲料、豚肉関連製品（これらはイスラム教で禁じられています）。靴も「不浄」とみなされるためタブーです。</p>
+          <p><strong>注意が必要</strong>：刃物（ナイフ・ハサミ等）は「関係を断つ」ことを連想させるため、一般的に避けられます。異性への個人的なギフト（香水、アクセサリー等）は誤解を招く可能性があります。</p>
+          <p><strong>渡し方</strong>：ギフトは右手、または両手で丁寧に渡してください。高級感のある包装を心がけましょう。</p>
+          <p><strong>タイミング</strong>：初対面でいきなり高価なギフトを贈ると、ビジネスよりギフトを重視している印象を与えます。関係が少し進んでからが適切です。</p>
+          <p><strong>公務員への注意</strong>：政府機関や公務員への高額ギフトは贈賄と見なされる恐れがあるため、十分に注意してください。</p>
+        </div>
+      </div>
+    </div>
+    <div class="tip-box">💡 ギフトは関係構築の手段であり、目的ではありません。相手への敬意が伝わるものを選んでください。</div>
+  </div>
+</div>
+
+<!-- ===== 10. ビジネスディナー・食事 ===== -->
+<div class="biz-section">
+  <div class="card">
+    <h3 class="section-title">🍽️ ビジネスディナー・食事での作法</h3>
+    <p class="biz-text">サウジアラビアでは、食事の場がビジネスの信頼構築に大きな役割を果たします。サウジ人のホスピタリティは非常に寛大で、招待を受けることは相手への敬意を示す重要な行為です。</p>
+    <div class="biz-inner">
+      <div>
+        <h4 class="col-title">食事招待への対応</h4>
+        <div class="biz-text">
+          <p><strong>招待は受ける</strong>：可能な限り応じてください。信頼関係を深める貴重な機会です。</p>
+          <p><strong>断る場合</strong>：「この日は既に先約がありまして…」など、理由を添えて丁寧に。次の機会への期待を伝えましょう。</p>
+          <p><strong>支払い</strong>：招待された側が支払いを申し出ないのが礼儀です。後日、同等以上の場所で招待を返すのがマナーです。</p>
+          <p><strong>会話の流れ</strong>：食事の場でもすぐにビジネスの話には入りません。最初の30〜60分は雑談を楽しみ、本題は食事が進んでから自然に切り出してください。</p>
+        </div>
+      </div>
+      <div>
+        <h4 class="col-title">食事の作法</h4>
+        <div class="biz-text">
+          <p><strong>右手で食べる</strong>：サウジアラビアでは手で食べる料理も多くあります。その場合は必ず右手を使ってください。</p>
+          <p><strong>アルコール禁止</strong>：サウジアラビアではアルコール販売・消費が禁止されています。レストランでも酒は提供されません。</p>
+          <p><strong>出されたものへの感謝</strong>：出された料理はできるだけ食べ、食べ残しは最小限に。おもてなしに対する感謝の言葉を忘れずに。</p>
+          <p><strong>デーツ（ナツメヤシの実）</strong>：食後にデーツが提供されることが多いです。一つはいただくのが礼儀です。</p>
+        </div>
+      </div>
+    </div>
+    <div class="tip-box">💡 サウジ人のホスピタリティは世界的に知られています。招待を受けた際は心から感謝し、その経験を大切にしてください。</div>
+  </div>
+</div>
+
+<!-- ===== 11. 営業日・週末・祝日 ===== -->
+<div class="biz-section">
+  <div class="card">
+    <h3 class="section-title">📅 営業日・週末・祝日</h3>
+    <p class="biz-text">サウジアラビアの営業日は、多くの国とは異なるカレンダーで動いています。金曜日と土曜日が週末で、日曜日から木曜日が営業日です。</p>
+    <div class="biz-inner">
+      <div>
+        <h4 class="col-title">営業カレンダー</h4>
+        <table class="info-table">
+          <tr><th>曜日</th><th>営業状況</th></tr>
+          <tr><td><strong>日曜〜木曜</strong></td><td>営業日。通常のビジネス時間（8:00〜17:00 が一般的）</td></tr>
+          <tr><td><strong>金曜</strong></td><td>公式の週末。多くの施設が閉店。礼拝の日</td></tr>
+          <tr><td><strong>土曜</strong></td><td>公式の週末。家族との時間を優先する日</td></tr>
+        </table>
+        <div class="biz-text" style="margin-top:10px;">
+          <p>金曜・土曜にビジネス目的で連絡するのは控えてください。相手のプライベートを尊重することが、長期的な関係構築の秘訣です。</p>
+        </div>
+      </div>
+      <div>
+        <h4 class="col-title">主な祝日</h4>
+        <div class="biz-text">
+          <p><strong>建国記念日（Founding Day）</strong>：2月22日。1727年の第一次サウジ王国建国を記念する日です（2022年より公式祝日）。</p>
+          <p><strong>ナショナルデー</strong>：9月23日。1932年のサウジアラビア王国統一を記念する日です。</p>
+          <p><strong>イード・アル・フィトル</strong>：ラマダン明けの祝日（数日間）。イスラム暦に従うため、毎年日付が変わります。</p>
+          <p><strong>イード・アル・アドハー</strong>：犠牲祭（数日間）。巡礼（ハッジ）の時期に行われる重要な祝日です。</p>
+          <p>イスラム暦の祝日は毎年日程が変動するため、事前に確認してスケジュールを調整してください。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 12. ニタカット（サウジ化政策） ===== -->
+<div class="biz-section">
+  <div class="card">
+    <h3 class="section-title">🇸🇦 ニタカット（Nitaqat）とサウジ化政策</h3>
+    <p class="biz-text">ニタカット（Nitaqat）は、民間企業に対してサウジ国民の雇用比率を義務付ける政策です。外国人を雇用する企業にとって、この仕組みの理解は不可欠です。</p>
+    <div class="biz-inner">
+      <div>
+        <h4 class="col-title">ニタカットの基本</h4>
+        <div class="biz-text">
+          <p><strong>目的</strong>：サウジ国民の雇用機会を確保し、失業率を低下させることです。</p>
+          <p><strong>対象</strong>：外国系企業を含むすべての民間企業。従業員数や業種によって、求められるサウジ国民の採用比率が異なります。</p>
+          <p><strong>ランク制度</strong>：企業はサウジ化率に応じてランク付けされ、ランクが高い企業ほど外国人労働者の採用枠が広くなります。</p>
+          <p><strong>未達の場合</strong>：要件を満たせない企業は、外国人労働者の新規採用が制限されたり、政府入札の資格を失ったりする可能性があります。</p>
+        </div>
+      </div>
+      <div>
+        <h4 class="col-title">ビジネスへの影響</h4>
+        <div class="biz-text">
+          <p><strong>採用戦略</strong>：外国人を雇用する場合でも、まずサウジ国民の採用を検討する必要があります。</p>
+          <p><strong>労働許可</strong>：外国人労働者にはイカマ（在留許可証）と労働省の許可が必要です。</p>
+          <p><strong>業種による違い</strong>：医療・教育など、サウジ国民の専門人材が不足している分野では、外国人採用の柔軟性があります。</p>
+          <p><strong>女性雇用の推進</strong>：ニタカットではサウジ人女性の雇用もカウントされるため、女性採用が増加しています。</p>
+          <p><strong>政策の変化</strong>：サウジ化政策は頻繁に更新されます。最新の要件は HRSD（人的資源・社会開発省）のサイトで確認してください。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 13. 女性のビジネスキャリア ===== -->
+<div class="biz-section">
+  <div class="card">
+    <h3 class="section-title">👩 女性のビジネスキャリア</h3>
+    <p class="biz-text">Vision 2030 のもと、サウジアラビアにおける女性の社会進出は急速に進んでいます。女性の労働参加率は大幅に上昇し、経営層や起業家として活躍する女性も増えています。</p>
+    <div class="biz-inner">
+      <div>
+        <h4 class="col-title">変化する環境</h4>
+        <div class="biz-text">
+          <p><strong>運転</strong>：2018年より女性の自動車運転が許可され、通勤や移動の自由度が大きく向上しました。</p>
+          <p><strong>雇用拡大</strong>：かつては教育・医療分野が中心でしたが、現在は全業種で女性の雇用が推進されています。</p>
+          <p><strong>起業支援</strong>：政府による女性起業家向けの融資制度やインキュベーション施設が充実しています。</p>
+          <p><strong>日常の自由</strong>：都市部では女性が一人でレストランで食事をしたり、タクシーを利用したりすることは一般的になっています。</p>
+        </div>
+      </div>
+      <div>
+        <h4 class="col-title">ビジネスの場での配慮</h4>
+        <div class="biz-text">
+          <p><strong>握手</strong>：サウジ人女性との握手は、相手が手を差し出した場合にのみ応じてください。</p>
+          <p><strong>プロフェッショナルな敬意</strong>：性別に関係なく、ビジネスパーソンとして対等に接してください。女性だからといって軽く扱うことは厳禁です。</p>
+          <p><strong>ジェンダー分離</strong>：一部の保守的な企業では、イベントや会食で男女を分ける慣行が残っている場合がありますが、国際的な企業では減少傾向にあります。</p>
+          <p><strong>変化を理解する</strong>：サウジ女性のビジネス環境は年々変化しています。「以前はこうだった」という情報に頼らず、最新の状況を確認してください。</p>
+        </div>
+      </div>
+    </div>
+    <div class="tip-box">💡 サウジ女性はビジネスの重要なパートナーです。ジェンダーに配慮しつつも、プロフェッショナルとして対等な関係を築いてください。</div>
+  </div>
+</div>
+
+<!-- ===== 14. ビジネス支援機関 ===== -->
+<div class="biz-section">
+  <div class="card">
+    <h3 class="section-title">🏢 ビジネス支援機関・JETROと日本人コミュニティ</h3>
+    <p class="biz-text">サウジアラビアで日本企業がビジネスを展開する際、複数の支援機関と日本人コミュニティを活用できます。</p>
+    <div class="biz-inner">
+      <div>
+        <h4 class="col-title">主要な支援機関</h4>
+        <table class="info-table">
+          <tr><th>組織</th><th>概要</th></tr>
+          <tr><td><strong>JETRO リヤド事務所</strong></td><td>市場情報提供、パートナー紹介、ビジネスマッチング、ビザサポートなど日本企業の進出を幅広く支援</td></tr>
+          <tr><td><strong>在サウジ日本大使館</strong></td><td>在留邦人保護、政治経済情報の提供、緊急事態の相談窓口</td></tr>
+          <tr><td><strong>日本商工会議所（リヤド）</strong></td><td>日本企業同士のネットワーキング、セミナー開催、サウジ進出支援</td></tr>
+          <tr><td><strong>Saudi-Japan Business Council</strong></td><td>両国の経済協力を推進。官民連携によるビジネス機会の創出</td></tr>
+        </table>
+      </div>
+      <div>
+        <h4 class="col-title">日本人ビジネスコミュニティ</h4>
+        <div class="biz-text">
+          <p><strong>主要な駐在都市</strong>：リヤド（首都・経済の中心）、ジェッダ（紅海沿岸の商業都市）、ダンマーム（東部の石油産業地帯）</p>
+          <p><strong>情報交換</strong>：LinkedIn や WhatsApp グループで、ビジネス・生活情報が共有されています。先輩駐在者からのアドバイスは貴重です。</p>
+          <p><strong>JETROの主なサービス</strong>：市場調査、現地パートナー探索、ビジネスビザ取得支援、セミナー開催、日本製品のプロモーション・展示会出展支援などがあります。</p>
+          <p><strong>初期段階のアドバイス</strong>：サウジ市場への参入を検討している場合は、まずJETROと日本大使館に相談することをお勧めします。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 注意書き ===== -->
+<div class="biz-section" style="padding-bottom:20px;">
+  <div class="disclaimer-box">
+    <strong>📝 改めてのお願い</strong><br>
+    このページの内容は一般的な傾向に基づくガイドラインであり、すべてのサウジ人・すべての企業に当てはまるものではありません。サウジアラビアは現在、急速に変化しています。具体的な交渉や重要な判断の前に、JETRO コンサルタント、会計士、法務顧問など現地の専門家に相談することをお勧めします。最も大切なのは、目の前の相手をよく観察し、柔軟に対応する姿勢です。
+  </div>
+</div>
 </main>
 
 <!-- FOOTER -->
