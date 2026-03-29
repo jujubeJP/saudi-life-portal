@@ -442,9 +442,13 @@ document.querySelectorAll('nav a[href*="#"]').forEach(link => {
     });
   });
 
-  const SAFETY_KEYWORDS = ['安全','注意喚起','テロ','犯罪','緊急','危険','爆発','事件','事故','避難','不審','警戒','感染症','退避','誘拐','デモ','暴動','地震','洪水','在留届','たびレジ','情勢','注意','スポット情報','広域情報','邦人','保護','治安'];
+  const SAFETY_KEYWORDS = ['安全','注意喚起','テロ','犯罪','緊急','危険','爆発','事件','事故','避難','不審','警戒','感染症','退避','誘拐','デモ','暴動','地震','洪水','在留届','たびレジ','情勢','スポット情報','広域情報','邦人','保護','治安'];
 
-  function isSafetyNews(title) {
+  function isSafetyNews(item) {
+    // Python側でPDF本文を分析済みの場合、is_safetyフラグを優先
+    if (typeof item.is_safety === 'boolean') return item.is_safety;
+    // フォールバック: タイトルベースのキーワードマッチング
+    const title = item.title || item;
     return SAFETY_KEYWORDS.some(kw => title.includes(kw));
   }
 
@@ -462,7 +466,7 @@ document.querySelectorAll('nav a[href*="#"]').forEach(link => {
   function updateEmbassySafety(items) {
     const ul = document.getElementById('embassy-safety-list');
     if (!ul) return;
-    const safetyItems = (items || []).filter(n => isSafetyNews(n.title || ''));
+    const safetyItems = (items || []).filter(n => isSafetyNews(n));
     if (safetyItems.length === 0) {
       ul.innerHTML = '<li style="color:var(--text-tertiary); font-style:italic;">現在、安全に関する特別なお知らせはありません。</li>';
       return;

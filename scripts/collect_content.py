@@ -14,6 +14,7 @@ from html.parser import HTMLParser
 import xml.etree.ElementTree as ET
 
 import os
+import tempfile
 import urllib.request
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
@@ -30,6 +31,68 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
 }
+
+# 安全関連キーワード（タイトル＋PDF本文で判定に使用）
+SAFETY_KEYWORDS = [
+    '安全', '注意喚起', 'テロ', '犯罪', '緊急', '危険', '爆発', '事件', '事故',
+    '避難', '不審', '警戒', '感染症', '退避', '誘拐', 'デモ', '暴動', '地震',
+    '洪水', '在留届', 'たびレジ', '情勢', 'スポット情報', '広域情報', '邦人',
+    '保護', '治安', '中東情勢', '安全確保', '身体の安全', '生命', '渡航情報',
+    '脅威', '武力', '軍事', '空爆', '攻撃', 'ミサイル', '紛争', '戒厳',
+    '閉鎖', '領事窓口', '窓口閉鎖', '業務停止',
+]
+
+
+def fetch_pdf_text(url):
+    """PDFをダウンロードしてテキストを抽出する"""
+    try:
+        import pdfplumber
+
+        result = subprocess.run(
+            [
+                "curl", "-s", "-L", "--compressed",
+                "--max-time", "20",
+                "-H", f"User-Agent: {HEADERS['User-Agent']}",
+                "-o", "-",
+                url,
+            ],
+            capture_output=True,
+            timeout=30,
+        )
+        if result.returncode != 0 or not result.stdout:
+            print(f"[WARN] PDF download failed for {url}", file=sys.stderr)
+            return None
+
+        # 一時ファイルに書き出してpdfplumberで読む
+        with tempfile.NamedTemporaryFile(suffix=".pdf", delete=True) as tmp:
+            tmp.write(result.stdout)
+            tmp.flush()
+            try:
+                with pdfplumber.open(tmp.name) as pdf:
+                    text_parts = []
+                    for page in pdf.pages[:3]:  # 最初の3ページのみ（効率化）
+                        page_text = page.extract_text()
+                        if page_text:
+                            text_parts.append(page_text)
+                    full_text = "\n".join(text_parts)
+                    if full_text.strip():
+                        print(f"[DEBUG] PDF text extracted: {len(full_text)} chars from {url}")
+                        return full_text
+            except Exception as e:
+                print(f"[WARN] PDF parse failed for {url}: {e}", file=sys.stderr)
+                return None
+
+    except Exception as e:
+        print(f"[WARN] fetch_pdf_text failed for {url}: {e}", file=sys.stderr)
+        return None
+
+
+def is_safety_content(title, pdf_text=None):
+    """タイトルとPDF本文から安全関連コンテンツかどうかを判定"""
+    combined = title or ""
+    if pdf_text:
+        combined += " " + pdf_text
+    return any(kw in combined for kw in SAFETY_KEYWORDS)
 
 # メディアソース（Google News RSSを使用 - bot保護なし、複数ソースを集約）
 MEDIA_SOURCES = [
@@ -251,12 +314,24 @@ def collect_embassy():
         # 大使館ニュースのカテゴリ判定
         _, emb_category = translate_and_categorize(title_clean)
 
+        # PDF本文から安全関連コンテンツかを判定
+        safety_flag = is_safety_content(title_clean)  # まずタイトルで判定
+        pdf_text = None
+        if not safety_flag and href.lower().endswith(".pdf"):
+            # タイトルだけでは判定できない場合、PDF本文を分析
+            print(f"[INFO] Checking PDF content for safety: {title_clean[:40]}...")
+            pdf_text = fetch_pdf_text(href)
+            if pdf_text:
+                safety_flag = is_safety_content(title_clean, pdf_text)
+                print(f"[DEBUG] PDF safety check: {safety_flag} for '{title_clean[:40]}'")
+
         news_items.append({
             "title": title_clean,
             "url": href,
             "date": date_str or datetime.now(AST).strftime("%Y-%m-%d"),
             "source": "在サウジ日本大使館",
             "category": emb_category,
+            "is_safety": safety_flag,
         })
 
     # 日付で降順ソート（新しい順）
