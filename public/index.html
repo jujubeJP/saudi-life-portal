@@ -401,44 +401,75 @@
     <!-- コンパクトお知らせエリア -->
     <div class="notice-area">
 
-      <!-- 安全情報（コンパクト） -->
+      <!-- 安全情報（コンパクト）— 静的データ埋め込み済み、JS成功時に上書き -->
       <div class="notice-section" id="safety-notice">
         <div class="notice-header">
           <h3>⚠️ 安全情報</h3>
-          <span class="updated" id="security-updated" style="font-size:0.72em;color:var(--text-tertiary);"></span>
+          <span class="updated" id="security-updated" style="font-size:0.72em;color:var(--text-tertiary);"><!-- STATIC_SECURITY_UPDATED -->2026/3/29 13:18<!-- /STATIC_SECURITY_UPDATED --></span>
           <a href="news.html" class="notice-more">詳しく見る →</a>
         </div>
         <div id="safety-summary" style="font-size:0.82em; color:var(--text-secondary); line-height:1.6;">
-          <p style="color:var(--text-tertiary); font-style:italic; margin:0;">読み込み中...</p>
+          <!-- STATIC_SAFETY_LEVELS -->
+          <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:baseline;margin-bottom:5px;"><span style="padding:2px 8px;border-radius:4px;background:#FF9800;color:#fff;font-weight:600;font-size:0.88em;white-space:nowrap;">レベル3</span><span style="color:var(--text-secondary);">リヤド州、東部州、ジャーザーン州、アシール州、ナジュラーン州、イエメンとの国境地帯 — 渡航は止めてください（渡航中止勧告）</span></div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:baseline;margin-bottom:5px;"><span style="padding:2px 8px;border-radius:4px;background:#FFE0B2;color:#E65100;font-weight:600;font-size:0.88em;white-space:nowrap;">レベル2</span><span style="color:var(--text-secondary);">イラクとの国境地帯 — 不要不急の渡航は止めてください</span></div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:baseline;margin-bottom:5px;"><span style="padding:2px 8px;border-radius:4px;background:#FFF9C4;color:#F57F17;font-weight:600;font-size:0.88em;white-space:nowrap;">レベル1</span><span style="color:var(--text-secondary);">上記地域を除く全土 — 十分注意してください</span></div>
+          <!-- /STATIC_SAFETY_LEVELS -->
         </div>
-        <p id="safety-mofa-link" style="display:none; font-size:0.78em; margin-top:8px;">
+        <p id="safety-mofa-link" style="font-size:0.78em; margin-top:8px;">
           <a href="https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">🔗 外務省 海外安全ホームページで最新情報を確認 →</a>
         </p>
-        <ul id="embassy-safety-list" class="notice-list" style="margin-top:8px;"></ul>
-      </div>
-
-      <!-- 最新ニュース（コンパクト） -->
-      <div class="notice-section" id="news-notice">
-        <div class="notice-header">
-          <h3>📰 最新ニュース</h3>
-          <span class="updated" id="news-updated" style="font-size:0.72em;color:var(--text-tertiary);"></span>
-          <a href="news.html" class="notice-more">すべて見る →</a>
-        </div>
-        <ul id="latest-news-list" class="notice-list">
-          <li style="color:var(--text-tertiary); font-style:italic;">読み込み中...</li>
+        <ul id="embassy-safety-list" class="notice-list" style="margin-top:8px;">
+          <!-- STATIC_EMBASSY_SAFETY -->
+          <li><span class="n-meta"><span style="color:#c62828;font-size:0.9em;">⚠️</span><span class="n-date">2026-03-16</span></span><span class="n-title"><a href="https://www.ksa.emb-japan.go.jp/files/100995068.pdf" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">【大使館からのお知らせ】領事窓口業務の再開（3月16日）</a></span></li>
+          <li><span class="n-meta"><span style="color:#c62828;font-size:0.9em;">⚠️</span><span class="n-date">2026-03-07</span></span><span class="n-title"><a href="https://www.ksa.emb-japan.go.jp/files/100990792.pdf" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">【大使館からのお知らせ】領事窓口閉鎖のお知らせ（3月8日から当面の間）</a></span></li>
+          <li><span class="n-meta"><span style="color:#c62828;font-size:0.9em;">⚠️</span><span class="n-date">2026-03-04</span></span><span class="n-title"><a href="https://www.ksa.emb-japan.go.jp/files/100988773.pdf" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">在留届の提出及び更新、「たびレジ」登録のお願い</a></span></li>
+          <!-- /STATIC_EMBASSY_SAFETY -->
         </ul>
       </div>
 
-      <!-- 大使館ニュース（コンパクト） -->
+      <!-- 最新ニュース（コンパクト）— 静的データ埋め込み済み -->
+      <div class="notice-section" id="news-notice">
+        <div class="notice-header">
+          <h3>📰 最新ニュース</h3>
+          <span class="updated" id="news-updated" style="font-size:0.72em;color:var(--text-tertiary);"><!-- STATIC_NEWS_UPDATED -->2026/3/29 13:18<!-- /STATIC_NEWS_UPDATED --></span>
+          <a href="news.html" class="notice-more">すべて見る →</a>
+        </div>
+        <ul id="latest-news-list" class="notice-list">
+          <!-- STATIC_LATEST_NEWS -->
+          <li><span class="n-meta"><span class="n-date">3/29 09:18</span><span class="n-src">NDTV</span></span><span class="n-title"><a href="https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaThMeC1jOU4wRlpJX1hCX19JaU9SU3lrWHdQdGFZYUx2WHVwZmpZb3djRklIZV9IdjNOczRoRlJ3b1BEQzZDRlhJcURjbkNTQVd4UnBhb0U1cVhzWHR0alhWWHB1ZkZTbjU3MVdHTjUxV0JhczRQcVU2MHhTV1lVajFUa2RPWG4yTXNvTlZaa2laLTcwaEZVeFY1UEdrTlVTVE84Zzl1SGZtSEt3T3hmc1MyMjl6cll4ZFhpMU44RC1pU1RhV0FlT2I0ellEUFVWMmdobTBfZXFaUUF2ZzR0eG95MjHSAewBQVVfeXFMTXRGRTdVYjc2akZna0FPY3lJelR6MFM4SDk5YnlvZkRrbVBYZGgwOGMxU1NvQVRscEdfTGNLVGpkRkRzcDBDT0Y4andZckJYUGVhVjl5Wk9LWmowTUNlbnVXTTJzSVNmVVFablJ5LVF1MnFHMGFLYWdORWQxeXlnZFpmUUhJeTFWeWlyelVFOVpadXpDakJpMHJCUWlYRUtxZWJkNGNYWFdVejdEam9rUEVTMm9IalNPSVJIbFVFZlF3akVhVS00eElxR0YzYlRJVThsNnZWSXM4TjY4R25YVmZteFdmZXowRy1zcXc?oc=5" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">パキスタン、サウジアラビア・トルコ・エジプトとイラン情勢について協議</a></span></li>
+          <li><span class="n-meta"><span class="n-date">3/29 08:12</span><span class="n-src">aljazeera.com</span></span><span class="n-title"><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOcGpuTWIzY3J2ZGM4amJhdF9LNTVVZlVDMHhPVFk5TWUxcHVva24zUGNIRjZOR2JVeGdtamZVNGRVQV9ockJmVjB5WlRyVnJZZjBvcm8yZklCSi1XMFR2Z19pZkVid1VlWUc1RDRqYjFTRGlGVExiSFZMVmxOZGstS1FQWlJ5N2Rsa3h4NHU5NW51ZTNnRXU5TzlwZW04REVxM2E3OXNpRHZoUW9rMkHSAbMBQVVfeXFMTVFaWTBoTDJTWXM1cTNKTnFEQlFnS2tFN3hOQ2o0X093UmJLNTBTYVNxNmtUMWZNQ3JkdnVDTTdKUDJ1MTlOa05IS19XTlZxTXJDOGpQdmNyRzB4VU92MU9XU2gtakttWUtXQmlWY2ZTay14LWVpSG1udWRRWkxBZ1JjSUJOOU9rRFA2UGtaMVd0aVRWYkN1QjlqUHlNWW5QdFhiTzFzaFlkVWR5VDREOVgzcmM?oc=5" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">イランでの戦闘めぐり、パキスタンがサウジアラビア、トルコ、エジプトの高官を招待</a></span></li>
+          <li><span class="n-meta"><span class="n-date">3/29 07:10</span><span class="n-src">Al Jazeera</span></span><span class="n-title"><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTXkyOUJUcjBtT0xZck1HdHhYZ05rNFBKWGpFRFpQRTNZRUxqWGdQVWU0amY4c3Q0SDhoNFg3ZFI2YkxmQXRLMkJSekJzamhzLTZHLXJUYUlVZnZPWDAzVnlUb1g1bUZqbmtzLTFfQnFmUDlZa3ZvTHlkRWpWdDN0M0V2VkhVa3RvenZ6R3NYaVpTTmI0RDBVQ3FhTkwwYjRKQkg0Y192dVlhUzNwdV9jTm1mbGVITE56dG5iQmZWOWXSAcYBQVVfeXFMTVUxanpTTmJibV91eE5QaWpKcENob1cyUDhBREE1Z1h5WVJIdF85R2F5MmxaNHlDNWRnblZ0eW95X3JEMW1Ub0c3R3hzVmJ1d19jSUxNaUlMNkwwVVozMkI4eWVJX1hraW5CbUVwN0RHclRsbVI2Q2ZfSnh0ZllqelF0Z3FXWXlWbTJzRzBxNVY5M2NHMmFqenBOZEpZOWR4MUppX2pydnFMcTU0alJacjZ6dC1VTndQRjRCRG8xSW5ocTFYMDNn?oc=5" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">イラン情勢 最新情報：パキスタン、トルコ、エジプト、サウジアラビアが緊張緩和を模索</a></span></li>
+          <!-- /STATIC_LATEST_NEWS -->
+        </ul>
+      </div>
+
+      <!-- 大使館ニュース（コンパクト）— 静的データ埋め込み済み -->
       <div class="notice-section" id="embassy-notice">
         <div class="notice-header">
           <h3>🏛️ 大使館からのお知らせ</h3>
           <a href="news.html" class="notice-more">すべて見る →</a>
         </div>
         <ul id="embassy-news-list" class="notice-list">
-          <li style="color:var(--text-tertiary); font-style:italic;">読み込み中...</li>
+          <!-- STATIC_EMBASSY_NEWS -->
+          <li><span class="n-meta"><span class="n-date">2026-03-16</span></span><span class="n-title"><a href="https://www.ksa.emb-japan.go.jp/files/100995068.pdf" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">【大使館からのお知らせ】領事窓口業務の再開（3月16日）</a></span></li>
+          <li><span class="n-meta"><span class="n-date">2026-03-07</span></span><span class="n-title"><a href="https://www.ksa.emb-japan.go.jp/files/100990792.pdf" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">【大使館からのお知らせ】領事窓口閉鎖のお知らせ（3月8日から当面の間）</a></span></li>
+          <li><span class="n-meta"><span class="n-date">2026-03-04</span></span><span class="n-title"><a href="https://www.ksa.emb-japan.go.jp/files/100988773.pdf" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">在留届の提出及び更新、「たびレジ」登録のお願い</a></span></li>
+          <!-- /STATIC_EMBASSY_NEWS -->
         </ul>
       </div>
+
+      <!-- noscript退避: JSが無効な環境でも一次ソースへアクセス可能 -->
+      <noscript>
+        <div style="padding:16px; background:#fff3e0; border:1px solid #ff9800; border-radius:8px; margin-top:16px;">
+          <p style="margin:0 0 8px; font-weight:600;">JavaScriptが無効なため、自動更新情報を表示できません。</p>
+          <p style="margin:0 0 6px; font-size:0.9em;">以下の公式サイトで最新情報をご確認ください：</p>
+          <ul style="margin:0; padding-left:20px; font-size:0.9em; line-height:1.8;">
+            <li><a href="https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html">外務省 海外安全ホームページ（サウジアラビア）</a></li>
+            <li><a href="https://www.ksa.emb-japan.go.jp/itpr_ja/index.html">在サウジアラビア日本国大使館</a></li>
+            <li><a href="news.html">サウジナビ ニュース一覧ページ</a></li>
+          </ul>
+        </div>
+      </noscript>
 
     </div>
 
@@ -704,68 +735,78 @@ function escapeHtml(str) {
     }).join('');
   }
 
+  // --- 状態管理: 読み込み中 / 成功 / 失敗 を明確に分離 ---
+  var _loadState = 'idle'; // idle | loading | success | failed
+
   async function loadContent() {
+    _loadState = 'loading';
     try {
       const res = await fetch(API_URL);
-      if (!res.ok) return;
+      if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
-      if (!data) return;
+      if (!data) throw new Error('Empty response');
 
+      // --- 安全情報の更新 ---
       if (data.security) {
         if (data.security.lastUpdated) {
-          document.getElementById('security-updated').textContent = fmtDate(data.security.lastUpdated);
+          document.getElementById('security-updated').textContent = '自動更新：' + fmtDate(data.security.lastUpdated) + ' 取得';
         }
         updateSafetyLevels(data.security);
       }
 
+      // --- 大使館ニュースの更新 ---
       if (data.news && data.news.items) {
         const embassyItems = data.news.items.filter(n => n.source === '在サウジ日本大使館');
         updateEmbassyNews(embassyItems);
         updateEmbassySafety(embassyItems);
       }
 
+      // --- 最新ニュースの更新 ---
       updateLatestNews(data);
 
       var newsUpdated = data.news_en?.lastUpdated || data.news_ar?.lastUpdated || data.news_jp?.lastUpdated;
-      if (newsUpdated) document.getElementById('news-updated').textContent = fmtDate(newsUpdated);
+      if (newsUpdated) document.getElementById('news-updated').textContent = '自動更新：' + fmtDate(newsUpdated) + ' 取得';
 
+      _loadState = 'success';
       console.log('[Portal] Dashboard content loaded');
     } catch (e) {
+      _loadState = 'failed';
       console.log('[Portal] Content load failed:', e.message);
     }
   }
 
-  // フォールバック: 5秒以内にデータが読み込まれなければ「読み込み中…」を公式リンクに置換
-  var _contentLoaded = false;
-  var _origLoadContent = loadContent;
-  async function loadContentTracked() {
-    await _origLoadContent();
-    _contentLoaded = true;
-  }
-
+  // --- 失敗時フォールバック: 5秒後に状態を確認 ---
+  // 静的データが埋め込み済みなので、失敗しても「殻」にはならない。
+  // ただし失敗していることはユーザーに伝える。
   setTimeout(function() {
-    if (_contentLoaded) return;
-    // 安全情報
-    var box = document.getElementById('safety-summary');
-    if (box && box.querySelector('[style*="italic"]')) {
-      box.innerHTML = '<p style="color:var(--text-secondary);margin:0;">安全情報の自動取得に時間がかかっています。</p>' +
-        '<p style="font-size:0.9em;margin-top:4px;"><a href="https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html" target="_blank" rel="noopener" style="color:var(--accent);">外務省 海外安全ホームページ</a>で最新情報をご確認ください。</p>';
-    }
-    // ニュース・大使館
-    ['latest-news-list', 'embassy-news-list'].forEach(function(id) {
-      var ul = document.getElementById(id);
-      if (ul && ul.innerHTML.includes('読み込み中')) {
-        ul.innerHTML = '<li style="color:var(--text-tertiary);font-size:0.85em;border:none;padding:8px 0;">データの取得に時間がかかっています。しばらく経ってからページを再読み込みしてください。</li>';
+    if (_loadState === 'success') return;
+    if (_loadState === 'failed') {
+      // 明確に失敗 — 静的データは残したまま、失敗メッセージを追加
+      var failMsg = document.createElement('p');
+      failMsg.style.cssText = 'font-size:0.78em; color:#c62828; margin-top:8px; font-style:italic;';
+      failMsg.textContent = '⚠ 自動更新に失敗しています。上記は前回取得時の情報です。最新情報は公式サイトでご確認ください。';
+
+      var safetyBox = document.getElementById('safety-notice');
+      if (safetyBox && !safetyBox.querySelector('.fail-msg')) {
+        failMsg.className = 'fail-msg';
+        safetyBox.appendChild(failMsg.cloneNode(true));
       }
-    });
+      var newsBox = document.getElementById('news-notice');
+      if (newsBox && !newsBox.querySelector('.fail-msg')) {
+        var nm = failMsg.cloneNode(true);
+        nm.className = 'fail-msg';
+        newsBox.appendChild(nm);
+      }
+    }
+    // loading状態のまま（まだ応答待ち）の場合は何もしない — 静的データが見えている
   }, 5000);
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', loadContentTracked);
+    document.addEventListener('DOMContentLoaded', loadContent);
   } else {
-    loadContentTracked();
+    loadContent();
   }
-  setInterval(loadContentTracked, 30 * 60 * 1000);
+  setInterval(loadContent, 30 * 60 * 1000);
 })();
 </script>
 

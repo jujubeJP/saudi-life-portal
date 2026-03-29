@@ -497,6 +497,12 @@
 <!-- ===== CONTENT ===== -->
 <section style="padding: 24px 0;">
   <div class="container">
+    <div style="margin-bottom:12px; padding:10px 14px; background:var(--bg-secondary); border-left:3px solid #c62828; border-radius:0 var(--radius-sm) var(--radius-sm) 0; font-size:0.82em; color:var(--text-tertiary); line-height:1.7;">
+      <strong>情報種別：</strong>公式要件 + 自動収集　｜　<strong>最終確認日：</strong>自動更新
+    </div>
+    <div style="margin-bottom:20px; padding:10px 14px; background:var(--bg-secondary); border-radius:0 var(--radius-sm) var(--radius-sm) 0; font-size:0.80em; color:var(--text-tertiary); line-height:1.6;">
+      安全情報は外務省・大使館サイトから自動取得しています。最新情報は必ず公式サイトでご確認ください。
+    </div>
 
     <!-- SECURITY SECTION -->
     <div class="section-header">
@@ -514,7 +520,11 @@
           </tr>
         </thead>
         <tbody id="danger-level-tbody">
-          <tr><td colspan="2" style="text-align:center;color:var(--text-tertiary);font-style:italic;padding:16px;">読み込み中...</td></tr>
+          <!-- STATIC_DANGER_LEVELS -->
+          <tr><td><span class="level-badge level-3">レベル3</span><br><small>渡航中止勧告</small></td><td>リヤド州、東部州<br>ジャーザーン州、アシール州、ナジュラーン州<br>イエメンとの国境地帯</td></tr>
+          <tr><td><span class="level-badge level-2">レベル2</span><br><small>不要不急の渡航中止</small></td><td>イラクとの国境地帯</td></tr>
+          <tr><td><span class="level-badge level-1">レベル1</span><br><small>十分注意</small></td><td>上記地域を除く全土</td></tr>
+          <!-- /STATIC_DANGER_LEVELS -->
         </tbody>
       </table>
       <div id="security-mofa-detail" style="font-size:0.88em; color:var(--text-secondary); line-height:1.6; margin-top:10px; padding-top:10px; border-top:1px solid var(--border-light);">
@@ -530,7 +540,11 @@
       <span class="card-label">大使館情報</span>
       <h3 style="margin: 12px 0 16px; font-size: 1.05em; color: var(--text-primary);">大使館 安全情報</h3>
       <ul id="embassy-safety-list" class="embassy-safety-list">
-        <li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">読み込み中...</li>
+        <!-- STATIC_EMBASSY_SAFETY -->
+        <li><span style="color:#c62828;">⚠️</span> <a href="https://www.ksa.emb-japan.go.jp/files/100995068.pdf" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">【大使館からのお知らせ】領事窓口業務の再開（3月16日）</a> <span style="font-size:0.8em;color:var(--text-tertiary);">2026-03-16</span></li>
+        <li><span style="color:#c62828;">⚠️</span> <a href="https://www.ksa.emb-japan.go.jp/files/100990792.pdf" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">【大使館からのお知らせ】領事窓口閉鎖のお知らせ（3月8日から当面の間）</a> <span style="font-size:0.8em;color:var(--text-tertiary);">2026-03-07</span></li>
+        <li><span style="color:#c62828;">⚠️</span> <a href="https://www.ksa.emb-japan.go.jp/files/100988773.pdf" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">在留届の提出及び更新、「たびレジ」登録のお願い</a> <span style="font-size:0.8em;color:var(--text-tertiary);">2026-03-04</span></li>
+        <!-- /STATIC_EMBASSY_SAFETY -->
       </ul>
     </div>
 
@@ -596,10 +610,27 @@
     <div class="card" style="margin-top: 30px;" id="embassy-news-card">
       <span class="card-label">大使館ニュース</span>
       <h3 style="margin: 12px 0 16px; font-size: 1.05em; color: var(--text-primary);">在サウジ日本大使館からのお知らせ</h3>
+      <span id="embassy-news-updated" style="display:block;font-size:0.72em;color:var(--text-tertiary);margin-bottom:8px;"></span>
       <ul id="embassy-news-list" class="news-list" style="list-style:none;padding:0;margin:0;">
-        <li style="color:var(--text-tertiary); font-style:italic; padding:20px 0;">読み込み中...</li>
+        <!-- STATIC_EMBASSY_NEWS -->
+        <li class="news-item" data-category="政治"><span class="news-meta"><span class="news-date">2026-03-16</span><span class="news-src">在サウジ日本大使館</span></span><a href="https://www.ksa.emb-japan.go.jp/files/100995068.pdf" target="_blank" rel="noopener">【大使館からのお知らせ】領事窓口業務の再開（3月16日）</a></li>
+        <li class="news-item" data-category="社会"><span class="news-meta"><span class="news-date">2026-03-07</span><span class="news-src">在サウジ日本大使館</span></span><a href="https://www.ksa.emb-japan.go.jp/files/100990792.pdf" target="_blank" rel="noopener">【大使館からのお知らせ】領事窓口閉鎖のお知らせ（3月8日から当面の間）</a></li>
+        <li class="news-item" data-category="社会"><span class="news-meta"><span class="news-date">2026-03-04</span><span class="news-src">在サウジ日本大使館</span></span><a href="https://www.ksa.emb-japan.go.jp/files/100988773.pdf" target="_blank" rel="noopener">在留届の提出及び更新、「たびレジ」登録のお願い</a></li>
+        <!-- /STATIC_EMBASSY_NEWS -->
       </ul>
     </div>
+
+    <!-- noscript退避 -->
+    <noscript>
+      <div style="padding:16px; background:#fff3e0; border:1px solid #ff9800; border-radius:8px; margin-top:16px;">
+        <p style="margin:0 0 8px; font-weight:600;">JavaScriptが無効なため、自動更新情報を表示できません。</p>
+        <p style="margin:0 0 6px; font-size:0.9em;">以下の公式サイトで最新情報をご確認ください：</p>
+        <ul style="margin:0; padding-left:20px; font-size:0.9em; line-height:1.8;">
+          <li><a href="https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html">外務省 海外安全ホームページ（サウジアラビア）</a></li>
+          <li><a href="https://www.ksa.emb-japan.go.jp/itpr_ja/index.html">在サウジアラビア日本国大使館</a></li>
+        </ul>
+      </div>
+    </noscript>
 
   </div>
 </section>
@@ -846,12 +877,16 @@ function filterNews() {
     ).join('');
   }
 
+  // --- 状態管理 ---
+  var _loadState = 'idle';
+
   async function loadContent() {
+    _loadState = 'loading';
     try {
       const res = await fetch(API_URL);
-      if (!res.ok) return;
+      if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
-      if (!data) return;
+      if (!data) throw new Error('Empty response');
 
       // Update MOFA security info — 地域別レベルテーブル動的生成
       if (data.security && data.security.mofa) {
@@ -873,6 +908,18 @@ function filterNews() {
               '<td style="color:var(--text-secondary);line-height:1.6;">' + esc(regions) + '</td></tr>';
           }).join('');
         }
+        // 最終更新時刻表示
+        if (data.security.lastUpdated) {
+          var secUpdEl = document.querySelector('.info-label-updated');
+          if (!secUpdEl) {
+            secUpdEl = document.createElement('span');
+            secUpdEl.className = 'info-label-updated';
+            secUpdEl.style.cssText = 'display:block;font-size:0.72em;color:var(--text-tertiary);margin-top:4px;';
+            var secCard = document.getElementById('danger-level-table');
+            if (secCard) secCard.parentNode.insertBefore(secUpdEl, secCard);
+          }
+          secUpdEl.textContent = '自動更新：' + fmtDate(data.security.lastUpdated) + ' 取得';
+        }
       }
 
       // Update news sections
@@ -891,16 +938,38 @@ function filterNews() {
         const embassyItems = data.news.items.filter(n => n.source === '在サウジ日本大使館');
         updateEmbassyNews(embassyItems);
         updateEmbassySafety(embassyItems);
+        // 大使館ニュース更新時刻
+        var embUpdEl = document.getElementById('embassy-news-updated');
+        if (embUpdEl && data.news.lastUpdated) {
+          embUpdEl.textContent = '自動更新：' + fmtDate(data.news.lastUpdated) + ' 取得';
+        }
       }
 
       // Re-apply category filter
       filterNews();
 
+      _loadState = 'success';
       console.log('[News Page] Content loaded');
     } catch (e) {
+      _loadState = 'failed';
       console.log('[News Page] Content load failed:', e.message);
     }
   }
+
+  // --- 失敗時フォールバック ---
+  setTimeout(function() {
+    if (_loadState === 'success') return;
+    if (_loadState === 'failed') {
+      var failMsg = document.createElement('p');
+      failMsg.style.cssText = 'font-size:0.78em; color:#c62828; margin:8px 0; font-style:italic;';
+      failMsg.textContent = '⚠ 自動更新に失敗しています。表示は前回取得時のデータです。最新情報は外務省・大使館の公式サイトでご確認ください。';
+      var secSection = document.querySelector('.section-header');
+      if (secSection && !document.querySelector('.fail-msg-news')) {
+        failMsg.className = 'fail-msg-news';
+        secSection.parentNode.insertBefore(failMsg, secSection.nextSibling);
+      }
+    }
+  }, 5000);
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', loadContent);

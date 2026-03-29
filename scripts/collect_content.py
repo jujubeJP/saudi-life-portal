@@ -904,6 +904,178 @@ def main():
     print(f"     Media JP: {len(news_jp)} items")
     print(f"     Embassy news: {len(embassy_all)} items")
 
+    # HTML静的データを更新（index.html, news.html）
+    update_static_html(content)
+
+
+def _html_esc(s):
+    """HTMLエスケープ"""
+    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;").replace("'", "&#39;")
+
+
+def _replace_marker(html, marker_name, new_content):
+    """HTML内の <!-- MARKER --> ... <!-- /MARKER --> 間を置換"""
+    pattern = re.compile(
+        rf"(<!--\s*{re.escape(marker_name)}\s*-->).*?(<!--\s*/{re.escape(marker_name)}\s*-->)",
+        re.DOTALL,
+    )
+    replacement = f"<!-- {marker_name} -->\n{new_content}\n          <!-- /{marker_name} -->"
+    return pattern.sub(replacement, html)
+
+
+def _fmt_date_jp(iso_str):
+    """ISO日付を 'YYYY/M/D HH:MM' 形式に"""
+    if not iso_str:
+        return ""
+    try:
+        dt = datetime.fromisoformat(iso_str)
+        return f"{dt.year}/{dt.month}/{dt.day} {dt.hour:02d}:{dt.minute:02d}"
+    except Exception:
+        return iso_str[:16]
+
+
+def _fmt_news_date(d):
+    """ニュース日付を 'M/D HH:MM' 形式に"""
+    if not d:
+        return ""
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})", d)
+    if m:
+        return f"{int(m.group(2))}/{int(m.group(3))} {m.group(4)}:{m.group(5)}"
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", d)
+    if m:
+        return f"{int(m.group(2))}/{int(m.group(3))}"
+    return d
+
+
+def update_static_html(content):
+    """content.jsonのデータをindex.htmlとnews.htmlの静的マーカー間に書き込む"""
+    public_dir = Path(__file__).parent.parent / "public"
+
+    LEVEL_COLORS = {
+        1: ("#FFF9C4", "#F57F17"),
+        2: ("#FFE0B2", "#E65100"),
+        3: ("#FF9800", "#fff"),
+        4: ("#D32F2F", "#fff"),
+    }
+    LEVEL_SHORT = {1: "十分注意", 2: "不要不急の渡航中止", 3: "渡航中止勧告", 4: "退避勧告"}
+
+    security = content.get("security", {})
+    mofa = security.get("mofa", {})
+    levels = mofa.get("levels", [])
+    news = content.get("news", {})
+    embassy_items = news.get("items", [])
+    sec_updated = _fmt_date_jp(security.get("lastUpdated", ""))
+    news_updated = _fmt_date_jp(
+        content.get("news_en", {}).get("lastUpdated")
+        or content.get("news_ar", {}).get("lastUpdated")
+        or content.get("news_jp", {}).get("lastUpdated", "")
+    )
+
+    # --- 安全情報の安全関連フィルタ ---
+    safety_items = [n for n in embassy_items if n.get("is_safety")][:3]
+
+    # --- index.html の静的データ生成 ---
+    # STATIC_SAFETY_LEVELS
+    safety_html = ""
+    for lv in levels:
+        bg, fg = LEVEL_COLORS.get(lv["level"], LEVEL_COLORS[1])
+        regions = "、".join(lv.get("regions", []))
+        label = _html_esc(lv.get("label", ""))
+        safety_html += (
+            f'          <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:baseline;margin-bottom:5px;">'
+            f'<span style="padding:2px 8px;border-radius:4px;background:{bg};color:{fg};font-weight:600;font-size:0.88em;white-space:nowrap;">レベル{lv["level"]}</span>'
+            f'<span style="color:var(--text-secondary);">{_html_esc(regions)} — {label}</span></div>\n'
+        )
+
+    # STATIC_EMBASSY_SAFETY
+    emb_safety_html = ""
+    for n in safety_items:
+        emb_safety_html += (
+            f'          <li><span class="n-meta"><span style="color:#c62828;font-size:0.9em;">⚠️</span>'
+            f'<span class="n-date">{_html_esc(n.get("date", ""))}</span></span>'
+            f'<span class="n-title"><a href="{_html_esc(n.get("url", ""))}" target="_blank" rel="noopener" '
+            f'style="color:var(--text-primary);text-decoration:none;">{_html_esc(n.get("title", ""))}</a></span></li>\n'
+        )
+
+    # STATIC_LATEST_NEWS (全言語統合トップ3)
+    all_news = []
+    for key in ["news_en", "news_ar", "news_jp"]:
+        items = content.get(key, {}).get("items", [])
+        all_news.extend(items)
+    all_news.sort(key=lambda x: x.get("date", ""), reverse=True)
+    latest_html = ""
+    for n in all_news[:3]:
+        latest_html += (
+            f'          <li><span class="n-meta"><span class="n-date">{_html_esc(_fmt_news_date(n.get("date", "")))}</span>'
+            f'<span class="n-src">{_html_esc(n.get("source", ""))}</span></span>'
+            f'<span class="n-title"><a href="{_html_esc(n.get("url", ""))}" target="_blank" rel="noopener" '
+            f'style="color:var(--text-primary);text-decoration:none;">{_html_esc(n.get("title", ""))}</a></span></li>\n'
+        )
+
+    # STATIC_EMBASSY_NEWS (トップ3)
+    emb_news_html = ""
+    for n in embassy_items[:3]:
+        emb_news_html += (
+            f'          <li><span class="n-meta"><span class="n-date">{_html_esc(n.get("date", ""))}</span></span>'
+            f'<span class="n-title"><a href="{_html_esc(n.get("url", ""))}" target="_blank" rel="noopener" '
+            f'style="color:var(--text-primary);text-decoration:none;">{_html_esc(n.get("title", ""))}</a></span></li>\n'
+        )
+
+    # --- index.html 更新 ---
+    index_path = public_dir / "index.html"
+    if index_path.exists():
+        html = index_path.read_text(encoding="utf-8")
+        html = _replace_marker(html, "STATIC_SAFETY_LEVELS", safety_html.rstrip())
+        html = _replace_marker(html, "STATIC_EMBASSY_SAFETY", emb_safety_html.rstrip())
+        html = _replace_marker(html, "STATIC_LATEST_NEWS", latest_html.rstrip())
+        html = _replace_marker(html, "STATIC_EMBASSY_NEWS", emb_news_html.rstrip())
+        html = _replace_marker(html, "STATIC_SECURITY_UPDATED", sec_updated)
+        html = _replace_marker(html, "STATIC_NEWS_UPDATED", news_updated)
+        index_path.write_text(html, encoding="utf-8")
+        print("[OK] index.html static data updated")
+
+    # --- news.html 更新 ---
+    news_path = public_dir / "news.html"
+    if news_path.exists():
+        html = news_path.read_text(encoding="utf-8")
+
+        # STATIC_DANGER_LEVELS (テーブル行)
+        danger_html = ""
+        for lv in levels:
+            regions = "<br>".join(_html_esc(r) for r in lv.get("regions", []))
+            short = LEVEL_SHORT.get(lv["level"], lv.get("label", ""))
+            danger_html += (
+                f'          <tr><td><span class="level-badge level-{lv["level"]}">レベル{lv["level"]}</span>'
+                f'<br><small>{_html_esc(short)}</small></td><td>{regions}</td></tr>\n'
+            )
+
+        # STATIC_EMBASSY_SAFETY (news.html版)
+        news_emb_safety = ""
+        for n in safety_items:
+            news_emb_safety += (
+                f'        <li><span style="color:#c62828;">⚠️</span> '
+                f'<a href="{_html_esc(n.get("url", ""))}" target="_blank" rel="noopener" '
+                f'style="color:var(--text-primary);text-decoration:none;">{_html_esc(n.get("title", ""))}</a> '
+                f'<span style="font-size:0.8em;color:var(--text-tertiary);">{_html_esc(n.get("date", ""))}</span></li>\n'
+            )
+
+        # STATIC_EMBASSY_NEWS (news.html版 - 全件)
+        news_emb_news = ""
+        for n in embassy_items[:3]:
+            cat = _html_esc(n.get("category", "その他"))
+            news_emb_news += (
+                f'        <li class="news-item" data-category="{cat}">'
+                f'<span class="news-meta"><span class="news-date">{_html_esc(n.get("date", ""))}</span>'
+                f'<span class="news-src">在サウジ日本大使館</span></span>'
+                f'<a href="{_html_esc(n.get("url", ""))}" target="_blank" rel="noopener">{_html_esc(n.get("title", ""))}</a></li>\n'
+            )
+
+        html = _replace_marker(html, "STATIC_DANGER_LEVELS", danger_html.rstrip())
+        html = _replace_marker(html, "STATIC_EMBASSY_SAFETY", news_emb_safety.rstrip())
+        html = _replace_marker(html, "STATIC_EMBASSY_NEWS", news_emb_news.rstrip())
+        news_path.write_text(html, encoding="utf-8")
+        print("[OK] news.html static data updated")
+
 
 if __name__ == "__main__":
     main()

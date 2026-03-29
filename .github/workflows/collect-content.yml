@@ -34,13 +34,13 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet public/data/content.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet public/data/content.json public/index.html public/news.html && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/content.json
-          git commit -m "auto: update content $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git add public/data/content.json public/index.html public/news.html
+          git commit -m "auto: update content + static HTML $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
