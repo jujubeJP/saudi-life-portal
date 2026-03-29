@@ -1,8 +1,21 @@
 ---
-source: "collaborator"
-verified_date: "2026-03-30"
+id: "community-collaborator-notes-template"
+topic: "協力者メモテンプレート"
+title: "協力者メモテンプレート"
+summary: "（該当するものを残す：生活 / 交通 / 医療 / 通信 / 金融 / 文化 / ビジネス / 安全 / その他） （具体的な情報を記入） この情報はいつ時点のものか： 都市固有の情報か、全国共通か： 情報ソース（公式サイト、実体験、伝聞）： --- | ニックネーム | 在住都市 | 専門分野 |..."
+source_url: "collaborator"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2027-03-30"
 confidence: "high"
+region_scope: "複数都市"
+audience: ["長期滞在", "家族帯同"]
+tags: ["community", "協力", "情報"]
+derived_from: null
 verified_by: "template"
+notes_for_agent: ""
 notes: "協力者からの情報提供テンプレート。コピーして使用してください。"
 ---
 

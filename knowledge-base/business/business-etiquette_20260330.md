@@ -1,8 +1,21 @@
 ---
-source: "public/business.html"
-verified_date: "2026-03-30"
+id: "business-business-etiquette"
+topic: "ビジネスマナー・商習慣ガイド"
+title: "ビジネスマナー・商習慣ガイド"
+summary: "**典型的な流れ**： 1. 雑談（20～30分） 2. コーヒー・お茶のサーブ 3."
+source_url: "public/business.html"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2027-03-30"
 confidence: "medium"
+region_scope: "複数都市"
+audience: ["出張者", "事業者"]
+tags: ["business", "ビジネス", "商習慣", "マナー", "会議", "交渉"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "extracted from public/business.html"
 ---
 

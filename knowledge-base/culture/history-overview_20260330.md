@@ -1,8 +1,21 @@
 ---
-source: "public/history-culture.html"
-verified_date: "2026-03-30"
+id: "culture-history-overview"
+topic: "サウジアラビア歴史・文化概要"
+title: "サウジアラビア歴史・文化概要"
+summary: "Information about # サウジアラビア歴史・文化概要"
+source_url: "public/history-culture.html"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2027-03-30"
 confidence: "medium"
+region_scope: "複数都市"
+audience: ["全員"]
+tags: ["culture", "文化", "歴史", "宗教", "イベント"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "extracted from public/history-culture.html"
 ---
 

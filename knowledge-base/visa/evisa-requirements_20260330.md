@@ -1,8 +1,21 @@
 ---
-source: "https://visa.visitsaudi.com/"
-verified_date: "2026-03-30"
+id: "visa-evisa-requirements"
+topic: "eVisa（電子観光ビザ）要件 — 日本国籍者"
+title: "eVisa（電子観光ビザ）要件 — 日本国籍者"
+summary: "https://visa.visitsaudi."
+source_url: "https://visa.visitsaudi.com/"
+source_type: "公的二次情報"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2026-06-28"
 confidence: "high"
+region_scope: "全国"
+audience: ["全員"]
+tags: ["visa", "ビザ", "evisa", "入国"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "eVisa公式サイトから直接確認。日本国籍者向け。"
 ---
 

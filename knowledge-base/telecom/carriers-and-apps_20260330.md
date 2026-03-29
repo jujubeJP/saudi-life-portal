@@ -1,8 +1,21 @@
 ---
-source: "public/telecom.html"
-verified_date: "2026-03-30"
+id: "telecom-carriers-and-apps"
+topic: "通信キャリアと政府アプリガイド"
+title: "通信キャリアと政府アプリガイド"
+summary: "| キャリア | 特徴 | データプラン | 国際通話 | |---------|------|------------|---------| | **STC** | 最大手。カバレッジ最広。"
+source_url: "public/telecom.html"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2026-09-26"
 confidence: "medium"
+region_scope: "ジェッダ"
+audience: ["全員"]
+tags: ["telecom", "通信", "携帯", "sim", "アプリ"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "extracted from public/telecom.html"
 ---
 

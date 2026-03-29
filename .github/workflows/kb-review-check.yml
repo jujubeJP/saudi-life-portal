@@ -1,0 +1,158 @@
+name: KB Review Check
+
+on:
+  schedule:
+    # Every Monday at 9:00 AM JST (0:00 UTC Sunday night)
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # Also allow manual trigger
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  kb-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Run KB expiry check
+        id: kb_check
+        run: |
+          python scripts/kb_check_expiry.py > kb_check_output.json 2>&1 || true
+          cat kb_check_output.json
+
+      - name: Parse expiry results
+        id: parse_results
+        run: |
+          python3 << 'EOF'
+          import json
+          import sys
+
+          try:
+              with open('kb_check_output.json', 'r') as f:
+                  content = f.read()
+              # Try to parse as JSON
+              data = json.loads(content)
+              if data.get('expired_files') or data.get('expiring_soon'):
+                  expired = data.get('expired_files', [])
+                  expiring = data.get('expiring_soon', [])
+                  all_files = expired + expiring
+                  print(f"has_issues=true")
+                  print(f"file_count={len(all_files)}")
+                  with open('files_to_review.json', 'w') as f:
+                      json.dump({'files': all_files}, f)
+              else:
+                  print(f"has_issues=false")
+          except Exception as e:
+              print(f"Error parsing results: {e}")
+              print(f"has_issues=false")
+          EOF
+        shell: bash
+
+      - name: Close previous KB review issues
+        if: steps.parse_results.outputs.has_issues == 'true'
+        run: |
+          gh issue list --label kb-review --state open --json number --jq '.[].number' | while read issue; do
+            gh issue close "$issue" -c "自動クローズ: 新しいレビューリストに置き換えられました"
+          done
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create KB review issue
+        if: steps.parse_results.outputs.has_issues == 'true'
+        run: |
+          python3 << 'EOF'
+          import json
+          from datetime import datetime
+
+          with open('files_to_review.json', 'r') as f:
+              data = json.load(f)
+
+          files = data.get('files', [])
+          today = datetime.now().strftime('%Y年%m月%d日')
+
+          # Build the issue body
+          body = f"""
+          ## KB ファイルレビュー期限チェック
+
+          以下のファイルが確認期限に達しました。各ファイルをレビューして、内容の正確性を確認してください。
+
+          **確認日**: {today}
+          **ファイル数**: {len(files)}
+
+          ---
+
+          ## レビュー対象ファイル
+
+          """
+
+          # Add checklist for each file
+          for i, file_info in enumerate(files, 1):
+              file_path = file_info.get('path', 'unknown')
+              topic = file_info.get('topic', 'N/A')
+              last_checked = file_info.get('last_checked', 'N/A')
+              review_by = file_info.get('review_by', 'N/A')
+
+              body += f"""
+          ### {i}. {topic}
+          - **ファイルパス**: `{file_path}`
+          - **最終確認日**: {last_checked}
+          - **確認期限**: {review_by}
+          - **リンク**: [ファイルを表示](../../blob/main/{file_path})
+
+          - [ ] レビュー完了
+
+          """
+
+          body += """
+          ---
+
+          ## レビュー方法
+
+          1. 上のリンクからファイルを開く
+          2. 内容が最新で正確であることを確認
+          3. 必要に応じてファイルを更新
+          4. frontmatter の `verified_date` を今日の日付に更新
+          5. このチェックリストのチェックボックスにチェック
+
+          ## 自動実行について
+
+          このワークフローは毎週月曜日 9:00 JST に自動実行されます。
+
+          ---
+
+          *このイシューは自動生成されました。*
+          """
+
+          # Write to file for gh issue create
+          with open('issue_body.md', 'w') as f:
+              f.write(body)
+
+          print(f"Issue body created with {len(files)} files")
+          EOF
+        shell: bash
+
+      - name: Create issue
+        if: steps.parse_results.outputs.has_issues == 'true'
+        run: |
+          FILE_COUNT=${{ steps.parse_results.outputs.file_count }}
+          TODAY=$(date +"%Y年%m月%d日")
+          TITLE="📋 KB レビュー: ${FILE_COUNT}件のファイルが確認期限です（${TODAY}）"
+
+          gh issue create \
+            --title "$TITLE" \
+            --body-file issue_body.md \
+            --label "kb-review" \
+            --label "automated"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

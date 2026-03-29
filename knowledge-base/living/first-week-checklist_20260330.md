@@ -1,8 +1,21 @@
 ---
-source: "複数の在留邦人の経験に基づく"
-verified_date: "2026-03-30"
+id: "living-first-week-checklist"
+topic: "サウジアラビア到着後 最初の1週間チェックリスト"
+title: "サウジアラビア到着後 最初の1週間チェックリスト"
+summary: "1. イカーマの発行が遅れる（2-4週間かかることも）→ その間は現金+クレカで乗り切る 2. 帯同家族の出国許可を取り忘れる → Absherで事前申請必須 3. 常備薬の英文処方箋を持ってこなかった → 没収リスク 4. 電源プラグがType G（イギリス式）で日本のプラグが使えない。"
+source_url: "複数の在留邦人の経験に基づく"
+source_type: "公的二次情報"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2027-03-30"
 confidence: "medium"
+region_scope: "全国"
+audience: ["家族帯同", "長期滞在"]
+tags: ["living", "生活", "住居"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "到着後の優先順位。会社のサポート体制により異なる部分あり。"
 ---
 

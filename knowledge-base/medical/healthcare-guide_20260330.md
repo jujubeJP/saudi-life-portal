@@ -1,8 +1,21 @@
 ---
-source: "public/medical.html"
-verified_date: "2026-03-30"
+id: "medical-healthcare-guide"
+topic: "医療ガイド"
+title: "医療ガイド"
+summary: "サウジアラビアは公立病院と民間病院の二本立て。"
+source_url: "public/medical.html"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2026-09-26"
 confidence: "medium"
+region_scope: "複数都市"
+audience: ["全員"]
+tags: ["medical", "医療", "病院", "保険", "健康", "薬"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "extracted from public/medical.html"
 ---
 

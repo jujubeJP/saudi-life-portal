@@ -1,8 +1,21 @@
 ---
-source: "public/emergency.html"
-verified_date: "2026-03-30"
+id: "safety-emergency-guide"
+topic: "緊急時対応ガイド"
+title: "緊急時対応ガイド"
+summary: "| 緊急事態 | 番号 | 対応内容 | |---------|------|--------| | 警察 | 999 | 犯罪・盗難・不法行為 | | 救急車 | 997 | 医療緊急 | | 消防 | 998 | 火災・建物火災 | | 交通事故 | 993 | 交通事故対応 | | **統合緊..."
+source_url: "public/emergency.html"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2026-06-28"
 confidence: "medium"
+region_scope: "複数都市"
+audience: ["全員"]
+tags: ["safety", "緊急", "安全", "police", "警察", "事故"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "extracted from public/emergency.html - complements emergency-contacts.json"
 ---
 

@@ -1,8 +1,21 @@
 ---
-source: "public/food.html"
-verified_date: "2026-03-30"
+id: "culture-food-and-dining"
+topic: "サウジ料理・食文化ガイド"
+title: "サウジ料理・食文化ガイド"
+summary: "サウジアラビアではビジネス食事や社交活動が非常に大切で、食事を通じた人間関係構築が重視されます。"
+source_url: "public/food.html"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2027-03-30"
 confidence: "medium"
+region_scope: "全国"
+audience: ["全員"]
+tags: ["culture", "文化", "食事", "宗教"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "extracted from public/food.html"
 ---
 

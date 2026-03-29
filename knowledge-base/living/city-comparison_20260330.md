@@ -1,8 +1,21 @@
 ---
-source: "public/city-guide.html"
-verified_date: "2026-03-30"
+id: "living-city-comparison"
+topic: "都市比較ガイド"
+title: "都市比較ガイド"
+summary: "| 要因 | リヤド | ジェッダ | ダンマーム | |------|--------|---------|----------| | ビジネス拠点 | 最適 | 商業向け | 石油関連向け | | 家族帯同 | 最適 | 可能 | 限定的 | | 気候 | 極度の暑さ | 湿度が高い | 蒸し蒸..."
+source_url: "public/city-guide.html"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2027-03-30"
 confidence: "medium"
+region_scope: "複数都市"
+audience: ["家族帯同", "長期滞在"]
+tags: ["living", "生活", "学校"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "extracted from public/city-guide.html"
 ---
 

@@ -1,8 +1,21 @@
 ---
-source: "public/transport.html"
-verified_date: "2026-03-30"
+id: "transport-domestic-transport"
+topic: "国内交通ガイド"
+title: "国内交通ガイド"
+summary: "| ルート | 主要航空会社 | 所要時間 | 相場 | |--------|----------|---------|------| | リヤド ↔ ジェッダ | Saudia, flyadeal, Flynas | 約1時間 | 200～400 SAR | | リヤド ↔ ダンマーム | Sau..."
+source_url: "public/transport.html"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2026-09-26"
 confidence: "medium"
+region_scope: "複数都市"
+audience: ["全員"]
+tags: ["transport", "交通", "飛行機", "移動", "駅"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "extracted from public/transport.html"
 ---
 

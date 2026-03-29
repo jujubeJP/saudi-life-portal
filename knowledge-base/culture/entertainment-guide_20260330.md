@@ -1,8 +1,21 @@
 ---
-source: "public/entertainment.html"
-verified_date: "2026-03-30"
+id: "culture-entertainment-guide"
+topic: "娯楽ガイド"
+title: "娯楽ガイド"
+summary: "Vision 2030以降、急速に変わりつつある娯楽シーン。リヤドシーズンや大型施設から始めるのが安心。"
+source_url: "public/entertainment.html"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2027-03-30"
 confidence: "medium"
+region_scope: "複数都市"
+audience: ["全員"]
+tags: ["culture", "文化", "歴史", "宗教", "イベント"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "extracted from public/entertainment.html"
 ---
 

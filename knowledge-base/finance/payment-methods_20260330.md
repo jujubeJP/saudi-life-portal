@@ -1,8 +1,21 @@
 ---
-source: "現地実体験 + 各銀行公式サイト"
-verified_date: "2026-03-30"
+id: "finance-payment-methods"
+topic: "サウジアラビア決済手段まとめ"
+title: "サウジアラビア決済手段まとめ"
+summary: "| ブランド | 対応度 | 備考 | |---------|--------|------| | VISA | ◎ ほぼ全店舗 | 最推奨 | | Mastercard | ◎ ほぼ全店舗 | VISAと同等 | | JCB | △ 大型店舗のみ | 補助的に持参 | | AMEX | ✕ ほぼ非..."
+source_url: "現地実体験 + 各銀行公式サイト"
+source_type: "公的二次情報"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2026-06-28"
 confidence: "medium"
+region_scope: "全国"
+audience: ["全員"]
+tags: ["finance", "銀行", "両替"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "カードブランド対応状況は店舗により異なる場合あり"
 ---
 

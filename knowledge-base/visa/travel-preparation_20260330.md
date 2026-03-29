@@ -1,8 +1,21 @@
 ---
-source: "public/travel-info.html"
-verified_date: "2026-03-30"
+id: "visa-travel-preparation"
+topic: "渡航準備ガイド"
+title: "渡航準備ガイド"
+summary: "| 経由地 | 主要航空会社 | 所要時間 | 利便性 | |--------|-------------|---------|--------| | ドバイ（UAE） | Emirates、Flydubai、FlyAirArabia | 18〜20時間 | ★★★★★ | | ドーハ（カタール） ..."
+source_url: "public/travel-info.html"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2026-06-28"
 confidence: "medium"
+region_scope: "全国"
+audience: ["全員"]
+tags: ["visa", "ビザ", "evisa", "電子ビザ", "入国"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "extracted from public/travel-info.html"
 ---
 

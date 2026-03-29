@@ -1,9 +1,27 @@
 {
   "metadata": {
-    "source": "在サウジ日本大使館公式サイト + サウジ政府公式",
-    "verified_date": "2026-03-30",
+    "id": "safety-emergency-contacts_20260330",
+    "topic": "safety",
+    "title": "Emergency Contacts_20260330",
+    "summary": "Structured safety data",
+    "source_url": "在サウジ日本大使館公式サイト + サウジ政府公式",
+    "source_type": "公的二次情報",
+    "checked_at": "2026-03-30",
+    "valid_from": "2026-03-30",
+    "valid_until": "TBD",
+    "review_by": "2026-06-28",
     "confidence": "high",
-    "verified_by": "auto"
+    "region_scope": "全国",
+    "audience": [
+      "全員"
+    ],
+    "tags": [
+      "safety"
+    ],
+    "derived_from": null,
+    "verified_by": "auto",
+    "notes_for_agent": "",
+    "notes": ""
   },
   "saudi_emergency": {
     "police": "999",

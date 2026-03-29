@@ -1,8 +1,21 @@
 ---
-source: "public/life.html"
-verified_date: "2026-03-30"
+id: "living-settlement-guide"
+topic: "入国後の手続き・生活ガイド"
+title: "入国後の手続き・生活ガイド"
+summary: "この3つが整わないと、銀行もSIMも住居も動きません。入国後の最優先事項。"
+source_url: "public/life.html"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2027-03-30"
 confidence: "medium"
+region_scope: "複数都市"
+audience: ["家族帯同", "長期滞在"]
+tags: ["living", "生活", "住居", "学校"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "extracted from public/life.html - complements first-week-checklist file"
 ---
 

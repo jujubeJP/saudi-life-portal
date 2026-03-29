@@ -1,8 +1,21 @@
 ---
-source: "public/events.html"
-verified_date: "2026-03-30"
+id: "culture-events-calendar"
+topic: "イベント・カレンダー"
+title: "イベント・カレンダー"
+summary: "Information about # イベント・カレンダー"
+source_url: "public/events.html"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2027-03-30"
 confidence: "medium"
+region_scope: "複数都市"
+audience: ["全員"]
+tags: ["culture", "文化", "イベント"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "extracted from public/events.html"
 ---
 

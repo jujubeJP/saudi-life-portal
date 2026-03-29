@@ -1,8 +1,21 @@
 ---
-source: "public/money.html"
-verified_date: "2026-03-30"
+id: "finance-banking-guide"
+topic: "銀行・国際送金ガイド"
+title: "銀行・国際送金ガイド"
+summary: "| カード種 | 対応度 | 説明 | |---------|--------|------| | VISA | ◎ 広く使える | ほぼすべての店、レストラン、ホテルで対応 | | Mastercard | ◎ 広く使える | VISA同等。"
+source_url: "public/money.html"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2026-06-28"
 confidence: "medium"
+region_scope: "リヤド"
+audience: ["全員"]
+tags: ["finance", "銀行", "送金"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "extracted from public/money.html - complements payment-methods file"
 ---
 

@@ -1,8 +1,21 @@
 ---
-source: "public/saudi-time.html"
-verified_date: "2026-03-30"
+id: "culture-saudi-time-concepts"
+topic: "サウジ時間の概念"
+title: "サウジ時間の概念"
+summary: "注意：イスラム暦に基づく祝日は毎年約11日ずつ前倒しになる。"
+source_url: "public/saudi-time.html"
+source_type: "運営者整理"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2027-03-30"
 confidence: "medium"
+region_scope: "全国"
+audience: ["全員"]
+tags: ["culture", "文化"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "extracted from public/saudi-time.html"
 ---
 

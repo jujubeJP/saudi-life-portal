@@ -1,8 +1,21 @@
 ---
-source: "在留邦人の経験 + 文化比較資料"
-verified_date: "2026-03-30"
+id: "culture-common-misunderstandings"
+topic: "日本人がサウジアラビアで誤解しやすいこと"
+title: "日本人がサウジアラビアで誤解しやすいこと"
+summary: "Information about # 日本人がサウジアラビアで誤解しやすいこと"
+source_url: "在留邦人の経験 + 文化比較資料"
+source_type: "公的二次情報"
+checked_at: "2026-03-30"
+valid_from: "2026-03-30"
+valid_until: "TBD"
+review_by: "2027-03-30"
 confidence: "medium"
+region_scope: "複数都市"
+audience: ["全員"]
+tags: ["culture", "文化", "イベント"]
+derived_from: null
 verified_by: "auto"
+notes_for_agent: ""
 notes: "日本人が特に誤解しやすいポイント。将来「サウジで誤解しやすいこと」セクションのベース。"
 ---
 
