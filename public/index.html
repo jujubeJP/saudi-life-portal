@@ -204,7 +204,7 @@
       <a href="https://www.visitsaudi.com/" target="_blank" rel="noopener" class="header-badge tourism">✨ Visit Saudi</a>
     </div>
     <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
-    <p class="subtitle">サウジアラビア日本語情報ポータルサイト</p>
+    <p class="subtitle">公式情報への導線と、現地で困りやすい点の整理を両立する日本語サウジ情報ポータル</p>
     <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
     <div class="header-gold-line"></div>
   </div>
@@ -294,45 +294,117 @@
   </div>
 </div>
 
+<!-- ===== 利用者別入口 ===== -->
+<section id="persona-entry" style="padding:20px 0 0;">
+  <div class="container">
+    <h2 style="font-size:1.05em; font-weight:600; color:var(--text-primary); margin-bottom:12px; text-align:center;">あなたの状況に合った情報へ</h2>
+    <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:8px; margin-bottom:8px;">
+      <a href="travel-info.html" class="persona-btn" style="display:inline-flex; align-items:center; gap:6px; padding:10px 16px; border:2px solid var(--accent); border-radius:24px; text-decoration:none; color:var(--accent); font-size:0.88em; font-weight:600; background:var(--bg-primary); transition:all 0.2s;">
+        ✈️ 初めて渡航する
+      </a>
+      <a href="business.html" class="persona-btn" style="display:inline-flex; align-items:center; gap:6px; padding:10px 16px; border:2px solid var(--accent); border-radius:24px; text-decoration:none; color:var(--accent); font-size:0.88em; font-weight:600; background:var(--bg-primary); transition:all 0.2s;">
+        💼 出張で行く
+      </a>
+      <a href="life.html" class="persona-btn" style="display:inline-flex; align-items:center; gap:6px; padding:10px 16px; border:2px solid var(--accent); border-radius:24px; text-decoration:none; color:var(--accent); font-size:0.88em; font-weight:600; background:var(--bg-primary); transition:all 0.2s;">
+        🏠 長期滞在する
+      </a>
+      <a href="life.html#school" class="persona-btn" style="display:inline-flex; align-items:center; gap:6px; padding:10px 16px; border:2px solid var(--accent); border-radius:24px; text-decoration:none; color:var(--accent); font-size:0.88em; font-weight:600; background:var(--bg-primary); transition:all 0.2s;">
+        👨‍👩‍👧 家族で暮らす
+      </a>
+      <a href="business.html" class="persona-btn" style="display:inline-flex; align-items:center; gap:6px; padding:10px 16px; border:2px solid var(--accent); border-radius:24px; text-decoration:none; color:var(--accent); font-size:0.88em; font-weight:600; background:var(--bg-primary); transition:all 0.2s;">
+        🏗️ 仕事・事業を考える
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .persona-btn:hover {
+    background: var(--accent) !important;
+    color: #fff !important;
+  }
+  .dash-group-label {
+    grid-column: 1 / -1;
+    font-size: 0.78em;
+    font-weight: 600;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 8px 0 2px;
+    border-top: 1px solid var(--border-light);
+    margin-top: 4px;
+  }
+  .dash-group-label:first-child {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+  }
+</style>
+
 <!-- ===== DASHBOARD ===== -->
-<section id="dashboard" style="padding:24px 0 0;">
+<section id="dashboard" style="padding:16px 0 0;">
   <div class="container">
 
-    <!-- ナビカード群（日常使い優先順） -->
+    <!-- ナビカード群（優先度順に再編） -->
     <div class="dash-grid">
-      <!-- 1行目: 毎日使う -->
-      <a href="life.html" class="dash-card">
-        <span class="dash-icon">🏠</span>
-        <span class="dash-label">生活ガイド</span>
-        <span class="dash-sub">イカーマ・住居・銀行・日常</span>
+      <!-- グループ1: すぐ見るべき情報 -->
+      <div class="dash-group-label">すぐ見るべき情報</div>
+      <a href="travel-info.html" class="dash-card">
+        <span class="dash-icon">✈️</span>
+        <span class="dash-label">渡航情報</span>
+        <span class="dash-sub">ビザ・入国・準備</span>
+      </a>
+      <a href="news.html" class="dash-card danger">
+        <span class="dash-icon">⚠️</span>
+        <span class="dash-label">治安・ニュース</span>
+        <span class="dash-sub">安全情報・最新報道</span>
+      </a>
+      <a href="emergency.html" class="dash-card danger">
+        <span class="dash-icon">🚨</span>
+        <span class="dash-label">緊急連絡先</span>
+        <span class="dash-sub">大使館・警察・救急</span>
       </a>
       <a href="telecom.html" class="dash-card">
         <span class="dash-icon">📱</span>
         <span class="dash-label">通信・アプリ</span>
         <span class="dash-sub">SIM・Absher・Nafath</span>
       </a>
-      <a href="saudi-time.html" class="dash-card">
-        <span class="dash-icon">🕐</span>
-        <span class="dash-label">サウジ時間</span>
-        <span class="dash-sub">時差・礼拝・営業</span>
+
+      <!-- グループ2: 生活を始める情報 -->
+      <div class="dash-group-label">生活を始める</div>
+      <a href="life.html" class="dash-card">
+        <span class="dash-icon">🏠</span>
+        <span class="dash-label">生活ガイド</span>
+        <span class="dash-sub">イカーマ・住居・家族帯同</span>
       </a>
-      <!-- 2行目: 移動・お金 -->
+      <a href="money.html" class="dash-card">
+        <span class="dash-icon">💰</span>
+        <span class="dash-label">通貨・銀行</span>
+        <span class="dash-sub">口座開設・送金・決済</span>
+      </a>
+      <a href="medical.html" class="dash-card">
+        <span class="dash-icon">🏥</span>
+        <span class="dash-label">医療</span>
+        <span class="dash-sub">病院・保険・予防接種</span>
+      </a>
       <a href="transport.html" class="dash-card">
         <span class="dash-icon">🚗</span>
         <span class="dash-label">国内交通</span>
         <span class="dash-sub">鉄道・Uber・レンタカー</span>
       </a>
-      <a href="money.html" class="dash-card">
-        <span class="dash-icon">💰</span>
-        <span class="dash-label">通貨・銀行</span>
-        <span class="dash-sub">為替・両替・送金</span>
+      <a href="business.html" class="dash-card">
+        <span class="dash-icon">💼</span>
+        <span class="dash-label">ビジネスマナー</span>
+        <span class="dash-sub">商習慣・ワスタ・礼儀</span>
       </a>
-      <a href="travel-info.html" class="dash-card">
-        <span class="dash-icon">✈️</span>
-        <span class="dash-label">渡航情報</span>
-        <span class="dash-sub">ビザ・入国・準備</span>
+      <a href="saudi-time.html" class="dash-card">
+        <span class="dash-icon">🕐</span>
+        <span class="dash-label">サウジ時間</span>
+        <span class="dash-sub">時差・礼拝・営業</span>
       </a>
-      <!-- 3行目: 食・文化・都市 -->
+
+      <!-- グループ3: 楽しむ・知る -->
+      <div class="dash-group-label">楽しむ・知る</div>
       <a href="food.html" class="dash-card">
         <span class="dash-icon">🍽️</span>
         <span class="dash-label">サウジ料理</span>
@@ -343,49 +415,29 @@
         <span class="dash-label">都市ガイド</span>
         <span class="dash-sub">リヤド・ジェッダ他</span>
       </a>
-      <a href="history-culture.html" class="dash-card">
-        <span class="dash-icon">🕌</span>
-        <span class="dash-label">歴史・文化</span>
-        <span class="dash-sub">イスラム・遺産</span>
-      </a>
-      <!-- 4行目: 娯楽・医療・ビジネス -->
       <a href="entertainment.html" class="dash-card">
         <span class="dash-icon">🎡</span>
         <span class="dash-label">娯楽</span>
         <span class="dash-sub">テーマパーク・砂漠</span>
-      </a>
-      <a href="medical.html" class="dash-card">
-        <span class="dash-icon">🏥</span>
-        <span class="dash-label">医療</span>
-        <span class="dash-sub">病院・保険・予防接種</span>
-      </a>
-      <a href="business.html" class="dash-card">
-        <span class="dash-icon">💼</span>
-        <span class="dash-label">ビジネスマナー</span>
-        <span class="dash-sub">商習慣・礼儀</span>
-      </a>
-      <!-- 5行目: ニュース・イベント・VISION -->
-      <a href="news.html" class="dash-card danger">
-        <span class="dash-icon">⚠️</span>
-        <span class="dash-label">治安・ニュース</span>
-        <span class="dash-sub">安全情報・最新報道</span>
       </a>
       <a href="events.html" class="dash-card">
         <span class="dash-icon">📅</span>
         <span class="dash-label">イベント</span>
         <span class="dash-sub">祝日・行事</span>
       </a>
+      <a href="history-culture.html" class="dash-card">
+        <span class="dash-icon">🕌</span>
+        <span class="dash-label">歴史・文化</span>
+        <span class="dash-sub">イスラム・遺産</span>
+      </a>
       <a href="vision2030.html" class="dash-card">
         <span class="dash-icon">🏗️</span>
         <span class="dash-label">VISION 2030</span>
         <span class="dash-sub">改革・開発計画</span>
       </a>
-      <!-- 6行目: 緊急・リンク・用語 -->
-      <a href="emergency.html" class="dash-card danger">
-        <span class="dash-icon">🚨</span>
-        <span class="dash-label">緊急連絡先</span>
-        <span class="dash-sub">大使館・警察・救急</span>
-      </a>
+
+      <!-- グループ4: リファレンス -->
+      <div class="dash-group-label">リファレンス</div>
       <a href="links.html" class="dash-card">
         <span class="dash-icon">🔗</span>
         <span class="dash-label">リンク集</span>
