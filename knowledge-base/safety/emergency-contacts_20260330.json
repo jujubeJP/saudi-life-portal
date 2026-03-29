@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "source": "在サウジ日本大使館公式サイト + サウジ政府公式",
+    "verified_date": "2026-03-30",
+    "confidence": "high",
+    "verified_by": "auto"
+  },
+  "saudi_emergency": {
+    "police": "999",
+    "ambulance": "997",
+    "fire": "998",
+    "traffic_accident": "993",
+    "drug_enforcement": "995",
+    "najm_insurance": "920000560",
+    "saher_traffic": "920001888"
+  },
+  "japanese_embassy": {
+    "riyadh": {
+      "address": "Diplomatic Quarter, Riyadh 11483",
+      "phone_business": "+966-11-488-1100",
+      "phone_emergency": "+966-11-488-1110",
+      "email": "riyadh@rz.mofa.go.jp",
+      "website": "https://www.sa.emb-japan.go.jp/ja/",
+      "hours": "Sun-Thu 8:00-17:00"
+    },
+    "jeddah": {
+      "address": "Jeddah Tower, Floor 30, King Fahd Road, Jeddah 23432",
+      "phone_business": "+966-12-651-3850",
+      "phone_emergency": "+966-12-651-3852",
+      "email": "jeddah@rz.mofa.go.jp",
+      "hours": "Sun-Thu 8:00-17:00"
+    }
+  },
+  "government_services": {
+    "absher": "https://www.absher.sa",
+    "labor_complaints": "19911",
+    "consumer_protection": "1900",
+    "zatca_customs": "19993",
+    "sec_electricity": "920000222",
+    "nwc_water": "920001744"
+  },
+  "telecom_support": {
+    "stc": "900",
+    "mobily": "1100",
+    "zain": "959"
+  }
+}
