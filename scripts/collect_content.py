@@ -377,6 +377,33 @@ def _parse_mofa_levels(text):
         4: "退避してください",
     }
 
+    # 地域名らしくないテキストを除外するためのキーワード
+    NOT_REGION_WORDS = [
+        "ください", "ありません", "について", "における", "されて",
+        "ですが", "しかし", "ただし", "なお、", "また、",
+        "お困り", "連絡", "大使館", "総領事館", "外務省",
+        "テロ", "ISIL", "イスラム国", "イスラム過激派", "自爆",
+        "減少傾向", "発生件数", "注意喚起", "情報を確認",
+        "2015年", "2016年", "2017年", "2018年", "2019年",
+        "2020年", "2021年", "2022年", "2023年", "2024年",
+        "2025年", "2026年",
+    ]
+
+    def _is_region_text(text_candidate):
+        """テキストが地域名として妥当かどうかを判定"""
+        t = text_candidate.strip()
+        if len(t) < 2 or len(t) > 50:
+            return False
+        # 明らかに本文の一部であるテキストを除外
+        if any(w in t for w in NOT_REGION_WORDS):
+            return False
+        # 句読点が多い＝文章（地域名ではない）
+        if t.count("、") > 3 or t.count("。") > 0:
+            # ただし「〇〇州、△△州、□□州」のようなカンマ区切りの地域列挙は許可
+            if "州" not in t and "地帯" not in t and "全土" not in t:
+                return False
+        return True
+
     # テキスト中の全「レベルN」出現位置を探す
     level_pattern = re.compile(r"レベル\s*(\d)\s*[：:]")
     matches = list(level_pattern.finditer(text))
@@ -391,27 +418,35 @@ def _parse_mofa_levels(text):
         end = matches[i + 1].start() if i + 1 < len(matches) else min(start + 1500, len(text))
         section = text[start:end]
 
+        print(f"[DEBUG] Level {level_num} section ({end-start} chars): {section[:200]!r}")
+
         # 地域名を抽出: ●マーク、番号付き（(1)）、括弧付き、行頭パターン
         region_parts = []
         # ●区切り
         for rp in re.findall(r"[●・](.+?)(?=[●・\n]|$)", section):
             rp = rp.strip().rstrip("。）)")
-            if rp and len(rp) < 80:
+            if _is_region_text(rp):
                 region_parts.append(rp)
         # (1)(2) 番号区切り
         if not region_parts:
             for rp in re.findall(r"[（(]\d+[)）]\s*(.+?)(?=[（(]\d|$)", section):
                 rp = rp.strip().rstrip("。）)")
-                if rp and len(rp) < 80:
+                if _is_region_text(rp):
                     region_parts.append(rp)
-        # フォールバック: レベル説明の直後〜改行までを1つの地域として扱う
+        # 地域名パターンで直接マッチ（州、地帯、全土などを含むフレーズ）
+        if not region_parts:
+            for rp in re.findall(r"[\w\u30A0-\u30FF\u3040-\u309F\u4E00-\u9FFF]+(?:州|地帯|全土|地域)[^\n。]*", section):
+                rp = rp.strip()
+                if _is_region_text(rp):
+                    region_parts.append(rp)
+        # フォールバック: 短い行を地域候補として扱う（厳格フィルタ付き）
         if not region_parts:
             lines = [ln.strip() for ln in section.split("\n") if ln.strip()]
             for ln in lines[:5]:
                 # レベル説明文自体は除く
                 if "注意" in ln or "渡航" in ln or "退避" in ln or "不要不急" in ln:
                     continue
-                if len(ln) > 2 and len(ln) < 80:
+                if _is_region_text(ln):
                     region_parts.append(ln)
 
         # 重複削除しつつ順序保持
@@ -454,6 +489,15 @@ def collect_mofa():
         return None
 
     text, links = parse_html(html)
+
+    # デバッグ: 外務省ページの生テキストを出力（レベル前後500文字）
+    level_pos = text.find("レベル")
+    if level_pos >= 0:
+        debug_start = max(0, level_pos - 100)
+        debug_end = min(len(text), level_pos + 2000)
+        print(f"[DEBUG] MOFA text around levels ({debug_start}-{debug_end}):")
+        print(text[debug_start:debug_end])
+        print("[DEBUG] --- end of MOFA text ---")
 
     # 地域別の危険レベルを全件抽出
     levels = _parse_mofa_levels(text)
