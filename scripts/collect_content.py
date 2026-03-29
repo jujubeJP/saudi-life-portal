@@ -358,127 +358,99 @@ def collect_embassy():
 def _parse_mofa_levels(text):
     """外務省テキストから地域別の危険レベルを全件抽出する。
 
-    外務省の危険情報ページは概ね以下のパターン:
-      レベル3：渡航は止めてください。（渡航中止勧告）
-        ●リヤド州
-        ●東部州
-        ●ジャーザーン州 ...
-      レベル2：不要不急の渡航は止めてください。
-        ●イラクとの国境地帯
-      レベル1：十分注意してください。
-        ●上記を除く全土
+    実際の外務省ページの構造（2026年3月確認）:
+      【危険レベル】●リヤド州、東部州レベル３：渡航は止めてください。（渡航中止勧告）《引上げ》
+      ●ジャーザーン州、アシール州、ナジュラーン州　レベル３：渡航は止めてください。（渡航中止勧告）（継続）
+      ●イエメンとの国境地帯　レベル３：...
+      ●イラクとの国境地帯   レベル２：...
+      ●上記地域を除く全土　レベル1：...
 
-    返り値: [{"level": 3, "label": "渡航は止めてください", "regions": ["リヤド州", ...]}, ...]
+    つまり「●地域名 レベルN：説明」の形式。地域名がレベルの前に来る。
+
+    返り値: [{"level": 3, "label": "渡航は止めてください", "regions": ["リヤド州、東部州", ...]}, ...]
     """
     LEVEL_LABELS = {
         1: "十分注意してください",
         2: "不要不急の渡航は止めてください",
-        3: "渡航は止めてください",
+        3: "渡航は止めてください（渡航中止勧告）",
         4: "退避してください",
     }
 
-    # 地域名らしくないテキストを除外するためのキーワード
-    NOT_REGION_WORDS = [
-        "ください", "ありません", "について", "における", "されて",
-        "ですが", "しかし", "ただし", "なお、", "また、",
-        "お困り", "連絡", "大使館", "総領事館", "外務省",
-        "テロ", "ISIL", "イスラム国", "イスラム過激派", "自爆",
-        "減少傾向", "発生件数", "注意喚起", "情報を確認",
-        "2015年", "2016年", "2017年", "2018年", "2019年",
-        "2020年", "2021年", "2022年", "2023年", "2024年",
-        "2025年", "2026年",
-    ]
+    # パターン: ●地域名 レベルN：説明
+    # 地域名は●の直後〜レベルNの直前
+    pattern = re.compile(
+        r"●\s*(.+?)\s*レベル\s*[０-９\d]\s*[：:]",
+        re.DOTALL,
+    )
+    level_pattern = re.compile(
+        r"●\s*(.+?)\s*レベル\s*([０-９\d])\s*[：:]",
+        re.DOTALL,
+    )
 
-    def _is_region_text(text_candidate):
-        """テキストが地域名として妥当かどうかを判定"""
-        t = text_candidate.strip()
-        if len(t) < 2 or len(t) > 50:
-            return False
-        # 明らかに本文の一部であるテキストを除外
-        if any(w in t for w in NOT_REGION_WORDS):
-            return False
-        # 句読点が多い＝文章（地域名ではない）
-        if t.count("、") > 3 or t.count("。") > 0:
-            # ただし「〇〇州、△△州、□□州」のようなカンマ区切りの地域列挙は許可
-            if "州" not in t and "地帯" not in t and "全土" not in t:
-                return False
-        return True
-
-    # テキスト中の全「レベルN」出現位置を探す
-    level_pattern = re.compile(r"レベル\s*(\d)\s*[：:]")
     matches = list(level_pattern.finditer(text))
     if not matches:
+        print("[DEBUG] No ●region+level pattern found, trying fallback...")
+        # フォールバック: レベルNが●なしで出現する場合
+        fallback = re.compile(r"レベル\s*([０-９\d])\s*[：:]")
+        fb_matches = list(fallback.finditer(text))
+        if not fb_matches:
+            return []
+        # フォールバック時は地域を特定できないので簡易返却
+        seen_levels = {}
+        for fm in fb_matches:
+            ln = _normalize_level_num(fm.group(1))
+            if ln not in seen_levels:
+                seen_levels[ln] = True
+        return [{"level": ln, "label": LEVEL_LABELS.get(ln, f"レベル{ln}"),
+                 "regions": ["（地域詳細は外務省HPを確認してください）"]}
+                for ln in sorted(seen_levels.keys(), reverse=True)]
+
+    # 全マッチから地域×レベルのペアを抽出
+    entries = []
+    for m in matches:
+        region_raw = m.group(1).strip()
+        level_char = m.group(2)
+        # 全角数字を半角に変換
+        level_num = _normalize_level_num(level_char)
+
+        # 地域名のクリーニング: 改行や余分な空白を除去
+        region = re.sub(r"\s+", "", region_raw).strip()
+        # 先頭の【危険レベル】等のラベルを除去
+        region = re.sub(r"^【[^】]+】", "", region).strip()
+
+        if region:
+            entries.append({"level": level_num, "region": region})
+            print(f"[DEBUG] Parsed: ●{region} → レベル{level_num}")
+
+    if not entries:
         return []
 
+    # 同一レベルの地域をまとめる
+    level_regions = {}
+    for e in entries:
+        ln = e["level"]
+        if ln not in level_regions:
+            level_regions[ln] = []
+        level_regions[ln].append(e["region"])
+
     levels = []
-    for i, m in enumerate(matches):
-        level_num = int(m.group(1))
-        # このレベルセクションのテキスト範囲 = 現マッチ位置〜次のマッチ位置
-        start = m.end()
-        end = matches[i + 1].start() if i + 1 < len(matches) else min(start + 1500, len(text))
-        section = text[start:end]
-
-        print(f"[DEBUG] Level {level_num} section ({end-start} chars): {section[:200]!r}")
-
-        # 地域名を抽出: ●マーク、番号付き（(1)）、括弧付き、行頭パターン
-        region_parts = []
-        # ●区切り
-        for rp in re.findall(r"[●・](.+?)(?=[●・\n]|$)", section):
-            rp = rp.strip().rstrip("。）)")
-            if _is_region_text(rp):
-                region_parts.append(rp)
-        # (1)(2) 番号区切り
-        if not region_parts:
-            for rp in re.findall(r"[（(]\d+[)）]\s*(.+?)(?=[（(]\d|$)", section):
-                rp = rp.strip().rstrip("。）)")
-                if _is_region_text(rp):
-                    region_parts.append(rp)
-        # 地域名パターンで直接マッチ（州、地帯、全土などを含むフレーズ）
-        if not region_parts:
-            for rp in re.findall(r"[\w\u30A0-\u30FF\u3040-\u309F\u4E00-\u9FFF]+(?:州|地帯|全土|地域)[^\n。]*", section):
-                rp = rp.strip()
-                if _is_region_text(rp):
-                    region_parts.append(rp)
-        # フォールバック: 短い行を地域候補として扱う（厳格フィルタ付き）
-        if not region_parts:
-            lines = [ln.strip() for ln in section.split("\n") if ln.strip()]
-            for ln in lines[:5]:
-                # レベル説明文自体は除く
-                if "注意" in ln or "渡航" in ln or "退避" in ln or "不要不急" in ln:
-                    continue
-                if _is_region_text(ln):
-                    region_parts.append(ln)
-
-        # 重複削除しつつ順序保持
-        seen = set()
-        regions = []
-        for r in region_parts:
-            if r not in seen:
-                seen.add(r)
-                regions.append(r)
-
-        label = LEVEL_LABELS.get(level_num, f"レベル{level_num}")
+    for ln in sorted(level_regions.keys(), reverse=True):
         levels.append({
-            "level": level_num,
-            "label": label,
-            "regions": regions if regions else ["（地域詳細は外務省HPを確認してください）"],
+            "level": ln,
+            "label": LEVEL_LABELS.get(ln, f"レベル{ln}"),
+            "regions": level_regions[ln],
         })
-
-    # レベルの高い順にソート
-    levels.sort(key=lambda x: -x["level"])
-
-    # 同一レベルをマージ（同じレベルが複数箇所に出る場合）
-    merged = {}
-    for lv in levels:
-        key = lv["level"]
-        if key in merged:
-            merged[key]["regions"].extend(lv["regions"])
-        else:
-            merged[key] = lv
-    levels = sorted(merged.values(), key=lambda x: -x["level"])
 
     print(f"[DEBUG] MOFA levels parsed: {json.dumps(levels, ensure_ascii=False)}")
     return levels
+
+
+def _normalize_level_num(char):
+    """全角・半角の数字を int に変換"""
+    fullwidth = "０１２３４５６７８９"
+    if char in fullwidth:
+        return fullwidth.index(char)
+    return int(char)
 
 
 def collect_mofa():
