@@ -75,7 +75,7 @@ const SITE_SEARCH_INDEX = [
   {page: 'events.html', pageTitle: '📅 イベント', title: '建国記念日', desc: '9月23日'},
 
   // life.html - 生活
-  {page: 'life.html', pageTitle: '🏠 生活・コミュニティ', title: '生活情報', desc: '住居、交通、買い物、医療'},
+  {page: 'life.html', pageTitle: '🏠 生活ガイド', title: '生活情報', desc: '住居、交通、買い物、医療'},
 
   // glossary.html - 用語集
   {page: 'glossary.html', pageTitle: '📖 用語集', title: 'アラビア語用語集', desc: 'サウジ生活で使う基本用語'},

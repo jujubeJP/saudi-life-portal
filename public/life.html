@@ -11,22 +11,22 @@
   gtag('js', new Date());
   gtag('config', 'G-5YBNHEZ3CH');
 </script>
-<meta name="description" content="サウジアラビアでの日常生活・コミュニティ情報。住居、買い物、日本人会、日本人学校。">
+<meta name="description" content="サウジアラビア生活ガイド。イカーマ・Absher・Nafath、住居契約、銀行口座・送金、SIM・配車アプリ、学校・家族帯同、営業時間・礼拝時間など在留者向け実用情報。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://saudi-navi.rewah.life/life.html">
 <meta property="og:title" content="サウジナビ">
-<meta property="og:description" content="サウジアラビアでの日常生活・コミュニティ情報。住居、買い物、日本人会、日本人学校。">
+<meta property="og:description" content="サウジアラビア生活ガイド。イカーマ・Absher・Nafath、住居契約、銀行口座・送金、SIM・配車アプリ、学校・家族帯同、営業時間・礼拝時間など在留者向け実用情報。">
 <meta property="og:image" content="https://saudi-navi.rewah.life/assets/icon-512.png">
 <meta property="og:locale" content="ja_JP">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="サウジナビ">
-<meta name="twitter:description" content="サウジアラビアでの日常生活・コミュニティ情報。住居、買い物、日本人会、日本人学校。">
+<meta name="twitter:description" content="サウジアラビア生活ガイド。イカーマ・Absher・Nafath、住居契約、銀行口座・送金、SIM・配車アプリ、学校・家族帯同、営業時間・礼拝時間など在留者向け実用情報。">
 <meta name="twitter:image" content="https://saudi-navi.rewah.life/assets/icon-512.png">
 <link rel="icon" href="favicon.ico">
 <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>生活・コミュニティ | サウジナビ</title>
+<title>生活ガイド | サウジナビ</title>
 <link rel="stylesheet" href="assets/shared.css">
 </head>
 <body>
@@ -66,7 +66,7 @@
   <div class="nav-links" id="navLinks">
     <a href="index.html">🏠 ホーム</a>
     <a href="news.html">📰 治安・ニュース</a>
-    <a href="life.html" class="active">🏠 生活・コミュニティ</a>
+    <a href="life.html" class="active">🏠 生活ガイド</a>
     <a href="telecom.html">📱 通信・アプリ</a>
     <a href="transport.html">🚗 国内交通</a>
     <a href="food.html">🍽️ サウジ料理</a>
@@ -88,7 +88,7 @@
   <div class="nav-desktop" id="navDesktop">
     <a href="index.html">🏠 ホーム</a>
     <a href="news.html">📰 治安・ニュース</a>
-    <a href="life.html" class="active">🏠 生活</a>
+    <a href="life.html" class="active">🏠 生活ガイド</a>
     <a href="saudi-time.html">🕐 サウジ時間</a>
     <a href="travel-info.html">✈️ 渡航情報</a>
     <a href="money.html">💰 通貨・銀行</a>
@@ -137,6 +137,7 @@
   @media (min-width: 768px) {
     #community-grid { grid-template-columns: repeat(2, 1fr) !important; }
     #japanese-panels { grid-template-columns: 1fr 1fr !important; }
+    .life-grid-2col { grid-template-columns: 1fr 1fr !important; }
   }
   @media (min-width: 1024px) {
     #community-grid { grid-template-columns: repeat(3, 1fr) !important; }
@@ -146,9 +147,330 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     transition: border-color 0.2s, box-shadow 0.2s;
   }
+  .life-section .card { margin-bottom: 0; }
+  .life-section h3 { margin: 0 0 8px; font-size: var(--font-size-base); }
+  .life-section .card p,
+  .life-section .card li { font-size: var(--font-size-sm); color: var(--text-secondary); line-height: 1.7; }
+  .life-section .card ul { margin: 6px 0 0; padding-left: 18px; }
+  .life-section .card li { margin-bottom: 3px; }
+  .life-tip {
+    margin-top: 10px; padding: 8px 12px;
+    background: var(--accent-gold-light, #fffde7);
+    border-left: 3px solid var(--accent-gold, #c9a84c);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    font-size: var(--font-size-xs); color: var(--text-tertiary); line-height: 1.6;
+  }
+  .life-link {
+    display: inline-block; margin-top: 8px;
+    font-size: var(--font-size-xs); color: var(--accent); text-decoration: none;
+  }
+  .life-link:hover { text-decoration: underline; }
 </style>
 
-<!-- 生活情報セクション: 今後コンテンツ追加予定 -->
+<!-- ===== PAGE TITLE + INFO LABEL ===== -->
+<main class="container">
+<section style="padding-top:20px; padding-bottom:0;">
+  <h2 style="font-size:1.4em; font-weight:700; color:var(--text-primary); margin-bottom:4px;">🏠 生活ガイド — サウジアラビアで暮らすための実用情報</h2>
+  <p style="font-size:var(--font-size-sm); color:var(--text-tertiary);">在留届を出してから日常が回り始めるまでに必要な手続き・サービス・生活習慣をまとめました。</p>
+  <div style="margin-top:12px; padding:10px 14px; background:var(--bg-secondary); border-left:3px solid var(--accent); border-radius:0 var(--radius-sm) var(--radius-sm) 0; font-size:0.82em; color:var(--text-tertiary); line-height:1.7;">
+    <strong>情報種別：</strong>実務上の傾向 + 一般的な案内　｜　<strong>最終確認日：</strong>2026年3月<br>
+    手続きの詳細や要件は雇用主・地域・時期により異なります。必ず勤務先または公式窓口で最新情報を確認してください。
+  </div>
+</section>
+</main>
+
+<!-- ===== SECTION 1: イカーマ・Absher・Nafath ===== -->
+<section class="life-section" id="iqama">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-icon green">🪪</div>
+      <h2>イカーマ（Iqama）・Absher・Nafath</h2>
+    </div>
+    <p style="margin-bottom:14px; font-size:var(--font-size-sm); color:var(--text-secondary);">サウジアラビアで在留する外国人にとって最も重要な3つのシステムです。入国後早い段階で整備しておくことが、その後の生活のあらゆる手続きの土台になります。</p>
+
+    <div class="life-grid-2col" style="display:grid; grid-template-columns:1fr; gap:14px;">
+
+      <div class="card">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.5em;">🪪</span>
+          <h3>イカーマ（Iqama / إقامة）</h3>
+        </div>
+        <p>サウジアラビアにおける外国人の<strong>在留許可証</strong>。就労ビザで入国後、雇用主（スポンサー）を通じて発行されます。カード形式で、在留番号・国籍・職業・スポンサー情報が記載されています。</p>
+        <ul>
+          <li>銀行口座開設、SIM契約、住居契約、運転免許取得などすべての基盤</li>
+          <li>常時携帯が義務。警察の身分確認で提示を求められることがあります</li>
+          <li>有効期限があり、スポンサー経由で更新が必要（通常1年ごと）</li>
+          <li>期限切れは罰金の対象。更新はスポンサーの責任ですが、自分でも期限管理を</li>
+        </ul>
+        <div class="life-tip">
+          💡 イカーマ番号はAbsherやNafathの登録にも必要です。番号を写真で保存しておくと便利です。
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.5em;">📱</span>
+          <h3>Absher（アブシェル）</h3>
+        </div>
+        <p>サウジ政府の<strong>電子行政ポータル</strong>。パスポート・イカーマ関連手続き、出国・再入国許可、交通違反照会、ビザステータス確認などをオンラインで行えます。</p>
+        <ul>
+          <li>アプリ（iOS / Android）またはウェブ（absher.sa）で利用</li>
+          <li>登録にはイカーマ番号とサウジの携帯番号が必要</li>
+          <li>本人認証にNafathが連携されるため、先にNafathを登録する場合もあり</li>
+          <li>家族の在留手続き（帯同ビザ延長など）もAbsher経由</li>
+        </ul>
+        <a class="life-link" href="https://www.absher.sa/" target="_blank" rel="noopener">Absher公式サイト →</a>
+      </div>
+
+      <div class="card">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.5em;">🔐</span>
+          <h3>Nafath（ナファズ）</h3>
+        </div>
+        <p>サウジの<strong>国民認証アプリ</strong>（National Single Sign-On）。政府・民間サービスへのログイン時に本人確認を行うシステムです。日本のマイナンバーカード認証に近い役割です。</p>
+        <ul>
+          <li>Absher、銀行アプリ、通信契約などログイン時にNafath認証を求められる</li>
+          <li>アプリで認証リクエストを承認する方式（画面に表示される番号を選択）</li>
+          <li>登録は最寄りのNafathセンターまたはAbsher経由で行えます</li>
+          <li>スマートフォンの機種変更時は再登録が必要な場合あり</li>
+        </ul>
+        <a class="life-link" href="https://www.iam.gov.sa/" target="_blank" rel="noopener">Nafath公式サイト →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 2: 住居 ===== -->
+<section class="life-section" id="housing">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-icon orange">🏢</div>
+      <h2>住居契約</h2>
+    </div>
+
+    <div class="life-grid-2col" style="display:grid; grid-template-columns:1fr; gap:14px;">
+
+      <div class="card">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.5em;">🏠</span>
+          <h3>住居の種類と探し方</h3>
+        </div>
+        <p>外国人駐在員の住居は、大きく分けて<strong>コンパウンド（Compound）</strong>と<strong>一般アパートメント</strong>の2タイプがあります。</p>
+        <ul>
+          <li><strong>コンパウンド：</strong>塀で囲まれた外国人向け居住区。プール・ジム・スーパー等の施設があり、服装規定も緩やか。家族帯同者に人気</li>
+          <li><strong>アパートメント：</strong>一般的なマンション。家賃は比較的安いが、周辺環境は立地次第</li>
+          <li>物件探し：会社の総務部門、不動産仲介、またはBayut・Aqar等の不動産サイト</li>
+          <li>企業駐在の場合、住居は会社が手配するケースが一般的</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.5em;">📝</span>
+          <h3>契約の実務</h3>
+        </div>
+        <p>賃貸契約はEjarプラットフォームで電子登録されるのが標準になりつつあります。</p>
+        <ul>
+          <li><strong>契約期間：</strong>通常1年単位。年払いが一般的（1〜4回の分割も交渉可能）</li>
+          <li><strong>Ejar登録：</strong>住宅省の賃貸契約電子システム。テナント・オーナー双方の権利を保護</li>
+          <li><strong>必要書類：</strong>イカーマ、パスポートコピー、雇用証明書など</li>
+          <li><strong>光熱費：</strong>電気（SEC）・水道（NWC）は別途契約が必要</li>
+        </ul>
+        <div class="life-tip">
+          💡 家賃は交渉次第で下がることがあります。特に長期契約や一括払いの場合はディスカウントを聞いてみましょう。
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 3: 銀行・送金 ===== -->
+<section class="life-section" id="banking">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-icon blue">🏦</div>
+      <h2>銀行口座・送金・キャッシュレス</h2>
+    </div>
+
+    <div class="life-grid-2col" style="display:grid; grid-template-columns:1fr; gap:14px;">
+
+      <div class="card">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.5em;">🏦</span>
+          <h3>銀行口座開設</h3>
+        </div>
+        <p>給与受取のためにサウジの銀行口座が必要です。主要銀行にはAl Rajhi Bank、SNB（Saudi National Bank）、Riyad Bankなどがあります。</p>
+        <ul>
+          <li><strong>必要書類：</strong>イカーマ、パスポート、雇用主からのレター（Salary Certificate）</li>
+          <li>口座開設は支店窓口で行うのが一般的（一部銀行はアプリ対応）</li>
+          <li>給与はWPS（Wage Protection System）経由で銀行口座に振り込まれます</li>
+          <li>デビットカード（mada）が発行され、国内のほぼすべての店舗で利用可能</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.5em;">💸</span>
+          <h3>海外送金・キャッシュレス</h3>
+        </div>
+        <p>日本への送金方法と、サウジ国内で使えるキャッシュレス決済の概要です。</p>
+        <ul>
+          <li><strong>海外送金：</strong>銀行の国際送金、Wise、Western Union、Al Rajhi Tahweel等</li>
+          <li><strong>mada：</strong>サウジの国内デビットネットワーク。ほぼ全店舗で対応</li>
+          <li><strong>Apple Pay / mada Pay：</strong>スマートフォンでの非接触決済が急速に普及</li>
+          <li><strong>STC Pay / urpay：</strong>モバイルウォレット。個人間送金や一部店舗で利用可能</li>
+          <li>現金はまだ一部で必要ですが、都市部ではほぼキャッシュレスで生活可能</li>
+        </ul>
+        <div class="life-tip">
+          💡 詳しくは<a href="money.html" style="color:var(--accent);">通貨・銀行ページ</a>も参照してください。
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 4: SIM・アプリ ===== -->
+<section class="life-section" id="apps">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-icon purple">📱</div>
+      <h2>SIM・配車・地図・決済アプリ</h2>
+    </div>
+
+    <div class="life-grid-2col" style="display:grid; grid-template-columns:1fr; gap:14px;">
+
+      <div class="card">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.5em;">📶</span>
+          <h3>SIMカード・通信</h3>
+        </div>
+        <p>サウジの主要通信キャリアはSTC、Mobily、Zainの3社です。</p>
+        <ul>
+          <li>プリペイドSIMは空港や街中のショップで購入可能（イカーマまたはパスポートが必要）</li>
+          <li>ポストペイド契約にはイカーマが必要</li>
+          <li>eSIM対応も進んでいます</li>
+          <li>サウジの携帯番号（05始まり）はAbsher・Nafath・銀行登録に必須</li>
+        </ul>
+        <div class="life-tip">
+          💡 詳しくは<a href="telecom.html" style="color:var(--accent);">通信・アプリページ</a>で各キャリアのプラン比較をご覧ください。
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.5em;">🚗</span>
+          <h3>生活必須アプリ</h3>
+        </div>
+        <p>サウジでの日常生活に欠かせないアプリ一覧です。渡航前にダウンロードしておくと便利です。</p>
+        <ul>
+          <li><strong>配車：</strong>Uber、Careem（中東版Uber、Uberアプリから利用可能）</li>
+          <li><strong>地図：</strong>Google Maps（サウジでも高精度）、Waze</li>
+          <li><strong>フードデリバリー：</strong>HungerStation、Jahez、Toters</li>
+          <li><strong>買い物：</strong>Nana（食料品配達）、Noon（EC）、Amazon.sa</li>
+          <li><strong>行政：</strong>Absher、Nafath、Tawakkalna（健康・行政統合アプリ）</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 5: 学校・家族 ===== -->
+<section class="life-section" id="school">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-icon orange">🎓</div>
+      <h2>学校・家族帯同</h2>
+    </div>
+
+    <div class="life-grid-2col" style="display:grid; grid-template-columns:1fr; gap:14px;">
+
+      <div class="card">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.5em;">🎓</span>
+          <h3>子女教育の選択肢</h3>
+        </div>
+        <p>サウジアラビアには日本人学校、インターナショナルスクール、現地校の3つの選択肢があります。</p>
+        <ul>
+          <li><strong>日本人学校：</strong>リヤドに所在。日本の教育課程に準拠した授業を実施</li>
+          <li><strong>インターナショナルスクール：</strong>リヤド・ジェッダ・ダンマームに多数。英語・アメリカ式またはイギリス式カリキュラムが主流</li>
+          <li><strong>学費：</strong>インターは年間5万〜10万SAR程度が一般的。企業負担の場合もあり</li>
+          <li>入学時期や空き状況は学校により異なるため、早めの問い合わせが重要</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.5em;">👨‍👩‍👧</span>
+          <h3>家族帯同の手続き</h3>
+        </div>
+        <p>配偶者・子女を帯同する場合、就労者のスポンサーを通じて帯同ビザ（Dependent Visa）を取得します。</p>
+        <ul>
+          <li>手続きはスポンサー（雇用主）経由。必要書類は会社の総務に確認</li>
+          <li>帯同家族もイカーマが発行されます</li>
+          <li>配偶者の就労には別途ワークパーミットが必要</li>
+          <li>家族向け医療保険の加入が義務（雇用主が手配するのが一般的）</li>
+        </ul>
+        <div class="life-tip">
+          💡 帯同家族の出国にはAbsherでの出国許可（Exit/Re-entry Visa）が必要です。計画的に手続きしましょう。
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 6: 営業時間・礼拝時間 ===== -->
+<section class="life-section" id="hours">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-icon green">🕐</div>
+      <h2>営業時間・礼拝時間・週末感覚</h2>
+    </div>
+
+    <div class="life-grid-2col" style="display:grid; grid-template-columns:1fr; gap:14px;">
+
+      <div class="card">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.5em;">🕌</span>
+          <h3>礼拝時間と店舗営業</h3>
+        </div>
+        <p>サウジアラビアでは1日5回の礼拝時間（Salah）があり、礼拝時間帯に一部の店舗・レストランが一時的に閉まることがあります。</p>
+        <ul>
+          <li>礼拝時間は季節により変動（日の出・日没に連動）</li>
+          <li>大型モール・チェーン店は営業を継続する傾向が増加</li>
+          <li>個人商店・ローカルレストランは20〜30分程度閉まることがある</li>
+          <li>礼拝時間の確認：スマホの「Muslim Pro」「Athan」等のアプリが便利</li>
+        </ul>
+        <div class="life-tip">
+          💡 近年の改革により、礼拝時間中も営業を続ける店舗が増えています。ただし地域差があるため、特に地方では余裕を持った行動を。
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:1.5em;">📅</span>
+          <h3>週末・祝日・ラマダン</h3>
+        </div>
+        <p>サウジの生活リズムは日本とは大きく異なります。週末感覚と主要な年間行事を押さえておくことが重要です。</p>
+        <ul>
+          <li><strong>週末：</strong>金曜・土曜が休日（2013年に木金から変更）。日曜は平日</li>
+          <li><strong>官公庁の営業：</strong>日〜木曜が基本。銀行窓口は日〜木の午前中心</li>
+          <li><strong>ラマダン：</strong>断食月。日中の飲食が制限され、営業時間が大幅に変更。夜型の生活に</li>
+          <li><strong>主要祝日：</strong>イード・アル・フィトル（断食明け）、イード・アル・アドハー（犠牲祭）、建国記念日（9/23）</li>
+          <li>イスラム暦に基づく祝日は毎年約11日ずつ前倒しになります</li>
+        </ul>
+        <div class="life-tip">
+          💡 詳しい時間変換は<a href="saudi-time.html" style="color:var(--accent);">サウジ時間ページ</a>をご覧ください。
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 <!-- ===== SECTION: コミュニティ ===== -->
 <section id="community">
