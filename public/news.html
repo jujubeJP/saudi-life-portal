@@ -188,11 +188,10 @@
 }
 
 .news-item {
-  padding: 14px 0;
+  padding: 10px 0;
   border-bottom: 1px solid var(--border-light);
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+  line-height: 1.6;
+  font-size: 0.9em;
 }
 
 .news-item:last-child {
@@ -407,31 +406,35 @@
     </div>
 
     <div class="card">
-      <span class="card-label">現地情報</span>
-      <p style="margin: 12px 0; color: var(--text-secondary); line-height: 1.6;">
-        以下は外務省が発表するサウジアラビアの危険レベル情報です。渡航前・滞在中に必ず公式情報をご確認ください。
-      </p>
+      <span class="card-label">危険情報</span>
       <table class="danger-level-table">
         <thead>
           <tr>
-            <th style="width: 30%;">危険レベル</th>
-            <th style="width: 40%;">対象地域</th>
-            <th style="width: 30%;">説明</th>
+            <th style="width: 20%;">レベル</th>
+            <th>対象地域</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><span class="level-1">レベル1</span></td>
-            <td>サウジ全土の大部分<br>(カティーフ地域など)</td>
-            <td style="color: var(--text-secondary);">十分注意してください</td>
+            <td><span class="level-1">レベル1</span><br><span style="font-size:0.8em;color:var(--text-secondary);">十分注意</span></td>
+            <td style="color:var(--text-secondary); line-height:1.6;">
+              リヤド、ジェッダ、ダンマーム、マッカ、メディナ等の主要都市を含む<strong>サウジ全土の大部分</strong>
+            </td>
           </tr>
           <tr>
-            <td><span class="level-3">レベル3</span></td>
-            <td>イエメン国境地帯<br>(ジーザーン州など)</td>
-            <td style="color: var(--text-secondary);">渡航は止めてください</td>
+            <td><span class="level-3">レベル3</span><br><span style="font-size:0.8em;color:var(--text-secondary);">渡航中止勧告</span></td>
+            <td style="color:var(--text-secondary); line-height:1.6;">
+              <strong>イエメン国境地帯</strong>（ナジュラーン州、ジーザーン州、アシール州の一部）
+            </td>
           </tr>
         </tbody>
       </table>
+      <div id="security-mofa-detail" style="font-size:0.88em; color:var(--text-secondary); line-height:1.6; margin-top:10px; padding-top:10px; border-top:1px solid var(--border-light);">
+        <p>自動収集された最新の外務省情報がここに表示されます。</p>
+      </div>
+      <div style="margin-top:10px; font-size:0.8em; color:var(--text-tertiary);">
+        ※ 危険レベルは2026年3月時点。最新情報は必ず<a href="https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html" target="_blank" rel="noopener" style="color:var(--accent);">外務省 海外安全HP</a>でご確認ください。
+      </div>
     </div>
 
     <!-- EMBASSY SAFETY INFO -->
@@ -468,38 +471,35 @@
     <!-- CATEGORY FILTERS -->
     <div class="filter-buttons">
       <button class="filter-btn active" data-category="all">すべて</button>
-      <button class="filter-btn" data-category="politics">政治</button>
-      <button class="filter-btn" data-category="economy">経済</button>
-      <button class="filter-btn" data-category="society">社会</button>
-      <button class="filter-btn" data-category="culture">文化</button>
-      <button class="filter-btn" data-category="sports">スポーツ</button>
-      <button class="filter-btn" data-category="other">その他</button>
+      <button class="filter-btn" data-category="政治">政治</button>
+      <button class="filter-btn" data-category="経済">経済</button>
+      <button class="filter-btn" data-category="社会">社会</button>
+      <button class="filter-btn" data-category="文化">文化</button>
+      <button class="filter-btn" data-category="スポーツ">スポーツ</button>
+      <button class="filter-btn" data-category="その他">その他</button>
     </div>
 
     <!-- NEWS TABS CONTENT -->
     <div id="news-en" class="tab-content active">
       <div class="card">
-        <span class="card-label">English News</span>
-        <ul id="news-list-en" class="news-list">
-          <li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">読み込み中...</li>
+        <ul id="news-list-en" class="news-list" style="list-style:none;padding:0;margin:0;">
+          <li style="color:var(--text-tertiary); font-style:italic; padding:20px 0;">読み込み中...</li>
         </ul>
       </div>
     </div>
 
     <div id="news-ar" class="tab-content">
       <div class="card">
-        <span class="card-label">أخبار عربية</span>
-        <ul id="news-list-ar" class="news-list">
-          <li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">読み込み中...</li>
+        <ul id="news-list-ar" class="news-list" style="list-style:none;padding:0;margin:0;">
+          <li style="color:var(--text-tertiary); font-style:italic; padding:20px 0;">読み込み中...</li>
         </ul>
       </div>
     </div>
 
     <div id="news-jp" class="tab-content">
       <div class="card">
-        <span class="card-label">日本語ニュース</span>
-        <ul id="news-list-jp" class="news-list">
-          <li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">読み込み中...</li>
+        <ul id="news-list-jp" class="news-list" style="list-style:none;padding:0;margin:0;">
+          <li style="color:var(--text-tertiary); font-style:italic; padding:20px 0;">読み込み中...</li>
         </ul>
       </div>
     </div>
@@ -508,8 +508,8 @@
     <div class="card" style="margin-top: 30px;" id="embassy-news-card">
       <span class="card-label">大使館ニュース</span>
       <h3 style="margin: 12px 0 16px; font-size: 1.05em; color: var(--text-primary);">在サウジ日本大使館からのお知らせ</h3>
-      <ul id="embassy-news-list" class="news-list">
-        <li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">読み込み中...</li>
+      <ul id="embassy-news-list" class="news-list" style="list-style:none;padding:0;margin:0;">
+        <li style="color:var(--text-tertiary); font-style:italic; padding:20px 0;">読み込み中...</li>
       </ul>
     </div>
 
@@ -645,16 +645,13 @@ filterButtons.forEach(btn => {
 });
 
 function filterNews() {
-  ['news-en', 'news-ar', 'news-jp'].forEach(listId => {
-    const items = document.querySelectorAll('#' + listId + ' .news-item');
-    items.forEach(item => {
-      const category = item.dataset.category || 'other';
-      if (activeCategory === 'all' || category === activeCategory) {
-        item.style.display = 'flex';
-      } else {
-        item.style.display = 'none';
-      }
-    });
+  document.querySelectorAll('.news-item').forEach(item => {
+    const category = item.dataset.category || 'その他';
+    if (activeCategory === 'all' || category === activeCategory) {
+      item.style.display = '';
+    } else {
+      item.style.display = 'none';
+    }
   });
 }
 
@@ -711,14 +708,13 @@ function filterNews() {
     const ul = document.getElementById('embassy-news-list');
     if (!ul) return;
     if (!items || !items.length) {
-      ul.innerHTML = '<li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">お知らせはまだありません。</li>';
+      ul.innerHTML = '<li style="text-align:center; color:var(--text-tertiary); font-style:italic; padding:20px 0; border:none;">お知らせはまだありません。</li>';
       return;
     }
     ul.innerHTML = items.map(n =>
-      '<li class="news-item" data-category="' + esc(n.category || 'other') + '">' +
-        '<span class="news-date">' + esc(fmtNewsDate(n.date)) + '</span>' +
-        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" class="news-title">' + esc(n.title || '') + '</a>' : '<span class="news-title">' + esc(n.title || '') + '</span>') +
-        (n.description ? '<span class="news-desc">' + esc(n.description) + '</span>' : '') +
+      '<li class="news-item">' +
+        '<span style="color:var(--text-muted);font-size:0.85em;margin-right:6px;">' + esc(n.date || '') + '</span>' +
+        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
       '</li>'
     ).join('');
   }
@@ -728,15 +724,15 @@ function filterNews() {
     const ul = document.getElementById(listId);
     if (!ul) return;
     if (!items || !items.length) {
-      ul.innerHTML = '<li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">ニュースはまだありません。</li>';
+      ul.innerHTML = '<li style="text-align:center; color:var(--text-tertiary); font-style:italic; padding:20px 0; border:none;">ニュースはまだありません。</li>';
       return;
     }
     ul.innerHTML = items.map(n =>
-      '<li class="news-item" data-category="' + esc(n.category || 'other') + '">' +
-        '<span class="news-date">' + esc(fmtNewsDate(n.date)) + '</span>' +
-        '<span class="news-source">' + esc(n.source || lang.toUpperCase()) + '</span>' +
-        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" class="news-title">' + esc(n.title || '') + '</a>' : '<span class="news-title">' + esc(n.title || '') + '</span>') +
-        (n.description ? '<span class="news-desc">' + esc(n.description) + '</span>' : '') +
+      '<li class="news-item" data-category="' + esc(n.category || 'その他') + '">' +
+        '<span style="color:var(--text-muted);font-size:0.85em;margin-right:6px;white-space:nowrap;">' + esc(fmtNewsDate(n.date)) + '</span>' +
+        '<span style="display:inline-block;padding:1px 6px;border-radius:8px;background:var(--bg-secondary);color:var(--text-tertiary);font-size:0.78em;margin-right:6px;">' + esc(n.category || 'その他') + '</span>' +
+        '<span style="color:var(--text-tertiary);font-size:0.85em;margin-right:6px;">' + esc(n.source || '') + '</span>' +
+        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
       '</li>'
     ).join('');
   }
@@ -747,6 +743,15 @@ function filterNews() {
       if (!res.ok) return;
       const data = await res.json();
       if (!data) return;
+
+      // Update MOFA security info
+      if (data.security && data.security.mofa) {
+        var mofa = data.security.mofa;
+        var detail = document.getElementById('security-mofa-detail');
+        if (detail && mofa.body) {
+          detail.innerHTML = '<p>' + esc(mofa.body) + '</p>';
+        }
+      }
 
       // Update news sections
       if (data.news_en && data.news_en.items) {
