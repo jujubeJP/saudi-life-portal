@@ -1,8 +1,14 @@
 // Site-wide search index for Saudi Navi
 const SITE_SEARCH_INDEX = [
-  // index.html - 治安・制度・ニュース
-  {page: 'index.html', pageTitle: '⚠️ 治安・制度・ニュース', title: 'ニュース', desc: 'サウジアラビアの最新ニュース（日本語）'},
-  {page: 'index.html', pageTitle: '⚠️ 治安・制度・ニュース', title: '治安情報', desc: '安全対策、犯罪、注意事項'},
+  // index.html - ホーム（ダッシュボード）
+  {page: 'index.html', pageTitle: '🏠 ホーム', title: 'サウジナビ', desc: 'サウジアラビア日本語生活情報ポータル'},
+  {page: 'index.html', pageTitle: '🏠 ホーム', title: 'ダッシュボード', desc: '各ページへのナビゲーション、お知らせ'},
+
+  // news.html - 治安・ニュース
+  {page: 'news.html', pageTitle: '📰 治安・ニュース', title: 'ニュース', desc: 'サウジアラビアの最新ニュース（英語・アラビア語・日本語）'},
+  {page: 'news.html', pageTitle: '📰 治安・ニュース', title: '治安情報', desc: '安全対策、犯罪、注意事項'},
+  {page: 'news.html', pageTitle: '📰 治安・ニュース', title: '危険情報', desc: '外務省海外安全HP、危険レベル'},
+  {page: 'news.html', pageTitle: '📰 治安・ニュース', title: '大使館ニュース', desc: '在サウジ日本大使館からのお知らせ'},
 
   // saudi-time.html - サウジ時間
   {page: 'saudi-time.html', pageTitle: '🕐 サウジ時間', title: '時差・タイムゾーン', desc: 'UTC+3、日本との時差マイナス6時間'},

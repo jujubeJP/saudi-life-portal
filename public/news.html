@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>治安・ニュース | サウジナビ</title>
+<link rel="stylesheet" href="assets/shared.css">
+<style>
+/* ===== News & Security Page Styles ===== */
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  font-weight: 700;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 12px;
+}
+
+.section-icon {
+  font-size: 1.4em;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow-sm);
+}
+
+.card-label {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: var(--bg-secondary);
+  font-size: 0.75em;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--text-tertiary);
+}
+
+.danger-level-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 0.95em;
+}
+
+.danger-level-table th {
+  background: var(--bg-secondary);
+  padding: 10px;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid var(--border-light);
+}
+
+.danger-level-table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.danger-level-table tr:last-child td {
+  border-bottom: none;
+}
+
+.level-1 {
+  background: #FFF9C4;
+  color: #F57F17;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.level-3 {
+  background: #FFCC80;
+  color: #E65100;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.emergency-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 14px 16px;
+  background: linear-gradient(135deg, #f8f0f0, #fdf6f6);
+  border-radius: var(--radius-sm);
+  border: 1px solid #f0d0d0;
+  margin: 20px 0;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.emergency-bar .item {
+  white-space: nowrap;
+  flex: 1;
+  min-width: 150px;
+}
+
+.emergency-bar strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* ===== Tabs ===== */
+.tabs-wrapper {
+  display: flex;
+  gap: 8px;
+  margin: 20px 0;
+  border-bottom: 2px solid var(--border-light);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tab-button {
+  padding: 10px 16px;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95em;
+  white-space: nowrap;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.tab-button:hover {
+  color: var(--text-primary);
+}
+
+.tab-button.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* ===== Category Filters ===== */
+.filter-buttons {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 6px 14px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: 20px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 0.85em;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.filter-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.filter-btn.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+/* ===== News List ===== */
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-item {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border-light);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  font-size: 0.8em;
+  color: var(--text-tertiary);
+}
+
+.news-source {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--bg-secondary);
+  color: var(--text-tertiary);
+  font-size: 0.75em;
+  font-weight: 600;
+}
+
+.news-title {
+  font-weight: 600;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.news-title:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.news-desc {
+  font-size: 0.9em;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* ===== Embassy Safety List ===== */
+.embassy-safety-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0;
+}
+
+.embassy-safety-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 0.9em;
+  line-height: 1.5;
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.embassy-safety-list li:last-child {
+  border-bottom: none;
+}
+
+.embassy-safety-list .icon {
+  color: #c62828;
+  flex-shrink: 0;
+}
+
+.embassy-safety-list .date {
+  color: var(--text-tertiary);
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.embassy-safety-list .title {
+  color: var(--text-primary);
+  flex: 1;
+  text-decoration: none;
+}
+
+.embassy-safety-list .title:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+/* ===== Loading & Empty States ===== */
+.empty-state {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--text-tertiary);
+  font-style: italic;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: var(--text-secondary);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 640px) {
+  .emergency-bar {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .emergency-bar .item {
+    min-width: 100%;
+  }
+
+  .danger-level-table {
+    font-size: 0.85em;
+  }
+
+  .danger-level-table th,
+  .danger-level-table td {
+    padding: 8px 6px;
+  }
+
+  .tabs-wrapper {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 0 20px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="gold-top-border"></div>
+<div class="arabesque-bg"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="container">
+    <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
+    <p class="subtitle">サウジアラビア在住者・渡航予定者のための日本語生活情報ポータル</p>
+    <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-gold-line"></div>
+  </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">🕌 サウジナビ</a>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <div class="search-wrap">
+        <button class="search-toggle" id="searchToggle" aria-label="検索">🔍</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">🏠 ホーム</a>
+    <a href="news.html" class="active">📰 治安・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+  </div>
+
+  <div class="nav-desktop" id="navDesktop">
+    <a href="index.html">🏠 ホーム</a>
+    <a href="news.html" class="active">📰 治安・ニュース</a>
+    <a href="life.html">🏠 生活・コミュニティ</a>
+    <a href="events.html">📅 イベント</a>
+    <a href="saudi-time.html">🕐 サウジ時間</a>
+    <a href="travel-info.html">✈️ 渡航情報</a>
+    <a href="vision2030.html">🏗️ VISION 2030</a>
+    <a href="money.html">💰 通貨・銀行</a>
+    <a href="history-culture.html">🕌 歴史・文化</a>
+    <a href="emergency.html">🚨 緊急連絡先</a>
+    <a href="links.html">🔗 リンク集</a>
+    <a href="glossary.html">📖 用語集</a>
+    <div class="search-wrap" style="margin-left:auto;">
+      <button class="search-toggle" id="searchToggleDesktop" aria-label="検索">🔍</button>
+    </div>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <span class="search-icon-inner">🔍</span>
+    <input type="text" id="searchInput" placeholder="検索… (例: テロ, 安全情報, ニュース)" autocomplete="off">
+    <button class="search-clear" id="searchClear">✕</button>
+  </div>
+</nav>
+
+<!-- Search Results Overlay -->
+<div class="search-results" id="searchResults">
+  <div class="search-results-inner">
+    <div class="search-results-header">
+      <h2 id="searchResultsTitle">検索結果</h2>
+      <button class="search-results-close" id="searchResultsClose">✕</button>
+    </div>
+    <div id="searchResultsContent"></div>
+  </div>
+</div>
+
+<!-- ===== CONTENT ===== -->
+<section style="padding: 24px 0;">
+  <div class="container">
+
+    <!-- SECURITY SECTION -->
+    <div class="section-header">
+      <span class="section-icon">⚠️</span>
+      <h2 style="margin:0;">外務省 海外安全情報</h2>
+    </div>
+
+    <div class="card">
+      <span class="card-label">現地情報</span>
+      <p style="margin: 12px 0; color: var(--text-secondary); line-height: 1.6;">
+        以下は外務省が発表するサウジアラビアの危険レベル情報です。渡航前・滞在中に必ず公式情報をご確認ください。
+      </p>
+      <table class="danger-level-table">
+        <thead>
+          <tr>
+            <th style="width: 30%;">危険レベル</th>
+            <th style="width: 40%;">対象地域</th>
+            <th style="width: 30%;">説明</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="level-1">レベル1</span></td>
+            <td>サウジ全土の大部分<br>(カティーフ地域など)</td>
+            <td style="color: var(--text-secondary);">十分注意してください</td>
+          </tr>
+          <tr>
+            <td><span class="level-3">レベル3</span></td>
+            <td>イエメン国境地帯<br>(ジーザーン州など)</td>
+            <td style="color: var(--text-secondary);">渡航は止めてください</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- EMBASSY SAFETY INFO -->
+    <div class="card" id="embassy-safety-card">
+      <span class="card-label">大使館情報</span>
+      <h3 style="margin: 12px 0 16px; font-size: 1.05em; color: var(--text-primary);">大使館 安全情報</h3>
+      <ul id="embassy-safety-list" class="embassy-safety-list">
+        <li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">読み込み中...</li>
+      </ul>
+    </div>
+
+    <!-- EMERGENCY NUMBERS BAR -->
+    <div class="emergency-bar">
+      <div class="item">📞 <strong>日本大使館</strong><br>011-488-1100</div>
+      <div class="item">🚔 <strong>警察</strong><br>999</div>
+      <div class="item">🚑 <strong>救急</strong><br>997</div>
+      <div class="item">🚒 <strong>消防</strong><br>998</div>
+      <div class="item">🛣️ <strong>交通事故</strong><br>993</div>
+    </div>
+
+    <!-- NEWS SECTION -->
+    <div class="section-header" style="margin-top: 40px;">
+      <span class="section-icon">📰</span>
+      <h2 style="margin:0;">ニュース</h2>
+    </div>
+
+    <!-- LANGUAGE TABS -->
+    <div class="tabs-wrapper">
+      <button class="tab-button active" data-tab="news-en">🇬🇧 英語ニュース</button>
+      <button class="tab-button" data-tab="news-ar">🇸🇦 アラビア語ニュース</button>
+      <button class="tab-button" data-tab="news-jp">🇯🇵 日本語ニュース</button>
+    </div>
+
+    <!-- CATEGORY FILTERS -->
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-category="all">すべて</button>
+      <button class="filter-btn" data-category="politics">政治</button>
+      <button class="filter-btn" data-category="economy">経済</button>
+      <button class="filter-btn" data-category="society">社会</button>
+      <button class="filter-btn" data-category="culture">文化</button>
+      <button class="filter-btn" data-category="sports">スポーツ</button>
+      <button class="filter-btn" data-category="other">その他</button>
+    </div>
+
+    <!-- NEWS TABS CONTENT -->
+    <div id="news-en" class="tab-content active">
+      <div class="card">
+        <span class="card-label">English News</span>
+        <ul id="news-list-en" class="news-list">
+          <li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">読み込み中...</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="news-ar" class="tab-content">
+      <div class="card">
+        <span class="card-label">أخبار عربية</span>
+        <ul id="news-list-ar" class="news-list">
+          <li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">読み込み中...</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="news-jp" class="tab-content">
+      <div class="card">
+        <span class="card-label">日本語ニュース</span>
+        <ul id="news-list-jp" class="news-list">
+          <li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">読み込み中...</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- EMBASSY NEWS CARD -->
+    <div class="card" style="margin-top: 30px;" id="embassy-news-card">
+      <span class="card-label">大使館ニュース</span>
+      <h3 style="margin: 12px 0 16px; font-size: 1.05em; color: var(--text-primary);">在サウジ日本大使館からのお知らせ</h3>
+      <ul id="embassy-news-list" class="news-list">
+        <li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">読み込み中...</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer style="padding: 20px 0 16px;">
+  <div class="container" style="line-height:1.5;">
+    <p>サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
+    <p style="margin-top:3px;">重要事項は必ず公式情報をご確認ください。</p>
+    <p style="margin-top:6px;"><a href="about.html" style="color:var(--accent);text-decoration:none;">運営者情報</a>&emsp;<a href="disclaimer.html" style="color:var(--accent);text-decoration:none;">免責事項</a>&emsp;<a href="mailto:portal@rewah.life" style="color:var(--accent);text-decoration:none;">お問い合わせ</a></p>
+    <p style="margin-top:4px;opacity:0.5;">&copy; 2026 Saudi Navi / ReWAH</p>
+  </div>
+</footer>
+
+<script src="assets/search-index.js"></script>
+<script>
+// ===== HAMBURGER MENU =====
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('open');
+});
+
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('open');
+  });
+});
+
+// ===== SEARCH FUNCTIONALITY =====
+const searchToggle = document.getElementById('searchToggle');
+const searchToggleDesktop = document.getElementById('searchToggleDesktop');
+const searchBar = document.getElementById('searchBar');
+const searchInput = document.getElementById('searchInput');
+const searchClear = document.getElementById('searchClear');
+const searchResults = document.getElementById('searchResults');
+const searchResultsContent = document.getElementById('searchResultsContent');
+const searchResultsTitle = document.getElementById('searchResultsTitle');
+const searchResultsClose = document.getElementById('searchResultsClose');
+
+function openSearch() {
+  searchBar.classList.add('open');
+  searchInput.focus();
+  hamburger.classList.remove('active');
+  navLinks.classList.remove('open');
+}
+
+function closeSearch() {
+  searchInput.value = '';
+  searchBar.classList.remove('open');
+  searchResults.classList.remove('visible');
+}
+
+searchToggle.addEventListener('click', openSearch);
+if (searchToggleDesktop) searchToggleDesktop.addEventListener('click', openSearch);
+searchClear.addEventListener('click', closeSearch);
+searchResultsClose.addEventListener('click', () => { searchResults.classList.remove('visible'); });
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeSearch(); searchResults.classList.remove('visible'); }
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+});
+
+let searchTimeout;
+searchInput.addEventListener('input', () => {
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(() => {
+    const q = searchInput.value.trim().toLowerCase();
+    if (q.length < 1) { searchResults.classList.remove('visible'); return; }
+    const matches = SITE_SEARCH_INDEX.filter(d =>
+      d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q) || d.pageTitle.toLowerCase().includes(q)
+    );
+    searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
+    searchResultsContent.innerHTML = matches.map(m =>
+      '<a href="' + m.page + '" style="display:block; padding:10px 0; border-bottom:1px solid var(--border-light); text-decoration:none; color:inherit;">' +
+        '<span style="font-size:0.75em; color:var(--accent); display:block; margin-bottom:2px;">' + escapeHtml(m.pageTitle) + '</span>' +
+        '<strong>' + highlightText(m.title, q) + '</strong>' +
+        '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
+      '</a>'
+    ).join('');
+    searchResults.classList.add('visible');
+  }, 200);
+});
+
+function highlightText(text, query) {
+  const words = query.split(/\s+/).filter(w => w.length > 0);
+  let result = escapeHtml(text);
+  words.forEach(w => {
+    const re = new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+    result = result.replace(re, '<mark>$1</mark>');
+  });
+  return result;
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+// ===== TAB SWITCHING =====
+const tabButtons = document.querySelectorAll('.tab-button');
+const tabContents = document.querySelectorAll('.tab-content');
+
+tabButtons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const tabId = btn.dataset.tab;
+
+    tabButtons.forEach(b => b.classList.remove('active'));
+    tabContents.forEach(c => c.classList.remove('active'));
+
+    btn.classList.add('active');
+    document.getElementById(tabId).classList.add('active');
+  });
+});
+
+// ===== CATEGORY FILTER =====
+const filterButtons = document.querySelectorAll('.filter-btn');
+let activeCategory = 'all';
+
+filterButtons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterButtons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeCategory = btn.dataset.category;
+    filterNews();
+  });
+});
+
+function filterNews() {
+  ['news-en', 'news-ar', 'news-jp'].forEach(listId => {
+    const items = document.querySelectorAll('#' + listId + ' .news-item');
+    items.forEach(item => {
+      const category = item.dataset.category || 'other';
+      if (activeCategory === 'all' || category === activeCategory) {
+        item.style.display = 'flex';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+}
+
+// ===== DYNAMIC CONTENT LOADER =====
+(function() {
+  const API_URL = new URL('data/content.json', document.baseURI).href;
+
+  function esc(s) { return s ? s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])) : ''; }
+
+  function fmtDate(iso) {
+    if (!iso) return '';
+    try {
+      const d = new Date(iso);
+      return d.toLocaleDateString('ja-JP', {year:'numeric',month:'numeric',day:'numeric'}) + ' ' +
+             d.toLocaleTimeString('ja-JP', {hour:'2-digit',minute:'2-digit'});
+    } catch { return iso; }
+  }
+
+  function fmtNewsDate(d) {
+    if (!d) return '';
+    var m = d.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
+    if (m) return parseInt(m[2]) + '/' + parseInt(m[3]) + ' ' + m[4] + ':' + m[5];
+    m = d.match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (m) return parseInt(m[2]) + '/' + parseInt(m[3]);
+    return d;
+  }
+
+  const SAFETY_KEYWORDS = ['安全','注意喚起','テロ','犯罪','緊急','危険','爆発','事件','事故','避難','不審','警戒','感染症','退避','誘拐','デモ','暴動','地震','洪水','在留届','たびレジ','情勢','スポット情報','広域情報','邦人','保護','治安'];
+
+  function isSafetyNews(item) {
+    if (typeof item.is_safety === 'boolean') return item.is_safety;
+    const title = item.title || item;
+    return SAFETY_KEYWORDS.some(kw => title.includes(kw));
+  }
+
+  function updateEmbassySafety(items) {
+    const ul = document.getElementById('embassy-safety-list');
+    if (!ul) return;
+    const safetyItems = (items || []).filter(n => isSafetyNews(n));
+    if (safetyItems.length === 0) {
+      ul.innerHTML = '<li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">現在、安全情報はありません。</li>';
+      return;
+    }
+    ul.innerHTML = safetyItems.slice(0, 10).map(n =>
+      '<li>' +
+        '<span class="icon">⚠️</span>' +
+        '<span class="date">' + esc(n.date || '') + '</span>' +
+        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" class="title">' + esc(n.title || '') + '</a>' : '<span class="title">' + esc(n.title || '') + '</span>') +
+      '</li>'
+    ).join('');
+  }
+
+  function updateEmbassyNews(items) {
+    const ul = document.getElementById('embassy-news-list');
+    if (!ul) return;
+    if (!items || !items.length) {
+      ul.innerHTML = '<li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">お知らせはまだありません。</li>';
+      return;
+    }
+    ul.innerHTML = items.map(n =>
+      '<li class="news-item" data-category="' + esc(n.category || 'other') + '">' +
+        '<span class="news-date">' + esc(fmtNewsDate(n.date)) + '</span>' +
+        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" class="news-title">' + esc(n.title || '') + '</a>' : '<span class="news-title">' + esc(n.title || '') + '</span>') +
+        (n.description ? '<span class="news-desc">' + esc(n.description) + '</span>' : '') +
+      '</li>'
+    ).join('');
+  }
+
+  function updateNewsList(lang, items) {
+    const listId = 'news-list-' + lang;
+    const ul = document.getElementById(listId);
+    if (!ul) return;
+    if (!items || !items.length) {
+      ul.innerHTML = '<li style="text-align: center; color: var(--text-tertiary); font-style: italic; padding: 20px 0; border: none;">ニュースはまだありません。</li>';
+      return;
+    }
+    ul.innerHTML = items.map(n =>
+      '<li class="news-item" data-category="' + esc(n.category || 'other') + '">' +
+        '<span class="news-date">' + esc(fmtNewsDate(n.date)) + '</span>' +
+        '<span class="news-source">' + esc(n.source || lang.toUpperCase()) + '</span>' +
+        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" class="news-title">' + esc(n.title || '') + '</a>' : '<span class="news-title">' + esc(n.title || '') + '</span>') +
+        (n.description ? '<span class="news-desc">' + esc(n.description) + '</span>' : '') +
+      '</li>'
+    ).join('');
+  }
+
+  async function loadContent() {
+    try {
+      const res = await fetch(API_URL);
+      if (!res.ok) return;
+      const data = await res.json();
+      if (!data) return;
+
+      // Update news sections
+      if (data.news_en && data.news_en.items) {
+        updateNewsList('en', data.news_en.items);
+      }
+      if (data.news_ar && data.news_ar.items) {
+        updateNewsList('ar', data.news_ar.items);
+      }
+      if (data.news_jp && data.news_jp.items) {
+        updateNewsList('jp', data.news_jp.items);
+      }
+
+      // Update embassy news and safety
+      if (data.news && data.news.items) {
+        const embassyItems = data.news.items.filter(n => n.source === '在サウジ日本大使館');
+        updateEmbassyNews(embassyItems);
+        updateEmbassySafety(embassyItems);
+      }
+
+      // Re-apply category filter
+      filterNews();
+
+      console.log('[News Page] Content loaded');
+    } catch (e) {
+      console.log('[News Page] Content load failed:', e.message);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', loadContent);
+  } else {
+    loadContent();
+  }
+  setInterval(loadContent, 30 * 60 * 1000);
+})();
+</script>
+
+</body>
+</html>

@@ -3,8 +3,126 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>治安・ニュース | サウジナビ</title>
+<title>サウジナビ | サウジアラビア日本語生活情報ポータル</title>
 <link rel="stylesheet" href="assets/shared.css">
+<style>
+/* ===== Dashboard Cards ===== */
+.dash-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 20px 0 24px;
+}
+@media (max-width: 640px) {
+  .dash-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+}
+.dash-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 18px 10px;
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-light);
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: box-shadow 0.15s, transform 0.15s, border-color 0.15s;
+  text-align: center;
+}
+.dash-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+.dash-card .dash-icon {
+  font-size: 1.6em;
+  line-height: 1;
+}
+.dash-card .dash-label {
+  font-size: 0.82em;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.dash-card .dash-sub {
+  font-size: 0.68em;
+  color: var(--text-tertiary);
+  line-height: 1.2;
+}
+/* Highlight for emergency */
+.dash-card.danger {
+  border-color: #e8c06a;
+  background: linear-gradient(135deg, #fffdf5, #fff9e8);
+}
+.dash-card.danger:hover {
+  border-color: #d4a843;
+}
+
+/* ===== Compact Notice Area ===== */
+.notice-area {
+  margin-top: 8px;
+}
+.notice-section {
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-light);
+  padding: 14px 16px;
+  margin-bottom: 12px;
+}
+.notice-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border-light);
+}
+.notice-header h3 {
+  font-size: 0.9em;
+  font-weight: 600;
+  flex: 1;
+}
+.notice-header .notice-more {
+  font-size: 0.75em;
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.notice-header .notice-more:hover {
+  text-decoration: underline;
+}
+.notice-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.notice-list li {
+  padding: 5px 0;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 0.82em;
+  line-height: 1.5;
+}
+.notice-list li:last-child { border-bottom: none; }
+
+/* Quick contacts bar */
+.quick-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: linear-gradient(135deg, #f8f0f0, #fdf6f6);
+  border-radius: var(--radius-sm);
+  border: 1px solid #f0d0d0;
+  font-size: 0.78em;
+}
+.quick-contacts .qc-item {
+  white-space: nowrap;
+}
+</style>
 </head>
 <body>
 
@@ -21,14 +139,6 @@
   </div>
 </header>
 
-<!-- ALERT -->
-<div class="container">
-  <div class="alert-banner">
-    <span class="alert-icon">⚠️</span>
-    <span>緊急時は必ず<strong>在サウジ日本大使館（011-488-1100）</strong>および<strong>外務省海外安全HP</strong>の公式情報を直接ご確認ください。</span>
-  </div>
-</div>
-
 <!-- NAVIGATION -->
 <nav>
   <div class="nav-top">
@@ -44,7 +154,8 @@
   </div>
 
   <div class="nav-links" id="navLinks">
-    <a href="index.html" class="active">⚠️ 治安・制度・ニュース</a>
+    <a href="index.html" class="active">🏠 ホーム</a>
+    <a href="news.html">📰 治安・ニュース</a>
     <a href="life.html">🏠 生活・コミュニティ</a>
     <a href="events.html">📅 イベント</a>
     <a href="saudi-time.html">🕐 サウジ時間</a>
@@ -58,7 +169,8 @@
   </div>
 
   <div class="nav-desktop" id="navDesktop">
-    <a href="index.html" class="active">⚠️ 治安・制度・ニュース</a>
+    <a href="index.html" class="active">🏠 ホーム</a>
+    <a href="news.html">📰 治安・ニュース</a>
     <a href="life.html">🏠 生活・コミュニティ</a>
     <a href="events.html">📅 イベント</a>
     <a href="saudi-time.html">🕐 サウジ時間</a>
@@ -92,116 +204,126 @@
   </div>
 </div>
 
-<!-- ===== SECTION: 治安・緊急 ===== -->
-<section id="security">
+<!-- ===== DASHBOARD ===== -->
+<section id="dashboard" style="padding:24px 0 0;">
   <div class="container">
-    <div class="section-header">
-      <div class="section-icon red">⚠️</div>
-      <h2>治安・緊急情報</h2>
-      <span class="updated" id="security-updated">最終更新: 読み込み中...</span>
+
+    <!-- ナビカード群 -->
+    <div class="dash-grid">
+      <a href="news.html" class="dash-card danger">
+        <span class="dash-icon">⚠️</span>
+        <span class="dash-label">治安・ニュース</span>
+        <span class="dash-sub">安全情報・最新報道</span>
+      </a>
+      <a href="life.html" class="dash-card">
+        <span class="dash-icon">🏠</span>
+        <span class="dash-label">生活・コミュニティ</span>
+        <span class="dash-sub">住居・届出・日常</span>
+      </a>
+      <a href="events.html" class="dash-card">
+        <span class="dash-icon">📅</span>
+        <span class="dash-label">イベント</span>
+        <span class="dash-sub">祝日・行事</span>
+      </a>
+      <a href="saudi-time.html" class="dash-card">
+        <span class="dash-icon">🕐</span>
+        <span class="dash-label">サウジ時間</span>
+        <span class="dash-sub">時差・礼拝・営業</span>
+      </a>
+      <a href="travel-info.html" class="dash-card">
+        <span class="dash-icon">✈️</span>
+        <span class="dash-label">渡航情報</span>
+        <span class="dash-sub">ビザ・入国・準備</span>
+      </a>
+      <a href="vision2030.html" class="dash-card">
+        <span class="dash-icon">🏗️</span>
+        <span class="dash-label">VISION 2030</span>
+        <span class="dash-sub">改革・開発計画</span>
+      </a>
+      <a href="money.html" class="dash-card">
+        <span class="dash-icon">💰</span>
+        <span class="dash-label">通貨・銀行</span>
+        <span class="dash-sub">為替・両替・送金</span>
+      </a>
+      <a href="history-culture.html" class="dash-card">
+        <span class="dash-icon">🕌</span>
+        <span class="dash-label">歴史・文化</span>
+        <span class="dash-sub">イスラム・遺産</span>
+      </a>
+      <a href="emergency.html" class="dash-card danger">
+        <span class="dash-icon">🚨</span>
+        <span class="dash-label">緊急連絡先</span>
+        <span class="dash-sub">大使館・警察・救急</span>
+      </a>
+      <a href="links.html" class="dash-card">
+        <span class="dash-icon">🔗</span>
+        <span class="dash-label">リンク集</span>
+        <span class="dash-sub">公式サイト一覧</span>
+      </a>
+      <a href="glossary.html" class="dash-card">
+        <span class="dash-icon">📖</span>
+        <span class="dash-label">用語集</span>
+        <span class="dash-sub">アラビア語・略語</span>
+      </a>
     </div>
 
-    <div class="card-grid">
-      <div class="card emergency" id="security-mofa">
-        <div class="card-label">外務省 海外安全情報</div>
+    <!-- コンパクトお知らせエリア -->
+    <div class="notice-area">
 
-        <!-- 地域別危険レベル -->
-        <div style="margin:10px 0;">
-            <table style="width:100%; font-size:0.82em; border-collapse:collapse;">
-              <tr>
-                <td style="padding:6px 4px; border-bottom:1px solid var(--border-light);">
-                  <span style="display:inline-block; padding:1px 8px; border-radius:4px; background:#FFF9C4; color:#F57F17; font-weight:600; font-size:0.85em;">レベル1</span>
-                </td>
-                <td style="padding:6px 4px; border-bottom:1px solid var(--border-light); color:var(--text-secondary);">
-                  <strong>十分注意してください</strong><br>
-                  <span style="font-size:0.9em; color:var(--text-tertiary);">リヤド、ジェッダ、ダンマーム、マッカ、メディナ等の主要都市を含むサウジ全土の大部分</span>
-                </td>
-              </tr>
-              <tr>
-                <td style="padding:6px 4px;">
-                  <span style="display:inline-block; padding:1px 8px; border-radius:4px; background:#FFCC80; color:#E65100; font-weight:600; font-size:0.85em;">レベル3</span>
-                </td>
-                <td style="padding:6px 4px; color:var(--text-secondary);">
-                  <strong>渡航は止めてください</strong><br>
-                  <span style="font-size:0.9em; color:var(--text-tertiary);">イエメン国境地帯（ナジュラーン州、ジーザーン州、アシール州の一部）</span>
-                </td>
-              </tr>
-            </table>
-            <div style="margin-top:8px; font-size:0.78em; color:var(--text-tertiary);">
-              ※ 危険レベルは2026年3月時点。最新情報は必ず<a href="https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html" target="_blank" rel="noopener" style="color:var(--accent);">外務省 海外安全HP</a>でご確認ください。
-            </div>
+      <!-- 安全情報（コンパクト） -->
+      <div class="notice-section" id="safety-notice">
+        <div class="notice-header">
+          <h3>⚠️ 安全情報</h3>
+          <span class="updated" id="security-updated" style="font-size:0.72em;color:var(--text-tertiary);"></span>
+          <a href="news.html" class="notice-more">詳しく見る →</a>
         </div>
-
-        <div id="security-mofa-detail" style="font-size:var(--font-size-sm); color:var(--text-secondary); line-height:1.6; margin-top:8px; padding-top:8px; border-top:1px solid var(--border-light);">
-          <p>自動収集された最新の外務省情報がここに表示されます。</p>
+        <div id="safety-summary" style="font-size:0.82em; color:var(--text-secondary); line-height:1.6;">
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:6px;">
+            <span style="padding:2px 8px; border-radius:4px; background:#FFF9C4; color:#F57F17; font-weight:600; font-size:0.88em;">レベル1</span>
+            <span style="color:var(--text-secondary);">サウジ全土の大部分 — 十分注意してください</span>
+          </div>
+          <div style="display:flex; gap:10px; flex-wrap:wrap;">
+            <span style="padding:2px 8px; border-radius:4px; background:#FFCC80; color:#E65100; font-weight:600; font-size:0.88em;">レベル3</span>
+            <span style="color:var(--text-secondary);">イエメン国境地帯 — 渡航は止めてください</span>
+          </div>
         </div>
-        <div class="source">出典: <a href="https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_050.html" target="_blank" rel="noopener">外務省 海外安全HP</a></div>
+        <ul id="embassy-safety-list" class="notice-list" style="margin-top:8px;"></ul>
       </div>
 
-      <div class="card" id="security-embassy">
-        <div class="card-label">🔴 大使館 安全情報</div>
-        <p id="embassy-safety-status" style="font-size:var(--font-size-sm); color:var(--text-tertiary); margin-bottom:4px;">安全に関する大使館からのお知らせが表示されます。</p>
-        <ul id="embassy-safety-list" style="margin:8px 0;padding-left:0;list-style:none;font-size:var(--font-size-sm);"></ul>
-        <div class="source">出典: <a href="https://www.ksa.emb-japan.go.jp/itpr_ja/index.html" target="_blank" rel="noopener">在サウジ日本大使館</a></div>
+      <!-- 最新ニュース（コンパクト） -->
+      <div class="notice-section" id="news-notice">
+        <div class="notice-header">
+          <h3>📰 最新ニュース</h3>
+          <span class="updated" id="news-updated" style="font-size:0.72em;color:var(--text-tertiary);"></span>
+          <a href="news.html" class="notice-more">すべて見る →</a>
+        </div>
+        <ul id="latest-news-list" class="notice-list">
+          <li style="color:var(--text-tertiary); font-style:italic;">読み込み中...</li>
+        </ul>
       </div>
+
+      <!-- 大使館ニュース（コンパクト） -->
+      <div class="notice-section" id="embassy-notice">
+        <div class="notice-header">
+          <h3>🏛️ 大使館からのお知らせ</h3>
+          <a href="news.html" class="notice-more">すべて見る →</a>
+        </div>
+        <ul id="embassy-news-list" class="notice-list">
+          <li style="color:var(--text-tertiary); font-style:italic;">読み込み中...</li>
+        </ul>
+      </div>
+
     </div>
 
-    <div class="emergency-bar">
-      <div class="contact">📞 <strong>日本大使館</strong> 011-488-1100</div>
-      <div class="contact">🚔 <strong>警察</strong> 999</div>
-      <div class="contact">🚑 <strong>救急</strong> 997</div>
-      <div class="contact">🚒 <strong>消防</strong> 998</div>
-      <div class="contact">🛣️ <strong>交通事故</strong> 993</div>
-    </div>
-  </div>
-</section>
-
-<div class="container"><div class="divider"><svg viewBox="0 0 200 20" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="0" y1="10" x2="70" y2="10" stroke="#c5a55a" stroke-width="0.5"/><path d="M80 10 L90 4 L100 10 L90 16Z" stroke="#1b6b4a" stroke-width="0.8"/><circle cx="100" cy="10" r="3" stroke="#c5a55a" stroke-width="0.6"/><path d="M110 10 L120 4 L130 10 L120 16Z" stroke="#1b6b4a" stroke-width="0.8" transform="rotate(180 120 10)"/><line x1="130" y1="10" x2="200" y2="10" stroke="#c5a55a" stroke-width="0.5"/></svg></div></div>
-
-<!-- ===== SECTION: ニュース ===== -->
-<section id="news">
-  <div class="container">
-    <div class="section-header">
-      <div class="section-icon gold">📰</div>
-      <h2>ニュース・時事</h2>
-      <span class="updated" id="news-updated">最終更新: 読み込み中...</span>
+    <!-- 緊急連絡先バー -->
+    <div class="quick-contacts">
+      <span class="qc-item">📞 <strong>日本大使館</strong> 011-488-1100</span>
+      <span class="qc-item">🚔 <strong>警察</strong> 999</span>
+      <span class="qc-item">🚑 <strong>救急</strong> 997</span>
+      <span class="qc-item">🚒 <strong>消防</strong> 998</span>
+      <span class="qc-item">🛣️ <strong>交通事故</strong> 993</span>
     </div>
 
-    <div style="display:flex; gap:0; margin-bottom:0; border-bottom:2px solid var(--border-light);" id="news-tabs">
-      <button class="news-tab active" data-tab="en" style="flex:1; padding:10px 8px; background:none; border:none; border-bottom:2px solid var(--accent); margin-bottom:-2px; cursor:pointer; font-size:var(--font-size-sm); font-weight:600; color:var(--accent);">英語ニュース</button>
-      <button class="news-tab" data-tab="ar" style="flex:1; padding:10px 8px; background:none; border:none; border-bottom:2px solid transparent; margin-bottom:-2px; cursor:pointer; font-size:var(--font-size-sm); font-weight:500; color:var(--text-tertiary);">アラビア語ニュース</button>
-      <button class="news-tab" data-tab="jp" style="flex:1; padding:10px 8px; background:none; border:none; border-bottom:2px solid transparent; margin-bottom:-2px; cursor:pointer; font-size:var(--font-size-sm); font-weight:500; color:var(--text-tertiary);">日本語ニュース</button>
-    </div>
-
-    <div class="card" style="border-top-left-radius:0; border-top-right-radius:0; border-top:none;">
-      <div id="category-filters" style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:10px; padding-bottom:8px; border-bottom:1px solid var(--border-light);">
-        <button class="cat-btn active" data-cat="all" style="padding:4px 12px; border-radius:20px; border:1px solid var(--accent); background:var(--accent); color:#fff; font-size:0.78em; cursor:pointer;">すべて</button>
-        <button class="cat-btn" data-cat="政治" style="padding:4px 12px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.78em; cursor:pointer;">政治</button>
-        <button class="cat-btn" data-cat="経済" style="padding:4px 12px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.78em; cursor:pointer;">経済</button>
-        <button class="cat-btn" data-cat="社会" style="padding:4px 12px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.78em; cursor:pointer;">社会</button>
-        <button class="cat-btn" data-cat="文化" style="padding:4px 12px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.78em; cursor:pointer;">文化</button>
-        <button class="cat-btn" data-cat="スポーツ" style="padding:4px 12px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.78em; cursor:pointer;">スポーツ</button>
-        <button class="cat-btn" data-cat="その他" style="padding:4px 12px; border-radius:20px; border:1px solid var(--border-light); background:none; color:var(--text-tertiary); font-size:0.78em; cursor:pointer;">その他</button>
-      </div>
-      <div id="news-en" class="news-panel">
-        <p style="color:var(--text-tertiary); font-size:var(--font-size-sm);">読み込み中...</p>
-      </div>
-      <div id="news-ar" class="news-panel" style="display:none;">
-        <p style="color:var(--text-tertiary); font-size:var(--font-size-sm);">読み込み中...</p>
-      </div>
-      <div id="news-jp" class="news-panel" style="display:none;">
-        <p style="color:var(--text-tertiary); font-size:var(--font-size-sm);">読み込み中...</p>
-      </div>
-    </div>
-
-    <!-- 大使館ニュース -->
-    <div class="card" style="margin-top:12px;">
-      <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
-        <div class="card-label" style="margin:0;">🏛️ 在サウジ日本大使館 新着</div>
-      </div>
-      <ul id="embassy-news-list" style="margin:0;padding-left:0;list-style:none;font-size:var(--font-size-sm);"></ul>
-      <div class="source" style="margin-top:8px;">出典: <a href="https://www.ksa.emb-japan.go.jp/itpr_ja/index.html" target="_blank" rel="noopener">在サウジ日本大使館</a></div>
-    </div>
   </div>
 </section>
 
@@ -304,39 +426,6 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
-// ===== NAV ACTIVE STATE =====
-const allSections = document.querySelectorAll('section[id]');
-window.addEventListener('scroll', () => {
-  let current = '';
-  const offset = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height')) || 56;
-  allSections.forEach(section => {
-    const top = section.offsetTop - offset - 16;
-    if (scrollY >= top) current = section.getAttribute('id');
-  });
-  document.querySelectorAll('nav a').forEach(link => {
-    const href = link.getAttribute('href');
-    if (href && href.includes('#')) {
-      const hash = href.split('#')[1];
-      link.classList.toggle('active', hash === current);
-    }
-  });
-}, { passive: true });
-
-// Smooth scroll for same-page anchors
-document.querySelectorAll('nav a[href*="#"]').forEach(link => {
-  link.addEventListener('click', e => {
-    const href = link.getAttribute('href');
-    const hash = href.split('#')[1];
-    if (hash && document.getElementById(hash)) {
-      e.preventDefault();
-      const target = document.getElementById(hash);
-      const offset = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height')) || 56;
-      const y = target.getBoundingClientRect().top + window.pageYOffset - offset - 8;
-      window.scrollTo({ top: y, behavior: 'smooth' });
-    }
-  });
-});
-
 // ===== DYNAMIC CONTENT LOADER =====
 (function() {
   const API_URL = new URL('data/content.json', document.baseURI).href;
@@ -352,30 +441,8 @@ document.querySelectorAll('nav a[href*="#"]').forEach(link => {
     } catch { return iso; }
   }
 
-  function updateCard(id, data) {
-    const el = document.getElementById(id);
-    if (!el || !data) return;
-    const h3 = el.querySelector('h3');
-    const p = el.querySelector('p');
-    if (h3 && data.title) h3.textContent = data.title;
-    if (p && data.body) p.textContent = data.body;
-    if (data.items && data.items.length) {
-      let ul = el.querySelector('ul.dynamic-list');
-      if (!ul) {
-        ul = document.createElement('ul');
-        ul.className = 'dynamic-list';
-        ul.style.cssText = 'margin:8px 0;padding-left:18px;color:var(--text-secondary);font-size:var(--font-size-sm);';
-        const refEl = p || h3;
-        if (refEl) refEl.parentNode.insertBefore(ul, refEl.nextSibling);
-        if (p) p.style.display = 'none';
-      }
-      ul.innerHTML = data.items.map(i => '<li style="margin-bottom:4px;">' + esc(i) + '</li>').join('');
-    }
-  }
-
   function fmtNewsDate(d) {
     if (!d) return '';
-    // "2026-03-28T10:30" → "3/28 10:30", "2026-03-28" → "3/28"
     var m = d.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
     if (m) return parseInt(m[2]) + '/' + parseInt(m[3]) + ' ' + m[4] + ':' + m[5];
     m = d.match(/^(\d{4})-(\d{2})-(\d{2})/);
@@ -383,84 +450,12 @@ document.querySelectorAll('nav a[href*="#"]').forEach(link => {
     return d;
   }
 
-  function renderNewsList(panelId, items) {
-    var el = document.getElementById(panelId);
-    if (!el) return;
-    if (!items || !items.length) {
-      el.innerHTML = '<p style="color:var(--text-tertiary); font-size:var(--font-size-sm);">ニュースはまだありません。</p>';
-      return;
-    }
-    el.innerHTML = items.map(function(n) {
-      var cat = n.category || 'その他';
-      return '<div class="news-item" data-category="' + esc(cat) + '" style="padding:6px 0; border-bottom:1px solid var(--border-light); line-height:1.5;">' +
-        '<span style="color:var(--text-muted); font-size:0.8em; margin-right:6px; white-space:nowrap;">' + esc(fmtNewsDate(n.date)) + '</span>' +
-        '<span style="display:inline-block; padding:1px 6px; border-radius:8px; background:var(--bg-secondary); color:var(--text-tertiary); font-size:0.7em; margin-right:6px;">' + esc(cat) + '</span>' +
-        '<span style="color:var(--text-tertiary); font-size:0.8em; margin-right:6px;">' + esc(n.source || '') + '</span>' +
-        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary); text-decoration:none; font-size:var(--font-size-sm);">' + esc(n.title || '') + '</a>' : '<span style="font-size:var(--font-size-sm);">' + esc(n.title || '') + '</span>') +
-      '</div>';
-    }).join('');
-  }
-
-  // タブ切り替え
-  document.getElementById('news-tabs').addEventListener('click', function(e) {
-    var btn = e.target.closest('.news-tab');
-    if (!btn) return;
-    var tab = btn.getAttribute('data-tab');
-    document.querySelectorAll('.news-tab').forEach(function(t) {
-      var isActive = t.getAttribute('data-tab') === tab;
-      t.style.borderBottomColor = isActive ? 'var(--accent)' : 'transparent';
-      t.style.color = isActive ? 'var(--accent)' : 'var(--text-tertiary)';
-      t.style.fontWeight = isActive ? '600' : '500';
-      t.classList.toggle('active', isActive);
-    });
-    document.querySelectorAll('.news-panel').forEach(function(p) {
-      p.style.display = p.id === 'news-' + tab ? 'block' : 'none';
-    });
-  });
-
-  // カテゴリフィルター
-  var currentCategory = 'all';
-  document.getElementById('category-filters').addEventListener('click', function(e) {
-    var btn = e.target.closest('.cat-btn');
-    if (!btn) return;
-    currentCategory = btn.getAttribute('data-cat');
-    // ボタンのスタイル更新
-    document.querySelectorAll('.cat-btn').forEach(function(b) {
-      var isActive = b.getAttribute('data-cat') === currentCategory;
-      b.style.background = isActive ? 'var(--accent)' : 'none';
-      b.style.color = isActive ? '#fff' : 'var(--text-tertiary)';
-      b.style.borderColor = isActive ? 'var(--accent)' : 'var(--border-light)';
-      b.classList.toggle('active', isActive);
-    });
-    // ニュースアイテムのフィルタリング
-    document.querySelectorAll('.news-item').forEach(function(item) {
-      if (currentCategory === 'all' || item.getAttribute('data-category') === currentCategory) {
-        item.style.display = '';
-      } else {
-        item.style.display = 'none';
-      }
-    });
-  });
-
   const SAFETY_KEYWORDS = ['安全','注意喚起','テロ','犯罪','緊急','危険','爆発','事件','事故','避難','不審','警戒','感染症','退避','誘拐','デモ','暴動','地震','洪水','在留届','たびレジ','情勢','スポット情報','広域情報','邦人','保護','治安'];
 
   function isSafetyNews(item) {
-    // Python側でPDF本文を分析済みの場合、is_safetyフラグを優先
     if (typeof item.is_safety === 'boolean') return item.is_safety;
-    // フォールバック: タイトルベースのキーワードマッチング
     const title = item.title || item;
     return SAFETY_KEYWORDS.some(kw => title.includes(kw));
-  }
-
-  function updateEmbassyNews(items) {
-    const ul = document.getElementById('embassy-news-list');
-    if (!ul || !items || !items.length) return;
-    ul.innerHTML = items.map(n =>
-      '<li style="margin-bottom:6px;line-height:1.4;">' +
-        '<span style="color:var(--text-muted);font-size:0.85em;margin-right:6px;">' + esc(n.date || '') + '</span>' +
-        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
-      '</li>'
-    ).join('');
   }
 
   function updateEmbassySafety(items) {
@@ -468,16 +463,52 @@ document.querySelectorAll('nav a[href*="#"]').forEach(link => {
     if (!ul) return;
     const safetyItems = (items || []).filter(n => isSafetyNews(n));
     if (safetyItems.length === 0) {
-      ul.innerHTML = '<li style="color:var(--text-tertiary); font-style:italic;">現在、安全に関する特別なお知らせはありません。</li>';
+      ul.innerHTML = '';
       return;
     }
-    ul.innerHTML = safetyItems.map(n =>
-      '<li style="margin-bottom:6px;line-height:1.4;">' +
-        '<span style="color:#c62828;font-size:0.75em;font-weight:600;margin-right:4px;">⚠️</span>' +
-        '<span style="color:var(--text-muted);font-size:0.85em;margin-right:6px;">' + esc(n.date || '') + '</span>' +
+    ul.innerHTML = safetyItems.slice(0, 3).map(n =>
+      '<li>' +
+        '<span style="color:#c62828;font-size:0.9em;margin-right:4px;">⚠️</span>' +
+        '<span style="color:var(--text-muted);margin-right:6px;">' + esc(n.date || '') + '</span>' +
         (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
       '</li>'
     ).join('');
+  }
+
+  function updateEmbassyNews(items) {
+    const ul = document.getElementById('embassy-news-list');
+    if (!ul || !items || !items.length) return;
+    ul.innerHTML = items.slice(0, 3).map(n =>
+      '<li>' +
+        '<span style="color:var(--text-muted);margin-right:6px;">' + esc(n.date || '') + '</span>' +
+        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
+      '</li>'
+    ).join('');
+  }
+
+  function updateLatestNews(data) {
+    const ul = document.getElementById('latest-news-list');
+    if (!ul) return;
+    // 全言語の最新ニュースを統合して日付順に3件
+    var all = [];
+    ['news_en', 'news_ar', 'news_jp'].forEach(function(key) {
+      if (data[key] && data[key].items) {
+        data[key].items.forEach(function(n) { all.push(n); });
+      }
+    });
+    all.sort(function(a, b) { return (b.date || '').localeCompare(a.date || ''); });
+    var top = all.slice(0, 3);
+    if (top.length === 0) {
+      ul.innerHTML = '<li style="color:var(--text-tertiary); font-style:italic;">ニュースはまだありません。</li>';
+      return;
+    }
+    ul.innerHTML = top.map(function(n) {
+      return '<li>' +
+        '<span style="color:var(--text-muted);margin-right:6px;">' + esc(fmtNewsDate(n.date)) + '</span>' +
+        '<span style="display:inline-block;padding:1px 5px;border-radius:6px;background:var(--bg-secondary);color:var(--text-tertiary);font-size:0.85em;margin-right:4px;">' + esc(n.source || '') + '</span>' +
+        (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
+      '</li>';
+    }).join('');
   }
 
   async function loadContent() {
@@ -487,10 +518,8 @@ document.querySelectorAll('nav a[href*="#"]').forEach(link => {
       const data = await res.json();
       if (!data) return;
 
-      if (data.security) {
-        const s = data.security;
-        if (s.lastUpdated) document.getElementById('security-updated').textContent = '最終更新: ' + fmtDate(s.lastUpdated);
-        updateCard('security-mofa', s.mofa);
+      if (data.security && data.security.lastUpdated) {
+        document.getElementById('security-updated').textContent = fmtDate(data.security.lastUpdated);
       }
 
       if (data.news && data.news.items) {
@@ -499,17 +528,14 @@ document.querySelectorAll('nav a[href*="#"]').forEach(link => {
         updateEmbassySafety(embassyItems);
       }
 
-      // 3言語別ニュースを表示
-      if (data.news_en) renderNewsList('news-en', data.news_en.items);
-      if (data.news_ar) renderNewsList('news-ar', data.news_ar.items);
-      if (data.news_jp) renderNewsList('news-jp', data.news_jp.items);
-      // 更新日時（いずれかの最新を表示）
-      var newsUpdated = data.news_en?.lastUpdated || data.news_ar?.lastUpdated || data.news_jp?.lastUpdated;
-      if (newsUpdated) document.getElementById('news-updated').textContent = '最終更新: ' + fmtDate(newsUpdated);
+      updateLatestNews(data);
 
-      console.log('[Portal] Dynamic content loaded successfully');
+      var newsUpdated = data.news_en?.lastUpdated || data.news_ar?.lastUpdated || data.news_jp?.lastUpdated;
+      if (newsUpdated) document.getElementById('news-updated').textContent = fmtDate(newsUpdated);
+
+      console.log('[Portal] Dashboard content loaded');
     } catch (e) {
-      console.log('[Portal] Dynamic content unavailable, using static fallback:', e.message);
+      console.log('[Portal] Content load failed:', e.message);
     }
   }
 
