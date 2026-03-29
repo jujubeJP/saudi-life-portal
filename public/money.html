@@ -430,114 +430,17 @@
 
 <!-- FOOTER -->
 <footer>
-  <div class="container" style="line-height:1.5;">
-    <p>サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
-    <p style="margin-top:3px;">重要事項は必ず公式情報をご確認ください。</p>
-    <p style="margin-top:6px;"><a href="about.html" style="color:var(--accent);text-decoration:none;">運営者情報</a>&emsp;<a href="disclaimer.html" style="color:var(--accent);text-decoration:none;">免責事項</a>&emsp;<a href="mailto:portal@rewah.life" style="color:var(--accent);text-decoration:none;">お問い合わせ</a></p>
-    <p style="margin-top:4px;opacity:0.5;">&copy; 2026 Saudi Navi / ReWAH</p>
+  <div class="container" style="text-align:center; line-height:1.8; padding: 20px 16px;">
+    <p style="margin:0;">サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
+    <p style="margin:4px 0 0;">重要事項は必ず公式情報をご確認ください。</p>
+    <p style="margin:6px 0 0;"><a href="about.html" style="color:var(--accent);text-decoration:none;font-size:0.85em;">運営者情報</a>&emsp;<a href="disclaimer.html" style="color:var(--accent);text-decoration:none;font-size:0.85em;">免責事項</a>&emsp;<a href="mailto:portal@rewah.life" style="color:var(--accent);text-decoration:none;font-size:0.85em;">お問い合わせ</a></p>
+    <p style="margin:4px 0 0;opacity:0.5;font-size:0.8em;">&copy; 2026 Saudi Navi / ReWAH</p>
   </div>
 </footer>
 
+<script src="assets/shared.js"></script>
 <script src="assets/search-index.js"></script>
 <script>
-// ===== HAMBURGER MENU =====
-const hamburger = document.getElementById('hamburger');
-const navLinks = document.getElementById('navLinks');
-
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
-  navLinks.classList.toggle('open');
-});
-
-navLinks.querySelectorAll('a').forEach(link => {
-  link.addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    navLinks.classList.remove('open');
-  });
-});
-
-// ===== NAV DROPDOWN =====
-var navMore = document.getElementById('navMore');
-var navMoreBtn = document.getElementById('navMoreBtn');
-if (navMore && navMoreBtn) {
-  navMoreBtn.addEventListener('click', function(e) {
-    e.stopPropagation();
-    navMore.classList.toggle('open');
-  });
-  document.addEventListener('click', function(e) {
-    if (!navMore.contains(e.target)) {
-      navMore.classList.remove('open');
-    }
-  });
-}
-
-// ===== SEARCH =====
-const searchToggle = document.getElementById('searchToggle');
-const searchToggleDesktop = document.getElementById('searchToggleDesktop');
-const searchBar = document.getElementById('searchBar');
-const searchInput = document.getElementById('searchInput');
-const searchClear = document.getElementById('searchClear');
-const searchResults = document.getElementById('searchResults');
-const searchResultsContent = document.getElementById('searchResultsContent');
-const searchResultsTitle = document.getElementById('searchResultsTitle');
-const searchResultsClose = document.getElementById('searchResultsClose');
-
-function openSearch() {
-  searchBar.classList.add('open');
-  searchInput.focus();
-  hamburger.classList.remove('active');
-  navLinks.classList.remove('open');
-}
-
-function closeSearch() {
-  searchInput.value = '';
-  searchBar.classList.remove('open');
-  searchResults.classList.remove('visible');
-}
-
-searchToggle.addEventListener('click', openSearch);
-if (searchToggleDesktop) searchToggleDesktop.addEventListener('click', openSearch);
-searchClear.addEventListener('click', closeSearch);
-searchResultsClose.addEventListener('click', () => { searchResults.classList.remove('visible'); });
-
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') { closeSearch(); searchResults.classList.remove('visible'); }
-  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
-});
-
-function escapeHtml(str) {
-  const div = document.createElement('div');
-  div.textContent = str;
-  return div.innerHTML;
-}
-
-function highlightText(text, query) {
-  const words = query.split(/\s+/).filter(w => w.length > 0);
-  let result = escapeHtml(text);
-  words.forEach(word => {
-    const re = new RegExp('(' + word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
-    result = result.replace(re, '<mark>$1</mark>');
-  });
-  return result;
-}
-
-searchInput.addEventListener('input', () => {
-  const q = searchInput.value.trim().toLowerCase();
-  if (q.length < 1) { searchResults.classList.remove('visible'); return; }
-  const matches = SITE_SEARCH_INDEX.filter(d =>
-    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q) || d.pageTitle.toLowerCase().includes(q)
-  );
-  searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
-  searchResultsContent.innerHTML = matches.map(m =>
-    '<a href="' + m.page + '" style="display:block; padding:10px 0; border-bottom:1px solid var(--border-light); text-decoration:none; color:inherit;">' +
-      '<span style="font-size:0.75em; color:var(--accent); display:block; margin-bottom:2px;">' + escapeHtml(m.pageTitle) + '</span>' +
-      '<strong>' + highlightText(m.title, q) + '</strong>' +
-      '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
-    '</a>'
-  ).join('');
-  searchResults.classList.add('visible');
-});
-
 // ===== CURRENCY CONVERTER =====
 const jpyInput = document.getElementById('jpyInput');
 const sarInput = document.getElementById('sarInput');

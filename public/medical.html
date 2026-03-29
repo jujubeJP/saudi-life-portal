@@ -893,120 +893,24 @@
 
 <!-- FOOTER -->
 <footer>
-  <div class="container">
-    <p style="font-size:var(--font-size-sm); color:var(--text-tertiary); line-height:1.8; margin-bottom:12px;">
-      <strong>免責事項：</strong>本ページの情報は2026年3月時点のものです。医療制度、費用、施設情報は随時変わる可能性があります。正確な情報については、各医療機関、保険会社、日本大使館に直接お問い合わせください。本ページの利用により生じた損害について、当サイトは責任を負いません。
-    </p>
-    <div style="display:flex; gap:20px; flex-wrap:wrap; font-size:var(--font-size-sm); color:var(--text-tertiary);">
-      <a href="index.html" style="color:inherit; text-decoration:none;">ホーム</a>
-      <a href="emergency.html" style="color:inherit; text-decoration:none;">緊急連絡先</a>
-      <a href="links.html" style="color:inherit; text-decoration:none;">リンク集</a>
-      <span>© 2026 サウジナビ by ReWAH</span>
-    </div>
+  <div class="container" style="text-align:center; line-height:1.8; padding: 20px 16px;">
+    <p style="margin:0;">サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
+    <p style="margin:4px 0 0;">重要事項は必ず公式情報をご確認ください。</p>
+    <p style="margin:6px 0 0;"><a href="about.html" style="color:var(--accent);text-decoration:none;font-size:0.85em;">運営者情報</a>&emsp;<a href="disclaimer.html" style="color:var(--accent);text-decoration:none;font-size:0.85em;">免責事項</a>&emsp;<a href="mailto:portal@rewah.life" style="color:var(--accent);text-decoration:none;font-size:0.85em;">お問い合わせ</a></p>
+    <p style="margin:4px 0 0;opacity:0.5;font-size:0.8em;">&copy; 2026 Saudi Navi / ReWAH</p>
   </div>
 </footer>
 
 <!-- SCRIPTS -->
 <script>
-const SITE_SEARCH_INDEX = [
-  { title: 'King Faisal Specialist Hospital', desc: 'サウジアラビアで最も評判の高い専門病院。がん治療、心臓病、移植手術等に対応。', pageTitle: '医療', page: 'medical.html' },
-  { title: 'Dr. Sulaiman Al Habib Medical Services', desc: '中東全域に展開する大規模民間病院。日本語を話す医療スタッフがいる場合も。', pageTitle: '医療', page: 'medical.html' },
-  { title: 'Saudi German Hospital', desc: 'サウジとドイツの医療技術を結合。欧州基準の医療サービス。', pageTitle: '医療', page: 'medical.html' },
-  { title: 'Kingdom Hospital', desc: '急速に成長する民間病院チェーン。最新医療技術を導入。', pageTitle: '医療', page: 'medical.html' },
-  { title: 'CCHI健康保険', desc: '長期ビザ保持者向け。強制加入。公立・民間病院での外来診療、入院、手術がカバーされる。', pageTitle: '医療', page: 'medical.html' },
-  { title: '海外旅行保険', desc: '観光客や短期滞在者は渡航前の加入を強く推奨。入院、外来診療、救急車、医療搬送がカバーされる。', pageTitle: '医療', page: 'medical.html' },
-  { title: '救急車', desc: '医療上の緊急事態が発生した場合は電話997で救急車を呼んでください。24時間対応。', pageTitle: '医療', page: 'medical.html' },
-  { title: 'アルナハディ薬局', desc: 'サウジアラビア最大級の薬局チェーン。全国に数百店舗。医者の処方箋で医薬品購入可能。', pageTitle: '医療', page: 'medical.html' },
-  { title: 'ホワイツ薬局', desc: '中級規模の薬局チェーン。リヤド、ジェッダ、ダンマームに展開。', pageTitle: '医療', page: 'medical.html' },
-  { title: 'ワクチン接種', desc: '黄熱病、髄膜炎菌は必須またはお勧め。A型肝炎、B型肝炎、腸チフス等も推奨。', pageTitle: '医療', page: 'medical.html' },
-  { title: '熱中症対策', desc: '夏季は気温50℃を超える。午前10時〜午後4時は屋内にいる。水分補給は1日3〜4リットル。', pageTitle: '医療', page: 'medical.html' },
-  { title: 'メンタルヘルス', desc: '新環境へのストレスは自然。心理療法やカウンセリングが民間病院で受けられる。', pageTitle: '医療', page: 'medical.html' },
-  { title: '歯科治療', desc: 'サウジの歯科医療は高い水準。民間クリニックは最新設備と英語対応が充実。', pageTitle: '医療', page: 'medical.html' },
-  { title: '医療費相場', desc: '初診300〜800 SAR、入院3,000〜10,000 SAR/日。保険有無で大きく異なる。', pageTitle: '医療', page: 'medical.html' },
-  { title: '医療搬送', desc: '複雑な手術が必要な場合、UEやタイへの医療搬送が可能。保険で医療搬送費がカバーされることを確認。', pageTitle: '医療', page: 'medical.html' }
-];
-
-// Hamburger menu toggle
-const hamburger = document.getElementById('hamburger');
-const navLinks = document.getElementById('navLinks');
-hamburger.addEventListener('click', () => {
-  navLinks.classList.toggle('open');
-  hamburger.classList.toggle('open');
-});
-
-// Nav more dropdown
-const navMoreBtn = document.getElementById('navMoreBtn');
-const navMoreDropdown = document.getElementById('navMoreDropdown');
-navMoreBtn?.addEventListener('click', () => {
-  navMoreDropdown.classList.toggle('open');
-});
-
-// Search
-const searchToggle = document.getElementById('searchToggle');
-const searchToggleDesktop = document.getElementById('searchToggleDesktop');
-const searchBar = document.getElementById('searchBar');
-const searchInput = document.getElementById('searchInput');
-const searchClear = document.getElementById('searchClear');
-const searchResults = document.getElementById('searchResults');
-const searchResultsTitle = document.getElementById('searchResultsTitle');
-const searchResultsContent = document.getElementById('searchResultsContent');
-const searchResultsClose = document.getElementById('searchResultsClose');
-
-function openSearch() {
-  searchBar.classList.add('open');
-  searchInput.focus();
-}
-
-function closeSearch() {
-  searchInput.value = '';
-  searchBar.classList.remove('open');
-  searchResults.classList.remove('visible');
-}
-
-searchToggle.addEventListener('click', openSearch);
-if (searchToggleDesktop) searchToggleDesktop.addEventListener('click', openSearch);
-searchClear.addEventListener('click', closeSearch);
-searchResultsClose.addEventListener('click', () => { searchResults.classList.remove('visible'); });
-
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') { closeSearch(); searchResults.classList.remove('visible'); }
-  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
-});
-
-function escapeHtml(str) {
-  const div = document.createElement('div');
-  div.textContent = str;
-  return div.innerHTML;
-}
-
-function highlightText(text, query) {
-  const words = query.split(/\s+/).filter(w => w.length > 0);
-  let result = escapeHtml(text);
-  words.forEach(word => {
-    const re = new RegExp('(' + word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+()|[\]\\]/g, '\\$&') + ')', 'gi');
     result = result.replace(re, '<mark>$1</mark>');
   });
   return result;
 }
-
-searchInput.addEventListener('input', () => {
-  const q = searchInput.value.trim().toLowerCase();
-  if (q.length < 1) { searchResults.classList.remove('visible'); return; }
-  const matches = SITE_SEARCH_INDEX.filter(d =>
-    d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q) || d.pageTitle.toLowerCase().includes(q)
-  );
-  searchResultsTitle.textContent = matches.length ? '検索結果 (' + matches.length + '件)' : '該当なし';
-  searchResultsContent.innerHTML = matches.map(m =>
-    '<a href="' + m.page + '" style="display:block; padding:10px 0; border-bottom:1px solid var(--border-light); text-decoration:none; color:inherit;">' +
-      '<span style="font-size:0.75em; color:var(--accent); display:block; margin-bottom:2px;">' + escapeHtml(m.pageTitle) + '</span>' +
-      '<strong>' + highlightText(m.title, q) + '</strong>' +
-      '<p style="font-size:0.85em;color:var(--text-tertiary);margin-top:2px;">' + highlightText(m.desc, q) + '</p>' +
-    '</a>'
-  ).join('');
-  searchResults.classList.add('visible');
-});
 </script>
 
 <script src="assets/chatbot.js" defer></script>
+<script src="assets/shared.js"></script>
 </body>
 </html>
