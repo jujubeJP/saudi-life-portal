@@ -136,20 +136,31 @@
   border-bottom: 1px solid var(--border-light);
   font-size: 0.82em;
   line-height: 1.5;
-  display: flex;
-  align-items: flex-start;
-  gap: 0;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 0 5px;
+  align-items: baseline;
 }
-.notice-meta {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  flex-shrink: 0;
-  margin-right: 6px;
+.notice-list li.two-col {
+  grid-template-columns: auto 1fr;
+}
+.n-date {
   white-space: nowrap;
+  color: var(--text-muted);
 }
-.notice-body {
-  flex: 1;
+.n-src {
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 6px;
+  background: var(--bg-secondary);
+  color: var(--text-tertiary);
+  font-size: 0.85em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 12em;
+}
+.n-title {
   min-width: 0;
 }
 .notice-list li:last-child { border-bottom: none; }
@@ -606,11 +617,9 @@ function escapeHtml(str) {
     const ul = document.getElementById('embassy-news-list');
     if (!ul || !items || !items.length) return;
     ul.innerHTML = items.slice(0, 3).map(n =>
-      '<li>' +
-        '<span class="notice-meta">' +
-          '<span style="color:var(--text-muted);">' + esc(n.date || '') + '</span>' +
-        '</span>' +
-        '<span class="notice-body">' +
+      '<li class="two-col">' +
+        '<span class="n-date">' + esc(n.date || '') + '</span>' +
+        '<span class="n-title">' +
           (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
         '</span>' +
       '</li>'
@@ -635,11 +644,9 @@ function escapeHtml(str) {
     }
     ul.innerHTML = top.map(function(n) {
       return '<li>' +
-        '<span class="notice-meta">' +
-          '<span style="color:var(--text-muted);">' + esc(fmtNewsDate(n.date)) + '</span>' +
-          '<span style="display:inline-block;padding:1px 5px;border-radius:6px;background:var(--bg-secondary);color:var(--text-tertiary);font-size:0.85em;">' + esc(n.source || '') + '</span>' +
-        '</span>' +
-        '<span class="notice-body">' +
+        '<span class="n-date">' + esc(fmtNewsDate(n.date)) + '</span>' +
+        '<span class="n-src">' + esc(n.source || '') + '</span>' +
+        '<span class="n-title">' +
           (n.url ? '<a href="' + esc(n.url) + '" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">' + esc(n.title || '') + '</a>' : esc(n.title || '')) +
         '</span>' +
       '</li>';
