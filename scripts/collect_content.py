@@ -1090,9 +1090,9 @@ def update_static_html(content):
                 )
             return out
 
-        news_en_html = _build_news_tab_html(data.get("news_en", {}).get("items", []))
-        news_ar_html = _build_news_tab_html(data.get("news_ar", {}).get("items", []))
-        news_jp_html = _build_news_tab_html(data.get("news_jp", {}).get("items", []))
+        news_en_html = _build_news_tab_html(content.get("news_en", {}).get("items", []))
+        news_ar_html = _build_news_tab_html(content.get("news_ar", {}).get("items", []))
+        news_jp_html = _build_news_tab_html(content.get("news_jp", {}).get("items", []))
 
         # AR/JPが空の場合はフォールバックリンクを残す
         if not news_ar_html:
