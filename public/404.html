@@ -10,23 +10,59 @@
   gtag('js', new Date());
   gtag('config', 'G-5YBNHEZ3CH');
 </script>
-<meta name="description" content="サウジナビの免責事項。当サイトの情報利用に関する注意事項。">
+<meta name="description" content="ページが見つかりません - サウジナビ">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://saudi-navi.rewah.life/disclaimer.html">
 <meta property="og:title" content="サウジナビ">
-<meta property="og:description" content="サウジナビの免責事項。当サイトの情報利用に関する注意事項。">
-<meta property="og:image" content="https://saudi-navi.rewah.life/assets/icon-512.png">
-<meta property="og:locale" content="ja_JP">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="サウジナビ">
-<meta name="twitter:description" content="サウジナビの免責事項。当サイトの情報利用に関する注意事項。">
-<meta name="twitter:image" content="https://saudi-navi.rewah.life/assets/icon-512.png">
 <link rel="icon" href="favicon.ico">
 <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>免責事項 | サウジナビ</title>
+<title>ページが見つかりません | サウジナビ</title>
 <link rel="stylesheet" href="assets/shared.css">
+<style>
+.error-container {
+  text-align: center;
+  padding: 60px 20px 80px;
+  max-width: 540px;
+  margin: 0 auto;
+}
+.error-code {
+  font-size: 6rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: 8px;
+  opacity: 0.7;
+}
+.error-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+.error-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+.error-message {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+.error-home-btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 14px 36px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  transition: opacity 0.2s;
+}
+.error-home-btn:hover { opacity: 0.85; }
+</style>
 </head>
 <body>
 
@@ -109,37 +145,18 @@
   </div>
 </nav>
 
-<!-- ===== SECTION: 免責事項 ===== -->
-<section id="disclaimer">
-  <div class="container">
-    <div class="section-header">
-      <div class="section-icon gold">📜</div>
-      <h2>免責事項</h2>
-    </div>
+<!-- ===== 404 ERROR ===== -->
+<div class="error-container">
+  <div class="error-code">404</div>
+  <div class="error-icon">🏜️</div>
+  <h2 class="error-title">ページが見つかりません</h2>
+  <p class="error-message">
+    お探しのページは移動・削除されたか、URLが間違っている可能性があります。<br>
+    ホームページから目的の情報をお探しください。
+  </p>
+  <a href="index.html" class="error-home-btn">🏠 ホームに戻る</a>
+</div>
 
-    <div class="card" style="max-width: 720px; margin: 0 auto;">
-      <div style="font-size: var(--font-size-sm); color: var(--text-secondary); line-height: 2.0;">
-        <p style="margin-bottom: 20px;">
-          本サイトに掲載している情報は、サウジアラビアでの生活や渡航に役立つ情報を日本語で整理・紹介することを目的としています。掲載内容の正確性には十分配慮していますが、その完全性、最新性、有用性を保証するものではありません。
-        </p>
-        <p style="margin-bottom: 20px;">
-          法令、査証、在留資格、労働条件、医療、教育、税務、金融その他の制度や手続きは、個別事情や時期によって異なる場合があります。重要な判断を行う際は、必ず関係する政府機関、公式窓口、勤務先、学校、医療機関、専門家等にご確認ください。
-        </p>
-        <p style="margin-bottom: 20px;">
-          本サイトの情報を利用したことによって生じたいかなる損害についても、運営者は責任を負いかねます。
-        </p>
-        <p style="margin-bottom: 20px;">
-          本サイトから外部サイトへリンクしている場合がありますが、リンク先の内容、正確性、安全性等について運営者は責任を負いません。
-        </p>
-        <p>
-          本サイトに掲載している内容は、予告なく変更・修正・削除する場合があります。
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
 <footer style="padding: 20px 0 16px;">
   <div class="container" style="line-height:1.5;">
     <p>サウジナビ ｜ 運営：福井慶則（ReWAH）</p>
@@ -149,7 +166,6 @@
   </div>
 </footer>
 
-<script src="assets/search-index.js"></script>
 <script>
 // ===== HAMBURGER MENU =====
 const hamburger = document.getElementById('hamburger');
