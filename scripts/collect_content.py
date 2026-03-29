@@ -1070,11 +1070,44 @@ def update_static_html(content):
                 f'<a href="{_html_esc(n.get("url", ""))}" target="_blank" rel="noopener">{_html_esc(n.get("title", ""))}</a></li>\n'
             )
 
+        # STATIC_NEWS_EN / STATIC_NEWS_AR / STATIC_NEWS_JP — ニュースタブ静的フォールバック
+        def _build_news_tab_html(items, max_items=5):
+            """ニュースアイテムリストからnews.htmlタブ用の静的<li>を生成"""
+            if not items:
+                return ""
+            out = ""
+            for n in items[:max_items]:
+                cat = _html_esc(n.get("category", "その他"))
+                date = _html_esc(n.get("date", n.get("pubDate", "")))
+                src = _html_esc(n.get("source", ""))
+                title = _html_esc(n.get("title", ""))
+                url = _html_esc(n.get("url", n.get("link", "")))
+                out += (
+                    f'          <li class="news-item" data-category="{cat}">'
+                    f'<span class="news-meta"><span class="news-date">{date}</span>'
+                    f'<span class="news-src">{src}</span></span>'
+                    f'<a href="{url}" target="_blank" rel="noopener">{title}</a></li>\n'
+                )
+            return out
+
+        news_en_html = _build_news_tab_html(data.get("news_en", {}).get("items", []))
+        news_ar_html = _build_news_tab_html(data.get("news_ar", {}).get("items", []))
+        news_jp_html = _build_news_tab_html(data.get("news_jp", {}).get("items", []))
+
+        # AR/JPが空の場合はフォールバックリンクを残す
+        if not news_ar_html:
+            news_ar_html = '          <li class="news-item" data-category="その他" style="color:var(--text-tertiary); font-style:italic; padding:12px 0; font-size:0.9em;">アラビア語ニュースはJavaScript有効時に自動取得されます。<a href="https://news.google.com/topics/CAAqJQgKIh9DQkFTRVFvSUwyMHZNRFkyZERBU0JXRnlMVk5CS0FBUAE?hl=ar&amp;gl=SA&amp;ceid=SA:ar" target="_blank" rel="noopener" style="color:var(--accent);">Google News (AR) で直接見る →</a></li>\n'
+        if not news_jp_html:
+            news_jp_html = '          <li class="news-item" data-category="その他" style="color:var(--text-tertiary); font-style:italic; padding:12px 0; font-size:0.9em;">日本語ニュースはJavaScript有効時に自動取得されます。<a href="https://news.google.com/search?q=%E3%82%B5%E3%82%A6%E3%82%B8%E3%82%A2%E3%83%A9%E3%83%93%E3%82%A2&amp;hl=ja&amp;gl=JP&amp;ceid=JP:ja" target="_blank" rel="noopener" style="color:var(--accent);">Google News (JP) で直接見る →</a></li>\n'
+
         html = _replace_marker(html, "STATIC_DANGER_LEVELS", danger_html.rstrip())
         html = _replace_marker(html, "STATIC_EMBASSY_SAFETY", news_emb_safety.rstrip())
         html = _replace_marker(html, "STATIC_EMBASSY_NEWS", news_emb_news.rstrip())
+        html = _replace_marker(html, "STATIC_NEWS_EN", news_en_html.rstrip())
+        html = _replace_marker(html, "STATIC_NEWS_AR", news_ar_html.rstrip())
+        html = _replace_marker(html, "STATIC_NEWS_JP", news_jp_html.rstrip())
         news_path.write_text(html, encoding="utf-8")
-        print("[OK] news.html static data updated")
+        print("[OK] news.html static data updated (including news tabs)")
 
 
 if __name__ == "__main__":
