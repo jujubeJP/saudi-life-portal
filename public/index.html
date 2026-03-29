@@ -15,7 +15,7 @@
 }
 @media (max-width: 640px) {
   .dash-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
-  .banner-grid { grid-template-columns: 1fr !important; }
+
 }
 .dash-card {
   display: flex;
@@ -136,6 +136,10 @@
     <h1>サウジナビ <span style="font-size:0.5em;font-weight:400;opacity:0.6;">Saudi Navi</span></h1>
     <p class="subtitle">サウジアラビア在住者・渡航予定者のための日本語生活情報ポータル</p>
     <p style="font-size:var(--font-size-xs);color:var(--text-tertiary);margin-top:4px;">by ReWAH</p>
+    <div class="header-badges">
+      <a href="https://www.vision2030.gov.sa/" target="_blank" rel="noopener" class="header-badge vision">🌿 VISION 2030</a>
+      <a href="https://riyadhexpo2030.sa/" target="_blank" rel="noopener" class="header-badge expo">🌍 EXPO 2030 RIYADH</a>
+    </div>
     <div class="header-gold-line"></div>
   </div>
 </header>
@@ -274,26 +278,6 @@
         <span class="dash-icon">📖</span>
         <span class="dash-label">用語集</span>
         <span class="dash-sub">アラビア語・略語</span>
-      </a>
-    </div>
-
-    <!-- 応援バナー: Vision 2030 / リヤド万博 2030 -->
-    <div class="banner-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:16px;">
-      <a href="https://www.vision2030.gov.sa/" target="_blank" rel="noopener"
-         style="display:flex; align-items:center; gap:10px; padding:14px 16px; background:linear-gradient(135deg, #0a3d2e, #1b6b4a); border-radius:var(--radius-sm); text-decoration:none; color:#fff; transition:opacity 0.15s;">
-        <span style="font-size:1.8em; line-height:1;">🌿</span>
-        <span>
-          <span style="font-size:0.92em; font-weight:700; display:block; letter-spacing:0.5px;">VISION 2030</span>
-          <span style="font-size:0.7em; opacity:0.8;">サウジアラビアの未来を応援しています</span>
-        </span>
-      </a>
-      <a href="https://riyadhexpo2030.sa/" target="_blank" rel="noopener"
-         style="display:flex; align-items:center; gap:10px; padding:14px 16px; background:linear-gradient(135deg, #1a237e, #3949ab); border-radius:var(--radius-sm); text-decoration:none; color:#fff; transition:opacity 0.15s;">
-        <span style="font-size:1.8em; line-height:1;">🌍</span>
-        <span>
-          <span style="font-size:0.92em; font-weight:700; display:block; letter-spacing:0.5px;">EXPO 2030 RIYADH</span>
-          <span style="font-size:0.7em; opacity:0.8;">リヤド万博 2030 を応援しています</span>
-        </span>
       </a>
     </div>
 

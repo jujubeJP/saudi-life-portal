@@ -121,6 +121,35 @@ header .subtitle {
   font-weight: 400;
 }
 
+/* Header support badges */
+.header-badges {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+.header-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  transition: opacity 0.15s;
+}
+.header-badge:hover { opacity: 0.85; }
+.header-badge.vision {
+  background: linear-gradient(135deg, #0a3d2e, #1b6b4a);
+  color: #fff;
+}
+.header-badge.expo {
+  background: linear-gradient(135deg, #1a237e, #3949ab);
+  color: #fff;
+}
+
 /* ===== ALERT BANNER ===== */
 .alert-banner {
   margin: 20px auto;
@@ -248,27 +277,27 @@ nav a.active { color: var(--accent); border-left-color: var(--accent); backgroun
 /* Desktop nav - horizontal */
 .nav-desktop {
   display: none;
+  align-items: center;
   gap: 0;
-  overflow-x: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
   padding: 0;
   max-width: var(--content-width);
   margin: 0 auto;
 }
-.nav-desktop::-webkit-scrollbar { display: none; }
-.nav-desktop a {
+.nav-desktop > a {
   border-left: none;
   border-bottom: 2px solid transparent;
   padding: 14px 10px;
   font-size: 0.8rem;
+  white-space: nowrap;
 }
-.nav-desktop a:hover { background: transparent; }
-.nav-desktop a.active { border-left: none; border-bottom-color: var(--accent); background: transparent; }
+.nav-desktop > a:hover { background: transparent; }
+.nav-desktop > a.active { border-left: none; border-bottom-color: var(--accent); background: transparent; }
 
 /* Nav dropdown for overflow items */
 .nav-more {
   position: relative;
+  display: flex;
+  align-items: center;
 }
 .nav-more-btn {
   display: flex;
@@ -302,16 +331,15 @@ nav a.active { color: var(--accent); border-left-color: var(--accent); backgroun
 }
 .nav-more.open .nav-more-dropdown { display: block; }
 .nav-more-dropdown a {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  display: block;
   padding: 10px 16px;
   font-size: 0.82rem;
   color: var(--text-secondary);
   text-decoration: none;
-  border-left: none;
-  border-bottom: none;
+  border-left: none !important;
+  border-bottom: none !important;
   white-space: nowrap;
+  line-height: 1.4;
 }
 .nav-more-dropdown a:hover { background: var(--accent-light); color: var(--accent); }
 .nav-more-dropdown a.active { color: var(--accent); font-weight: 600; }
