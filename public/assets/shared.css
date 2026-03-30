@@ -471,6 +471,11 @@ section { padding: 32px 0; }
   font-weight: 700;
   margin-right: 8px;
 }
+/* ニュースリストではドットを非表示 */
+.card .notice-list li::before,
+.card .news-list li::before {
+  content: none;
+}
 
 .card .source {
   margin-top: 14px;
