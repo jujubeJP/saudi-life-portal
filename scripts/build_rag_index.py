@@ -135,11 +135,18 @@ def load_search_index_chunks() -> list[dict]:
 
 
 def extract_text_from_html(html: str) -> str:
-    """HTMLからテキストを抽出（script/style/nav除去、段落構造を保持）"""
+    """HTMLからメインコンテンツのテキストを抽出（ヘッダー/フッター/ナビ除去、段落構造を保持）"""
+    # <main>タグがあればその中身だけを使う（ヘッダー/フッター/ナビを一括除去）
+    main_match = re.search(r'<main[^>]*>(.*?)</main>', html, flags=re.DOTALL | re.IGNORECASE)
+    if main_match:
+        html = main_match.group(1)
+    else:
+        # <main>がない場合はhead/header/footer/nav等を個別に除去
+        html = re.sub(r'<head[^>]*>.*?</head>', '', html, flags=re.DOTALL | re.IGNORECASE)
+        html = re.sub(r'<header[^>]*>.*?</header>', '', html, flags=re.DOTALL | re.IGNORECASE)
+        html = re.sub(r'<footer[^>]*>.*?</footer>', '', html, flags=re.DOTALL | re.IGNORECASE)
     # script, style, nav, noscript タグの中身を除去
     html = re.sub(r'<(script|style|nav|noscript)[^>]*>.*?</\1>', '', html, flags=re.DOTALL | re.IGNORECASE)
-    # head タグの中身を除去
-    html = re.sub(r'<head[^>]*>.*?</head>', '', html, flags=re.DOTALL | re.IGNORECASE)
     # ブロック要素の前後に改行を挿入（段落構造を保持）
     block_tags = r'</?(h[1-6]|p|div|section|article|li|tr|br|hr)[^>]*>'
     html = re.sub(block_tags, '\n', html, flags=re.IGNORECASE)
