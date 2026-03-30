@@ -79,6 +79,8 @@
         cursor: pointer; font-size: 14px; flex-shrink: 0;
       }
       #sn-chat-send:disabled { opacity: .5; cursor: default; }
+      .sn-msg-bot strong { color: #005a2b; }
+      .sn-msg-bot hr { border: none; border-top: 1px solid #ddd; margin: 8px 0; }
       .sn-typing { color: #999; font-style: italic; }
 
       @media (max-width: 768px) {
@@ -134,11 +136,51 @@
     return { btn, panel };
   }
 
+  // ── 簡易Markdown→HTML変換 ──────────────────────────────────
+  function mdToHtml(text) {
+    // XSS対策: HTMLタグをエスケープ
+    let html = text
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+
+    // 見出し: ## → 太字テキスト
+    html = html.replace(/^### (.+)$/gm, '<strong>$1</strong>');
+    html = html.replace(/^## (.+)$/gm, '<strong>$1</strong>');
+    html = html.replace(/^# (.+)$/gm, '<strong style="font-size:1.1em">$1</strong>');
+
+    // 太字: **text**
+    html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+
+    // 区切り線: ---
+    html = html.replace(/^---$/gm, '<hr style="border:none;border-top:1px solid #ddd;margin:8px 0">');
+
+    // リスト: - item
+    html = html.replace(/^- (.+)$/gm, '• $1');
+
+    // テーブル行を簡易変換（| col | col |）
+    html = html.replace(/^\|(.+)\|$/gm, (match, inner) => {
+      if (inner.match(/^[\s\-|]+$/)) return ''; // ヘッダー区切り行を削除
+      return inner.split('|').map(c => c.trim()).filter(Boolean).join('　│　');
+    });
+
+    // 連続改行 → 段落区切り
+    html = html.replace(/\n\n+/g, '<br><br>');
+    // 単一改行 → 改行
+    html = html.replace(/\n/g, '<br>');
+
+    return html;
+  }
+
   // ── メッセージ追加 ────────────────────────────────────────
   function addMessage(container, text, type, sources) {
     const div = document.createElement("div");
     div.className = `sn-msg sn-msg-${type}`;
-    div.textContent = text;
+    if (type === "bot") {
+      div.innerHTML = mdToHtml(text);
+    } else {
+      div.textContent = text;
+    }
 
     if (sources && sources.length > 0) {
       const srcDiv = document.createElement("div");
