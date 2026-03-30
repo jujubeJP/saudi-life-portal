@@ -12,6 +12,9 @@
     // スタイル注入
     const style = document.createElement("style");
     style.textContent = `
+      #sn-chat-btn, #sn-chat-panel, #sn-chat-panel * {
+        box-sizing: border-box;
+      }
       #sn-chat-btn {
         position: fixed; bottom: 24px; right: 24px; z-index: 9999;
         width: 56px; height: 56px; border-radius: 50%;
@@ -22,6 +25,7 @@
         transition: transform .2s;
       }
       #sn-chat-btn:hover { transform: scale(1.1); }
+      #sn-chat-btn.sn-hidden { display: none !important; }
       #sn-chat-panel {
         position: fixed; bottom: 92px; right: 24px; z-index: 9998;
         width: 360px; max-width: calc(100vw - 32px);
@@ -35,16 +39,19 @@
         background: linear-gradient(135deg, #006c35, #009a4e);
         color: #fff; padding: 14px 16px; font-weight: bold; font-size: 15px;
         display: flex; justify-content: space-between; align-items: center;
+        flex-shrink: 0;
       }
-      #sn-chat-header button {
-        background: none; border: none; color: #fff; font-size: 20px; cursor: pointer;
+      #sn-chat-close {
+        background: none; border: none; color: #fff; font-size: 22px;
+        cursor: pointer; padding: 4px 8px; min-width: 36px; min-height: 36px;
+        display: flex; align-items: center; justify-content: center;
       }
       #sn-chat-messages {
-        flex: 1; overflow-y: auto; padding: 12px 14px;
+        flex: 1; overflow-y: auto; overflow-x: hidden; padding: 12px 14px;
         min-height: 200px; max-height: 360px;
         font-size: 14px; line-height: 1.6;
       }
-      .sn-msg { margin-bottom: 10px; max-width: 85%; }
+      .sn-msg { margin-bottom: 10px; max-width: 85%; word-break: break-word; }
       .sn-msg-bot {
         background: #f0f4f0; border-radius: 12px 12px 12px 2px;
         padding: 10px 14px; margin-right: auto;
@@ -59,26 +66,30 @@
       .sn-msg-sources a { color: #006c35; }
       #sn-chat-input-area {
         display: flex; border-top: 1px solid #e0e0e0; padding: 8px;
+        flex-shrink: 0;
       }
       #sn-chat-input {
-        flex: 1; border: 1px solid #ccc; border-radius: 8px;
-        padding: 8px 12px; font-size: 14px; outline: none;
+        flex: 1; min-width: 0; border: 1px solid #ccc; border-radius: 8px;
+        padding: 8px 12px; font-size: 16px; outline: none;
       }
       #sn-chat-input:focus { border-color: #006c35; }
       #sn-chat-send {
         margin-left: 6px; background: #006c35; color: #fff;
         border: none; border-radius: 8px; padding: 8px 14px;
-        cursor: pointer; font-size: 14px;
+        cursor: pointer; font-size: 14px; flex-shrink: 0;
       }
       #sn-chat-send:disabled { opacity: .5; cursor: default; }
       .sn-typing { color: #999; font-style: italic; }
-      @media (max-width: 480px) {
+
+      @media (max-width: 768px) {
         #sn-chat-panel {
-          position: fixed; bottom: 0; left: 0; right: 0;
-          width: 100%; max-width: 100%;
-          height: 100vh; height: 100dvh; max-height: 100vh; max-height: 100dvh;
+          position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+          width: 100vw; max-width: 100vw;
+          height: 100vh; height: 100dvh;
+          max-height: none;
           border-radius: 0;
           z-index: 10000;
+          margin: 0; padding: 0;
         }
         #sn-chat-panel #sn-chat-messages {
           flex: 1; min-height: 0; max-height: none;
@@ -87,7 +98,6 @@
           padding: 8px; padding-bottom: max(8px, env(safe-area-inset-bottom));
         }
         #sn-chat-btn { bottom: 16px; right: 16px; width: 50px; height: 50px; font-size: 22px; }
-        #sn-chat-btn.sn-hidden { display: none !important; }
       }
     `;
     document.head.appendChild(style);
@@ -106,7 +116,7 @@
     panel.innerHTML = `
       <div id="sn-chat-header">
         <span>🤖 サウジナビ AI</span>
-        <button id="sn-chat-close" aria-label="閉じる">✕</button>
+        <button id="sn-chat-close" aria-label="閉じる">✕ 閉じる</button>
       </div>
       <div id="sn-chat-messages">
         <div class="sn-msg sn-msg-bot">
@@ -185,7 +195,7 @@
     let isOpen = false;
 
     // モバイル判定
-    const isMobile = () => window.innerWidth <= 480;
+    const isMobile = () => window.innerWidth <= 768;
 
     btn.addEventListener("click", () => {
       isOpen = !isOpen;
