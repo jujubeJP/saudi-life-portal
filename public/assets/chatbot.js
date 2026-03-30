@@ -73,9 +73,21 @@
       #sn-chat-send:disabled { opacity: .5; cursor: default; }
       .sn-typing { color: #999; font-style: italic; }
       @media (max-width: 480px) {
-        #sn-chat-panel { bottom: 0; right: 0; width: 100%; max-width: 100%;
-          max-height: 75vh; border-radius: 16px 16px 0 0; }
-        #sn-chat-btn { bottom: 16px; right: 16px; }
+        #sn-chat-panel {
+          position: fixed; bottom: 0; left: 0; right: 0;
+          width: 100%; max-width: 100%;
+          height: 100vh; height: 100dvh; max-height: 100vh; max-height: 100dvh;
+          border-radius: 0;
+          z-index: 10000;
+        }
+        #sn-chat-panel #sn-chat-messages {
+          flex: 1; min-height: 0; max-height: none;
+        }
+        #sn-chat-panel #sn-chat-input-area {
+          padding: 8px; padding-bottom: max(8px, env(safe-area-inset-bottom));
+        }
+        #sn-chat-btn { bottom: 16px; right: 16px; width: 50px; height: 50px; font-size: 22px; }
+        #sn-chat-btn.sn-hidden { display: none !important; }
       }
     `;
     document.head.appendChild(style);
@@ -172,16 +184,36 @@
 
     let isOpen = false;
 
+    // モバイル判定
+    const isMobile = () => window.innerWidth <= 480;
+
     btn.addEventListener("click", () => {
       isOpen = !isOpen;
       panel.classList.toggle("open", isOpen);
+      if (isMobile()) btn.classList.toggle("sn-hidden", isOpen);
       if (isOpen) input.focus();
     });
 
     closeBtn.addEventListener("click", () => {
       isOpen = false;
       panel.classList.remove("open");
+      btn.classList.remove("sn-hidden");
     });
+
+    // モバイルでキーボード表示時にスクロールを調整
+    if ("visualViewport" in window) {
+      window.visualViewport.addEventListener("resize", () => {
+        if (isOpen && isMobile()) {
+          panel.style.height = window.visualViewport.height + "px";
+          messages.scrollTop = messages.scrollHeight;
+        }
+      });
+      window.visualViewport.addEventListener("scroll", () => {
+        if (isOpen && isMobile()) {
+          panel.style.top = window.visualViewport.offsetTop + "px";
+        }
+      });
+    }
 
     async function handleSend() {
       const text = input.value.trim();
