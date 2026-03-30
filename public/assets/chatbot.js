@@ -5,7 +5,7 @@
 (function () {
   "use strict";
 
-  const API_URL = "/api/chat";
+  const API_URL = "https://saudi-navi-chat.ejanjan.workers.dev";
 
   // ── UI 生成 ──────────────────────────────────────────────
   function createWidget() {
