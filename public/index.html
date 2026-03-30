@@ -422,6 +422,51 @@
 
 <script src="assets/shared.js"></script>
 
+<!-- ===== Welcome Modal (first visit only) ===== -->
+<div id="welcomeOverlay" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.6); backdrop-filter:blur(4px); justify-content:center; align-items:center; padding:16px;">
+  <div style="background:var(--surface, #fff); max-width:600px; width:100%; max-height:85vh; overflow-y:auto; border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,0.3); padding:32px 28px; position:relative; line-height:1.9; color:var(--text-secondary, #444); font-size:0.92em;">
+    <div style="text-align:center; margin-bottom:20px;">
+      <span style="font-size:2em;">🕌</span>
+      <h2 style="font-size:1.2em; font-weight:700; color:var(--text-primary, #222); margin:8px 0 0;">サウジナビへようこそ</h2>
+    </div>
+
+    <p>サウジアラビアは、いま大きく変わりつつあります。</p>
+    <p>VISION 2030のもとで社会や都市は大きく動き、2030年には万博、2034年にはFIFAワールドカップの開催も予定されています。F1、ダカールラリー、ボクシング、音楽イベント、eスポーツなど、新しい娯楽や国際的なイベントも次々に広がり、リヤドの街も目に見えて変化しています。</p>
+
+    <p>そんなサウジアラビアを、もっと知りたい。<br>もっと身近に感じたい。<br>そう思って調べてみたときに、「これなら読んでみたい」と思える日本語のサイトが、意外なほど見つかりませんでした。</p>
+
+    <p>それなら、自分で作ってみよう。<br>そうして始めたのが、この「サウジナビ」です。</p>
+
+    <p>このサイトは、サウジアラビアを知るための入口であり、少しずつ理解を深めていくための場でもあります。旅行、生活、仕事、文化、習慣、社会の変化。サウジをより近くに感じ、より立体的に見られるようなサイトにしていきたいと思っています。</p>
+
+    <p>もちろん、私自身もまだ学びの途中です。思い違い、不足、不正確な点があるかもしれません。だからこそ、このサイトは完成されたものではなく、皆さまの知見や経験、ご指摘をいただきながら育てていきたいと考えています。</p>
+
+    <p>「ここは違う」「こう書いた方がよい」「こういう情報も必要ではないか」<br>そんなご意見を、ぜひお寄せください。<br>厳しいご指摘も含めて、大歓迎です。<br>皆さまと一緒に、より良い「サウジナビ」にしていけたら嬉しく思います。</p>
+
+    <div style="text-align:center; margin-top:24px;">
+      <button id="welcomeClose" style="background:var(--accent, #1b6b4a); color:#fff; border:none; padding:10px 32px; border-radius:6px; font-size:0.95em; font-weight:600; cursor:pointer; transition:opacity 0.2s;">サイトを見る</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  var KEY = 'saudinavi_welcomed';
+  if (!localStorage.getItem(KEY)) {
+    var overlay = document.getElementById('welcomeOverlay');
+    overlay.style.display = 'flex';
+    document.getElementById('welcomeClose').addEventListener('click', function(){
+      overlay.style.display = 'none';
+      localStorage.setItem(KEY, '1');
+    });
+    overlay.addEventListener('click', function(e){
+      if (e.target === overlay) {
+        overlay.style.display = 'none';
+        localStorage.setItem(KEY, '1');
+      }
+    });
+  }
+})();
+</script>
 
 <script src="assets/chatbot.js" defer></script>
 </body>
