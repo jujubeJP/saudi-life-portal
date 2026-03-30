@@ -543,6 +543,8 @@ section, .card, .tab-content, .news-list { overflow-x: hidden; max-width: 100%; 
 <!-- ===== CONTENT ===== -->
 <section style="padding: 24px 0;">
   <div class="container">
+    <h2 style="font-size:1.4em; font-weight:700; color:var(--text-primary); margin-bottom:4px;">📰 治安・ニュース</h2>
+    <p style="font-size:0.88em; color:var(--text-secondary); margin-bottom:20px; line-height:1.6;">サウジアラビアの治安情報・大使館からのお知らせ・最新ニュースをまとめています。</p>
     <div style="margin-bottom:12px; padding:10px 14px; background:var(--bg-secondary); border-left:3px solid #c62828; border-radius:0 var(--radius-sm) var(--radius-sm) 0; font-size:0.82em; color:var(--text-tertiary); line-height:1.7;">
       <strong>情報種別：</strong>公式要件 + 自動収集　｜　<strong>最終確認日：</strong>自動更新
     </div>
@@ -584,7 +586,7 @@ section, .card, .tab-content, .news-list { overflow-x: hidden; max-width: 100%; 
     <!-- EMBASSY SAFETY INFO -->
     <div class="card" id="embassy-safety-card">
       <span class="card-label">大使館情報</span>
-      <h3 style="margin: 12px 0 16px; font-size: 1.05em; color: var(--text-primary);">大使館 安全情報</h3>
+      <h3 style="margin: 12px 0 16px; font-size: 1.05em; color: var(--text-primary);">大使館 安全情報 <a href="https://www.ksa.emb-japan.go.jp/itpr_ja/index.html" target="_blank" rel="noopener" style="font-size:0.75em; font-weight:400; color:var(--accent); text-decoration:none;">大使館公式サイト →</a></h3>
       <ul id="embassy-safety-list" class="embassy-safety-list">
         <!-- STATIC_EMBASSY_SAFETY -->
         <li><span style="color:#c62828;">⚠️</span> <a href="https://www.ksa.emb-japan.go.jp/files/100995068.pdf" target="_blank" rel="noopener" style="color:var(--text-primary);text-decoration:none;">【大使館からのお知らせ】領事窓口業務の再開（3月16日）</a> <span style="font-size:0.8em;color:var(--text-tertiary);">2026-03-16</span></li>
@@ -604,7 +606,7 @@ section, .card, .tab-content, .news-list { overflow-x: hidden; max-width: 100%; 
     </div>
 
     <!-- NEWS SECTION -->
-    <div class="section-header" style="margin-top: 40px;">
+    <div class="section-header" id="news-section" style="margin-top: 40px;">
       <span class="section-icon">📰</span>
       <h2 style="margin:0;">ニュース</h2>
     </div>
@@ -663,7 +665,7 @@ section, .card, .tab-content, .news-list { overflow-x: hidden; max-width: 100%; 
     <!-- EMBASSY NEWS CARD -->
     <div class="card" style="margin-top: 30px;" id="embassy-news-card">
       <span class="card-label">大使館ニュース</span>
-      <h3 style="margin: 12px 0 16px; font-size: 1.05em; color: var(--text-primary);">在サウジ日本大使館からのお知らせ</h3>
+      <h3 style="margin: 12px 0 16px; font-size: 1.05em; color: var(--text-primary);">在サウジ日本大使館からのお知らせ <a href="https://www.ksa.emb-japan.go.jp/itpr_ja/index.html" target="_blank" rel="noopener" style="font-size:0.75em; font-weight:400; color:var(--accent); text-decoration:none;">大使館公式サイト →</a></h3>
       <span id="embassy-news-updated" style="display:block;font-size:0.72em;color:var(--text-tertiary);margin-bottom:8px;"></span>
       <ul id="embassy-news-list" class="news-list" style="list-style:none;padding:0;margin:0;">
         <!-- STATIC_EMBASSY_NEWS -->
