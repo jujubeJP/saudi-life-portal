@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-04-05T14:00:57.675979+03:00",
+  "lastCollected": "2026-04-05T19:27:16.422274+03:00",
   "security": {
-    "lastUpdated": "2026-04-05T14:00:57.675979+03:00",
+    "lastUpdated": "2026-04-05T19:27:16.422274+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,14 +39,14 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-04-05T14:00:57.675979+03:00",
+    "lastUpdated": "2026-04-05T19:27:16.422274+03:00",
     "items": [
       {
         "title": "【大使館からのお知らせ】領事窓口業務の再開（3月16日）",
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -70,7 +70,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988294.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -78,7 +78,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100987261.pdf",
         "date": "2026-03-03",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -94,7 +94,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100981607.pdf",
         "date": "2026-02-19",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": false
       },
       {
@@ -124,31 +124,52 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-04-05T14:00:57.675979+03:00",
+    "lastUpdated": "2026-04-05T19:27:16.422274+03:00",
     "items": [
       {
-        "title": "サウジアラビア、3月の非石油部門が縮小 紛争の影響で",
+        "title": "サウジアラビア、3月の非石油部門が縮小 紛争の影響で景況感指数低下",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWWFSdnI4bjBVSHF2N1ZoMW5PMmpkY3JZaElybS1TQ1EwZkgySk40Mzl6Z2Z3cEpyVDBzNFMxYXdLVHVuOFlWMlQ3c0otMzgxRGRycXoyWkNVd19NbTRtYm51Tm1UMzdnWDF2S2sxdjlHUXo4YzJaTHphVTRqVG83VG41NU5VTGh4UVhHWW1tZW52dEdHUDRjM1dVSnppdE9MaU5fbVFTT1pGZHl3d3lJYTZQVXplTWJzWlB3YkdDbXZjNDlYanBLNHV2UQ?oc=5",
         "date": "2026-04-05T04:37",
         "source": "Reuters",
         "category": "経済"
       },
       {
-        "title": "サウジアラビアのゴルフ機構、米国でのLPGA協賛大会を目指す",
+        "title": "サウジアラビアのゴルフ機構、米国でのLPGA公認大会開催を目指す",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTGkzZjNSQV9aX2Vyd003azJ5cDlzd1Y5SVBkRDVqbW10RFpaX1IySGk1b3VBSFJkRk5EMDJhOUhzenBZbEhmSFlIb0NDOG9EZUx5SWZnMWpwVm5IVnh0YjJMMmJ6eExMalF3NVY3b2lCNTVld1hQSEJ3NXhOcGpSZ2pmWUpkUTNraW1mcURwUk9pQzVGRHlR?oc=5",
         "date": "2026-04-05T00:20",
         "source": "ESPN",
         "category": "スポーツ"
       },
       {
-        "title": "メローニ首相、中東歴訪でエネルギーとホルムズ海峡問題を協議",
+        "title": "中東で大規模な航空便の遅延・欠航 サウジアラビア、エジプト、トルコなど6カ国で586便遅延、23便欠航",
+        "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxNeS01Rno5U2ZNMl9POXJoZF9qZWtpSlhhMXBSV2QwdzJuaThIZkFRNTV6eHVTekhTZjNEZXJldlBUekJ3SlZhdTdYeXRULXl5T2phZ2hLTFAzYnhWUkc0QUpwLXNsNXh0eHFET3R6ckFZdjdVUkx4OWREaEVCaTZmYlVzcTRGbnlHQ21rR0RaQXRxT3FuOFpxTXl2Zy1fYjJLeDljYU4xYTUzS0FfVHV6NnRtQ3lSZmtrb0dycXhVLTFFWDRWY0lRV1NZOU9jZURvVUQzbEpwMU5Pd3puOE9nTUpEa2V0Z0UtN0xuWUpENDhnMURLTVdBQVdQRjBnaGRjem91NWZRVjhLaUNZVHNYUUJwSXhZZkh0aFF1Uk9OVGRtTjU3MG1uaVhsaEJ3QzJoZi1oZ3ZnNWRnVzhxVTFfUF9nSlM3TEhVaFR5MFhpZ3FxcGROb2E1eGZHTkJ6RVNlb3hzNlo3TWI?oc=5",
+        "date": "2026-04-04T19:50",
+        "source": "Travel And Tour World",
+        "category": "社会"
+      },
+      {
+        "title": "イラン無人機によるサウジアラビアの米大使館攻撃、被害が当初の報告より深刻",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YTmtkVlFUT3V6QlhMUnpicENuZmVrell1Yld6QzU4ZFlNMGx1bXBoeWwwN0VfNHhteGdBcFJ4M2xWdkExMWZXR0g1TXFaQnpXQjdfVGVncmRoWHA2NTBmWk53QTNlT1dLT2c?oc=5",
+        "date": "2026-04-04T19:43",
+        "source": "The Jerusalem Post",
+        "category": "政治"
+      },
+      {
+        "title": "世界的な貿易混乱を背景にサウジアラビアが港湾整備を加速",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vYTdydnllUnhiQjhpVzQ4cndsSTdvSGNNLWlxdlk2Q1NfaXJiZlNYdTNMOFdnbHVhdE1OZTRqM2V0VkxJMERUYktUVF9mMUt4eGs1MU9xbDNYRWtLeFdwNXdrQjI?oc=5",
+        "date": "2026-04-04T18:46",
+        "source": "Arab News",
+        "category": "経済"
+      },
+      {
+        "title": "メローニ首相、中東訪問でエネルギーとホルムズ海峡問題を協議",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZFVlc3BlS3lteFZMRjZ1ZVhlMGlZcEtuTnd0Zmh3RGJJcFo3YmFwYlVGbTh3WkpDekRDZzhGWEg1RWF2N09ZTDBMVTA1S0VsRmp6eDMza2doOXRMeVRLUkE4SnlLLUNESExZZFFBSHlTMVN2QVVHQUNxTXlWU2FOdjZKZlFSQUlHZ2RhVmNNUzdWQkxaNFROTGplWkozTVpfZlZKc0xHVkI3d1Ntc1MzNFVHRTZHZXZOMHlUelRBOA?oc=5",
         "date": "2026-04-04T17:44",
         "source": "Euronews.com",
         "category": "政治"
       },
       {
-        "title": "イラン、サウジアラビアの米大使館内CIA施設を攻撃 ドローン2機を1分間隔で発射",
+        "title": "イラン、サウジアラビアの米大使館内CIA施設を攻撃　無人機2機を1分間隔で発射",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZEVUcVByU3Y4UEdySDRzRW8wWlNhREFPY2NyT0tTZTJ2Y3VnSHAwWEV1Z3RrdFpjQjdWR2hUaFA4S01CMHd5ZzAycWlZUjlQZy11bDVDdGQtWElkMHFFSUtJVUt1dG0xbzJSOWQ3bDMxaHFzRzk4WHl5Z1duS0U0MFc5Yk5ZSGlSRVZzZHFYbXdDZHJZbVZlV1hqZ3Z0V3pYVFE4bHJNRFpzZmFYcUF0Vm1yaTdkMUF5V3FteGtxRDRLZi0waEFRLVdqb9IB0wFBVV95cUxNcGVKRnBWY1AxV0VaeTFVOWprWWRDeExsNjlhZGlZYTgtMmJvS0VIS0xkYTdrN1p0WGl5M01wcmhPM3JRTUFXNnlfaHV4TDA3Zk02VEY1LXVGNmUwS2xzVDZXdmhYVy1pSmhPSGl2QmtPVGdhRVBQQVRQU2gzOF9iM0VKNWNhdm9RdzlOeUJRZTNBRndkUDJDYzdxdUdfTUFTYWttUWRhNGlvTEd2dml6VU5sdWtiRUpYTFRzWkRTMnZyQ3NzY1Q3Q2Vuc2FmMk5jN3dB?oc=5",
         "date": "2026-04-04T14:33",
         "source": "NDTV",
@@ -162,7 +183,7 @@
         "category": "政治"
       },
       {
-        "title": "イラン、中国製ドローン撃墜後にサウジアラビアとUAEを非難",
+        "title": "中国製ドローン撃墜、イランがサウジアラビアとUAEを非難",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTE1uNnJpdTdISElwWk1HQW45N3I0UjVSMGl5UU1yV29wTVZySGtoV0wtdHFHb0VGeTBhVVlQUGk5RFhmMU5ybW9QamZVR2RYRGduLTZZYmk4MTJjZFZ6UXZXd3BEMHpxXzNBZm5fTVJxamVibEZyQjVacWozUmtNTmZ6Z1E4Zkg5elNqSExtNHpCcUsycU40V3h1TU02NnotQlc5RWswVXI5MldPeG5JdnlGNUZ6YnQwSnBLNEYzdXQ5WUVxUUh5U19wV3NjZl9RZFHSAdIBQVVfeXFMTmJmTk5ZM3NpSmtMX2J3RjRlNHEyc29mZDJhTGNaNXBiY3dxc3A4TWFyU3VOaDZsQlpDSkdiNkJxS0k3VVJlbU5WeGdWR1RQT2Y0YWZZNkZrdWpRVjZPdlBDdlBjTnJ1MWI1SGRzQ0FaM1Z2QW1EaE1iT2tWZnNmSFlYaUwxYWx2ekRQNFI1V0s0Wjh2WTcyWE8yN21FWUlJZGRpOWNhRmR0SVhubkVWd3F5TzRDd2thdXRsYVFEcHRoOEVEeUJMa1pycnoteUNLRWNn?oc=5",
         "date": "2026-04-04T09:51",
         "source": "South China Morning Post",
@@ -174,35 +195,35 @@
         "date": "2026-04-04T09:51",
         "source": "South China Morning Post",
         "category": "政治"
-      },
-      {
-        "title": "イラン、サウジアラビアの米大使館への攻撃で想定以上の被害 報道",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaWpxZG9iN3Q5TmJSa3hGOVU1S3Y1dWV5Z21NYTY4UklSQXE4U2pBRk42R1ItUlNqSGw0XzVQWmtLRGt5LU1iaU9Ja1lmSXhQT2QyYktXMDRLX3ZRTG81aTBaaHlnWWhlNU1WWTIwZ296Vk5WSklLeTFSRGY2dU4wem9acHBRS1lycENXUGJiaGRzejNCY1ota0pMWC0zU01pUWVrcDVBS09vZlVOTTJYbWtib2NQbVpGUDN5aVJMWDBvMDB4a2hBenFB?oc=5",
-        "date": "2026-04-04T06:34",
-        "source": "aa.com.tr",
-        "category": "政治"
-      },
-      {
-        "title": "速報 イラン攻撃で米大使館の被害、発表より深刻か",
-        "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxPYWZEdU9MTXdaZHFKc19WUEY3SlhLYVlmWVdFaVMydS1KRGtLVk1xek5mNGhnZzJSNWVaaktfV2hBOTd1RFFsY1djbGdSUU93alRMRUJkY0loVkVJOGV3VC1KUlB1Yl9zS2VFSzdacmFIUjVKT2FmTTk4WktOaHVDVDlKVGFBb0FHTWJna0xJdlhKRHpmemxnZFNQRUhKMFNmRHRzSVZIUGJuRkhQemhFVkRtVFZoNEJXY2RIX2hLMGp1T29MbW5BNjJEQzdWWUFkNjVyMXlTREx6MlpzMk8tNV85aGk3NldxdzM3S3lEcG42U0dhWnMzQkM1eHh0OHVPaVNuYnBpTzgxMnh4UFltSVVSYkw1bmVXWDRJejhwMDlQemlHM3dpc0hNZVphVFRtaWVlUmdacUlHcjR3cWJ2eV9xTndsLWZCdHhSN0RxQ0trV1hvRXRRVkpucVd6WjZYd3F0OHZabUE5UXFET0l4WW5RWDA2N295amtKLXJTOWpjdXRIWjFmdjdvanJMQTIzN1p4bktOWU4?oc=5",
-        "date": "2026-04-04T00:00",
-        "source": "WSJ",
-        "category": "政治"
-      },
-      {
-        "title": "速報 イラン軍の米大使館攻撃 公表より大きな被害か",
-        "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxQMmxBWVQ5Zkg4elJsQW5pMWlpUlNWVENwMjJTdzlWV1BwSUxGSEpZZ185bzBYRExaRjdyQUYtd0V5eEhReTBjb1pnblJXeVlGZjB0YmkwU3U4VS14ZnJEU0VySUhrV2xXRVNIeWZUUXJwd3FWUWt0ZDlzTzBXa2tWUFE3OWxuZWZYRHZqbVNWMTNHNzY2UjFua050UDc4eEU0aWVxRnQzRlRTb3hUNy1YMWktbUQ1ZHBvTUNhcWlONlpZOHU0SV9qSEdRTHdLMWQ0cXl5NC1NSG8tNUVXa0p2dS1NXzB6S1EteWMzU1Z2NWZjZjN6WnBhTlM0dGxicTVNNFdUUXRySnpvOXFVeWRtZ0toQmkza0ExTzJWenlBNUp3QkNDNHE5dG90NU5LSGZ5a1MtSy12dGJvR1M4NkVZdVAxTTk1XzVlbElpZEExc0QwNUY0Z0h1MW4wcDRNcXBZdVJOMll6SXVlVFM0MGlPWTE5LUJDMEdEQzlOdlJsMXBxeUpRNy1GS0lFLWdZOWtqVW9fNzE2OTE?oc=5",
-        "date": "2026-04-04T00:00",
-        "source": "WSJ",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-04-05T14:00:57.675979+03:00",
+    "lastUpdated": "2026-04-05T19:27:16.422274+03:00",
     "items": [
       {
-        "title": "サウジアラビア内務省、イエメン人とナイジェリア人2人の死刑を発表",
+        "title": "サウジアラビア税関、通関手続きの円滑化へ銀行保証なしでのトランジット通関を許可",
+        "url": "https://news.google.com/rss/articles/CBMikwRBVV95cUxNMmJtVkxya1QtZG1VdWJVZlJSakxCMEdFZGwwVWpxenJxR1RGMGRfb2RLeGR4dnRMb3l1VFdTRnhQRHhwUlBOdkFLUFlFdnNmWHQ2dUxxM3JtUnMzd2xZUVpKbmt5SGNfS3hFbEh6VlVNeHo1OVAzc2pQU0k4SHFjMExpVkpCN2QycGZxSWwyek5uUDZVYjRBWmNPRHhHUXQwN3dCZmluVUtET0JpYmhTdWR3aDFzZGFUQmRNRjFCSDJZUUpnUVpKZENiZFZiUmhORXlXY1E5TGZ5ekFneUQ0UG9HcXNnd0VEbXJPWm16R2dTTF9WNkhlbXRvQmNhV1JQaEJ5RjBLN01JdmJwcjF1STZaVDU1MWVrdWRVMEtoTkd2cXJGbDVBdnlvSjIzeEh5Mmc0a3hrNThUOUYtMjd2LU80RjF5NE5xU29MaXgtRno4VjFNa0J0UmtYdEdYRG80REZGWGlKWVVZRGtubS1DMVRXMWhlNDJYZXV1Q09RZ3NXd1IxWFpfMVc2SnYzN2hVZW1mbERWQjlGRG5TYmZyOHdDNGxhZktYbTVYdjZtc0c0RHVsUHliQ3h4TUxzMTQ0NGlwMnRrVjR1OW5TN3pSX2U2LUhCblpTYjI5NEZuem1pbzY0WHNRajgzTXB5U2xvd3VEb3VSSGxmMWJBcENuWGhmb0htcW9DZDFKdEhWUDRDVE3SAZgEQVVfeXFMTXBERUpYWE5Oa2hhdnM1RVVKYVZlUEVhUzlIYWZVSnk5aERMdEltV3FUbHRBNTlXTF9hZ1lkNzMxYlR2NnE5T3JvSVFwbjdsdnFJNW5veVBPdzdwR1BSdHI4ZWNRMldHcVhTLUhEYTMzNTh0Wl90SlVwVEtldDJkSW9SYXBBdzV5eEVJUTBUWDVYNERPd1BzakFYYl9kbEotWlpCbzFZTW5zR2dLWkFScFotNTNMYjRtemZjc0tDSWZyNlRranYyYTdaX0NmdnAtQkhobWhXMnhwdi1kN1E0a0NRYlJ4Sy1DZ1NnNTZ2dWhOTVBiYUtMSHVoMmZoNHR3MGFzRkRESHBkSUlqSDlEenN5VDdCak1QYV9rdl9laEwyeEFvYU5QVERxRU0tY1lkU0FiNXRlcWk0Vmx5VVFwZmRVTHBKMERrRVlES3luanFxa3YyeGh6Rk1fek5QUGdYT08zWkg4RVR6TmJrOXlIXzJwcktwTFhBV1I4Rm1rb2ZXdmR5M2lfbnJYQTVqMW9Hekd0c2w5S21VNW5mZDlIWUNtRFR3cEVfa3NVS21UcXdNcFBKbk1Kb3RRWWh1YWF0ZmVyWUtORWtlSHlhTU5zTEtmeE5zR2RxOHhKUFJabUZHN2xNVkhWaFN5aG5oS21VT01TN0NRa2lhWm5pOTZDR01nd3ZnN3R6QnV0RHVKUVJQUEx3ZXJVc2g?oc=5",
+        "date": "2026-04-05T15:13",
+        "source": "العربية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア株価指数が11271ポイントで上昇して終了",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE45RlhGVTl0UklqSzVkdExCenFSQTVCVHUwVFJGRFNLSDBfM25FTnpaWE02QXZEZ29DWWNHQmVVWGtkNTlhVFNr?oc=5",
+        "date": "2026-04-05T14:41",
+        "source": "جريدة الرياض",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、アラブ初の宇宙天気観測衛星「シャムス」を打ち上げ",
+        "url": "https://news.google.com/rss/articles/CBMi-wRBVV95cUxQZTNBQk13SnltYUkyYkk4Vlh5VHZLY3pOOThDYWFjUmZXa2JtWWt3V2FIbDEzOUU3aDhNeko3VFVlWUpvaDRXcTA5LUlPOVFOVmp4MTdTcURkUTF1ZjZWTm5rVDJ5dU1kTE9JR1ZCNGhyVHlvNGtyOUJ3NDFneEFwVnB4Y0RhZFhMV0ZMOV8tNzlmdGo5R1dtNi1XYlUyaGxhYWtfRUhzdU04RDYzMFp6SWF6eWMwdlR2MGtOdUMxTHBwTFhubWhNdy0wemZXYXdTVmxhcVhtRTBteTM0S3dBeHF0Z1ZtVVV6bEhWV3E2YUwtQ3F0RFp1YVAyNnBpSlQxV3pOQzVvbjRoZGpuRi1tcl92bm85RDIwQUd3NzFoUElicWR3R1BfQXFWQnk4dE45OU55UDMtZEpIT3Q2dWlPR255R0tuUk1jUFRadUtRYWZrWEJHMVVEbXdKa3dYcTJMZGZ5TFllNEFvWGNpNWktcU9EcEE5a20wNGdXZmJ3cGV2Mk04eURxSHM4WDViT2U3SHBsLXZIR3ZfRnZ1enB3UVpvbkUtdE9PdVdGOEstMHhPT1B1N3dmcktrbGNscjM3U2c4U3p3V1FLTHJzMzZxQzhsR0hIelVpc18xdGhFNjB5bFJ2NnRNWUdtMHI3R2ItcHRSalh4Q1llLXFNVkYtZFJ6X211U0JqWVlQOVVQOHl5WjJrUnJ0dmRSb3A2SDJqV0ZSLWpTTVJ6RkJGZ25RTnQtMF9DM1ZkSTJFeHkyMUEtaXF0Z05hVVYzS1BpaENfM3NDQ1RGS1ctZGdUUXhVd2dCMG4zUUdTWEZ3bUxFdndqbHNadGhFdXB5aw?oc=5",
+        "date": "2026-04-05T13:27",
+        "source": "الشرق الأوسط",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア内務省、イエメン人とナイジェリア人2人の死刑執行を発表",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdzRsREY0ZDRwZUF4c2QyNGdNMDY2WG9KRERjblhrdG1PVGlPU0dlYmZZWVc5dnFkVnA3eDNwSnVfbjllZGQ3V1FQM1h6WTFuSnQteXF4VnV5emRjYlQyeGR6V2Y4YjhucjhYZ2tkcTVGQ1MyQW83SXFqVkZGU1J2MUpHdHphejBWUUg1NlllWHdtUlRMUzVKeXRYMzlFNHZKYW5QY2FWMHZVNXUzSHBINzNB0gG8AUFVX3lxTE1NMUM0SHZJSWJiZHJJYkptalpXaWd5YjhhbG1wQVp2aUs1bDk2T2JxRTFpckt5X0Zvblh1VVV5NmdFOFM1eExQQ0E2WGU3MUk0MWhsTy15UTNfZG1KZl9IaGloWG5xdEdfaUxzUDVyc3dVS2dXVno0T1U3YVlNekN5ZXNyeFdkYm9WeU15XzJ5V0RRbFh5ZnNBZE8tTnJjbnlGb2tQSDN5dDFlLXB1SC1PSkFNb1ItWlpyR1kt?oc=5",
         "date": "2026-04-05T10:19",
         "source": "CNN Arabic",
@@ -230,6 +251,13 @@
         "category": "経済"
       },
       {
+        "title": "サウジアラビアのグリーン化構想　持続可能な発展を目指す",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE01dnJ4MXMzcTNZTTBHWjFxOFFPazJvMFVjWW9iOHlDbC1acEdMWjdfYTQ5bEJQSUVmN1NZeEgycHlrSzh5OW9j?oc=5",
+        "date": "2026-04-04T23:08",
+        "source": "جريدة الرياض",
+        "category": "経済"
+      },
+      {
         "title": "サウジアラビア、ガザへの人道支援を継続 83機目の輸送機到着",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vdnU3bHhvX0VqSzNGdkhzQmp2RURPSHBzMENPamZJVnpiNzNQTHhTZnNHQXU2b2NQM3ltWVNsNE14TVR4cFFua1BvVWtmRThleUHSAVRBVV95cUxNYldtX2k0NTJzdGJvOXdjSC0yU0NhN0JwOXZvdHRGOWZyTjljeUlVU0NlQjJBRlIzNE5DaGVuOGowaURIS1FJTnVHMXJTREFjakNlcTE?oc=5",
         "date": "2026-04-04T21:44",
@@ -237,45 +265,24 @@
         "category": "政治"
       },
       {
-        "title": "サウジアラビアの救援機第83便、ガザ地区のパレスチナ人支援に到着",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1yaUQ1N3RqV010aUpnSmVkTGxmdkxzOFVDVVRmNnUwODRMRUVYNFgyQ3lnWm1QbUFjVjVub2FIcVA0SlhGQ2c?oc=5",
-        "date": "2026-04-04T16:51",
-        "source": "وكالة الأنباء السعودية",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア、宇宙天気観測衛星「シャムス」の打ち上げ成功を発表",
-        "url": "https://news.google.com/rss/articles/CBMingRBVV95cUxOM2h1MTBXdTNqV2kwTlhzOXRkbHk2T2lRdXJhRW5iR1k1TFpaUEFjSGhJblFCN0V1aHB1YmxFdlg2V1duWUVrSUZNbUhoQlZieV9yYjNaWVZEaHpmbTZpYmRqRE9URnRtRTNac2R6aUVHR280TGRCS05aRW5xSWhSVjhhLWRRZnY5eEFhRWdkemIxekhOZkdPRnRwV1RPVEJmeEhZelBrMHZWY0hNUXJ5NlhaZzVfNS1pdlpnXzlsU1NIN2VTNXl3LTJFcF96WXdMQk51cUxZaEtmdVhwUmFMcGM5NGRiWWFXVUEtQnZ0QU5zYkpWYjNQUVktRXVVMHpyUWhNaEkzWFVzZFR5MG1Ka1NpVXFwUy11VjVza2Fab0htbW00dGZRMXEyWmlzOFJCdEJpcDFvR2JMUFFKT09wSXdtUkY3NElXaVdZMk9HUmNrOFEtcXZ5SDF4SXhBMFdwQUx0X0JxQ1huMFRRcGtwTDMyY1FlSHIwcFdYdEJxNXdrbTEzZ2ZFYTdnUWhGS04yQTJJTTU5ZXAtTENfVjlkLVYyUWEyUkZsTXZrYjlMR01ud1BQM0lnOGN5a2drSlhmSlNMYm1SdnlCUUhtWmZrUnR4LXlsaWlXQTF4YTBuMkREVE1TVkctLVlza2pVUFNWaXJNaldXOGdaZEtYMGk5ZGNaZGlua1JhS1VUNTVIWUdEVEszeVVuOWVDMUFYQQ?oc=5",
-        "date": "2026-04-04T16:34",
-        "source": "الاقتصادية",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、スーダンの病院空爆を厳しく非難",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE52VkctTVEwY28wSktkMEFTQXZEaWNOeVpqZV80UjZTbXFoQTJyZHVKRTlpSkctemdnWWhrUW9DLU1MRVFYQ1F3?oc=5",
-        "date": "2026-04-04T16:19",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア：ジッダ港で違法薬物約300万錠の密輸を摘発",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb3k3amYyWHhuQWMwTkFpQ1lXY0pIbmpVNERPVkd4S3JKVmJXUkxlTnNZRHhTbF9CeFZ5YU1fOHZyOFhwYmp6TXpFMFR5TWRmdWNSYmRSa1JVUmNWUnJTTGpRSjZYODc4SGkwREpCRE1YbXpDa21lVFlYR0tpa2V1Y0JTaE5GQ0V6WmV4Y3A3eDJkeXk4TlFHRFJ4ajZNX0RlYnQtV1h6b1JaRjhOS0VEOFFXd0U3RVpXUU8weGp4WdIBygFBVV95cUxPOG1fbTZuTkkxQlhPWTR0RktZSUtCd25MRlQzX2VDVm0ySVpHZUxBeFZXWS1vU0MtX3lwSF81eU50TndQcFRFMVBXZkRMUVdHN3F0b0pyWUxDbWVZejhyM08yajRRN1lXWXBVNUZjNGNRRFNxUFEtZ1dwU0RXcEFieGNZMHFOUGEwUHlHSWRUaHRHY3RtWTAyVXNkYjNPQ1c3MEhXd0VIN05TRUhBQ1JSY0tNMDVvQ1J3Qy0zNXpNQTFheEI5ekphaFpB?oc=5",
-        "date": "2026-04-04T16:06",
-        "source": "CNN Arabic",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア、アルテミス2ミッションで人工衛星「シャムス」の打ち上げに成功",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YZ2o3cm0xM0p5a3dOcFEzWmdGN3hWNHdTRmVhY0U2cVpRSnI5dUh3WFF4bDdTdnRXaE4tTFYtamlHUUJRSzRGVGZjU1F4MzZtcXg3R21NUHF4YkszZHdJ0gFUQVVfeXFMT2VxQi1BMV82YnFHczhUTld5SHJ6TGltMnhoVVVndFhoLXoxbG0zak14OGlBWDlLQl8yNVM1MGdOa0N5dWFRc1EwckNsWGpLanlqTFBP?oc=5",
-        "date": "2026-04-04T15:45",
-        "source": "عكاظ",
+        "title": "サウジアラビアの電池生産、米国の対中戦略を支援するか",
+        "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNZUVOSm84cXNkZEFBOVlyMzQxMmdvQk5IZEFEY09LZ2FaQ09heXF6Y1V6Q29ZZmh1WlpSVEtmTVl3bVhPNlV6Z2IwZkNtSy0xUS1velZpeDRCYWhPS1JQMXlnSUxTZUtzTmxNd2ZOOUhXdVJEb29NTWU5V2Voa1Z2RV8wUklETU0zam5sWERaVGxwb08xTzF4V0N6ekFYTGdLSjJGRDlSWmxfaUxoWmtTQ0xwN1NnUEJrU3cyc2VXcm16bzVYSXNnclVxTkhFV1Z3aVZ3THNLMFZIWXVmNXBBeXkwWmZLcWJQbGc4M3h3R2Fkcmd2OGJYWWY3QVJoMEZwV0xuOEIwNkpxUkRBRFhrMHdRTktFZVBGb3FvT2dSMHFZWk5BcU9XTTZfMkZMYzdMREEtbEtLczNwZXdHYk9YYjBtYW1YRzJWbkl2THln?oc=5",
+        "date": "2026-04-04T17:40",
+        "source": "الطاقة",
         "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-04-05T14:00:57.675979+03:00",
+    "lastUpdated": "2026-04-05T19:27:16.422274+03:00",
     "items": [
+      {
+        "title": "断固として…バルセロナのスター選手がアーセナルとサウジアラビアリーグを拒否",
+        "url": "https://news.google.com/rss/articles/CBMi9gRBVV95cUxQLTB3TUI2T2FfLVNGZm1SaUU0b0lLdzFqaWFCcElhVTdFNVVPVjZEYTctdXpqQXRxLVJXcmVZNTBkWGlGRkpvMXAtSEdaMG13b3EzQ2w1LUJPQlBxeVowa1hTTmRCZ2l4UkhFVXBabHVDc0lwRGFndkhEOEN1S2ZpVFRPQnE4eUQ4N2ItSTJlbFNZU3Q5R1NPU3BfYnZvWkFZSkkwanBsdFpENnJ0ZXlOUUoxaGNBVkdheDFPMUY3eEJONF9sbXBtNDZ4bU1hWDB1LTlkNWZRekQ4WkQzaFQ5WFdIeUNhZjFhNlNiQ0U1N1VSYk5MeTQ5TTZvS2Ffby1BQkVpOHNkMTJIZGU3YjlEUUZyd0dRc2E4RGFyVjlZdWFEcEpkRHYxd0VDeW5HLTJFX2FMclRPMlpuYjAyTVZSMVB0MDFQU2xVblVRZWd5cV9BNERYbW1pa2d1aHVMRDBRNGo5dDU0emdkT18ybWt2R2c1UE1XQ0VYZ1NoeThpUVBMbmNDNHNQWm12UzRaR3B3TzF5RUJJdzZoUFEwVkJ3UkpoaG55VmtQSzNLRjJpQlo4dHowV09RbU55Q0l2Z3o3bi1IamJVVWVHeHpoWDJRcGNXSVdKT0JIcXlqRTdyaXpndTRzYlhPQkk0b0ZmeTVQTFFwTmlHUkoxLXFKRnZ4dmswdXFUSmNkZGJCV1d4Z0hYZ0YtbGQtRjhlR2R5dzQzV1J5RXUyMWtFRGQzTWR2c1pzcm96d2I4QkNpLUZWX0paZHZkREFhVHdrajBBaGVUa01OaFEycDNUWmZCMk4yZTVqM0phVTYzQU0xRUtTZl9RRUY4amc?oc=5",
+        "date": "2026-04-05T14:38",
+        "source": "Goal.com",
+        "category": "スポーツ"
+      },
       {
         "title": "3月の在サウジ米大使館攻撃、被害は発表より深刻だった",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYWx3R0lvWWpzR2laVlprSXVKd2JsekdLWk5EdWY1TWd0SW9sLWNwNmMzdmRwazUyeGxNUS1HTTNKMHRoZXE4OUg2NC1wSTdBeUNYb2ZXcjF4ZE82Y2pxNDR3X0ZDcGNla0Z5ZHFWWXBLc0swOTBxdXhDd3lDT3VpaVVab0o0VV8xT1JPQ3lzWWNvQzVWMl9xS1lwZXg3aFVuZFE?oc=5",
@@ -338,13 +345,6 @@
         "date": "2026-04-03T08:46",
         "source": "Goal.com",
         "category": "スポーツ"
-      },
-      {
-        "title": "2023年12月、サウジアラビアのリヤドでムハンマド皇太子（右）と会談するプーチン・ロシア大統領（タス＝共同） - 石油市場の安定化へ協力 ロシアとサウジが一致 - 写真・画像(1/1)",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5xZ1JrUXFQSDNrQmpXbHIxWTNNT0Q4b0tPdVVsSEcxQjBuOWZTS0lmLTJOXy16WDcydUVMWXVxOG9MQlZKRzdvMVBfYUlLWnlXRE5pSXp0OA?oc=5",
-        "date": "2026-04-03T06:41",
-        "source": "西日本新聞me",
-        "category": "経済"
       }
     ]
   }
