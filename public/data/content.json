@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-04-18T19:29:22.737570+03:00",
+  "lastCollected": "2026-04-19T14:06:11.572117+03:00",
   "security": {
-    "lastUpdated": "2026-04-18T19:29:22.737570+03:00",
+    "lastUpdated": "2026-04-19T14:06:11.572117+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,14 +39,14 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-04-18T19:29:22.737570+03:00",
+    "lastUpdated": "2026-04-19T14:06:11.572117+03:00",
     "items": [
       {
         "title": "【大使館からのお知らせ】領事窓口業務の再開（3月16日）",
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -54,7 +54,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -78,7 +78,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100987261.pdf",
         "date": "2026-03-03",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -124,8 +124,36 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-04-18T19:29:22.737570+03:00",
+    "lastUpdated": "2026-04-19T14:06:11.572117+03:00",
     "items": [
+      {
+        "title": "リチャード・ヒューズ、サウジアラビアのオファーに決断",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN080VEZJa0FRdzBXUldmRHZNdTRBRGtqWG44VllIQVlmUnQ3b1BrQTYtZjdzV2NPMWhtQkctRzdaS1hsUE5KV1JLeUs0VjRac2VWTzFsOHNRbmtlU3pSQmpwNW1jNlVvTlhnX05vRWpqZUxUOG4zZnVQS1FodmJiaDctamlGd19HVUZocw?oc=5",
+        "date": "2026-04-19T07:40",
+        "source": "Yahoo Sports",
+        "category": "スポーツ"
+      },
+      {
+        "title": "ロシアがドイツ、イギリス、トルコなど複数国と連携し欧米旅行者のビザ免除と滞在超過罰金を撤廃 インドやサウジアラビアなどアジア諸国も人道的対応を強化",
+        "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOLUtHS0hZWGQ0QWhrUFBSQzhtNmxoUUt6OTJkNEtDeGtzRmZfSGZBUzVhcjQwTVhjb20xNHZubFgwMnk0MmNEX3h5emtFdmdTQ2lZSDVTRnNsTXZfUW15OVFWeTZPV2FwOG5qNlBISHlfZzVRbzZrdXVvVy1Pd0NDMXI2ZWZEZ0VpTi1kblYwa1hiczlIdUxtajdsSkEtSWM0c2FlM2t1aHBRN3pOcmczdjVDaWZfVVpISzFETE1FbndGdGJ3NE1DUUkxMTEteXhpZzQ0TWFEOHBHX0x6MGo1VUl3aEY5V0dkbFoyRG9zMXZpR1ZTZnpQNDd4ck1GUlRLNHdyRlRfc3RGd25idmhibXR2d0t6RS14M0hDTHZVYjA1blhtUGQ1ckM4RGVLZi1BQ2FXVWJrWTFjdHRkYWx0b0FrYlBPTjA4TUNxT2FLclBpQlFQTE5SeHlJUGE?oc=5",
+        "date": "2026-04-19T07:31",
+        "source": "Travel And Tour World",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアで整理整頓ブームが広がる",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9wRXI5V3NQcWFnZDgwOWhMUjl3LTJVeHVCalVWYnZueHR3OEpUNUNxY2VyQXBrRWZwUzI1aGZybUlzbzBKYzhGbzRlMzlNV21PUkZrYkltRFFFcENhaUo4?oc=5",
+        "date": "2026-04-18T14:40",
+        "source": "Arab News",
+        "category": "社会"
+      },
+      {
+        "title": "LIVゴルフを支援するサウジアラビア系ファンド、9000億ドルの資金規模も資金繰りに窮する",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQT3F6YTZQNlZpTVVraGJTRGZLdWdDMEhGLW5oemhQX1dNM1FKb1dDWlN6aHpDbEpvNGJZRS1YN2o2LUw4WEU4VDh1ZkktQ1ozZXlEWTZ3dnpsTS1PYTYxaHRwVDN1d2lOWHFMMHdRZnQ3dDY0eTVtWThKSE14MkhCeV81N2dJZjIyM0VHSi1HaGh5aTlnZndTR05FTGlsUU1vZllBQnF1LUJDclV4MUdKZ0FxdmYxYU1sRkNGcA?oc=5",
+        "date": "2026-04-18T09:30",
+        "source": "WSJ",
+        "category": "経済"
+      },
       {
         "title": "Honor 600シリーズ、サウジアラビアで世界発表に先駆けて発表",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZHhXRkYxQmhsNzJOSXlyNEFRN2pfMV9Xeko4REZuV1JxOXJXNnBpNGpnSktKX1l1SXFIUnZPUGsxSkYtTGRxZXkwX3BYRVRSUkl0Mi0xQ0JxVGQzMERCcEktNTA2d01wMmRZZUtsbWdfYXBZSU9KUEpPSHlMRGk4YnFOczlIM0dMTWF1Qk5VWGXSAZYBQVVfeXFMUFFoZDIwekdhTkx3UjV0MWlWNHNERzhROE55cjFSM3RtamVMWnNXUzVrMWtXZXlvS2NTT0dYblN6Y2hZcS1nWEh1a3Z1bWtsZkRXMWhuZkJGd3NmTC1OV29Lc0lqLVM0dEZlRFgyOGZkQjJNSEhlQk5VWGhvd0RYZU1MeGg0eDdjSWVXYk10b2ZSczhQTW9n?oc=5",
@@ -148,134 +176,127 @@
         "category": "社会"
       },
       {
-        "title": "サウジアラビア、財政縮小で2035年ラグビーW杯の開催断念",
+        "title": "サウジアラビア、2035年ラグビーワールドカップ開催を断念 財政削減で",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSEFnMzRGWWE3cXJKQlIwOFIwVy1yS21Gd3RPejN6X1ZOSFlwTVgzRWtXZnU0X2VBcVhtcC1DOC1iTGI1ZEtibXl1aE1jVTk3bHotX204RzUwNDlqeVd3dVBxdU1JaHVfNmF1bXVybFF1dF90TTB0QW03ZmFfRk9jdUJ0RURtSkxqZG4zN2tQUEk2NDVRTktwWlI4akk4d0JhQmdoc3lwVHY4WFI1QWVHXzRNLWJsbUxsTGpyU2NBcE8?oc=5",
         "date": "2026-04-18T01:30",
         "source": "The Guardian",
         "category": "スポーツ"
       },
       {
-        "title": "イラン仲介者がトルコで平和推進策を協議",
+        "title": "イランの仲介者、トルコで平和推進について協議",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56UjRxalFwVHR5dWlnX1ZOUWdnX2FSd0dwS19yR292Tjg2X004RVZCTDBacGVQbVdOSmRXamFiT3dqLWVhUnhuOUdILWw0M2FHb25QX0FOeXlYdkNCUWNhMnIwSUpBakNXQnhkZHpmWEhEUVU?oc=5",
-        "date": "2026-04-18T00:10",
+        "date": "2026-04-17T23:48",
         "source": "Axios",
         "category": "政治"
       },
       {
-        "title": "LIVゴルフが経営危機 サウジアラビアの他のスポーツへの投資継続は不透明",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ0daa0NEUkJ3UXJsel9LOUw0NlZoYWtsSlV3RDB0U3hBTVRGWnVaeFVKZzZhWmFGTDVSSnF6UmkyWXNKbGxVV1VoMGJEZTFIampEQjRISHZVRjk2UGROR2hnZjN0QzFXeDNIVHAySEVTUlpaRDlFQktvMk8yQi1xV3E1T3VkNWR1SHZjVnlMM0Fxd2pTN2k0?oc=5",
-        "date": "2026-04-17T20:42",
-        "source": "The New York Times",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア、ワールドカップ2ヶ月前にルナール監督を解任",
+        "title": "サウジアラビア、ワールドカップ2か月前にルナール監督を解任",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTzlZaWt4MWFvcUlROGs2d0lmcTRVam1zTGxaaV9ZbUczWXVjU21sRDVLMUwzVVNRamhhNTZxYUNIVk9YWTdpVW1zZ1FFbFRLWW9jcmpCS1E4eFYtcHVzTkZiRk1mbG1ZQkU1YXFHWEFsbFRqM1ctbEpWMkpqbi1lQzEtUUdtS1ZBTGowOGJBRkVWSlFNRzhKbEg1VEMyV3lrNmc?oc=5",
         "date": "2026-04-17T18:32",
         "source": "ESPN",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア政府系ファンドがサッカー・アル・ヒラル・クラブの株式70%を売却",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZ29tODZ2MHIwZVJxUFFULXNRUUMxamNTMTJwdVhFYXdNOHpwVVRYb0VvNXVlUjA4SnpjVDFDN1RvRTNieEFDV1ZYZlZFdUw5b291dXJHMVJrZlQybjVyTXNhWk1MNEVrZERWS1htd2VVSUtINTQtS2JkXzZQVlJ1TndWcHUwcUpl?oc=5",
-        "date": "2026-04-17T16:22",
-        "source": "Yahoo Sports Canada",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア、ワールドカップ開幕59日前にルナール監督を解任しドニス氏を新監督に",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa1MzMW9JTF9UaFEzTlpqSUk5MG5WQ2FRNWZXZkFxbmlIUFFDZ29YcUl2MlZ6U0cxM2hUWE5RVjFRRWdGSkt3RU9pQVVBcUt1eUs5OWFFSFc1dEFuQnhkcHE2eHFxMldoUUdaQVI4V1JrazdObUNSR2UxcTZ2c3g4LXJIcHcyNEl5a3RPUVhFclpIc2JV?oc=5",
-        "date": "2026-04-17T15:59",
-        "source": "The New York Times",
-        "category": "スポーツ"
-      },
-      {
-        "title": "2026年ワールドカップ予選 サウジアラビア、ルナール監督を解任",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbGc1SUdlazBhNDRUVnN4VXk3RWZHSUgxM28yalY2ZHRXb0xFNE53eUhRbmJZejRUNXI5MHJUcENGdTd4TnVsZ0R3VW90ZkNucHRWQl93S29aMDlSMHdodGNCYzdBWmdzS0NYOTVDLWdtRzZxWHBuRFJ4UEpLcmVEXzFGNkx6MlJUQU9pQlNUeFR4ZWNqRTBQdGlkUnJSRUlUS2M2ckRtWE5qaGFH0gGyAUFVX3lxTE9hb05KVk9xWENEdGVONC1xa2hkeHJaeHU1dHlHWmtBMkxaSkNDUDdBZFFOWUV1dl8yR3VuTjZKak9mdHVHbGJodkw5dl9fSC03bWpadXlSeWpqT0pkNHB4aWJHRGlNc1pvVHNTMnpKTVJOTmJmOC12cXk2cjdQV3ZvdXpCbnFURkpDakVENEtVQ1dmaUN4YXFwQVpvdEpHNjR2cDBqY2tYczlLMkotWW1ERVE?oc=5",
-        "date": "2026-04-17T13:31",
-        "source": "Al Jazeera",
         "category": "スポーツ"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-04-18T19:29:22.737570+03:00",
+    "lastUpdated": "2026-04-19T14:06:11.572117+03:00",
     "items": [
+      {
+        "title": "サウジアラビアと米国が租税協力協定に署名",
+        "url": "https://news.google.com/rss/articles/CBMi0wRBVV95cUxQVkVaTHlNeDRDWjNrdDgyTU5PM2RpRnVRSTBUVVhmaUlmUUZzMElGLUZlYVpOa1k3VGxOQmtQTWtQdkxNQm1NVGxnSEtSSFdfdkdaeDAwMFR2Umcwa3duUGdYOWlxQWlBWmFsVjNXMG5OdFBmOTk2azdtdHkxOE1kelpvY2hUNjVZeVhzUFRFaDV3Rjl1UHptcS1XQ25iN3kxVXVobGNkSlF3bHU4RWpROWNIeXZIVDZHUGVUblhxQXhBdDhvV1k5UDZNQTU1d2VqcE5odmZVZF92WEtCNUh5eXVuanUxMXVFWmpSc3RzWElxam9XSE93MWd0V25aMHlYM2dseTU4WXRoRTlRWTRRN2U2dzJlWDdicEtuVDk4NEZQalcwOWs3bFBpR2RBVi1NX3laOG0wSEswVmxadmFfMVhrM2VDa1Z2RE5SZ1VScDlpU29zU1ZBVERmVHRtYV9Zd2NJRHlpaEtHUzVKLTc0NUZXc0MxV2VPTW41S1JhYUNqeHFPTVdLZ3dzcG4zUHpyaGZZRWxOMTM1X2NXTGVyYlB3YWNJYkRtS2U1aDBVRDZTMU5mX1Y4bWdLbUlRRm1NeWQxRHh0SXFucTUyZEk2RVFTMEtzcTJtc3psNU82Qy0tRU1oX0xRV2VvUXdwN21BVG9pa1hzYmVablN0OWhRenhWRk05RGdaTWV2VXh6VHhTY05oNTVxRTNQMzBpMmhXZHlpMzBRSVc1c3dwb3JYNzNtSDZnMzJ5VTB0Sk1qM213UWJEZkh0WWlIdEN2VDVRbEE40gHYBEFVX3lxTE4xbHBMai0tTmN4emRwQXhTRHZ6QnhSZXNvVzVnWmZaTlNkeFM2c01udDFFQ3NmN0tNaTltSUl3ajBLVHRTMGg1NDlWMWl4bFhNU1k2dkV3NmZlcW9xLTVieGZwU2FJeDRPYXFfQmx2RFU1bm9XeHZoQWVqMVVqQmI3Z1R2ZzBfOG5pNklvT3Y1c0NBVmJLRk1RQUM2a0dhcTRiYjc5dnNqT1VUWVc5eDVZY19FNnR2R3p1MDR0NE03ZjhYUmR6d3J2ME5DNy1jVzYwWlJzdEtiTmlteS1pRmR6N3VVaFJYc2twazJhbFhiY1p4UFktUm9nc1NpdzdLa2RXSmwydGxUcURqN1JtZTZ6d3JZLUVDMEM4el9TMDBUYkd3WThRakFEN3FXZE5oZ2hhMmYyeHhHTkNqRldaNUF4Ny01RHQtYjdkVW1DZE5XS1lJc3h1SkNCc2txWVkxVGlQRTlLRzZQOUNLX203QzFoWmdqOWJtUHZlVEpWQ0xabHVjTDJSZmZRM1p5cEVOc0U3MnlKNU95TEljQ0lzU3ZIQVIyeWRJZHFsTEFlbldEYnhqMEtjOVcwYjdua1R0SnlRZDJhamF5MHdiaGVUdWxrNVRmTlRHNUQwYVEzOGtXR0lnQTdNQkliQzN0RW1Ba1ZrMEZBdjQtSEJrZGQ4djJhbTZRZzhPV3hqVFpVVHl6N0xkRWRUYjdPbldBVDdxaXRWcGtRYm9xNEg0RXdaVU9ZOS1SMFRuSmZ4Ni1ia29FdmVJLU9aYVprOF8xWVUtckxhYjlzQWdjag?oc=5",
+        "date": "2026-04-19T10:48",
+        "source": "العربية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラムコ、長期格付けで最高位「AAA」を取得",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCcXhPMFJUeXRGSXU1c3psWG9xSERrSDRYdFVBSEhjYl9lNzFZd1ZFMHZoM09XQ0taR3pOVG9NYU9yUERZT0E5eFhxV1EybzNFRGdvMdIBVEFVX3lxTFBtOHkzME5BY2JjMnpOOGZ0cS1CR1YwT0lMeWFWLTItM09ucVN0NWFjeEhmNzlyTVdTS1VfLVRremd6LUFMcVQ2bldjZHdmMVdzOUlnaQ?oc=5",
+        "date": "2026-04-19T10:04",
+        "source": "عكاظ",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアのアクワ、ラービグ第2発電所の拡張事業で30億ドルの電力購入契約を締結",
+        "url": "https://news.google.com/rss/articles/CBMiswVBVV95cUxNd0U4TUg5NGhybGFKeWt4SFBDZDY0aTIyc1U3cFdfQXg2ZmE1M1FIN0pfSU9wUDMtNHlzck5xaTUtUWRzcFFCcTBxU3REdWJ2d3V6V1gwTnpwaTFKX01NOUt4amQwbGRtSGowZUVRMnpXWkxoMmY2QjRIU2d1WjNZWHp4a2VpTVhFTWhERS1JbmlWS0d5bkdFb2kxQ2Fnejdmb1ZHYzl3aWZueUR5bXNOaU9kSlZpRm1LR09XS0J4eEl0Qk55NHZwZXUycXo3VEhYYlk4YlZqWmhOWDRuUzV5NUlhYnJtZlNSbFJWRDNlZ0JYZGp4R1hOLXZacVpucHR0cGxsQno0MXM5SEdyMHRyVTNTMnJLajVOeFJ4Q203QWNTRzhBU1pZT3h3a21WNTJCcnB6ajI2dS1OYkZkbXg3NEsxWVBqdWlZQk1odWljanpvaUJDUFJwaS10MENpR2hBdGlrSG1qN19HdnNyT0Q5NWdYVS0wekhfX3EwZzN0TGItYWdncnBWNFhnTk1tbFluZFNvdGtaSUdxdjZUY2J1S2h3WkR0R0FxZEhIVlRYbEpEU0o5Z3lsblE5VmZZR19yWjNLSEhDNVFnSWd2NzdpZ3V5V056cXBoT0hmajZtODY0c1ZNVmUyX3Q4TVB1TVFDV2JHU0UxblQ1Wmt1TU1HY3ZteFlITU5fYkZEWEFtdHZEZU90VElSNnNLWG5YQmdhbERqSURqOF9kSS1Pajl5WlRmbEhmbE5tX05hSExBRW9pZUVQRTZBNS1uSW9XekhZWUxFQWlJQTVuSVN2MHJjX0h1cnRYa2U1VzNfaXlqYmJIbXdiaU5WT29yS0s0bUJ0NDItRnVPR2ppMXhqbFNjdHhWUnBfNlZtLWNLX2FlcVo3eVdFd3Bhb0xaWEtHZjJLN05B?oc=5",
+        "date": "2026-04-19T09:20",
+        "source": "الشرق الأوسط",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアで羊の価格上昇、飼料価格は値下がり",
+        "url": "https://news.google.com/rss/articles/CBMi8ARBVV95cUxPVXVoSC1WWFNCbHlSZXhNMFpnZHdBS1hZaWNaV0RTd3Q5WXV0XzV2Um9wOWRpWmljNVpQREpQQ0FVLWJzbV93eDhDTDdWakE0MTFnRFRONU9ULUJCeUM3LXBpOFQwZWdhSnRuZnBKVzd2MWJiaHJfZ2staDMtYmRCamUyYVo0RnpFajJhRmFPcmVQdEMzUnRJTzhwX1RvcWQ0OHpJQnJrTHNPTTJJSnpJNGlZcnFLVHh1Vlg0NlNSWnR4WDk0OVl6dVpLOEluTnBHMmZXSUtwYWRhNFE2MndfeGM2VmE5V0lIMUtWeURaSGNyTnZaUXVZWUV3YTRZWUkwMEhTaDRrVlhrQWh3ZC12eTBBZ1lOQ2RhQ1FIUzM3OG1kcXVIUndRM09ZSUEzNTVzYThwWnQzcTRYMFcwLUIxNFNXV3NQZHF2NC1nWnRmNXhFWThGa2hGb2VXYmtrN3pLaFlVN1dPRnV4Zm5HbUpnc2VlV1FTNWt3SDJzQzlMZmxkc2xBM0tFZlJCS19yLU5lLXdZWm5tbVNhWUNkSTFXS1hBYUpSOFVwMkJoN3BzcV94RjFzbl81MzVTVjRZbmo0TmhVMzBaVWNUcW55UHFsOThCem9IbmMxVnUwYmktUmJRR3VnUXUyc09NMzVodHhJeU5La3RmbU01TWJiZHlBc1cwM0FobjJGZDFQelNwMndxZ0xKNm9abTY0Z0U5bkNRU2tabXl5TG02YTV1R2I0ZXBEQWpvb25HcElZNlF2SkFhXzVpTEtIaU1tcFJtczJ4YlFrbG5pM0pnaVhReTJTeDhqS2dKVmFEdmZOQXVnTkvSAVNBVV95cUxPTTFmVlNwaTkwUVBwckhuWDRpNGs3TG5FbzVBR0tFbGlRRi1BS1pfazBWMGhob0RsWkxJWXZVS19OcmZSUTgtV3lvTzZxdU5qTVdaUQ?oc=5",
+        "date": "2026-04-19T09:07",
+        "source": "صحيفة اليوم السعودية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア電力公社、アクワパワーから1150億リヤルで電力を購入",
+        "url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxQSGU4YVBROFE3VlUzcko4R0t3UW5pc0EwZGpOTUdHTUpPekdUdXdoNG1UdHdveHVFeXplX1ZJV29CLXNTSWxfNUlPNE5UQ1dkYWtqMkdsUC1xenpWRmVlS2hmVFJGaXVGQlBuSEFaT2d6RDljVHFDdXk2TnlOU2wxUzlWMWtqdWlPUlhBOGlzaE1lcUlBSWZvdzBORjdnUWtZVW94bl96MG05ZUZJUnN4N3BtenkzNE5JRUdpaUxVOXdBbF8zNXZVUVV6MjljYjduZEc0cGxtR1ZoWmdfR3dkRGJCa3BnM3Q1Y2tIeXBTTldSNV9PQnBoY2lJeUl3cUNRTWxxZW12dGxNcERUQlcxbGNFQ3plU25ZTWpVSU9qOWdCT2d2ZlBDRDhyQS1zMW9ETFZGbkZDczhrMnJFcUdUcEV2cEJ0bU5ucm1XUkpxR0dtWjlOaXhKZ21HdzZLcFF0Wjd1SmFSMDFUNmctTnVXa2hzVGVkWldqMzFRUUFzazAyc2tad1F3alo2X0oxQldia1RpLTdxTmNFVkxrWHpnN0VWZHU3bFJpZWlrN09TVWZpUDZwZTJSdg?oc=5",
+        "date": "2026-04-19T07:48",
+        "source": "اقتصاد الشرق مع بلومبرغ",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラムコ、最高格付け「AAA」を取得 見通しは安定的",
+        "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxPSUxLZkE5SG1DVXFCbWQyc3dyODQ3V2NaLUlDa2xZRFoxZS1MWUstN1JxV1dOdFdmWVZzNVB6RjEyN0U0U3ZTckI3WVVRMFl3NjZxVnFRelVGenNfSUJ5ejBZU1dtZWNhSTA2eGNMbVFqZUp4MkZycnBpMDRCZGZmbEVJYWFBX3JsQl9fXy1uck5EX3Jkb1BGeWszYnd3LTlWUm1HdmhPbGIxRWhhck4zdFRZVE5Xb1RKdl80TGRkREFZUGNyQ3JXT0lpdHc4OHNDTzJ3X1Y2d3N0bmZuUWQwVWlNd3lHZ0JkRUtIMmJmQXpyaGlfeUpIVFp1TG0wMEpHcDNyTTVXeC00STFKcDI4V1l6d0ZGa05PWXpZS1FrM190aTF0cG9NWGNHV3R0QUxJdThuVERGVmV4aWVvcnY3N0VGZkhWUzNOamQwNW9ZSWZYOUVpdkhrRjlWTHBuYjVuaU1wOEJWVklzblA1cmhEVlZGVmtMM0xka2VpNTBMMHRnZndyRTF3SlFFUHV6bUxzQTUwTzVhbXgyU21pd1Y0WTkzUlRrTVpWaVkxb0w1MHZ4NEVjNkFvUWpKUmg4ekx3TkMwdk1mRGdQSkYxVE5mTHVvaW9lN1U4WmNj0gHgA0FVX3lxTE9CQ0xZTUhHR0Q3dnZsbmpjNUFRVGZxVjh4Z0dsRWNtS0l6dGtYakJjZWlUUHIzTlZCVm5ZYlNLaTdPRTM2MmU0U1BOSWV1VkdISDNIYm92dUFJd2MtYnhxOGl1REJENjRYM3NaV3c5cjFENFcxb3FFVEVXLVppaWNOd1dEeW8tV0VxZUNZRzVnV09vTm1kd3NjOHExdlRKV2sxeWVjcnBSOVZERjZGV2ZpVnZ6Q2p0VXJndVcxY3RwcmVGRlVvTTF1T29QaWtoNlVNYUZaeTRIZDMxOGZFRURveml2TjM3VzlBRkhLM3l6MzNqSlJqQ09TNEx3QURMTjlTZlRZOXFCaWN2cDQzWEdUcFc4cUxlVnlRb19tdjViclFTZHMwZ25VcEpLVExHLXVkbnlIcXFtQXhCTXlTWHA2c0hQTndhaVdFYk16cXg2OTUxOVBJOHROMWVFdUJrSUZ4ME9PUjhnMUZrWWhiU09EbjE3YnQ4M24zblRidUV2dTViTThKWktBYkM5T2lOSmdDMHRndVZ1RUh1ZzQ1UU1Fd01GY2ZuNGItazdXYlppdno4Q3IwVkRCakJpRllpZnJpakxYbzFJNlZtWUJmbFV2Rl9sblRrV2lldVBRbWdLYQ?oc=5",
+        "date": "2026-04-19T06:28",
+        "source": "العربية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラムコ傘下のルブリフ、取締役2名の交代を発表",
+        "url": "https://news.google.com/rss/articles/CBMirwZBVV95cUxQSDV0b2FZekxQZ1hBSEFFXzZJN3pkWHVMS0ZvQ3FzSjV4Mk1nTFdnTUNBUTVMXzF5U2RHdWdoY0tXcnJ0WWRocmRKVXUxUzJkTDZzQWxyZ0NwN3d4OWhSeEtRcEtQNV9qdTdZUnk4UHJQX212bTBXZW82WldaVlBLQU1mUERZeFVhbnFoOWpKQWx1NFlHNm9xbW5FMGhlNEppMy1iQ3RycGR0TU9wc3NKUTBuX0pITUZJRGdrR1VZMUxVR09HdmdSX1VSaGFtTkVHZmdXaTQ2eFpmeTlYdzgzeXdVZ2plX240clZXS2kwa0IwdnY1bHFRblp6aUpzb0Rab01icmVRZEpHN3FMaHRYTS1xUzNLczh2aUFfckhEWVFjSXBQMG9GYWE5cEdKclBDZWFTQlU0cng4UnJBTU9Sa25kRmx4YmREUGVNUjBCWVVaVHdlbU1KdVZpd3I5WkR0MkhvdDBNSlIzYU15NXMzUGZHdTJRSkhtSXFTRGYtaTctRFg2UFZFazQwSTBodVlEaTdWWjQ5dnk3ZjhrU2o0OElyRWtxNmI3ek90SVo0dWszWXE5dWg4NWpCakJ3MThFR09fSW1jQ25WTTlEY1gzSU51am1aZnFGcGhQTDhrN016V0doN0dLcWFhNy1Vd1RmcElhQWVFenRtOW13ekpDX0tZQWl1RnhVUDQxOVRuVG9IWGVla2pIdVFBVFVRTGg4aGlYeHgtZzg4UGJiRDh4YmFaRXltQXQyS0pJeVd2bnF4SUpBZm5jNDhTVi01TEdXcXhteVlHTDRtTk9XZ29sVnZob0ZsV3dpREh3TkdIOTlSalV2ckFSQmtUd056anFFWmZkRmRBekRlbVpZZzR3aU8tQ1NLcnBUM0xBTGYyU2U5UlVLTXpnZGRfM2Q2cVhlR2plZTlMcUZ5QW5FYlBoZTFJeXl1NDVvR2pKZEhXYkJWNUluU1RYR0tlYURGNUV3czVILTh1a25WZFltR2k2MktxUml2bTJCb3RyVXRXVTNCdU1rYk53NlZRNVhPRUJ1UjIwQ3F6ODNrcDU2VHI3SHU0UTQzTXViaHdBQlJpZw?oc=5",
+        "date": "2026-04-19T04:59",
+        "source": "معلومات مباشر",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアの自然保護区で環境違反を摘発",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBQNklqSmtyN2JDVzZSLUk0b0wwQ2Q4d3FwQzZTRFRnSTAySndRY3lObnVnYXpfV1lZMk54Ukp4cUNkNlgwU2Vv?oc=5",
+        "date": "2026-04-19T04:59",
+        "source": "sabq.org",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア：巡礼者の到着が開始",
+        "url": "https://news.google.com/rss/articles/CBMiygNBVV95cUxON3RabFpEYkRpcFJ3TzlfdW9iZ1JKcWI0al8yWlRNLWtsdkl6VnFCaHRYWGF5VFNSYlhrcjEtbFpVX09qUEQ5X21xbEx4aU9jYXFBNHlEZDQ3M3lFMGhvSUpVQl9KRGFLY2ZrdUx1cGVwQjhWeHBaSHZ0cVZqZnEtODJoaUd0WHNkamlRMGR1N3AtYWNWZDRRakx1QlZGN1pXZkIwT2xsaFlQLXI0SGRGcElWRzFGdHBTdUNJS1RPVW4xb083TXZKSmVSRDg0azhGZ2ZyZTVxeGNUMmw4WGRvMlcyNG9BdDM5Mk5LdFBKbFB6T0tGZE5LWUluejVncGpOYzBNMWdieXJHeXhHZ21WSndMR2ZaRURWWXN5UXI1QlN2cUJpbUJiTXlLeVQycnBXbXloT0VtbHRYNUl0ZU5LemdDSVQzZ2dYaTFDRkJPaXJnTFlYMm9zVnliYVhEZU1GRGtZX0tzcERoVnlkdUZVV1NhVVllTHdwLVhjVEx3RHNERWhyTUg5eVRGUXQzcXliUHZjUHVMajFna0xuMkpvcTlqSFYyUDlzYjE5WmJzRklQWG5CSk8wMXIzeERVTDJ6R0twTVU0QndoZ9IBzwNBVV95cUxNSWRfdUhzb3kyNm8weGg2TzdfY3BFUmUwVmxueFNaVkJKd3diYVdicVlVaUVnc190U2FLRldoUlV4OHNqbVpzSWN0SlZsa3B5MjNJbkRMb1RWNHd5RVRWMW0wakg4QUdvMHd3ZFJzWkFUaVg2NXJWSTVSTnZFaEI0UWxMZ3lGc1VqaVI5aHRYc1VoRG9zUFFJNkpXckpENkFnLUJrOTA4NUtjZDBYek5DdU1IR0Ytb3FqYTZvQW1JZlA2MXotTjhla3U3eVNtOFR5MDBIUzN2TVNCbzhiWjlyT1VMU2hHeVVzU0RSTjNDRDJqUl9xRnZrcTduUXE0cE0wanZmcU5kN1htS1dZQ0RudDdOY3FOTEktQlNScjBUSUpoME5hM2tNYWxZQ2hWei1wbTI2bWlkWWNYb1RQVzJwYkJRUXhscjZUalFwVERwTTczdWdBLTBmNFZpSUgxblhhc2Y2ZUpKcVYyR0dYMXdjTkhDZU80VGNGTFJaOWZzVzYxbm5OLS1oSTJHUEV5cEozeUdNNC1kMmZ0TmJwRGxidjY2MTNFVlU4bXJSekxWTHB5UGVWOFJVT2RVVTF3MVR6WWhlRmtXLWsyVXV3RnVv?oc=5",
+        "date": "2026-04-18T22:22",
+        "source": "العربية",
+        "category": "社会"
+      },
       {
         "title": "サウジアラビア、パキスタンの巡礼者向けに「メッカ街道」プロジェクトの3番目の窓口をラホールで開設",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBhSjlzVGxfeXJjT2ppNDMya0RQdGM1VkRyXzNMczlDRWVaVnF1SllBNVFiWVNENTZuRTB5bnVwd1ZORXdsUm1J?oc=5",
         "date": "2026-04-18T15:59",
         "source": "sabq.org",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、パキスタンのラホール国際空港に「メッカ・ロード」イニシアティブの3番目の施設を開設",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8ybFlwdEJiRXhoRVNCVlMwOXFuelBpbWpqMzh3Wk5PS1FZX19seDJaOXg3MnNrZGZ0TmhWamZsMWw5TFE1LW8yWUZsRWlDY1VRcV83cFNRZ2M4SzZNQVlj0gFUQVVfeXFMTXo5SGF6b09neFBzd2d4eWRKTXdFN042cWpHV1hMcVdId3BqQU92WlRjaDBuUzZqd2VWWXc0c0gwcFFKR3dkWEtoaGJpY3M2dEdqWnhH?oc=5",
-        "date": "2026-04-18T15:18",
-        "source": "عكاظ",
-        "category": "経済"
-      },
-      {
-        "title": "ラフィーニャがサウジアラビアの関心を集める サンシャイン・リーグのクラブがワールドカップ後の大型獲得を期待",
-        "url": "https://news.google.com/rss/articles/CBMirgZBVV95cUxQWVBkbnhvbWdCU1g4REpoZ2V0TWVoMVltY25KdkF0dW40bzVfZzdsOUhnS1pyYWtlOGRIU1VBRFVZN1puMkVIZlZzZ0tUUm85OWVPM0h3MFd4UlRnaHBYM2RPVDY1TG5KX1VPYlM1UHpHVmhjMjd2NUdIdGNDSGprOFZaZFgtelREV09NVVBqTUwxTEZ4d0NhSGpzMDA5d25sR3MtdUt5bEFVSlI5S240RFpHSm1jYjA4OG90U0l3N0ItSGJiR1NzdmJmSEVqbVRxdW1RWmJWU1VXWnZkQjVqdGpDX2lwdDVwZ0dvRnBrbFluSDVCVnFkMUFzT3F2Q1A5RjRCLTNRSzhBVXZSYjNiSi1ZLUt5Qzl0Zm9mWU1Tb0VUYUtDSFhyd2Qxb0Q4eTYzbTZyNE1OZ2t1MmxZOVdQdi15SDZrRUozcm9hZmtEZ0tzOUx5Qm5SZGxfRFVxYmlRLWs3WmlHc2hWSEpmekFSUGVLX1YwS3ZhVFl4aEFfbURSSW5MaExVMTNqTjJEcXA2SjdwMUIzQjNWZWk1UXpEaXo3WWpkUUhGeEFXWEdpRTdQckluTjBRT1FYM2I3cl9KTjdCVk1IS05VM1lsVmJNSmdVbEpPS1JDRllHQnp1TW1aTWxUWlVGaURIeXdMMDFBN0h0eHVNTUdvOGIyVXBYd1lmTElPODlPV2xSRVNHX28xcGxNVXlhRXF5Z0JKc0hCOXFmbXZUbG9VZnU2aTJBQXdxZWxhNDdRZTZtVFFPV2toeHY1a1V0NnhDeTF4Ri15blV6WDFRd3k2THFqTi0zZEpHb2daUUx4V2ZkSHF0aG80RERSQWtUM1ZDd0RYRjdvUzlmNGZiS3N3NzNodU95dE45eVMyU2dVUFVaMU1DYTVWYnJYVDJQMVBrTHJsTlRWM1h6cGpKajM2bmxzZDUyNUNQbzRtWHlpMC1adjB6SWZTTElHMG5XRk5kLUIwQjdPRmNNdFUtLWRQVGFoNF9OWXpmVjVXaUN3VXY5QUZBZm82OWthQ0Rleko2YzlDTGxWRzZBdEVHeEVjSDI5cDFWMTVnZmMtRWxSQnRQandR0gFTQVVfeXFMTUV6X3FmMk1XME1xX0lHaDJ6cDE3YU5zSUF6b1RtMFdEX0pWekNSYVl1ZkpxM1l1ZzJFZUxaVUJVNmhCNkx5VktXRFJ6SEo5UER0R1U?oc=5",
-        "date": "2026-04-18T11:45",
-        "source": "صحيفة اليوم السعودية",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビアの衝撃後、サアド・アルシャフリがフィナルドム、アルガナムら主要勢力の合意を模索",
-        "url": "https://news.google.com/rss/articles/CBMiwAVBVV95cUxNM3JXNHVWemJGQ0JrUmhfT05sUDZIMmhSMXF1eElPOWMydWE3anNuVTZJYUh2QUpUc0pRMzdyemNraVJ1d0lSUlRCSHpEWllEcmpsN0xHeG53YmNTVDV2ZW93VGJ2VEtSZHNtUTd4cjJDaXVOSjVMX2JPU3dMTElmQnVsZHJZVm9NSktRUy0wdHMxMTRmLTNBOV9jLVdBckNReVZFUl9IWkRPb21GR1VzSmhYdl9waVc3Zm9ma0JyVzdMdXNhaFVpbFk0YjMxamhRY05jUW54d2ZkVUNOOVRCdXZVRjdJYXc0T19RSl82NE5IY3RlaHBzajZoZnNXbDJDM0ZyUC03RW8zX3Q3RW9objlJQmlaNHJIUmN6Q3ZHTWV3Ny1jTmlpaEY2Q2FlSW9FdXFkMW1EQXNKUWVBS1h4Q0FsNl9oY0hOMjNtUjg4cnFlMV9qb0xIV3ByMzlVR0pqU2ttSnBKZWp2ZDFvOWpRUzRUZUxDeGp4SThBUUozWnBhMktjRXVIVENZM2lWQVp3VG0ybGhJQ2xYSnYwYjB4azBCbHcyRS16S3NBRWZ6eVJQVU5EdkV4UzM0dF9uVGVyWXdIY3ZNbUNnM2I3MTlWU3ZOVWUzU2UtMlNhZmVJeVVtZmEzTUgtMEV2ODhObF9ZN2Z4V2NWNy1yOHlrUTItZ3hObTl1d2ttMi0xN2poVWJtdEtGNk1mU0JhRUw3OFpxX2ZjLXhQejdSNFMxcURYUzN0LW1WNUpQQkhvTVZQZ3V5RlpLVWZiWmdSRTlHY2xqbEsxVUJpSm04ZlRfSktjV05nWFM2YmJVcUJiXzl2LVlxNkxKRHk0WmVEcVBXNWZKMWliODlZWHFVcGxqNXdhZndSR1JwQloyalhEekFUdnpJSVl2UHZheGVOXzdUR0RzYTZNSXM2WU9pVjI0Q1BDLQ?oc=5",
-        "date": "2026-04-18T11:41",
-        "source": "Kooora",
-        "category": "政治"
-      },
-      {
-        "title": "「メッカ街道」サウジアラビアが聖地への巡礼路を短縮",
-        "url": "https://news.google.com/rss/articles/CBMixwRBVV95cUxPbUVxcXBHZXdqWUVHOE1fRlZYem1taUEyWmdHNFRZc05FMFlPQ0NlWGhnenFyV2w5S2U4WnlWS0ZSWjRjcnBWNmtFWGJ0cENHRHc0d0lTcXB0UmktV3BJeU1XMUN5VEJzN0JuUTRsT3RmWWJVbkJsSG83UjA5SU95dEhiWnVfUHZ3YjB0SXVRLUZxSkVaZXRvTWoxZE5SVnk5cU1xYVhzRHVRMWdRSE1wUHpvM2RfbFlvSUpfUGROem14ek5UUHVaUUQ0b0lsdVZJc25FN2dSR0VPc1VXWjQ3QjNtY2NxZE1wdlFIMXI4dF9OUmx6MFRndGhuWW9nR05LRGszNnFCbklWalE3WWptOXExcE9wVGJfVmRjRUdqaGNLNDAxQkdRNnVZbW5nU3h2cFdUc1E4NnJsaU9SbXBtcktPbkJfcWREQ1JUc1daLUlaQ2pON3ViNmN0NDVJRlBIdXhCOTN3b3pfLTNLLVJURmptQW9LRnB1R0xILTZsdzJHRjlOWGFMNXBmeGJjc2xsNTFDU0Y3TFZYSkh2SEFxbmg2MFM5VDdWcnBiTEQta014ZFBBVV95SkVYVWFSRmE0aXdPOWF5SEtXb1kwZFpUWldhSXdtS2RfZVc3dXFMbDBrLVplcUtJSExxSFlRWTVDTkNVVFdNZXVpMEpNUFMxbFJRb29oWUpCcjQ2ZkxBbFFnbUViU19faFA0MWJ0MWl2Q3p4eGFBREtLVWNYM296RDNaQWZNbTNsMjFMMkVyUmNkMzhOQVow?oc=5",
-        "date": "2026-04-18T11:02",
-        "source": "الشرق الأوسط",
-        "category": "社会"
-      },
-      {
-        "title": "メッカ：カアバ神殿の下部の覆いの取り替え作業が完了",
-        "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxOY29oZHUzdFV2d3BpckUyRXRmeVphbElrMHVjYUtnbGdHdnZKRC1xVko0T25BLTdNYlhqNDl0M1h5VmpIVTF1amNCNnc5QktqRUppUktHQWV4cmhPY2pSMl9VYTBBSzk2TnMxLWRDaXZkODVOdnJXbTJjM0VvcFNrUXBKeTNQcWhjYlJBM0JxQzk4WXdJVTFTUUFmYTN3QURFLWQwdXVnWk1XVFVNU3J5YVNNMWZlVElIMXpmSm8xZHRuVUZ5eUxPUGxxNWpYdkw0NElyeGd0LUFJbWE1RlFRQjRQSkhDLVJDZW5mMm4tQVZfQlQwaWJJR0JxWTBKeUlCWHRSRFhXRXVYdkk5OFhrQ09qcjdQbGp3NFpueWw1UzNkZGVXOE83Z0kxVzctOVFuNVU1dFF4N1BzQWJFVm8zbzZxUkMzSHpfcjlJaDhFZDFyd0NYeXdrVXE0UXZmeW1qSVp4cEhtN3BzNkhyblo2NUdvWlN3V3NNeEtjOFBfOVFSZXJRanV2LVRGaU0yaWc4LUJSOGhFekl2d1BCSTdTalNLQjdJYmpXMFZTaUg0bUN1REV4VmdOa2FSLU5yZnBhUUZCaE5VRU9VUlZLcjdnV1JtRU5jYUQ5UlBN0gHgA0FVX3lxTFBpWksxUkN3d0RBakJWS0s5WGJwU24wSHpkZkstZzVZZWxiLUZKQjFUaWtKYlJxdUF2Z3psLVhydkl3UWotdWo4QzVvd2NWTTJyZ3AySk03d084Q1dHV29OODNKZnRpaXpQTEwtcG9fRTZDM19SSzBBZHZ1aTdhS2lfb3NnaVpzXzF4eG5aQW8tMXFvMWN3QUh2RFdSYmZvcHRjUi1KZ1kxUHduOXZCeTJDWDFTRHBGTW9iZ3pfWnlFcjdNcUdQaGhpWGxXR2JnRzgzMmI5al9jV25XekcwR0ZPa1REcHhuX3NTMWxpV2RMamJyaURHcHlpYTFBN3dVVjQzYjBiZVM4ZnF4blZYbmFFclBQTnc1X2hYcnc4ajhhRWp3eTRsS1JkLUI3cEMxZ3NuRGdrc2dzNUhzSUh1aXVrY3pYcHo4ZzZxN0lTWU94ajJoazdMS0NGX1VZNkRwOEY1SmtFeTZkU2pJb0ZyYlZvT1lzWVp0WkJwSjVPeTBNYm1PcTRKV2dKaWJfZm13OFd4bktEanlrS3EtMWpsbERwZWpuWkVBX180bkVzemt0ZFhZcV9NQ2U5c20tbjcyVnlnRjJRUmdFYXFjam9FbWowci13Y2JITEVyMlduSFpQVw?oc=5",
-        "date": "2026-04-18T01:37",
-        "source": "العربية",
-        "category": "文化"
-      },
-      {
-        "title": "サウジアラビア、トルコ、パキスタン、エジプトの外相がアンタルヤで会談",
-        "url": "https://news.google.com/rss/articles/CBMikgRBVV95cUxQUkdqbHlfNjZaWjR2WEdrdmVJUktSbjd6OHlEdXNrVW1pRjUtMW5jaFVnOEhpc25qc0phTHBaOG9pUnVqUnVfT1BHM1gxVllUcXZuM2FFb0JEckFnY0dTUW5BWUxPaEdNMElwU3ZHQkhKSnVjOGZJR0VqQjhUQXk4MkxCQUV3NERudUtybk81ak1YYWw3WTRud0k5aUM5VG5NRWRHbC1CLWNHWHhMb3VVeWZQa2hRMzFnU00tUHVHdWh5cG53SGVIWlNMUW1kT1J5aHQ1Z0pCaGlvSlBJQkZOWDlfRXBoOXFXTXJxWlUxZVNCSVgzYWdxalA5RkNYWFBnLWp1aVluVXpMR0huR1huM0IzZldCRXZvbEJSS2ZoTU9HWXVNVEFWUEJxTVViaDBSSlIzWEZ5ZVNhS1BXS0RZWnlhZ1NRekk4NlhqNmpiMFVyOHdEb1RQQjhaNTY5RHRLa2RzcGJJVzdMSnpzODNWMWZlZmwyd2VyTHhVdEZDaGVkUEQ3YjRKTkotaHFZYVA2SHVIOXY5emtUTjZkWG1DTzVXQUltOTFENFZsZ2JtN21zVjZKQS1SbFI1SUJuajlzV24yZVJqTTB0cmtSMnktT0k3RHpfdFZHZ2wyemZRc2tSdVhORWYzdVdPdTNTekkwN3JobFVXS2RXX1Vkam9KelVkdGlFb3hDcC1wdEs2MFlVd9IBlwRBVV95cUxNcEpJYzFZSGdMckl2VjN2WElEMGFCVFZPMmFadTkxSWl2bmNKbklSbTV0b2xBZ1VyN0Z3OGtPT2hpNFNvUWJ6UWpRVlhfcmFmNm41eFh4djZuX2JhNF9tU0xNNDdRWENVUklCRHIwWkJJaEhndVZzbV8yTmRwYVZWUUpJa0JudnZVdElLOUwwcVJhLVpvNDVCUkFJV3ZWVG81UzY0d1B0MUFrdWpJUlZTelNJVzM4U0lZTzhIZnB3VXBsOTZBVlVlbTQ4V0lYeXVCTFFtSTBjZmxkaXgtVHJvOTRCYWwzMlo0Zk1DSUFRV3QyRTJhVldsVVRqUmQzakhBVF9GSWdid01zNEV2WjNmTlJ0YzBaUW83UXJqel94YWhsNDRBX0FlV0xVU3kzamVzRVdmbHNTMlhMalFlS1lKLW5nVlRQZ1MtNU1aalVSOUg2bjFJXzJxQ0tTSTV0bVl6TUJmQVMyaVN2T0NCcHR2QndOTzBXeDRlUnVOcm44RWVpbUtWWHdaekJfbFhGbWNMQko5N05keVRDeWxzbThGNlU4VGFTb1RNT2EwOTRTaDh5QVdIZVBCYTkycl92SFZUN2Y1ZW9uczF5ekNUSmxvS0psbFd1cGFycjhoMUI3MUtrbU40QUp5MnZ2Y1Fpem40d24tS3BJUUI4d21BSzVNd0gzdW56R0UxVENOeVNPSnBLdmFhakMw?oc=5",
-        "date": "2026-04-18T00:02",
-        "source": "العربية",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアとアメリカ、ホルムズ海峡の航行自由維持で協議",
-        "url": "https://news.google.com/rss/articles/CBMi4wNBVV95cUxQMDhoN3ZyaXAtVTExY2UtUktJRjY4LTBicDFWODhoUXFiSjJuUlF1Z3pqazEzRGU3S3hub0xEdHpobTFzcGVlX1dKa0ItSlpWTFpNaVFKbkc1WEc5YVZ2SmN0c3FuOUJFOGthOVJ5dnZldEVDYTltMDE1TU5uUUNFTnVWdlZSNHZuWjdnVG1JMWtsWlNMMlBmSF8yMU9LbnpZeGNpR0NSSlBIdndqakQ4N3RVb0xIR1RVblNhRGVTUU9TZTNOb3RXb2JvZmM1blZaa0J5ajJ6NXpUU081aUtHOVphbGM0SDY0UzhKakNBbEtoa29HMC14NWNmVjNVTUQwN0JFcGE4dWx5NUY1N2tpLXo2Y3htSy1mc1RVS1NqekpmUlpxRGRraHM3WWZZRTU5SE40bmVPbXNtX01Fb0diWFoydVNyQlVyTThSbDh0TUlmRVBTalVMNWl5R3VMMWl3UnJEcVo5M3RiZHp3Q05rMVBic3JYUHFNeE10dzRuQUtLUTlUOEFYZGctWHpmajNUV2E1YktlTno0WTQyZHdieUNNX1dmMDN1S1VHSm5RaUR3WW1MeWlJMjkxc0hrWDREamhlZzRxenVPSE9PbnN1WmFZWjlZTnNIQVMtQURpRXhlVGM?oc=5",
-        "date": "2026-04-17T21:21",
-        "source": "الاقتصادية",
-        "category": "政治"
-      },
-      {
-        "title": "ワールドカップ前に交代へ　サウジアラビア、ロナール監督を解任",
-        "url": "https://news.google.com/rss/articles/CBMiugNBVV95cUxQY0t2Q2lmMzk0UnBlOHN2aTVXa1BDVGNOS1lqSV9SSmJKVFJ4Ny11cHZpejJORzZPT0o2WXVoZXhKN0JDOHB4anJ3ZHJ4NWlmaVpGUkNjYWd3ZzZXajlJVnRsV1E1SlJZUFNFdDlmb0tzNXFDSGlHLXdJdDJ6MVdvczF3RktjTG41Y3hGODVXMVBaLWtjT1hOaGF2enR0OXF3ZFY2NHdKSDlFUmtJWF9sUjBaalpIY1lDLUp1UEk5bmg2MFZENUVJRWQySjdPdHlsS0NlT0Vhb1ctTTVSOFk0bVRYRnU5R1B6U25ZLTRZTWM2aWJjNUxjM1dUeDYwZlpoQ2ZVek5DNkM3T3lpYjVWdENnZmJXZWE1S093clQtdnRBR3VFV2FIdWMyTEVoSXQyTFUxY2taX2VkYlV0eFhFN0dON0lsRnJMUnpzb3BUY1M5Tlg0UTVWemJOSDVVb3NSbFVNWHYtajYtT1BBOU55dGxmRTFBZ2pnbDZTZ3NrNDRFRnZNOGU2U3ZZYU8tZ1dLUkF2WjV2ZUVJeU9wSjZQX1Jrd3FNa1FNQnQ2eDJ3WkFINWNlejY3Y29R0gG6A0FVX3lxTE5pbjBGNFVrOXlGeVJNOGQ4a3JFbTdsN0FGamY2Q0wwbTRWWG5VRm92N08yVGJWeDNENUtsUU5pUEQwUV9TSEE0MDVoTmlZV25kZlRfMWo4ZlJ4cnBKZGFPSGM2SXAyN0k1aWxOT0JpU2JLMFl6RkVQMWhXczBpdHQ4NnF2djhEUndYU001aVB1MzV5cGlPSXhLaXBtb1NFcDA5X1E2ZzVoNUNUbkZrTEp4WV9tWEdOT2l0UHdDWmM0dW9ZYjN0eHhvRUZBVjVJTlQ2WElYSGlGTmdMWXdoNlRqVGJGSDM5ZU1kNlN0Rm55VUxaNDA4X2p5UWdveVlpOFgtQTF5bGVSMjFraXN1ZW1ocVJkR1dGc3BFNUtTTWxZcVFkOXZBZDZIMDlaTjdZTHNpRkxLendJX1RHZnlwRGlNQ1NsaW1qVDN1enB6amZ4SER5NWs2Ym9mZ1owVG9veloycklKUmlkVTJ4aWR1c1VnaWV6ZHFEU0lfQmNZeVFtNlZrUEVtNTQwOGdpVnkzQlh2NW1WUnFWa0g4WlNMMnNuZDQ2Nnl5TVFwaVpqNWxCNF9vRmFlQUVScmc?oc=5",
-        "date": "2026-04-17T21:13",
-        "source": "DW.com",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア、巡礼許可証の取得を義務化",
-        "url": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxOcHRBRmZjMmtidWpmNk5wQ0h3b0h2NXdwWFlSbDQ2RWdjWXNjRWJwQ3A2WGIwYjd2Vm53QmRxbnZERXZmeDdRV3BaVW9JMWVCcmtaN0NEX1owZnhyS0N5bnA5MUpGLWNWXzV0S2JZcEhzWkR2RkhwdnlCT09ManF6QVl5QU5RcGdzUWRiMHpnMDF0YV9famVZVzhUcU4yc3U2bUFPTUhRM2tXal9pQ0F2dkJxTndVVFZrUlhxRWYxaFFIbW00Qkg4Qnp1RjNmbXJLWmJjR3IyZlRlQjlrT1k1a2I0Z1E3WmVHaGJLRHB5Q3A5bmNiVERTcDdwQXJLM0ExdVkydWRKdnNERS1nMmRlQUJVcklkMUVFUmNKVDNnQmF4LWJUbG5SeXJRY09hMUhRcEV0MUtJdUJYc2U4cXRkaW9NM3JNM0lrRkZVODdpd1pfQ1R3YjhpUEtvNm4wUG1zQlRWYkpmdlNDZVc0T0hvcUljb1NtXzNjakpaSEdiZVdUeUhidHcyS0FKdnhNWFJsdmJxbEI0OHRLVkY0VTY4b3NNNkFUTjdBWU5uRk1WaFFUbHd6a3R5bTFQLVlnLVVzQkptcHpwQ2h1bTFEb3RfbnB1VTJPcUxlZ3BTMjVqUmJJdlFQMGUxWDBwRQ?oc=5",
-        "date": "2026-04-17T20:16",
-        "source": "الشرق الأوسط",
-        "category": "政治"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-04-18T19:29:22.737570+03:00",
+    "lastUpdated": "2026-04-19T14:06:11.572117+03:00",
     "items": [
+      {
+        "title": "ワールドカップを前に、アジアのチームが大きな変革を遂げている。ナムディンの元監督が解任された。",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeFNkMV9iOXFwSHNKb3lTMFdOcmptUDhyb2xUZU9tT1VVWVBiaHFyWjZQNEZtQU10OE94cHN1azdza3I5YVZrcFdyaXRJd2FCYkdGYUNjYWp4cC1TRzNfUkhhOUhMcXRCUVd5bE5DWm16RGxrTFVzeUt0WjdhU3dKZXVzYmswOG5ORkJxZlZMZWwtcHdsRWxvNjMzakRQaEZpTklXdW1vcG9YS24x?oc=5",
+        "date": "2026-04-19T06:38",
+        "source": "Vietnam.vn",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビア、アラブ・イスラム諸国とともにソマリランドへのイスラエル特使の任命を非難",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Xd2ZLeEt4OFBKUEVLU0xudVk3UXFfV2VOVXViR2JtUnBfZXFKZXNQTEpxTFctNVcwYjRNelI1TjduTUluN2RYME9nRGhGc2xyR1RjRVRabG96eW1BN0lxVHZCSHBrRkpNZ1V1bw?oc=5",
+        "date": "2026-04-19T05:04",
+        "source": "arabnews.jp",
+        "category": "政治"
+      },
+      {
+        "title": "国連はサウジアラビアが100万ヘクタールの退化地を回復したことに賞賛",
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5sOVpEVU9aaV9QTjNnMWs2QzJvYjFtaWltSllJSkdyU3lQVVUzSnJMcXRZSlVVNDRyRTh6MzI4TkQ2VzTSAUJBVV95cUxOTGRXMlY3dHJUSnRoRm9zWUEwdGM2NWZ0Vl9JSTZMX2lzSlMxbGJmWW5HazBBYUkwV1M3dDZBNjRyZnc?oc=5",
+        "date": "2026-04-19T03:00",
+        "source": "VOI.id",
+        "category": "社会"
+      },
       {
         "title": "サウジアラビア代表のルナール監督が解任 前回W杯ではアルゼンチン破る",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOHgzZFZXczlHMEpXMWRUT1JuMFpqZ0tfN25fSXFNaTV1ZUdiVC1MOFI5dFZ6a1VRM2ZuMjBCVEJmN1BIZkVSUkJsZEtoSVBSYXFrYkZBbmp0YTBPN05KLUlNMUo3RVRCVXI5ZlllQVFUNlBnOEoxUmtqU3FBWnh1elJxV0tJcmI4M3A5ZGd1MW54c3lL?oc=5",
@@ -298,6 +319,13 @@
         "category": "スポーツ"
       },
       {
+        "title": "W杯本大会目前、サウジアラビア代表指揮官が電撃解任へ…開幕まで残り2カ月を切るなかでの決断",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1GMTRrZ1pyOUpPSGVBNVFyd1JpVDZrNDE5clg4Szk3MmM2NHRMdC0xc1F1bktnLUllQWVsQnRNWVhmY3lqUWlfYk1LQ2dxMk5lOWZ0c2VtLWZpSjFPa0puNGx1Q2VYdXVPWC1ZU0l3VQ?oc=5",
+        "date": "2026-04-17T15:15",
+        "source": "サッカーキング",
+        "category": "スポーツ"
+      },
+      {
         "title": "サウジアラビアに激震、ルナール監督の解任が決定 直近2連敗…W杯まで2か月で急転直下の決断（FOOTBALL ZONE）",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZaHlNbmJnYWdJZXBxMFU4ZzNPVUdlRFI2OEhMN3F0SldHUno1T1BwcU1JNXZRNWRHZlhTRWN1bU1Va1hkUXdDQkEzM29uZTBhV05Mdms5aGJreUJRSHhrMjcxejhwQ2xBdnVkN1d1Z2tkaDZsZ3U4b0R4OE1iNjg?oc=5",
         "date": "2026-04-17T14:25",
@@ -317,34 +345,6 @@
         "date": "2026-04-17T05:24",
         "source": "jetro.go.jp",
         "category": "経済"
-      },
-      {
-        "title": "F1今季カレンダーに再変更の可能性 アラムコがサウジアラビアGP復活を後押し（TopNews）",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aS2hHRzdHSEE4Nm9LUUxvaHpoLVhBTExPTE9wWVRBMFgzRTBWNURHWUFOWnltdEp4RjlYME4xNU5saHRwMUZfVlpzOWxpdkhreGw0ckVYZm5FbkkzZVNqbURRa0ZPNG0wQXQtQlJTeTlzMUtNdlpJTHZoSU9fTkk?oc=5",
-        "date": "2026-04-17T03:03",
-        "source": "Yahoo!ニュース",
-        "category": "スポーツ"
-      },
-      {
-        "title": "W杯本大会目前、サウジアラビア代表指揮官が電撃解任へ…開幕まで残り2カ月を切るなかでの決断",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1GMTRrZ1pyOUpPSGVBNVFyd1JpVDZrNDE5clg4Szk3MmM2NHRMdC0xc1F1bktnLUllQWVsQnRNWVhmY3lqUWlfYk1LQ2dxMk5lOWZ0c2VtLWZpSjFPa0puNGx1Q2VYdXVPWC1ZU0l3VQ?oc=5",
-        "date": "2026-04-17T01:15",
-        "source": "サッカーキング",
-        "category": "スポーツ"
-      },
-      {
-        "title": "F1今季カレンダーに再変更の可能性 アラムコがサウジアラビアGP復活を後押し",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4wLVZiV2t1dGIySTdKdEc5UVdtRGNkU3c3SnpRTjlzVlI3NjZQRnFMc2RrQkJGSTQ5c0RjeEFxVnpkSDJLZEl5NTFQTXo5Y2NXcU5jUXB3YnlyVE45ZVRtVmlKMExYSVJnZXFMQjZJZ0JCN3NaV0toUllFWQ?oc=5",
-        "date": "2026-04-16T15:01",
-        "source": "topnews.jp",
-        "category": "スポーツ"
-      },
-      {
-        "title": "町田・昌子源「王者になりに来た」 18日にサウジアラビアでサッカーACLE準々決勝",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11ci1mbmplMV9Odm9Dc002THNSTnpMNTBybWttZ1hXUC1tNURfT2RTYS1yR0NlLXVZOVR2b3RTaVl4X0hRZmRNQ29Jc0cyMzkyd2NCRU9Bd3pyMXZhd3hvVThfOU81enlzMkNQUHh4NU9MS3JfYXc?oc=5",
-        "date": "2026-04-16T10:45",
-        "source": "産経ニュース",
-        "category": "スポーツ"
       }
     ]
   }
