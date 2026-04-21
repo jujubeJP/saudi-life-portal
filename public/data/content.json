@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-04-21T14:37:34.832808+03:00",
+  "lastCollected": "2026-04-21T19:50:20.455081+03:00",
   "security": {
-    "lastUpdated": "2026-04-21T14:37:34.832808+03:00",
+    "lastUpdated": "2026-04-21T19:50:20.455081+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-04-21T14:37:34.832808+03:00",
+    "lastUpdated": "2026-04-21T19:50:20.455081+03:00",
     "items": [
       {
         "title": "【大使館からのお知らせ】領事窓口業務の再開（3月16日）",
@@ -78,7 +78,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100987261.pdf",
         "date": "2026-03-03",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -86,7 +86,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/11_000001_00532.html",
         "date": "2026-02-26",
         "source": "在サウジ日本大使館",
-        "category": "文化",
+        "category": "社会",
         "is_safety": false
       },
       {
@@ -94,7 +94,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100981607.pdf",
         "date": "2026-02-19",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": false
       },
       {
@@ -102,7 +102,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100980098.pdf",
         "date": "2026-02-17",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "その他",
         "is_safety": false
       },
       {
@@ -124,8 +124,29 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-04-21T14:37:34.832808+03:00",
+    "lastUpdated": "2026-04-21T19:50:20.455081+03:00",
     "items": [
+      {
+        "title": "サウジアラビアでPSL開催か パキスタン・クリケット委員会がジェッダに照準",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaWJ5c28yVEJhYWZZei1hNW1PT0p3WHZVcTREZGF3NGw5U1IxODA4R19WOXdUUkZfMnBoaUg5dVRNdHNVVTFkUjlFMGdyemZPUHltdUE4cFg3R01xQ09qWGZ3SkhpT1VZa3duc1otZTY0REFvWFNPbkVNcnhPSkFlTnotS1B6YW04ekE?oc=5",
+        "date": "2026-04-21T14:34",
+        "source": "Yahoo Sports",
+        "category": "スポーツ"
+      },
+      {
+        "title": "中国、ホルムズ海峡問題でサウジアラビアに立場を伝える",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QcW5BMzFzTXlnYlNrdXRWWXBhTHVSN3BoYkppVmhpWUFTU09Oa0VPNnkyNENSVDg2aGladHZYVElub256RHc5RHQ5SUkwRlJwSHRPdEl3?oc=5",
+        "date": "2026-04-21T14:17",
+        "source": "Fox News",
+        "category": "政治"
+      },
+      {
+        "title": "イミュニティバイオ、サウジアラビアで膀胱がんと肺がん治療薬の販売開始",
+        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPUnI3dkVFSENOa01FeXY5ZXFqWlM4NnhpVFNaRWhVNzYzRU91QzFzVURtazVCb3loZzdQUHVodnJVMnJtZG43cG9XMC1qaEhWWThibjJqU0dPbEpWQS1wR1B1R3VjN196MlBNeGtEZURiZkU5dmtiNWZ3MDd1alpwaF9hX1dPQ19nQ05tZm1ZbTBuMk5tQ2VYZXZIdERleWpPa2E3WnI4SUZ2ajBUNWpNaW5SQXpjaDkwbVRHWkZxcXg3SG5Od1FmVGloQmRna3dXYXpJalpEQVhPWUZXdXp5aE84QWhUcEtWRWJoSFZSbFZxbjBWRERGLXdRZnJhZ1pYekdfeGI4R0RibG1YOUtwNjRB?oc=5",
+        "date": "2026-04-21T11:38",
+        "source": "ImmunityBio",
+        "category": "経済"
+      },
       {
         "title": "神戸監督スキッベ、サウジアラビアの大型投資には対抗できないと指摘",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc0hQdkpsU255eFlOLWhzRHRFblY4c19IQm53Rk90bE9fQzJONFRBZkdFMU1rSHlkaDY5TG9yUGpzRFQwTGY5dXlDejhKX0p6WWs4Vm93N09PWVZWYzFWekN5ckxUOENWbG13TWhLWmsxaUdwMFBLZXhIak5lMW9TclpWZEp3THJmTEVoZVNPaUhGMmpmSXhmSDhaRkFUWGNUYkhaalU0TkdQS3QyWVVfbzFzVXhwUzZDdFBkVE1MQmZxNjBUc3c?oc=5",
@@ -134,7 +155,7 @@
         "category": "スポーツ"
       },
       {
-        "title": "サウジアラビアとイラク、紛争の陰で対立深まる",
+        "title": "サウジアラビアとイラク、紛争の陰で隠された戦い",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYnRvUE1XekxWZVZtaE44cFluWHpuTzF6bzBwamhxZERaVG9VRzJBLXlGV0NiWGY4YXFqQVBkUmd4TTExc0g0Y3Z4YmNxUVllcnNEMkNKeVJoUThRY3F6b25fek93TXY0emZnLU9wSktaQkFNNkF1RXRQelRkTVRQMjROWDNmMzBjVkE?oc=5",
         "date": "2026-04-21T03:00",
         "source": "WSJ",
@@ -169,38 +190,31 @@
         "category": "政治"
       },
       {
-        "title": "パキスタン、サウジアラビア頼みの経済支援に限界か",
+        "title": "コラム：サウジアラビアの支援頼みのパキスタン経済、限界が見え始める",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNlZQTkNlUDZOWHcwS0JCbS1DbDgyYkdXTTMzMjBQU0JNbXNGTUQ4a0lJMTRKMkI4T0VfLTdlUkhpNi13aXhkWk5qM1dTa2FRejhaNllYOHVfeUtTU2IydDdxR1otVEh4cjFxWnZIQ21VT1Y1dGhCREVpNnZ5T2RrMHI1cGx6bzN5Zjc4VE1vcTB0STVD?oc=5",
         "date": "2026-04-20T11:09",
         "source": "NDTV",
         "category": "経済"
-      },
-      {
-        "title": "スーダンへの武器売却15億ドル、サウジアラビアの反発で一時中断　パキスタン",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObkdoaVNkQktwbm5LMnA2NXp6MTJnaEZBSTZZSFg5Zy1WV3BXaUMyU1lrUlRNcjRMRDVlWDJpcWJyLW5wU0VQNk55OEs3VGN3ZXY2a1Q5Q1MzRm1JZDhHX0oxa1d1bGJsU3dmb01pUHhONmpOdGplTGpuaGlJcVVwRE9CZ2VCbXRQaU5MQzh2dnhMM016eWRhSUhjWklCMkk5c0h3dktRQ0R4X00zNHNEdFVGQWt5aDRCdVBYLVFlbEhZb0ZfczVIRHRNUGJfeWs?oc=5",
-        "date": "2026-04-20T11:01",
-        "source": "Reuters",
-        "category": "政治"
-      },
-      {
-        "title": "中国の習近平主席、サウジアラビア皇太子との電話会談でホルムズ海峡の航行の自由化を強調",
-        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQ09DaFpzcXNyNFJwdzBxbWI2OUFaLXdNNjBzSmNsQXZSMGhYbW5QRnlyVXNENEZISzd3Z3ptUVZvYzBmVzVzQmNDOHBkMzJrRDZFN2JqTGk4THhRM1gtdnQ5S0h4Snl6ZXFrUU56Uy1VNy0xSFlwbnRSbmpDNVUzZHNaQ0FWQUZmYTJwQzVweFc5V0pMVEQ2bXFGdERvRWNnMUJpWDBRdEhaaDBkX0hIczNGdXFjZ2pyR09xVGhzNDQ5TTZ3UzFlUmFERE4yZ3ZTakpsZXpOaWtiWDdTXzZJUXAyLWhOUGNZM2JLRmFzWGVQSjlPVFU3dFM0TGowbXV2Q1Rj?oc=5",
-        "date": "2026-04-20T10:43",
-        "source": "Middle East Eye",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、壮大な計画から現実的な政策へ転換",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc0lnQS1QSVdGRjk1MklxYVJfeDc0VlkyallYdW9sdTkxODRzSGpKcm4yc1REZEljVm10TDdrSHhFV0ZIREhRdDhCT2hJRFVoVTYxeFdBOXZuM0R6dXJGY3ZFZDctUC1MbFVqcU51aURoVnZHRHFYaUd4NHoyaDc1akQxQjEtX2RXRDJzN3ZTWkk?oc=5",
-        "date": "2026-04-20T09:24",
-        "source": "The New York Times",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-04-21T14:37:34.832808+03:00",
+    "lastUpdated": "2026-04-21T19:50:20.455081+03:00",
     "items": [
+      {
+        "title": "フィセル・コービーのコーチが指摘：日本のクラブはサウジアラビアのチームに太刀打ちできない、その理由とは",
+        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNakctVEd5d2J3ZGNaalZyR1g2a1gyN2ZQaGZrYkFZSElDcVZ2Ql84R09VUk5Qd3RtX2lFdW53Yi15U1hRamE0bk1WWWhlVUZsc0FWSnRfbi1jQnFES0VleDNXZVM3SXZra0VFTWlLVk9PbEw2N20xd0NMLUZ3blBZTHU2bHYzZlhMNW9jbXBXZ21IYnFxeTcyMDc3S0xibkdTRUp5Wl8xaHdNZWFXUDNuR2dYZC1WdGNJRHREdEl5MUJnZkQ0YVU1emxNZjR2cGxqMHpCNUVxTTRpRVMxMkJmNnFFQTJBSTdGRE1Zck81ZF8wU010U3NoLUdlLVg4SUVhbm9OajF4V1dUdWpLLUlRWGdn0gGXAkFVX3lxTE90b0RnVnRBYWlpb3RoSE05UkwwNENld0V6UWUyTENPSXBTek8yRHI4dGtxcHpJV0F1TUpYWjhHRldGbGM2RjlkdEhXdVBoRnNVMG40dFd3VW1fRWViUTEzeTBTT2RYbG82T1NQYlNTQkNCdWlraXdZcGNMME5iRGtJblNUM0NITUk0N1JCVlFLR1hNVWZEcUN3SnlNb0wzNU1waW1kYjE2NG16ejBNVjJma2pfbWRacEpfQTE1bGtWMlEtQTNzN1VjdlNVOXVCbVFSRG5tYkxqdWZ0enhrS2QwUUdmTjhkMXd1andhZzBHdGNmTkNiV2h5Nm5YamtlZGt2QklzWmVPMnJ3Rnk5TERLVlRSMjFGUQ?oc=5",
+        "date": "2026-04-21T12:21",
+        "source": "الجزيرة نت",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビア、野心的な計画から現実的な戦略へ転換",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE40S0tyLTBEUVhsbVZDZEdYNC1OMUVzN0ExekcyQS14V0JnTjRiQXBRbzI2OEh0dF9Yc2F2U0NNRHdadmZ6N1ZGM2htUUFMOGxaOEllNG8xMHZWeHln0gFiQVVfeXFMT0Q3RWRjWU1IakhhaG1EQk1jVDV5ZEttb3pfZC1EVUp2VHpBV2RLUWxmN0diWFBSQW1PVnBwZjVsZVIycmw4Zm1hMjYxQXFyYkVCQjJzY0otOTludVItZ01UUFE?oc=5",
+        "date": "2026-04-21T12:18",
+        "source": "BBC",
+        "category": "経済"
+      },
       {
         "title": "医薬品工場を訪問 サウジアラビアの女性が国内産業で新たな一歩",
         "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNVWdrRVlxQjFMbGNHdFcyM1NsbXdtdTMzN2JxaTNHTmExckNXUEx5ZEs3Q044cTZUNDhuOTRBdG5URkdERmdxaTZoSERrRVI4SVI2dWh6UXZxaHJEX0lSVXdBTDBsTHMxNWJjZWowaE83ZWdveWV5YWFKZDhiR1UtRW1LeVpDTkt5c0twNF9VXzV2enVhaVBHY0VnbkJ0eFBhMTlwYS1mQkQ4WnVmXzlaSl9sTTM1MnY3ZjAzR3QtTmd0TXhET0czbTV5cnpCem9oaFdvdGxsVUM3X1IyWG80UkJLVEhBUVd2dVVjV0l6ZDUzYzVTVGFmdVhFaE9XM2tkRWk2NWhYSlhQM1RacmFOc19idHNuTnlwWWlFak5Dck1RNkgyV19zMFFxRGg4YnF5LTl3S0NYYVFFZmt2SnFoX1FxbS1pckVQWFZ3MkFROV9JRU0?oc=5",
@@ -216,9 +230,9 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、女性の産業界での活躍を推進 管理職登用を強化",
+        "title": "サウジアラビアの女性、産業界での指導的役割へ",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE10OWQzNVY2ei11M19hUUJZU0hweThtWTVWNktXdVBUbU9tWDFFaHpEejFNZFdLLWdnbDlVeHg2ejNBYVUxX0dv?oc=5",
-        "date": "2026-04-21T10:23",
+        "date": "2026-04-21T10:29",
         "source": "sabq.org",
         "category": "経済"
       },
@@ -237,44 +251,30 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア柔術チーム、アジアビーチゲームズに向け準備を加速",
+        "title": "サウジアラビア柔術チーム、アジアビーチゲームズに向け調整継続",
         "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5aUVNSQjY4U2lYX2FYcDdpcHZnVTZkSnNPMkg1TkVHQzJpMUVxYmUyYXEwbEkxQW5HSTFrUlNoaWhOWVVzcWc?oc=5",
         "date": "2026-04-20T20:39",
         "source": "وكالة الأنباء السعودية",
         "category": "スポーツ"
       },
       {
-        "title": "映画『幸せな一日』、アレクサンドリア国際短編映画祭でサウジアラビア代表作品に選出",
-        "url": "https://news.google.com/rss/articles/CBMirgRBVV95cUxNOVNqdnU1eHRRYWZJbm9JSVVzeHY0S3hZcVFmWHAyd3Z4bzVvMVJZTWtwTFlqcmtOaWprd2RXZGJYakdWSGJ4czFrbVUtUkRJV0hOVkFHQW1lVGFIZVdjYjBXa0c1Qkd2WUhvS2g4SGV0WDJ2YWNuY1BIWDdmdXkxeWtTdzJGOFNpd1BMZVJVYnJXTmFWRk1WZG1sS25JSlRmSGZjU2tYMVdnaFk2VWFBOHlGLXpPalpHYVVycDRydl94RXk2a2dWWVV4ZHR0R2FoZjNkQzVtT0dlZ1B3cS0yV2M2c0JnVWwzVGZoNDUzN2M4VzNSeXV6ZWxhMmo5MG5sRnFKME9wY3RyMVhpNzI1NHQ4S3M0TmZlRmZCcTZ4ODg4WFFKZnpHSVdkWkM5bFhGVjdvYURmYjhXc0hCZnlKLXhaQzBzSWVvdV9Rd2FwVy1YVUp2VWZST3FNMDU3ZlVwZHRvTkxQWGowT2p3bkFBaWxOVHcyYnZ6ek5HNGFDZ2FYMmotMS13cno3LVd5X2VwQWVjc253RVh4ZUFkUE9KMWZNMURGLVFuMGo0eEVtQkhPUnU3VmQ1SlB0N0NIY2tnYnN1XzY3QlVRTEJVWnNKaDZUaUFfSV9sc3YtUVNBYXN0UmVrblFMR01rSHFsNWVqWWVIWjBUMDk4MWxkdWtEWEJPWFRidl9aWTV2YUlJcUdadkh1R3c4aXJ2eVE1N2x4OFk4bzN2S2c5RGRvSkE?oc=5",
-        "date": "2026-04-20T16:28",
+        "title": "アル・アハリ、アジア選手権でサウジアラビアを代表",
+        "url": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxONGREWTZwa01jY0h1M3A1azEyZEQ2a0EwdkJQeTRYbmR6Z1pTc3lueXE0cldFZV9wRzhJZ2RfLWIxWVZfY3JsVm1oRHBmRmtzU3BsdWtQWjl5azNDMzBOWE92V0F1MEt4d2k2VmZlZ2hsOExiNHNFNmQ3U09IR2tnQnBLXy1xT3RyZ0FnOE1wcjdQTThqaExZUHlLTGpsNG1nZW1iZHRjYTZmUGNlbGlVVmZJaHRBMm1JVC12c0d5ZS01Z003dlQ2cUhOZ3FEZnRHMWxIcXlvQzVIYy1nbkJlUVY2bjNuY3dyQkp4UHJJN2tQY1h6YXRxTVFaLXhKdS1RU2ZoVXlqOFdySVh3b0VTRnNpclMzdkppRGVESE5pM0o4V2dubXVlZk1zYkdQTG9kMldSZjFYUXFPelhKbzBmaG9hRll5T2lYLVg5N0VIYmFMNDczajBtbjFVUGJFMkhuaElwOEtIbjNwSzJzVkdSNnB5T1lYdnFVMjZQOWJiV0RrenNITjFyMWt2bmRFdUpKZFh5bEI5cUdtWVNLaWFuM3haR0F4OFhtMnZEY25Bc1RZZVJfcE1iX1dWTUlvcVluRU1BbjdIQUVsMkhWQW1HV2ZMSFdrelQ1M3FXUWRjUTNHczViM2swcF9VdWg5Rlh6RVg0?oc=5",
+        "date": "2026-04-20T19:52",
         "source": "الشرق الأوسط",
-        "category": "文化"
+        "category": "スポーツ"
       },
       {
-        "title": "サウジアラビア内務省、偽造巡礼企画に警告",
-        "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxNTTNrMnZtWXBGRVM1MGc4TEFqbl9MVkYyOW82dHZLRGRvUFk2Vm1pMVFvaFZMUngwN1BUVnZtZGNUR0lOV0pFb3p2V2JOQzRMMjdHQkkwSVRlbWM1WFlDMUFhbDlaRFVkVDZFbTgzQy1vb2VDaDZaX0ZsVFRmeWJlUHE5X1EtVDJISnpYdUxEcE1WMS0tbXZpWUdHcnYwN0xzdUZRWnlPUktsRGxzQ1JtWU5VRlNESU10TWxRUGtsZmxlQmFCcEFYeXhKTzZKcTl4UVphbW5iYnZYOEN2NkdDOVMxNnIyNS1wcnduZTg5c3htTHBUei0tNzFpaFdTMVpnYlNFUWU0ZjVZVFJhakpqNFhCa1JXV2NUakNFc1NJODFwUkdUTnlyME85clhtd09HSEQ1cUlwVTZIQ3JFLTZ0b1JxZElrdGxfaExXWGdBOWdCUnFfUElNbXY2UUhENVNGbVV4QkxxR3AteUJTblBjRlNpN3NXM2NGUE5NRkRrZE9ra19UbG5lbU5PaTBIWjdxWmZTY21RcDVzOVRsWkpJTDN1T3Q3c0RMaTU4U29qcjItcUZ4U2RxZS1MMHZCS1RxdXhycFhRRlJ6OVRyaFRPTlhralJxRWRzQ21IalF0LXhlTkJjTERVY1RNY3FOMXFLcTVaRUlKb21xTGI5bXhnT203SFBwbW54R3FxYTlNVElQQ2Ni?oc=5",
-        "date": "2026-04-20T16:18",
-        "source": "الشرق الأوسط",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア航空、1447年ハッジシーズンの運航を開始 100万席以上を確保",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNOGlEMTBmaVBlbjdOSFZ5N3JmUlltU3dGZ29oWjdybHZmZ3hJYmRwZFJINlJUUFpYVzdZTkd6azNQVTFIS0hjWWljdF9PVER6UGZjZkxTWXRDUng5d2lydW1fZjZLcjNVQjFBYVBrbjloS1l6MEhKeC1wVzY1b09IRzhzVE5RSEphRmMteUF5QTJRQU5JUm52a2xFbGVPWHRzWFhBYzFCNFFuQThOVnRUbVBSUFNLUFg4M1NDS21aZEJkWlNJV20yMHpfcy15cHktUURNSGRrNjNEbFpZZklJazhQWFFmSGF1V1dVZUI5c1lDNi1aS1dBa3VDOA?oc=5",
-        "date": "2026-04-20T15:34",
-        "source": "صحيفة مال",
+        "title": "サウジアラビア、淡水化での消費エネルギーで世界最小値 ギネス記録に認定",
+        "url": "https://news.google.com/rss/articles/CBMihAVBVV95cUxPNW9oZTN1V1lSdm42ck5SR3NEMUkwdVpPUnVteTFhWmFNWjgzVTE4WWx6cXlJU3JPN2VsZWdiQ0hOdnhaemI2WC1kMzZtaVBTNTl3YlB2UWFmOWJZalBvV1RrS2ZlaWhZWGdCR3VQbk1kajdtMFlBTXItZzZHNVNtamNzWlJtOGlkOHREOHVMNXp2bHBqUHp4b2RvellsQ2NaMTJHR2ExR2x6STJGaXZndGE2Q2txV0JVWVlHT0RURi1xa1JPX0RJRHI3em9fSi1zNmpHcmRGQlllaXVDUUhZTjF6SnNFSXRLMm50VUpFX1g5QzQ4S1IyVlFfUWtHVFlmYnZpX0hoU3Q4N3BadHFiTUN6TU1ya2hkYnZjeC1yTlRpZDJNQzVYRC1OMnNQMWx1RTJ2bGRZOHNXbmFaY2hyVGctSHhydVlEbW1rVEpHNF9NZ0VlMTFwZmFNWEpFeVJNQXRXNXlmeEM2TThXZWhUcGtyQXBRMUIyUGpNN3puaC01UDJIMmkxVFNaTWtGRmpEZzNsWS0yazVkUWtPdV82YVBOZG9CS1RKVlRneEZiUDRPQ243dGpmYnI2UXJYZEw3a2JVV1BHa2ROQkxWVm9JeXhRUks3NDVoUjE5RlZhNG9NNzRjTmE5M0tQbGJwTnROekc0TUUtSndZWTlDYVJqMjB4V2tkV0VGZ3JSVVpGdFlGY0c2M1pMbjJGQjJGMnc0ampVVlhBUzh2NGZkSU1RVlhOekd0OTB3NmVlSmpub09OeHRaVkZiTXNvQ09jQ3J3NmJIZGh4dTVQNHVoamVsOWdoZnEtbTVSVExRSk5ranpKRXoxcEZta0FYaEQtQjRkT0xTVNIBigVBVV95cUxPa1F6VEFzTjFsQjVLNHRpSzZwbi0yVURkQ0Fkdk1sMDhUQnZvV0szZS0tTFBkNnd3TFpvUHNDVE9ZSEkxOVFWSUhEYTdLcUlZWERPemhnYWV2WXRmaEVvc0tyUW9xd0hoaU5mSzVCNHl4TGVnV2hMRk9tRGc2QlkzMklKMHFoTVZNZWlfbWxKendpb3hPN0ZXUWpaTlRlaGlNQ3pEb3lJVzg3V3FJc1BmQ1BQbWRUNXh0NzE2ZWdILThHUDFkSHFWNHNtb0ZLbjV4OGQwLUhWUGVSTTNBLU1pVjFCbkV6cmZYMVQ3MU03Q3JoaVQxMTV6MklENlBSVE9iMWNHMXZlWEJ6ZHhlLXMzYVlEZEM5cWpLbHVzUENLM1VoOFVCY3FTTENmX2tQa29OMlNXTFJEQW9ubEN2RmN6VkFCMG5MZEVNcm5Gei1McVlQTkJrQjhFYjU0djIyWEcyS0VFZ3VlRkRvM2cxZWl0WjlxYndZc09RbkNfNlhiRzRjTHFaemdHQ05uLU9fTVVGMW5OYzRmMEJ3ZThOSm90UnA1WEtRWllsQWZxWmpNRzZEYzk4NlBpTHFyZmc5bi1aX2E4bExaM0JrTlNzbURnSjlRQjBtZmRMd1BGRmh6Q2xOUE9YTnhtQ1p3OUZYWnN3bHlKaVZETV91NkU2UU1RcTJfYU14YlpyaVk2U1l4TE1hTHhIU0NYTWo3cUlJMVZTbFdUcW03aXZBN2l0dEFPYjN6NkN1Sk9ELWN2S0U5OWxMa2J0NTBIQThIT3lIUGZ5VlZEMkpoTmxsUFJhX0hXck5Sckh2VC03Rk04enVXTVNSRmJCQUw0RUZnOGFRZTNZRHl5R1dBak5uUQ?oc=5",
+        "date": "2026-04-20T18:11",
+        "source": "العربية",
         "category": "経済"
-      },
-      {
-        "title": "サウジアラビア映画祭、19作品が受賞を争う",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53LUhhR2JSWEdTaDc2QkprT2paRW5YN3lHMEVxbHJ2aXYtV3lwNUllc2NqWUY4YzB1UzNXMFZPcHc2amxyVWpnNzdRdW1wLURXdlFfSEtn0gFUQVVfeXFMUG84aHJMaEJ4bGVyZGRoaUY5OTg4SGlMZHZTZm9XdkwzMU1zd3BqcjFpT1hlVm93NkFMRG9JU2N5dVVQSzVSQTNqWGNQU2hxS3hQSGM0?oc=5",
-        "date": "2026-04-20T14:15",
-        "source": "عكاظ",
-        "category": "文化"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-04-21T14:37:34.832808+03:00",
+    "lastUpdated": "2026-04-21T19:50:20.455081+03:00",
     "items": [
       {
         "title": "サウジアラビアの原油輸出が2月に増加 執筆 - Investing.com",
@@ -343,7 +343,7 @@
         "title": "代替ルートのサウジ原油をマレーシア沖で積み替え、日本に今月末到着",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9vY2NnX0ZDWkwtOEhSSm1xNGxNV1ZWUmg2QS1adFdqMW9uQTY2REZoWmZKWnRldkNqYl9JNHF3Y01uaWN4d1YwTk5CdEtwNGRUdVJXUldDUWZueXlkZ29rQ2stanVLY0pabmk0X1FrdmQyemw1NnhV?oc=5",
         "date": "2026-04-20T04:00",
-        "source": "Bloomberg",
+        "source": "Bloomberg.com",
         "category": "経済"
       }
     ]
