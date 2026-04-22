@@ -118,7 +118,7 @@ MEDIA_SOURCES = [
 
 
 def fetch_url(url):
-    """URLからHTMLを取得（curlを使用、Akamai対策ヘッダー付き）"""
+    """URLからHTMLを取得（curlを使用、ブラウザ互換ヘッダー付き）"""
     try:
         result = subprocess.run(
             [
