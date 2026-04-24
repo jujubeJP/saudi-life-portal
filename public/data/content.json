@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-04-24T14:38:58.182919+03:00",
+  "lastCollected": "2026-04-24T19:45:04.879511+03:00",
   "security": {
-    "lastUpdated": "2026-04-24T14:38:58.182919+03:00",
+    "lastUpdated": "2026-04-24T19:45:04.879511+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-04-24T14:38:58.182919+03:00",
+    "lastUpdated": "2026-04-24T19:45:04.879511+03:00",
     "items": [
       {
         "title": "【大使館からのお知らせ】領事窓口業務の再開（3月16日）",
@@ -70,7 +70,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988294.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -78,7 +78,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100987261.pdf",
         "date": "2026-03-03",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -124,14 +124,49 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-04-24T14:38:58.182919+03:00",
+    "lastUpdated": "2026-04-24T19:45:04.879511+03:00",
     "items": [
+      {
+        "title": "サウジアラビアがイラン紛争に参戦しない理由",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRGYyMnFLYnZSTVlCSEFNeUdZU2Q5NTc2TFRJX0VlWVB0OE5YV1RSSGtKMlRoVWxESEVLMkNYcUIwb3JvY0x2S3JwWG5TbzhHUHYwNDk5d2N6MnhwSVFIQ3ZiTEwxalVaZ3ZpUjgwQ0tpSUFvang4a3gtUTJ5dVRiaWszc3BkVkE?oc=5",
+        "date": "2026-04-24T15:07",
+        "source": "Foreign Policy",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、ホルムズ海峡迂回パイプライン導入も輸出維持が課題",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQamlDR2loLUo2WUc2d2U0SmVaWnc1bU8xaXRFLVJNTUNIUThWb2duZ3pGQU9CLVNKU1FTcTB4YThac0E0Si1PNERSMm1SQUZzaWtablN6aDBfdGRDNEpRcHc2b0FMR3dZUHZPQWxGMjZrU0NxX190MFBKX1dnWGZ2bjZuRkdidWdySG9CWlVZNTJkWl9XQzZ5N2dOS283QW9qRFUyZ2UwR1c2ZjJTdS1IVEpvaXdOQQ?oc=5",
+        "date": "2026-04-24T13:31",
+        "source": "Bloomberg.com",
+        "category": "経済"
+      },
+      {
+        "title": "ゼレンスキー大統領、サウジアラビア訪問 安全保障協力を模索",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNazlyUFJNRUhjQzkyU2twaE53WGNkekdsZzlmZnZMcm1iTnRSajRuSWZGRjBvZjVhSkh3MGdEYm5JX1JXOXdYLU0yMHMzWUxpNUhBN1JBTHBMT281ZHpMNVdGQjFrYWlhMnIyYnNNWDRkeFJ1UDY5MGVfLTM4VGU1TmhHOEwxYlJUQjZ0MGp5MVZtUlJ4bXlpLUF1eU1nbzRkU1BMVVY2REtuS015V0tGMmJqS2pENDRZTExweTRZN0JFRll6ZF9B?oc=5",
+        "date": "2026-04-24T12:52",
+        "source": "The Detroit News",
+        "category": "政治"
+      },
+      {
+        "title": "中東情勢の緊迫化で観光客が急減 セーシェルなど複数国で渡航需要が低迷",
+        "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQcHJoNWtJRmZvSUJJRmRnYm9xTFZlWlBGN3R4ZkxBSXBacWhCMkp0N242a1VnMXB5MXI0WjJwWk1tLUN3UDhQdFlXbjdzelVJZHZ4VVdPbE03bW5acllIUTFVbU44WWhyd0pONlRHRF9FU3RscVZoODczZHlyUDhjY21OOHZ4Z2hiTllqcWxoOHA5SlIxRUxlSk5fNnhxX0VTSHhQWUhhT2hWaE9OMWNNVmtveU8zb0tWTDhhZDIzZklFd1VIWkZZZHM1Wm5zTUROck04cDMyUFQ0cXp3cVpHbmxLaC1WQ0QzM2YxVkdjem10TTNhcXRNSmJpYTRXWHJweGUxaTd1VVlINnhlNllraEVvc3B0Tk9LZzBNYzZwdlF4N2kyVXhpNUFsSHZUdDFRNGhUdHFCRW14SmxSUTZOTDk5YzBOaEJJTjhFWnJUWFhmc1AyOUY4R1drbGFDSVo3?oc=5",
+        "date": "2026-04-24T06:22",
+        "source": "Travel And Tour World",
+        "category": "経済"
+      },
       {
         "title": "中東情勢の緊迫化を受け、サウジアラビアなど9カ国が欧州連合に観光支援の早期予算化を要請",
         "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPa3hwRHc0bWtlUmtwclBoQnJndnU4c3ZwNThjMjEtNkFWN2ZJZXp5VHBZRko3ODJaRzY1RWZBSDdFbGg3OWthZjBoMERkUXJMRGpGczlNYXV3eExHUEdkTDNwZkptZjhKeHUxSHhUYlNLSVk3N19lQ2Z1U0N2Z0hEMXpXNnBHal81NWlmX3B2SVM5dnZxeUlnU3JfRFhoY3NQVnp6X1VNT2hxV1Jzc1hwd3JlUkpaelI3QlFQakc1LWpkbVQ0TVlXZzFkRWJSelJwWnFkUEVjZ1V0UVdTTk55eDluaU5oRTZlVXVxVzN2cXlVQVdVSFk1Q25Db3ItMTh2U3BHOWhFcHFTRnB0YUpMdU9qY2JqMmVmT3oxSlFwQk5tWEtYRE5OcHRtMGNpb091S1pRVGtuWW5ySWhQVGpBOGMyOA?oc=5",
         "date": "2026-04-24T03:42",
         "source": "Travel And Tour World",
         "category": "経済"
+      },
+      {
+        "title": "メトロポリタン歌劇場、サウジアラビアとの資金提携が破談に",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYzZ5dE9DNUJfbk5QQllXUnM5U0Y2UW5lcEZDV1ExT1RKWTNIUjhWRFVqREozSnRldjRMWTc0ZjdjaWpxM2RwNS14dkhoV0xEOUE5ZEFQdkZvOXBvLXFnZXZXZDY5ajlqRnpKX1FZQWdVZGM1NFJ3R2JRYl8zX216N0xscW9PRlMwTndpbElpREkyOFhZQ2c?oc=5",
+        "date": "2026-04-23T23:31",
+        "source": "CBS News",
+        "category": "文化"
       },
       {
         "title": "映画『砂漠の戦士』 マッキーとキングスレイが主演の大作、壮大さの一方で冗長",
@@ -141,14 +176,14 @@
         "category": "文化"
       },
       {
-        "title": "サウジアラビア、ルナール監督の退任後、ドニス氏をワールドカップ監督に招聘",
+        "title": "サウジアラビア、ルナール監督の退任後、ドニスを新監督に起用",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNEtCbDA3WDNsUVZZeWZqc1lob2o5VWpXY0FLLVhJclB5U3FVSkJwYjNuLVdyaVBFbXhhZVNQTXh4cWo0ZXNzWnRyZy1VbUw0dXgyZVJpaFp1ME50NHJYSHFuWnB0UTJ6ZzVoV2F6bHZMa2hfT2tjVjljVDY4SEkyUFF1bXEyS0MyQmR0OHhncFl3a0U?oc=5",
         "date": "2026-04-23T20:37",
         "source": "ESPN",
         "category": "スポーツ"
       },
       {
-        "title": "サウジアラビア、メトロポリタン歌劇場への多額寄付を撤回",
+        "title": "サウジアラビア、メトロポリタン歌劇場への巨額寄付を撤回",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUEN0djFCZUVyQjVKTURiazd2WUJuN3pSeEx6YVpjM05jdG5kT29HVWFkT3YzOFREbDBNQzB3aEZVbnJpVGNsOFJaWGY5b19JRnFwczMyaFdsNW9QeWpVN1ZCQ0MxM2s2S1ctZUJfaC1YY2pJUENIbGNHME5qS3RKNThqNHNUdw?oc=5",
         "date": "2026-04-23T20:00",
         "source": "The New York Times",
@@ -160,47 +195,33 @@
         "date": "2026-04-23T17:39",
         "source": "NoDQ.com",
         "category": "スポーツ"
-      },
-      {
-        "title": "WWE、2026年「ナイト・オブ・チャンピオンズ」をサウジアラビアで開催",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMUZsR2t2RFZUdTRGQ2wzTzUwemYtX182MThpN0JVSlZfYm5LTzJjaXFvSEpQeVQ3aWw5TElvZUN3V0FGMGdVUWdoVV9xME1YWFJPS2FpZ0JPWjQ5LUs5ME1FU3paLVdxdnJKRHpSZW9FdkY3ZmppYnAydW8tcWVOYTZzWkVmTThXWldkeFVR?oc=5",
-        "date": "2026-04-23T15:00",
-        "source": "Wrestling Inc.",
-        "category": "スポーツ"
-      },
-      {
-        "title": "WWE、2026年「ナイト・オブ・チャンピオンズ」をサウジアラビアで開催",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaDZCa3NPVGdhNVB6V0FSdGJvUGdGWEcxOXJ2MDVVbUdXMmdUQVRpVjl0LW5qM0xhTkZWZGp3T21JenhKVm1zNE5Za21FVUdzOWNzcUhzV0picTlrTUhob0FRdU1FaHYtVlAyN0xrcXgtZjh0WnN0ejJZZ2xuYmpha1FWZHlSenFpS3U0dQ?oc=5",
-        "date": "2026-04-23T15:00",
-        "source": "Yahoo Sports",
-        "category": "スポーツ"
-      },
-      {
-        "title": "WWE「ナイト・オブ・チャンピオンズ」サウジアラビアで開催へ",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdmFRQ19DNmlVQkYzbVRIaGJiQ0Q0MUMtVEJZekZQdmNWQTc5OWk3UUJZLUVRSzUyRnFBeVIwcVM4UTd4THhwVmpzaE9BNmZSaHhkeEtXenoxc0xweXZCX1dHdHdwUlpMZkpFVHJGN1o1V2tBZTRZZ01xazhJcGVGUGN2X1BfaTB1NzBIRUVyT2JtcUhrQ2lleVhIb2thMC1VNTRrT2Z6aE9FaFN0YTJVUXQwYU1IVkpSZDV2aHBRRXNmNEFYZmM0bzFrZHlJSHFPYUE?oc=5",
-        "date": "2026-04-23T13:30",
-        "source": "Cageside Seats",
-        "category": "スポーツ"
-      },
-      {
-        "title": "WWE、イラン停戦を受けサウジアラビアでプレミアムイベント開催",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbmhKa0xLaElYNVhEbGRxRkhJOXJMRGV5a1RqSXJ3N2cyODNQQTQyZDN1Wnl5X2g4MkRnekE3ZkVNX051OHBjbTlWbVVGejJuWTNyR056UGJqRUdydFJ1bFRmN283Q1lJSmVoVGZMdDZfSmhiVlpaQ0xHaXhUaXRxc2Nrd0lnejFvcERRWi1Wd180OWs0SWfSAZsBQVVfeXFMTTdWcmE2V1gxTzNYNGZXRnZLZHZLRktyN01nckVzcHZ5LU12ZnlDb3hNNFp5VXhmalI2NW1VMjVVZXRkaG5OTDFGU3JzYVN0RWducnJaQmNGQVQydXpQQU9mSmswZ0pfeDhHWHFQVnN5SUdBdUdDUGQwQmRNSnliTlRBZW1GSjlxRVRWTFI0YVBFcmpWU0pkZ0ZySEk?oc=5",
-        "date": "2026-04-23T13:01",
-        "source": "Fox News",
-        "category": "スポーツ"
-      },
-      {
-        "title": "LIVゴルフ、低迷が続く",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1MGpyeHJReF92bTJUb05sRzJDcFdHd2k4Qkg0UHhwZ0pUcUJsXzJnTlZZOWRIZ1F5RFFjWGJMZXJtUWVfTDdDdTBqemxXRVJ3RzU1aFlFdUFFR3NsLUtDREViUENVOGg2YzZzQW96SXFKMm5TMXJ3?oc=5",
-        "date": "2026-04-23T10:00",
-        "source": "The New Yorker",
-        "category": "スポーツ"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-04-24T14:38:58.182919+03:00",
+    "lastUpdated": "2026-04-24T19:45:04.879511+03:00",
     "items": [
+      {
+        "title": "サウジアラビア、アジア最多の6枠を確保 アジア・チャンピオンズリーグ拡大で歴史的躍進",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1hVlBMak5jR1QySUZCSUtYNEMzS29fNndiY2V0SVpDcXNJS0d6TDc5NG1Yb0pTOGROMjZaeFJSbHAxbFJJT1h3?oc=5",
+        "date": "2026-04-24T16:11",
+        "source": "sabq.org",
+        "category": "スポーツ"
+      },
+      {
+        "title": "モロッコの結合双生児「サジャーとダハー」がリヤドに到着",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MTFl4ODRidWVrSWtTamNuNGdmdTJENlZlWFZibVJEZ1hBYVhRUmhxdUpDdXhsVDZPTFZTM2hGWEZ6TEJHdjNvNFNtSk1wVENrS2tSNTRIUl9lRWZMSDFj0gFUQVVfeXFMUFJwZUtIM3hoMjE5UTBicmotZFBrTnhCMjZUZ0hXc0o0OFZYbHRTVGJnSjhvNW9MZnhhRlhYc2RGSzh4aFNub2kwVGQyU2xwY0ZQd1o0?oc=5",
+        "date": "2026-04-24T15:31",
+        "source": "عكاظ",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア、アジア・チャンピオンズリーグの枠を公式に6枠獲得",
+        "url": "https://news.google.com/rss/articles/CBMiowRBVV95cUxPejRBWk5ac1RQdjZqaHJjeEpWMTJwUGZGRjdnUnZhaVRESExHWWRza2FaX2lDcGNvRWhTaldRaHY5TXY1aV9MWTlqRDFxQUJKSUlwWjFIai0wUFZSU0pIODBRM0ttbWNxRDVheE9NR294VHZ3N1czQkt0RTE1YlBzaTJBbTEwM0hWT0VRNXVkdEhTU09SVmVJRVVNU1VSZDU2S3ROcnl0SVBUUm5MMFRiNy1pZzJOTHVlS1A5QXZ6V0tHRG9pTzM5U0JqY3dsbGRCUjdMQzVXZWhsZ0syUlBScFMyTGJCWXJtM0NMeDdYc0FUTFlPemM2MzNRSU94ZjI0TFdRTl8yZTcxYV9UX0M1ZTYyUkJGcE52TFNnczYtNEc4NmxZQTRiZm1ZbDdJSDUtUmpnTmp1UldmTkNsYkJDemlTTmtkQlZ4T0VSdUJzdld1S0hZNHh1c1dBMFBscFBTWDIzY2VPZ2k1YWQxc3pEWUVibEdROE1lTW0zR2xtVkxWZFlKUmZQSnJ6TTZMTWU5MG1qNUJ2bUxMY2tPTzBuSEJmSjl2RlUydlZMX0lieVRtR2xCOGVQalpMU1Q3WnJTc1BCSzJabjlFMTNhYXJBWHZYNi1YYnN6RE5hQ2cyc01PQlgwZFZ3enZwLXhwelBobmQ3QnRZcUY1R1ByR0k3eVE1QXEwUjZzYnpROEw3S3k4Wm5HUWVIa003WF9xNzBEZE5V?oc=5",
+        "date": "2026-04-24T15:09",
+        "source": "الشرق الأوسط",
+        "category": "スポーツ"
+      },
       {
         "title": "ウクライナ大統領がサウジアラビアに到着",
         "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQN3dHUExuWVU5TjFmaF9DMDI5RnBKRFB2MzNFVHhFcFAzazBtVDBYVkFfSEpxMEJiTXNsdW1CdWRZZHhrRXgxd0YxbTFiVlh5QWFzZlNMMkx0VENHdjhwQkFIaW5QNHFpWUJDZ0NDazVfNWFBVU1jM2h6blMzc1k1X0pEajN2MWYwUDd0bm1XTnZscFdxTEtmRFh1U0doLW1JcDg5S3J5bVJVOXkwRUYxNm1OLWk4UlFPWHRnUGswRFBfQXhHTUJ6TW5MS29Oa1lzYW55YUpRS1hCcHEwaW12TXljR1VROTlWNzU1c0xzRHdzUTUxUzZBV3Y3YWdybGt6VzRMSVhKZWFDY0pTbFdXMjlhaG54V2gzZjg1WVNwSHM2VDdoTkl6QU90bl9hUkRwMmE4Uk0xdGt3QQ?oc=5",
@@ -209,11 +230,18 @@
         "category": "政治"
       },
       {
-        "title": "サウジアラビア電子大学、「生活の質向上」イベントを開催",
+        "title": "サウジアラビア電子大学が「生活の質向上」イベントを開催",
         "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5McDZVdk5QSE9aODIzamIxU0VTUndFV19mLVVobmpiTDBVVV9jNDFPRzlpVXBqSDYwc09YZF9GNGNmcHRpZ1E?oc=5",
-        "date": "2026-04-24T04:39",
-        "source": "وكالة الأنباء السعودية",
+        "date": "2026-04-24T09:19",
+        "source": "spa.gov.sa",
         "category": "社会"
+      },
+      {
+        "title": "サウジアラビアの伝統舞踊と民謡がジッダでのアジア・チャンピオンズリーグ開幕を彩る",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9STlVBZzVpNEJyY3EwTnQ5aFZwa082SjdRRGs5QzlSek1TOEpTMVVfdHpTeG5xQ1puaGdWNlRVUXg4cklESkE?oc=5",
+        "date": "2026-04-24T08:19",
+        "source": "spa.gov.sa",
+        "category": "スポーツ"
       },
       {
         "title": "サウジアラビアチーム、アル・ムラッディの銅メダルで三亜大会初のメダル獲得",
@@ -230,52 +258,31 @@
         "category": "社会"
       },
       {
-        "title": "サウジアラビア、石油化学産業の付加価値向上へ「アミラル」複合施設を開発",
+        "title": "サウジアラビア、石油化学産業の競争力強化へ「アミラル」複合施設を開発",
         "url": "https://news.google.com/rss/articles/CBMi_ANBVV95cUxNNTRSQWNZS2Y5aGozaWs0QnNyV3RWYndkV2tvSWYzVzZiRmpKREtTcDl0NHVQTlYzRkstdWZzVTl0aTNWVGZGMG54b3N3NG52MXExZ3RPcndfQ0tCVUdFa083bWtidVg5SG9ZMERuUWVNQnZUWlotRnRPOE1xelpsX2xld1o5RG9vdGEtV0draEFETDdEWjA3Z0FUZmpFUU5SMlIydmk4bFc5QUpVUWpyNkZiOEZtWjJwZGxyU3doZkgzMzRKQmFfSEF0OURNN0gwcFhfOXU0eUFTSjNLU1BXeUNFS0tKcmRGdU55VVBxMlhDU2dXSjdlX1cwSFRReDJ5MGdMdVdIVi1yWXlVb3lTTEx2U1VVSjNQQ1dyQzdYRjM0eEJWOUxDVndIRWVYamZnb194R29xbmtXZmlXYmxtTjcxQS1LLTgwbDF6UTdmYlp1UTVmOExDampzWXhGYVVjUk1tV2R0X3Badzd4TjFyQzQ3RXZjQWlsbDB6VGNUdkxlbU1PZmJ5Nzl5VV9SQjJzY0xpZkNTUjBsR2xrbTk1eTFsOThIeWFLYU5EdDRwU19ZX1BQd01NNnk4bmlXYzhsQUYzdVZmU3JNSHNrMWJwMDI5RVE5QmowajBEVG5Pb01kUG54YjlGNnlNZHFvZTNfQnBiakhvaGxVLXUt?oc=5",
         "date": "2026-04-23T22:44",
         "source": "اقتصاد الشرق مع بلومبرغ",
         "category": "経済"
       },
       {
-        "title": "モリーニョ監督、暗黒の時代へ　レナール氏がモロッコからサウジアラビアへ",
-        "url": "https://news.google.com/rss/articles/CBMimAVBVV95cUxQZ2VEQUI4SHNySnA2THpEa3JXd2lubFh4LVcyTXlhLVI3NXZ5VGxVWHRUYVVUSWJycmJBVnZDNGRTT2dTZmpZMDIxOVlLeWhnczlLR2RLdkxuV0hpc1dERi00SC15N2ExVHVUdkVYSmhlZlFoZjM1Q01SdzA0b2lUaTVYcmM3VXZYTkFadEtwQm5Hc2NVRm41cVFYblFST0tGUjZPT0xtTFJrMXJvMkFRV2VkM3JvSnRfSTdtTlhORnpDV2QwQk5JR2djR3pDQkJzVGNBOVdfOFBOekpKR2M5QmVkeDhwTE9IQzVpdExQazhTOURfQWxRU1JHUS15NjVUNmdhT0JWM21HQUFkUmFRenVObFJjaFRqVVlUWWo4eGl0WEpQbmtKMTZqeS1XaFVOOFdUaXlJR25oR3doZU9SdWJReW1oRExrMnBQNndVMWpvUnhPTmk5ejJlOVR0a3VVSVhSUW5tLWhHRjFZUEdOR3h2WFBEM0RXMDdYeVdRVHFXWGFzVkloUkNUZUxCTEM2VzBpZzNjUDZTMjZyY3k2UDNFOURnRzR4UDBVVk9hc1pwMEtZZXViM040ZHN2bjM2c0VsV1NtbVktVWRmWVk3UGlIS2ZXLUFTeTlxb093WmNabU9NeUxpNHU0a0tDLWlkOFhDZzZsbzFOdGE3Y0dTRGcwdjFOY2w2anNOQUpKYnYzZ2ZsM1JZQ0taSXZpRUF1SlZXeXV4MHN0Q2ZKT3V4WmVhOXdqTC1GSUdHLXo1UTJBZFZYbzhEOXlRbjZZZ1BKSGJaWnlyYkxmMy1oNGh2UWFReHdmR2NNc1dnTHhZMGJiNnZwRlozVFhVYlA3ck9ib3BFWEI2NVNDM1BnTjBmVnMyREdReFVf?oc=5",
-        "date": "2026-04-23T20:05",
-        "source": "Kooora",
-        "category": "スポーツ"
-      },
-      {
-        "title": "ギリシャ人監督ドニスがサウジアラビアのワールドカップ指揮官に就任",
-        "url": "https://news.google.com/rss/articles/CBMirwNBVV95cUxOcndqUXpKNVcxNEtnZGF1eTNEal84ZjhwM01oMFdJaGxrTkVmYnNLZFZWYTZRd292VzBlMHo4OUdDc1gxNDkzbkIwc3lTOFhoQm5YeExPMGVnN0lOdVRKNGZJbEVXcTBqVkNTdHpGdUdUNWlwaFlxZ1A3Zi01WXppeG9nU24zd0Vpa202M1dtTWtKTjdzaDFxQkJJc0I3WWs4Q1ZIRjhrcFAyaWwxdHZhVUp3ZVR6SWthNFg3cmFMU2YzR1ZvMHdLWTlKdlVieVh1S0V4MUlhbzZaaEQ0VUZCR3dXQTlfUHBjUzFEdFFydC1mWnBSaGcwblFPYjVTWmFCZ3JqdGlUQk1xaHhPMVVDdUxhUndjUlBHZDhuRWZxU2lXMEMwWmk5Z0xMdG13dmtTenpySC03ZWp4TkdBSjBfT2N4cHVpX1pmX1BlZVBTRFBLVHgwQlJCMWNzMngtRFJwV1o2WV9oeDVPcVJYQVhTeTFXdTBHeU1pcmdOTno2c0huUGpFRlB4d3AtY1dkeDJyUE1SaEotbFlUZEtjSVhXX0NOUTIxQllqYXA4YzllNNIBtANBVV95cUxNTHVETUpjUDlBQ0Q0UnpUeHV3cXowRWh0dTBDdmZkTlRDbC1kazlQcjNoSkQ1bGtONlVwdGpyR0hLemhqTGtVNlFRclRpeGI5d3dJZUtLcTlGRXVlUkJpOUliQTYybXlFZWVtQTAzb3dXVUVoNkxIYkRRdW1jaDFNM2I4RlE2OURkOTJHT3EtTWJVSl9UT094UmtQNV9GUHZsUDJnY1NQTW1id3pFbmlrLWxtWU1EX1VBRW80WFhHeHBIdXBqY0NLeTFEdUR2bWxfb1o1TmdjRlRKTjlXWWpGeTFaUE1wTlVCdWxySnZ0ZzlFdFRfMF9ZOFgyd1kyMmxRZWpPd3NBaHhQeXdnYVM3cTNxUDZRUUw2d3dUV2Z0Ymp5TUtld2RtOFBCdlpmeFlsVjJZOHlsNVdFZ24wTDBEb3dfTGc3VkpTRVZrTmxteXRTZU94RFJKVDFrZmJvWlRfR19yZm5CdHo3aGJJZk5veUg3VmhCcUhnMTVESFNvbGhSQ3hCekwxQVNna2VjZDdEOUF4bktCN25PSHEzekc4dXdGZGNQZEJTOVpUQTNDWXZPRHpo?oc=5",
-        "date": "2026-04-23T19:04",
-        "source": "العربية",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア、巡礼シーズンに訪問ビザ保有者を泊める場合10万リヤルの罰金",
-        "url": "https://news.google.com/rss/articles/CBMiogRBVV95cUxQRktSblg0VTR0QTNaT0prREgxVGtjTHNqWHd1Mi0waTdxdEszZmFhTmpDbk5oQkg3eG4zeHJpalRuby1vODktcjZXNHhFQ1d1eWl0ekJZek1QSmVxajhmQ1VGS19HUTZjcmZ4c1RDM1Y4S3FSbnAwWVJzYjJMTm4yaG9SOGhOeEJjMEU4V0lmT01QUFRMLWw5eDZNSjdLRTRCTEhzanFKVFdPallvSlFrQ2lJNElzd1BXOUxyc0tmRGc0c3VMazVVNngzRkZDN2x3eTZSRzJVeExRRlJzZEF1Q3phQlpVX1M0QkdPdEVFRTY2Nmp5SU5Kem1ERXlvT0NVNUxId1V3VFJSelJJYnRWTlVIcl9DYnhPTWlFWXNJUndLN3JRQ09ZdVNYMTZiaE9SaWh2NnVqM3JGQi03cW51T0p1WmZhZXItV3FlZ2sxd2lIT2V2bHctVW9nV0hybm1oMFVNTUR0eU5iUzFhT1BlY2puOERPZEhySlE1MVdXbnpQbFRfSFZXd2VhR2dwVUl0QlhEb3g5cXNEcmpYRWVyMkFiaWhld1RFRWtpUVlsUzlCa3BnQVNrR2pvY3h4V3NDaE9XYk92M2pVQkprc0tSWk5LUzVVMkVVb092dHQtcDRDOV8xbGxvYjZBbnRMVlh3bTN4dUxWRjNLQlBqY21weVlfZzRscGVRNm5fTmdHTmlmZkxGY2lBS3FrM0JlLTBESUHSAacEQVVfeXFMT0xQY3lMOFloZnZGUzFBODFrUzk5MFl5Q0VDMVYxNTUxRXk5YzdFSkJlWHE2em1xQWdmZE85SkJ6d09ib2drbVlEOXhndzZVTWdoWktPM2hvaWRfXzg0a19pTVlyTVdsbi1kZ1pKaTQ3Q2xya2djbFdyenA0MEZSVTdPQTJHOURKRGI4TlZRVzBfV3E5Tkg4aUp5dll0a3VSUllGMXcyT3oxa3N5UnpLVFQyZmxBaFVkc2w4dENiVDFlWVBTb3BpSDlaaDBYQ3Z5dVVJSTRPeF94TVJQa3RXa0RWU1JMRzJBWHpLYTBIX1M1M3Njd09VOG4yZVVaTDlFT0NOSnF0RkhTbUZjLVhmNlNGSjA5NjhudUZOOHVOWmNmOWJoVkxDMFdvamRBbGVDdmkzNjNtMGlOb3VTTlZZVEhuaFJzNmJPajJOenBPUzhFRmNUa1J2WlhvS3NYRlZvaTlzSVZGWGp3bjl6MzJOaTUzVkVac0F3aFVEN3hVSGVzZmFwTTdrUTd3cjBmblJGdEYxV25hZ1JVUlhRREFSTzdJUHhQOW1CNWVScHlOWkppNkxpX1NPN3M1V1pyVS1VRnNrZWx3MG9hMzdmYU5LSTFmcWF6RHRiRHpkVmVLZjlGWnUzd1c0RkVyT3E5SWdDd2Fyb2hkUVRlYUFYbjF1ZkFueXFiaFk1c2M0cjJCa0NhMDZ3RFFuamg2Nnp6WXJXZDBBYUxuZ0k?oc=5",
-        "date": "2026-04-23T16:19",
-        "source": "العربية",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア株式市場 大株主の持ち株変動トップ10",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPalIwRDFRa2pkLUN1dnlvcmI5SjBnUmh6Zmt2ei02ajNxLTZSUkFrVDBDNFlnNTU4REE5dFllVXRfblJvRGRVc2VRbkVXTjY5MWRyalpQTFRTX0ZoMGN5dHBId2swMzJraVJLY293SDJNNHVqOFpISU9WZGZra0ZuN3hWUWFaajI5VmVpQ05tcXF2ajJIeE5QdFFFR2p0bGNVQzNpazgwVTlkckU0ZWlUYWh2RnUyMGJiaTd6VlJCcW9keDRyT3FkRUpOdU13ZmFVOGhNOS1aS0NSMUQ3cnpDMVY0aw?oc=5",
-        "date": "2026-04-23T15:11",
-        "source": "صحيفة مال",
-        "category": "経済"
-      },
-      {
-        "title": "マドリード紙「夢の物語は終わった」 ビニシウスがサウジアラビア移籍を逃す",
-        "url": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxQejAzZXNCSTMwRnh6VjRRNWZOS0pBX0k0T3otTU1EUFJkaUxvcjE2S25hUjhjWkhCNHptaUp4bnR3S0R5VXE0WU9nRnlPYWVQb2k5ZG5qNzNVdWl3WjMydTVsQTVpSmtnSlVfM1ZtQkpZZ0Jmcy1tMFo0eDRJUl9KMUZ3UWpKeVF1VjhjU2hZR1Rzc0xGb3NyVU5tUklBYVNCU1VmX0N0OVRiU3dnR25VMWVJcmZvWmxkWDlmMHB6Qm91SFJXd2VqR2MyVERJX3dWRTVjQktha3hETzhPWWZkR2tXallwbEJ5MkVORVFwMUhzNUJmME1PcmNvQlNJN0lWb3daWDBUV0FjZmJudUk0RDhXWlZGdXVQeXlYdXdfdmtrcFhlaHd6V1RTeU9kS3hYSkdWbDZucVBZWjB2WEN6TU96eDNvTU9odnluYjgyQlJPVk45YTBzM0hiNU1lcTZzdm5HVlFSYVdLVHpBRHdySWwxTUhXVERGaVVPOFVRV1VFeW43aDBtdTdCNXh0d2kzM0FCWm1tYndiV1hxUEJzc0x1RDdNWVVSMHJQX1l1Zjdxbi13TFR6Si1FNjVvdHg1TWtBYzE0VXdlMzgtYUZtbjlUVE1JZ2FjM1FaTkZIckFmcDFnQkliSndaWFltZmRSd0N0VF9lVFg4ZXNDUEQwQlFLMDVrdFhBS3hmR0FvS3lHSWt5OEJzYjNxVTVZWEpuZTJVYkhXNFEycVpGOFV5bEE2NzNYVzY4ck8wVEZ4MVlRZmI2Q1R5QzY1ZkpqQnl2TldrbUlZQi1GZktma0E?oc=5",
-        "date": "2026-04-23T14:59",
-        "source": "Kooora",
+        "title": "ドニス氏 サウジアラビアサッカーの根幹を知る名監督",
+        "url": "https://news.google.com/rss/articles/CBMilgRBVV95cUxPNWpEM2FoQ3NsZm5fWFQ2Rks4cWFCNWdGdTd4S1lLaG5mYThHRE53QVBTVWNwWHRnaEJCT1dVU2ZvV1FsdXRHcmVfRl9ZX0FmNFlHa3g0cTlTbThLWWdEY2EyOGJvdzN4UlVpd3hXT0JlTkFYR3RWVWV0bzYwY2ZySFZ3eDlFb3J4Vk5CSlUxMXI1dGRPRDRfblFOdHNLSlpNYzNURmFoekwzUDBsTGc4Umh4eTVicjNMOU9vS2RMMUFSZW91aE1GcGkwVDNvNFJaOXhpbkNmOXgzOThDZEpEZ0ZxZy1NOU5ndERNVUVTRnNaRnp6YnZyQkpuejJ1cFhxM255MlZRZVRLMUxQeDJBbTZJSWZrQ1FRN21yMUxpUmVGdXROYW5nVVZPTlBDeDFhVHBicUpLOElLdjM1RzJPallMYUI3U3NVcFBSdmpIU0Z5VXlHWWw2SG13OW9aRk1qZVp6UmhEM3JienZvWDhBcEdPbHNHMTkzd09lOE04TFdDaGtCZ3JXSF9QNk1MOWFLc2kwTXBPTVYwMHhIcVpDNEY1WFdFWjlRdVlqbUlOTmVldm9QNDgxWFZaQTRiY2doV0FJNkZnMnQtZ2ZRNVdmd0tLRHZLaWhSQmQ0ZHNGTUs0YkpINzltRFBMLWZsMEhzRzBzSUJzaWlEbEFkSGpGT2pMWFFPRmpNUW1DNkJCQnVkVlVMQ3c?oc=5",
+        "date": "2026-04-23T21:39",
+        "source": "الشرق الأوسط",
         "category": "スポーツ"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-04-24T14:38:58.182919+03:00",
+    "lastUpdated": "2026-04-24T19:45:04.879511+03:00",
     "items": [
+      {
+        "title": "ゼレンシキー宇大統領、サウジアラビアに到着",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTG5CUGN6cWQwamVLbTd2Wm9uX0p0cXoyNmU5OGhEamplbU5CREJiMDZBQ1Y5LUhNZk5Jb1VoTUFmbldNRXhsVmRJcG9TLXA3Sy1DU1I0bXhNaGtJdGJJMHMteUgzS2QxQ0VjQmNNcWxMa09yWmdWMHlUVWQ0ZF9rbzQwQzJDWHQwOW5kSThHSFpHYzdOZkZQMWUzVVk4Q0dxN3Zj0gGoAUFVX3lxTE5vTmE3ZDhzRDhzVDQxbVpMNXNFWlVyN1NVVHFtMlp3SW5DSWdEZFlGLXdxQy1qbG11SklwbTcxdXVXdlJXcS0zcmJRcWo3ajlnQXBsM0h2enRaamJuNGlhWmhEUHBjeEtGQTNWeV9uc2l3OG9tNTQzcjRvUlR3VldXSHQwMzFnZVREdU8yNjN0eHFSZnRaT2o2SmRzem1MaUtvTnFyM3BneQ?oc=5",
+        "date": "2026-04-24T11:36",
+        "source": "ウクルインフォルム通信",
+        "category": "政治"
+      },
       {
         "title": "◎サウジ新監督にドニス氏＝サッカー",
         "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ua0RicjlCWk5VaE5wUEk1aWxpOHBXTUNKSzlyZlY3a3E2SjBqaU9fck9CNk9jMlF6dFNUd1Q2U1AwWFVOdUFWdmZ0amx3X0pGRjktTQ?oc=5",
@@ -284,9 +291,16 @@
         "category": "スポーツ"
       },
       {
+        "title": "サウジアラビアの科学者、30年ぶりに絶滅危惧魚を復活させる",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kaGp0Q1o0eTFITVc4RzliWVpCbEJXTlA5Yl9tTThfR1FmNzVvSFZ6bUw5QzVJYW50dXNDY1E4LUtFMEM1R1YzVVc4WVRUZXZZeUJWTnZDZF9hMVNzZ2xJT1JPQ1g2aU0?oc=5",
+        "date": "2026-04-24T08:04",
+        "source": "arabnews.jp",
+        "category": "社会"
+      },
+      {
         "title": "サウジアラビア代表、ギリシャ人指揮官ドニス氏の新監督就任を発表 Ｗ杯直前の監督交代劇…本大会でスペインと対戦",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1jbkxScEN5MTFXU3FaY094T0c5VnJNM2otQ19CRnFMQVZWR1dqRlNNczNaVVpEa2luZ2lYdTBFRExSS3ZRNzk0?oc=5",
-        "date": "2026-04-24T06:05",
+        "date": "2026-04-24T06:12",
         "source": "スポーツブル",
         "category": "スポーツ"
       },
@@ -330,20 +344,6 @@
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByeEJrMUhQQ3RnTUktWmNGVjA3Y2ZfTFJYZzRUX0tTeWRRUjFpd1pGTjZ4VjZIRE1lVGliT2ptSm9wNkhkS1pPVXR5X3NJM0RtZzlEU2h3?oc=5",
         "date": "2026-04-23T10:14",
         "source": "KAB 熊本朝日放送",
-        "category": "政治"
-      },
-      {
-        "title": "“紅海ルート”拡大へ 日・サウジアラビア電話会談",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5LOTVkb3RHNkNaRkxJQTRVQl82b1kzUDBYaGhyRnVhUUZOb0pFLTRQd3VmQTVVQTR5enZhYS1mNFpPYW52ejc2LVZvVXZZSG1FdzlYUXRIdnBubTlHRENuLWVPWUV2aDc0X3NaVnA5TjN1UkU?oc=5",
-        "date": "2026-04-23T09:58",
-        "source": "テレ朝NEWS",
-        "category": "政治"
-      },
-      {
-        "title": "高市首相 サウジアラビア皇太子と電話 エネルギー供給拡大要請",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00ZTlJSkJTejFVUENac3dhM1hsSElNX2FrTHB0MDJYYUFuV0tfRl92SUhkcnp6N1htd25BaUluSV9aWThySk4xWlBSMXR4TUhVbklwdmU1SVZtMFdHZFdv?oc=5",
-        "date": "2026-04-23T06:27",
-        "source": "NHKニュース",
         "category": "政治"
       }
     ]
