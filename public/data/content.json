@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-04-30T14:57:59.895843+03:00",
+  "lastCollected": "2026-04-30T20:09:45.024033+03:00",
   "security": {
-    "lastUpdated": "2026-04-30T14:57:59.895843+03:00",
+    "lastUpdated": "2026-04-30T20:09:45.024033+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,14 +39,14 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-04-30T14:57:59.895843+03:00",
+    "lastUpdated": "2026-04-30T20:09:45.024033+03:00",
     "items": [
       {
         "title": "【大使館からのお知らせ】領事窓口業務の再開（3月16日）",
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -54,7 +54,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -62,7 +62,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988773.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -94,7 +94,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100981607.pdf",
         "date": "2026-02-19",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": false
       },
       {
@@ -124,8 +124,22 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-04-30T14:57:59.895843+03:00",
+    "lastUpdated": "2026-04-30T20:09:45.024033+03:00",
     "items": [
+      {
+        "title": "サウジアラビアがLIVゴルフへの資金提供を打ち切り 主力選手に復帰の道険し",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYzRsNFlNSl95dDdaYmx2elozQ1VnYV9YMlpfdWs0VjJUdUJxcGdzMmFBdFZleGFqQ2NOblNRMHp2b01KY3kzdGhXWFhYUk41TmNuX0NoOHRCSEhBWkVtMlRHRUZ2NmlxYW1yRXVua1dBVzVWaE9sVV9iNkNnd2xJa3dn?oc=5",
+        "date": "2026-04-30T14:15",
+        "source": "WSJ",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビア株が下落 タダウルが0.45%低下",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYTY1dXNNYzF2cm40YVg2a0dMYmFGZEF5YVpzT2dqS2UyT3F6TVhHSEJwRW9JVkpIa2xrRktNdlh4S2xVVGhLM1NUM3NYbHk0cngxLXpmajQ2R3RZTGdfVzA2SXhBZDEweDJCLUkzNWY3bjZlcVVaQXA4dnNVVVV5ckp1a2NCZkpyM283UXptUHcxMUxEOElkWkotc2JtNExhQm9DNTFIdFZzQlJOY2lRTTQ1ZjZvMTdud2NrcmJCUTVCRVh4clE?oc=5",
+        "date": "2026-04-30T12:47",
+        "source": "Investing.com",
+        "category": "経済"
+      },
       {
         "title": "LIVゴルフ、サウジアラビアの支援喪失後、独立した経営委員会を設置し新規投資家を募集",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNm1DQ19kMGdWaUh5NFFCeFh5NDVCMVJhTXIwQ2QzOXlXVGlYVE5HWTlmV3M1MldDaGoxNU1TdTZYMy12NjlNWVlZWDJDMC1rSjUtSW4wX1RER2czdXFrTThTV2Zubmw4bmdTeFozWW9FeWRrQlVoU2RvdlZaN2lPdm1jU1BqbDQtWGhSaWNWTzN4R1VEOXpPZnEwc1R6Q0Q0T0pJdFZ1THB4dDRtMVloTDJJVmFfUFUxZlVhOHpGdw?oc=5",
@@ -134,7 +148,14 @@
         "category": "スポーツ"
       },
       {
-        "title": "サウジアラビア、eスポーツ産業に大規模投資",
+        "title": "サウジアラビアとUAEの関係に溝",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVEUzZF9EWmZmaTRhSEVxVWZxSHZPRUgyRTR2cGp2Z3QxQUVmSUZJOXdGR0xBTE1VREtHOHJURTNsYUgxaVI2cndCeFRxREJCdEhWRVdvOEtqWGIyVVp5SDgyXzV5Y25FLTJnbG1qOUoxOTdjazlscXVVcURmVk5oTjk5aFJvcGJ4TW1rR0lXT05qdDFKQ3Rhd3ExbS0wOGdRVEFsTHFMeUw1Rm91NEhabTVPdU13RFJBQzZWMjBpeUl2UUU?oc=5",
+        "date": "2026-04-30T09:16",
+        "source": "Bloomberg.com",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、eスポーツに大型投資",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYWNLU19vNGNjcXYzMG1XcFdiWWNOZlNraGVHR3NqbGNqNnJlLXJYZUNETUxlN1NtLUlxWUZsdWhoTzZodWJJeE9Sdk0xaEx0Q19oMnVpeGpPclkybkd2NWNGT2Q0YWswNE5oN3RPY2t1TlE0UkZsVTRiNkFRSV9nUkpXZHZ0dw?oc=5",
         "date": "2026-04-30T08:45",
         "source": "Time Magazine",
@@ -148,14 +169,14 @@
         "category": "その他"
       },
       {
-        "title": "速報：WWE中東進出計画、WrestleMania44開催地、EVIL新名義ほか",
+        "title": "WWE速報：サウジアラビアでの計画、レッスルマニア44の開催地、EVIL の新しい名前など",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZFcybl9aamlQaGVEUlNqb1pRbk9VT0ZYWGg2MmVQbnAyaHlQZnZheTVFdFlzVjBuTlJyTVl4TUh4TWZhbkJRMlJNSV96Vnk3MEp2SFliMC1NWEZ2Y3FMOTdmZWhVT2gxLUxqYXdWOXFhUlcxNUxWS19uT0lYNllmemhMTy1MeGZRU29nWnBUR1BjWDY2UWctSjVJSkYxaGRacTNadDZJMXJ1aC1RZ1ZCd3VuSkZJUzhYT2pEWUlaWGJSRndCRjNLUmhpZ1V5N0J4Y3pRVFhrMHk?oc=5",
         "date": "2026-04-30T07:36",
         "source": "Cageside Seats",
         "category": "スポーツ"
       },
       {
-        "title": "中東情勢の緊迫で国際的なホテル予約キャンセル増加 タイも中国や韓国などと同様に対応",
+        "title": "中東情勢緊迫でホテル予約キャンセル相次ぐ　タイも中国や韓国など各国と同様に対応",
         "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQeDIzVEl3TVBWNFpLVWlxeHVFbER2dHZ0SHBYQjFoY0JQYXpMRlhiMkRESHpqc2FJR2JZNy1mel9oTk9jQnpRYmZLbmYxRWFJTVJzQ256b3V4WkliSUFERzI2azVmNmUzVGxRS3FFN2FhaVA3NVJIZGU3d043RGxFNU1kZlUtT2tncTBZdW9WS2JyUnJnVEw5YllUZEVGWlNiSnE5TFRCaFlfUXJseThacnVsQU4xb0VjSkNUS25Bb0tSRzhXY2lDSUwtQ3pYSnpRM01SenJUZDRUdmtzbFBUMEplU1J4NzRSTWZuQ2RGSmxRMDJ4dXVlTmJXUG5PVWhJYnd6SDVxODg4QVp5VE1PYjBuQUQ4M3lZeDBla25PMHNHT2RRMC1LdXo3bXNMdDFEdXRwRS0wdE13RVE?oc=5",
         "date": "2026-04-30T07:07",
         "source": "Travel And Tour World",
@@ -169,40 +190,47 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、LIVゴルフから資金撤退　主力選手の復帰に困難",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYzRsNFlNSl95dDdaYmx2elozQ1VnYV9YMlpfdWs0VjJUdUJxcGdzMmFBdFZleGFqQ2NOblNRMHp2b01KY3kzdGhXWFhYUk41TmNuX0NoOHRCSEhBWkVtMlRHRUZ2NmlxYW1yRXVua1dBVzVWaE9sVV9iNkNnd2xJa3dn?oc=5",
-        "date": "2026-04-29T20:08",
-        "source": "WSJ",
-        "category": "スポーツ"
-      },
-      {
         "title": "イラン情勢がきっかけ、湾岐関係が転機 サウジとの対立が表面化へ",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcWdqYV9SUFdBdEZHTGl2SXFVN1RHeGhhNkpfd3RGVVNXQ0xUN2NtMlEtZUZzYnlBNl9yYTVDdFAwVWxYS0c2SmJmM3ZMam9uQVJXVnE4a3loaGt2MXByRXg1bmpSMGs3NzFuR2xOaFhWSmgzYlo0YzJNbjNNTEpGclc1LWRSRUh1WmxZX0JTdE5adkhPTmo3N0VHcXpuVV9sZVZzcWlsLXFRRTVrbUwybkVmaw?oc=5",
         "date": "2026-04-29T12:06",
         "source": "Bloomberg.com",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、地域情勢の悪化に警告 パレスチナ国家建設を改めて支持",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLUlV0a1ZHMWtnQWdRWkZnMlFXc0pjVHJaSGtuRk1XV1NYcDcwRFVhRHJwY1ZtZ3MzYllOSFotSF93dTZhcE1vOXNUaDk2NlpOU2NxTnZNTGxJMU9jbEQw?oc=5",
-        "date": "2026-04-29T09:30",
-        "source": "Arab News",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア エチオピア出身移民の処刑差し止めを求める声",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV1l5V3NvZ3dzTk5XZ2Q2bW5yTkFkVFV1eWtyRkVxQjdlTDQ0UWNqMm9Ic24xaDYxR2JZb1JlMHJCODV2VWg2aUJTVWRZX2ljSll6ajBnOUUtY3dMRXpPN1dZOVM0QmI4OU40M2RTejFlSXVwUWRPbDdkXzBRNi1XT05YdFRSMmJtRDJTUFhleXBuUU02bWlxY2sxRQ?oc=5",
-        "date": "2026-04-29T02:00",
-        "source": "Human Rights Watch",
-        "category": "社会"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-04-30T14:57:59.895843+03:00",
+    "lastUpdated": "2026-04-30T20:09:45.024033+03:00",
     "items": [
       {
-        "title": "サウジアラビア建築設計指針の第4段階、リヤド、メッカ、北部国境地帯、タブークで実施開始",
+        "title": "サウジアラビア建築指針の第4段階、複数の地域と都市で実装開始",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE85bUxpS015QVlCUmxYclIwYWFIXy12LWNUMVZzVVZrdGQ2blM4V0F6SF9hYVBzRVIwZzdTU3dQNVRzbFdmeUE?oc=5",
+        "date": "2026-04-30T16:14",
+        "source": "وكالة الأنباء السعودية",
+        "category": "経済"
+      },
+      {
+        "title": "アラブ首長国連邦のOPEC離脱決定、サウジアラビアとの関係と石油市場に波紋",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pNkUxeFdQQjJEUFRvWmRfRjlqTm9veUtKanVxMEo2aFpacThVdXhubThjTXVFRWlBSDhQd1A5UEZaNG1YblBqWGJwTTcta3JYQms4S1JMcUdLX0x30gFiQVVfeXFMTzVoNjdEM29SclpYUmRtSjhPTS1rV3pDallIYnI5RVVXTWhJRWh4bklpdWtQUENtb2xucXNWQUpTMTd3Ym53bWVxU2U3NkMySXVhV0pFMDhUNHdyM2RDTXpWMWc?oc=5",
+        "date": "2026-04-30T15:02",
+        "source": "BBC",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア管弦楽団の傑作シリーズ、ローマで11回目の公演",
+        "url": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxQTnhLUzllUWZZRHhadG5ZbFMtajV5aC1LeWNoS3p4a0FKaGY2Z0o2WnhVdlZqR19XS18tMEhGR0hNcHFoV25SMVU2NFlVS2lFejk0RmNybFI1ZmFGb3BreEotTThzMkpXMWRzRXBxQ2RWQ0c5UmE4WlRMczc2dnkzaVNLQnQ2X0JfcUxmZlBYRkxFOG1RNUJGWHc5VF9tRm95Zms0Sl9YX1J0NWo2UE9fUGZGMDZNdDg0cXZqUW1tZWJPb2xuQjR1eHo0MWs5SEladmpDcDRjNEo3OUdXTk9yMEhtR2gySmVsZ2NsYlg2SWlXdjZ6VVNja1I4a3NoQ2syUll1Z2E0NDNzejJDSjNRTldMX0tvWTRwQ3o4YjR4czhWU2k1eVR4QktrQkFmcElnMWdMbExwV1gycVFfQXItWVNwM3NuaUM3OUo5bVhUUmdxaS10NDFYcTJRQmFHOFpGbzNDUU54ZUdwcDlyNW9TdFVZRDdYbi1JZ01peTFvT0dNdHlKTGptMGZPOW1uVmZDSDlNUkJoLVY1anBnZlJTaldjR2JoaHJUcXdzQXNuMUVPa0YwLVZRS3NKQ211NHk3cGlRbXpfcXFBRXpfcUlHelBidUQ?oc=5",
+        "date": "2026-04-30T14:44",
+        "source": "الشرق الأوسط",
+        "category": "文化"
+      },
+      {
+        "title": "サウジアラビア建設会社、新地域での第4段階事業を着工",
+        "url": "https://news.google.com/rss/articles/CBMiqwRBVV95cUxOQVlfMXVlNlBBWXZlT1BnTzFOaGFYc2JncngwUnktUWc5WFRySF80RGpoQUdNaXEzVjl1T3M5OW9YUTVhalBMVU43bU45c2drQkZWbzJ6a0o4X0R0Yklvc0hnb0hDUHVQRU1fNjgtRl96X3dDQkUtcTZiLW5tcHRiSGk1TjZKaWJ0WmE4dnNtMW1PbkctRXhkX1lmaWhQS3dmZnBJTFE3aEtveXpWOGRoVjNMYzNxT0NIekhUUThWWTNVamxzam9zMUVGc0UwbDlMU1dKY3dyTFBVWWFEaWIxZmxYZldobkxJZGhVaUtFNlp0Y1pfTURtYzFyc1k4U0Z1THNLY3MtWC1wRWxfWVBoM0w2Z1VFUkYxNnhIb2NWa3lRTkNNY1I4WXlDWGdSZFB6QmFPTDZZelBSTjBEZXM0eGxtSDZJYTJ3emdDTGtaWFh3UTVNSGdYMy15dm9PUjE1UGlXemJWdUlVejdqbldFOUI5TXRrMTFsOThqMnpGSnZJLWUwbmIyMV9DRmtkY0xvZVJRUktYcHI1ZWtCS2RCQkQyYkRQcElwMkhEZVNGY3pXcU90TnFIampVdkNuRVdfczVINXVUOGFMY0RCRVNQOEQ1NzRIOGVMSW0zblRmc0FUNmdSZmZBYnJmNTEydWhTQlIyUWQtcG90aTFOOVl0QTBha0daMXhqSGQ3dzVvWTNZWGF4UU1TXzBOSTRRMUt1MFhoS01pUmloeFXSAbAEQVVfeXFMUFFmSU1GZnFCaENmbEp3dmJVNjI2aWdrdFVtZlQ5Y0tZOGd0SERzdVcwaGFQUDBldENXNzBrc3paazZwSHVoNE5fQnpLd0RlbHRRSDV1Tm9IWl9JUS1xWTFKVXgwNDNwT1BNaVVhQ2F2dmRNbWotSlJnNWN0cWg1WGFraC05YS1kOS1oRDlXaXBHaGVMYzQ0WktQX296YU9WLUR6ZmdENXhrSlQtWDRvS2w3WnlCdzgyNjNMVlVsdTQ0TGMxbzhYeHUySENBczVkYm1EUHJaYXcyMlVxV2t2QWd1V09rT2EyZGx4VVJoelRZX2JrTFpfNzAtcGpRTDVabkNCWEVYMl9SUTlBMVpjWDVwMzhkZlhMMC1IVnRpS0VxOGNfZUtISWhDTlZrUFl1WENUS0ExNWtpQzZpUzBicnY4eVFyLVRqaWE1bDFWd2FLeWEtcXY5dTdxWmZBNHM5cVQ2Rk5oVlB4ME9ZSjY3QXpBY0o5aVhTdGJfcF9JVjFOV0o1UHhndE00dXhrNFcxcU1PU3JadzNxclVvWnZKYWhJNDJWUXRISGhRdW1KdFBJbVRlSnVYOVVHYS12OWhqV2llRnRmc1czNjQ4UmUtYmN6cFg0Q1lmY2J4OHZDdFlNUnQyem9rNHhKX1ZtTjZHdkdfVHNmcXkyY2NyUk5ZdXBMUWU5MnNTU0U1UGYwUDVTR1M5R0hoeDJNZGN4MXlucEFnTU5zYWtaSHpiTUppWEI?oc=5",
+        "date": "2026-04-30T13:26",
+        "source": "العربية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア建築設計指針の第4段階、リヤド、メッカ、北部地域、タブークで開始",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9VQ3liandzcWVkT0IyT3hxOHliZGhCd0p1WDFJckw4ZG1TN2oxV2k1RVdTUUMyY0FJMlFFbEg1YThDSEJOaERF?oc=5",
         "date": "2026-04-30T11:48",
         "source": "sabq.org",
@@ -242,40 +270,19 @@
         "date": "2026-04-30T09:42",
         "source": "عكاظ",
         "category": "社会"
-      },
-      {
-        "title": "UAEがOPEC脱退、サウジアラビアとの対立激化で勢力図が変化",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KTkZRNF9jQlVTOTI0YkVPMHpqSkxleXpYczkwcS13Y25QSFNMdHRacE9QeDQ2R0lEVlJudlNTU1R3cU1NOHhfZzIxMk1XOXNSbTFDbndOQnQ5THpselA5Z2pQSEVpMnI1OXVTRWtiZGY5RkJBdW4tUTZuTXl3MmM?oc=5",
-        "date": "2026-04-29T21:06",
-        "source": "Reuters",
-        "category": "経済"
-      },
-      {
-        "title": "速報 アジア連盟がサウジアラビアクラブの大陸大会参加方式を承認",
-        "url": "https://news.google.com/rss/articles/CBMixAZBVV95cUxPRXJsdGJ3ZlpzdUlieHFEQS1vQzFJSjBZcEJzeUFCTXhzMHRqTEFFUnRjMGU2R0syMTdaZkVTa1lMRHhjNG9XUjR0MUJDdm4waVM4NzJsaFpPMjZDeTh3NkRQTERMeXh0ZzRJVG1PMFNSV0FKek84ZGxhOTVJeVJiWmlHYlFDODlfNlY3eF81bWw0N1BsN0FmMTJtWUdjemFSMkxqVG5JdlBvU1huYlg0SXg4Ukt2QmY2QlRPVlJzWlRVZ2I1VGVnblY0T1hMMWtFZXhMRzZXbUY3LTg5V2tLQkNya3Y3Znh6MVZWemJjelR3Y2ZkcjlQZWRQMXpIbE90T2VIRWI4dDBtVHlUN0haaDZZdTJ3QVdRVzRVOGtUeDFzU0xpOTlZX1pLVl82TnplanFEdzVkRWhKR0VTUTIyal8wZzExSzYwZ29URk1rYklkTE1PU1A4aGRtZVFWZjNmczR1eW5ldU9xRk1XaTFaWFg5cWJadjItMGtMV2V3OENsMy1mTU9uaE9VN05IbFByY204NXN0azdpSFdlRWdDQk1DVVJRTnYzTWxkZkxLYThnX2lKdnlHTUZrSGRYYVZQeV9YTUtlQlF5Q011SVJ6aWh4WWZQd3B4MXpEM3lJcGViaHNlTHdyaHNhR1B1WGpXNkxDX05QSWNRcUNGQ25WSklYYjQ4czhSdGFEZFlaY2laVTdLcHkwVGpPZHZYSXR3VEZCY3FjSVZDZW9kWlZNQTJTSzdpMHVnSmxVRG5JdFMtU2J5ZnoyNm5fRmhSQ0ZBQ3dfa3J3NDB3X0gyYnBpYzJZTllhTHNVX3hzdGRlbEdSZkpoZnBkUUV6ajJqYjdhcDE1Sm5CWnJpaWFINkxPWGo3dndpaXZFdUZSMzFsazJiN01sRmhoLURIbFpIZTN1MXU1X3NPOFpHZWJJazlkVXY1Tmc3WjlNbDU3NUJVeXZiQVhXdmZINU5SVkpOSGJMQnRWUzRGUnR1Zm5ZYTZKNlRWdmJKdFRqYXNIbzEyUnJ4WGVPeXlqTGVuLXJUVnZUaHRrOW1BaVVHTXVyYm1paFBZVjRxN1NtLS05SjZSem4xdEUybVluSlNLNEczX2xlN0FiaNIBU0FVX3lxTE1HeWIyazJkODJCSVF3V2RxSlpVQjNMaHlHZFlhODV0amZCbEhiZFZJb3c3aUY4WFhNVFdwUTk0ckhRbmlrY3ppQWJpR3V1Y2N6RjBR?oc=5",
-        "date": "2026-04-29T21:06",
-        "source": "alyaum",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア鉱業相、フランスとの鉱物資源分野での提携強化を協議",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5fRUhtclplZzRHQnlUTVVqcXladUl6TG5ONzVnZ3pBdWJKQ1R5WHlWNjM2RDVaVUZQcnVoSG9ZcG1TOC1OOGc?oc=5",
-        "date": "2026-04-29T20:10",
-        "source": "وكالة الأنباء السعودية",
-        "category": "経済"
-      },
-      {
-        "title": "アラブ首長国連邦がOPECから脱退　サウジアラビアとの対立が背景か",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rM1ducEtnSGp6UVdrUFk2U3pBdmFXYWFJNnpqWWFzeGFXMHJVdmgyZS00THpCWEJ0SnFFdWt3ZVlwaWpRRHZ1MzFRWm9sUjFRNHhzMGFKdklLUWtj0gFiQVVfeXFMTVlmZzhHUjYzYUdjajJ5UUFOMTlBcHBYM3RtQ1VSS3FyWl82b0FBd29pOENjTmNnV04xSjhnUlRmZmZrUWV5cHVpbnpwYWx0cGVmT0JKMEhocUJVdmIzSlliNXc?oc=5",
-        "date": "2026-04-29T16:54",
-        "source": "BBC",
-        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-04-30T14:57:59.895843+03:00",
+    "lastUpdated": "2026-04-30T20:09:45.024033+03:00",
     "items": [
+      {
+        "title": "LIF Tech、サウジアラビア開催「Global AI Show / Global Blockchain Show / Global Games Show 2026」の公式メディアパートナーに就任",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTMW55REozbjVzeEhkM0ZmTnotc3I3WXQtUmkzajdwcC1GdTNXVU1QWnRFNzlxTU13YjlwWl9adXFwckdlYzVWSHdfYTY3SWJuQ1MyQldTTGgxc3lsVDltd2VrX01fa1RsZ2c?oc=5",
+        "date": "2026-04-30T14:49",
+        "source": "PR TIMES",
+        "category": "経済"
+      },
       {
         "title": "バルセロナFWハフィーニャ、サウジアラビアが高額オファーを準備か（GOAL）",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MU2RBTnZWbnpQeko1YU1ZT29zdVNwTjd4ZkoyVEprN3FramRON2l6X3pBbXRBcTM4NjAybTFuSTQyX3ZKU0ttQ3RjOVpjbFF0WVBuZkhKbU90RWZ0X3NrOG1PVl9SWnRZYm9BNElBODdqOHJ4N0h6dHZ0VURCdDg?oc=5",
@@ -296,6 +303,13 @@
         "date": "2026-04-30T07:00",
         "source": "千葉テレビ放送",
         "category": "政治"
+      },
+      {
+        "title": "バルセロナFWハフィーニャ、サウジアラビアが高額オファーを準備か",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNc1RETHFDcEtpYzlqT0R6NTZsQU5HNzIwSk1tVnR6Q2N6NnNuQk1ob0wyNjJoN3NpdThrQ1NWUkV2T0lheHdXeTRmM0xKREdDdjNacDRkZmhwZUZjejdwYjdWS0VXamhGeHN5TThLUzA1dE1ieHg5ZkN1RFJGZ2dMTGFiMGlrcUY5VEItQm9rTU9zRG9Mc2VYNW9aV1ZGaHdBaGpyV1BvVlAxYXBDUWc?oc=5",
+        "date": "2026-04-30T06:35",
+        "source": "Goal.com",
+        "category": "スポーツ"
       },
       {
         "title": "サウジアラビアの最新動向と事業環境解説のウェビナーを開催(日本、サウジアラビア) | ビジネス短信 ―ジェトロの海外ニュース",
@@ -326,25 +340,11 @@
         "category": "経済"
       },
       {
-        "title": "サウジ集中開催となったACLEは不公平？ アル・アハリの連覇に英紙は「アル・アハリが日本で試合をしなければならなかったとしたら……」",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCdWExZGhxNnBaZ2hMczNpV2UwR01JTGZWd3F2SWl1em9ibDRmUGNVRWppYnpicG45b18tN2JfY29MZjBUcHV3bmNwTEFodmh2ZkdwSEZjQXdRMldxc2RZ?oc=5",
-        "date": "2026-04-29T07:58",
-        "source": "ライブドアニュース",
+        "title": "サウジ集中開催となったACLEは不公平？ アル・アハリの連覇に英紙は「アル・アハリが日本で試合をしなければならなかったとしたら……」（theWORLD（ザ・ワールドWeb））",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11YWVjQVl1ajJVekpDdzFKZEktYjlQXy1hUU8tbWlnSWZaMExxd1VaSndXa0lBS0JQYXhaZi1zSnR0UjlES05VLUMyNVNMOWtaUHJNcW16bVcwZWk1a3lYSWZTZlBnOUQwNWdyQTc2MEdkeWsxUVo5Tk9aV2o3c2M?oc=5",
+        "date": "2026-04-29T14:30",
+        "source": "Yahoo!ニュース",
         "category": "スポーツ"
-      },
-      {
-        "title": "サウジ集中開催となったACLEは不公平？ アル・アハリの連覇に英紙は「アル・アハリが日本で試合をしなければならなかったとしたら……」",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUTZoYzJadGZBSFQycV9mZDVZOW1FMGd2cjlTOENCOHQ1ajVtS1hibU9YSjhXUzI5cnFXNDJVOTdtRXdqdjJ2SEFJanB1Z0x6dXVONW90R1FBYzk1Z0t6Mm9rQ0hEYXlCM0dRdnpDeUUtMmM4VFRUVFhSQkY1M1d0ZTVNLUVnbU05N2NNLTQ4dzNPb0JmMEozRjhWVVlkQjVxUFpQTTdDbVFNdDFqX3VKODZPcDVoVmhuQlZWOTItcVQ0TlU0V2pCRlYxWWdCTEczYjB3RkF6VV8wTmxlaTRfOC0wcUx3b0k?oc=5",
-        "date": "2026-04-29T07:58",
-        "source": "ｄメニューニュース",
-        "category": "スポーツ"
-      },
-      {
-        "title": "UAEがOPECから脱退へ 国益優先と説明、盟主サウジアラビアとの対立も一因か",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKNXJkOWdVekR1Wk1TV0YyendaQW1jdGt0dnVDNFhQUDBSQ0dDRklkcjNEcWh4aTc2ZWhLNm1tZl9XTVhlOTNaUGRzb3BqTFEyWUFQc2hPTGE?oc=5",
-        "date": "2026-04-29T00:00",
-        "source": "Forbes JAPAN",
-        "category": "経済"
       }
     ]
   }
