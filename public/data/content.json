@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-05-09T14:24:44.435413+03:00",
+  "lastCollected": "2026-05-09T19:42:20.374537+03:00",
   "security": {
-    "lastUpdated": "2026-05-09T14:24:44.435413+03:00",
+    "lastUpdated": "2026-05-09T19:42:20.374537+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,14 +39,14 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-05-09T14:24:44.435413+03:00",
+    "lastUpdated": "2026-05-09T19:42:20.374537+03:00",
     "items": [
       {
         "title": "【大使館からのお知らせ】領事窓口業務の再開（3月16日）",
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -54,7 +54,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -70,7 +70,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988294.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -78,7 +78,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100987261.pdf",
         "date": "2026-03-03",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -94,7 +94,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100981607.pdf",
         "date": "2026-02-19",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": false
       },
       {
@@ -124,7 +124,7 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-05-09T14:24:44.435413+03:00",
+    "lastUpdated": "2026-05-09T19:42:20.374537+03:00",
     "items": [
       {
         "title": "戦争が湾岸諸国の関係に緊張をもたらす",
@@ -134,25 +134,39 @@
         "category": "政治"
       },
       {
-        "title": "イデオロギー、家族、歴史：UAE・サウジアラビア対立の背景",
+        "title": "サウジアラビア、トランプ前大統領の対イラン政策がイランの攻撃を招くことを懸念していた",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNHNqMWdqLXNHeXczRjhKMTBoMW1zdlotMk9KOHN3WXBPTFlUcHFCcmFYVFRqNkRkMTZidXFMQk1xS2pDMzd1aDZ5RDcwSkt5SmFZRjRIMmtjd2VPc0VWdzhpZ1Z5WW9NZnRmbS10emdSWi10akNWTndwRUFhTWJqeS1UdXJVQ28yOVZSOU5KaFpVMGxuenk3RUJvUHhYcXRYdWlwOGR4Sm9UX24tbFZZX1E4SkY3RzNNYTNWdy0wNzZ2T3ZYdzNoSg?oc=5",
+        "date": "2026-05-08T21:47",
+        "source": "NBC News",
+        "category": "政治"
+      },
+      {
+        "title": "イデオロギー、家族、歴史～UAEとサウジアラビアの対立の背景",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY0s5UWdnTTFHYjNnRXJ0OGFDbzI0QUJ5WUlMYWJLQTdkWVUxWjE1a3N4REt2M3BMaHVYMEJlVWgyNnVaVGdZVktRdDNqM3hobGh6RDFGajkxZ0x0N2l4dVNFWlZFYW9KTXVmMTYwLWlMOXZINV83eV9tQmhDU1JBTnRCa0xJLURFdEJ2Yld2MFhkU2h6REtVQmpB?oc=5",
         "date": "2026-05-08T20:16",
         "source": "Middle East Eye",
         "category": "政治"
       },
       {
-        "title": "サウジアラビアがトランプ政権の中東戦略を主導―イランが利益を得る構図",
+        "title": "サウジアラビアがトランプ政権の中東政策を主導　イランが利益を得る構図",
         "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPZm5tbmgzODBycTBkcV8wV0o2Z05qRE52cno1VGtnNW1VenFZU3JiYXhBckNJVHFOdDlPVkJZQ2wxZjgyUktBRGNrX2tEZnd3bHAwc0lYa25Cb3hweUhFUW9tX1lfZE1jTUQ0dFZXakwtSHptU2IzRlY0N2szUC11SEgza0x3eFVtOFl2UUlMaF9oVjBjSmFkbWVfQklmeUlqTGQ4d3NsOXdXZFZSWG1kUjhjaFgzZXhzalhTbVo0UlZCS3dGV2NuZTRVaFl4QkZQVEw1a0l2ZGY3clpFQlNpQ2JPYzRkb1QxQjdOV1JVdENKcHpQUlhRYUh1M3h3ajJhSkh0SVN3M0c1YzA?oc=5",
         "date": "2026-05-08T16:19",
         "source": "Haaretz",
         "category": "政治"
       },
       {
-        "title": "サウジアラビア情勢",
+        "title": "サウジアラビアが領空使用を拒否、トランプ前大統領がホルムズ海峡作戦を撤回",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSWNlZUlLSmlZRE9mTjdieFA4SHZVTkR2ZnVuYzVQSU00ZW9tT2ZkaWdWMHlUME1rd25WRUNVU1prUnhZZ0ZmN1BnSE1VUDg2STZVMDFaak1Qak9JX2Q0VXpoZzhIRk5EN3RuMUdwU1ZSU2tFUEJuTno3N3hwVlRPZEJ3NGRwaEEt?oc=5",
+        "date": "2026-05-08T15:36",
+        "source": "The New York Times",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、戦闘状態へ",
         "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ReWhvOTRRckVONExzeldONk5hNmVucWE3bk1zWkxtYllGWFNTNDNrVXBEWjkyT2JjV254cEVsUmJXVFlhN0huUkZpTWVkZG9FTXl5T1l2eVVSOWNxSnh5a3FXZzR3WTZ4?oc=5",
         "date": "2026-05-08T15:32",
         "source": "Commentary Magazine",
-        "category": "その他"
+        "category": "政治"
       },
       {
         "title": "サウジアラビア系LIV批判者、中国の人権侵害に目を閉じるのは矛盾している",
@@ -169,7 +183,7 @@
         "category": "経済"
       },
       {
-        "title": "スペイン造船大手ナバンティア、サウジアラビア向けコルベット艦7隻目の起工式を実施",
+        "title": "スペイン造船大手ナバンティア、サウジアラビア向けコルベット艦7番艦の起工式を実施",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVc5bWFuNDFlcDY1NmxXNDNmQnMtdWVSNVlNQVhseXpFUVB6SFZSbXdYekl5bkZvVkVxbnZTbUoxVllBa2JMbnhOdWNjWlNOczRXZ09CRmM0TG5wMWV6MU5NemVZcFg0ZmNFMHBzTkxiZTFmU2U4cVZFRFl1YlFVZ3RIV0hGS09tT3dkdWZIbklWNEd1ZXBTaVpWMGdDN3BVdnVDTGJseWRpYnU3WWc?oc=5",
         "date": "2026-05-08T11:12",
         "source": "navalnews.com",
@@ -181,26 +195,40 @@
         "date": "2026-05-08T06:06",
         "source": "NDTV",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビアの領空利用拒否でトランプ大統領がホルムズ海峡作戦を転換",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSWNlZUlLSmlZRE9mTjdieFA4SHZVTkR2ZnVuYzVQSU00ZW9tT2ZkaWdWMHlUME1rd25WRUNVU1prUnhZZ0ZmN1BnSE1VUDg2STZVMDFaak1Qak9JX2Q0VXpoZzhIRk5EN3RuMUdwU1ZSU2tFUEJuTno3N3hwVlRPZEJ3NGRwaEEt?oc=5",
-        "date": "2026-05-08T00:04",
-        "source": "The New York Times",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアの圧力を受け、トランプ大統領がホルムズ海峡再開計画を撤回",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORVdtYmNzNWY3dUNabTF6VWJ0WnNWc1JTSVNzUWNIRDZmLXN3Y1BIX1VzdzdwQTlUVVRQWkp0ZkRVclpqUW5salNjbEpxQVZlMzEzSDllUngxYWQ0eThFU0Npd3pmTUQ0aHo5Ql8wMldiZTdFaUlBd0xsY0JjV1pSQkp2eEhGUU5NTDhrRUtJbHVscjFSdjBSTUdQS1g0SXlJZFY1c2VNbGJIQnY5S19XY3MzclgtMmdwdWFVdkNNTUkyRWd1NjRUOFB1Uk1fY3VQWWV3Ug?oc=5",
-        "date": "2026-05-07T21:48",
-        "source": "NBC News",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-05-09T14:24:44.435413+03:00",
+    "lastUpdated": "2026-05-09T19:42:20.374537+03:00",
     "items": [
+      {
+        "title": "サウジアラビア2027年大会、女性4競技をアジアに復帰させる",
+        "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPZTc3Y3ViRXZOWGlvX0I2V0NxNkszMVBuVkRIb3l3cU0wSjE1cHBEbDhhUHlZaFR0SGJkN0owUHNuYnc0ZTV4OF82TkFMa1EtQkpoYUZaR2tMREpKdG5FRGtqRDRwYUJNVi05d2tjYUNvcU5HSG8yVVBMVDk4TzNmbnQzMC1zNENBM0tkTHJZS0pHTjNOcDFtQXVkZ2hYLXhvX2g3NHpxNGlIUzhNVkRNYVlUQUFXYjZmMDJvSU5kT0dDemI5OW1MWl80c2NacnBSWUhKek02ZHhPUkMxZW9Ka0dJZnhUUGZWZVBDTURvTFpFeVk1emxLN3dGc0MxZGhfeVFESHBHUWlEYk10bC1oS1U5Y1JYTVF3eDJjd19uMERmVFdOem03VlhKRGFXUlVGYmRuUg?oc=5",
+        "date": "2026-05-09T16:00",
+        "source": "صحيفة الرياضية",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビア、モロッコのサマラ市への攻撃を厳しく非難",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAxazFrM3dsMWRlQU44VTZYSFJVX2M1OFlJRnBTS2JlUXc3YmxYV0R1cC1neE41OGdaV1JUZW9WYmQ4Nk1oRllF?oc=5",
+        "date": "2026-05-09T14:32",
+        "source": "sabq.org",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアの観光ブーム、世界的ホテルチェーン40社が市場進出を加速",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9oN19RS1BobjhaaXp2Mi1ZQlFqem41NnNWcjNPWE9mam43TmFqSVVzVE5fZWFkZFdFcDNtYXR5MWV4eWYzaWRn?oc=5",
+        "date": "2026-05-09T13:37",
+        "source": "sabq.org",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア観光の目玉、ダルイーヤが世界への扉に",
+        "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxNajV6elJxakotU3l1aHl3V01HYy0tRklTanBlRV8zdHNSOFkxX2tVb19UTGVTOWNzU3Z2ZHpSMXg2T0drdThNVU1oYks5dkRpMm9FcXpWbFdHUE45WXJ5ODBraVJsZUVjX29JU0tRdExlNWVGU2xIdWQwRXlWTms2dUVsMTVzZ2dfdG8xM0R1SXg5OHdtVXZNbjZVQlU4VWZ6Mm1yYlAyWmw0c3dwaHpFUE9tZ0M3YTducUJPcm5SUEppQ0RZbGFBb0xkU1AwZVU4NndLcEtmb2RkMnptWGZFdG53Q1kxSV9NSHFRWEhlT2NkaGU0a2dSbEx5UXEtM3prdzg2S0VHeEJOdU1HV0lUd2ZJNF9mMXp0Ykw4MDhtSmh6anl4MkRzTDFINm54NV9BVG5sanZBMUUzY0tKdl9hY243RUE0ZmN2bU9FZ0ZxVzZNRkY0Rk5nUnBfQ09nVHNTRVpnejN6X3piOGpBcXcxd29lcHlFV3o1MHZHckVISThyby05S2lrbGFZY1FMZ2RXVHFzR0NWQQ?oc=5",
+        "date": "2026-05-09T12:06",
+        "source": "صحيفة الرياضية",
+        "category": "文化"
+      },
       {
         "title": "サウジアラビア、医療支援で人道的役割を果たす",
         "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxOdjFSZmM4NWROdC1UQ1RTa2RucHZvWl9mcEs2eVpmcE5VR01KMzlUZW5zVXNwdGJxQm5MRFFzRkRkZFhZbUFkTEloVmhLQ3JXMXctY0VaaXBJTXJXZHZvbmZkd2xnRHNVZzJnaldXT0pieHBhRXBHWEdNWXlfRlhDZmFacXNDeXRWV1U3Um1SMkg4YTNPT1pNNC1JSXhTTE41QjVyX0JuMGQtQ3JRQVBBZHBvVlJiRW1JLWlmdU5uNG91NDhuYzdkbEdFNGVmeFAwRktxQVdIY3hsbWx6eEh6NG1pMVp5enlLbHkzY1BFeV9LbWM0M2xBZVlFcm1TWGMyak4xczdyaG56Vzh0V3hyQ2dmZzNYZ21HZkNqbjJJN1RpX2RUZUs1Tm44Zjh2MzlyekgwY2N1eXJRUFNCOVNqRVBTUnJidVVSa1lNZGxRWDFoVUpXQy1Jb2hPdDZxVHZPS3QwT3piZV8wUEVQX3gwNFlRZ9IB-AJBVV95cUxPQ1VnSTVnQ2JBaEtBdDVJd09nMVNOYVFiS0VFLUsycVRhM25KNkNMMkJoRnFXcWJZQVhHRDRjWjQtVTd3NWNyMTFHalU5SVdvTkc3MTliLUVnVlZuR0VYR0xXendZbnF6UDVmb244ZmZubEFDaTNEcmNXUkkzYXEwOWs1VGQwMFRRbnBWdGlJcTlSRWszY2VadjM5ZWpGTDViYXZFQkZQUVh4SVRzRnBhWV9hMlVRMTlkY2w5eGRNSUlsMVN6N1JNYXF5aHh6ekpPdVFWY08zVU11b0ZKSFpKN1F4ajdZY3JweGY1TENVZng5TjhvMTlONC1lNmFxZktpbzVqSzFIOWxRUGthbHpMQWUtcXRyM1NvTmtOamNNT19Nd2RMS2FUVDFMaFpqaUpCaVBhNThlLXRSRFp1NXRHTWNpNmxMMHMwMHl0SHFod3kxUmItQjdTSHJkMlVIQW1zZ1NNbzM2bklLMUVPWE5MTHZLZlpQZkNR?oc=5",
@@ -237,45 +265,24 @@
         "category": "スポーツ"
       },
       {
-        "title": "サウジアラビア アル・ヒラル選手、皇太子との握手後に異例の対応",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcE91M2lZb2h0TjVnOGh6V1Z1VjhnZmE4dmpGcFVVLVVpNm5DU3NpS3otYUI2YlVLREY2VDhjejdBVk1US0xobktpOTVaOEZzbG1XSHlvWFAyajhxTnVvWENXcUJsNjdDV0V0ZjBrUFBIcTlxcXo0UGh5Wm5OampfZ25fUzROT2pPaDFQS0xJVTZ3RF9aekHSAaABQVVfeXFMTVl4ZHpIeFpzNkMxVTFhcGFfTVVRRXZ2Q2hvQXpjMGRmamxkQUhqNjNiOFVsZEtwem5kSHM2QWx4alllR1daR204LXlzSFVUS1NlcGlZci1Dd2tUaWJMQTBIanI1MC00ZWE5c3JDY3JDbDhaUVd2X01GMF91b1ZmOGViRW53VUY4N1Y0V2l2RENXeE0zX0NoY0xYb0RCcElpaA?oc=5",
-        "date": "2026-05-09T02:26",
-        "source": "CNN Arabic",
+        "title": "サウード・アブドゥルハミド氏がサウジアラビアのクラブに衝撃　新たな決定の内容は",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBZVURPalFzMHBNUkVLczVsRlFuRWhQOVhfWVVjd1pKZzFIdnBpUnpXaVpWNHpFbXExeFZqbktrUkxraUc1bjljVDd1Q3lsZHV4bVHSAVRBVV95cUxOR0JKM0dlbVZsa1pkZlgzMnlKNzNUcFdhanRianZVNDR0SDBPcEpNUi1VaktqdDhjQjZfQ0RfcEdPS20yQ1Nrei1HRDJDVlNFREtabEE?oc=5",
+        "date": "2026-05-09T08:27",
+        "source": "عكاظ",
         "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア、セネガルで「メッカへの道」イニシアチブを始動",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1PQllpLW9GeDdRQnp1c21oUVU5SHlqaU5WNV82T2hmY3BINEhZTkRWNE5DNHNScHpBMERFVXJoMkNVX3JYMnl4M0NYTDFYZzFsNUhmQXhqT3JrSDAxR2NF0gFUQVVfeXFMTS1sUVR1b0hHdlgxaTA0RlpVWHVsUWF5MEtieXRTX05FdTJTMnpKTkxGUVFHbkZfSHZ0aWNYYVZVSG9mbV91UGRLV05HNlVVLXlxWnhh?oc=5",
-        "date": "2026-05-08T18:33",
-        "source": "عكاظ",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアの「ニンジャ」、リヤドでの10億ドル規模の新規上場公開に向けて銀行を選定",
-        "url": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxONFlFNXQtanB2cjZCMUR4YmZwNWZBU3BZeDhjTnRZZEhXVHBzanJabmc0SlBoUUtZelQ0VVpEZnZVZV9FQ2ltTFpCVi1iM0kyaDdSeW9IaE5ZRzhVdjdmNjFhYURVWEwwQ1BCbzY2RndKNVF6ZHpVUExJeGFzTU5BVXZiOXNxYVo0Q2NPM2UwUFJ2dkZ5ZjliaERoOUhZSGNDQTVjc19YTkRxOXJjdHB1Zm1GUVh4aFZFVFk4Rl85VGFnU3N4SzlRaVZBUDFBMEUtVU4wMlF0c2VFQXRhbndEbnd6LVYtaHFWMmMxTS0zQkhUaXVHWGhBZHhYb2s1RUZyOVRfcDVWaEJKQ2xvUzkzaHF0cmVlMmVRVnNwMGp5LWp4Sjc3dGVpRGZidGpFU0doRHY2aFhxQ19hZlZodkFIdGtMbVNIZUFMbWp2TGlhSFZzQmQwYTRqQ2EyR0g0SUxmMGlKOTdMemktamk1d0Fza09IcFJYRERpLUdBa1BZX0x0aEZFMzltYkU0QTBGNmxaMzQtVzZPcFZ1Smw5V1I1TDJJSzRwb1dWTWhPRk5PMGtzUDgtVEx2dU1JbGxIQ0ZoaVNLMkh5M1JKQ1RoWXBRUXF3c2lPazRNVkhINXJtdVBrRkVFQzZlaFhmMVo?oc=5",
-        "date": "2026-05-08T16:57",
-        "source": "اقتصاد الشرق مع بلومبرغ",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア：ハンタウイルスの流入リスクは極めて低い",
-        "url": "https://news.google.com/rss/articles/CBMipARBVV95cUxPOHlrZ3NNWjRzNVl0S2w5X3F3cFZySFk1SXk3REducElfTmowRmQ0d1dUV3pGUmpfUmd6OUxCWWFFaktuOXRKcmhJTmJXTmZoVVp5WnVuZU80aDAtbG5GVXYwWE9PaWFJQ3FzSWN2dGw2ZFZZaGJPVC05WnM4SmRiaXlRVFQ2TGFYRTBnenNZRHZ5OUZ6c3lWRFZxSEl0Z0U2S1V1OUxBZFBVTXNOWlpxcU41dTM1YTRZWXBPSjJGU1gwUVNYRU9JSURTRnZyb0RZazczckZrM3RyaUhTWHc2YjVfYWNMckVRRmx5TktnQjkyd3dlR0RmOHl0VHFuWVJOZHVVcUt4RnBwajRTcTNxay1JYXNkb1J1SUV3Q3JwZFpNNzdxNHV6MzJJYnVmNWpiblZ3N1F6cU1UUTNFNUxyalFud0EwdnRwVnNDdnIwV0lzMGY5LWJTVk1ZbWtIWHA3UEJIc1VHQzNiSV9NdUZDNXVzakdjQ0p6ODBmNWI0QkZDdkdtWC1PWjhNNFAyczN6SmVFWEtCbkNnUkVFWUtJbHVhMUR4dU9pMjBoZGRxcFNuUm9ZZDhLc0txbkJvMXgzbnNKRVpGMFF5NjBKdGNvYnR6TGxBM2owZkNWcXNkZ3psbjR6ZEVkeUZfS2xqUDJkZjdMTEt5ZFFKdzZ2a3FDZm81bG5rOXByUnZtSHBmWEJKblg3d21lSmI0Wmt0YzhVeTRqNw?oc=5",
-        "date": "2026-05-08T16:48",
-        "source": "الشرق الأوسط",
-        "category": "社会"
-      },
-      {
-        "title": "内務省、巡礼者に規則遵守を呼びかけ",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kMUtWMjJkb1ZnSjRVMm56b0VyWkd6aEhqU0J1aE5mYU9GOUZCcmhTWVpqNXFPZzMwQXVBRmttTktRVGtRcHl5NzlEZ2xqc3BRMmI1cTJNbG5MUy1KYjNz0gFUQVVfeXFMTUI5YUszOFVZNWsteUlScWczajlRQ2xKWmtQbVk1eWhHV01sbW1WWjBXUldNd2ZzV0E0dkhiYmcydUZVRmJTbHd3bmU2WFJuRjE1ejd1?oc=5",
-        "date": "2026-05-08T16:47",
-        "source": "عكاظ",
-        "category": "社会"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-05-09T14:24:44.435413+03:00",
+    "lastUpdated": "2026-05-09T19:42:20.374537+03:00",
     "items": [
+      {
+        "title": "サウジアラビア、バーレーンの国家安全保障対策を支持と表明",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WNmRLZWV5REhVUTRkaHdCMGVXaGx6eDBTZU1TUzh5ZHBIRXZ5ZDM1OVhwUnZxanVRd1VGUG9tQmI1T3lCNXQwREM0MC0tT1VVZnpwdm5PUXlSQWZSNTE5QVc0WGo1RnFQeURHdQ?oc=5",
+        "date": "2026-05-09T16:06",
+        "source": "arabnews.jp",
+        "category": "政治"
+      },
       {
         "title": "アル・ヒラルがサウジアラビア国王杯で優勝し、カリム・ベンゼマが再びトロフィーを獲得した。",
         "url": "https://news.google.com/rss/articles/CBMiwAVBVV95cUxNRlc0M1BYcXhLZEFqZVlEM2NITkVvNng0OGlLd3RqeXRaWndKVmotMnJDVUVPLU5WeXRLUF9XZWdlR1NnSVZRVXZpN1dUb09sRF82eTV0MG5GNEdFck4xWlM1MFpGNWhaWTV3Qkdabk1nLTc4blY1LUhBRG4xZWVORHZBSDRWcEpwcE94LURzRHlwdldxZ2o4RWo2OWlSdTB3YzdyNXcwNE54OW52ZDgzblhyZExhUFRBTFN3TDRDSjc4ZWVsSGotYnlqYU9WVDRkZ0FwZVJJbHJWRks1V2JEQXM3TVpHbUN6UGt2SmVOc1dKejZMMS1kMldSM1NORnFjWWtWV1RLMnNyV1FrdUNJNTZCdkRoZzNibEtBdlJrejlQY2kyd1pGRVNPbWlpRE5MS1U2bjlvR2dDekpmUVZjNXhQdnlJZF9RSWxxbkJvMWEyWUx3UTNuU1RrYTNMOGhmM1JNZDh5eWtXVXYwaE10TWZjSDJoM21MVUczbXkyMnBQRU5pUUMzT3AxMGhEcXlRZ0Q1WUJjZjdJTFo1S2hwRWNNWnBLNmI5LUs0ZFBXbWxvdElmQWkyRURHY0t6amtlQlBMVXU2dGpkaktuVExsRzhBZjVsbno4Q1VSVVh1bnpERmhBWEIzX2JlTnFySzRBWndvekFDb1BBalNUUzR6WVpGY3BkODJLa2Z0UkN0amE1emNRQ3NaV0tXOHhCMnBNVW5IeTNnQkxNcExlLXJHUXJkZnRveGlwR2hDVWc3VFdGZVZkRDQxWFZYTkFRZlJOMC1ub21xY1RnT2kxSGtzbWpoWl9MRXhCZTFZSmdKWl9ONzBhM085WDhaNFRIb1hvT2hoSW5ZbDhuNDRpT2ZOQWljT2ZySG9yOFREenRxVlV0V1FRWWx5OHRidTFJZFZKcVRzamlzOTd6WGg2cVB3WQ?oc=5",
@@ -338,13 +345,6 @@
         "date": "2026-05-07T19:00",
         "source": "topnews.jp",
         "category": "スポーツ"
-      },
-      {
-        "title": "サウジ人学生殺害で有罪判決を受けた英国人男性、6月3日に判決へ",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KZ2k4RENlOWoxbVp4V2Fkc3pqOTBOWjJkcndUdVJSSkVJa2dxYWVULTdDYldwWmlzODRMRGMtcjVpLTJIaEtjN2k0ci02Mi1yd2RTNlpGbzdtN3Jza0t1SUFTNzhtNlNyc1R0Vw?oc=5",
-        "date": "2026-05-07T15:46",
-        "source": "arabnews.jp",
-        "category": "社会"
       }
     ]
   }
