@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-05-13T15:27:16.904308+03:00",
+  "lastCollected": "2026-05-13T20:58:25.842396+03:00",
   "security": {
-    "lastUpdated": "2026-05-13T15:27:16.904308+03:00",
+    "lastUpdated": "2026-05-13T20:58:25.842396+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,14 +39,14 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-05-13T15:27:16.904308+03:00",
+    "lastUpdated": "2026-05-13T20:58:25.842396+03:00",
     "items": [
       {
         "title": "【大使館からのお知らせ】領事窓口業務の再開（3月16日）",
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -62,7 +62,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988773.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -78,7 +78,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100987261.pdf",
         "date": "2026-03-03",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -94,7 +94,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100981607.pdf",
         "date": "2026-02-19",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": false
       },
       {
@@ -102,7 +102,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100980098.pdf",
         "date": "2026-02-17",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "その他",
         "is_safety": false
       },
       {
@@ -124,10 +124,17 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-05-13T15:27:16.904308+03:00",
+    "lastUpdated": "2026-05-13T20:58:25.842396+03:00",
     "items": [
       {
-        "title": "便利アプリがサウジアラビアの日常を変える",
+        "title": "サウジアラビア、OPEC会合で石油生産が1990年以来の低水準に落ち込んだと報告",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMWVNZ3lGbXVVTUx5aDVIUGhmNUcwXzYzU3FwaEducG92bk9PR3RlMVBSa19YMDczYU4zR09tbkJIaTRhbk9jU0tTbURHRnpLU2ljSzkyMkF2UUZaWC1OTkNmWENWdS1tcks5OVY3QmVDUjBoT01HRzdRVkhvc1JGaTFyZ1hJMHN6b01kamdHV1NYVHlPRTlsOWhmOEk0UXBuVWxiVmwtUmNZRDJhXzhHZUwtOUYxZw?oc=5",
+        "date": "2026-05-13T12:00",
+        "source": "Bloomberg.com",
+        "category": "経済"
+      },
+      {
+        "title": "利便性アプリがサウジアラビアの日常生活を変える",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lY09lclRBbGIxX0dqdHIzbkxhTWxncm5zSURfUzhFaW9RVFdIQmdPd045VlAxQzJqN09URmJOQXdqNm1LLWNkYWppUFg2Y1M0MzZtMndjYk9vV3YyTzBz?oc=5",
         "date": "2026-05-13T11:09",
         "source": "Arab News",
@@ -141,17 +148,31 @@
         "category": "スポーツ"
       },
       {
-        "title": "サウジアラビア、ハリウッド投資の挫折から再起なるか　ワーナーとパラマウント経営統合で戦略転換",
+        "title": "識者論考：UAE、アラブ秩序から決別 その先にあるものは",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOHlveFRkUHVTMG80N0FyZzFIZTFuemRWWVdKVUJWOTItS1NUWWhoZEl2ekljYmIyY3hqZ0F0Rlg1NGxlUXRaN1BZb0JRclNDaWt3Yjlpa1dSbWVTYWItMXFHdTUtQkZyTEJNTGVmMGYtVHVZMm5vTUZfWGZlbTdnZUNYVFR5R2QzbXZuckFINWI2dHJuTnUtVk1KUV9yRzhZQ2s1bVNTaUdPQ0lzeEY5bjU4M0llUVhReUxwWQ?oc=5",
+        "date": "2026-05-13T08:00",
+        "source": "NDTV",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアの映画産業戦略転換 ワーナー・ブラザースとパラマウントの経営統合で巻き返しなるか",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeDlaMm5odFlVdWlEb3VpcmpGLXN4SURWeG1uUloyb0ptM1BUMUl6WkE5WDNNMlpmc0RvNlBGTW1xR1YyRnhBZXFYX2lLemhqUUU0ZndTMXliMGxCLVBJclVTaWwwbzg5bnJCZ01HbVRNQWxMV1ZaaHRFWFFMaFZIZ2Rra0JXdWtjV1ltWldsenpMRjRlQ3AzWjVXQ3JlUzUwTHNhVE90ZlRSdXc?oc=5",
         "date": "2026-05-13T07:58",
         "source": "Variety",
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、イラン攻撃 レバノンではイスラエル兵2人が負傷",
+        "title": "サウジアラビアがイラン攻撃、レバノンではイスラエル兵2人が負傷",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JWkw5VDFVVmozTHA5REVUWFZITE1sY3dGbHRueHJUMEpRdUp5anNxb2hXWmNBNlFUdm0wV2NMVzVOazhVNHI3M05CVjRvMWk2czlPOC02RnB1TnZBaXRLTjcweDBjTGdLVlpST1R5RVJtcktZWG1NclhCRkhRM1U?oc=5",
         "date": "2026-05-13T00:00",
         "source": "The Jerusalem Post",
+        "category": "政治"
+      },
+      {
+        "title": "イラン情勢緊迫、UAE・サウジアラビアの攻撃の意味するところ",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZDNmSkNxU2JmRzVnRUNHNG5PLW1OUmhxMElfSXc0OVQ3U2RkRkpncm5RVWZEWG1WaVR5TkxFb1licGU1aHFWMi1zNDVEOTZtTjR4SFF6RGNFdW1oVFI5anBvbTlDamJhclIzZUx3ZXY1a3RHWGlROEx3UTkySHp6ZTdvMHRfUlFfVGJfLVB1T1RsRUNOZlhRdkxCX095enNXeVE?oc=5",
+        "date": "2026-05-12T23:08",
+        "source": "Newsweek",
         "category": "政治"
       },
       {
@@ -169,38 +190,45 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、イランへの秘密工作を実施 中東情勢の悪化で",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZDVqZjdxVDZDeDdnNjd1RndvV0NwNTF4U1Y2cFpVRFMyMzI2WG9mQVFUTnM4YlI3NmVRcGozODRLUUhGbU5wVURWU2dBa0hvNFBxQUc5T0hOUmJENHNBWDg0ZTR2ZWZham5IYVJOY3djZmJia0J6cFg5OWV3ZzluenhIRkVXeW1HRWhYREh0Q181NG1Ncl9aV3FPZU8yQVVTT1VTblpjVjE4bW94bWhVWXpWblpMTDdGeEJVZkxzaW1ZRFU?oc=5",
-        "date": "2026-05-12T18:08",
-        "source": "Reuters",
+        "title": "UAE、サウジアラビアがイランへの秘密作戦を実行か",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbmFfekhzWEFBX3kzYWJ0aVZvT1MzZ1gxbXJuN1lFVkFlWDAyWmJlV0lHbEhDYkpkeUJJVDNhRUs2cmpYS3lOc0piX09iUm40OGRUZzV0c2V0SGJTV3VLMEhUa09oMDZGQWY0dXBGLUJ0N1ZVdVNOZ1d0dmlSSzQ5dmtBa1dQODNXQmc?oc=5",
+        "date": "2026-05-12T19:59",
+        "source": "Yahoo",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビアの副外相、ウガンダでソマリア大統領と会談",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kaHJxMlViWGx2RGZZOGRsSU1sYnM3N3dpRTBrajc3QUhJOVBlSGxpSE5keWdXZHVjMkFTdkFuWHBqTGJsanp0ZmNBNFRGaXVvbGItZXctVVg2YjBRc3NZ?oc=5",
-        "date": "2026-05-12T16:09",
-        "source": "Arab News",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアがエチオピア人約200人に死刑判決",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVDVwWHk0NkVIRXNkdE9ETmYxWTN6a01xNWlFWlE0YlBZai1xRWQtUFhMMVpJRnYxUWtZcWIyRi1oMmE4YkRvcXZZN05tMzItcU5CalhrU2pMdm1iaXRBWUNfTUVWbmtZTE1ONWdEcGxtOWhiZHdXRWsxUzdpRU1SYl92M3d5Tm94YXlrXzBqcWpabEZsYi0tZDc3RVhlMHJ2anlWc3dGWGJXNEk?oc=5",
-        "date": "2026-05-12T16:04",
-        "source": "Vatican News",
-        "category": "その他"
-      },
-      {
-        "title": "F1、4連戦となる可能性 バーレーンかサウジアラビアの日程変更を検討",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNM2VwSUpDZlNIWjFNMjJMNkxZMjlqSmhlVUh5cW41ZmZQREhtVmxlQXdLZ2tGdFlRLUZ2VE5TSzF0OFpkTGowWV9sNlZWeEVzNS0wSkctRFRYclVtRWVldFJuSFotXy1qMUV0M3VaSk5vbG5GQ0QxVkM5YTZKOTNuR2MxS1hVemFyZFFvbU53dGZEc21KemhkQldtcw?oc=5",
-        "date": "2026-05-12T12:51",
-        "source": "The Independent",
-        "category": "スポーツ"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-05-13T15:27:16.904308+03:00",
+    "lastUpdated": "2026-05-13T20:58:25.842396+03:00",
     "items": [
+      {
+        "title": "サウジアラビア、ホルムズ海峡の2月28日以前の状態への復帰を重視",
+        "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxQM0RENDBvRS12SVNYLVpWclQ3eUZNQWpoUXpVWTRRNmc4YVprTENwNC1WNGhPT2liTW1DamdPMUNEQmJReGQyb0JBUFlwQzc2S1FUclVJd3RXY0xhekV3WUlqcmlRNnpuS2ZKTHFpWlVZdEVTaDVMQjlYaHZReUh1X1JPS19sUkdGYVU2ZzJDTDU5Y3d3ekgzdGJBdF8yMmctSXdPeTcydVBoSzFCWnE1dHZzRFRrMTVydUxfbzdhMTlTc2N0VFl0cWpzUmluaGtQV01ma1dObVVzR1BBV2NlWTB1dzZDOHFaVXJRMENfUzRyZEpXOC10WEVmaFc1YkdyeW1VRFdIZ0NSRWRTcVhzS1RyWWtMbFFxMElPam1CY1k4dThEbE5QdnRPRG91M25GaEFwbVppQ2dLYm92Q2JYTGd0d1pkYXBISWFtY2FNeGF3azZNT1RncmlzU1VQcWc2YWFvcTQzTTk1ZmlvalVxZWFJN1dlLXZnRERoUHJMNk5ISkdEakxieG41R2VDeUJqYnRqZjNMYVp3elk0U2RqVERUbDZOMHll?oc=5",
+        "date": "2026-05-13T17:43",
+        "source": "الشرق الأوسط",
+        "category": "政治"
+      },
+      {
+        "title": "イエメン保健相、サウジアラビアによる第3回保健会議の開催を評価",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GeWRmeE5CS1hqSUQ1ZjBrSzdnX3hfMUVhb1Bad1plQTdVMWFNMXJ5cllLbEJhN1BKYWlpUDRQRmpPN3d5UkpBeTNaU0ZmQkwwLWNocF9R0gFUQVVfeXFMTzhIZVhTdVNqQzZIcklYWDMzRlB5RzdvNEhKRi0wM0NVR1U1bFowV3hPV1Vfb3ZRdU5qblN3SW5yaVJuYzhhVDk0RkpXMEVjcDFSdGdB?oc=5",
+        "date": "2026-05-13T17:38",
+        "source": "عكاظ",
+        "category": "政治"
+      },
+      {
+        "title": "速報 サウジアラビア、イラク内の武装勢力拠点を空爆",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1WUWdoSFp1NEhmNXh2RGxVRTBBOTRHMmdzek1HWmxVUVB3b2IxZE1TcWlqVk1NdGdOaDFpVGpURWVLeHBBa3o5OG9SbjZqQzI3TG93TC1MNm5YTEQxaW52TVBWX01hSW9DdXRsVTFMZ1hsc1VXMWk3dHl4MA?oc=5",
+        "date": "2026-05-13T16:48",
+        "source": "Reuters",
+        "category": "政治"
+      },
+      {
+        "title": "レバンドフスキ、サウジアラビアからのオファー検討の可能性を示唆",
+        "url": "https://news.google.com/rss/articles/CBMikgRBVV95cUxPSlBfUDVDNm5zWUY4aHdBSnBNT09KbXFFaC1mcUw1RTAwcGFQaVVnamN2VkhyNmVZVjZ6NUtyYzV3MnhyZE1ObG50UDdrVXBCUUxVUk43YzZMdllNY2MwZ0dOSWI4ZkJ6UURkdVlPUHZLZWRDTUJabnlDMFIxUktJV1NrSmdZa0VybnRpUW5XaDFIdktUUWU2dFpZaTlkbXJzVG9Qdlh4b3ZrZTRqWG02Q2VqcExYLVMxYWJlb0J6UzcxUjE4czVldGx5VkRhbU9KaFZUbkhZWjlZTTA3RTBBbUpaVW5wNWFjNVhHMDhFTlFnbWY4dTEzSjNKZDNSekpINjdUNUh5RDJYRDJrZDE0TWtqNWs4bmtpSHF2TDNicTFVektFbVlWcmoyaHdpNEVOWTFHb1M2VmR3cVFsR1RtMnVRb1cyX0duZVQ5ODVnQWhRSWt3MWd2T2REWkxuOHdfS2pwT0FJeS05dUN6bW9kUGowVGdxR2pKVjBlNlFnSHZXVnNrRTdSRFNlUVB1LW5NLU1IbUpzMW5DRHRXYVI0ZVlWbFYteV80VFZ0Wko3T2hORFMtaUdiS2NoWVVTUGl0T3dlOG04YmU2TDVqcGV2RjNBYlEzRUFZV1dDTTY5cXZVcVJOZE5ZV3hCUFEzNkxJOU92bFVXYlhFS0ZLQk5sWC1pUG1lTnlBd3RaZ1dfYldvQQ?oc=5",
+        "date": "2026-05-13T13:38",
+        "source": "Kooora",
+        "category": "スポーツ"
+      },
       {
         "title": "サウジアラビア文芸誌「キャラヴァン」新号：平和の歴史と文化的正義",
         "url": "https://news.google.com/rss/articles/CBMi5wRBVV95cUxQSW5KWjdCeDBMcWRBVGhEWWF6VFlNNzh5M29SSkFPRGx4M2JUOEEzbmFOd3lHYWRxbXN4a3FYOTNxM2VtUk43QmU2N051VXZjelhxcVprdWZsLUZja3IxaU40VExtLTU4ZlZMTGdxT0s4YmJkdVM5cWJSLVV6bUs0NHB5YmItbTlDVFZ4QjBiV3M5SnlyU2sxdkMteTJXNFNIcXdIbjdrSzE1QnRBQlpWLWFZb2oxellJcElNVGNXeFl0UFVmNW5HSVgwajNyUTR3R2VQSWhzc0ZtT21qOXpoNGl5bFYxYnZQdFhKdnVuM251X3pOWW1QQXJMLUtoSHFORkNMZkNHdFVoVF9DLS04dWZtUWk2eXluNlIxdXRHeURLYVhyUVJBSGRrOGYwUEdGY0YzemJWanZNa1g2UTZHNk5EYmFKQ3RBaGhDX1RaOTdVcTMyTy1KOFhsb0k4eG5ETWdpbVliRDExOU41aHFlSXhPbENra2pSbHNXUkhfTkFoY2ZZeW8xYkN5RWJ0cEQyWlVLckhqQnl1d1oyaE91Z3FkTER0Qml5ZnZ4S04yWHdERnpyaWFITGtmZDhzamVDTGp6YzktV0otOEZmTXhfTmJYSEx5TXFBQUVDUjRNUVJZVUxpdmNoTkVoYi03d0RLbzZiNDZENVVXRHRWWGV5dG1tSEJRcFJmdVh2VkhEcmhiUkRvdE9RNl9UM1B0bDczZndGR0QwMGJGb2JkSmV3TllPZ3J3cThiLTZYX3pSZ0NrUWprUWhwdV9reFVOZ0pJREMxX0JHSUUxdy1halVsaDUwN2lYd1k?oc=5",
@@ -230,56 +258,49 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、空き家に課税へ 住宅市場の安定化に向け新措置",
+        "title": "サウジアラビア、空き家に課税措置 住宅市場の安定化を図る",
         "url": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxOb0EwTkJfb1lHaHlwUVkzaUo0UUItTUJGNTVydDk2RlRsUnVkdld2NUhGU1JGTjNDc1BYZm5hbkpDTDFsUWpIaVNZUU9zS3RJRTliNE5hUkZhX19qNXhMZFpsQllmZ2pCUi1adkVXR3l3cjdGRDFhYk1yVVNoQkQyVm1mTkJob3JDblMwbVdjMmhHY0M4cFlBOHZaZHBfSlRHTTNpV2dERTBiWUtOTUllNXNVV0xGTG10V3dITERRazRJUU9yblROdmU3QkVac2N0TmxOV2JpNGNBMEg4MXdoOHlTVGlmWmQ3bWViQ1NmVmI3cjgzcjV4ZXVfc0kzSDFIcjlXcWVTQUIzQU1GZjVvbk45S0VydzQ4MDh6eGxPc0c4bnZ6SzN3NUVQZUdESkRPbTRWcXN4Nm5PaXlIM0libHA4WG9WM1pNdnZCSkRSS3dnUk1mX1NrdzMwZ0wxX2VVMUhlRXRlVTU4dWoxS3J0YXZBaGNSb3BCWTRMYzJEdEZwVVpmZ1NpU2diOGszbmZpMEFFeXVYWGI4UnlpT1JITndXZUpyajZFaDE2LUdvWGhzcy1sMksyLXY3bXVSUjRwYm41QW5BYlNMaWl4czQ3YlNWWm1FOVBYeXJLVDNUMENKbG9DS1pSWW9PRQ?oc=5",
-        "date": "2026-05-13T09:22",
+        "date": "2026-05-13T08:52",
         "source": "اقتصاد الشرق مع بلومبرغ",
         "category": "経済"
       },
       {
-        "title": "サウジアラビア株式市場で大口取引、32億1000万リアル",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObUJWdTdRRUM3LTVtZHNJdXJHMjVyLXp0SjI0ckx5THFqUERPZG1hbVFEVWdFRzJ5bzRTRkN1R0xOczRxYjBhVHh0ZVJkekNpMFJPYzZNbklSMGROSENQVTFTTWxQdDZYZTdRZ0NkS0RjRGtqTmFfcjliLXJIZlBZQmZFMVR4TnkxVWNmTFZuVHE2WDVMTnNVSFFLTFhJY1N2TlhZRjY0cmZTZ3lYMUh1T0FwaW4xaUNneEZUaFdvdW9oYmc1WHVEZXRJaDRUVGFaVnpSYjZGdk5OQUhBR3pmVTlMaUgxa2RGQ2xrOENXQUxBamY4RERF?oc=5",
-        "date": "2026-05-13T07:36",
-        "source": "صحيفة مال",
+        "title": "サウジアラビア、空き家税の施行規則を承認",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1OZTNNU3BqejEwbVVrZUIzR1JyYTl3R3p4NHB5ZHAzUGhEUlNBRkdUcWxPUHo2eWM5UjdnM2hiNUU1RGVzV1I4?oc=5",
+        "date": "2026-05-13T08:25",
+        "source": "sabq.org",
         "category": "経済"
-      },
-      {
-        "title": "報告書が明かす：中東紛争の最中、サウジアラビアがイランに秘密作戦を実施",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZVB5TTlMZFZxNVJwUzJwc29DTnNha2VIYWNRZjg4Z1VUemE0MkFGdnNhb2NWTU81bWFKVjl2SkVzSFhCRnlZOHpxc1F2T2hfblJETS1UYWFHOXBXV0pYdjdublh4cTdoQXdKT3VRUGF5ZmFSTmRxbU5lcm9BcExmRGVJREpaMVBuYnhoQkMxRnI1VHQ1UFRtVDRHYkFkaU8zNkxRMVJxVHVvU1g0R1RFM0Q1aw?oc=5",
-        "date": "2026-05-12T20:00",
-        "source": "Euronews.com",
-        "category": "政治"
-      },
-      {
-        "title": "速報：サウジアラビア、イラン攻撃を秘密裏に実施　中東情勢が緊迫",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40U0ZYWWxHSkg4eXNzMUtaM0NDU1d3eDFrMjNhSGtKWUMteU9jb2QxblBCMTNYcjk3YUpTT1JqQkxJVUZfMF93Nk5JQmZIdldQNjl3bDhKZUVuaVBGM3lUWU5zdk9Sb2NialgxbE5XZmxxWHR6XzRqb1dGTQ?oc=5",
-        "date": "2026-05-12T19:55",
-        "source": "Reuters",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、イラン戦争中に秘密裏に攻撃を実施 ロイター報道",
-        "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxPZG4tQUJXak9MOFRkLTBYTGpuVHVQbkJseTJlbXo5TENOd3laTGFvaFcyYWlSYkxyeU5ENDlOZ0JEd3FTY2RQUU8zRkVlWGJPbmtYTEljWHBaSURIOXFQVjV4Q1lQTG9tMV9GZWNlZUJnQlYyMDVUZkFYWnBta0lrczFUZEJKblBzNkV5eGpLTUVwWFZDTFRMNTNBWHROUHZpRk9XMGo4amVTQmsxSVliVkQxNzlHSGpJamVvR1RKalprWHNaV245QVJSWlF3SVV2c05RX18yclFvMnlLTi1Cei00dHFLejBJSG9ESmhmaXVGak5UUEY0M1owSnp0SU13ajY0bS10QzZjclloZGhwMkZON1BUMEJVUnktOElCTFZlTVM3MUZsM3VFZmw2bmdGbGNnOFlEWlZHY284VjhXN0tCUWg0ZjQyVWtEUHRmb3ZBbnZCUEVBaE1Ya0lVX3U1aWR3RkNvUURqdjJmdUVsOXZnSThuUllCYWFDaEhONlNvVVFmZTdwdkR2YnpSWVdXVGJ0NzZlUXdwLThfaWt1TVFJdWNUVi1OOTNMTHdXTDI?oc=5",
-        "date": "2026-05-12T18:16",
-        "source": "Elnashra",
-        "category": "政治"
-      },
-      {
-        "title": "イラン革命防衛隊のブービヤン島侵入を非難、サウジアラビアがクウェートの主権侵害を拒否",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4RWo5UDVNbldVY0loZ1lRRlRjSzhFYVRvRE00MHFacndsTzZTOHZ1aGNiR0JHd2FBc3E2YWhJclQ5RnBzYXZxMENoTmRhak1HWXE1Rl9oQUdremdXOFZz0gFUQVVfeXFMTkJBVGlMNGFIVXhacFJHcE9heHpQRTE5T1NPUVdQQlhqSzdha3VSaEk1bktjdlc5MHFpY19ZT2xySFFsYnM0aTNKNmFua2pocGNpYW5o?oc=5",
-        "date": "2026-05-12T17:28",
-        "source": "عكاظ",
-        "category": "政治"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-05-13T15:27:16.904308+03:00",
+    "lastUpdated": "2026-05-13T20:58:25.842396+03:00",
     "items": [
+      {
+        "title": "外務省、中東各国の危険情報を更新",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9TcVAxYVBFY0YtNGx2cjczcWw5aWNVSVBwMmNvLWxncG9fNGFwS3lxMDYzUnJRTWEzYzBRTmxSaWVWSEJEQVdVeENwOHUxLVhqNUVwT1JDSQ?oc=5",
+        "date": "2026-05-13T13:36",
+        "source": "TRAICY（トライシー）",
+        "category": "政治"
+      },
+      {
+        "title": "2026年の開催を諦めないバーレーン＆サウジアラビア。シーズン後半の開催は“12週間で10戦”の過酷日程を招く恐れ",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE14WUM3MTBzYl9yb3VsVUJ2SVh3QlFfSmMxUEo1UllCT2ZiRWtWSmJCd1B5cEhseWU2VXBMQWd6eFNiMnZEYnJN?oc=5",
+        "date": "2026-05-13T09:00",
+        "source": "autosport web",
+        "category": "スポーツ"
+      },
+      {
+        "title": "中国領事サウジアラビアへの輸出、2026年初頭に19％増加",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DcDMwdTNldTVFLVlicWIxdk8xcW93dzBmcjZmbzd6emgzcjVSVDE1MDZyRDFuM09heGU5Z1ZnLXMwSG00dWJzMjQ4Z2ZneWZFckdoZTFEdHpvTW1oX044RFozdUEyaE0?oc=5",
+        "date": "2026-05-13T08:05",
+        "source": "arabnews.jp",
+        "category": "経済"
+      },
       {
         "title": "【グループリーグ順位表】AFC U17アジアカップ サウジアラビア2026 組み合わせ一覧",
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WQ3Y2bFJkeE5vdFFWM1dXc0Y4TlpHQmU0TXJuWE81ZnNMdHJpN0lSUmlGRzFVVmJLb1NITTVfUl9nN0E1VFhGVjk1LWMxVEc5cDhVSm1aek14RFZRYkVMQWRvQQ?oc=5",
-        "date": "2026-05-12T23:17",
+        "date": "2026-05-12T23:21",
         "source": "フットボールチャンネル",
         "category": "スポーツ"
       },
@@ -323,27 +344,6 @@
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zY3dKWTBlTzBxeUZiNG5aU1dlczZoLVNGYWNKSUNkLVp6MUF1QjVmSndLa1N4NkJCRE1iZkotVHBUMHp1VE5ibVR4bGphMlhsYmQwa2t5alM2N0FQZFFYcFpBeWhSSzkySlR2RXlaM0U1T1pfWEdXd3JYOXpWY0U?oc=5",
         "date": "2026-05-12T06:51",
         "source": "Yahoo!ニュース",
-        "category": "スポーツ"
-      },
-      {
-        "title": "【新潟大賞典】ヤマニンブークリエはサウジアラビアからの帰国初戦 松永幹師「56キロのハンデはいいと思う」",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVVZ4aVh5ZWNtRVcwQTVlVFUxTlJFd2hfckdMV294M0hybkpMOFlSMkZ3Tk5QSFZZNU50UzNncG13bjNkeWp6RF9faTBSOEN2bFpNaUM3dW41Yk1fQUh6aURKcW5pbnh3cUpFUEhKVjBtU1RHbWczX2dDSk83dVRGMUl0d01PZ2M?oc=5",
-        "date": "2026-05-12T06:50",
-        "source": "サンスポ",
-        "category": "スポーツ"
-      },
-      {
-        "title": "【U-17アジア杯】グループリーグ第2節の全試合が終了。U-17日本代表は中国撃破で2連勝　前回王者ウズベキスタン、サウジらが決勝T進出確定",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOWlGNU9xVWVYaUMyM1ZxdzR6NXMzY2JHdDZJT050ODE5ZmdlQXVaRHdRNWxxT28tV1BBU3BvSVVPNkE5YVV0a3JFcG1WZnJYeFBTN19CWm8tSjFDSUYxOEdRNmEtNVFSckZfVnVvZTZiSXVlaGRheU9PUTMzeDUxZTBZblVMYzhmS2ZlcTBB0gGTAUFVX3lxTE5VR1RDa1V4X0c5Skg5QWlCVGRRU0NncUlyc2FyeE84T2ZZT3I2SkxUUGhqMkNMVHdiQ0xWbGVVMWdtN1l3NElWMGRjX2pydUVMTmRsMGZxMzZtVEJ0bTgzTVBlQjhDVTdyaDJLS3lOMGUxbDNCQXA3OWtIa2RfeGxqX1B5LWFDRmV1R1VsS3U5aGNEVQ?oc=5",
-        "date": "2026-05-11T21:43",
-        "source": "ｄメニューニュース",
-        "category": "スポーツ"
-      },
-      {
-        "title": "【U-17アジア杯】グループリーグ第2節の全試合が終了。U-17日本代表は中国撃破で2連勝 前回王者ウズベキスタン、サウジらが決勝T進出確定",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBTjVhZ1hYbU5QUTNJanJvMHRTTm0wMW1Fd1dsRnBjaFJCQ0R6ODFkZ1h0Ry1sY19yMmhZNks3T21hQS1JSTIxWk9RWFVQQ1hDOGl4OGF2V3NsU3VlMHBrbnFsbw?oc=5",
-        "date": "2026-05-11T21:20",
-        "source": "フットボールチャンネル",
         "category": "スポーツ"
       }
     ]
