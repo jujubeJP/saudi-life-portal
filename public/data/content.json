@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-05-17T14:38:03.010032+03:00",
+  "lastCollected": "2026-05-17T19:47:17.509328+03:00",
   "security": {
-    "lastUpdated": "2026-05-17T14:38:03.010032+03:00",
+    "lastUpdated": "2026-05-17T19:47:17.509328+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -38,8 +38,16 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-05-17T14:38:03.010032+03:00",
+    "lastUpdated": "2026-05-17T19:47:17.509328+03:00",
     "items": [
+      {
+        "title": "【大使館からのお知らせ】令和8年度後期用教科書無償配布の申込みについて",
+        "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
+        "date": "2026-05-17",
+        "source": "在サウジ日本大使館",
+        "category": "政治",
+        "is_safety": false
+      },
       {
         "title": "リヤド市内におけるAFCチャンピオンズリーグ2決勝開催に関する注意喚起",
         "url": "https://www.ksa.emb-japan.go.jp/files/101028539.pdf",
@@ -61,7 +69,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -109,28 +117,34 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100980098.pdf",
         "date": "2026-02-17",
         "source": "在サウジ日本大使館",
-        "category": "社会",
-        "is_safety": false
-      },
-      {
-        "title": "2026年天皇誕生日祝賀レセプションの開催",
-        "url": "https://www.ksa.emb-japan.go.jp/itpr_ja/11_000001_00516.html",
-        "date": "2026-02-10",
-        "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": false
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-05-17T14:38:03.010032+03:00",
+    "lastUpdated": "2026-05-17T19:47:17.509328+03:00",
     "items": [
       {
-        "title": "フランス司法当局、カショギ記者殺害めぐりサウジアラビア皇太子への告訴を捜査",
+        "title": "投獄されたサウジアラビアの学者の息子たち、ケンブリッジ大学のリヤド職員育成計画の中止を要求",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVFdzTTlaVGVQYXJtU1FUeEJMUE1lRXBNRGpWN29ZMnhteXhuMHVrYTVxWjB0VGhVN1NyVVltYVFUbTZBY1BfZFZWQzlYQmpkMkFTejFQSmdOWUFaSTRDMWF2c1VPLWNTQml0TVR3dUhWV1J1bGpUTjJabURoN0ZEVS1XVzZYUm1OQUJickoyRDgtN1BNMjAwMmNQWExmWEVFUk8yZzZEcnRpa2UyOXNkTTBpVDFfS20yZkdKeWFOLTktNlo3QVI2NGZGSU1lX0FVaGpNOQ?oc=5",
+        "date": "2026-05-17T15:01",
+        "source": "The Guardian",
+        "category": "政治"
+      },
+      {
+        "title": "フランス司法当局、カショギ記者殺害をめぐるサウジアラビア皇太子への告発を調査へ",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcVMyeWVrZmNnQ2VOd0JhNzVDSDd3cVdVdWg1S040YVlTcVNpckVlbVhHcmtZcGVlMU5OcnpmNFpSc0dwUEFQTC1GLTBBS3phSlQ4bGhhWDFOM0gyVkQ2VS0yQ09lZU5sUGQ3bnBpVG55NTUtOC1lQTBzTjRfSFBEdEpSOUV4MDVhUl9BdXZXWmxtSlFJZnQtU0ZfX0NGRGZPeHZQMVMzeTZ1cnFzZ3EyNWtfQnRZeGhEdnpyZS01WVhUSE84aExfcmdxMkg1bjB1cEd3?oc=5",
         "date": "2026-05-17T11:19",
         "source": "Politico",
         "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、ウムラの季節スケジュールを発表",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4elZ6NFpiVjZ5b3k0eUltTlhneHJmLU1Uc0MwUlBJMHFJaU1XYkpQa3NjUXk5N2FDTk80d0pyRnVyOXVKSHA1dkh4Q1hfMUhBOEJjLVZvWV9naFhodWNF?oc=5",
+        "date": "2026-05-17T10:35",
+        "source": "Arab News",
+        "category": "その他"
       },
       {
         "title": "ロナウド、サウジ移籍後の活躍を証明へ 6度目のW杯に挑む",
@@ -140,7 +154,7 @@
         "category": "スポーツ"
       },
       {
-        "title": "ワールドカップまであと26日 サウジアラビアが優勝国アルゼンチンを撃破",
+        "title": "ワールドカップ開幕まで26日 サウジアラビアが優勝国アルゼンチンを撃破",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOU9xcTZ6bFpVcy1WMkFhaGhzeW1nR0tIYVdwc2hhM01taGpWSjFlbzJvWTdDdzZIQmhLUFBESktMTHBHVExtSEhFbUp6MlNjVXFBaHhDRzE0WWdHYUVQTFFvLWwyTXBjNHFPak1KY2ZnU25IZHUxWGJpSUVTUzVpSW5iZUtqOHdFNnNqLW5BMzZrWVZUdkNzT1Z2dHBiMGg2cEhFTnpTUTRsOWdmOVcwclA4MUhEU2tiT2Zrbm55TzI2cF9D?oc=5",
         "date": "2026-05-16T12:00",
         "source": "Yahoo Sports",
@@ -180,26 +194,40 @@
         "date": "2026-05-15T19:16",
         "source": "The AFC",
         "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビアのデジタル決済基盤を構築した人物、2030年までに数兆ドル規模のブロックチェーン導入を計画",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNS2RHWl9DSjNFc2ljRWVqMUU2Ykl4MHMtZm8zXzdEZDUwYXFwY2xjaDE2emZnNFktaGJzc1hsZVlpQl9nRkNza1lQY19BX3JsOTlPQ2dESEc3UGxialNZVEFiTmlvT3NRNFBkRUdPVHR3ZUJyVkc3T0taZ0dIT3ltY3owR3EzbHgwR1diaXZ1d3pMbGxYUlNRWFFqWF9RRFNvd214UmN5LW9MZHhvb1RMWFRUcFd3Q3RLVVBJLTBoYjY4ZHFCUXdZbmtqYnlVYnREd3JaSnRmZzJ5Z3cwcDJv?oc=5",
-        "date": "2026-05-15T16:43",
-        "source": "CoinDesk",
-        "category": "経済"
-      },
-      {
-        "title": "アラブ首長国連邦、サウジアラビアとカタールに対イラン共同攻撃を呼びかけるも失敗か",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM1UyR25la3IwMG5wcFptY3FHaWR4S1pwMmwwOXhBMHBZSG82VVFIQmllNUpFeWpzeTNCSzhfRUZUVnEyY081Ml9FX19CSE5IeE9PTWtGSExqU3dKMGU1eHc3bVVJWUJzNmhDcXpldFBpU2lJYVJzak92WlV5ZC1nbkJFV3lQSXFOajBOaGMzYTVETjdqR19PVGlOR1ZnRmd1VHVIUkd4b3VLaG9f?oc=5",
-        "date": "2026-05-15T16:10",
-        "source": "Middle East Eye",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-05-17T14:38:03.010032+03:00",
+    "lastUpdated": "2026-05-17T19:47:17.509328+03:00",
     "items": [
+      {
+        "title": "サウジアラビア経済への投資家信頼が回復、好調な経済指標",
+        "url": "https://news.google.com/rss/articles/CBMi4ANBVV95cUxPNHRLMjk4MFFrdHZncTVWd29NV3ZoUGFPVXFqdXFVWVkxNTJzVFVmRzUxQjhBNEM1Nm9ZNkZNa0lONFFhZEhBWDFudjI0QjJtcjFpRENzSm1ITjdvVU02UTBobVRLZHdHYjZfeEtBYVpic3VIeUhCLTJ6a2MwM1NaTDE3TWlWWG5WOUpJcTFwaTkza1UxVTNwcnVxN1BhSEo2Y2p1cnFXUk5LRHBJMmR6Zm12d0RJR0tfTnJONHd5TmxlQ1J5M1hZbjRidlc5RkN0aTZUdjZOTEhpcjNHTlk3M3BSeXp6RmxGTGk3Z1N6UjJjbWF0RUNMMEREdW1NUXJWYnVYRHhPMHlaRnR6X3J5bVAyMTN3TURfOFFEd0trSjZaTkFNY1FsaVV2b0hZWTM5bWNVbE0xc0lEVTBWWWJTMUFIcFhDQ2pyR0dlU0ZDbVFTYTlISS0wdUVKTm9jZ3VBaFhUT3hGR2YwT28wcElaQkhaY0JUTC0teENwN1hxU3JWcVNXSVRoNEYwVm1PMFZqSmk2bzdQRlZxYW1tdXdVQVdYbzV5VUdmR25yLTlmazFxNTBTaE56WWs5bDJXY1hlMzE0Y205MV93YUpQRnJmb3hvc3VFYzBTUlNjOEluUUTSAeYDQVVfeXFMUDItTVBTUzJUZnJ4dkR1WFRRYUFpUkZQOUQ1dzloYjNnY2lGcGY4TDVUMV9BdXhvNThBbmg3T1pNRTdwN1dtY2tMd2JMNlMxRjRpSUZqMVozd3JUYUtuSVR5bnpfNTlOLVRWUmNoY0FqTE8zMGU0RUV3dXNyMkpwVHlfQTZkQWphR2h0Q0JXODNZaHVuRVBMQ3RpVElSWVhCTGRlczJ5WDRLNVhvWDNCeE9zRU44c3FMY09uMUZNX3M3YjdyODZBM3h2QThXNnRxZnB1bEhwV2xkc2FhdzBwX0lqbXdSa3lQbllZd1N5N0E2UEhFcHQ3d2NoOUs5MWdkRHphRS1uVmlhNUdxSFNlODgtSzZQUTg5NW13Qkp1M0J2RXZDUHdKQzFUbWh2OUFUcTQ5c2ZkQXJjLTVUYjVpMVQtbUNqcnZVU0F5bnZxdXVUQXYyaWhVYU5FOEhyMHo1b2NWbE9wTGVKanBESXZuVTM1blUwM1EwWGJYMlVDd0VCZ2U4czBldU9FR0ltc3RZdXhydXZkQWczMGRyZnJ0YmdFWjVLcFhNLUgxNEE0S2hJSUdfV2JSMVlLQmZCR25JbDM2S1BKUUlXejBRbHMzNnFWcTN3SWo0eTlwdHFyLWJhR1lGbmdB?oc=5",
+        "date": "2026-05-17T16:34",
+        "source": "العربية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、2032年までの聖地開発計画を発表",
+        "url": "https://news.google.com/rss/articles/CBMi-gNBVV95cUxOWEJNMzBsWW50OGR3UFU0Rk1XR1Jzdk9PVVFUVjhfR1A4SHdoWTJ6NTlxbmpDOEZidlhlZ3g4NkZLLWdvT2x1MEZudWtUZWRVTGxSQlVkTU5ubTdMNHB3U01mNjdVa0F2UDRoeHRnNDF4WXd3MEhNTXJod3JmaFZEa0M2RWxRR1I5ZzZRTlhzR0p6UjZNVEZDYnVraEhhcmJtQXN1TVd5NjVVSnhwWkVrMTBwNTN6TjU5TVRRY2pncTA0NzBlQU5rY3VaQ0tJWDd2OTczNEJ0bDNCSHQxVW1rTURVRHNyV3RDOFUtSHU2aENVSnBoREZmQlhrRDE5NDFjaDFFVHRHZEMwWHNSX3k2cWlCSFRxNFhOZzNRMXJCRmpJOXZFRnJsbjBvZF9jX3RqX0E4R2k5TmowbTVFX0QwWFBnbnRjOW5oVWpkODZUYVg2QXFNcXBod3QyMkhHMWY2RWF2TUd1cG5qTVpfYkFxMVZZZGdaNVZmbGdsUWlENGQ0dlNoaUZpVVlLTGRfVzh2SUJBeGJwWjd6WU1aZnRkcXZSM2RIT1Job0p5Wk9oamV3b1lkM3ZIcGFBaXU0X3VaYk55T29jSVpJMFl4ZVk5dkY0M2xkbjBLWFRMQTRQR3dWMTJBXzVOOVd2TWNnRTY1TlpINERfVkpzUQ?oc=5",
+        "date": "2026-05-17T16:21",
+        "source": "الشرق الأوسط",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア株価指数、10967ポイントで取引終了",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1hX1VNMWktbmNuSDEyNkk3R0ZndDhJZmZkM0szaEprSzMtd1hQTGhfdm9zWEEzNEZ5THNhaUxHY3pMZzdva2h3?oc=5",
+        "date": "2026-05-17T14:55",
+        "source": "جريدة الرياض",
+        "category": "経済"
+      },
+      {
+        "title": "株価指数が24ポイント下落、10,967ポイントで推移",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE52azZSYjhpRmhpZlM4REVOWjg2NFZUSm9oWHlCaU9qTnMydW5GaXJUU0tsNndrektCVWw4aFdUMFVYTDNrQzhyN1JWSWVYb2VITWQ5VdIBVEFVX3lxTFBCTG1SRlkyMWQyazZKc3lQVkVDSzl4VjBPdEdJUzM4R21JbEc0SGp4Ujd3LVc2Z2czOWswYzNFVndMMFFzMDlNWnlJdmFuQm1aTzgyNQ?oc=5",
+        "date": "2026-05-17T14:11",
+        "source": "عكاظ",
+        "category": "経済"
+      },
       {
         "title": "サウジアラビア農村部：漁業者向け救援装置1000台と移動式農業害虫防除診療所を導入",
         "url": "https://news.google.com/rss/articles/CBMigAZBVV95cUxNRmxPdGdYZ3AtV2xIaVlJNWoxOWo5OEJEblI5YmRmZVVmbVpjS0M2WHFfR3dITzNINkNidlRvcHNwa0FPeV8wcHJlWHMtQnVXRnR1cll4Wnk2a2lscTN6Q05Ib2E5Tm91Tm9DSnpEdER6WUFVRVBLc0hGOFNFMHlqaTF3U1JPTnd1ckdEM01UbUxUZlBLcWl2R0hhWDJUMEtwanZ1UjJVdkZteU5FOFFpZjZYakJZWHJGRVZqcWRXa0IxNEFuenRPM2lDQ1hqd3gycUpjVFpaYWlJS0RuMmhXTzdsYXpseUNYektVVHY0WWhXRFJLM09jSHdMS0ZHSmhkMEhMQmFoeVlCWW9PRTdlS29uS3pSQzhiNzA3OV85RFdFOUZVUDZZQWJGTlh0NEhpWVdBRjVFUGhkRldodUFhSzVWSzdKb2xWT0g3YnNfM2RTanR0TGcxR3VQX180YkttYWJrTGtfU2dSUXhIeVNuQnkyX29PNGtSODNmV3JvTmxLMWNaT1RMWERSTzlycFVUV3hnUVZkd01CY2dXbDh2Z2h4STdsWGtzYWRkR3NRcFlNYjQwQ2hDalhLeGpRaEVSVkE4SEYwWW8zUnRCRVJxOUZRMmlPaGRjbXFYa1JpZFdYTjgzYkRYVFZSWGh2VzFLY3cwMm9maC1nX1FWcUhZWXlRWnFOUjJ6VVlJcnVka3RsdC1wYzJ1V1F5UmpPV3E0MWRGR1B2XzIxdkZDVzFaM1NGRWlTQUR1TXBCUDNYaUE2LXM5MDF6UkYwRmROUzNaNFFiQWJWUmlwSFhHeVFUaEZQeXFxNTBKM05ZUUtvVG5Zd2FDdDdUZkozWWZua2hvZ0plYUJGaU9NTUhETzc5M2RiVFRUT1VadV9qcm1pVnNvNmtJeDFyZ1VnMGJHMzdmcHJFcEZnYWU1RzBlWDQwbGRIeEcwMUtUbEFiUzdBMXdWM2d2OFluU0ktU0xOSXMyOENSYlIwY0F6Mkt6aDFmclY3R3YwR0VkZzF4LWMzY3nSAVNBVV95cUxOeVFNODdCV3pTRnRRejNGYUhNR3RlZU5PM0lFOFRWQmdPOXRiaGkxSnFENTBqVHpRSHNra3dYNjJGNzVjOFFKcFpzVlA4Q3E0UDNZNA?oc=5",
@@ -222,7 +250,7 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビアでユキヒョウの大規模な映像記録 カメラが初めて捉える",
+        "title": "サウジアラビアで「幽霊豹」の大規模な生態調査 カメラに初めて捉える",
         "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOWXVndUx3SlQzTXA1WWZUeWtkem9wNFJ2S3VqaTRjWTU3cTRMSHVZbzJ2QXhvbG51YzVNMnkzU25laVBuaUE5cmJnY0hka0l0Z28tYVFWdDNyM0ZPUGt5amhTOWxrUGkyQVlWd1ptTlBVcDE5Qlo0cGY5MjVOWUMyVkdPLU9SZThNTXpwdFp3a2piaEQzcnMtX0JaNUR1RWNZSnlRWEo3bzE5NWhJUGJpTVpnclBmZU5DWjh5SG91bkxFVUl1WGRrTlJRb1BOZG1JWVE1aXJnOTRybUljVmdacDJKNE9FMXZnRGlSTzlPNlBVS0pfU0FGRXVRZ3RkdEZUVHFRZFBKUkpKLVRiLXV3bDlFYWs3NW1aQ080WGZ4QTgwR0EtbUhXd1pKQzB6c1JONExlMdIBugJBVV95cUxQZENvelFVOE90Ql9XS3pXUGlEQUNaZGcySlhhdFBRWmRucEtwZUU4aVBEQzNBSmhuUXZ1TG96Vzk3NnlNdWF1aTBtd2FPZXNnTlVNMW5TUEpuZkJoZ3BkUzJuSjJReDFLSFdrTnRFUDRRWmE3LXFRVWRmNk9vMk56MG42dTN0R3FuZm5LV00zX1lGbHBpQjRYN0pwRHBNQlRDVGVRR0V4dTdubGg1RTNMMDRvaURPbVNOUmxTdUl5NVp2dWJmYTBzNmhRU3lWRlFKVEdUbllfelJ3dmpLYWpwYlIybUEzMVNuR2JScUFjSGlRUFBfY0RUallpWGVGVVBKdTR5ZUEwcVptQ1V3NUVQSGd4T29QWW5XVnY0b3JTYVlqcE1LNGd0N3lWWmV2d284QTVlNUd5Um1zQQ?oc=5",
         "date": "2026-05-17T08:47",
         "source": "الجزيرة نت",
@@ -241,45 +269,38 @@
         "date": "2026-05-17T07:05",
         "source": "جريدة الرياض",
         "category": "経済"
-      },
-      {
-        "title": "サウジアラビア 最高裁判所、ハッジ月の新月観測日を決定",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNENjc3c0THFySjlMeTBuTjk0RTJtRzI5MzYtTW56ZnpNNGpPeml5Tm44dVZJMWhoN3VXdWZSYUtLZnNkZmlhNlhYcnJ2OHJRZkFrSW9xd1RoeU5tZDh1Z0ZSWi1rZzh3NUs5bUVYUDlJTURaSVJ1SWJZVTFybDBsVU1HSjh0ODBjeW5qQmZEMV9GRE5FNElYVVlVUXU4Ny13TndRSUNIRVhZOVpYelFwVmk1WmJkOFlPYmlNc9IBxwFBVV95cUxOdF9zeGpxaGFDSVExbVp6dGJBSUt5SXM1ekxUUkw5a05NcUNicjNfbzYxeF8zN2o2WDVfeGp5ZWRBRDFHRThvZ1NVSFFJblBBeTI3ME04M0VFRE9saWdib3ZhTllmMFpQRjFkR0pnNjVmR3JVMTdvVDhKYVhhWkZybFdaUmwzZjc0dlJDczV1LWE3cENUc0ZOaU5TMFBzWlY4bXJtVmJfYVB4S1RKbGNxOTY0dU4ydEJSUENsOU1hUGtIZnpzTWsw?oc=5",
-        "date": "2026-05-17T04:37",
-        "source": "CNN Arabic",
-        "category": "その他"
-      },
-      {
-        "title": "サウジアラビア当局、外国人労働者の雇用問題への苦情対策を強化",
-        "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxQalZ2N1I3bUlOM2swRE95eWk5Um5TbzVHY2llQzdtY3M3c051TExrWGRsNjdHdWQxVE1Mc3p4VFJoQ1dDeW1jd3FWLTFDWXBTVG82VEVnbHpQeU03NE9mazE1RkU1NDlMSjUzTlpSZU5UdGtMckVPWWNrQ3lyeXpLQjhIQzFHYXZVUXlBWUFlWUpPbnFLSDB5RDkwUUc4TUlzWUZfRUMyQUN0NjluZk9wQURIN29UM1h3d3l4SnNyTE1ISjFGdVRWRWoza0xfR2lWTGMyV3RSZUZzUElfeHRDZTdnSDF6R0UzLVdhazAxQmd2Um1KWmI5NXVhaFZzU3ZyVDl3NVJNYXhhaUVsaDl1d3BvdWlEa2tXYXJnTjhQd3ZtWnkzZXNrc1otbUtsVXpUUGVIczcwVGRLS3pONV9HYndoc2hLQ2F5THdxZWc4VkN6UThtR1VKMHd1elVsbWJXQ1J0ODZCalBFbjdCWjd4THNlRXhueS1lTV92R3dKZC1LcUZlZC0wSi1Dd24zaVdXTHplYnJUbHnSAZgDQVVfeXFMT09tZDhRLW5wTlpsdGhkNUl6dDhfLS0tc3lfcHVYOWdWbl9aZVF0cXhMRjAtOWN3UHF6UWhaa3JPd2hjVU5tTHB6OGtoTDdpcm9ONGhVZjFEQkw5bDJlU1Y1cjlkemZCMEZrOHQ2ajczVkJhTHBlTEFrbVViMm9RLVJoWHVaUWNCeVRjenRja1IzVzNoYktlTDJRTWRybWZwTTRiTDktRzlqcnR3d2Y2c2Mta3VVMWtxYjZsREdLUFJYSUFNQllrWVo0Ny1Jejk2Zmg3OUR1MlVSVTEzenY4RUpxTTQtZTMzdGl5eXJ2NHAxRk52T0xIOGhQaGVKWmkxeVIyQno1YXJ0TW4tTHRjSVUwQmxwd0EwbFl2TEczSExXZlA1QU4xbXhFTHBTM3NZbmJkTmZYUnYxcjN3aEptNllqSmxTQmRXaG5Ld3BJWXB5UGJBSjhnQVl2QlV2RUdJY3F3MEVSWkJTLVgtQmZZN0NxVUd1Mml4RDh1TS11ZGstUmVOTG0yVEhUV29DUWJHSFh3RV9xNHhl?oc=5",
-        "date": "2026-05-16T19:08",
-        "source": "dw.com",
-        "category": "経済"
-      },
-      {
-        "title": "フランスの判事、ジャマル・カショギ殺害事件の捜査開始へ",
-        "url": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxNRVlQeEJMRkF3RXJtR3h3dU1PaTdRZUR5X082bGdzV2hYZkdaaTJvNmluc3llM1VabnNSNTZXTHZyTU9yYUJ3Z3FOU09hNzBuNlNLSzVib2M1QzdNSVp1eURaQWZMd2RBZzZDMXJrUWtGMzhLZlBLcHlLZ1hYZzJqMV8xMnd6ZU1XNC02VVY0czFYbVFSSmFKWXVsNGVIY09IX1VEbWtxNXZmRk83NjFXc3dMaExQQVg0Qmt2WC1XVGZkUVJ3MHNmNzNkNTdZMjkzbm1RX2NfcXNCZjNZYjFXUGxaZ3JwRVJVQ1RIUVp5WmJsYnhuNzhXRHRIeXYwcjAwWWdmYzVQWUM5cVg3aWF0S0FFa2dJT3BLVUdsbS11WEJOalJMLXlCYnY5WmR1QTR5clhaeHROcHk4MTd3TWN2bW1KYmJZVXlRZ0VkUlUxeE1FdUZqaTlOWDhkbDJobm56NWxCaWNJVmtQRVVHenpCV24tck56MVNMTXBEVXNWcGtKcGZhZUVLZlN0X2h1QlpVTFVTVV8xMHJVWjlWMXg1aXhqaFpWYlctSElkbzhLQzZ4UUVYOV9EemgzLXJtZjJuTTVoMnAyTE9EZ3FPVkdRVzhlZjA4MkNKbTNDVU4tSFpoZUlsZU1pV0JIQVPSAewDQVVfeXFMT3pYZkxQenlrNkFDQkY4MTFCR3lIMWVDUDk3czhzcVk4NUhiUTl5ZHBXaVNCQUg3c1hZbEpWZU9FTlFSdXZYUl8tSHFuMHRoNldDNFF2UEpRVk0wYzdhYjZzaWE1eUdJb1JlaFUtMFBmYWYyQ0YyQmRuQ3hheTZTWE8wZEtkblJCVkZKclFyNTRDcXVDcTVZVktua0hyY05fLWRwTGdQc3ZzaldzMWxSdEM2UE9GeUpWZVFuQVV3c0M4WVBQcEt3aW10MXBSVEdBQl85WGdteG03Q3pvaURIZWdCQlZJYU1lYTVUakFSb0RsbUkzZnNqVVJJck9leU9aMU1udlc0a19YWDl3QWVQYlU4UzNDOTdOc3luZTlNM3FPM21DRUp6SklucUQ1RDVMX2FaR0VMUEh4aWJ1a0sxN24tV3c0akJJS3lma2Q2SkljOEZFRTdqOTZfLUFBMGttbjZoRE9DeTRkcC1Ub0RWWXBUZG04QUZySDhlMlJCZHptaGt1M19ROXNSeWZsaV8tOGx3Q2xsa0VLRzd3d0FXMWM0alhleUY2U19aUnViel9WaEt4U0oyWWwzNDBTbWo0dUFkaFNKelhWSC1wMDlUbUItdlN2WFNDbVBzN0U2NmVxWTVucXdOVVRuMGdE?oc=5",
-        "date": "2026-05-16T10:55",
-        "source": "DW.com",
-        "category": "政治"
-      },
-      {
-        "title": "フランス、イスタンブール サウジアラビア領事館でのカショギ氏殺害事件を調査開始",
-        "url": "https://news.google.com/rss/articles/CBMimARBVV95cUxQT0EtajA4cG83WXRzUUVGYTlpTHp0YVZSa1ZNV1JBOEkzLUdCM0pvNU1qbkJFSFN2dW1NeV82aktXdHBDMTE5YWhQblpNNVJFVXN3X04yMWlvTzR2czdRUktJbTFCUDVKbXNRWG9BRHNaNkFBc0VwZzJPTHRMcEZGLVlZNWtmMV9aMnhoVXhoZ0JpSGF2a09yVHdlVkdDbWR0dlBEdG9sZnVScWdBZ1JyV0Z6Wk1uRmZUemVWMFowaTB6TUwxa2toLVN4RGtqSVVZM2VVQ3BwVDkzSWkwT1NXaXFnTnhYMHlEUjdxcF9aS1h6cFhoME9VWFg0bmtzT09tWEZUeEp0MXpSV09WeU1qQnoxTGctQU5UaDhKX1ZGXy1oRWdheDNPVTBwRDZOcS1DZmZtSjM1WE1uRllkbl9fQmV3OXM3SlBVdGE0WDh1dWlTejJsN3FHa1VGVl8xdThfMjE0eW1VWndVb3RGWHpoamliejc4T2tHNTBFS3hLOFJaalhUb1VmMlAxZU53OC1VN0pxaFFqTENrZWRjMlJwUDIzTmx4VWcxcEV5X2kxZjNEajlGUDN0dm9mYk1RclRhYkxVVFlicDBxc1F2Z3hvdlAzWjh6cW0yOHdUNXBYeGdIV1RWMTNpSDAtMm9sV0JzU2U1WUt3LTgtX19oNXUwdFhOb3hmUVNpRzhNS2o2THZCUWliRll3eQ?oc=5",
-        "date": "2026-05-16T10:06",
-        "source": "akhbaralyawm.com",
-        "category": "政治"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-05-17T14:38:03.010032+03:00",
+    "lastUpdated": "2026-05-17T19:47:17.509328+03:00",
     "items": [
+      {
+        "title": "サウジアラビアで三日月が目撃された後、5月27日にイード・アル＝アドハー",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Eb0Iwa2RpZkZoZ3VOUlFFZzJ2R2tpU0VHWV9oZHRnV1ZENWJBbVA0dTAtdmFLV1o4T0F0VTgtSmViTlJJRHh5bDR4TTlBSUNGcWkzekQ5d1FZbXAtc2t0NG5qellaMnBkblNnbw?oc=5",
+        "date": "2026-05-17T16:29",
+        "source": "arabnews.jp",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア、イランと中東諸国の不可侵条約提案",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10U3ZFT1lNcWZDNDBlMVZGZzFHYVRsc3VBWHJDQTl3NUh6TUU3TlpFamhzVjVYb2twNWw0MnAwbHpjUEVNaHZhdlZaQ2xjRUlLazN2Nlpkay1aZjFsb1N3ajdrak1sazVwRzhuLVRoTTNxYktwaEFZ?oc=5",
+        "date": "2026-05-17T15:00",
+        "source": "日本経済新聞",
+        "category": "政治"
+      },
       {
         "title": "レバンドフスキ、バルサ退団を自ら明かす 新天地はサウジアラビア、ＭＬＳなどが有力視（デイリースポーツ）",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GMEJQTy1xemRzVXNWQ0dObVRIUnZsMVVYR3A2LUJiT25pQVhaR1VZU2k1bExKclMyT2FEMzduWUwyQ20yUm50U0U1QUZrbTUyRnEtOTU3SXJsanBDZmwxSklkQWRBZGhXeUZlYlJEcDJJano0ck93WnZWSXYwNlk?oc=5",
         "date": "2026-05-17T07:17",
         "source": "Yahoo!ニュース",
+        "category": "スポーツ"
+      },
+      {
+        "title": "「日本5-0、中国3-1、決勝で会おう」サウジアラビア撃破でU-17アジア杯4強入りの中国。現地メディアは「決勝で再び日本と対戦を期待」",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZGc1TkRyMHNZT0d6d1hHRjVlZkVONExKaUt3bGxodG11ZUh3VXJIVWlObjh1OWlKaThKX0xYbm1idmktZEsyaUE1VU9sdDA2NGxPMlE3TDFSZTFTaHlna2hFaHJVV2p2R0o5TWR6U3ZkNXg0a0R0RVRGMm43S19sYnBtZGZ1R2taWlp6UXNR0gGTAUFVX3lxTFBXQldteDZsQUFQVHU2LTlrVDVQbVUxZHZ6YklHLUVmX0tfamlfTmJNMXpwdWxCUzk1VUpJUDRMUUNuY2NpNWtFd1dwOEJDLTE0Ry04WGhHYWJNWVRzc01LcXREcTQ4Q2wwZ2Z1bHNTR0xOUXRILWxaTW9WRFowU3FqNGVaRldJanpyQWdfQi1lYW1Kaw?oc=5",
+        "date": "2026-05-17T02:37",
+        "source": "ｄメニューニュース",
         "category": "スポーツ"
       },
       {
@@ -292,8 +313,15 @@
       {
         "title": "【トーナメント表】AFC U17アジアカップ サウジアラビア2026 準々決勝・準決勝・決勝 組み合わせ一覧",
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA2ZF8zOGhYY0k2TzYtc0FibHFXRklHYnFCSm1zRnRvNnpwd1BMa1psRGhRbEg0eU9QSmF2cHRRNVFfYmJwYTgyX2NsNmlGNGI5Q3VKRVJxZlBDNDU5dXNNdlhobw?oc=5",
-        "date": "2026-05-16T23:55",
+        "date": "2026-05-16T23:56",
         "source": "フットボールチャンネル",
+        "category": "スポーツ"
+      },
+      {
+        "title": "アジアのタイトルをかけてＧ大阪がサウジアラビアのタレント軍団に挑む【プレビュー：ACL2 決勝】",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCZ0sycldhN29WM2NSN3p2bWk3dUd0MTAtUFltNXdGVFNtMjM2RWwwQko4ZDBiSV85R1hYT3NOVE9ZcUQ1ejRkTXBjSE9Zb0x0NUFMSVpNOVpGV1cwV2h4VDh0YlpfUC1LVVA4dFhKTzJveEk?oc=5",
+        "date": "2026-05-16T09:50",
+        "source": "スポーツナビ",
         "category": "スポーツ"
       },
       {
@@ -315,34 +343,6 @@
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE85V2JyMGRDN3hmRUlVbjdoNlo3Z3AtQmNzbTJ2c1htdmtFcGRfM3Q2NUZHZXJGSjVkYk9vSGNWcDYzd0lfRlc2VVUwaEVEMmtDbmVTQlpGejVLYUc0ejBGRTdlNA?oc=5",
         "date": "2026-05-16T00:52",
         "source": "フットボールチャンネル",
-        "category": "スポーツ"
-      },
-      {
-        "title": "AFC U17アジアカップ サウジアラビア2026の全試合日程や視聴方法は？ 開始時間・放送、配信予定・結果 一覧",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoMXhQNUx3VnRpLUtKbUZ6SkhNa0dmalhaZzVZQVJ1NlllUEtad0I2UVdoYlRRelJQcE0xcHZZX1hGd0hHdmkxbC1NZ2JxazcwQnM2cUJKbG55WWpoNWx0dDVKQQ?oc=5",
-        "date": "2026-05-16T00:34",
-        "source": "フットボールチャンネル",
-        "category": "スポーツ"
-      },
-      {
-        "title": "【U-17アジア杯】U-17中国代表、開催国サウジアラビアに逆転勝利！　3-1で22年ぶりに4強入りを決める",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMF9rZEJYbG5sakdaS2tpZlZhUTV3M2h2YTYtVGhrdzdKNDdTbGMxdEwtVUVoRWk2eDJrVG1GU1c1U1hsdlZ4UmZzUFlNRmRxek5GOVZLaGVaS21ZejA3bzJrLVV6c0ZxQTY1VjBaSllmMHc3SG0tZzdQS3N6alRHNS1OR2FwcjZBdzJjbl95ZUtGZTNjYm9UNFh4Ym14VU1XZFhJQTVLbEVOVERhWmJsYXhCa01od2U3SnNNanE0VVBlUDVDbEF0YzR6VWxrNFZzLU5Jc2JEVGV1b2NrSUV0bHkzQdIBkwFBVV95cUxORjFubnJTc0ZDVVFueFdOQjBWT0hLV3VoQ05GLUFNM2ZUaGxieFhHVjZoTVRFTHRuZXlkbnN1Q29MVjBwZ3VkTmlsUWNydEZtSDNlNjJxRVpQc083ZFk5MTV6VDdGMmVvWGdaQUI0bVJOMXZpWDE5ckVUQVJLcjlfMGdoT1pMa1FsSVhYRnFxSHFwQlk?oc=5",
-        "date": "2026-05-15T23:02",
-        "source": "ｄメニューニュース",
-        "category": "スポーツ"
-      },
-      {
-        "title": "【U-17アジア杯】U-17中国代表、開催国サウジアラビアに逆転勝利！ 3-1で22年ぶりに4強入りを決める (フットボールチャンネル)",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZVAtR2F1LUlmYUJhN01mX005dXhsODJVbFlhaVU5VzMxUnh5d0dnMmpsSnpyR0FTX2dsTGhjWmRBYUZFR21jdmRyZ3RHSUw0VEw3YTRfMjF5UnhrZ18zYXN0clJCeEZqZjlJdElhZy1PdXo1NEhiSFhIRjB1ZmktV3VGVWFFQ2RZRXZwd0hB?oc=5",
-        "date": "2026-05-15T22:38",
-        "source": "Yahoo!ニュース",
-        "category": "スポーツ"
-      },
-      {
-        "title": "【U-17アジア杯】U-17中国代表、開催国サウジアラビアに逆転勝利！ 3-1で22年ぶりに4強入りを決める",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DWk1OTThEeHpNd2FzbzVKTVlxU0dKOGdOWERRWmcyaXduM2hWNkNjNGhjekZCaEI1UzJob1JqLU5HRHhQTFl4Wkp5SDIxMlh0WkpQSlhZV1pSanh6SVBfYjViT0V4MzBZRHJjUmkwVnBfTnJyZVRWbEN4V3djdzQ?oc=5",
-        "date": "2026-05-15T22:38",
-        "source": "Yahoo!ニュース",
         "category": "スポーツ"
       }
     ]
