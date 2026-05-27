@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-05-26T21:17:09.510280+03:00",
+  "lastCollected": "2026-05-27T16:57:25.823334+03:00",
   "security": {
-    "lastUpdated": "2026-05-26T21:17:09.510280+03:00",
+    "lastUpdated": "2026-05-27T16:57:25.823334+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -38,7 +38,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-05-26T21:17:09.510280+03:00",
+    "lastUpdated": "2026-05-27T16:57:25.823334+03:00",
     "items": [
       {
         "title": "【大使館からのお知らせ】国外転出者向けマイナンバーカードのオンライン申請開始（5月26日～）",
@@ -53,7 +53,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "その他",
         "is_safety": false
       },
       {
@@ -69,7 +69,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -77,7 +77,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -85,7 +85,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988773.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -93,7 +93,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988294.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -101,7 +101,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100987261.pdf",
         "date": "2026-03-03",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -117,14 +117,42 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100981607.pdf",
         "date": "2026-02-19",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": false
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-05-26T21:17:09.510280+03:00",
+    "lastUpdated": "2026-05-27T16:57:25.823334+03:00",
     "items": [
+      {
+        "title": "イラン情勢の緊迫で、世界市場の「湾岸オプション」に打撃",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMlhfMkVFQXlOMjFCcGx0RXdUSEZpc2NrTkxWRTF6cnBrQlpYWFlqTFFvcHROdFhFZkl6UTZjVUttaWFQRVZUN3JSV0xJakJCVXRBLTRsQlYyNmczbU9HNWJGYVRUbHhFWjZ4YzFXdWhNbXdhWEt5LU14NmtYUVUybHp1dFFGSm9JRjl1M2FYM2pyYXVxNzhJ?oc=5",
+        "date": "2026-05-27T05:00",
+        "source": "Reuters",
+        "category": "経済"
+      },
+      {
+        "title": "2031年までの富豪増加速度、サウジアラビアとポーランドが世界トップ",
+        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPVEFEeHZmRDVydVRjLWw0blA4d1doYWlpRXZJU05RS2ZXMDdWN2xQcGRybkVPZXF1QV84bU1iVTBhWHF6QzdSejliOTF6aEdtd3V2YjJKb2RXWVJHbmNkV0U1bUpZVC1vMk9MMlZHd2hBc2tMUm1KU2JXRk5OOVhPQ1Z3d1NVWEJybUVQRzJKNEkxeV9SbUZkOENrc05YeDIzZG5lQ1E3TmRtRTQ2NDRoQlVVSi1xNmRBYUFDdVZGNXl2ZmQ0bWhYbWR1M2x1VVIxTnNnaU95ODZ6d2pjSmhhVXR2d0JfZHc1V1JrTnJKM3FPOGhjekJCX3I3eEpiNmR6N0lYQms5QUU5V0pnYVY4MjFTWjJLajJYM3A4ZlRydG1OQdIBpwJBVV95cUxOUGd3SWpaQXJSNC1udUtFdlJqVHdDSWdZT1pYVmlIVFZDTmhZTWlzV1czQlBJTW1jUnpqMjV6OW1pZ29QYXliX1MtZ2JaUDB1X3VzTjU2cEJyRHpSNzBBNEdRZWk2eV94WDFXMmFuZW51ODA0NHcwcFN5d0dnSFlQazNsSEpoUDdmY0pmM2FtMnNBT3pIY1c5dm4xeFRMQ2dpdlgwdldzZXBnb25DbTRrZWRuR1VkTzN0SFloTUF1OGdiZzdpRE9IZHF4TTM2cFJCZkNZelltVC1BV2tZZHZsdmdUNzhXUmNwbVp3ekVfcTJ0ZUtIblo0Z3JkZUV0eWR5QXF3RExTemp0WTJmZWc2b0VwN1UxMGdiYTVHUTUtNHFoa0hDbENR?oc=5",
+        "date": "2026-05-27T03:33",
+        "source": "The Times of India",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、AI活用で経済成長を加速へ",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhZklBdnRSb211aFBlYTNPT2NsU0wydVNnRUdpeW9Ga1FudWh2TkU5eDRvOGJLcHBvblVuaWRXVmxlLTAwbUw3QTg3Z29Ea3MtdGktaFFiSU1DeW8xSHVxT3kzSkE?oc=5",
+        "date": "2026-05-26T19:40",
+        "source": "Arab News",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、報復的なイランを望まず",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOUwwQmtfdlFfUDdDVGk5TDNQOEN6eTVQTTQxbEdFanZ0NE9may1PZkdpN2VXWV9NLUdfUmZPcmpLVzFRRDZBUnJ6U3J2T3ctUWxIR2dLTXdkaFBNQnJNdWNUSVBfX2hOellCYnNJQzdnWGZPWGtGTkVYV0U4N2pnRTdZUGFJNTJfUzZwVElHNEZZM29MOXFHbHFGQkk2N2hWX0pnaEV6bWNBZ1JKcmlEaQ?oc=5",
+        "date": "2026-05-26T19:21",
+        "source": "The Washington Post",
+        "category": "政治"
+      },
       {
         "title": "サウジアラビア、アラファト山に集結するイスラム教徒ら　巡礼が最高潮に",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LUXEybWtfUGFhb2FqaS1mTTlfS0l1X0ZyWGZ3UkFsTlBvbkNTVXBvcWwyVGp1eC1iNGdDUFROaVhFSncwdkwtdklHaWs0TEcxYzJjS1c1dnhuSGlkWGh2ME9YRGMyVG9DaWhhT1Q1bFlTUGVzMVE?oc=5",
@@ -133,21 +161,14 @@
         "category": "社会"
       },
       {
-        "title": "サウジアラビア、アブラハム合意への参加に慎重姿勢",
+        "title": "サウジアラビアがアブラハム協定への参加に慎重な理由",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWHlsaWNxNFFZZDQzaEhMYzBQd1pjb2JIT3VvMnhKLWhTQnpNc1dqdm5Velg4OGNiLVk3MGtMakR5bHpRakhXQmUwbTN6R3AzeXdSb0drM3I1NGNWbVh2NzQxRnBzZGIxaHBRTHNaczQ5VllhUkpJRXE5TmZGX0diY09uc2JNcjE1cENQanJzaTFNNUpYVDRPNjBMMnRYNU12bER4WU93?oc=5",
         "date": "2026-05-26T16:56",
         "source": "The Times",
         "category": "政治"
       },
       {
-        "title": "論説：サウジアラビアが望んだ中東の安定は混乱に転じた",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOUwwQmtfdlFfUDdDVGk5TDNQOEN6eTVQTTQxbEdFanZ0NE9may1PZkdpN2VXWV9NLUdfUmZPcmpLVzFRRDZBUnJ6U3J2T3ctUWxIR2dLTXdkaFBNQnJNdWNUSVBfX2hOellCYnNJQzdnWGZPWGtGTkVYV0U4N2pnRTdZUGFJNTJfUzZwVElHNEZZM29MOXFHbHFGQkk2N2hWX0pnaEV6bWNBZ1JKcmlEaQ?oc=5",
-        "date": "2026-05-26T16:53",
-        "source": "The Washington Post",
-        "category": "政治"
-      },
-      {
-        "title": "ソマリランドのイスラエル・エルサレムへの大使館開設計画、サウジアラビア、エジプト、トルコが反発",
+        "title": "ソマリランドのイスラエル大使館開設にサウジアラビア、エジプト、トルコが反発",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaF9aQWc3Y3BOX0pHaHJ1UmQtYUthaF95U0l6WjNicmRxVi1FTzctQzhXQm5hbkEtRGdwcGMxbFBJeGhKUElUWnJ1Vi1LcHZQdHQ2N08zaUNSR1ZJRzlON1RvR0tQa2NNQWJZbjAxeURrcWo0Xzh2a1Zra29zbGo0b1VwREF1TWdRb3h4R3FVcXQ4dDFBb0RNYzltaDdOal9yQThpSm9ocmI2bk5JcVA0ZXVfZTZPdVNZVnpIZ3NVWjA0Z25oek1GZjdQejRHMmI1bkE?oc=5",
         "date": "2026-05-26T14:07",
         "source": "Business Insider Africa",
@@ -161,45 +182,73 @@
         "category": "社会"
       },
       {
+        "title": "5月26日の注目写真：サウジアラビアのアラファト山での巡礼者の祈りからペルーの道化師の日まで",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNWFucFhobXhFcVhrUVBIengtLW9jZlViQml5b1M3WjQ0bzhtV0RHcmhodU91Mjh6MGV1alJEUHEyYWFfNjdJSEh1X21wM3QwT21uS3FGdE9UMjNLLTRheXZxUVdvbnd0VjVPNjNYTlM2ZWtCdFRiZFptMU1INVFyZS16YV9kMG5RN3dnaU5tVFh0cGg4SEZvOFpsVlo3YjU2cVlIREswXzFiWFpQelJ3WkUtOGhNaDZ0dEVHclh2STFBLWkzbFRzUXZ5WkctQ2VqQTVva2J5VQ?oc=5",
+        "date": "2026-05-26T10:45",
+        "source": "The National",
+        "category": "文化"
+      },
+      {
         "title": "トランプ前大統領が中東政策の転換を推し進める、パキスタンはサウジアラビアとの関係巡り課題に直面",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZEJHa1A3aUMtTWlFRXNxM3NqRUR0VktPS2ZWOUU0TV92SGtoQkZaREoxNGFndGZjeTBOY1VOQmVzdnNCbkZDTFBreUVHQXYwSXpDS09fdndHN0pIY0ZRSUFMbUNPSVFxaGhBc21KbTVNczRxcWUyak40U3lsUGFDYW1oNkZCUHdCUGNzWWd3MnVmU0RFOXVYQTBqUVM?oc=5",
         "date": "2026-05-26T09:25",
         "source": "NDTV",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビア：ハッジ2026、数百万人のイスラム教徒が集う中で精神的最高潮に達する",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSlZpTjdlZEVYMjg2RUtUcF9jQ2ZNRlZTS0dCQ0V0UUJLZnA5NDU2RlhIVWFveTd4QWd6SlE4TnNfYWF3U3l2NkE3aUJGWXVva0VjSXFnbGxqWmR3Q3V3cERraHZBWVkyODZtM1Fta1Y3R0k1ZWRERzRrYWt0bEpwU1Z2dGMzZzlKYmRYTnl4V0lCMUJORjhKQThHbm5KbHhLdXdBTFVuTTA4SHY0UUZ4cUprUkhjRk8yQ3Njdnh4d3BsM3NTN1BQc2xraw?oc=5",
-        "date": "2026-05-26T09:16",
-        "source": "Euronews.com",
-        "category": "社会"
-      },
-      {
-        "title": "イラン協議の最中、トランプ前大統領がイスラエルとの関係正常化を湾岸諸国に呼びかけ",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVlZ1YkVBTWtMM043X1BhcXBtWmZnb0dIZVRDOGdEYm1PSFNrd3VRUjJQYUNjU1pCbndETkVMTEtva0hReDJHR3ZCZGFFOEYySTJNczBsekN2a3BoUG80dXUzcWlzMElPWmdhU1hfWTVrbUZBczNpOVBibXhIUFREYkkyV252bkl0MVUzWUsyM0hqZG05V1VRcnN0Q1ZVOWotWUx6NkNCSm54ak44NEtISUwwNkJNYjlzeW13UUZPWlYtcXJGTnJ3VGhhT1VxTkwyeUdrT0djN2pHTVNQcXJ4T1NndDBWYWM?oc=5",
-        "date": "2026-05-26T08:56",
-        "source": "Le Monde.fr",
-        "category": "政治"
-      },
-      {
-        "title": "イスラム教の大切な祝日「イード・アル＝アドハー」 サウジアラビアが開始日を発表",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdW5MODdWRXQ3cmc3alpJNUtYM2c5NXJjTHBIMFVBSm1fMjAxOGpLQmdoVU1sTnZmaU1abmFXd3JtOE82QlRwN0hCOG9RRDZ1YUdabDdaTV8tVmVLR2syb1hmcWlMNTE0a0o3REV0VWQzMllBbDRzelF4ZWsxRUdfYjBYNFp3NXowemVsbnJsNG96TUhnMjhCQ3F4WVo3cTNwbzNRT0VEUENTOWxmcDRkZl9SaXZoUWZjeTNQY3lEYUUxM0l4TzZF?oc=5",
-        "date": "2026-05-26T06:11",
-        "source": "The Columbus Dispatch",
-        "category": "文化"
-      },
-      {
-        "title": "エジプト首相、サウジアラビアに到着 巡礼予定",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41Tk80UzRnTTdNeHh1aGFhUDFkRko3VmRMc0RrSG0tWFBNaEdHUGpaV0tLQnd3Nlp2MVc2azdpTW1RWXQ2QTZXM1h4dW9ZWloxbnNwN2pCcEsxaEF3eUtN?oc=5",
-        "date": "2026-05-25T19:49",
-        "source": "Arab News",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-05-26T21:17:09.510280+03:00",
+    "lastUpdated": "2026-05-27T16:57:25.823334+03:00",
     "items": [
+      {
+        "title": "マスターカードが語る中東戦略 サイバーセキュリティ強化がサウジアラビアの金融セクター競争力を向上させる",
+        "url": "https://news.google.com/rss/articles/CBMitgVBVV95cUxNQUZBY2p3UmxPeHF4c1VWeXU5UGI5WG1rQ1ZLcEhjZ08wSnVHcG02OVRGMGVJZV9vTHVnTVhzemFGOU42OHZkcnVEUDd0eVBSV3dzZU9XZ3lIWlA1V1BNMnBBTzR6cFRwVlUxaGNkbDJDeHVsZ3dDZDZucWhaRERobVZub3E1WGlHOG16LVpYaGdzS1VCY3VSMFZnQ2laMGdSckNGaVFNbXI0NWpSYkQwMmp6M3d6Q2lnQV9lUG1sQmJyb2doQ1Fkd1NueHlpVTdzeDlvNS1lNXJNVy1pU010aTNELXliWjNDWmR5WFluQ29PUEY4T1lNYzgteHNyUUZhYThVczItd3p4YzN6bURwSUNtV3J1NENYSkg2VnN2WG5lblRSeDVGY2hMUlVwM1FuMVNXOXdDN3MwdDk4N3VTNzI3NVpMRVV1ZUd3RTZrYU1JcnoyZDZRUEwzQ29MTmRpTDFvN0RzZnp4MmJTdHlhZG55RzZVSlBPdHROT2Q3a2pFa0tkblg0SkFKUXFHMmg3N0pXaDNzbXNydDF3S3pLbjN5Y3NrUE8telYxY0loSjFmWGRydHZrMEVteXVKOHQ0RlF2WjN0aFduMHlLUzZTUHF4MVJWZWN0SndvcjBlODRib25XVngyem9qYXBpdHYwbTR4d1ZKZkJMUDRpNlNxRkI4M3lNbUtSS1pfTS02N1hsTkdUSTdWR2dKUlYtSWlNRlBhcWZvcTY2bGk2LWN3WEIwaXI1THNCTFo5b2JMTWZrSnpnaG5pMmlCY19mdnR3djcxa2ktM0t0M1lkTHNJMlM4cFA1Nm9oaDhQUXA0Tk9kWnE3WmZMZmZFWkw5c3JFWXRXa0hCSUhLcnhKQVVueEJ4VU9wRmVkVXlQa1lrSmZQWk02S0VocnVsenhueXNOMVptYUtB?oc=5",
+        "date": "2026-05-27T13:21",
+        "source": "الشرق الأوسط",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアの輸入品地図 戦争初期の数ヶ月 中国機械からアメリカ兵器まで",
+        "url": "https://news.google.com/rss/articles/CBMiwANBVV95cUxNUkdWbWNDZFgwdFBLWWx6YzVKb083QTNxSGYzMEYtd3pZZWVEUXMtWHJ4ZERvUXNfamI0N2wySmkyN1RuMklGZnZXSkZENjhJdnpPaUdSX3czMnlnUlRWM20xYkxkWjhIWnRlV1F2MGpWdHQ0OTVKX2x2NlJyc0xPcklTVE5zWXlVMXNQSXJWNWtTb2ppSm5DNi1QQVpnTE1zemlRNDdCcWtTUkN2SktjTnNNWHpQaS15eHcwMFI4Y2luR0FBVlRlNFRMMWRVcC05R2N5T0xmaVRkZFdBYU5LWUZTazdLZk9DQWZzWFpJUXl1S0NDc2VxblNEMGJacDREMTBfNW1BU2EyTm45V2MxV0dydTRjeHl5RDZUbXhHSEs5QURaVS1aWWIyTmMxV2hVc1VPSnlXc3hfbXB4MjJRY3pzWGJBbnFxRkdtRmdLRUtZZS1BMHY4ZkNON0hqWnNTY3VaZzJiR01IbmNFRnBmQlBCVWZoNVhjTjNUZjFKT08yTHpHN2F2a1d6cVQ1Zlh1OWROTVppN29iX2JOTEFETjczQ2pLeFlYbWdkdXhRcmtLS18za3pOWWZfSHZJNHdL?oc=5",
+        "date": "2026-05-27T13:07",
+        "source": "اقتصاد الشرق مع بلومبرغ",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア鉄道、35万7千人の巡礼者をミナへ輸送",
+        "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQOVdNX2RQdFRQRkJwa1NKVV94YlFhMnp1U3A3d2hTSUpUQ1daX2Q5TFpzM0J1eE81WjRmeFlWOF9UOEhITW9JWEpZNC1YT0M5MUZ6SGRNTU5CYm12U2NuMUxxRnNObDBqUTNWMjY1R014UDkwa0d6MHNfcnctMmFfeWJTUDFOa1pEbzh6QW5IdDdET1lxRHJWYlNUZEZJVGZudGZYUE1ONXRfY2ZpRUhBa0VRMFVNUmppNW5YaFVORER0UGd5dGRqT0o4cXFjd1l4T1BMdVhCZ05YYmNoeUd3eFNrS1ZNckNjcm9KZkNvQTdjczFuVTJqd19XcW1TZmQyTm5iMUFrbU11YzRLUTI3Wk5lcWo3NHhQemkxdjdmblBXV1BlSFU0Q0JNLW0zMDVTczhfTUFSc0w3QnpyX3l4M1lqQ2toVksxT2dBa2Zn0gHTAkFVX3lxTFBzS0FpVlhNLXBMYUM3VEYxWGQ5TE85Zkt4dTVoeEUySW85WERNendJODZldUpQakxzSmU2MzJVcUZYaW5aT0FsVnRRTjFBU0ViSndUQkpCdGJqMzdjWFdVZVlDLXNyLWhGN18zM2k5cE5hbzQwdGR0NXZTZVMyU1FzUzc2OHZRcXE3TFVkeUtUSWZKNjZReGp1NS1SUk5IcHNIa1h4RUgyVDFDR05keTExY2YwX0xIY0I3QTh4R202OExtYVdGbExRR3VrN2RyYTJqY2Rac2FIR043T2Fzcy1UbFFJaHk1MWl6RGluczhMNldEemdyVkJhWEtqckpTMnJHMDhZY0hsdU10bjMySHhqWHJEZ0UwNGFDWWxoVmZLeE1RUkcyMHhmdVh1ZTJSUHJ0MXBsMFAybzlleWtiLW03WTNMY1kxMnZtaFR2UE1qX0Y1QQ?oc=5",
+        "date": "2026-05-27T11:31",
+        "source": "العربية",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア：150万人以上の巡礼者がミナで石打ちの儀式を実施",
+        "url": "https://news.google.com/rss/articles/CBMipANBVV95cUxQaTRGNE1qUXpCckw1Mm95RExrOXNSemdGaU43Mk5WWUIwd3g2a08zck51X0xCNThvTC0zU1RqWmF0bUIwai1SSnBZMHVlRGptN0JUTmttSjU3RGZhcTVBb2VyWkZicDdzdXBCaHZrclFuYjJIUGV4X2V1Vy1lRkRSUmVEc1J3VE5lUTUxdXUwWldFMjNjUWpVb0hvUG1DbExidzZnWm1SSUF6emxqdjIwRlhqTnpURXdrNGlaNmpzMjhRM1BGOUFFM25NOFQ0eDlfSWhkQTBGNG1tNEtlcnJGWjBUdlY5bWhCQS1xZ3F6dEhWeURxb0FLUXpBNG8xWXl2OGt0b0lLSmxraWJwcXNQSjdIMW52ZEV0XzZ5Q2ViTmZwd21lNENqckpiT1ZkQ2s1S1BIM0ROU1BqVXlEdFgtZFF5WkU1bkpRSW9VemFKTUFjb1FIUlMzSk5IdkZxXy1idnNvaFhnSjlaVFMzZ3VxSHc0RWVWaVJIak91REZXdnJicGIydXpraGZNa2VLcEdFLU5zTEVHSUluQ05Hb2lwbWpHa1E?oc=5",
+        "date": "2026-05-27T10:52",
+        "source": "al-bayader.com",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア：150万人以上の巡礼者がミナで礼石投げの儀式を実行",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcndjVzg4NktRdXl3elE3SDVfTlhWNy1uaGxadTZ4THJha2syOTJQU0hxS0pnbnBZN0NTTWV2b09FdWt3XzBia19TNW84T1FleFpEM0xScHVBLXpMRnA5S1BLMEpIb1lCVTRTbFBSRDl3SGtDREJ3UElfVERxeDVuXzc2akU3a1JzdFJIQ2swV0JGQmc1bk5QT1c2QjNzTG1ybkZHZXNiWDZsRnR1S1ljSHVaTUF3VzB3N3c?oc=5",
+        "date": "2026-05-27T10:46",
+        "source": "Euronews.com",
+        "category": "社会"
+      },
+      {
+        "title": "トランプ氏のイスラエル国交正常化要求にバラダイ前IAEA事務局長が見解を示す",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSmNJajJ5SlpNTHJJRjNUcDhlR3B6OGhJYkw2U0tmelNTcnJfZ2pjNTNLSFFRbmcwOVIySmVnaWJqUDRkcnlud0s1a2NZa3FfUXdRMUxXc3J6NzAxMFhhUHlieXJHRUJZa2xlSUNlNGRjSHhUV0hjSEtnTFByeGhaRDZmc04zTVllUzEzQkdFWE8xRlZ0bXFKTGJpZmJhbWhKc20zTlpqLWIwQ2p5bGhxQXJR0gG8AUFVX3lxTFBuOUhPZlExZVA4bGtadktGcUEySjNjQnlHTkVGOU1DSjdHQkJZYjRINWMzY1BLSWY3MXFCOHhlaDc1eXh0VnlLdGx2bDk5ZHNYSTZMbE5wYTYxZC1ORk1Fa0R2eUh4eURTckdySkt3a1ZSN3dNZUpmR0RDaS14QVFZanFheWRSTHM2Z0hEaF9KdUJNTGIxVmxyRy0ySFhWSUNjd0dxZERhNlBJRWxXa3EtSEZpSFdibUxDVS1P?oc=5",
+        "date": "2026-05-27T04:36",
+        "source": "CNN Arabic",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアの大学がアメリカで開催される国際学会展「ナフサ」に参加",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1TTmJ4LU9NdkJOWXFnMGg3SmU3RWtUZ1lCZmhvT2tsRXZYQUdEZEtIVjQ5cnI1OWRwdXNOV05JM1pqb3BWWGc?oc=5",
+        "date": "2026-05-27T00:07",
+        "source": "وكالة الأنباء السعودية",
+        "category": "その他"
+      },
       {
         "title": "サウジアラビアの犠牲祭用羊3等級の価格が2015年の記録を更新",
         "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxQbVlHOEpPZlVkYnVwdVBoWG9RbXREcnZ2SEN1Yml3ZUdrVlU5UW9TclNLTGFLcEswbHR2c3pXSkM2dTBkbGU3bTNTWXFtaE9pVmUyQjdLX0dGbEdTR3NXd3Y4cmRQcE5qNHBxMG56eU1pdDVlcE5kOVN1ZTNQdjh2NEcyTGpucHdWTUJyVm8wT1J0aVB2Tk5UNUhUVGk3c0lzSWxFcWlOeGdlS2M5bnFwZThWb2R1Y051R0xNMTRJeDJ1VndreGlzVWlWNTdoVTU3WEdwaGRiQkJCV05hM2hleVk1Q3dIUl96c2xYa3l0NVV6NlkzUENtWi0zOTFGZFJQVUZSYnVxRnZIY0pINWRFUXVMMkNfVENGM3U2cEFSQU12NHhaUjgwV1Fid1NIT2ZKTXFEeGtmc2VKd1VUdUtRbEd2TzF2OHZLdnJrbE5oYVZCR25RdkhudkdkUG1wNjlOVlg4clFyeHJ4QnFGNG9ZQ3NKcHh1NHR1Zjk3UXJMczBSUjUxTG10alU3YldrdV9NU1JmQUFZVzJrQnc3Ujh3clhqcUsyUmRrY0hISTZ2b3k5U1ZiVkM1bjQxeEdOZw?oc=5",
@@ -220,61 +269,61 @@
         "date": "2026-05-26T17:03",
         "source": "BBC",
         "category": "社会"
-      },
-      {
-        "title": "サウジアラビア統計庁、今年の巡礼者数は170万人",
-        "url": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxNVl9fMmVldldmM2Z3Q2laQUJCMG5TWEJLNTh0V1hGbWx2cjR0VXMxUXVOLWZGQkRVMG5QNEFna0FJZUFpT3BmQUdSNWxoS2JPa1owNWhYN2czQmZXdHhkWnhQTU5jQnVzQlZ0SDY4N0JZbi0xQ01ISVNVdkp3OWZxOUNjTE96V21nRUQ4OUlxSTRLaDQyNVN6ODZOa2Z5UlB5SDRFdzNodlQybVBLU3FMblNPYl9LaXZyVVZzSjZsZGJ4d1lMNjNkMVU4aVlBUjNreEhjeUM0S1VsbThHZEszeXgwQjJFS21KQjBkdElvM2RNQjktOFJEejhNbFFKQ2J3a3pXYXZOdmdoeFpEQkpKb0NVTmtQOWJNUUIwa1d3NExwMzZ4QkJzSXZxZGtubnZaanVFMWYxcmlZaU5GQlQ2M0xjeFRqWmZubGF3eTNMU3J1dnptWXZqWEFuOXh0aXFkRThnU2lXZ0VRb0ZOU05jT050LTJHZUJody15bWNfVVNPM0xfekVLUGFNeGZQYkQxSTlLNUVnMVFfdEJzVDNtcm9TZDg0ZnExejROVjVQUFVEbnQwOFZjaXdISGczMzVjLUdOb3loMlBveUlHc2JraUVtSUhJVHc?oc=5",
-        "date": "2026-05-26T15:09",
-        "source": "الشرق الأوسط",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア、巡礼者全員がアラファト山への登山完了",
-        "url": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxQVVhrQXhveFpZYmdPV1RnaC1nZkhBd3NGdjFQRmhHMWNGcThObloyU3JGcGE0RG4xS05NcXRtd1ZFWWJ2TDJwb2diSWQ2VVU5Q2RjamRDVmZlbjdWcWt1V1BCeUZxbUJaQjBqQ2ViQXp2VEl5eTFmb2VNV0hsWGdrS01ocTBxQl9yZktvUWlkNjVVZFM0RHNJRzh3ejN6S05SVmpPeEN6MGF3RW5wemlzb2dISEpXeEU4cDBzZ3l3bTdYcUYxMnJDN0hGakJ2TjdBLWpVcmNSdkwwdVNHelpqS1hjaEd0QzJoZThqcnhqdjVGYTlmaldMczlyMU5NYWYtMzRWMVhaNHBlUnB1Ny1mU05sTUNDaElfRk1qblRDN2Z2ZDBNUGJzbVVScndxb1UxNlFRekVwWVh0WERvV1FDaHFmMEd1YnVBdHMxc3loRG9qRUtXbXc3NHFDcnBlUXVXX2RQWHdMajkyZVR5WTlmQ25BcG9aR0plYnhRbnZSd2RuZ1JXUXFzY2J6dl9mdEV0VDJXV3k3ZnFUdGFHdFRfa1hUQjlUUzJpeE10Tjc2Wmowckt0OFJOT0ZFQ1RyRVRSdktqRGhic1BWOFZ4REI5akVRcm91MldwZlIzeg?oc=5",
-        "date": "2026-05-26T11:01",
-        "source": "alghad.tv",
-        "category": "社会"
-      },
-      {
-        "title": "2025年イード・アル=アドハーの礼拝時間 サウジアラビア各地",
-        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE11Q3c2czVBYmlxSDBRSGNfTFQtcFozUmxxZFA4dFdlMVRRQ3hxeUV0LXZ5THdxYUtGa0Q3R0l5OUZISzBoSkNHWk5B0gFXQVVfeXFMTWllVnZRYXIwR3Ixd2o2TE5fempQdXlleGFRNlNBLWo4ZDhqeEpRdDREVjQ5MGVPVzFXeG4zMXczXzhUeGZ2TERkbW1RYmoza0gtM0lEUVVF?oc=5",
-        "date": "2026-05-26T10:24",
-        "source": "صحيفة عاجل",
-        "category": "文化"
-      },
-      {
-        "title": "サウジアラビアの大型プロジェクト、現実の壁に直面　2030年ビジョンの課題",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ydmtESmRpVzVOcWRDbFVfTWxmZ21KdmpEc0dsN2VMUnhkc0tiNmtNdjBpOWQ1aFBkT0dkNlV6Qng0bDZFZ0xmdDFOWFNybUM1V0FwaWNwNUhlY2ta0gFiQVVfeXFMUGtWa2k1TUZKSUpxUEI0Y3hZVURyNFNBVllUSGtKR2ZGUGo4NFlMNXpLc1VTVEY3V2l5dnk1X25lQllLTFMyX3phMm51b2s0b0ZNRjhseF9Mb0hJTjdhNnFVS2c?oc=5",
-        "date": "2026-05-26T04:15",
-        "source": "BBC",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビアの中道的立場が国際的な指導力を強化",
-        "url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxPZ0lDdTk5a1RrWUp4UW5CZ2FXTmVNN0ZnSDdIZWhJMlMtbGwzLUNyUFNsMTduX3BzQ09Ja3VvV3FxTTVIc2ItREFxOHZfcVQyV2ExOXk3Y2pLVG90cVpsSnRLSXNEQllpbDRabzJoMm9FYVBUUTZRMzQwSksxdTREeWJNbllTSWtaeXRvZmRaZDBZR0FDZHBxX2xQQ1FfUE9lYmZZeVNjOEt2bFUxUXdGMGVjZVdLZTVCdnBhZW13X2RxV0RjR2JvQUstODdvWXY5TTBibTVNdnJDQ05neDg2dHV2a0Q2alUwcmpNaUNzd0h3Y1RGcDRwQjd3T1ZzX3A1d2xtYWVXakc5ZnJlenpIRE1EbXpkLUxJckV3QlpPbWM0YklyUC1FSVd2N3h6elVqcjZYMm1NanJLd2pLNjhqRktJeG1WU21uMjk1blM3dmpGU3Yyai1wakd1NGtzQW1sWHRERFRsWmw2cFZTR0UzV19XOWluZjVLQmFkU1F2RXdVbHZLeGlyN2tMdGpoSGtjSUJvaHFaTFNFYzNXM3piMFhSVk8yS1VpOWJNX0F1NUtUM3FpaC1UNUdEeGdxZGxIcEVVczB4ZlhjZlp1bGZZbUM1TURTbHlQczU2U3JRSTk2WGlq0gFWQVVfeXFMTmpWV1JPLXNwXzNwV3dKSEl0OG9sU0w3dUkzRHhEejJ1SzJoX1NORFNPN2NTbHhCUjVOVjVhWjJnY2NET0FySXJybmhBUFdKWDN3NE1lQWc?oc=5",
-        "date": "2026-05-25T22:10",
-        "source": "جريدة المدينة",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア運輸省、巡礼者向けに100以上の運用計画を準備",
-        "url": "https://news.google.com/rss/articles/CBMi3wNBVV95cUxQbkNQd1VzNzVjSG11VVc0NTJEMzR5bmI3cFJscDZkeXZHSzRoMm1JUWEzOTJvTkdxa2lGSzdYQ2RmRmZKSV9TbmV2QnBXQ2hhMDVmcUlQZWx4NGRJUVlIcEJ4NUtSdEZfdDUzdll4UUtjYkREcnpZbW1CaGtfTWNDUzRmaDVrWkd4T19zTzlSVWJmSWxSVHVnbGt6YXNmYjRKcTJ4N3E0NE9nMHlVUzhVSE5HbHl4RDZrYnhMcHlWQy1wRWdnUjdNUFFTYmV6RG5XN3pEQ0RQbmpoa1RGa2c1eU4yZEpPODdsM05tYWRhVFQ4dFpUZVZURUxzVGl3bUdBNl9BUVZ3a2xMUjUza2QyTGxyT1hmVlFtTF9rTXFwSEEtbURzV0R6ZW1Bb0RuWGRVS2hFQzlsa25BRlpqa3pnWWxYNk1jNkg5OUFyVWNyYk9uUHdab1BFWGkwOFl6VlQ5dm11QlJhNFJocjZZODRtV296a3hBX3A5S0FWLUFGMnExVkhUM0xSczJxYlplMnBtTlgtYjBJWl9MbFVEX3RpOVZZZDVDLVJyYVJoTG51WG9TdFBFcERWRk0wWEhKLW92dU85bzJaMFZiZXRQVEhkSlNaOW1rcmVHTy1QbWdVNNIB5ANBVV95cUxQYkl0V2JPbkRxOGJzS255NGNXcUR2NjVKWGNDSlBTaUs5SWNjYnRWbDFrRElvN1g0cWtSTDRpNzJ1MS1OMEJSeTQ0Qm9DUjZROVA3VU9yd3hIODdtQk1ZQUlGNGExM2dTd29DQXhrY3dkWDJJQVpUcTVJcU0wLVowRVBUY3pVWUVQb0tldVJXcEFIMzdqSWl4UGhHSFNzaFRwckthMkQ2MjhMckVPdUVzOVV5Y0N3LWdoay1zNnZ3c21fOEk5NU90RTVwNFdEM2hzX1FLc1poc2xMeG1HWkg4OXN5dXZMUUxxdElHVTJDYjhQSVhxeUozSktxU3l5ZDk0ak8wbVdpR3FuZldOTUxLX2JNcXdFSTQxcUEwWXk5Z1pOZlkzbW5oQlVCRWh0QlBGSV9CWjVDYzhXTHE1ay1pU29zR2RnU2J3NkxHSER3Q0g4QU5wWHZJbzlqc1hRNHljZkNWcVQzZGEtV19oUkhibmJQZkVram0zdlY0RW95b0pDeENUWXlCa0VZT0gwZUFEeHVIcURPTzUtRU1nWFhTSVJfX25rSUpXclNZalBXNFI1TVJkcm5kMlVnZFZNV1Nhd0JBNDB1QzViVEtuSWg2TVpqc1NmMUJvLWw0MjdCZWtUNnZZ?oc=5",
-        "date": "2026-05-25T17:37",
-        "source": "العربية",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビアの巡礼地で、97言語対応のロボットが健康情報を提供",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVS1hRlY0TldXZ2NxdGxpUDhoczYxR0JQdE1pNFRGNTNhTExVUzF6RmUyTnVObzR2VXYzRGJCbGExOUJfMWpUUi1PTGRjNmR4QzZ0MmdiMldSa19GTjZSOUV2R01laWdHY3dRRmdZbTViMVF2VTlFNzZpNnlWY3I2RVdBR0pwcjg30gGTAUFVX3lxTE9wU2hpQnEtdTJNZDg1UktUREJVWHEwU21oZXhMWU81MG56VGlJSm8xUmoxbDRYU1VjWnJDZzUtcDBVelZ2Y1JWWU5OSkNKQnFOelExak5rR1Iyczdob3FadkYtYlJjUzg5SWFHVmpOVXlVS2k4cnZmbmtWOVNYV3liQUIwcHZHS2YteFAxRmFwa19sSQ?oc=5",
-        "date": "2026-05-25T17:11",
-        "source": "CNN Arabic",
-        "category": "社会"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-05-26T21:17:09.510280+03:00",
+    "lastUpdated": "2026-05-27T16:57:25.823334+03:00",
     "items": [
+      {
+        "title": "RedCloudがサウジアラビアでAI合弁事業の運営を開始 執筆 - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mbjFWWE5RR0o1TzhLbndwZHhkdWJlOHZQSlFLN3BITERUbGNHbU8xRmdoRGxGVWNHR2JGMUNFdkQwQ0c0MUFlQmU2WVdyZ2RYNjE4d0NQLVp4WFo3RXRmWlM3VUVXcmV0YWFBMTgycnA?oc=5",
+        "date": "2026-05-27T13:41",
+        "source": "FX | 株式市場 | ファイナンス | 金融ニュース",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、高齢者や障害者の巡礼者に特別サービスを展開",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56UE5rbGJzYWJTWVFiTV9lYzJGUVdONWt2M2JpbndiSDgyY0wzeFpCeUE3WTNTc3BZSzhfcmVIWmtpdjJQNTRIMVdReGpFMHZBeElUV095VkZVRmVKUFhWakZxXzVIbGFsQkxycw?oc=5",
+        "date": "2026-05-27T10:05",
+        "source": "arabnews.jp",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビアがAIを経済成長のエンジンにする計画とは？",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HQWNIODd1bV9jb3RxakVuTEoxUHRFbnFLVFFOTEN1WUljc01vT1kwRklWX0RiMTNicmZBek5FYWxfNE1tQk51ZUh3d2hWZkN5Zmo5V2dJdm5ETVpxNFJaNE0zMk9uZms?oc=5",
+        "date": "2026-05-27T08:05",
+        "source": "arabnews.jp",
+        "category": "経済"
+      },
+      {
+        "title": "農業環境省は、サウジアラビアに対し、ベトナム産エビとナマズの市場開放を検討するよう要請した。",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZGpoYXIwcjUxTjJ2dFlYZnJHb1FKUFNtNDhUN0NNWGFaaC1xcVdmYUVieXpLQ1lmbUhqMFBOQ2g5dTJKNEJfamlyekRQMnRlVldfUnFRRVV3Yi1OMVN4UktXTEtack0wU3pDWnJZZVc4MDRGUFZadGVNeE14dHJnZEVLejNNbWItNHo4MTE1RmZGT0wyT29aUTRNeUlEVzAyVGJqdjZHakMyTjIxTDU0VEIyN3VldlJnWERrSFRhWlllN1NXZzNJXw?oc=5",
+        "date": "2026-05-27T07:39",
+        "source": "Vietnam.vn",
+        "category": "経済"
+      },
+      {
+        "title": "中東でEV販売が拡大、トルコも成長市場に、IEA報告(カタール、アラブ首長国連邦、サウジアラビア、トルコ) | ビジネス短信",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UWWVKcnh4bnR1bnBqZTNLVUtoM3lsZDlJYzhRcGotX0xTMjgzWk1LeWNkM1dIWmpFMXU3Z2xGSUdPbUxIZGVhenRGQXU0eUFIUlNxMGp0Y2RsNVkyTG1IZFkySEFSNk9vcFpPZGhB?oc=5",
+        "date": "2026-05-27T07:15",
+        "source": "jetro.go.jp",
+        "category": "経済"
+      },
+      {
+        "title": "ドナルド·トランプ米大統領とサウジアラビアのムハンマド·ビン·サルマン皇太子。 【AP=聯合ニュース】",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hUmFOLVpxT0phOExHLWxXTFA4R3JyUVV1QUN3dlBQZXEwSEhPaklNZ1RWM3VETTVlNGE0X0tVMW9YRXBCY09nNUpaWXJrd1E?oc=5",
+        "date": "2026-05-27T05:54",
+        "source": "매일경제",
+        "category": "政治"
+      },
+      {
+        "title": "メッカ大巡礼が最高潮に 中東情勢緊迫も前年より多い170万人参加 [米・イスラエルのイラン攻撃 イラン情勢]",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40Q3FER0xHQW1yRnZReUpIeW5ZUGFxVm5NbmhOM3E1cmNOVy11ei1yS3ZhMXFQSXoydnhsaTNLNmF0QUlZU0JLQm9jMHlrRzZBcTlwb1UtejVQQVJiNmIyOGM0U2JRcW8?oc=5",
+        "date": "2026-05-26T18:34",
+        "source": "朝日新聞",
+        "category": "社会"
+      },
       {
         "title": "アル・ナスル、ジャージ販売数で世界トップ10入り",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40MVpwZUYtbzFhU2RnOEdYWUN6MWF2RzBXUDlOQlJqNnBVZjg4bUJhNzdWMENreVVvR1dLRjBvWWlXTTAxaVJnSU5ObVZOak9YRFdLWWFpamRFb3FWQXZXNmlwaEtaZFk?oc=5",
@@ -295,55 +344,6 @@
         "date": "2026-05-26T10:46",
         "source": "福島民友新聞社",
         "category": "社会"
-      },
-      {
-        "title": "カーボベルデ vs サウジアラビア : グループH 第3節 FIFA ワールドカップ™",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQd1lOYWp1OEUwRmNTbzVCSE1Cd0RKNWJwUThKVVRHay14Y0t0LW1mWk05RUJZR1l1dXU5ZU5XYVh1SG94VWQ5Q18taVJCZXdnbmJaNmgwclhOQWJ1cVRZaTM2NkFSUkZLN1huWFdzUTBGTjZxTjVOc0JDQ3dMU2V2aUx4RVlSXzIzOUlaSg?oc=5",
-        "date": "2026-05-25T18:11",
-        "source": "DAZN",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア代表にアクシデント…唯一の海外組アブドゥルハミドが強盗被害で合流遅れる",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3UThwWTdza1k4VmVkMzYtblJUOTBLcjZWRWhlQWlIdzdvX2poejJOT2dnbHp5anpUaVpRLVNGVE9LcEJGNGlNYzRlc1pLMHFGSFVwcXNFUExuUHpwZHdfMkNzdURHYWFhanFnTXNUcw?oc=5",
-        "date": "2026-05-25T13:36",
-        "source": "サッカーキング",
-        "category": "スポーツ"
-      },
-      {
-        "title": "ホルムズ海峡通過の｢出光丸｣ 伊勢湾シーバースに係留中… サウジアラビアから運んだ約200万バレルの原油 海底パイプラインで製油所の石油タンクに",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBlNXFrWkRaMlV0ZzhRVjRmUXoxTlg4a0hfX0FaWGttZV9tV2NMMnBCc1B0WGQydTk5YzQ2Q3JQRGJQbmJKWmRTdDd6ZFk5RkRvcjd4bEdKV0pGb25tWl9JOTVRYVo?oc=5",
-        "date": "2026-05-25T08:22",
-        "source": "TBS NEWS DIG",
-        "category": "経済"
-      },
-      {
-        "title": "トランプ米大統領、対イラン交渉で慎重姿勢、「最終段階」から圧力維持へ",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sdFpvaENPb1p2N0dvSzdJZUtoTzdlWVYtTWZZeHdXU0V6dTB5LWo0Wi1NTFdMWmFycTRILVJONkczbXhjU1BiQnJNRmdSRDhnWWNYTGM3OEp3UW1uYW9JNkphOEJyVmdla1dQX0Z3?oc=5",
-        "date": "2026-05-25T06:22",
-        "source": "jetro.go.jp",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアの電気自動車革命が加速――市場規模は2032年までに536億米ドルを突破する見通し (2026年5月25日掲載)",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1kY0NrMlFxYlpOR0E0TGdpSElib1hvYWw3ZmZ4cS1KTnJxaGlFVmh3QV80QlllX25ZektwQUh0SVBGc1p0VFQ2Z2JhdXdVY01KZW91WTc5VXd3QWRnUDF6cmt3?oc=5",
-        "date": "2026-05-25T03:30",
-        "source": "ライブドアニュース",
-        "category": "経済"
-      },
-      {
-        "title": "｢出光丸｣ 名古屋港に到着 ホルムズ海峡通過の原油タンカー サウジアラビアから約200万バレル運ぶ 中東情勢悪化後“初” 2日ほどかけ愛知･知多市の｢出光興産｣製油所へ",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1zdV9XdWVTZWFUSEFWUmZFSmhHYjVacDJobEh0SWpiX01KamRlR01WdFFDcGV3anVJU0p0ZVk0Y1RDRmZWdVYzSEpwbEgwSlk0UnBUd243NVRwWkd1QlNON00tMnc?oc=5",
-        "date": "2026-05-25T02:20",
-        "source": "TBS NEWS DIG",
-        "category": "経済"
-      },
-      {
-        "title": "伝統の\"扉\"を描く幾何学模様…W杯出場国の新ユニに専門家熱視線 高貴な配色に注目 | フットボールゾーン - (2)",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3RmhySTdkYlJVSjdWQjNNRnpmRTN3VGlDV0k0M014X0RDTXBvX0dmYWp3TkIyX2twYmk2MEZJV2xfbGZoN1JBVXl4VlBtWV9HQkNQMHpBeF9UU2JB?oc=5",
-        "date": "2026-05-24T22:30",
-        "source": "FOOTBALL ZONE",
-        "category": "スポーツ"
       }
     ]
   }
