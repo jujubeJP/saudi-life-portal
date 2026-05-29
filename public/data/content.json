@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-05-28T21:30:27.674439+03:00",
+  "lastCollected": "2026-05-29T16:41:57.210244+03:00",
   "security": {
-    "lastUpdated": "2026-05-28T21:30:27.674439+03:00",
+    "lastUpdated": "2026-05-29T16:41:57.210244+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -38,7 +38,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-05-28T21:30:27.674439+03:00",
+    "lastUpdated": "2026-05-29T16:41:57.210244+03:00",
     "items": [
       {
         "title": "【大使館からのお知らせ】国外転出者向けマイナンバーカードのオンライン申請開始（5月26日～）",
@@ -53,7 +53,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": false
       },
       {
@@ -69,7 +69,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -117,30 +117,58 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100981607.pdf",
         "date": "2026-02-19",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": false
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-05-28T21:30:27.674439+03:00",
+    "lastUpdated": "2026-05-29T16:41:57.210244+03:00",
     "items": [
       {
-        "title": "サウジアラビアのLIVゴルフ撤退、業界再編の始まり",
+        "title": "サウジアラビアの巨大プロジェクト「ザ・ライン」、構想から現実へのギャップ",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcW1ORURueXhEUktJbWRJZUd5eUhTMDBabDNUM0Rnem5wYkE3LWdtWkpySzlZdjd2NjFaZVpIcnljMHVHTzZwTXc1RVM1X2pQRm5ONExnZnpLbnp2cWFuUlVOWEZmb3RQM3JRMTc0bldEMlA0RTl0aWhSRldYb08yUUFR?oc=5",
+        "date": "2026-05-29T10:36",
+        "source": "Fast Company",
+        "category": "経済"
+      },
+      {
+        "title": "地球温暖化により巡礼がより危険に、報告書",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZXQ4UWhldDU1aGxieFJ0dlQ5LWowUFp2WGNyNlRPamc1VTFoS3JYV1ZJdFhhM1RmVlhKXzQzT3Z6ejgxc2hTQTdRMWs2amxnQmdxZmNDdlRIN0hhVGk0SE9wRUM3SzRCNm04bXlCMmh0LUdxdnVPQzY1SWtIbUFBZDhXUlJlbDQ4RTF0a2hxblNLenFzdWJieWxROG1Hd2tjR3ZGclFQWEc5Y2RnRjBYcWtR?oc=5",
+        "date": "2026-05-29T09:25",
+        "source": "The Guardian",
+        "category": "社会"
+      },
+      {
+        "title": "死刑囚として20年、サウジアラビアから帰国 血の代償金により釈放",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOSElJdjU3STNCQVRZRWZHSG16YVl6c3lMTXBiS3BuNnp0dmdnLWpUekZ2ZUNsWm41b0FLdkQxcG5hWnEwdlFWLTU1b1RiZzdoeFI2OFlKV1ZmckVxYk54bEFuYjJodXl5blZPSGw1OHF1NG5ORXgwU096b3NmRm5yXzRsd19ERkFxY2RTUjNodXl0Q3o4RXlPNmdaMGQxR0NiTUxkb1NDZFhNMlZQcDFNOXJKSHBYQXB6cVQyX3pLNGFXU2l2Z1YxNkNZY2F1SWw4cHcxR0E3ZUdMVGxDbEw0SDZnbHljMkx4WG4yQThQdGN1bzBfVFFvX2Rrbw?oc=5",
+        "date": "2026-05-29T07:13",
+        "source": "India Today",
+        "category": "社会"
+      },
+      {
+        "title": "需要減退を受けサウジアラビア、7月のアジア向け石油価格を引き下げへ",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOVRpNGJnczdUQm9CTDF0QUlvTnZXbkFNc1Fjdnl2RUlxNjZGNzhPYmlGeDU4cmF1SWdJekM0M2tUbmVoUVBUOTc3ZEIzTi1pU0EzcldzZmRxQlpaaXEybXVWcHJ5eGp5b0paa2IyYXMyUDZsU0w0RGVfMWltdFBGV05CQVh1bExCMTh6VmVKNDV3dFQ5a2g5ZkVXcVF3a1M3SmVYVmUtRVppRjNGOWVJ?oc=5",
+        "date": "2026-05-29T02:52",
+        "source": "Reuters",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアのLIVゴルフ撤退、業界再編の幕開け",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOUNYS1pvTlRZM1M3RFdVVzFfUE0wa3pkV0k4VWstcDJoTDhod1llM25oeVB0Vi1NZnRHQktHMjBCa2xlTWtoOTlFTnhqTHlYRURCeENGeWljSXR5cTlnSHljbG1EdEpWUVR3dE1PLXZjR3pxNUVfRUNPdkFsVVRPcFVISmRCOGZERUxV?oc=5",
         "date": "2026-05-28T14:52",
         "source": "NPR",
         "category": "スポーツ"
       },
       {
-        "title": "イエメン前大統領ハディ氏、サウジアラビアで死亡",
+        "title": "イエメン前大統領ハディ氏がサウジアラビアで死去",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOemxKbFUtZzlqTEVfQ2pGNDhHeUFORDZVejVGTkJIbmp3ZXgwbWxtRTJMYlZUSm5IRnJ0OWhKNWExYTZfZ1BoTTdoM0xvNkZXcW9memxiLXk2djNYUjVXcXNNd0M4TkNPUzhlMmU1ZFlMMHZRMnR6SHkwQ0U3MEQyVkJJd3gxS08tTm9nNlI3X3g4RnRxQWo3cTB1azJoRU1BSkxJNXNB?oc=5",
         "date": "2026-05-28T09:59",
         "source": "The Times of Israel",
-        "category": "政治"
+        "category": "その他"
       },
       {
-        "title": "生活苦からカート密輸に走るイエメン人、サウジアラビアへの危険な越境",
+        "title": "生活困窮、イエメン人が危険を冒してサウジアラビアへの覚醒剤密輸に従事",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNamJta2xsckcxX0NhcDdLaUxXRXVZbUtqbHB2ZzVwWEVYa0dfT0Fkd1JOakJoTHAyTE12QWItVnJuaVZjQXNqX21YajFJYXdnVWcwWGxFX3dEZVZjNl9hQ2dBeVVmaDdxX3VGRDFuLUxHdEN2RWU3dTkwY0c1UjVTbzM3azhFT19oWWdURUl2UDY2aXFaVk9xMnpMR0pWMUE2?oc=5",
         "date": "2026-05-28T08:18",
         "source": "Middle East Eye",
@@ -154,11 +182,11 @@
         "category": "社会"
       },
       {
-        "title": "サウジアラビアで発見された1200年前の金製品 中世の巡礼者が埋蔵した可能性",
+        "title": "サウジアラビアで発見された1200年前の金製品、中世の巡礼者が埋蔵した可能性",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOT1ZOM3JBTG5pS1RXcmdaUUNNLUJyR1cxaUh1NWJtQmJNSFVEaU5YXzRDb2sxNDk5REhtWmhvRzFEVlFtUC1SYTkzSVlVU1FEVW9yRV9fT0ZDVUhtRUd0aVlidWNycmItTWQ2S1FPSlN4aVZ0Q1hoV3Z5VW45TWVjWWlYR0dOQQ?oc=5",
         "date": "2026-05-27T20:56",
         "source": "Yahoo",
-        "category": "社会"
+        "category": "文化"
       },
       {
         "title": "サウジアラビアとカタール、アブラハム合意への参加に慎重姿勢",
@@ -166,46 +194,60 @@
         "date": "2026-05-27T12:50",
         "source": "Haaretz",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビア：150万人以上の巡礼者がミナで投石儀式を実行",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTlJvOWQ5WngxX3pMYWZLRjQ5LXdsOFVmbXR0S3lyY0VObk8zWU9rUVVvc1I4blIxUjBuT2V2TFZkU2QzajM2bXpmVldCWFAwYVZxTlozNGNlZjRtSm5vU0trc3N5YXhxLWFFRm1oQWZ3NWFvQXM1MkF3OVNIOEV1b29aSnRWaHJ2U2pnb29RQ0NvWVNzWlJLUU5hZFozWlBLY2hTd2ctVGJRZ2dpREM1c2lZdGVMQQ?oc=5",
-        "date": "2026-05-27T10:46",
-        "source": "Euronews.com",
-        "category": "文化"
-      },
-      {
-        "title": "サウジアラビア、巡礼シーズンに最新防空システムを展開",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd1l2VThBLURHT1pNeTdlS3RKRk16dkNYdm5KSWwtQkI5a3pDaWhuZzlaLWJlQzdaRUphN0JhNDlDa0Ftbnp2U2piTFVOdXFIOFhNRDJpUDZEb0g4OUZuMHRtLXZ1cEFsWlNJMG9ZZTdUYVFZSWwtX3dUOXVUQWdoVnlpVDQ4NzEyUlY3VUNDUlZRQ3E4YTh2UmdBSDB3VkVaVEVrSmlhay04WngwbW4xMnBLaC1CcUpjTUY1NFpITlhCLXM?oc=5",
-        "date": "2026-05-27T05:18",
-        "source": "i24NEWS",
-        "category": "政治"
-      },
-      {
-        "title": "速報 イラン情勢、湾岸地域の市場安定化メカニズムに打撃",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMlhfMkVFQXlOMjFCcGx0RXdUSEZpc2NrTkxWRTF6cnBrQlpYWFlqTFFvcHROdFhFZkl6UTZjVUttaWFQRVZUN3JSV0xJakJCVXRBLTRsQlYyNmczbU9HNWJGYVRUbHhFWjZ4YzFXdWhNbXdhWEt5LU14NmtYUVUybHp1dFFGSm9JRjl1M2FYM2pyYXVxNzhJ?oc=5",
-        "date": "2026-05-27T05:00",
-        "source": "Reuters",
-        "category": "経済"
-      },
-      {
-        "title": "戦闘下のイラン、数千人がサウジアラビアへ巡礼に向かう",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE4YTdaSld4SkxZd2tCb3U2Qm9NbHRIdk9wMVl4RmZ1MHdBZ2h5RTA4QzJnbUFIZ3hLSXlDOC1vU0VUYUx1RVFpemFBaWhsSWtyWVIxa0NJWTZ0amFmcENwQTU2bG1PUHdLRldvN2pLWXRDR0N3bXpKeHNEbl9XdUJhanU?oc=5",
-        "date": "2026-05-27T04:01",
-        "source": "Financial Times",
-        "category": "社会"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-05-28T21:30:27.674439+03:00",
+    "lastUpdated": "2026-05-29T16:41:57.210244+03:00",
     "items": [
+      {
+        "title": "サウジアラビア、巡礼シーズンの成功を発表",
+        "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxOdDhXVmN3dnZ3RGpiSG5kMWdvVjdHc19zWElGTmJDOUNrRnUzNVVaR0xkVExyclZ5amhHbFVjSy1WUFFzZDZhSzRWanJuNWJRM1lfcFRITkE1bzkyQ1hKdGxIU2hGZkZiYnNQOHlOelV1anRGd1RFdDc5MHJXZS1uYm5MNmlBODhuU0JQQjZOUERXSDlGRTNNNnNVUndINzl1ZWxnUEFYSEdOYUxfcTNEc2k4THNvUzdVazcxY2ZjRmVFVFZvNUtlU2VmREhfUG4td01uQlhsejNhOENuUEE1elhrWTRkZ3BGT19qUEtXWkE2UVhqdWJsRWJZejNzeDdGRzZjT01VcnkzSkpvR01hSEI1bzROZldyRlF6Z1ZJeTNrRU9JTFVlUGdKMzJGYnE1aFM4dkZvZVhZZVRwSlI4SHVYdjczQXZ5Y3A4QWpNbXI0YW5SN2dlRjVGUVRBWHRxSmF0Q1JVOVpLUXA2dXNISk5VdmxmOTdRX2tPWE1VOTVEMC16UXkyRkRqTlZuNDBUUjYwYUpsQzd1UQ?oc=5",
+        "date": "2026-05-29T12:43",
+        "source": "الشرق الأوسط",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア：香水販売員が勤務先の店舗を破壊、その理由とは",
+        "url": "https://news.google.com/rss/articles/CBMihARBVV95cUxNUFpuWl9WSDJtbEdQeW5saDBoUmJfZmVqV0IwR0ZuMlZHbEphemhiQXhMaGFDTGtFd2c1OWFmOGJyOFYzWTZoUkkxMkdVM21xdm9aS19HQk9WY1ZiTkpSc2VJbkNNWG5VV0lYTjA0WGxiUlhaUzNxOTZ6WGI2S0xVUndScUM2a2tVcmd0YkI2YWlPQmM0eWxNSUl2Mi11OTVjd21QVU5wWXJMM2tiZ0dXQklNWWotN0ltcy1vRVFJdlBfYk9UemdPU0JwY0g4dXRGMS1ObGRnQi1STjZYRVZ1UWI4ODhydDBmcG1RaWJPMW4yNzhvejd3MVlEekNPanhCX2ZGVHpxU1pNNEY1VlZJZDl6SVBrSnpONmtrNFljU213aHg4aDhkeTNYcE5KMEJLN2dmSGRmcDd0a2dSa256b183V0ExbFRsLTNiSFZLLUNYMmJsMGZ0eWJLZjhxX1VHMTV6UHNYQWc0UmdxZ0tCdXpyaFRFUzVzT0RxRkpvMWw2c2tubXRLZ0NuVDBTdXM0NmxTbkw3MzNSb0gyeTBrSHpwNXNqbDRMYTk3dlhLSEd6a0tsQXRkT3VVTDZueEFycVdQZDVhZkYyRTZ2bUJETl80d0JhMWpKTXI2eTJtc1VMc3Y1SWdiRG9FNVdaQVR0bUMtY3FVOHZXUF9RNlBsNUFaSTY?oc=5",
+        "date": "2026-05-29T12:12",
+        "source": "France 24",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビアでロシア人巡礼者4人が死亡",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQUm5Gd3RuMWFjajllNzNoVV9FZDF5NU4zTWZrZlFTWk11Yk9XdmRsajJYdE9jaDlRd1lsOEhVaXpBWEVZRlpMaDFaVmhiRE5ObGp2ejJMdGx1a3FUSDNVNU9BR2lHeFdTcVNaX3FaVEZBQTNtcWpLcHhOSFRISVd3eUpGcmhiZkVEX2dkSDJpdkZLSnpCT0JYVkZaTVFCdHVUTndCUkNndEY1V3M2WEE4M214Q2gza2p4Wi1KaVd1S0NOMmM2M2IyMlBjY1pVckFsRUkwQmM4aGRURlN2QVNNS2NVSkNWSnVZRW41SUE4aw?oc=5",
+        "date": "2026-05-29T11:31",
+        "source": "عين ليبيا",
+        "category": "社会"
+      },
+      {
+        "title": "巡礼シーズン、サウジアラビア内務省の女性職員が安全と人道支援で活躍",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9TM3J5NXV2ZWItYmh5cEFEd1ZmdEtEclZNaFVDSmcydE9CU1RrbERVVjRJRTExS2tOQUh2cHRVdnV2SWtlT3c?oc=5",
+        "date": "2026-05-28T23:34",
+        "source": "وكالة الأنباء السعودية",
+        "category": "社会"
+      },
+      {
+        "title": "EU高官、サウジアラビアとの連帯を表明",
+        "url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxOQWpTSEltaU9aYlRhUkpZREN4TGQyeFNSNXNTU01vTWpZTENHdWJCdUpPRU9iOHhxT2FhZkpLcXdNdHNIRHVVMWZTZ21rNEVRejVRRVdPdlZqTHAyZ1ZmZWRaaU52emdsMjZhWGdldnhqbmxRMHBEOUlCT3FNWmlQOS1tNDNmMVVpaW9zSFNqS3VCRzFMVFRldnJfbGJ5ZEdHUzVPSnE4ZGZGZUZFWGM0djdoVjU3T2JrWG1NNU9yelZUbWxTZ3FvVUhsOGZHdEtOclR3QmxmcTBTOG1oZlVsTHFGSTdOYzhEeWVWTzY0a1NYMDF1Q09Ca2lQZGVaalRSYVVqNXFyUkhzOGlRR2Q1QlU5M29zWTRSVGMtcnFsTHJoTXN6Yk5sODVfdTdGNDFFTlhkLW5VZ0lYUlJsZUl1Q2w0aklBOTNiLU51aE5Zb1lwUkk1WlZnRU93ZnlVVHZVN09KUVhrVzhxamtKYllQcFFqanFvTE5rZzdIM3ZDOS11S3dkNDBFN1VydHN3NC03dkdQX1o5Zkt3amNPNEFyOW13V2NZRlpsRl8zQmk0eEhXS2p0d2NobDVOZmZMWHIxUmlDUGZTbXREUnBVM2NjRjNYcTg0Qm5RdnFwUldaSWVGMTgy?oc=5",
+        "date": "2026-05-28T15:20",
+        "source": "الشرق للأخبار",
+        "category": "政治"
+      },
       {
         "title": "ロウロウ、サウジアラビアで小型店舗「スウィフト」を展開",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1jSGQwLTVObVlCREJYVGNHYWcwMmxDUWFzcVFTaVBoWFdVdjhwSUNiaEM4ZFdaZElsS055Qy1BUDk4MURDX0MzNjRkWkVDUW1nckdncm5mRWLSAVRBVV95cUxQQmg3V0puanRseVVaY01Pdjg2RjFiSkJMZVpwTS1YX0FyaVlETzdzTk1ob2FISm1kV2EzdnZwWlQ0b3VjeXdaU2hobWFVYzlGYnRsT2g?oc=5",
         "date": "2026-05-28T14:46",
         "source": "عكاظ",
         "category": "経済"
+      },
+      {
+        "title": "イエメン副大統領、電力部門への サウジアラビアの緊急支援を評価",
+        "url": "https://news.google.com/rss/articles/CBMilwRBVV95cUxPVWJteXB1UFR2NWRhclRKbVF4SUZManB4M1A0ODNxT2pHeTZ5YUFmTmxaT2ZVdE8wSGV2RHcxQnlPU0lHUEN3V0habGNIcmJRYWJXQUVNN3hjUzR1b0FtT0RITmI2a3A3LUtkVkYxVDRvYVhMTXY5b2p1NlJrZ25udm9wb2hicUJTcFVVR2Z3c0pfOUVvVVBrTXp1c0FXTDZ0OTJRUUlTTzhqT082VXZSX1pFMXlPUURZME1UbGpaXzhuRXFkOTFlaFF0QktvWl9LVTRyWUM0d0RTRWI4RFBmRTBTelI5d3NiM2Y5Y0NkQ08wVlg0M3NjSk5ZNXlkMXZBSXg3Q3h0Y19Lc2RnSXpadXdIXzhQX2JaN0QyaVdHaDhtMmF2WE9NQ3Y3MVJneUl0T2FhM1J1cHUyT0hfdWZfNEZZUjFLeS1GV2V6Y2pmeWo0S2o3QTBYRXMzWjVHVGQzRDE3UTBCaVdBa213dGpqdkh5Qm5jekdmUFR6aWx3YVY3YXIwRFhWcXFQR08ycWwwU1BObkl6cTFFT0hFSnNUcWloa2FBc0Ixd2hhNnM4RmdtZHZ3bWxtQ0QxZVJUaXY0RFNEeGp3WFZPeVJlQ2dFMS1ockExbmVhZjZLWGZpMVE5SFZlZlltOUxUTjdhQnhhcmlzRDUwQkZOVzU1ZGNhdk8xZ2JxT1pLR1VvaHpTQUNNVWEwWmtj0gHHA0FVX3lxTE9LTjdsYXkzTHg2VnNzQlRYNDhxNXc0Qzg0S2JoTUswckl4dHNLT1B1NmZMMXBhcUxJakJQUzBINDg2bm1CMDJyLXJwQ2IySF9FY3lEamVJOThXNXZwQmc2d2FtbGl4NEI3U1U0cmRrblBRSkZmdE1nWG1ac01IMFBHc2xaV19yYWFKd1hpY3J1cTg0MkhxUWlCMmJrLWtpQ1hjaF82eExSZlNHOHQ2cmxmbW5WWDBnSmdLZC1lcHJwTm5zNGRRbGdNUDFkOE51LXRsanFpTG5zR0gtVkVBZXNIbWp5S0JLYzdNbW1DazUxWl9rRUxqQ29LNEU4SHVHVVQ4QkxFaUZiWU40S1E1bG96TE80SjVmQ1IzYkpJeC1QNHdaSTVBTXhqdVhQRWpjVUN6NGZucUg2NTItS1FwYXFMc0pMbTRDcVVDTTAxVS1vTTZQdjlabzZ5OFlGdUhGLTdqVmgyQnFRMlpHeFZ4cmdTX1JRQmlxRDRqYlJ5UlUtdEZrUU9nWW1rMy10OUZkMTBJa1dPaFhxb29DajNMSmZrNk42cnR3UlFKTF9xUjVnLXFhLUcwblgtQWhudXZ5YXR1d0pYLWVV?oc=5",
+        "date": "2026-05-28T13:16",
+        "source": "العربية",
+        "category": "政治"
       },
       {
         "title": "U-23アジアカップの組み合わせ決定 サウジアラビアはカタール、オマーン、香港と同組",
@@ -227,54 +269,40 @@
         "date": "2026-05-28T12:07",
         "source": "العربية",
         "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア、クウェートへの敵対的な攻撃を非難",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBPa0NubXB3aWZSS2JVeWo3SHZ2Y2Nab3NmSWtMUVdpeGtCOHU4N1R0eERpM3lvRWt1bG9SSko1c3VKQUw1UmNHemk4anQ3RkNHdXfSAVRBVV95cUxOSzN5YXkxVjh3cUR2TGI4WWpSeloxajdPQXNoTUtQZGJjWmpnX1daMzc2dnVfSVV2OUdkWV9WejlSdEVvRjF3bkc1VDhOb1ZybVNiMC0?oc=5",
-        "date": "2026-05-28T11:26",
-        "source": "عكاظ",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア国王皇太子、イエメン前大統領ハーディ氏の死去を悼む",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5XdzhNOTRWUVlXYlg4M0tTcldlM1B5SDIydHJkNzFMaTVBQjdaVW1CSEREVG9PQnFSUS1rZ25Jalp0blhzdWc?oc=5",
-        "date": "2026-05-28T11:22",
-        "source": "وكالة الأنباء السعودية",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、クウェート襲撃事件を非難",
-        "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQMHJaemdYQ1kwYjZGaHd4TS04czJfTi1sYkhXTzF2TkZoUkRJcW5IQzN2cFJqZE5MVDFWUXRKZG1tV193YWtxMGZPQ0FzY2VDUnVMbTlEUEo3NUp3NVg1MWxlcjhxalVyWFVDSDVEaDFvMUJVN0cwSjhFcnFGLXAyWmV3OElmbGRhXzR0N3VMd1dSQnpFMzUyd0REeWJFbjJDdmhZSGlYTkJ2cE1hMTlMdE1DOVAwNko4M1hFanROZHFUbmpMazBuRDJXZGxOeGZvUVFyVVA4Q0libUtvOEg2T2hOV0s3ckgtSTExRTAtcHVtVF9pSVh4djdybWdLcGNhT0lRR19lOHAzQmM2Rk9aTEVHaUlXdXhoZVBidWxiajRKQ1BIcXRSbGdXRGVFQUwzQkk5dDRSTllCSVZhZWRjYTdSUHE4cV9QOUJ4QVlla0FBYlVvNmpvWW5VckJBZkVhbW5IcHJLSFNDQ3JGd0ZMSmlrZnRweGx3ZGpjeDdKOHZ2RkZRdmfSAYsDQVVfeXFMTTZmTmZzamNYa1dTd0Q3RFJvTEpmNGhLUmZrb1dYZnJJbENXXzNnek9HMmlBZGk3amlEcmcxVmxxUFVNTVpfc3F4QzNBX2VEeVdka0hyVTVaOUk5cHoxQzFNSXliTDFhUzdBa0w5cmlWWWhPVVllb1N2b0pWRkJCckR5STNLWWRveGdzeG5XQlg1Ty1uZ3hVSVFOQ09SM3gweEdBejA1RVp2RVVXZUFmV0pBNDBLMXljSTdTRGV5aXhYblR0b0FXNmE2S09wa01maFZ4a0czSnE1V0s4YjBfOHdQTVNsZjNTaEZrMWxWaDBpUTNGbE5vcVNhcWRuQlE5TW9SR1hqVzg0Z2FiQUVXUHhEcG5LWU1xaXdld2QzX0xpYjI2LXBQbThyLUp1WnhHUXpvR1BxVEVkYVZuenZMUV9aZjFwSlFPUkwzdVZDZXQzSG1uZklyV0M1OHlCRlo3N0lEMkZvR2llZEk2N0MydmdaVFVNX3F1S1hURXE1aHIzSTk5QVVsWUN6UUk?oc=5",
-        "date": "2026-05-28T11:01",
-        "source": "العربية",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、イエメンへの燃料援助150億ドルを発表",
-        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOM0RVY2Vjak1zWWoxTzBSRW9lQVRPTnUzYm15VUJTM3ZFU19jQUx6QXAwa1pvTTVWbFlkb3pzNTVobnZLb3U4VUFSMG02WkNNNFJfbWQ0WVI0MGdoS3NTUXRjMW9iLUlxTUdfcTdOeGt5cEJJVnBLUUFJZERlSEc5Z0J5bTZoaFN0SVNVeXlTMUlrMXVZdVN4V01sNmxiQXlyeGxJdkVSUHVzNWp3Y0FKeHc3TlNFRXkwQWM2SndoUTNoOGFtNUZyc0l6RkpLMndJYVdiOU5CS3RHY1dIdURjZFpvME44WEVkcVJTZ1U1U1VkbzQwd0M4bmVHekEwTnNVR3RvcHh30gGLAkFVX3lxTE5mUTdEU1p4ajN2UjdhZi0yYVplNFhYbjZBYWtyVWVJaFItQ1VxcF84eUtIRlJnWnpEdFo5Wm0zZS1lcXJYeXhLYmVGWmd3T3FRVVJ0VFNseHBReXZhakprRmtnMVZSc3F1ODl6c3NiVG50V2JYTnU3NE5ZMWpRRGlVNzM1ZFhpNWJRU0dPd2VMWTB6c3lTSzF1MDRjOU1ROXRfXzMwaFl6NEhhMDVkNkVVOTdVakpnc0xZWG52Q3oySHl0SERNMGRZb0hMMjdVNm82b3dFWkM5M1h0azRldFBnNVQ4TC1KWGNFQWg3NWMzNUd6YTFHUElMTUxNVnp5cUpocGpfWmwwN0tzMA?oc=5",
-        "date": "2026-05-28T08:47",
-        "source": "الجزيرة نت",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア 皇太子ムハンマド・ビン・サルマンが詩の朗読で祝日を祝う",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbmxCOFRvbVhyb3pwVFhKRU01cjVLSGd5WEp4ZVgzT1UtQW56WlNPdnRZMFgyRi05MmhqcDIxZU53dkdEenBZd2dEaEQzSnpKenI3UE9fc3ZwM0VzRmtLREFrVm5rVnEtdmQ5a2VSLVFZelZyOWZkSWtibjlzb21vZ1FVZWZEdjFTeHg3Zm82N040Nlc2MG5WSFRBSEVEUzN6c0x2MGZ1UGVmbl9oVzhv0gG6AUFVX3lxTE1aWGI2QlYxOXBUNE9pVXdGeXdEM2lVckRMa21uaG04MzB5QXNzdnZTQ2VpeFFYcW5rcVYwb3M2bmxSaGdxSlpQTjNBZlQ2NzdFalNOY3dYb0V1cVdjZVltN1ZxbEhBS09QZm9kTDJBNEZZdjlEYWtLTE8xUTVxNjVBOVFzSWJLdjhuZ2FRR2U0WE9pR3RUbV9MNTVBQUtabDNGcUMxM0hNcTd4RmJmT1l5bHBPY0VfUWM1Zw?oc=5",
-        "date": "2026-05-28T04:30",
-        "source": "CNN Arabic",
-        "category": "文化"
-      },
-      {
-        "title": "映画『ドジャース』、中東映画館で公開",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2V20tUGpwTkxUMzRzWTZscmMtOUp3NmNjdVdYeXdiWXYzNE5xTmR0NVVPVGJzWUQ5Z0Y4VlllRjZBdnRVU1lFYkVsRHpyVkJCaHoyWDVn?oc=5",
-        "date": "2026-05-27T19:36",
-        "source": "عكاظ",
-        "category": "文化"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-05-28T21:30:27.674439+03:00",
+    "lastUpdated": "2026-05-29T16:41:57.210244+03:00",
     "items": [
+      {
+        "title": "サウジアラビア、巡礼者のための医療・ 人道支援を強化",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9xN3hZY0oyWllSY1FkVF9oQlJHTU4wSFhlcXluVGJkaGtYeDczVk5PNkVodno5c2dseUlaSllDeFBkYjl1TWc?oc=5",
+        "date": "2026-05-29T04:05",
+        "source": "VOI.id",
+        "category": "社会"
+      },
+      {
+        "title": "【ライスカブサ】カウンターのみの狭小店で食べるサウジアラビア料理のプレートが驚きの美味しさだった：パリッコ『今週のハマりめし』第240回（週プレNEWS）",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLVh1ZXN3TjFObm5mdHVVNWRtQ29kNjdVUnBGcWlqU2dOQm9JeUFaU2t3cTlmanQzYkFBM19kQ04yRm5QZTh2aVhUdTdDdXlWa25maGJEV056dnhwRkxBR05PNHk4S0tyckVxZUdPX09ZeXZfVlJtX254SU9kcF9hUUF3bTM3RVEx?oc=5",
+        "date": "2026-05-29T02:44",
+        "source": "Yahoo!ニュース",
+        "category": "文化"
+      },
+      {
+        "title": "【ライスカブサ】カウンターのみの狭小店で食べるサウジアラビア料理のプレートが驚きの美味しさだった：パリッコ『今週のハマりめし』第240回 (2026年5月29日掲載)",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA0bWpmLXU0cUJyOVFOc1hjblFjZGJCTVFOcC1GaW82NGJiTTFkZmhzX2lmNTY0TWNfVzc1bzdfWC1nZzlHSy1mV1RwOFgzWGtRRUFvaU5RX21INkdRbWc?oc=5",
+        "date": "2026-05-29T02:40",
+        "source": "ライブドアニュース",
+        "category": "文化"
+      },
+      {
+        "title": "サウジアラビアが持続可能性競争を牽引、中東地域のEV販売が40％急増",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hY2xEb3V4Uy1WQ3g3cWpFQkhjSXBZY09kTHRTWkRpc0FpRlJ5cnpVbHQycDAtS09sQjZrbXZhaWZfQWhhTnhjd3UwUGY2endzWXA3WERoR0tEYW9BQXJ0Ri1PV1pPRHM?oc=5",
+        "date": "2026-05-29T01:05",
+        "source": "arabnews.jp",
+        "category": "経済"
+      },
       {
         "title": "1200年前の「隠し財宝」をサウジアラビアで発見ーー中世の巡礼者が埋めたものか",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iVm9kTm5jTkRNY0FPelltTEZGTllYSTFJZ29EWFRYVEFIS3JEVTExUHBTU3Bwc1JLNmZFc3Vja0I0OUNPY1JlMWFtYjRmMFQxLXUtU0ZGWXp6TFk?oc=5",
@@ -316,34 +344,6 @@
         "date": "2026-05-27T10:05",
         "source": "arabnews.jp",
         "category": "社会"
-      },
-      {
-        "title": "サウジアラビアがAIを経済成長のエンジンにする計画とは？",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HQWNIODd1bV9jb3RxakVuTEoxUHRFbnFLVFFOTEN1WUljc01vT1kwRklWX0RiMTNicmZBek5FYWxfNE1tQk51ZUh3d2hWZkN5Zmo5V2dJdm5ETVpxNFJaNE0zMk9uZms?oc=5",
-        "date": "2026-05-27T08:05",
-        "source": "arabnews.jp",
-        "category": "経済"
-      },
-      {
-        "title": "農業環境省は、サウジアラビアに対し、ベトナム産エビとナマズの市場開放を検討するよう要請した。",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZGpoYXIwcjUxTjJ2dFlYZnJHb1FKUFNtNDhUN0NNWGFaaC1xcVdmYUVieXpLQ1lmbUhqMFBOQ2g5dTJKNEJfamlyekRQMnRlVldfUnFRRVV3Yi1OMVN4UktXTEtack0wU3pDWnJZZVc4MDRGUFZadGVNeE14dHJnZEVLejNNbWItNHo4MTE1RmZGT0wyT29aUTRNeUlEVzAyVGJqdjZHakMyTjIxTDU0VEIyN3VldlJnWERrSFRhWlllN1NXZzNJXw?oc=5",
-        "date": "2026-05-27T07:39",
-        "source": "Vietnam.vn",
-        "category": "経済"
-      },
-      {
-        "title": "中東でEV販売が拡大、トルコも成長市場に、IEA報告(カタール、アラブ首長国連邦、サウジアラビア、トルコ) | ビジネス短信",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UWWVKcnh4bnR1bnBqZTNLVUtoM3lsZDlJYzhRcGotX0xTMjgzWk1LeWNkM1dIWmpFMXU3Z2xGSUdPbUxIZGVhenRGQXU0eUFIUlNxMGp0Y2RsNVkyTG1IZFkySEFSNk9vcFpPZGhB?oc=5",
-        "date": "2026-05-27T07:15",
-        "source": "jetro.go.jp",
-        "category": "経済"
-      },
-      {
-        "title": "ドナルド·トランプ米大統領とサウジアラビアのムハンマド·ビン·サルマン皇太子。 【AP=聯合ニュース】",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hUmFOLVpxT0phOExHLWxXTFA4R3JyUVV1QUN3dlBQZXEwSEhPaklNZ1RWM3VETTVlNGE0X0tVMW9YRXBCY09nNUpaWXJrd1E?oc=5",
-        "date": "2026-05-27T05:54",
-        "source": "매일경제",
-        "category": "政治"
       }
     ]
   }
