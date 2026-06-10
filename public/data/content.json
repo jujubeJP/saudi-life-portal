@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-06-10T16:54:02.042540+03:00",
+  "lastCollected": "2026-06-10T21:24:31.850109+03:00",
   "security": {
-    "lastUpdated": "2026-06-10T16:54:02.042540+03:00",
+    "lastUpdated": "2026-06-10T21:24:31.850109+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -38,7 +38,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-06-10T16:54:02.042540+03:00",
+    "lastUpdated": "2026-06-10T21:24:31.850109+03:00",
     "items": [
       {
         "title": "イラン情勢の緊迫化に伴う注意喚起について",
@@ -53,7 +53,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101033581.pdf",
         "date": "2026-05-25",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "社会",
         "is_safety": false
       },
       {
@@ -77,7 +77,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -109,7 +109,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100987261.pdf",
         "date": "2026-03-03",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -123,8 +123,29 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-06-10T16:54:02.042540+03:00",
+    "lastUpdated": "2026-06-10T21:24:31.850109+03:00",
     "items": [
+      {
+        "title": "マクロン仏大統領、エジプト、サウジアラビア、カタール、UAEの指導者をG7に招待へ",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWnZMQXBUMGxQcXV0VkM0YnB5M3BYd3Zwbk5zNERLTWVjb2ZkQlJ0YW1KdlVFQU1nVWppdExRcFlOSjd4Y1I2TXZ5a2h6SXJ0bjJRcXpPc0E4M1gtUll3VjVwRnZHVXJTelcxYUYyUXBZX3NvY2ZOMURzS3lGQm5WUExGcHBGUHp0cDJJRjBXekx6U2ZuOGxkU1FaZXVxOFZfbjBZbEc4cV9RZnlkMDVKX3dNQ0pKQQ?oc=5",
+        "date": "2026-06-10T17:47",
+        "source": "The Times of Israel",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、イランによるヨルダン・バーレーン・クウェート攻撃を非難",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBudnJIMDdXSEViSGUxV3l5UEVGQ1B5d0hhakF6bzFQaUYwbE91OGFNUDJaNkRZcUJJZV9zb2R5ZFo3SVpzZWpoTTRia3RlT1M5aTRyRkllSDVleGVvLUE?oc=5",
+        "date": "2026-06-10T15:25",
+        "source": "Arab News",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア支援のリヤド航空が初便就航、イラン情勢緊迫の中",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVEI5Z0FNVmwtY2JnQ29OYWY0ai1hNDU1ZjBZdUcybC1rQWpQZkZkZ01ka0t2U1Fibi1SUlhTWUx2QnBVdjRPWUZzb0owM2lLRUJhbG42WW5Oa05tU0VhZDlrZWxVMF9WNWozSkFGbnpFczFiR1ZQa3ZUS29VeTNXQ2pJME1OeXdUcWRzaHJwY0hZdGZMZDJpR1BPaVpNb0FteUx3bl82Q0dOSk14ZlZKLVF5b0pMSUpT?oc=5",
+        "date": "2026-06-10T15:24",
+        "source": "Reuters",
+        "category": "経済"
+      },
       {
         "title": "パキスタンの給与前払いサービス「ABHI」、サウジアラビアの技術プラットフォームと提携",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XMXFxeUluTUZCdTVYT2dkUWdhOFJNbVp5NGVVSlQtZnlIQ0NzSkQwamRaTGtoTW5PbVRmRmY2MjdjZExxdFJRR2hnTTVoRldhZ0t0S3h0N1hJQQ?oc=5",
@@ -154,7 +175,7 @@
         "category": "経済"
       },
       {
-        "title": "中東で大規模な欠航・遅延 カタール、UAE、サウジアラビア、イラクで20便が欠航、185便が遅延 最新情報",
+        "title": "中東全域で航空便運航停止　カタール、アラブ首長国連邦、サウジアラビア、イラクで計20便を欠航、185便を遅延　最新情報",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lXzlEX1JTaENHSFZtZFRrbnZfNnhOZlpNRTFNWEl6R1hsLVFfQWtDWjh0S0J1XzVReFFlS0I5SzRwbU5DUHJMWGpVOFczTXlaQmpiNUxIZ1RKRXBXajg4MUVVdnFJTWRLSENaTUhB?oc=5",
         "date": "2026-06-10T01:42",
         "source": "Travel And Tour World",
@@ -173,33 +194,26 @@
         "date": "2026-06-09T17:29",
         "source": "CNBC",
         "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビアの対欧州ジェット燃料供給、ホルムズ海峡閉鎖前を上回る",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU3A0Z3I0VmdrSXBGcFBDV1pyUWlQeFdaSFppUll6XzRybWdWeEs1UlRsZEJrRERkSVRXaTgyS0NzVi1fUmlHNGZtWGI0Q2FOcThlVk1FTVJ0LWo2clRnNXNtbzRkNXcweFZyeW5zNV94SU9zeXJQQWJ1a1ktMnhfblMteVBsM2dTa3ExNmxvMWhzSHpORlNVdXdLUFo3c3JrY25KU3k3SlpqbjFseW5mRGhISlhMMmJVaEVvLXp4ckdhM28?oc=5",
-        "date": "2026-06-09T17:23",
-        "source": "Reuters",
-        "category": "経済"
-      },
-      {
-        "title": "トルコとサウジアラビア、歴史的なヘジャズ鉄道プロジェクトで合意",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUk1zNHRLSWdWaFI3VktYZmJlU2RoVjBtQV9mTzdjVUJjOGFnRUVScWg5QV9SdGlYNnBLQ2VlcHdhcEN2dFBjYndEN25kdmdRUk1xX1pBZUM3aXRaNVIxeWpua0x6amZ4QkMxZzhKUEdQVHlkbEFGOEdSREFVUTlWTjd6d1JTVGM4aXBkb2R4YkV5WmxOeEJZdWpSR1NXanFMcnc?oc=5",
-        "date": "2026-06-09T15:30",
-        "source": "Middle East Eye",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビアとトルコ、歴史的なヘジャズ鉄道の復興計画を推進",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdVlxLW1UUjhYOVdLMlVscV9kaHVZQkU0S3FVVUFWYUo4RWNQcExPb051cnVrdFJLZU1zY1BLZEVfWFJsVUZVSDR5b1lLenJIM3dHaWl0VlV3WTExMEJKQ2JMUXZheVNrZWxFYVJJUU5hNTR1TWh2RFV5OXo0QmxtakN6djg3RHppellYdUFvRHlxZEllaWNlMHRiMmFUWjRWU2JsRnRDMXN1dk1w?oc=5",
-        "date": "2026-06-09T13:47",
-        "source": "Al-Monitor",
-        "category": "経済"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-06-10T16:54:02.042540+03:00",
+    "lastUpdated": "2026-06-10T21:24:31.850109+03:00",
     "items": [
+      {
+        "title": "サウジアラビアとイラク、ジェッダで協力強化を協議 イスラム協力機構内での連携推進",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5zeGE1TG54bDg5SVJzYTVIVzFCbGlYM1VxNU5NMUVCZ0NHUHlUeDRhaldHZWM3ekZlQzJwRURLZjBuRm9yUDc4?oc=5",
+        "date": "2026-06-10T18:08",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、建国者の記録室とムフティ庁が宗教的遺産を文書化",
+        "url": "https://news.google.com/rss/articles/CBMiigRBVV95cUxNVEVvel9Jb1Fvb0V6Wk5OTDU3U2plSUtfdk9qU3lJMFNVVS1iMzl1ZUczd09CYUZoMDZRaFpKQVRLWk96MFdYRlhuTkZZbk1WSnpNbU8yMWVpbi1COGM3eG5LeElSVWNCTU5nOXZVMzhXRnoxb3FUUnBjb1J1MllFMGlVSjBJRGtJei1uSlJOUXUzRUJuVHdvSjRobXJxN290X3ItNUpOYjEyZkR2N2VVS05lWFJNZlY1dENUU3dvSklVZURFVGcyUTNQUURUblp3UXZVdEZibG1wTE9ramdkUWpxdUNKdkVieUk3VFAwZlFLMmtiN1J1NTlyZWdLVVQtY2c4SEdyZ1VROHdrMzRJclloNEtPb0JrUlpiMHVkeEphOVZ6X3JURnZOUjVvV2g4azE2VHYyM2lsSF9iTXN4bU82WEEycjFQdTA2eGlPYndRV3dYa0JBZThxdXhjT3hxVldHN1hCTWFIUmZJd3ZKa0NPZWhPN3JFRXN4YXJOSXNCUVRfWUJKV1JLTUtmQktyMlZCR3NlMnR2RnpPRU9veDdzeEIzQjFiNVdoalYwbEN3YlFSTzZwS0xWMmp3TVdfbG55cFAwRno3dS1yeUk1VUNzNzVFYl9wTGx4YndrTkJLNTlFTjhiVjZjMDNxZlZIUkZIVFFHVnpKUGNSbk9tNkUyLVItV2ROanfSAY8EQVVfeXFMUFRlN3hJLUp1Ykx0QlFZTkxzcURKOWduRENpUmFQN0piTEd1Uzl0Qms3amY5cjNkZ0JZUTlDZzlrMWF4S1lBNUtGc0hNaTR5aTdUdThEQkpuajNKRzU2TnU5aDY4ajN4UmlxaW1rMnNQU0NGOTN6MVJFWUIwR0JNcjZhalNpaFBPanA5dG80b2hDYkpTQUxrd0F0ZlViY20wTG50RFNiR1k5cGE3djRDU2VTc0hONjZGR1FjQjRGNUdValNGZ2FUdEphYzhoLTdmSlRSM0poOHY1UE5qYm5jV0JjNWRSd0xYZG5PblNzVS1hRlRHY0g0cnJKZF84QTVqQzRfNmJUTGlHTnFnamFKQ3ZoOUN5em9GamhraHRKS24xUXZDTWtReFZ1QklCWkl1UXhfZTNOY1l2aHhfN3RwWTQwVWQtN0RVdk1SYXpxUFlhbkVwV1hBX2NZWExWMTZZei1EN1Ntam9KVlBqdlJIaEZ1c0F4NjhMeFRaY1BIdEFxYzBETUtiRUxfc25GQ1lORW0ydXp6dU81Skc3U0V4ODFhZWkxZjA5aXAxN2lrajB2QWhpWGNWUWptMC1UYW9QOTlxT0xVTEZFbWZudGVKeG9nbWprMHVrY1VVZHFvZ2w2cElkakR4U0NJbnBWZ0h6R1BweDk5T2YtRldlMXN1RHZxOGlMODVINVB5ZzJJRHc?oc=5",
+        "date": "2026-06-10T16:53",
+        "source": "العربية",
+        "category": "文化"
+      },
       {
         "title": "サウジアラビア主要株価指数、0.92%下落で取引終了",
         "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxOdjl6V1lpeXotcmZnSmd0TllnQ0lLVWJwY25DT0MyUzZIcHVaS1R5ZTFHdzNzbnkxeERYUGNBb2ViYlhQa2M2UGFGVnhmODY5UVNnRnpCdmV0eXB3bktyUGRIay1KUzRDT3ZOb2kzQi1zUTRwb2tCTzgtUmFmU296UW9qY3VOc0R1YjJvLVE3N0pyd2hxRV9RVmtJd1Zxb0Qwem8wNno0V0RFZ28xOFhBQmxXVVBXc0h0SXdKSGZLMjdLMWdPYzdxampxUFJOTmV1LW9LWDdRMzJEcTNWdUhTZUowaGlteEVKT0JOTGxyTWl2ajlKV2RRbHBicHd6aDJoV1hmR3JKWDFTQlNxdWpiWDdVREp4LXcwQXRudjFUOU95MTIwSHVILW0wYjQycnIwX2Fjb2p0a0dEcUJpeFdJUE5OOEhudEJTSllvRkpfRVpENGowRWVsejJtVEpsTzBuT19raU5DZFVqVkNBNFVFQnpkZGpXeXBibDJ3UGNxZkJnSGxHTjFfVXp2WGF1NnNndWVYbTIxV1lRZWN0QXVpVGV2UVJUR2taTHZMTXNYTjV5Um5kTUpJ?oc=5",
@@ -222,6 +236,13 @@
         "category": "政治"
       },
       {
+        "title": "サウジアラビアとトルコ、陸路回廊で海峡封鎖に対抗　供給網の強化へ",
+        "url": "https://news.google.com/rss/articles/CBMizgRBVV95cUxNUDNDaFctRUxpODRWMUM5eXRlUUhlS2x1dWNKTkw1b2dId3p0cXJkMWlqRS1JbVpKSXBKQU1sUzhPZVp1YnJNbThNQndyYlNKaXBWaGdTVl9VdC1jakppa1pnazk2YnVTTnEtMEdBbUprQTU4a2xZZE1WckV2SmduVmpOelV1TUI3SHlmSFJYOGEyYXVleF9fZjd0UDZaemxlRFpLb2p2Q1pmSzZnSFVhVjJDN1pPODhjRE14eU9uT19oRDRzd2VPUURwamRJSkluNTBiVmZOZFZTZVYydVpYelQ4M3JCNjk4SkxNN1Zna0NiSTRSTWthVE9tTk1GRm5McEdrNGVGMUJmUnJ4Z19Ca0pGdjkzM3FCZXdxZHNEcXF6MTB4NmRiaGNUaFJqVmZSMWhBdGdnVzBSOWVPYVlTSFM5cU05ak1veV9QYnFBZkdFV3RsM3Q4QUNEVk54VEpCSjdaLTlETUVCQUZQcG5MbUpsY0ZIRFAtSXJHQTdCbVFSb0t1Y05YMmtUQnhLVklfOHBlZUtBQU9ZRmRhYzcxbDJIQklfOXI0cFZZNFQ0ZTQ3dFZFOVQ3T2xUYVd6X3RLZHl1bG9VV3RYNFdFaFVBWk5OdzdzUU5mZmZNanlDdGxmS2JrOHU0NU8tSDNjUzY3U2c2cTllUDBOX0lUZGFYUFZnS3M5ZU1TXzNLdTZpUmR6eHU2THVyZ0ZvUlJlYVUxblJaNGhTaW5jWEZPME1WenRhN1R0XzFkZmJVY2IzUF81WWM4Y2kzeHo1c015dw?oc=5",
+        "date": "2026-06-10T12:30",
+        "source": "الشرق الأوسط",
+        "category": "経済"
+      },
+      {
         "title": "サウジアラビア上場予定企業が相次いで延期、数日内に2社目",
         "url": "https://news.google.com/rss/articles/CBMitwRBVV95cUxNR0w2RXVJcUQydXF3WVhZRUdrVmFDS0RqQWNOTEx6eVdlTWIyMHppU0o3OUp5Sjd2bUhpOXNLZThUS2JTYTZJQ0JoNnZEOVlYZVdyVlFtX05kb2JEUU9uTGRvelRES2F6SkxlejVOWTNHUWlKQ0p6b09FQjIxQWppUll6Sy0wcmtfNHZpQ2FQdmJpMFVzRFZGWEpFQ2RtQ3U3dkpSNlNFMXVxWkZyOWlSSDBleV9RTS1HNm1jRFRTRWo2UTYzUU1hdmc0OFBjWWVhd0ZWMEJFWXN5Q3BnZFpCbGJ2MXFOUkxIeTNwbXM5SXhmRlZ2TEJNdVB5czhiLWNfeXFaSUliSjBsdzM3bmVEMlM3VzFXaENuZzJLc00tU1Z5YXhDbjROR1U0VFFWZ0pjbW9lSGpCQzlCU0xUQ1YxNEJCRTl4MjdCamstUl8zM0dpWFg3TjdVeTBoTUxwVU8teUx5SzNKMlhVSXFQeXplaHRsM3FZbE1oMHVYWFFqTHFqMWhOQVdNajVyRlZHT29MOVJqUTNiTEpkbmZjY0JZdmFoS0pJZlBNbWIxWTJBQzA0aENCdkgtNWhQakQ2ZTdUNGxnN09rOC1oaE54UDBMTjJ5RC1HWmhkQjAyZ1c1Z283SnEzY01zLWxIdldIaWl0cUxMcExoREJPNzR6UDBWNXdNY0xYeUp5MnVqMHpnQTVxSU1pTTRYRlZGbThGemxsR0dpNVgwQTJnNVpmcmRMM2ZmTjNfNHc?oc=5",
         "date": "2026-06-10T12:30",
@@ -229,7 +250,7 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア・ロジスティクス・アカデミーが2000人以上の修了生を輩出",
+        "title": "サウジアラビア・ロジスティクス学院、2000人超の修了生を輩出",
         "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1pRWp1SkF2UnZJOXNmXzF1ejVtYXJMdkxra2lTdzE1d0k0ZUluOFYwaUlTT2UxRXZySUphRW9wdnVRS0d2S2c?oc=5",
         "date": "2026-06-10T08:17",
         "source": "وكالة الأنباء السعودية",
@@ -243,38 +264,38 @@
         "category": "スポーツ"
       },
       {
-        "title": "妻の首を切断した罪で処刑へ　サウジアラビアが発表",
+        "title": "妻の首を切断した男性、サウジアラビアが死刑執行",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMDQ5WF9TX2g4anAxMTFfWGY1dHJSSDFTRGc0NkhvRGpOR2lwcDNrOEJQQi1NRktGcFRfbFI2QTdMMERxZjhNQ0FGVnV2bnltSV9MRlJ0SHMxaTJOMTdwbmRacVpDeXB5TmxxNzRJTUNhS0oyTm1tQUM3akNKVUlJN0JjTmN3R3J2Y1JIM01SM1hyRW1GSFZKWHVrN3BwQ1nSAaoBQVVfeXFMTm8zN0FQYzgyOWpyVS1CZ3IzNnI3UFZvVk1VNmtRSzcxY0w0RkxuUkpqekxZMzA1NzFUWm9xXzFTak9uZ0xEX21wR1g3Y1dnajNjNE1jZVBFRHc5eGc4NndWRWdpeFZRcHo1NWhDNGpJS1ZmNkdTeDYwUWFOUVdUREhRUXlZV1JUQ1g1dFpuQnpsMEVKT0JFUWRFNkJMdzZDc0hESGI0anR5TFE?oc=5",
         "date": "2026-06-10T05:12",
         "source": "CNN Arabic",
         "category": "社会"
-      },
-      {
-        "title": "サウジアラビア、W杯前最後の調整試合でセネガルと0-0で引き分け",
-        "url": "https://news.google.com/rss/articles/CBMiiAVBVV95cUxOREJHNUpDNUlLa3B5ZUtaWEZUY3dEc2tKN3RzR0E3b3RVWkhTWWJiRERLNUQ5NExSUEVxbzcycHVVRy1lYzhVYm1TbGNGd1ZiaUpsZ1dJY3ppYXBkVnZSOUJsZXdpRlFhUDJkSmhnLUdaeW1GdDgwTGNRWUNoU25nMXNndWVYbEVJUjg2MUlTelB3LWFaMkNpY1htWENmZE5IaWVmU21MdVc0dmRvclpfY2dieFhhVVhOYnY2MGtJMjBwM3ItOE5WVDljclJjSmt4aDVIdWNfay04UFJjSGZlOS1CSkJjVkRiQlhfaENEZVk5TWtCUUlzZlJwX01VMDNta29UQW9PcWVzNmhMRmhJazJYUzhQcGpvSDU4bFlyR3h4NjRrUVhmOUVTYjNuZ0k2akRxUkhOd01QNC1jMjd3STFlUW5CNFZReFgteDJFQXA2UFllMzZjWndOSUduZUpRU2xsa1lkcHFxVHNoVGp1RU52UWFPOVI5Q2NpcnFsZ3BMblNob3ZlQmxGekNqZUgyX1NKLWFlNmlmYkJhVlRUQU5LOExOel85OVpscW05cWVRWEhOa1dFX1A1d3Nra3hZV0l3b2NjazJ2Q1RpOFFnNHdRenA1VkhCOUotanlOODZjN3hvRnVDOHozNjZnZzNlYmRJWnJnSDJ4d2ZhdWJad3ZYMU9TQlFHRjV6VEdFemo0clRobksxSDhtNTZFZFFfMXY1dXJrNHpfYnNNWDN5dHNSNmlHWDdaZ3hucl9UUzhoSVZTakV5VFdiLU1NZ3ozU1VjMGtnTUZKVlczNndOTUVpQ2MtYkM4YTE4UURqS2I4OUprbE50ZFNYNWI4UmEwbDdwcHdEeVc?oc=5",
-        "date": "2026-06-10T01:18",
-        "source": "الشرق الأوسط",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア対セネガル親善試合 ワールドカップ準備で激突",
-        "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOT3BKNWpSSEc5aHRwS2NiQ0ZxYkJRRmotdDllQ3hWeldZTUdZNmtVY09za0FSMHFMNlNIOWc1M05yb2tqUERoVnJCVkFqZkNxOWdVUHA5WEh0djQwc2RBMU9kVWQ1ZFduQks0SjJ0amhNaUFOMkUzNDhDSnM2blQzTWFiQU54bWdBSTVGc2lNTERQNGp0ZlkzVy1sUU5hYmpvS3lpRUVmZHJ1V2pIS0lncVpYNk1oV3NmSExKRmVDSlVCOXJnTFlYa3FMRklDQVhRWnV5MVd3SGpGd1k0QS1zamRYNUZJSHhyMzFpM0RCa1hiVzdXaUpmUG1YMktwUXBLOF9xelo0amtuc3JzNUszNm81MzE1c2JlMFNGZ2o0LVhka0dJSFVkbWdUVm9EQjdkNTYzcDc3bjBoQXM0dWdtYmNBUzRLQdIBywJBVV95cUxOcm04RkR6eUxUR0docnllcEk5WGY0NlhtZDRxMDFMT01SV0FZQmtQd01neTFyOWZNNUdXdjNlbjI2eVM3RzRDTEl0Wm9yMXh0RG9tRDVER3NiaG42ZGNMc0ZkcXQ1R2ZmNGtmeXpTQ3A3M0Q5UmxvN3BGRUNrV3c4LWFfVDdMU0xGTlZVVTNpbGNlOHNNbjhtMi13bGhadGNyWHM5T0F3LWlSb3RpMGNlWW04V25nb3BoOUlTeUIyMFp2VUFvelh1NmJtdG1pNFNNeFN0OW9rQnRTSmt4TTFodllaZGY2SUoxRVRQUXQ5WE1ROUc5SXhyTWV3WG1ObW1WUkltMGUzTDg1b0tGUEhTSGwtd3RwUjR1N05DVFM5Q2gtU0tfM0RsUHk0OFVjOUdKdEJ2MEd4Z3hZVzNYWDJ4U0o0QkQ2MXZLZzl3?oc=5",
-        "date": "2026-06-09T23:34",
-        "source": "الجزيرة نت",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビアとトルコ、鉄道連結で覚書に署名",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1TN3RBSjdSd21jSVZ5aW9GRmZpT3p0VmxONzVzRVFhZ2NRNUFJMjIyWjZWOVpQWENWZHBjZER5UDVORC1kQkhDUHFrOENNcEF2ZWl3eGVaZWTSAVRBVV95cUxNUjItRndvY1NyRHpXMFVpMnRMQlQ1Uk5SM3c3U1hmY0VlYVI3ZHNHVmI5TkwwTEt3SW9sbENIM2RvN1JVRExVbFBRek1fUDBxajlaOEk?oc=5",
-        "date": "2026-06-09T16:45",
-        "source": "عكاظ",
-        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-06-10T16:54:02.042540+03:00",
+    "lastUpdated": "2026-06-10T21:24:31.850109+03:00",
     "items": [
+      {
+        "title": "動画：サウジアラビアの元スターが「ジダンからW杯MVPを奪った」と明かす。",
+        "url": "https://news.google.com/rss/articles/CBMiqgRBVV95cUxNb3BQOVF4QU1pNzdJQk5aTUQ2M1pLZVpCZ3NMeTVGandwS0N2VDU3dDA2bGJhUlhUYWQ4Vk9XR2c0SVMxVmlwSjhRTkkyTTZWeTVfb2lJcFpvUWY4dmlhQXczbHRDclFDZ0o4eEQwZDdOWWl0a3RqWDlPT0JFa1BRdldYeFpVamNlQWJRSzlGX2F0UHNhd2tlSjlHQWgzQTc4VHExRTRvTUFCcWNDMUJFb3kwaE1EV3dWMVRubkVwSDRiYWs0RGRJN2NuLWc0SDVzRFBDaHBBX3FTMkVVVXdTejBIVGdZRUR1b3F1Sk1oaE56RDhMcXRJdzlKNzczWHJRY19Fd3VBc2l4bi1VeWtSbHU5LUp4UzhkUDA5NEFRYmRyVUItWm5kQlBmSlZJcVk5ZzU2LWdLbndXTGlxSk1IRk5YTGNnZ3ZvVWhEOTI1aHg0SzgxMlJhRDh0MUlraVo2aGU4UloyN2NneG1EZ25ndDR6NlNJdmh3aThtQS1rNlNSMktuREFlSk1hY1pJbWh0TUliaE92R1dBanJoTVN1TTJJb2d2cURFa0Y5UUZlbjhUdldZU0xyN2Z6U3Z2dmZpbzNBeV9UczlxWmtqSF9mR2RtU21LNEZRSGNUVUIyRVNNWS1yZGNIQ3BISXJtV0hqN3RZV0o0SHkyTjhZY0lULU5MSjlIU01WM1JGdTRGd3hoTW9xc3l2NEJNYlE4WXNidHNPVzdmRWVBdw?oc=5",
+        "date": "2026-06-10T16:22",
+        "source": "Goal.com",
+        "category": "スポーツ"
+      },
+      {
+        "title": "一方はアラブ諸国に苦戦し、もう一方は親善試合すら行っていない。サウジアラビアのライバルたちは2026年ワールドカップにどう備えているのか？",
+        "url": "https://news.google.com/rss/articles/CBMiwAdBVV95cUxNelBESm5aSjlpZUVzUC04RDNEUVZaVUN6MmJTV202Nm9pOWJpbjRfMk5YYTBCTHFuc3NNaXRybDNuaGIwdTFDR18zY0kxU0xvZmkwWWxyeFF2dG8tTnZ6ck9MbGM4RXFXcHBPU1l5TTZ0R1VhUkxyMW5Od1gwZG5iVmRyWV9QdG9YVU5TUG9PX2hod294Ym1jVTNoVEl5MzMwZnpXRXFvNTl6RUFJTHBaVnFFSDhUeHZkRDR0ZjhlOHdfUUJPcVM5UVBSMS1WejVRY3FCam1OTF9hQ3FoLW42LVhRbWFjcnhUV1EyRmpnU1VldUlUYmJJZ1NfaTIwQ3JpaTdCV3pLRm9kVWp1SHpQbGlBSXI1N3Jfd0wxU284VlZkNU9VTWdRdndQV1QyWVE4Tmg1WUt4UVpNQmZLREhmdWQzV0xpOVQwYUpnMXVXVzItVWNHa2ZqVmxkUHJCR01fQkhTRWlacjJYZ0VPdUJOTUtjaHh1cnloX2lDSktEQVNTaUp3V3hrOVVkQkRKbEtJWDFDeG9BSXZNQ0RHb3BhQ2tQVmxFR1FrV1o4VzNsWnBYSHEwZERaRkY2RUhoeDQ3RGlzRlh1S09OV1BiQ2FUMkwzLUtKZnBfcmxKNGZXbHQ3WXRFTWwyVXJRdWk4b29nSFFUUlQ4c0Jqekd6V2QtcXduMS1tc1RtTmVYMmVNRm12dVJzeEtVclJNRkl5MWRQWlVzWkdEcXhKc0dvZTFUaGlmV1drR1lkVmk0Zzl4SHd0dDRGY1U3ZnoxZ18zUEZOdW44Y3d5T1ozQnJ5R3Y1RUJDVUhHOFVlZXQ1bVZ6NlBrQ1U3bml5UXRuNDFDLTBlbWhjRUgydkE1VFNUelJhakF2RXB2Mmx1S2R1WXBkRHNPZVpSMWZkbnFlN3poOGc1ZjNhYURVWXpzMlJMMzVOODNjdFQ5ODZGbndta19vMERiSXdYNTFmb19ic1BnaFAyc1E1aVBmUUpYSzlFdmIyVTZlbEE5OGwxTFNNNE1IQVY5SDRiUXcyN2NuN2ZpaENKRnFCNUJLSlpsVG1uVEl2Y293NXN2aUVJbUFtOGdQWmh4OVF5eDRURWowTXl4ODZGR3BramJRLXU5YkpPNDM1c3VBZWt3RnFYeXpTZGt1VlpnVlRLdjNJNG52MVJ3WlQtQmxUVXJDRUJvVF84a09MS1BndjVoMkFydDlmSzZiMGFpY0tSLWllTWFXRk9tOUNReWxCeWdRczdZUkhpUzdFTllnZDFFZ3NzWjFQcmUxVHM?oc=5",
+        "date": "2026-06-10T14:55",
+        "source": "Goal.com",
+        "category": "スポーツ"
+      },
+      {
+        "title": "回復したのに、なぜアル＝アクディはサウジアラビア対セネガルの親善試合に出なかったのか？",
+        "url": "https://news.google.com/rss/articles/CBMiqgVBVV95cUxPeDBoUXhKR3J5aVo2MGRfWmNPNzRXMWNoeC1Eb0xsMFl2aVVMTW9BMHJydnJGSDVjY0lXSnBBc3oyZENBTUVwVnpIbmRhb21TWjFoNk9LbFEzNXhZck5lYnNKR21MSGNIckRiMjJDQTg3am80cktiZDNFM0ZydVU1MUZOdVM3dlJwelVrV25jQ09yVWN6UExxVG0tT1RBVHQyVW9jblVUWUcwSUpBUW5hSjBQQlR1TndaSlVNVFdXMHJDaURHLS1yWHVDT1lBQ1U2aXNpQkZsa2NPUXRUZkhNRHlFSTBrOE9peFphdi1xWkdpbWNVMUZJektVY3VrZ3pIOEQtTGt6c3kyU09mMTZXRnlMcDM4NmVjaVlybFUtYVFEUF9yQVN0Mm1CYlJBSDZaSGZnUmZQRG8xZEw5RWM1RlBvR2V3Z196ZVpGeVZDcEhwSVBkcUIyVnZ4WGloQ3dTNEhpSXdycktMU0xEbmVIVUEwRFZJYjhnWUVCaWhqRjZPYlVEXzRnT1psclBsYWRSdTNmN3hhZ3ZTbVFxdU5oX3ozVXh2bjl6UUNUQzd3Q1JSdFdUdzN5alVRZnRTYkI4MzdCWERRN0ZBR0FwWmdVaThXQmkxZklfLUduSjNicUVnN3VTRlE4VG56alVTNHRHMkc5T0FMY194U0hkWXN2X1hJaXB6WFktV3lVWFJhZndiYTIzX0JfcWtHX2lFdjZDeWhHLWdkRkJBdVZNeS1sUDFNdEIyOFZ3RmdteGg3TmE3MkhlZVlDTnIzRFJoVDF4aWVrdTBNRS1pOU1VYjdVQU1RU1QtTDA4QlRfZ0k2alpVQlhOSGJfYzEtWHpOWjBvU0l3dnloaC1uMXVrS1FyVXd1cl9xc3U1WWZTQnVjLW05THVhVWlBY0lR?oc=5",
+        "date": "2026-06-10T14:02",
+        "source": "Goal.com",
+        "category": "スポーツ"
+      },
       {
         "title": "【出場チーム】サウジアラビア代表｜FIFAワールドカップ（サッカーW杯）2026 北中米大会",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2Vy1hTEp3R1BFVHIxdVA0a3JTY2VtWHJnSVo3WXkxTlpfR05IbnhzWXhWT250UmZyUndwWXBNcHNoQnlyWmxUUnB1b0tGbXFLLW9mOWRFcEtWZVJlMHl2dXFfT0I5aVYtVkRCREZFWQ?oc=5",
@@ -297,6 +318,13 @@
         "category": "経済"
       },
       {
+        "title": "Ｈ組は欧州王者・スペインが大本命、ウルグアイが続く…サウジアラビアと初出場のカボベルデが３位争いか（読売新聞オンライン）",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91UTkyT0RyS19MbWduczJGTUx6YWxvbTVKZjlmVGtLTUU3NS1LRzVneU9YTTVhd1lQS0xPQnptSXphY1J0RTYyejMzcm9LNG8wR2tkTGZSdlNmeE1DQVBWeENROWpuSjQzbzBGd3dvazgxVkpjZ1hxMGRXSlN1SEE?oc=5",
+        "date": "2026-06-10T05:23",
+        "source": "Yahoo!ニュース",
+        "category": "スポーツ"
+      },
+      {
         "title": "サウジアラビアとトルコ、鉄道協力協定に調印",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QaTg4eElFLTJoNjFmaTBDZVNpY2lySkR2Q3FqYjJPRlBlRnpFZzQ2QzJqdlpzMkhSdTVCMmg3Rkg3NVVxQmVYVHRjaEJjckYtUGRwNFNqcHJyc0dvOUtUTnhXclNXSU1mSGwySQ?oc=5",
         "date": "2026-06-10T05:20",
@@ -316,34 +344,6 @@
         "date": "2026-06-09T21:34",
         "source": "Goal.com",
         "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア、欧州へのジェット燃料輸出が戦前水準を超える 執筆 - Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RR3VrdF9MQXJLeDZPckVBcGY2UWM5MWpkNjdqWGlSYll5aWJ3cGZpd3pXNEZOQ0RMdzl0R0hZTC1XRGFlQjc1SHR3Q1AteFY5TWxxcnU2MDhyZDVBQUYzSmdEdmFsYlRWR1BVMW9FeHo?oc=5",
-        "date": "2026-06-09T17:28",
-        "source": "FX | 株式市場 | ファイナンス | 金融ニュース",
-        "category": "経済"
-      },
-      {
-        "title": "東京/成田～リヤド線、早ければ2026年冬ダイヤで直行便実現か 中東メディア報道",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbEdFRTdIVkd0cVNfVnBhR3dFc0FfbEZTSV9VRWhMZzlPclZ4dUVJZDJjajdnOExCUWpNdWNqZmtHaW1mRGp1bzQ4ZmtISXFuOVFGNTVVeTNmblp4WGZDRGJJdEgtUUZHNzg5RWZra0pKYWo0bU9fakdKWEo2d0VkN0dadENaaENMbExBR3Y1RktHeFA1WEwyZGNsUGQ1LU9fX2xlTEZmYl8tM1FOVXdQMnlYb1FlSi11XzZKc3BaenI3U25fb05qVjhUWkFOTVdCMDBxZENB?oc=5",
-        "date": "2026-06-09T10:00",
-        "source": "sky-budget.com",
-        "category": "経済"
-      },
-      {
-        "title": "【グループH展望】「2強2弱」のグループで奇跡は起きるか…「DAZN Power Ranking」によるFIFAワールドカップ2026プレビュー",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTzdrMkx1UE1SdHNJUFJxOFFPUTRsek1fVEpLZk9SLWUwYXFkTDltQ0RiTnQ4ZEVxbzd3YlFvdU80RFZLS0hScFJHenhfWWpaVHZ6b1RjaEpZd2Q1N1RMc2NkeS1HdE1hNWhDSXQwd01YMVB6YUdwU2MxSkJ3cGpGYW5pQWFTcHQ3?oc=5",
-        "date": "2026-06-09T09:30",
-        "source": "Yahoo!ニュース",
-        "category": "スポーツ"
-      },
-      {
-        "title": "モルガン・スタンレー、石油部門の縮小継続でサウジアラビアの成長見通しを下方修正 執筆 - Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB3V3hINjU1Z1lxMnRRTndXaHdKb1BZMy02c0JfX2tQbFlXUTlzYlpDRHY1VDJ2S0k4MURjRDAtTTRLcFFpS3JpYy1nQTBIdGRDcHNLZVIzZ1M0cW43VldTMDBPQkctREs4d3R1SWxMQzU?oc=5",
-        "date": "2026-06-09T09:23",
-        "source": "FX | 株式市場 | ファイナンス | 金融ニュース",
-        "category": "経済"
       }
     ]
   }
