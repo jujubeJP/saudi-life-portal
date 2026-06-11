@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-06-11T17:14:14.310012+03:00",
+  "lastCollected": "2026-06-11T21:41:01.306078+03:00",
   "security": {
-    "lastUpdated": "2026-06-11T17:14:14.310012+03:00",
+    "lastUpdated": "2026-06-11T21:41:01.306078+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -38,7 +38,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-06-11T17:14:14.310012+03:00",
+    "lastUpdated": "2026-06-11T21:41:01.306078+03:00",
     "items": [
       {
         "title": "イラン情勢の緊迫化に伴う注意喚起について",
@@ -109,7 +109,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100987261.pdf",
         "date": "2026-03-03",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -123,7 +123,7 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-06-11T17:14:14.310012+03:00",
+    "lastUpdated": "2026-06-11T21:41:01.306078+03:00",
     "items": [
       {
         "title": "湾岸情勢緊迫 サウジアラビア、緊張緩和を呼びかけ",
@@ -147,11 +147,11 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、レバノン産品の輸入禁止を5年ぶりに解除",
+        "title": "サウジアラビア、レバノン産品の輸入禁止を解除　湾岸諸国とレバノン関係が改善",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT2VkQzJxQWpUMDdoU0dHQ04yb1VPUm1zX0xvWGtxZXRhb0haUm1qVkd3YzlWTlprM2NCV3E0dW5DWmpFcDVHRmxVcWJuZWVPbERKcnVJVW5IV3VBRTVLMXItNHYtOFRzT3FpZVd1Qi05V3ltcHYta1pkMm8yWUhrQ2I3cmN1TlBUcEpkRGpJRHVmeDh4OWc?oc=5",
         "date": "2026-06-11T10:56",
         "source": "AP News",
-        "category": "経済"
+        "category": "政治"
       },
       {
         "title": "サウジアラビアの巨大プロジェクト「ネオム」、完成に向け課題が浮上",
@@ -161,10 +161,24 @@
         "category": "経済"
       },
       {
+        "title": "コンゴ民主共和国U20対サウジアラビアU21 モーリス・ルヴェロ・トーナメント",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBBTVlZOU9sZURrZ3lDdi1wUzJhSHJkTUZ6RWpzRV9qY0RweTBkQ3hoQlM1S2J2TnJkWDdUQ2tBaW5OU0xHMzE0WkxHNE5MN0d4WC1SWXBQNEFQU3hmbUpZZzdB?oc=5",
+        "date": "2026-06-11T09:32",
+        "source": "BBC",
+        "category": "スポーツ"
+      },
+      {
         "title": "サウジアラビアのIPO延期、低迷する株式市場にさらなる打撃",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZk5EbS1OSWd5VG43UVNNV3ktVlVRMTBPYjZHRXNNWDZ1VkJUN0FsZ2lsRzM2V2JLTnJIbC0zT0ZoN2locDJ2NFJyNWVMM2VFMmRySWQ1TV9hei1Ec1QxOHhManhvTVFPT0tDeHdLQVNHaS11Ny05OXg0TV9fbWRmdVdEZ2U1MDhOLUY2Q19vQXZfdk5uclVfN0RIdTVnYWtrU2k2WWRwUnZiXzhrbEV1LV9oR1FwejFGbGFzdndwS0Uxc1BqVlllUUxCRQ?oc=5",
         "date": "2026-06-11T09:13",
         "source": "Bloomberg.com",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、シリア、トルコ：中東の経済圏再編",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11cm5QMGtoV3JZalBidURZb1JXc1BnWXpuc2dkMDdFUkVCRGlfRTdtazd3ZzFTaFlSUW4wYlBkelRMTDhZcEFLbW0zTngtZXhWUmtWeEdacm5adGVHUlNyeFFOV0ZMejkyc09mSUt4a0M?oc=5",
+        "date": "2026-06-11T08:32",
+        "source": "Ynetnews",
         "category": "経済"
       },
       {
@@ -175,31 +189,45 @@
         "category": "経済"
       },
       {
-        "title": "マクロン仏大統領、エジプト、サウジアラビア、カタール、UAEの指導者をG7に招待へ",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWnZMQXBUMGxQcXV0VkM0YnB5M3BYd3Zwbk5zNERLTWVjb2ZkQlJ0YW1KdlVFQU1nVWppdExRcFlOSjd4Y1I2TXZ5a2h6SXJ0bjJRcXpPc0E4M1gtUll3VjVwRnZHVXJTelcxYUYyUXBZX3NvY2ZOMURzS3lGQm5WUExGcHBGUHp0cDJJRjBXekx6U2ZuOGxkU1FaZXVxOFZfbjBZbEc4cV9RZnlkMDVKX3dNQ0pKQQ?oc=5",
-        "date": "2026-06-10T17:47",
-        "source": "The Times of Israel",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、イランによるヨルダン・バーレーン・クウェート攻撃を非難",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBudnJIMDdXSEViSGUxV3l5UEVGQ1B5d0hhakF6bzFQaUYwbE91OGFNUDJaNkRZcUJJZV9zb2R5ZFo3SVpzZWpoTTRia3RlT1M5aTRyRkllSDVleGVvLUE?oc=5",
-        "date": "2026-06-10T15:25",
-        "source": "Arab News",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア支援のリヤド航空が初便就航、イラン情勢緊迫の中",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVEI5Z0FNVmwtY2JnQ29OYWY0ai1hNDU1ZjBZdUcybC1rQWpQZkZkZ01ka0t2U1Fibi1SUlhTWUx2QnBVdjRPWUZzb0owM2lLRUJhbG42WW5Oa05tU0VhZDlrZWxVMF9WNWozSkFGbnpFczFiR1ZQa3ZUS29VeTNXQ2pJME1OeXdUcWRzaHJwY0hZdGZMZDJpR1BPaVpNb0FteUx3bl82Q0dOSk14ZlZKLVF5b0pMSUpT?oc=5",
-        "date": "2026-06-10T15:24",
-        "source": "Reuters",
+        "title": "ホルムズ海峡の規制やアデン湾のリスクで海運が危機的状況 エジプトも参加、各国が対応協議へ",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1aEE2RGpCSWY1dmxaUVlqRHhxOUtkcDUxZHpDT3JBLU1VQUVFTGNRU2hLcEVWY19hbHJ0cTN3ek8xbXVlUThyNnBrUlFqZnQ0VUkzU3Z2aXVOa25zVWVJaXdWcU5TWEVEU0lLM29B?oc=5",
+        "date": "2026-06-11T07:26",
+        "source": "Travel And Tour World",
         "category": "経済"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-06-11T17:14:14.310012+03:00",
+    "lastUpdated": "2026-06-11T21:41:01.306078+03:00",
     "items": [
+      {
+        "title": "2026年ワールドカップ注目のアラブ勢の若き才能 アルジェリアからサウジアラビアまで",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZUczV2sxRGFhZ25ZbXVTMC1KSFBsWDJFRlBzV1FtdFJJejU1UktRTVZwTzVCQmdHSFhjSkh1QUNZU0ttZFEyb3E5UlAzQkhZMXJubzRHQ3BLelBWWEcwMHZDTTJlMU00T18yd0JBcUFiU1Z3WGRRb0tnM0pGVmwyX2ZRd2t3SXRPUERRWjZ30gGYAUFVX3lxTE5jbWxKX1AybTBQMUNDOW56Mmh3VWJiZGI5SlEzZ3lVQ1hwXzdZdVllRUZxaDFpNkxzZGJBNGVqNUFRQ2dVNWZma2VMVWd5NVdpekFqTzFvbFowZERWUkdGNjZfazh5UFlnQVphakcwSnhSMHRMdjZRNjFWcXlWeS1CbG4xZDlILU53ekJ6NlNuY2JGVHZXM3k3?oc=5",
+        "date": "2026-06-11T18:12",
+        "source": "CNN Arabic",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビアに国連初のサイバーセキュリティ事務所が開設",
+        "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxQNlBDNHNzNWlkaUVFZENWQjNVczV0ei1scDdlLVFZcG1SMXpmYlBER1otaHZuMGRLYVNvQW1XdlNJYmNfYVhSX1V3ckRMdmdNdTdQSmxSZTY4Qi1KeWhIdi1YWjRRZ19iaFFWUU0wdk80ajAzM2g1OUNRVWpXWC1Gc2VFaTRJQW9yWlhiaVBkRnFrejhGaWlEak1JN2lCNnhJblNGU0FfZkUxSE50YndxQkk2Z1ZoNUxnWW9GcTktUTA3dXpiekNzUjhSck53REMxQ2lJYmJkUjFwMy0wWlBwQWhqNWlUS2NKeElFZk5aSHpRN0h4Z0xpOTIwV25BbnlnYXZGZ0pZNzZELUc5aGFrVGV3bHpuNlcyeXRDeXc2NTlCWnpYbmVISHpCWU4xY3k3eW5IU25vRnVxUXp2WGUtWHlJd2Q5c0o1YndHUDBjcTllMWNUYWExMnF4SEhEa3dnVm91OGhUaWJ0ak1kWjJCcUdvQ3RnRmdtemRrUGJTYUx1Y1BIem1j0gGMA0FVX3lxTE1iMjkwZHdsa0QyYnAyWG9uZnp2MDc5d3h5c0dic0RJS0Q2R2F5ZDdWMTBFeDNENkhGeVQ3VU1RUkl4NFdJRWljaDhWQlBqZTZqd2pyLUhrZHlLam1ZMV9fWkJSenF3RjdWY3FxTDZyT3U1RzdVWjhDX1ZlVTV3enVoeURSMTBXZE0taVUwVE1YRTFmVFhiZ3RnbWU5VVd2dVFDU2Q0dXFTbmRTWGJNNU0zRG1qajFDdHp3dmVyYTYtLWpSTzg0R3duWTBnNF9yYW5hYnJCRzlwaUhaRTVJcWU2WWJrR1hOb0M2NGVrQ1Zia0xKa0k1TXV1THdlSWRLVG5TczJySEVueGVHUXdFNE9PQkZYT2M0bzI0RjZFeDJBdlBMakZNTDlTdnN0aU4xNmFpQlJjLXBJakw4SUZCSFZYT2dzWkJlNHJoQ2NGUWJZN2JHbGFBWTVSdGJxdlQxaXZnQThnQy1DYTQzd183VHpvS2VnOVhBUGNQMElhZ3lBMERHUEJ1YzZSZk1wNw?oc=5",
+        "date": "2026-06-11T17:13",
+        "source": "العربية",
+        "category": "政治"
+      },
+      {
+        "title": "アラブ議会連合、サウジアラビアの第39期議長就任を祝賀 パレスチナ支援と巡礼成功を評価",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE02UHhUUmVzbVg3ZWJSQ0RucG1MYTM2SlFlVzJyMXd4eVBvcERLd0hqOFFqajVwa1lhX3Z5SGRpemc3bUhjSGJ3?oc=5",
+        "date": "2026-06-11T16:34",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアが参加、パキスタンの仲介努力を評価する5カ国会合",
+        "url": "https://news.google.com/rss/articles/CBMihwRBVV95cUxQQXZwaDlweFFRYTRQX3dsRC05d2RSMnZ2N1pXcXhNcjMwTk5XOHVPQjYzak1GdDlxdWJLd0ZzYjg3WGx6TWczWXUxNGJpMTFYSzRMVUdZWVp3NmpnNjNLTEtvd1U2bnZ5dzJQYmp3YzBReEx5dnM2OEVfLTJJanVOV1dYVC1rZXlIWVpGOVBsTnM1bGZvM2JnaUZfTGhxRlNGYVBwcFowcm1vNVhCTFg4YThGMWtNMDgzMEY4Sm1nb21iNVFkRVY1WGZqWDh0ZUYtdUthNE5BMHlDMVRDNkQzNW5BVnk1N0xXRGdCTU9JX3N6dHJMbnA2TmxYTmI2SnNCZGZTOE9qdUJleXVHa2hvSVlPaDRHcGJZald6ZkFpdXMwa0VCbE95d1NXVnJwYkdtLXNYZUtIa2FOMWhEQUhySnNkZldLR3VhdWlwU1k1bVkzdkJYeGZqN285RlM4U2xaTHF5ai1udUNKMy13bXY4b1U2dzlVZU5NSmg5bE9TM1BMZXcyOWIzMmZoTi1xWW1JaXVFVG1YamVpVFFENEZMcWVLLXRndkw2dndINzczLV9weGdlS3c1ZkMxRUt6NGtPX1Z3VEgwaHlSSnAxLVdhSjlzNnhZWE9oblRFOHlFVlVSQm91Rl9WQlpzSlBtV05rbUxPZkhpdWxmWFZlYk9za2gtS2FheVnSAZ4EQVVfeXFMTURfZVlvZlMxTDE3M0FDTWRCM2NzXzBOWUNocFFyVHFsR3QzNzdxaThjYllGSU5WVXJZOHhBb3g5Z0YyM2JCVVBRdktNYkpfZ3h6RzNjZGdxVjBRbWtHZlJYZ3ZtQ1NTN2hIbDRkeXhXU1J2dXhuNndUM2p3OXhmSVZYMUdISU84MUV4OU5rT1FOWldqQmwxeVVzMUY3VUJQWW9iOG9JYURNb0RXcGxudW12bERZYXlDaF9WdHVDaGE0YUhMNzdKYU4zNzE4TmlOd0dRd19EUlkteUNzcWM0c2VOdkRLNkJ1TjdoRU4xQi1ndno0MW1JaFBINklEaTJseThGcUN4T0NjNzN4b3hpeVFoMDVySFZDdGtYWldzanotNXVqdFFEX0V4cEdFR3FXMjVBdUtvenY1WnhsdlhSTlFUc3ZqdGNibVhGYVVCV2JNdWdPTFljazhYNjcyUlE1eVBQOXEyUnpyMlE3UHNuQkxxLXBuaWNNNzhReWh5cW14REFDYWNoNENwNDJjeGpnLVpER0FqdHUyV2tNeWxfXzZldUp4dUtreWJUR0VwRllUY3YxUmJ2TFQwenA1TGsxU0NQX181bmRjaVpkRkp4cVVhOG84SEtwU2ZCVVM2NnV4UjRNYVhJRHVJQlJJdk1VZXJ4RHdyUVNrcGs3WF9fQ0pWWHpRWmZUV0RlMDRvcXdFVFNJajduWFBqM2NLZlE?oc=5",
+        "date": "2026-06-11T15:18",
+        "source": "الحدث",
+        "category": "政治"
+      },
       {
         "title": "サウジアラビア株価指数、通信セクターに支えられ0.27%上昇で引け",
         "url": "https://news.google.com/rss/articles/CBMimwRBVV95cUxOOWZibmYzRmhUMEt6QW9GQUxoV29DbW1BYklTMlJ2ak9Ndi0zN3FRcUg0MWF4ajZNcnFVUm5ELVU0QVVDSnZ4dHhsOW90QWl5cE5ESG9UWGpjU3FZNFk2VUwxMEhTZE0zQzNTZlphX2lkLXdvYmlGTE1TUFYwVWRXWWxhM2VocG44Sl85QTY4OXN1Vzg0YXVabDR3MTVRRFYwR3B0WjBrTE5oNUlVR05lWGh1Z2pjbVVaQ0lyeGtxTko1S1plZ3M4bVMwUDdrTE9MaHlXNGVGWDlkeTZDY1lpajV6c3pyNEtEQ2M0VUlqTC1BeTZHdE9rTFNfeWQ0bWlSd3hkUHl0UHdCcVJZYWtpNFNCVFdJOXd6d2UydmtmdTRmd2x6RHEtYjd3dkE4REFSNHU1VDhTcVo3UzlTNzNZTjhGc3BZTVV6ZU1nSGhGT19Xb19hTE1GbGxPNTJYbUx1WWdkN2otYUE3NEVwa0VFOFBJM0JUa1M1M1dLOXZtMHIwQUhoNFBPd1lzUU51LU5Yak04MzUzMW1sVDU3bE5yZW9QcVo0OVAteFA2enNLSWFnQjFsdUwyRzdiTUVhSTF6T3ByUTlmZmM4NFhOd1J3SmtKRDU1WkY3MkdDbzg3SEhEbThJRjBtT2Z0THJUOXE4ZDh4d2tsN2R1WWxjRFdTdTJMM2tZSUlzaUo3TGwwbTU0OEoyYkc1UjV2NA?oc=5",
@@ -229,9 +257,9 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビアのコーヒー企業、「サウジアラビア優秀農産物」コンテスト第2段階を開始　初めてサウジ人審査員が参加",
+        "title": "サウジアラビアコーヒー協会、「サウジアラビア卓越した生産品コンテスト」第2段階を開始 サウジアラビア人審査員が初参加",
         "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1nT3ZGbWw2TmRXdkFuMDZaZF82SG5nZVVLZ1FKSTlrbm1TREF1MGVYTkNhX2hsXzQxeVgtaGQ1N19QUWJLWlE?oc=5",
-        "date": "2026-06-11T08:58",
+        "date": "2026-06-11T09:58",
         "source": "وكالة الأنباء السعودية",
         "category": "経済"
       },
@@ -241,39 +269,11 @@
         "date": "2026-06-11T04:52",
         "source": "CNN Arabic",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビアとイラク、ジェッダで協力強化を協議 イスラム協力機構内での連携推進",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5zeGE1TG54bDg5SVJzYTVIVzFCbGlYM1VxNU5NMUVCZ0NHUHlUeDRhaldHZWM3ekZlQzJwRURLZjBuRm9yUDc4?oc=5",
-        "date": "2026-06-10T18:08",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、建国者の記録室とムフティ庁が宗教的遺産を文書化",
-        "url": "https://news.google.com/rss/articles/CBMiigRBVV95cUxNVEVvel9Jb1Fvb0V6Wk5OTDU3U2plSUtfdk9qU3lJMFNVVS1iMzl1ZUczd09CYUZoMDZRaFpKQVRLWk96MFdYRlhuTkZZbk1WSnpNbU8yMWVpbi1COGM3eG5LeElSVWNCTU5nOXZVMzhXRnoxb3FUUnBjb1J1MllFMGlVSjBJRGtJei1uSlJOUXUzRUJuVHdvSjRobXJxN290X3ItNUpOYjEyZkR2N2VVS05lWFJNZlY1dENUU3dvSklVZURFVGcyUTNQUURUblp3UXZVdEZibG1wTE9ramdkUWpxdUNKdkVieUk3VFAwZlFLMmtiN1J1NTlyZWdLVVQtY2c4SEdyZ1VROHdrMzRJclloNEtPb0JrUlpiMHVkeEphOVZ6X3JURnZOUjVvV2g4azE2VHYyM2lsSF9iTXN4bU82WEEycjFQdTA2eGlPYndRV3dYa0JBZThxdXhjT3hxVldHN1hCTWFIUmZJd3ZKa0NPZWhPN3JFRXN4YXJOSXNCUVRfWUJKV1JLTUtmQktyMlZCR3NlMnR2RnpPRU9veDdzeEIzQjFiNVdoalYwbEN3YlFSTzZwS0xWMmp3TVdfbG55cFAwRno3dS1yeUk1VUNzNzVFYl9wTGx4YndrTkJLNTlFTjhiVjZjMDNxZlZIUkZIVFFHVnpKUGNSbk9tNkUyLVItV2ROanfSAY8EQVVfeXFMUFRlN3hJLUp1Ykx0QlFZTkxzcURKOWduRENpUmFQN0piTEd1Uzl0Qms3amY5cjNkZ0JZUTlDZzlrMWF4S1lBNUtGc0hNaTR5aTdUdThEQkpuajNKRzU2TnU5aDY4ajN4UmlxaW1rMnNQU0NGOTN6MVJFWUIwR0JNcjZhalNpaFBPanA5dG80b2hDYkpTQUxrd0F0ZlViY20wTG50RFNiR1k5cGE3djRDU2VTc0hONjZGR1FjQjRGNUdValNGZ2FUdEphYzhoLTdmSlRSM0poOHY1UE5qYm5jV0JjNWRSd0xYZG5PblNzVS1hRlRHY0g0cnJKZF84QTVqQzRfNmJUTGlHTnFnamFKQ3ZoOUN5em9GamhraHRKS24xUXZDTWtReFZ1QklCWkl1UXhfZTNOY1l2aHhfN3RwWTQwVWQtN0RVdk1SYXpxUFlhbkVwV1hBX2NZWExWMTZZei1EN1Ntam9KVlBqdlJIaEZ1c0F4NjhMeFRaY1BIdEFxYzBETUtiRUxfc25GQ1lORW0ydXp6dU81Skc3U0V4ODFhZWkxZjA5aXAxN2lrajB2QWhpWGNWUWptMC1UYW9QOTlxT0xVTEZFbWZudGVKeG9nbWprMHVrY1VVZHFvZ2w2cElkakR4U0NJbnBWZ0h6R1BweDk5T2YtRldlMXN1RHZxOGlMODVINVB5ZzJJRHc?oc=5",
-        "date": "2026-06-10T16:53",
-        "source": "العربية",
-        "category": "文化"
-      },
-      {
-        "title": "サウジアラビア、第2代正統カリフ・ウマル・イブン・アル=ハッターブの名前が刻まれた岩石遺跡を発見",
-        "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQeDRseW9xcXFyZmdQLWdlbTU4Qmw1RFd5YkZieWVaLTl0NG1GVjA5TE5kcHd0eXBoa1duNmRJR1pSajgzTVQ0ZC1ONjBNZU1YdEYxX012Y2lqY2lyQW1QRHRudS1ManFvSV8tWmc5N2hlTUM1WThfOUlPQkVqQk5Mang4X0Q3OXNYTEFtVEhfd1Bpcjd6OW92QkZDRG94V3FqUmp0UmlFcDJHRHp6U1dCTDZ5ODZGQmpFYkxFeDlXQmk0cTU2VGZHbHFnZGx0WC01bEVWQjdQUkpFM0M2cTZMblVHdjI3bF9zRTBRMUNwTWV1clo5T2JxenJQRnoyM3hvcE9ZaGhhMHN6T0M5Y0g4bUN3QnItbnN3TTREM1MwekFHOHlWMUZ3d0tKZmpHOWVmcVpaVEFhQWtjaXNLNjNMWmRFdmhFSXI3OGs40gHQAkFVX3lxTE5GekVKaHIzQWVJOVo2empYTUg0YWhlUjFKV2lmQXljbUdqcXFEUDIyUC1FbUdRNTZyRFNPQlJfVHY1NDcxSFBEb1BEYW5KYWpqbkFvTVRmN3U2SWxjUm8zWFUzWnREUFgwbjRjeGxReUdhMlFCcUwyOHNDUEx6NS1raVVkNk0weER1V3BKQ1hRMnktMEFTX084SVdUU1g2MDZxWGVMU0JyaW9NYmVpR3EyMU02SEhGSGdkbzNhLW5NWEsxcVdwdTJ4aWg0YldIbkFLdExRZkxvR20xMkJtclJjR3E2Z1FoU0diZnRyUlNzcUhlcVduN1M5OFVtMEZFVUcwZzJvTFFpVmQ0RFU1X1ZWNVVRdElyVFc1cUdtR3VpdkUwWnU0bzg0cGtkbS1acnRqQnJSa21uaTl2MXBLcWRPUkRjWHJUWWZ5cWlOMmN6Yw?oc=5",
-        "date": "2026-06-10T15:10",
-        "source": "الجزيرة نت",
-        "category": "文化"
-      },
-      {
-        "title": "サウジアラビア主要株価指数、0.92%下落で取引終了",
-        "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxOdjl6V1lpeXotcmZnSmd0TllnQ0lLVWJwY25DT0MyUzZIcHVaS1R5ZTFHdzNzbnkxeERYUGNBb2ViYlhQa2M2UGFGVnhmODY5UVNnRnpCdmV0eXB3bktyUGRIay1KUzRDT3ZOb2kzQi1zUTRwb2tCTzgtUmFmU296UW9qY3VOc0R1YjJvLVE3N0pyd2hxRV9RVmtJd1Zxb0Qwem8wNno0V0RFZ28xOFhBQmxXVVBXc0h0SXdKSGZLMjdLMWdPYzdxampxUFJOTmV1LW9LWDdRMzJEcTNWdUhTZUowaGlteEVKT0JOTGxyTWl2ajlKV2RRbHBicHd6aDJoV1hmR3JKWDFTQlNxdWpiWDdVREp4LXcwQXRudjFUOU95MTIwSHVILW0wYjQycnIwX2Fjb2p0a0dEcUJpeFdJUE5OOEhudEJTSllvRkpfRVpENGowRWVsejJtVEpsTzBuT19raU5DZFVqVkNBNFVFQnpkZGpXeXBibDJ3UGNxZkJnSGxHTjFfVXp2WGF1NnNndWVYbTIxV1lRZWN0QXVpVGV2UVJUR2taTHZMTXNYTjV5Um5kTUpJ?oc=5",
-        "date": "2026-06-10T13:46",
-        "source": "الشرق الأوسط",
-        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-06-11T17:14:14.310012+03:00",
+    "lastUpdated": "2026-06-11T21:41:01.306078+03:00",
     "items": [
       {
         "title": "バルセロナが注目、サウジアラビアも関心。ケインはバイエルンを驚かせるか？",
@@ -286,6 +286,13 @@
         "title": "ラテンの奇跡、欧州の壁…サウジアラビアはW杯でライバルにどう挑む？",
         "url": "https://news.google.com/rss/articles/CBMimARBVV95cUxNa19YdldNRUhQOWZiOVNPQ3FLcmMtVGZ1eXR6X08ycDJ2T3VtTThEbW1pdHhzdUxHWGpIYjdSQkFKMThkRXhwby0xMUFYd3cxYTZQeGNwdnBaWktBQ0lRVS1mR3U5TUhSZkZ6cTEyR2thQmNEdHlQb1Q3NF95aFJraHR1V1FOdWJJTWRHbEdycEIwRXh0eWVJOXg2OUhYX29ZTUF1VTBzTWdqdnh5ZnBRUXM5ajhtU1lFa2pPVDIyd1JyMFFxWU45ME1WYkY1UGFSZDdVRGRrblEtRjc4TkdPVFg2V0xfUWJZZVV4YVJ0LVpBUW16cGk3MHJWUmtsczBmeTNaVVRQeFA0QmwtcVJnNzRFSC1jRUdTSlJEV0Q1NFBEV2p2N05SZ1FzWGhjWm1hd0QzOW51bzkweUNoVWFoLUVySWVhMGxFNndGVWotS3BWNnRqS0pVNndQWkFHUWV6TEFBUE9Pdm44NlBvcV9USVM0WnhOWjgtU2RlQ2VPZ2xxQVE5ZjI0ek14X3JUVmREVUVPV0FuNlp3WnRxRkY1cEhwNEY5VXNoS1FTV0pWODI0WXFCdXh0dU5HMkNZZm0xcTRKLXA2Z3Jsc1drbkhwRG5xckJKY1Fqb3ZudlpYdFpSVnhUN3RLcmZKQWRKX0ttN0xTNUpWcHhSYzZNRDdmSFJEeXZSYnR0U0pZR2M0azFtWTZMdlVGdg?oc=5",
         "date": "2026-06-11T09:29",
+        "source": "Goal.com",
+        "category": "スポーツ"
+      },
+      {
+        "title": "ワールドカップのアラブ勢は苦戦、アルゼンチンは重圧に喘ぐ。「グリーン」は幻の勝利に囚われている。",
+        "url": "https://news.google.com/rss/articles/CBMizAVBVV95cUxPRmxKMW9GS1o5N0VOOUtCTzdoaEh3MjhjVFBSdVZQcTRjemNSSlp3U3ZhdFZEZnlkRnNmekRxdW1iMDd2Nl9FZFIzMnNESktvV1RkOE50T3loZE1pTnJCTGtkRjFXenVXaVU5dklOcnRyaHFQbmI5OWc4UFBWaEwwVmotbmpKeGQ0SGI0Z2RKZzYzbVM3eFh2UTE2bDZqSzdHSUxSVnd3dkxVUHU4R3ZHeEJfVWJ5dUZPYWcxbUFXLXljeXVNMU96cFlINzRzRGNTUXktNnNvWWNoWXBxYkZTVWNxZ0J3Z19TLUlkN2NERUNzcWhwM1VYWTV2cW91OGNXeTdGeC1kYnBCYzZQMEZLRV9RMXB5Ukl3WnpuV25mSFFkTHZkQlNGUVViQm83aHZDTnA0S3lHQUxtaXVkYzRPTjJBc1NkUGFhRTdnOWxkYnJKMW9ReEtjbVRzcklYOHdBTWVGV3RnWVFvV19fekp1a0c3ZTVaZVdmWUJkTjVuV2ptRXJmeWVHNVNHOHdyRjZkLXN1azlqdmNidzhQb3ZFYU95a3pGTklZZnB6cF8yQTZPYk5xeEhwSDc3UzdJeU5SREEzYmZyZ3RqMWRidmVRZkxFNHE3bDFpcXlGcmZGcWI1emlacXNhTkQ4SV9rTGhENm95SjBJTGYyeGhoVEJUS0JqM1R3SDNtMWpOT1VIbDRuejkxUUZwWnlrdkZ2NmpaMFROSUdyTWJuZktYRTQydURkVk1FSlhPN1diX1VLdWlXQ3pCWlZyNFZFMUVuc0RWcGhlSDQtTG56ZmFIX1p4Z2lXZzlVZXVrd3Q4TThQZFh0U2tJWWhxeHFhTTlqbDBSelpPR2FkdFFBdXJkYjFIWF83aFFkbDdRU3Q1SnVZN01VUU9yTlV1RFlFdno5OWwzS1Ytckd2N3NGWW9DWnhlU1JLODlRbmdTSjA1dA?oc=5",
+        "date": "2026-06-11T07:49",
         "source": "Goal.com",
         "category": "スポーツ"
       },
@@ -335,13 +342,6 @@
         "title": "一方はアラブ諸国に苦戦し、もう一方は親善試合すら行っていない。サウジアラビアのライバルたちは2026年ワールドカップにどう備えているのか？",
         "url": "https://news.google.com/rss/articles/CBMiwAdBVV95cUxNelBESm5aSjlpZUVzUC04RDNEUVZaVUN6MmJTV202Nm9pOWJpbjRfMk5YYTBCTHFuc3NNaXRybDNuaGIwdTFDR18zY0kxU0xvZmkwWWxyeFF2dG8tTnZ6ck9MbGM4RXFXcHBPU1l5TTZ0R1VhUkxyMW5Od1gwZG5iVmRyWV9QdG9YVU5TUG9PX2hod294Ym1jVTNoVEl5MzMwZnpXRXFvNTl6RUFJTHBaVnFFSDhUeHZkRDR0ZjhlOHdfUUJPcVM5UVBSMS1WejVRY3FCam1OTF9hQ3FoLW42LVhRbWFjcnhUV1EyRmpnU1VldUlUYmJJZ1NfaTIwQ3JpaTdCV3pLRm9kVWp1SHpQbGlBSXI1N3Jfd0wxU284VlZkNU9VTWdRdndQV1QyWVE4Tmg1WUt4UVpNQmZLREhmdWQzV0xpOVQwYUpnMXVXVzItVWNHa2ZqVmxkUHJCR01fQkhTRWlacjJYZ0VPdUJOTUtjaHh1cnloX2lDSktEQVNTaUp3V3hrOVVkQkRKbEtJWDFDeG9BSXZNQ0RHb3BhQ2tQVmxFR1FrV1o4VzNsWnBYSHEwZERaRkY2RUhoeDQ3RGlzRlh1S09OV1BiQ2FUMkwzLUtKZnBfcmxKNGZXbHQ3WXRFTWwyVXJRdWk4b29nSFFUUlQ4c0Jqekd6V2QtcXduMS1tc1RtTmVYMmVNRm12dVJzeEtVclJNRkl5MWRQWlVzWkdEcXhKc0dvZTFUaGlmV1drR1lkVmk0Zzl4SHd0dDRGY1U3ZnoxZ18zUEZOdW44Y3d5T1ozQnJ5R3Y1RUJDVUhHOFVlZXQ1bVZ6NlBrQ1U3bml5UXRuNDFDLTBlbWhjRUgydkE1VFNUelJhakF2RXB2Mmx1S2R1WXBkRHNPZVpSMWZkbnFlN3poOGc1ZjNhYURVWXpzMlJMMzVOODNjdFQ5ODZGbndta19vMERiSXdYNTFmb19ic1BnaFAyc1E1aVBmUUpYSzlFdmIyVTZlbEE5OGwxTFNNNE1IQVY5SDRiUXcyN2NuN2ZpaENKRnFCNUJLSlpsVG1uVEl2Y293NXN2aUVJbUFtOGdQWmh4OVF5eDRURWowTXl4ODZGR3BramJRLXU5YkpPNDM1c3VBZWt3RnFYeXpTZGt1VlpnVlRLdjNJNG52MVJ3WlQtQmxUVXJDRUJvVF84a09MS1BndjVoMkFydDlmSzZiMGFpY0tSLWllTWFXRk9tOUNReWxCeWdRczdZUkhpUzdFTllnZDFFZ3NzWjFQcmUxVHM?oc=5",
         "date": "2026-06-10T14:55",
-        "source": "Goal.com",
-        "category": "スポーツ"
-      },
-      {
-        "title": "回復したのに、なぜアル＝アクディはサウジアラビア対セネガルの親善試合に出なかったのか？",
-        "url": "https://news.google.com/rss/articles/CBMiqgVBVV95cUxPeDBoUXhKR3J5aVo2MGRfWmNPNzRXMWNoeC1Eb0xsMFl2aVVMTW9BMHJydnJGSDVjY0lXSnBBc3oyZENBTUVwVnpIbmRhb21TWjFoNk9LbFEzNXhZck5lYnNKR21MSGNIckRiMjJDQTg3am80cktiZDNFM0ZydVU1MUZOdVM3dlJwelVrV25jQ09yVWN6UExxVG0tT1RBVHQyVW9jblVUWUcwSUpBUW5hSjBQQlR1TndaSlVNVFdXMHJDaURHLS1yWHVDT1lBQ1U2aXNpQkZsa2NPUXRUZkhNRHlFSTBrOE9peFphdi1xWkdpbWNVMUZJektVY3VrZ3pIOEQtTGt6c3kyU09mMTZXRnlMcDM4NmVjaVlybFUtYVFEUF9yQVN0Mm1CYlJBSDZaSGZnUmZQRG8xZEw5RWM1RlBvR2V3Z196ZVpGeVZDcEhwSVBkcUIyVnZ4WGloQ3dTNEhpSXdycktMU0xEbmVIVUEwRFZJYjhnWUVCaWhqRjZPYlVEXzRnT1psclBsYWRSdTNmN3hhZ3ZTbVFxdU5oX3ozVXh2bjl6UUNUQzd3Q1JSdFdUdzN5alVRZnRTYkI4MzdCWERRN0ZBR0FwWmdVaThXQmkxZklfLUduSjNicUVnN3VTRlE4VG56alVTNHRHMkc5T0FMY194U0hkWXN2X1hJaXB6WFktV3lVWFJhZndiYTIzX0JfcWtHX2lFdjZDeWhHLWdkRkJBdVZNeS1sUDFNdEIyOFZ3RmdteGg3TmE3MkhlZVlDTnIzRFJoVDF4aWVrdTBNRS1pOU1VYjdVQU1RU1QtTDA4QlRfZ0k2alpVQlhOSGJfYzEtWHpOWjBvU0l3dnloaC1uMXVrS1FyVXd1cl9xc3U1WWZTQnVjLW05THVhVWlBY0lR?oc=5",
-        "date": "2026-06-10T14:02",
         "source": "Goal.com",
         "category": "スポーツ"
       }
