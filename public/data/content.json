@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-06-18T21:21:10.424054+03:00",
+  "lastCollected": "2026-06-19T16:53:27.963643+03:00",
   "security": {
-    "lastUpdated": "2026-06-18T21:21:10.424054+03:00",
+    "lastUpdated": "2026-06-19T16:53:27.963643+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -38,7 +38,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-06-18T21:21:10.424054+03:00",
+    "lastUpdated": "2026-06-19T16:53:27.963643+03:00",
     "items": [
       {
         "title": "旅券手数料の改定について",
@@ -93,7 +93,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -109,7 +109,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988294.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -123,8 +123,22 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-06-18T21:21:10.424054+03:00",
+    "lastUpdated": "2026-06-19T16:53:27.963643+03:00",
     "items": [
+      {
+        "title": "サウジアラビアで結合双生児の分離手術成功",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVkc3WUJRVW12YWdJOVdabW8zOTlfeEc2TXdYSFh6WE9acWh1TFFlVUhUUWYtQ2xCRG41Yng3aFU4eDFwUVRWbjViQzdkaWpWdDlfaC1XUV83T3I4UlRXakoyV3ZNWFpvMHh3cXBGRUJrZzl5WjA1MFFWSTlQR2FfYmtRc3QtWXBmajludThXc3plVHBsMjJwZDBZZWNPMEFtbEFFV0FIZ044UdIBrwFBVV95cUxOc1Z1Tm5Wb1ZFRTJkZXFia09FUkNIODdsb1JIUlA1V2toZXRvbkllT0h1YWljeWhQRExXUGpXeHhEOWZIc2lGTlRWa2FjLXBqQ2haVmE4ajZDTEN0VzlNN0hua3JRNGtFN3lJNkNmdE9UM2tSSm9TWDNTRmo0a3JvaldaSkZUZTJVQzhkM2U4SV91ZWlUa0NlQUVGQk53Mmlva3hqOGdjelZkdmtDbjNN?oc=5",
+        "date": "2026-06-18T21:09",
+        "source": "Al Jazeera",
+        "category": "社会"
+      },
+      {
+        "title": "スペイン・ナバンティア社、サウジアラビア向け6番目のコルベット艦を進水",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUlFiX1lqazhVSG9JSTdpMExzUlZTdEN6bWxvTTduT0JVZmdQUjF2aGs2ZnlhM0N3S1gtanJzV0RjX0dnTFBxTWxkUTVDRmVHRUh5aGxKdmpQTDBjbXVKTHVpYnBMNUtWSGpOTmFweEpUc3FZTW9QT08yUFhvYV81YTRiM25UcG92b0hBZU1pc1F2SkZRdWRoR2FLUklGWHRIRW4yaG1zZ29JV0tqR1laXzlaNzVudw?oc=5",
+        "date": "2026-06-18T20:03",
+        "source": "navalnews.com",
+        "category": "経済"
+      },
       {
         "title": "ヘザーウィック・スタジオ、サウジアラビアの砂漠に天体観測施設を計画",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZXZmZjBwNTRCUk0yMmFvSkd0dlk3QnFDSXVOQzBRVGtSUjZsRDFJdjQtUl9Bb01IODNvODRkTnkxZVNZazM2NE94dFF0N001OW5RRkZyMjg0TVZOdXFGQ1NubXNubVA0cmdyRkg1WGwzNEdid1prMjBKTXc2UU9JRTY2UHFoN3diaVpnWXl3TDVYODVnSm1lc0hJa2NnUGxoaUx2QXpGeWE0eTVIMEhXRzlBTDBNMXY0?oc=5",
@@ -133,7 +147,7 @@
         "category": "文化"
       },
       {
-        "title": "サウジアラビアの石油タンカー3隻、ホルムズ海峡を通過　積み荷は600万バレル",
+        "title": "サウジアラビアの石油タンカー3隻、ホルムズ海峡を通過",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR1BzSEY4MW1GRVJ0MjZXUHRldHFiMUk4ekhzOXlGdzJYd0ZvcEFja0pkeC10ZWoxZFdDUFpNVjRseWFlWnRPaEVveTMzNjJBUnVxNm54b3lYOGFZYlNocmxNeDR2OGFfeGNzVURtaDdkQ3ZRMmlUalpwRERXODVqNU9YZUxBU1RYWXZxMmZ2SWZFQmQtdnVB0gGcAUFVX3lxTFBzZDFUdDg5enNHOEJRRnRWUjctaFJtczd5cUQzMmZTZ2FwMUtrR0FxNlY0cEdPUzdRWmhLeEFLZkNxS0RDNk1xUGxZeldOWGJJQ1B4OEo3Tk5EVWVHSEhhbTFseTZjY0NkSkpxYjMwY1ZJWUVLWHdWY002dnNLbHdUajNSeWUtRE1zcTF5ODFZTUc4YlRRcGpodHp0SQ?oc=5",
         "date": "2026-06-18T14:51",
         "source": "CNBC",
@@ -147,6 +161,13 @@
         "category": "政治"
       },
       {
+        "title": "米国を含む9カ国がベルサイユ平和覚書に署名 ホルムズ海峡の安定化と中東情勢の転機",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkMThiS0E5b01KdzhKbUZHaEJJVDZ2NzF6aTNpT2lyNm43MkgwbDNTUnVPX21hSk8xMFYwOWZYMFdMYnVWUU0yNENvbzliOUR1NDM3akFRLXlIR1c1dUEwSmVxNE5ZMFZmaFlMdzBR?oc=5",
+        "date": "2026-06-18T13:46",
+        "source": "Travel And Tour World",
+        "category": "政治"
+      },
+      {
         "title": "サウジアラビア株式市場が上昇で終了 タダウル総合指数は0.06%上げ",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZlZZanNuTjlhR0ZaMjZFbzgwcXFlbU43OWhRcm1zTDI4cGpkcExQZTYxX2xHY042VFVNcnE3ejZBSUdTUmhBYXVmXzR3ekQ5MVg4a3d1bDVNR0FNWlNJQWpMXzYzSm9UbzBPTE0zSkRNckV0UUJ0NDRiOVRRY1hoeHJ3c2phM2JXU3JadkFrbjVUNkNfbDVVRFRqbEFhZUU0VHRYM3FVaXRLV2JpM1gzSy0wQ25kODhwUTFyX2lWWC1DSDh5?oc=5",
         "date": "2026-06-18T12:51",
@@ -154,14 +175,14 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビアとカタール、湾岸地域の地域冷房事業を拡大",
+        "title": "サウジアラビアとカタール、湾岸地域の事業パイプラインに地域冷房設備を追加",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZU5pOS1LMjdVVDZ4aGZyUjhuUk5RQkFrLWxlWnlPbUVoUkc4OFpBN1JfRnBYaGdaZURfc1RjMFp1NzRfaHhXYW03OVJycm5LTTZhalpraEw0c0U0TGhFd0hNV2xGYnZrUTVUcUlIS29GTmlsRmRSNHdVYmVSV2h0aXJ2bXRNWG1kYlZySm9fYjNpNEgzZS1sckFrTXdtXzNITkZ1RFFkZTRULWRROGdfRWNSdw?oc=5",
         "date": "2026-06-18T12:28",
         "source": "Bloomberg.com",
         "category": "経済"
       },
       {
-        "title": "サウジアラビアの政府系ファンド、欧州の規制が外国人投資家を圧迫していると警告",
+        "title": "サウジの政府系ファンド、欧州の規制が外国人投資家に悪影響と警告",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX1AxV2toR2FjeUt3WklsbEtIY2tnNW9KZDZYS1ZiR2FLQ3BvMXFLRkFsU1FCa1R5ZGxUamVMaTJuR24zY2ZGRHZaMlE1WmE5X1U2YkJXZGZvVWR4b2hhOVVPT196R1ZsQkw3RVB0WjFVcWhQOUNGUTMzYTZfY2c5VnlobkI?oc=5",
         "date": "2026-06-18T11:51",
         "source": "Financial Times",
@@ -173,33 +194,61 @@
         "date": "2026-06-18T11:51",
         "source": "Financial Times",
         "category": "経済"
-      },
-      {
-        "title": "サウジアラビアのテニス大会、建設予定の最新施設で開催へ",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPekQ3LVc1TklmbjVaTjF5Mm1XeC14UFZnOGdNTDNFLVVtQXpjYjlrVWNoSWVKZkVydUhpTlUzdTZwTE5ucnZSV3VOdXAtdXRTN2lIWXpSckRxSlRjM1U0VnhfNU1qa1ZZNDZoUmRIb2dwVTJTaWVOWlVvOXI1clJTaGNEa3ZTQ1puSjlHaER3SWh1SXBfbWM1ZWpFdEhoYTQ?oc=5",
-        "date": "2026-06-18T10:31",
-        "source": "The New York Times",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビアのアラムコ、イラン情勢受け石油備蓄能力の拡大を検討",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRVd1U0R1d0VpbzVoNi1MQ2ZReEVmOFplSFhJeFM5a3lRZ2VaWG52bjhGMlFST3c3T0VLdnp2MXBRLTgzWUg2SkdVeU9OWTNpSUsza2Q4ZTZhcVdxMmFUMHIxdDRUUnUyTjlDd2VVSUxfWFFDX21mZ2pMSFdLWF9pVmJjM3hVaGFGX1p4S3l0V2ZhSXlXbk9FVl9IdVV2S3lRcVpaOVZFdWRmZi1PZGtF?oc=5",
-        "date": "2026-06-18T09:58",
-        "source": "WSJ",
-        "category": "経済"
-      },
-      {
-        "title": "イラン、サウジアラビアとUAEの対立を巧みに利用",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX1BCdFRkcU5ZcGYyVnhBRC02ZEZ3dFFIa0pIQXhCdWotb3g1bGxUN1VVeXh6UXE1V1c4N1EtUGFWWHRDZlhyVlcySlpGNG9mOXpJMUZFekxoUWxicWNHbGl6dGpPZDZuSEhGMkVpOTVzNG1id0dXNGhGelFNbVJBeW9GYzI3WHZ6dkg0LTRNazVrRF9mbUlWVHh6bTlvd2JOUExWOEZR?oc=5",
-        "date": "2026-06-18T09:00",
-        "source": "Newsweek",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-06-18T21:21:10.424054+03:00",
+    "lastUpdated": "2026-06-19T16:53:27.963643+03:00",
     "items": [
+      {
+        "title": "BCGがサウジアラビア事業の縮小で数億ドルの損失に直面",
+        "url": "https://news.google.com/rss/articles/CBMi6ANBVV95cUxObWJXR1RlZ3VBcHpyb0dCcUNqWTM0UlBQZzM2RHhGTGVySThDZXBtRXZFVS1jbEFyeFpQUTBvWTlFQUFKVkRfVXJrVUV4aGdmRFl2S2R0V2JHcFVUX29sNi1wOE1WbmdjWElPb1k0S1pzREdjNEFJS3kwbEZVaFF4NVA3eVdPTkR0VEtaQ0d5TjA1NTdnU1ZhTXozVEhBMDdYaUNrTzN1bFdrQnNMWjVLa29UUjEzZjZDVWszX0dJb3BrbC1PeHFIdUdXYnpyNUZ4SmlpSGZNV1dpQTQwVC1JTTV4amEtb3ItaURzRzczZWp2ekszdXlsUWNrMmcxRkJKRjhpd0doWE9IaWF0ZDBldlVtR1VybG9TU2pBc0UwemVBLTFuckJka1dJVTNzRElrMW5kaHBwdlVNUGpBVnJ3Z09WeWpqbHlNeUpCVUcweHBkRk5fdnRWb2NpR1hXRnZad1hNbmYtQ1ptcmtmemNINWZjemtkWG9ybHprcFJlWTh3Z29qU2xsZ1IweTVpR0lpZ1VRV1ZZY2l2VkowdDY4OTdSVFJ2ZzlBeWkzU19lRFVjMWJjSWpCLUY3aFI4WmpaY2t6Njk3MFMzX3dGZE5tejE0NHJwYWgzR2RfWTloT1FyYWlNRnRFQQ?oc=5",
+        "date": "2026-06-19T13:45",
+        "source": "الشرق مع بلومبرغ",
+        "category": "経済"
+      },
+      {
+        "title": "レバノン大統領、サウジアラビアの新駐レバノン大使の信任状を受領",
+        "url": "https://news.google.com/rss/articles/CBMigAVBVV95cUxQbTFwc2E5SVdCM2ZDQXE3cFI4VjhKUE00YW84LXdvdnl2V1hGaGQtb3pzWmNubXlsdGVFNDJEZUtVMHpuZkw2eloyN0ttdVdrU01ncS1YUTlJSzZLY1ZucnJGLUF6Wi1PNDZqOXpucDdVX21pTnpKcktjS3BXNktJS2M2clNzQnN3ZndBZ2YxSEJVd3ZTd003VEE0NXZmbE55dm15OS1janhhTkgtMXFEbGozazBQOHpZZTgxU01semYzOTNPb1NwMkljY29EeU8yYmxTNWdhaUpIdF80ZEJZbkJ2dWZubTJ2Tm9PYm8ta0taV01hWm5Ob1hwOWtiVFN2SGJmVldXel91dDhJU3FIQ0d2aG95RGlrSENpRnR2dkVMRmEyZG1WRWtNVDFhamZYWGFTLWtDNnFyV1RoUGdSdGhFREVuLWFGa1l4YXExYkZLYldlZkNzLXQtSEVDUVNkWlhjRElTUk1WMDNHQ1JrVnFCc2kwWHBRSExxaFotYkFQTFZya3NxbnRwSkhKRE5rZ3dUckxkcUlNN2NiQjhCS1FZQzFkUnFsV28xSUwxb2pPT2NhMzM4UHpWV1ZFU2dOeXcxcmJwajUwcHhic3BmTjJHZUM1c2dqd0c4Z3FCM1p2eW0wWFNDLS0tWGlNSnh1VGdXOEVmQlk0U0I1T1YyZWsxbUNwTTNDWGtrTVhsb2o0Ym5yd2gydEk0WTNjYUZZdTg1S3lBX1BOSDVQZG94c3RkUkx2dk1SbXdZbTlfbnpQQ1VzaldRQUtkVkgzNE96b01FUkhyVHRHM1FzcnhWaG1xQ2thVEphd2hWano0SnlSWk50dE1SbUlNaDVIYl96?oc=5",
+        "date": "2026-06-19T13:33",
+        "source": "الشرق الأوسط",
+        "category": "政治"
+      },
+      {
+        "title": "TikTok、サウジアラビアで3カ月間に290万件の違反動画を削除",
+        "url": "https://news.google.com/rss/articles/CBMimwRBVV95cUxPRU93SEwtR0dOTV9LTXhjZlpIUWUyZFkxU2ZyMVRZODg5Qkd2cEg1WWxXWlhpekhDempqcnZ6enIyZFVqZ2E2NzBXRkc1dUpIbURJWXM2R2pXanF5UzkyUE1PNmhKYTJiU0JJdkMtRjRKNTJUX0JjVTRQYzhMSGZaYmJMd29tc1RVQlB1aU1DLW9odkpqc2dUenVUcVFHaUUxa044RjBTSjNFZm91dkFkVlZnRkJiajV2dHMtd3VVTFlrN0RXRXhtTUdRVXZiWF8xZU5udExrUTAxYWltQnROSHB4OE9TaXoyeU1fSmZBMnN2WUhVOEpGeWRLeUdQeHpPcHZxbTFTaG1fSUpnYWlURGh1R1ZaYVBVQmcxVnVCb0xzSzdVUDA3cG1nLW9NTE1IRDltZzQxbUQ1MGFSMWl1SkRHQkVDcTVSY2l6c25rOW1yRV96OGlBRmZkZjQtS1ZwTnRFZjFPUlRtRTNMTW1IX19WWjc0VjRFN3pNc2FKT3dmN2xpWExjTEZDUUVKVUdFMlRKVXlXSE44WS1rNUladUQ0emdlTnQ3YTA4NGM0ZEcwN3kxdVBXRmVRNEtmZkp0cVFnMUVGbkJHQk01akJWN3Q1WjlwdGUyaXNXMXhvZExZNjJNaVVjampKeHFnR2FOT2hSX3k2ME93S1JZQkRQWEdRQ01xaEFyUXVrcndaUldjdmIzckFUbVNhUQ?oc=5",
+        "date": "2026-06-19T12:30",
+        "source": "الشرق الأوسط",
+        "category": "経済"
+      },
+      {
+        "title": "イラン高官のサウジアラビア訪問、盛大な出迎えの映像が拡散",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc2hmWUNTMk9yYkswV3oyTGxLUl9VeWdyVlR0bksyci1ORW1vSmpzUmlrak9pNVZpamhLWTc5c0tZeVpYbFJheDdiR0RZWlNjaVlUbU5LS2w1emtzZmRpX3pVY2F6dEV2dTNramlERGg3THFTNzJxLTNUWmdCbEduWU50aWZkYWtsM2ZMcHpMMXowbEFRaXZaNmprejdmR1hqSFdMamVHZW5wME9MR3dYdUdyM1JUbVBYRlRBcnFwYUFmNmY4ajFVM9IB0wFBVV95cUxOMWxGYkJka2VHSUt3RnU3eUd1aGVoV3Bkb2szUkQ0bnpja0VySk9xZWZ3ZnRuSlc5blkzaHJmZmNsRVF5Mnd2Ui1UdFY3V2t6ZGR3YzhNX3VMM1prWkdHTkh1TkVlUWkyZXdNcUVtazVIbThlYkdzcjUyVWhYZlRITUs2aENCNWRvY2NRanRsWDJNbVJWazV1eGR5V0pqWExQdG1qQS14R3lQRXFBc01iN3ZIbGthcXpNbktBdDVYY01pYlEtclN3WlBfQjZfNC1YMmFN?oc=5",
+        "date": "2026-06-19T11:48",
+        "source": "CNN Arabic",
+        "category": "政治"
+      },
+      {
+        "title": "スペイン主力選手が負傷で離脱、サウジアラビア戦欠場へ",
+        "url": "https://news.google.com/rss/articles/CBMi-wNBVV95cUxQanFialdfVjllM2R4NmwwUU91QjJEdFk1MjlpOWVFZ2E0RUNqZVE3Y0wyd29SYVRxblVZRERaLTRYQm9aeExueGZGNmFMc3lISHdGeGloSDVCYW1Yd3ptQ2I2QzBMTDY2Rzcyc1FLS1UtMVlKczhrSHhJd0UtcU5sUzZlWHhFSW4teUpKLUZPem45SjY0NzQ1V2kxWEtxMFI4eTZXOWtDMHMxeHh5WVRPckQtU2hQYWxHel9Edm5KX3hBbGIyN3phN1JCUWZHSjNuRWRUQnlCcVY3MDdPQXpfeXFKYkNPdTB4bnlvZktEbS0xNXVUWnVXdGpPdEdZaWxzWUtMUU1oOGM3RGwyRURDMVJjSFlKVXA5UklzRkQ1eFRCZHJhQXpiZWRPdXV6a2hCSktYdV9FQkxueHY5N01rd1BXbUZaXzZfU3UyTU1ndkRESzl2ZjB3OUdiR2RNS0I0dWxhSE1rMWsyU0VDRzNFbzV2YjAxUHU1SE4zWkdubkU5UVVxMWdkX1JpNTFXU1g2RGJGUzlHQmxmU2FEM1V0bm83anR1anVMT1BZR056TkRMU29pbm1QV1FCTWItT0xMYUJNS2pvVWtzLVY1WWRvdF9aQVFBZG9iT2t4Snk3SmwwMFE2MDFaRThtMWVENXM0Tl9faTlaT0pyTTQ?oc=5",
+        "date": "2026-06-19T08:07",
+        "source": "Kooora",
+        "category": "スポーツ"
+      },
+      {
+        "title": "厚生労働省、無許可の健康施設の宣伝に関わった医療従事者に対する処分を開始",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44dXkzWWhMWVNCWGg1OEdFaXNQN0o1Q01lbm1lUWhaUG9jVGJLbVhVYk8tdTU1QVhOVmxaN0xfbWFicmN2aVZ0SmpnQ2lObWtna2hlZ0pnUUp2VV82STFj0gFUQVVfeXFMUGtCdjFnVG84eTJXbkR2d0hvM3hET3hiMDJ2cUNtQnVvV2I3TXdNTXFyYzV5ODJfVjdVbndyVjI5ZWpkYmZGQzItUFA3N0JNVGxOYldX?oc=5",
+        "date": "2026-06-18T19:22",
+        "source": "عكاظ",
+        "category": "社会"
+      },
+      {
+        "title": "ラミン・ヤマル先発へ スペイン対サウジアラビア戦で新布陣",
+        "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQOG9SbzU5TFNTdW5jOVdtX0xwTGtxd0wxRDJIZUIxYi1qRWF1eVhzWE83a3d0QTJxdDMwOTZBa1FyM1p3Y2Y0VWdMcGJHcnVpeEZQVFkwZ2cxM2lWQUw1M28tOElRV3dEQl9PN2Y3QVRKWnk3c2tSUGJuNkx2elJIclFveUNHajhSWGh4VFhpMkpzM2U0ZHUteFJRaHRsd3NOb2lLcWJfdUN1U1MxVUo1dWdTaEFFZWFaZUlmcjNwSUZYeDMwUGV2Si1EenFEekxKUUx1NHFMZk5KLWhTX2E5WmJMLWlmeFZsbEg4UGdSTEwyTlBxR3BueGtYbnVTdmxPc2txdzlmNzhtUU9HUXVOVm5rcEZPbmRSckFjZE1GdVBDZGZvYUFkRGNBSWpneUhRV0FNc0t1UFFrdldNMHNoN3RobnBGRG1NZUHSAc8CQVVfeXFMTUlmZzNpQlR1TGF4eWxBVW1HMThfUk1FUE9EeHY1MXBWc3BTUVRrSlU1eXgwQVRqOHpOU2xtWEpLX0ppb1hJNm5WQ01TNEVLaXQwSHA1ai1DRDJlRVpVUmstMEZicmlrVF9OVEZDNkhncGlPRHJWUnpxc0xwSHNpUW5uSlZZV3JjT1J2bXA0aVdJeUxXRlV6NkM1QTVuUlg4Rkg2S0pWR2VUMjZXQ0tvajBTa1dYWFoyajNRWG9PS2hDQzd5ajA1aGU3eTNlY0Z1MWp2OVJ0QWNWLTBzZ3hxYmFFTmlPVjdCUVltaGhnSWlrSTRfSEpmS0twSGx4UDZ5N1F4c1ZuYTQ0VnZpRzJGQTB6NktQS1dkR3lXOUg4VFd2Vy1OaUlDbEp1TjlsZEM1R2RfRlUtaUxsUnY3amR4aERxQ2YwV1M3UENUSDBxVGc?oc=5",
+        "date": "2026-06-18T18:34",
+        "source": "الجزيرة نت",
+        "category": "スポーツ"
+      },
       {
         "title": "オウイス選手、スペイン戦前にサウジアラビアのファンを魅了",
         "url": "https://news.google.com/rss/articles/CBMi3ARBVV95cUxPaDdGa0lwZWphX3dRanZfX3AwdGs2OTFTaTdnb2xUcnRzeFhjbkllQ3FqN2tucmFiWVNKdW04dmdzOUQ1OE04RFlUTU1Ucm95dmNfTURQTUNPN2JJQlBwNEpwSnNfOGFyc2Zha1paYmN3b0FVTmxidVlKLUg1c1pHZEtZQzBHcUE4Yy0tOEVwbUgyMXVhckpmMmp2RXh1LTU0V1EzcDQ3TUFMSGdQVjlpRG1hcmh6VVhOMkM0UzJMaklJaUQ0SDlidnNDMjMxX0RwNjJpQlE5S1BuNXBjMFQtT2p0RjlJWjdhQ3pURWt5SXU0cGw1bWt4R1ExSGI2cG1uUl85VmRhbnFfdlhJWkJwRW9BQ1JMOU1haURieGtBXzZXbGlIVE5uSW5XWFNTSjBNX1d0MnZMUjFkSjg0YWtXMEgyZ1dIcEdBcWZMdE9JVlkyQnBFTkdGaE5qRHNheU1HS0Q1emlwUDJxVWhDZ1JVd3hTUWh6ek92b28wNmpHUmk1dXY2UFQ5THZhQ3JiTHZ4OFJTR3BnbWNodjJCeHdSS1hXWnJsTEMwRG9hUWlaUWRRMFh1NFNiTWtlRnBycE9wbTZDSkVGcFk5bF8xcUdJWktGaWpqRzdncmZyNE1IajlCbWszTlNoMTlfUlhlSEVSeWtuLTgyWGVUT1hIajE2TGdPYXRYY1JBYnZYXzk3YlFHMXI4dldQcDhBOXFYbDRrWVlRNDZkX29VQkZobktRZzdfdTE1VDgtUFFFWTZGbFFYaktsOW9BS0RxaERRUkgxT0lzd0tuN3Y2UlFP?oc=5",
@@ -208,73 +257,38 @@
         "category": "スポーツ"
       },
       {
+        "title": "サウジアラビア化学大手、医薬品マーケティング業務でGSKと提携",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBENUo1eWtXSXktS3lQMGVjT2F2MGZ1SjJUREs4eHpwYUozVjVkUGM4UnVoVU0yU3BOX0lteTFPNTNPMDlPTEo4Vkdaa05EaEMxWTYyYl9EZjBjdjUyNjF3c2tuQ2JhOHM4cEE?oc=5",
+        "date": "2026-06-18T18:09",
+        "source": "أرقام",
+        "category": "経済"
+      },
+      {
         "title": "サウジアラビア、平和と共存の文化を世界に広げる模範国として",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBtWWlJTzNiOHVNdUZKTW1rUlRhb0dNV3VSUE5GZllaSmtnYTFpNnpnXzh6UTUzNHFKcEFCSkhXZ3g1SEpmMXJv?oc=5",
         "date": "2026-06-18T18:00",
         "source": "صحيفة سبق الإلكترونية",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、2026年サイバーセキュリティ指数で首位を維持",
-        "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxNZEdENktnQ0JYT2kwcTUzamJQczhDdlVvQ3hRNmFVNU9UdlFPR0R3TlhZbEZ6NER2bVhWY3dUR0NoSjdmUFBfdnNMSzdNbkZaVEEyMGV4MzA1azkxUy1adWJ0MlVtcm94d0pCMmxUekh5SExvdWl4bFNPT1NTb3NnVkZSUEY4ODhSMWdSYUNBaXBPSF83d25KelJvN1BocDE4MlBILS1XbE04QmlxbWx1U1FMeVdxWjFhR0JIaXhMSnNmdlQxN0hBMFprWEFNekw5SFVwVkMzbERmRldseUZ0dGZ3eTBpS2pHT2dkNm12NHRtRVM3YnFfRUREZTdBSG5WaThZYkhZc29MN3JtUnlwQzZhX3JMUWxSZzR2REhkNGhtWTNWVU9NU3FWdHU1TWxiQmVzNlFVSVVrcFpsY0ZPRUVuTzZST3RYbEhCV2RGRjZmRlMtNFg0a0ZFRG1ZNmFCYU9ZRVBoX21GNlRCWU1ZRlNQVHc3NUNNTWVxcTNiWV8wRTRWYzM0VHdNbDQtYk1reldEYWxsTUpBWjBFX21uelBOWGlrQnNKdlVpRHc0MEZrR2toaGItWGVnYV9KczdvU0JRTmRld9IBzANBVV95cUxPUVA0azhHX2tDbVIyUjFFZjNIcFBNenRxTVBpeE5CeFdtcW1jUHFUcURhX2NIMXZ3alhIUjRETGphSDI4S21OV2dkVmpUUDEyNHJNTGVpZ1V1bEtaLUVIbDk5NjdLNFZBQWYyZ3FqSnFYcGE4RDVRVmdBWUlkQTcwNEdUcTZuSlY3aU83YmdXQXRxRzJuQ0dsNDlwTnVMWW5qR0pwSmdTNjB0RUxWTzlRQ2Rpcjc5ZnlBaEtwZTkzbDdNbkNIWEFFT09BaGU0VEM4ZVg3MGVtUXQwdUdlTU0yZ0R3VHVYR1lCN09xMXp4SFEwbkFrdWV5TjFOcWpzMkpCb2t0LV9CVXVvaVJHNGZLcWZPLVNkWDVDTGs2Y3FTeDMwMmFkUlM2eUthVUhrTVJGa2J5LThhZlE0eS1HODVyMzk3eEdFdk1BTGlBYWpJVnZ1bHhmZ1ZQV1p3aWY4UnVNOGFiLUVpQTRJTF9qdnowMnVVTFdobFAwX2RybU1EU1QyVWt2cmE4NmdJNC1qR2N2QjIwRVhQWkM2LUhpekVJblUtOFloOWdJUkxXV3FmTEtoUGpNUkYza1VEOUNmb01JSjF6MHdmcko0TjJY?oc=5",
-        "date": "2026-06-18T17:53",
-        "source": "العربية",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、2030年までに観光産業で25万人の雇用創出を目指す",
-        "url": "https://news.google.com/rss/articles/CBMiygNBVV95cUxPclpUX2NyaXJFQWx6NC1kRjN0eGhLZk1GT21kbWJnTVJlSGRldjhFNTJycUVwY3p3WXFEWFFiQjd2Mjc0YzdoYjY2OVhpeElBeHFISFozQ0Q0UjJWZkZjYWpDdDQ1V3g5cnVBNFoyb2lPNkp2VklqdWNHRlh6djZmMHVlVUp3OVZPUDFSTzJKMTZ6VFc2NV8xckJpNkd4T0FvR2JDQUlGRGx5SmU5ZmZ5Q29oTjhoUGhGeE1sSmFBNU1TUzNjSEROOHBmbUdia2VjZlpwbmQwNnAwczl2Rnl0N2ZNblNsYm13SUN1WG5TNjRpa3h4VFdNWnc4Wk03cTNxMXh6dEVJNzdPUmFkNFV0ME44QmtZSUlNdC1BTTAtTEdPYW9SMm5PRFpHZFh5eDBYemhrMU1VMFVDQUFFT29LRkU1YW5kdDRYd0FMemNtM3FvRENUSW5GSkVHVkFZZWtTc0ZjMmROb0xUX1dwMzFNSWlNVjZ0TXRNUlh1QmptQmNqbnUySXl0Q0xhTWVkdGc5X1hucjYzZ3dRMWF6Zkc1VWNTMFBLNkZsc2pUTjZjekN4ZFI2aDBOMmJYdlFNZExTWGRHT1N1bXRpdw?oc=5",
-        "date": "2026-06-18T16:22",
-        "source": "الشرق مع بلومبرغ",
-        "category": "経済"
-      },
-      {
-        "title": "ブラジル人主審ラファエル・クラウス、サウジアラビア対スペイン戦を担当",
-        "url": "https://news.google.com/rss/articles/CBMi_gRBVV95cUxNZXR4MEFTTnVpamlqV3hRZnhIZmJQRWVoSUh1MVBUZGFBWGtwWDFKcld5VVFxX2NMVG44cE1sZVpCWFRncjdNRFdKamRqZ0RrVkFvYzV3eFI4REZrVUlSVWFZdF8yazBEN1JpbVFIbzQ4MTA5eHd2c1VkOXBzOXVjbW5Qc0dLZ1c1TmR0UUNpX3dPZGRHeWVpTzJ4eDBRZlBfakNPMkdKaVJpNUo2Z3BzX2JFbk1yUUQzZkhnODRpTFpERk9kNS04VnhsZVlEZWhoWFU0LUhNM284aS1pRnlsSjJQa0xiUEpDNS1tMGFpOVB1Nk9nQmxRaFl6dmJfZG1ZM0hLdVZtdkwxc3p2Tm9NTERMclpTaks5VFgzU3F0YVVKbUtpUERVUkhGQUVTWm52Z1NDVVFJZTVtM2s1X2F2Z0h5ZlozRmFzR2QxZWRMdGNEN2J0ZmtGVlM1NC1MUnh0RWRnQ193MGZNSHB2MHVXTkEtSE16b1FFV0E2WVZSaTRPeVJYRmdlYzNsRjFkUF9neHdoeXp4NDQ2dUdSRldMbGhnRkl0MEtnV0w5THpfd2YxWk1IV3h5UWZ3elZ0dC1FRHlaZ2ZXVERDQzQ5ZWM1Sld1UVFiOWRIMkx5WWh2UjZqSklHYlptaGpMMHNNbFJVVnpJMXU1blZoR3UwZDlYOTZnZ0F1VHladnFVX2xRZUlULTNTUXNrY0pVYTFoeThzUU5XclVnQmpMRmNUV3FBbWdFRlp0dVNMakF3Z2NPTHJLdmN0N1MtOFFvdEFrRHBZYWlKM0NmU1kyVDNILTZONFpWd3p4QmIyWEh4OURSemg1VVRwRkpFQXdYMUlPQQ?oc=5",
-        "date": "2026-06-18T15:08",
-        "source": "الشرق الأوسط",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア株価指数、11121ポイントで取引終了",
-        "url": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxQSW55bEVma3VTWmJicTRSaW9xT00tWFYwdENqdUJJaGVmU3FjWmV3UWVpRm9YbVpmQVVWdnBPbWZSZXczanVHYVdJWTU3TjE2MHFyOXZ3a3h5RVQ1MUp1TW5JaFliazBNOXF0YTVwNVRKZVE4alVJamNEWEQ3SlJ3QkFmRTN5NHFtbGRTejViSC0waHVtYWh1NVQwTEhyLUQwcjgtdTRhcnFpYTBWQkxLZUprX3dXX3FBTlJYVzVYWU1TZXkwLXY5MHBKRzRzN1lPdjl4S3NnV2I0S2d4dFBFWmM5TlBNaE5vOGZCc0hJMFhoVUFjZUxnWkVmUV9CVHZXTW9oa3piMXIwUzFaTDVlcjk2RXVyMExOQ1lCNS1XQWhQQkR6bmVjNTdTV1dGYnJtU2xmQjBfN2FKMzNlS00wS2tKaF9tUUYxMVoyUDd2NmZmdVRtZnAzUWVBSkY3ZmdodnFGUEU5WUJ1cmU1WmUzbHdlNjRfQU93WTFzRlB2WGNWQUo5VEQ3X3lpWTJUdURYQ2wtMGFPY0x6Qk42alZ0Z0JiRFQycWx3WFVnVE5nb0t0YWVRLUxGMDZ3OHlTR2J0YVhrUWJCWWRSRU9rYmpHak9VRWpyLWNtb1HSAd8DQVVfeXFMTm9KUU00VVQxWjYySjh4R1B2b1hsUVg2SUxaTVNDZHRNaEozVXNxV2NiTUJBRHZ4ZkVHTGZzZUEwdXdiQ1VBMTNxSWI1TWM3ZXJkMDhNamVmbGp2Rkg4TVFPQ0RPeWdtOVpYZFpkd2l6RUlMaEVtMzdkTUNZc0hPWVdIT3BpUGMwZ2txbjRlVU1zZ0d2alF2eEozRVBtakp2MjJTSm9acTZYdHphSlJGVGlxd0dTZlZFR1V0MkpOVWt0Z2xlRGIxN2x3ZzdTYjQ5X2I0TWJta2tkczdYc3pacUtGV3Z2UDhMZV9ISVl2QVVrUlo1dUZvWkV4NXEyYzk3WXlBLVo0cy1SRnNLQ3pKMTVkZXFQYTZrekdETGMtSmF6QVBSMm5wVktLcGt4U2ttbEV2R3ZDR0gwOGZUOU44VWY1WllyUzg4eTd6dUQyRTBuc3BwRnhZV25MNUtiWV9uUm1USXMwN2xWdlBZTS1COGZrOXZqT0xETkc2cDI4bk41OVpEVWd2NU1iT1dFMGd6YVFhamphSi1zTW9NQjlYU2lmRURrb0JiWDZQX3U0SnliLThabE8xQnpDZ2JkMTdQUWhnaUlUYjBTd3dIWWdZMWlGckQ2Q0xPNXZSOHBTcEU?oc=5",
-        "date": "2026-06-18T13:51",
-        "source": "العربية",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア株価指数、110億リアルの取引高で1万1121ポイントに上昇して取引終了",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1XMm5mU0w2NXl3eEpoSllLVDBpRG9FOFVDSkFFdndBVTd0TkhWQ3RMaURXTmlqcVVlOGQyb3FVb0F0ckJyOXpZ?oc=5",
-        "date": "2026-06-18T13:31",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラムコ、世界規模の貯蔵施設でエネルギー安全保障を強化",
-        "url": "https://news.google.com/rss/articles/CBMixgRBVV95cUxQX1RydGdzekJOV2pOTnd3UUhRakpnUnNyVU9JOVFob1pKS1hmalFDUXdTYTAxd3RhcjMtcEJrSjc5TFM0TkFTRW81QVRuVWpjLTRtOVNIdjZodGtmME5GZ3hpRzJUUlQtN1dXaHgyRDZqa3RaY1dSOFdUdmFZZDRDZkRRN05TY0IxZUl6SWdOcFhKNndWNlFjZTdnb0U2UmU5MXM1RXdaVUYyd0E5ODNGTHdtNDhyTTByTkVqeDRReVFDR3luWVRGaWpCbVNNeEc5RC1IRV9vek1PcDkyelFickw4ZHBsVlo2NXIwcUctNC0tV1psNjVPNldjbUpYTWd2a3UyTU9pcDdwRUotWGtfSlN0WUF3V25zOE5FYzFXUGt5ZEx0ZDFNMjlMYmVqQkxscXhCU3VRdGZPT1Fvb0V3N0NrYjZzQ3lTR0tHNHlsMEExVVBLYzFzMUVPVjExd2xfWXRuem92WTdzWlBmVGdkY3ZQSG1faEFoTzg1cWhsOTdXS2tCdlFTeGFKZEVuZExvU3BSTU9rNlhpZUl4bWlnLVdpOWRiNVliRzVyczFOUDB2aE80ZFRWNmlDemFycGlsYjVjTktlZjJjd2stZHN6dGpsWkJGT00tR29YY3N3eTJVX2Z4M1N4NjE0YklrbHBiSk9iVnl0VDBUT0lfUXFfRVhmLU0xVlZET0psWXlXSm8tMzVxeFVIUGVkcW83T29iQ1JXcnlJV1BsMUZjeXhndXVIMTBLaDNYVXl6ODZ1REotWEFmUlE?oc=5",
-        "date": "2026-06-18T13:27",
-        "source": "الشرق الأوسط",
-        "category": "経済"
-      },
-      {
-        "title": "パートナーシップ協定と家族憲章、サウジアラビアの企業統治を転換",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8wR185cTQwR1o2eV9JLXRjamtZdlVxZU5CUkM5bFR4YjdIT2t2YTdwZXUwTUMzVmgxNkxFbGdJRmRKeWppSDNBY3hNQmJsTTdLNjFORGgtc2lnbjhp0gFUQVVfeXFMTXhKOWgySHZTTkJweTJtY1AwLU1Ndzk3OU1sUzNJSy0ybksxRGlwN0pwWlBiMTl6c3hTWFVvcUxGNGk0c1h6aWJhUUVzRXNieC0xRHlN?oc=5",
-        "date": "2026-06-18T13:25",
-        "source": "عكاظ",
-        "category": "経済"
-      },
-      {
-        "title": "ホルムズ海峡、サウジアラビアの大型タンカーが初めて通航 合意成立後",
-        "url": "https://news.google.com/rss/articles/CBMilgRBVV95cUxONmJlckt1ZHBEN0Y2Yk1LeWxOcDJ6OENqSnRJMmhuRGQzWjE5UGxDVU5UU2NJVUhXb2dLVUlZYmtOLU9tVDR5bmE5X0JmSzFxWXlyaS1SbTVnZkVOekdvVmJJWEdyTUlDQllCeUNvUWdNUHZ2TDFNRjZLWlJiUFJFR0U2d2xBYTJnNHYtU0JYUXF1S1Fwbmp0bFh0THpmZkJKOGtSSkluUXNwa2hoaW51aXlzLXMwZXRHTnBydEtoZmh1alFINV90X0c4R0JYZWtYYk9WY2pXeHd2M3kxa0gzUEpSY2tOTkVYQjJHcGRBcDJqN3ByOG4waUZNMDNoYlJ3bnhYcVFKbEc2ZDJjMWhuSzZGTFpicU44QjFFejFCa3ZVUHdGdlVDaVl5WHAyUUFkZERoZzFhUC1YN1I1Mk9FbG5vWkxzOG9MbWFLc1cyOThBQU1DclhVcm5xRFF2UVR0eFBtRk5pRDQteXVOdE15NU1DUnVhMjNKckVjLW56VmdkSFRtTnI5Rk5qMkItNG9xRzVSY1hiZ3Zad3ZtRGNteWoyQ0gzYzNvV1NFVy1CMnZtQlNoaGdaelItdHdCX3MtMGIxOUNpNmlNRXJBSG5VRHVYdTZycDRHYmNSa0RiLXZWTnk2QkxSeklpQ0owa19BWmZSZnRSdmZteWxPSFpVdDJZa1pXVm5SME9zNXRVSmphVlVxeXc?oc=5",
-        "date": "2026-06-18T12:49",
-        "source": "اقتصاد الشرق مع بلومبرغ",
-        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-06-18T21:21:10.424054+03:00",
+    "lastUpdated": "2026-06-19T16:53:27.963643+03:00",
     "items": [
+      {
+        "title": "動画：ワールドカップのスター、サウジ・リーグ移籍を夢見る",
+        "url": "https://news.google.com/rss/articles/CBMi6ANBVV95cUxNTDdGVlFkLVM3ZTZidDMwbkh2ZFZLVDR4Zzg0aGFzOXRNOVYtTXd5RFdWTnpxS3FvVkV5NHdoekJ4cGlsSTNHMk41Umprel9Ga3NjU29UV0ZoNzZsU0RFSkxGd2J5ZUxEY0RpVWpheW5aMUNuMDd6NnltR2xDUWlCUDFQVEZYc2p0Z3Z6QVZrRXk5aGp1eFNOMzNGRHIzMENVZEpOR21lWHlhdnFfXzFORHoySTRRR3BRNnluRGtMaG1pN09kaldabzQ1TTVUMlJVYU1hX0VGVlEwNHdiZEVlTHdSUWZ2WjRUcnFtUFB0dFFXbThOZU9iZ3FBZXhFbWNYYldIWHJrMVNNQU10UU96UjFveDVEazBVTU80eVQzV0VMUy1MY1JyazZ2bnRJdzdFNUQxSFdaZG5manFpbVN4a1d6bUZ4Y3RNUjAxNzg1Qm9UalVFWDR5UE1IOGZmWW9wY0RiamJrM0NNVWNJaEFfZ0J0Q1A3NEJSeXNxbEFqOWVMcWgwUWR5WFpqYnNoRldhdzBKNWlybFp2WVk5ZGJ6U1k1Z1FtdllaYmMycDMwNnRIUHRUQ3hReWlmS3laTkd0R01sUVB3V2dXNXFVZWhCelBMV1FGWjlMbkVVd3N1Wm1qRW5RZnBzQQ?oc=5",
+        "date": "2026-06-19T08:19",
+        "source": "Goal.com",
+        "category": "スポーツ"
+      },
+      {
+        "title": "スペインのスター、サウジ戦を欠場",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQMEFTVGRsN3J0MU0zOExVLUlDYllOeVpkSVh2YXAtaFNrX3B6SUVWNXJHd1NQeWVZcE8tMC1oVVBXYXdMX1FZdkxRckwwY0s0Yk1iY21wRVNjYWt2RTlQMkRkQWp6OGR1dmFSQ0xSRW8xclVRZ2tZOFA4cTFZZTZDTktCUGNuT2haRVN5b3M1S2lJdDNGdGpDdEp6TExndHRvNjk3STV3dGEtV3NDYWQ4N0dIYnBxTzE2bkUyek9JemhEZ3dlbU9oNkJ5NWJIVU1wbjRvMjJ6dGFVQ0s2NzBzY1hCZlhSUjlxSXZPaFhYS0RERXY2b2UtRGF5d1FXLV9pYUhRQ1NwRHNqU1RmRGF5SmRiUmk5QVk3WXp4WTlWbjZtNjE5UXQxY3BjdGRxS0hxbnlhNXBodm80R2o0M1VIYkdzUnU1c3J1MzJhQkR0UjBFbVNyTGc?oc=5",
+        "date": "2026-06-19T08:04",
+        "source": "Goal.com",
+        "category": "スポーツ"
+      },
       {
         "title": "サウジアラビアの観光業、イラン戦争の影響で2026年初頭に最大6%減少 執筆 - Investing.com",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0taDlTMFEzc3dxcVlpQldtb2t2a0FPaWwtR2tJdmx4eUFEVlh6bThvbnVqSmR6YTQtZ0doTFVrZlhueXVtWDhFeHRyNlBOQXhiVGRmRDFHMmpSOEw4NWZfZ2tvLTRISTB0eDVLcTY1cno?oc=5",
@@ -283,10 +297,24 @@
         "category": "経済"
       },
       {
+        "title": "動画：サウジアラビア戦前、5分間の救命処置がヤマルを即時処分から救った",
+        "url": "https://news.google.com/rss/articles/CBMisARBVV95cUxNQjVEM2MxSlQwQnJyX2doNXQwWDlKc3UtVmROcVM4eFpudG9FSG96MExOQUI4X280V0ZRWVNYT3dyLUZuU2xUeUQtMkFObXFicUVCUW1qQW1RTEpRSU43VURleEptLXRZeVNBb0RqNXJsVXZpS2w3azV6dnBTMm11NmIxZ0dHS0dTMjFtY3pDRlI1MHJoeFhwZ1dZYTI3XzJHNXdNYWFOVFBHTGlVX3ljUlVYb3V4VVlKTnQ4eUNpdXZuU0VGX3hBdGE2RkJXTEpJUXFnWG4tblkwbmlhc3dRMlhqUnBYV2U0ZXFWcVFKNS1CUnl6TlBZazJtUUZCTi1lUVpfQkhYTzJpNHhfaUYtbVctM0J6bXJqVmJwNEhBNUtOSHkzUVRoYmZ2a1VqRjloUDlpRlNPb2g3QTVTcHYzTTBiZ1REaTF0bEdfTjNGMkZpWHU4aDl4X0JheEZIT01qdUVnbkxDUC1fMDZuTUs4cldBWkt1ckpSa3lWRldwMjA3WFlyMlZZXzFUQmNCbDZEZTA1ZGNFcUZyWlYtNVppV1ZYdTF6WVM0QWpfSU5sUTAxYzN0ZHR3Nm53WFUtY0RnZnBtbkdhT1lMQ1FaS1l3TWpPWk8xUlNxREJScnNXQ1phQS11UTNoVjhMblBzaFBmUVk3X2RXNGFlM2hqaFdsVzJQUmhGVi1IaEpONjJpc2lpUjZQMXVrV21ueWJuci0yc2FaSGJJZWRrcU9pLW1pMw?oc=5",
+        "date": "2026-06-18T07:25",
+        "source": "Goal.com",
+        "category": "スポーツ"
+      },
+      {
         "title": "サウジアラビアの債権回収市場は力強い成長が見込まれ、2033年には16億2,000万米ドルに達すると予測されています。",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBiemtPQUFYRFBhX1RuWkVCSksxMW05ZGtNY2o0b2Q3VjNyQlRWUk5qRkg5dkViUFVkVTUzS0VVRnhsckd0VDRleE5PTExsQktDNmhfRkVmOTZocTI2d2M0aTZNQUJrcU10UENOOFlpQUtGN1dBb05pOGEwdw?oc=5",
         "date": "2026-06-18T04:03",
         "source": "ニコニコニュース",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアの債権回収市場は力強い成長が見込まれ、2033年には16億2,000万米ドルに達すると予測されています。",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9QNGJHb2JWc3ZEQ0IzY3pjLWd4aTZuSkdwMlBEam9nejlrOERhMWVYbHZkSmNreUY1MkxkVUNGekFtb2ZQNXBLaDlteHF4Sl9fNU92Mk1ITGNKM3ZJb3dxTXY3Zw?oc=5",
+        "date": "2026-06-18T03:30",
+        "source": "ライブドアニュース",
         "category": "経済"
       },
       {
@@ -315,34 +343,6 @@
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52YnVtSUEwcFptTnUzamJBQWZOY3VYMjlTVjdxOWJHRU5RLVJJYVhJUDdKV01PVWRFLWFHWVlBNTBhcEcwb1pZWEJQSnBnMUJnSndqSi04cXJtd2doYTBKQkRYUWdFQnJ1ejZGZUdUSEdMMHBmdVcyU0J1RjExenM?oc=5",
         "date": "2026-06-17T01:42",
         "source": "Yahoo!ニュース",
-        "category": "スポーツ"
-      },
-      {
-        "title": "日本代表、次戦チュニジアの監督電撃交代に気を引き締める…アジア最終予選戦ったサウジアラビアを指揮",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HVFlqTVBQcDRiT1dULWRLUXlKLUEzQXphdnlBSzUtVmhxZHhxZkN0U195RW5YUUpacXlrSmtJZnhEelZ0VExKd3BOQ29RRHF6c3lVOWlvRl9YM3NhLXlvM0gzN1cxLUZfbXlwUXAtRzQtVEVwNHlWUQ?oc=5",
-        "date": "2026-06-17T01:42",
-        "source": "読売新聞",
-        "category": "スポーツ"
-      },
-      {
-        "title": "日本と２０日に対戦のチュニジア後任監督にルナール氏…カタール大会ではサウジアラビア代表率いてアルゼンチンに勝利",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zd3Y2cG9EaFdqNGxzdGJRbWpNaFZPdjZfUkNMMTBjN2JkbmlXNlVmaTV4V2s1RXZhZFpDOGcyY2tOTnJqVFpOTUhDTUxZMG9JRUltblhxZzBhczYxYzkxTkRQVlB2REpGNXp6bURvV1MzU3k2VE91M1lQZDJZUlk?oc=5",
-        "date": "2026-06-17T00:21",
-        "source": "Yahoo!ニュース",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジ、守って譲らず サウジアラビア１―１ウルグアイ サッカーＷ杯北中米大会",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ITnYteGtleGExblZxNVhOU3FrT0hXY3V0MmVfSFlJWXhVVFE1b0M0Z3NNNklCU3RuNnBMaVgyQ3JLVk1heGJlNkhFT3pzRDlxcGFmZzVEeW1NTFpH?oc=5",
-        "date": "2026-06-16T20:00",
-        "source": "朝日新聞",
-        "category": "スポーツ"
-      },
-      {
-        "title": "日本戦控えるチュニジア代表、ルナール監督が正式就任!! 前回サウジ率いてアルゼンチン撃破",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5hc2Q2WWF4dFVyaVQ2NnAzQkQ3Y0Ftd3dyTkxiRXhLdExqUFNoeG9aa3ppdnBhcExfbUh0SXpGa19ZOGZURU0xYUxmSDJPN2daRzV4cS1qYXk2UWhGckhPWjUyaUoyYlo1LWVsUVJOTQ?oc=5",
-        "date": "2026-06-16T08:33",
-        "source": "gekisaka.jp",
         "category": "スポーツ"
       }
     ]
