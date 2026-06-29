@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-06-29T17:32:32.293560+03:00",
+  "lastCollected": "2026-06-29T21:03:48.820511+03:00",
   "security": {
-    "lastUpdated": "2026-06-29T17:32:32.293560+03:00",
+    "lastUpdated": "2026-06-29T21:03:48.820511+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-06-29T17:32:32.293560+03:00",
+    "lastUpdated": "2026-06-29T21:03:48.820511+03:00",
     "items": [
       {
         "title": "旅券手数料の改定について",
@@ -70,7 +70,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "社会",
         "is_safety": false
       },
       {
@@ -110,7 +110,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988294.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -118,13 +118,13 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100987261.pdf",
         "date": "2026-03-03",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-06-29T17:32:32.293560+03:00",
+    "lastUpdated": "2026-06-29T21:03:48.820511+03:00",
     "items": [
       {
         "title": "サウジアラビア株式市場が下落 タダウル総合指数は1.06%安",
@@ -134,7 +134,7 @@
         "category": "経済"
       },
       {
-        "title": "戦後の中東情勢、新たな対立軸へ二分化の可能性",
+        "title": "中東の新たな枠組み形成か、戦後秩序の再編の可能性",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWVqYkpwYjVMNmFCaDUzX041OEN2UWR4UWFqTUlYdi1tWkZTV0FTaGk4OXN2SVVnQURjSWdUek1xR0N2bWYyWmY5aFdXYUw4U0NibTkwSTF5Y2lzVkVmdFBYZzRBQk9kLVpuSk8tR0R5V1RYWFBYZW83MlJxYjhfVjdYeDJEU2Jpd0lvRk54Vkl2MFZWM3FuTDlWdFhTTkZhaGU2ZA?oc=5",
         "date": "2026-06-29T12:02",
         "source": "NDTV",
@@ -148,21 +148,35 @@
         "category": "政治"
       },
       {
-        "title": "湾岸諸国の資金力、ワールドカップでの成功には不十分 サウジアラビアとカタール",
+        "title": "オマーン、サウジアラビアなど湾岸諸国と協力 ホルムズ海峡迂回ルートの整備を推進、米国とイランの緊張緩和に向けて",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjNTF0RGkxMlBaQmZVOV9UV3hDbEJlcmtSSkdNMWhiempiMW9DMXVESnBwY0dhRXpzQXVTcFVyb0o1N29FUTRjanhjVGlXT2dFR2ltaHhhZ2NtZVE0b0JNdUZ6VHlxMVhDZmVqU0d3?oc=5",
+        "date": "2026-06-29T10:32",
+        "source": "Travel And Tour World",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア最大の湾岸ターミナル、4か月ぶりに超大型タンカーの積み込み再開",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRVc5RGYwRnBXQzB4RUYzM1BDY0NfRzhTSmVReEhQakJfenNINUR3TlV0cGdVTmpRTGFPQzY1YVpBX1R1M2tPUUNuS3ZQc3JYVHdmVWtKMDNzaVlTUDlpYXh0ZTlYQ0lCdzF2NDhadHBaLWEtNHdMdk1lakg3cW9CNTV6dlp1bjhXZzl1RFJTSmpKRHdPRXVwRzlobmozNnFVTF92UzRZdWRxVXI3ZnFoRnlab2R2cUZOREFVRzlWVlN4S3V6ZGlXVA?oc=5",
+        "date": "2026-06-29T08:08",
+        "source": "TradeWinds News",
+        "category": "経済"
+      },
+      {
+        "title": "湾岸諸国のワールドカップ戦略 資金力だけでは勝利つかめず",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMjRWdjgweDBVOU94MUhPbmN4S0ItcHRNcy1aTkl5NEdFSkptOGR6MUdoRW1CRklJUDNrMmp1cXhyZlJFbzhIZEtLLVJCZ0ZxRGc0OTBHYVFTSk9sSEVDX1JMTzl0SFpFcDM4Vi1iU1JudElGWjUxZGFaX1drUVlPdm5jT08xVEhtUTRFVFZiejVsUQ?oc=5",
         "date": "2026-06-29T07:44",
         "source": "AP News",
         "category": "スポーツ"
       },
       {
-        "title": "イスラエル、カタール・サウジアラビアへ最新鋭F15システム売却か",
+        "title": "イスラエル、カタールとサウジアラビアにF-15の最新システムと装備を販売",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaEVfS1YteDNGODA1SHJyc0lfLXdzQl82OFlKQjRvUkNGeURUVEFaWlg1SFQxR05JSEFJb3dtcDI2WGhhdjZERTNBTWVDSjJVUk1ySEtGWm1zRXkwa0pqWlRjcF9iSC1ONnRab3ZMdkU4cUxUbE5xQzJmUVdpdHR4bHhiV1BEU21NYmlBaGo5MkFMVG5vMk1ETEhaMFo1dnYtNkVMcFQydDdCUdIBrwFBVV95cUxQR0hYeWdrUVo4SUFvYjVSY1VVZU5mTUo5eHFmQVlaZkVnYk5fLTl5dUhsdm1ISml1M0lpSzR4VFRSblJDaVptSDBobG5XYWdZMnhSTmNBWjB3eGk1bU40aUh1bzlVTXNIRk9iTmZyOUhnSE5fTjFGWTZNQngzWkFhNF9QcF91NUY1S1lDZTNNZGtaVWo4eEhFZ1FQWmVfSEJNM0J0TTV6eTRld1AxR1Nr?oc=5",
         "date": "2026-06-28T17:11",
         "source": "The Times of Israel",
         "category": "政治"
       },
       {
-        "title": "サウジアラビアでヘリコプター墜落、乗員乗客14人全員死亡",
+        "title": "サウジアラビアのヘリコプター墜落、乗員乗客14人全員死亡",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43ODJnUnAxTVJFMjEyR2lQSVM5TTZoaGVqaTV0ZWN1a2hLakdDZGF1aWkxTEplTm9TenBmbEt5TDJkMTlxQjNyVnBJMmhld1hwYTBfYmpoQjBWUQ?oc=5",
         "date": "2026-06-28T15:42",
         "source": "BBC",
@@ -181,26 +195,40 @@
         "date": "2026-06-28T13:24",
         "source": "Arab News",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビア株が下落 タダウル総合指数は0.23%低下",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOb0prRk03N2pFdWIxblRoMUM2UEdFeDZ5Tk1JWVFDLVNkcm44R0M3V3MydmpyMGF0MTNULVI1cFprZk9fVnFlZ2U0M012eW5lRWtqdjl2RWxkOFZ4N0dVRk1vcXgwb1o0TG5RSzJQN01heVMweG1mdkpkWWdhckY1T3NlTnFCWHBOWlprYjRTMEJLLXZyanFHeUhmTnhId3BXUmFjdXNzTDEzeHNOWjRxc1lQbU96NlUxUmU2RElodk1yQXJobkE?oc=5",
-        "date": "2026-06-28T12:49",
-        "source": "Investing.com",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラムコのヘリコプター墜落、14人が死亡",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTl9QcUZ1VHdxdmRSYXhWRC0yWkdKMFhJYXNlM0JVMFEwR1BTeDA4djNxVjgtTnJPcVlTT0xGTDBlRE5FSllaLTdjcnFidVkwdDZKdlB6SmhKazhabUlvckNEaTF3VUdLTkgzUnZXbzB6MUZ3QkFBV09NVEZDSFpJTkkxUTlsekhMdlNsb0oxbl9QcEp3ZFZWYktvZ3dhTUNDVEJHSg?oc=5",
-        "date": "2026-06-28T11:50",
-        "source": "Reuters",
-        "category": "社会"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-06-29T17:32:32.293560+03:00",
+    "lastUpdated": "2026-06-29T21:03:48.820511+03:00",
     "items": [
+      {
+        "title": "サウジアラビア内務省、2人の死刑執行を発表",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZTA4Mk81OVhoVkwyV2lJNldFa2E3QkdpYVNVYXBsZzdzcFAwVjF0aDI4N3FFSGxlTFpSb2JNUVk5NWp1Nk10dlpnVzgxdnZzX3V6c19IcUpVT08tS1pTTTdnZ21RX0JOMTJsZjVjb3FoaUx5MTc2U1huN3FPRW9RQ0NRYi1jdUNuZHpqVkw2eG9qTlYxNy0zQjFpbnVjaklBamZIb2ZZb9IBsgFBVV95cUxPOVdWeVc1MG8yejhYSGxmVHRaUVpCVktfUFk1NFJaVkp6dUJialU4bHdYcnhjZDRNRGFJbUhvdURNMDVKTkVvNTByZElVWDBzNTlqaXdKMmo3ZFZLSGJlWEZROFM1YWplWGVpZWVzeDhYWklCbU1Oa3Vndm5QTUVybGNWWlJNTnFKSzg4ZVZqUlJCWlZZYWtiRmFiWDQzZVZHMjlSd3Ntb0lYNkxXbjU0VnJn?oc=5",
+        "date": "2026-06-29T17:32",
+        "source": "CNN Arabic",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、軍事作戦の破片で死亡したカタール国民への弔意を表明",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MeVEyeDU3T1ZXcmEzVVMtcnN2ZHBkZF9BMi1xRlRIci16d1RLMnRzMUZBeTBEalh4NW1ZUm5LczM5RFF2YmFZ?oc=5",
+        "date": "2026-06-29T17:32",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "政治"
+      },
+      {
+        "title": "パキスタン内相がサウジアラビアに到着 地域情勢を協議",
+        "url": "https://news.google.com/rss/articles/CBMitwVBVV95cUxNY2V3WWJuOXdLeVdDX1BRdThoMEx4Z1NaWmQ0TmROdERiNHFCMnlzaDZIQkFWV2xGbHVmLUR6dHR2QjNOMG9EWG5CTGhMb1RjNzU3RkFaQ09jdlVYaC02RUwxd0xNbEV4WVJXcVhfajE2cU1NUVFjV0pPZDdkdl9qZHREeUZ0NGdvLUdxWDVmY3NyTVU5dG9vUDJhZ2g5cDVhMkVsSDlKZTdFUGR1M0RGa0puSFo0WF80ZDFVZkhoaExlU3RETHA4XzhYS1lScXFNcThhUzI5MEJNblVpd3h6bnpfUnJqb1VTeDl3cEhMcTljYjlzdmNPNllRZDA2MjJRVE5qa0FqczNKMkNvcmZXbDB2bi15R29vaUxxcC1ZM1lqX252ZnVrQld3SGNGbzlKal84WENEZm9JenRsdVctUGpCQmd1R0dzOEFtd2tnZXo5XzhZZ3VjZWhkZTd6WFV6VUJiRVRZTFFKSjdEcERnWUZjaXZfMl9XeTBJYkxscUF3RFV0MFk5cnFMcWk1WHFIR3ZOdGJyUnI0azVaeUhZSGFsaDJSTzkydGktV0twZkR4R0NoRDlFazRqVkZFNmQyQWRiZUt6aTBHQWpmMU9HSW9oMzhRenJaRVZRYVp6VmkzRGpVQzJtazRnb09Oc1NJV2FLLTVfeUNqTFhkWFM0SHVvb2JsLVZnS3FuNVRzWTFOM3M1dVRPYXR4Z3JCTlZCbVJTNW12VnpQNzhTcXdLZHZYV3JuQ1h5SHY0M3hYeFNNNENocWFDcU1sOUNpYVpkb0ZGU2hGZTZIdExpdUVCeWxRQ1gzLUNEcVZmNHd6MTRCNDhtdEJLbndwSVlVRG4xRjBPVkVqOUpZY2p5MGc0a1REYTVneTFyUy1rLWhqQmMzcDh3Y2xZWHVPNEtVaTlxWUd4dWlNd9IBvAVBVV95cUxNQWdRTlVvRHR1YXptUjMtNXduOEludUtaeU01dWw5c29hUjZqdXh3bG84ZC1VX21DMzVYYm1TYXprNDlwNWlBV001Zng0eGxfeF8tczVSbm0yczFSTy1vZmJPZzNoR1Q4SmNFT2pOZm1BWEY4ckt0LUhqM3ZWQ1dCR0dYQldCZjJJTTFIR2JVMkJTWGJlUmM2TEZ6SmY2ZGhJeTFBTG10Vk5pVTluUVRudHhOano2T0c5YlVLc1dQN0lUUU9DY3dnT3Vtd21ldDJkV043MnhfNkxtbE4zb3pCTE1nd290cWxybTMtN2dsWlNuUjFHcG5pQkQyaWotLXZ1QU1MbFlyTV8tV3JGVkpBdWZIX05GN0QyZ1YtWGRQb3MwM2pFWjBFc0o0TXdxOWZ0SnNuQlpSNU0wektyc3BBdXdjaHBiamtGRkE5XzhqMlI0NGtoZUliVm5FZG1aTFFIVlVRV0syMHpVajNLN0JMTG9rWmw5Mjk2RTZKWDc5TVU3RVJvdVAxdkhSWEFaUzVxZXVoby1KMW9xZHlkcU5EQlF4OVJva2ZDdFNUcWxlblViaVYtTWZPSWhVYUljRVRPdWhPcENnS3gzRDlMX01KQzJBbHdhV3NYSWxfdUdIWUd6eHZmeUxZYmxYd2ZfZ1lJdWdnYWNiWlJFZFhFUXJxLUpvNUxOa0lwb1pnWThVeGwyRW1nMDlEVmJTOFF5SnZKM2huODFRcmVIQ0Rpb2hIUzk2TWoxNFIyRjcxNzdZOVMzdDdZRDZWM0dxZnFFbEFqZHYyaGUzaU9sM25MVnFTZEVuSFVaM3kzdUU5dDlHVmtESmRvYndXZlpPT01QcF8zT1pDazh6WGpKNjhzUlNFS1J6d3B1dF84Vm9IMmJudXRPeV9zSDJmS0dndFltM25UaWZyZkp1VTlpNTBU?oc=5",
+        "date": "2026-06-29T15:56",
+        "source": "العربية",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラムコの従業員14人が死亡 ダンマームでヘリコプター墜落",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9YeVNSM2t4LTh6OGZhTWtxc1pyZ2JSdmo0TkJaSXE0UktIbXVSUjVGbGNmTUpFRWN6R0YxQkZfWHp5YzhPQVM0?oc=5",
+        "date": "2026-06-29T15:38",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "社会"
+      },
       {
         "title": "サウジアラビア、G20諸国で国民の安全度が最高",
         "url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxOVEM5U3c0N3BqZVlWSjVFYWlxWG91d0ZhM0JVYlpTSVJzNjZKZl9rRzY2OHdrY2dpNDdUeWJtVDBYb2JLNFR1c0UwWTFZaXNYZWpCUkFWWV9WbkNQZEtfaF92Zml4T3lvSXd0VElqSXRWVXRlNXp3N0xiTFZNSE5FUHhDLUJ2aVA1SDNVLUotems1QmU3YWdEOGxmakZoZlktbFZXb1QwSU9ELTlSRW1WVVJxYmdYRFdEREhQbGRVRkN1LXpydUxGd0VwTENBNWNvY0luUk8yalV1dmJHMkt5blV3YXBoVHBDM0xWeGJzZlh4ZHZremk0azZRWjJQdlQxNWIzNHVhUEcxeFhNeXc0OFVNdUZ4NEk4V25LYkFQaldQY0hxS1VvUU9OM1hScGNvZ2tLbkIwUW1iUFBpSGxRcm1vbkFVQ1hwRjd6MFpSOFdSdV9Jb2JlcWFJYW95X2NaX1lza3dwVmRSSG91aElMUGxiUVIwUm1uWTI2T2ZuVnRuYUtJamlBMzlEMFVKUEJISzlrUjI3cUptOTNsQjZva3RsWmF3WGpicnl2NkhYS2lUamUxMHVpMGxrRG82enRxZmdRd01TUW5ybkpDaFphTjloTVBsdGJTMzFQRkVJS1ltUWlh?oc=5",
@@ -214,6 +242,13 @@
         "date": "2026-06-29T14:22",
         "source": "جريدة المدينة",
         "category": "経済"
+      },
+      {
+        "title": "サウジアラビア ワールドカップの映画化作品が映画館で相次ぐ",
+        "url": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxOZlpZa0VTZ3BVZldOV3RnVUdKeWlrYVBFY1pmN0ZQWmhORExIamhfWjUtQ2VVWFJtOXVLTXU3NW1lbkJIWFpUeXVmVWhQR3FpWEhvRWRmNXh0UVhwUldIMXhHWkNORVJpWk95MExIOXF0Vnk4d2dKMDJhMEU3amFjMUV4YzNIdUF3MVl0RWE3UmNfZlgtbGJfRXUtVDdIeVRxUWp3OGhvWkFOZnItSzJQaW1OYUxpWGFRNVhKNXhzYmpzM2hZdlBubHRFbHQwUGpHZ2YxUlRRNnJPTXN4SFlLUXgweEExRHF4cGU4dF9kNFVQQkVkTnU5NUNRajJLX0F1aElid2hfZG5US1Nhekl2NWF6SFI3d2pPWDJyek5xZXVYM1lDbmppeHM0eUs4ZF9ZcFNFV1VPX2tPNk9DRHhzTmNXZ011akFOQk9NRjU4aDZudHJudWFSTUt6cjRCc2dOTVdzMkJoSTVkakZSX3hVSHVCVUJTQnpIbnppSlI0RkdEaFBnWlFpYTJrTzVpd2JYSU0yZUdCdkJGTlZOMHZxYkdKM2xXdVZNUXkwME5pNEN1aS0zSnY1RUcyOTE0NlhvZG9ETGlHRnZmaURncHVrOWhuVGJwZzBTM0xfV2tkcWVabDdPalJ6R2tjM0V6YWpEM05tZUM5NXlUT0g5dWc?oc=5",
+        "date": "2026-06-29T13:33",
+        "source": "الشرق الأوسط",
+        "category": "文化"
       },
       {
         "title": "サウジアラビア：女性の94.9%が安全を感じ、高齢者の97.2%が住宅地での夜間歩行に不安がない",
@@ -230,51 +265,16 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、2025年安全指数で世界首位",
-        "url": "https://news.google.com/rss/articles/CBMirgNBVV95cUxNMlVSUU9HM1lvZnB4QzU0MUVqZ3ctYzFrY2d1dkJFVzhiZlBobWVWV0t4Vi1IRm5iOU0tQUxzS1I5dzhEb1pOUy1uMWZ6NnprX1dkM2F1b1hHWk9CbXpNcnZoMjV3UTBFUWFtVmVRNmdBUzdQS2VyanljUWg2ZmZKa0tXTGtYZjU5dVQ5SE84VG00dlNmcklXQS04bjd5cGJUbVdkSVp3aThuLWxQSl9jcnZSUkYxM2dUT1QtS0otcnEwWVZjTXVaNU1TUXJJTm9tNkhCNXJIOE45MnVCM3BNU3AwLVczc0ZsUFZUWmFrX0JhWjE2VzFXWndZNVJXNDJBbGRtMHV2bGlwYXFBWDFTdjRiZGN0a3VXazhYZ3VCTUhZOTNlTnpRZU1tb2Mwb1hRc3pLb2lTN3d4RWswZ0M1dzlqTGVpa0kybEZKXy1sQkY1c2tZVTViYm1XU0dEcXEzakc4Skl6OGFVb2pXcVY4bkx3bFJfTUZIc1k5YnZhYi12S0EwaVVFa0ZadU96TjZjODVZb240MHNpb3lPWVMzcm9OM09IbGl5bDhTdFhR0gGzA0FVX3lxTFBNTlpqY25oUmhVLXJ4OEJQVzU3TnF6ZFMwYmplX2RQTWJvU3VBUjBuR2VEd21EMFdSRGs2N0E3Sjg3R3NzS2NyUUVyX21jbVdZTVdRN2ZhTVYtLVBrNS1RVmVrY0dXRDd5WHEzcHdSTkpXTzVyNUk4N0FuYktJYTkwMzE0ckVUUUk0ckFNMnIyM09kREZialo5a2NyeUZFUHhEZTRjdUtWNElXdHVyQ0xpZDA4SEE4dVpJRHljMGhRbWktX3BxLUkyLVhIZTFyNDBrRmpXSFdWRHpoWjZ5YWVVc2UzYm5kVzB5OWtkUTdKSm5FblJtUmRtMVgyMndBSC1lWEpNUDljWFBzNGJHUWR5SXplLURlS2Qya2ZfWWhQOEh1c0EzRzFuQUFwbGJXYnR1aElobXlLYjBPbWNNLWNxandxb29sMGRuVzBEWnFzSGNXUGpkbUtXMk9mdDRQTTFiWTVNSFRKVjVsVFc2cEpEM2lLcjRyX2RGbHBCT3RYZVRLV0pHVERTTDlxY3V6bFBIdTdqRHh5bHBIcVAzQ3pSUWhYNExVRWdKTHIwc3lWMU03cw?oc=5",
-        "date": "2026-06-29T10:25",
-        "source": "العربية",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア株式市場で16億8500万リアルの大口取引",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQb1hUajB5b1dCR2xkVjFkRkJFbDVNbHo2QzF5SVFRdW11MGtCZElnUVN2ZUg5MlRRY21xcWg2MUt0cTliZlpMNF9ZTmNCd1RYNlNkOHhfSzdZX3RKWXkwUHRQbzlxTDVEX3pQRVZCZ0NaUGw3QVJrckYtQWVJT2RiNmZkZzQxbVRwMk83dGtkRXkzSDhod3lSTU1zSllXN1lrQlhrb0xWWHpEbGxMa3JHaUJkYWtKTTJoUGs2ZnROUDNUMnNfdmNYRUdOM0YzZVJjT1hDZkg0YzlMc2xZN0g4M090S3YtbXB3?oc=5",
-        "date": "2026-06-29T07:16",
-        "source": "صحيفة مال",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア内務省、3人の死刑執行を発表",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVElWOWdxcjJDWWFxblFqY0ZLNFVzbzNRZm5XYXc3ak9yOVlzcVJmb05zYUNGeUJYR1ZYbFJPZ0ptbFVrNmlEVnAzNnFRazR2eUlkOVZTcXNiVVZJZU9lamxCeWJnUnNVbEhBM0FlZTJhbjN1ZzdqTDI5RWZsOXY3ZTlDRzl5dlNCQnNfWHBERkVBVzNqNElmN2JaRmFOUWF4OHfSAawBQVVfeXFMTVIzZGJ6M09DbTlFQVRmMWVRU2tvT1RnWFp2MnZncWVfRWFwNlVwNElEb0lDT1VEXzJtWGtqS3JBRVBZeVFlYWE1cjZxOHYzMkNZLWpyLVFLTVNoaGF1ZzdMQk9rbnJDX1c5TE9DQ2E2NkdLNmQ1eFZEdm1VdFBnZHI0MWJlM1FWQWpBVk1KNHZzUjVHNDdaUnM3bXhMNzNkWG9KcE0xZ0syZGZhTQ?oc=5",
-        "date": "2026-06-28T16:17",
-        "source": "CNN Arabic",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア株式市場、6営業日連続で下落",
-        "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxOSFhWQ3MwYlpibDk3TnhCM3BiQXNsY0dPSjBIVno0eEhHVURGNGstWHBra0g0UGd3Z0RXX3NKZS1fWGp4NURscU9hMlNvUDF1cW5oSk5hMkFIMEZHWXd3b1c1QlByZlFVSzE3UlZRWW5xeUVXaTdmcGZLUkhPMklkYUUxclRmcDdTTjlFQXhvQVg1elQyWmZlX1puTTFMMFpOSF9qVDJ6YjhKbGlyei1yVUF5RXZaZEVVNUJweUZMY2ZFMHV5anlYenNPZU42V0Z0VE1pRUNVWnlWb3R4clFTVDNPVklmdFVfOC1LZl84M3JHUzk4SXBIUjJoZzA0amRVWG0zbDNYXzV1aGxORlQzLVpaejNkcE9VMEJXY0tnSWptLVAxSFVPTnBfWmR6X3JDaS0tSmU1N0ZmaGszYl9JQzNHbC1ueDc0QVhJUC1RQ0JHaTdpUWtJTE5OV0pwd0tEdlF5NW9MVnB3NUZz?oc=5",
-        "date": "2026-06-28T16:15",
-        "source": "الشرق بلومبرغ",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラムコのヘリコプター墜落、14人が死亡",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9tMUhOZXVLX1RoWkl6eVk0VjdTNFJ3ZndXNjdneXdFTWRZeUx0U1dvWk5sRFZ2RU00QUxtb1BkdWI3WHU1ajJ3MUg5VnBRT3A4X1ozMlhPdHVVdEo50gFiQVVfeXFMTUZHZ1A1MnFFcWQtTjJjTnYxVm9ZSENjSWZMZ1NlU0lSMDdjYWRUdGtTbmtpUzlaNHUyN1ZfcGRLOG5VeHNEYUgzOFhZYk5ZUnFyQkdmQzlpMFZvOWU3S3l3enc?oc=5",
-        "date": "2026-06-28T15:08",
-        "source": "BBC",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア株価指数、10907ポイントで引け",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5LbGtNZW9xdlp1d05kejBDR0VnZlRQUmwxV2xESG1KUTNSdll3RGNiSlE1dThJTGRnc2t0OHduTmQzakRQZWNj?oc=5",
-        "date": "2026-06-28T14:14",
-        "source": "جريدة الرياض",
+        "title": "サウジアラビア航空、新型機に統合型機上通信システムを導入",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5MaGcxa21ockNBbXdfeE9GOVJTRnNSbzlxUXVGZmhrUUczaWRQakcycldiUDE1N3NOdVpLcmRoSS02elp5YkE?oc=5",
+        "date": "2026-06-29T11:05",
+        "source": "وكالة الأنباء السعودية",
         "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-06-29T17:32:32.293560+03:00",
+    "lastUpdated": "2026-06-29T21:03:48.820511+03:00",
     "items": [
       {
         "title": "サウジアラビアのファイサル外相が30日から訪中―中国外交部",
@@ -305,11 +305,18 @@
         "category": "社会"
       },
       {
+        "title": "サウジアラビア、サッカー連盟会長が辞任 W杯開催まで8年…GS敗退に「全責任を負います」（FOOTBALL ZONE）",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41UjBPeV9TZHpKLTFFVUhFaUFYcWRiUEFOZjlQTWxiV3Q5RW1KM004VS1lQU1WNm1JVWc4bUtLb0NkNUl2aW9uSDNQX0hJZXA3UWl1YV83eF90RkJycXlOYUN5M1NnanpwemljNGVWYmRxU1F5VTFlWVNMV1dwTWs?oc=5",
+        "date": "2026-06-29T01:34",
+        "source": "Yahoo!ニュース",
+        "category": "スポーツ"
+      },
+      {
         "title": "サウジアラビアの国有石油会社ヘリ墜落、14人死亡",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FVU5xSjlmMjhWbjFBSzdPSVp6WGpSLTA1dGtzVlJWNl9vLWZiMlk3T3MxV3pLMjJFci1SbEJCcThOdW56YlBoRmRmTzk4OHhZRU5pME9uS1VEN1A1b2tRdEphaDhOUkF1LW1OZg?oc=5",
         "date": "2026-06-28T23:03",
         "source": "日本経済新聞",
-        "category": "社会"
+        "category": "経済"
       },
       {
         "title": "サウジアラビアの皇太子とマクロン大統領、電話会談で航行の自由の重要性を強調",
@@ -338,13 +345,6 @@
         "date": "2026-06-27T11:06",
         "source": "arabnews.jp",
         "category": "政治"
-      },
-      {
-        "title": "前評判の堅守はどこへ チュニジアは得失点差-10でW杯を去る。米紙は2002年のサウジアラビア、2010年の北朝鮮に並ぶ存在だと酷評（theWORLD（ザ・ワールドWeb））",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UQmI3dUZzVTBJZ29pdEpkUFJCM3FLYW1mN1c2T0lfVHBFNWpqdHlfbjBJLWZ2Rmc3bU43eHNSdjV4aGYyeWZJZzZRMFdyVldCTnVSbkVmNnRMZlozODRCT0d0V2czanRQRFlaR0s1WlRtRWZ6cDRFY3dUSlJNSVU?oc=5",
-        "date": "2026-06-27T11:02",
-        "source": "Yahoo!ニュース",
-        "category": "スポーツ"
       }
     ]
   }
