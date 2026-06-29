@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-06-28T19:59:03.735933+03:00",
+  "lastCollected": "2026-06-29T17:32:32.293560+03:00",
   "security": {
-    "lastUpdated": "2026-06-28T19:59:03.735933+03:00",
+    "lastUpdated": "2026-06-29T17:32:32.293560+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-06-28T19:59:03.735933+03:00",
+    "lastUpdated": "2026-06-29T17:32:32.293560+03:00",
     "items": [
       {
         "title": "旅券手数料の改定について",
@@ -70,7 +70,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": false
       },
       {
@@ -86,7 +86,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -94,7 +94,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -124,8 +124,43 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-06-28T19:59:03.735933+03:00",
+    "lastUpdated": "2026-06-29T17:32:32.293560+03:00",
     "items": [
+      {
+        "title": "サウジアラビア株式市場が下落 タダウル総合指数は1.06%安",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeEJhVEM3eEQ4eWEwdUZmZ2J1dUJqelNNd2VUc04tcGlvb0NIcWlrcTNSQVotdU5CMzcwQTB4LXQyLVNWaHMzcEJXNmt6MzVYY2oxWTRiemNYVkpsNGJQcEZ4SW1zSnk0MmVyclB6TjcwWGtQWlFqcmRWaGpQNHpSSVRnS3l0cVhNSlRJUXZfTW5Hd0NlTVAtNHRzVjNZSExVWGEzNlVSN3ZmN1VKNUlRR01GZ251YkVLZ21oSVI1UU1yZXlFS0E?oc=5",
+        "date": "2026-06-29T12:51",
+        "source": "Investing.com",
+        "category": "経済"
+      },
+      {
+        "title": "戦後の中東情勢、新たな対立軸へ二分化の可能性",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWVqYkpwYjVMNmFCaDUzX041OEN2UWR4UWFqTUlYdi1tWkZTV0FTaGk4OXN2SVVnQURjSWdUek1xR0N2bWYyWmY5aFdXYUw4U0NibTkwSTF5Y2lzVkVmdFBYZzRBQk9kLVpuSk8tR0R5V1RYWFBYZW83MlJxYjhfVjdYeDJEU2Jpd0lvRk54Vkl2MFZWM3FuTDlWdFhTTkZhaGU2ZA?oc=5",
+        "date": "2026-06-29T12:02",
+        "source": "NDTV",
+        "category": "政治"
+      },
+      {
+        "title": "UAE・シリア会談 イスラエル・レバノン合意の可能性を示す",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpaVNXUmo1ZFhIOHVYRUpXT3JuNmczWnhBUWFzdU12dF9DNDc3aFpkSlFKMHIzMDVHaHgyVGFRejc2TVZjTnhGS3FLeXpPTmVuVlVQcHY4c0pSOW5W?oc=5",
+        "date": "2026-06-29T11:35",
+        "source": "The Jerusalem Post",
+        "category": "政治"
+      },
+      {
+        "title": "湾岸諸国の資金力、ワールドカップでの成功には不十分 サウジアラビアとカタール",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMjRWdjgweDBVOU94MUhPbmN4S0ItcHRNcy1aTkl5NEdFSkptOGR6MUdoRW1CRklJUDNrMmp1cXhyZlJFbzhIZEtLLVJCZ0ZxRGc0OTBHYVFTSk9sSEVDX1JMTzl0SFpFcDM4Vi1iU1JudElGWjUxZGFaX1drUVlPdm5jT08xVEhtUTRFVFZiejVsUQ?oc=5",
+        "date": "2026-06-29T07:44",
+        "source": "AP News",
+        "category": "スポーツ"
+      },
+      {
+        "title": "イスラエル、カタール・サウジアラビアへ最新鋭F15システム売却か",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaEVfS1YteDNGODA1SHJyc0lfLXdzQl82OFlKQjRvUkNGeURUVEFaWlg1SFQxR05JSEFJb3dtcDI2WGhhdjZERTNBTWVDSjJVUk1ySEtGWm1zRXkwa0pqWlRjcF9iSC1ONnRab3ZMdkU4cUxUbE5xQzJmUVdpdHR4bHhiV1BEU21NYmlBaGo5MkFMVG5vMk1ETEhaMFo1dnYtNkVMcFQydDdCUdIBrwFBVV95cUxQR0hYeWdrUVo4SUFvYjVSY1VVZU5mTUo5eHFmQVlaZkVnYk5fLTl5dUhsdm1ISml1M0lpSzR4VFRSblJDaVptSDBobG5XYWdZMnhSTmNBWjB3eGk1bU40aUh1bzlVTXNIRk9iTmZyOUhnSE5fTjFGWTZNQngzWkFhNF9QcF91NUY1S1lDZTNNZGtaVWo4eEhFZ1FQWmVfSEJNM0J0TTV6eTRld1AxR1Nr?oc=5",
+        "date": "2026-06-28T17:11",
+        "source": "The Times of Israel",
+        "category": "政治"
+      },
       {
         "title": "サウジアラビアでヘリコプター墜落、乗員乗客14人全員死亡",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43ODJnUnAxTVJFMjEyR2lQSVM5TTZoaGVqaTV0ZWN1a2hLakdDZGF1aWkxTEplTm9TenBmbEt5TDJkMTlxQjNyVnBJMmhld1hwYTBfYmpoQjBWUQ?oc=5",
@@ -155,58 +190,72 @@
         "category": "経済"
       },
       {
-        "title": "米国とイランが停戦を再び破棄か、中東14カ国が緊急警戒態勢に　ホルムズ海峡混乱の懸念",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE80cFotVURoazBINDNocWxXUGJtdEVrci14MENxbHhQN0NHNjN1Y1JPWEpScFFxUGdXVGZ3Z2xySzVGb2drb05TVjdOYW5xTTUwU05qXzVYaFdWOXVDNjJ5Ml9jeEdyQTU5LUNWNXl3?oc=5",
-        "date": "2026-06-28T09:55",
-        "source": "Travel And Tour World",
-        "category": "政治"
-      },
-      {
-        "title": "イスラエルの先端システム、カタールとサウジアラビアに売却 文書と画像で明らかに",
-        "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQd29oTzdTYUlsSlRNUXdzclV2RXFXckJKYVpVOTFkZGYwZ1pEY3k4TmJXS1MwYjdiQkNXQUhiQVhNeEtPMWF6QnZtbjBkSEZIeENhU0JpYzVkU1Z0eERvUVQ1d1RIcjNHdzFHX3I4UVQtS21LNndkT1AxcjRSTThRTllWU3h6M09ZYldLWDFWN25LTWpkSHp4NTRCZmRYYmJYamJSNEVFRlcxYmhyYTBMUndDQVFXUzljVUctNGx6X1YyUi1zcHdDclZHSHJkVzV0cUdNMDB1bzBZT0JHQ09CLXl1dVdMS09ObGJ1TE5FRXFETWhnRDlaeGUxb1NMeFVKTVd5LXppR3hIOEJrWGFaZWl4aWhCdkZGU3c2TERTSFdxdDR6Wmc?oc=5",
-        "date": "2026-06-28T07:26",
-        "source": "Haaretz",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、湾岸港の再開に伴い石油輸出を増加",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQT2t6bm53TDllVGQySkR6TkJyYWlTREZncWpjUDd3SzJEN3lDbFZ5NV9acENLWG5BWU9mMXhQc0hoUVNrZUNaQm5FekJfQWUxNVlEM0wzaDF4RW52MGVOVm9MTlVScjYyUnJlT1dWR00xWHdoNVYxSkFSdHFUZ2lIM0l0T1JWSUYzN1E?oc=5",
-        "date": "2026-06-27T13:04",
-        "source": "gCaptain",
-        "category": "経済"
-      },
-      {
-        "title": "カーボベルデ、サウジアラビアとの引き分けでアルゼンチン戦へ　ワールドカップの快進撃続く",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT2VxaDl0YWNMZlF5MzhJdEMzWXRrSEk4T2V2aDNOY0Z4RVNZNl9FNlh1WWZaN2JsUS1hY2w0eTBlbXlVMEJ5R2ZQb0ZEWGU5MTV4bjgwaE45XzVlZWVzSTdTQTJURmprdFNtMjJfUnh0bl9RM3duQ2tGQktuY2NLU0VlMDRSNk1MMlNYa0U0MWFQN1FjVUYwRXQtWQ?oc=5",
-        "date": "2026-06-27T08:55",
-        "source": "The Guardian",
-        "category": "スポーツ"
-      },
-      {
-        "title": "カーボベルデ、サウジアラビアと引き分け 奇跡の32強進出",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNHVreU5KNGZ4MmxoUG9LXzNmOU5ybGxGMmNmMEZZYkdweUNFYlltX09ZZ2N2TjFpMVh1NGZrNUllNjFyTEhLM0hmcGpMWFNyZGVxYWZNTDhoeG9NbTY5cVFPbWQyR20wX2MwbkRMMHZVR25VNWVBMHcxd3VHOGt1Y2p1ckNHdXo3cVQzVGRlTQ?oc=5",
-        "date": "2026-06-27T05:13",
-        "source": "rg.org",
-        "category": "スポーツ"
-      },
-      {
-        "title": "カーボベルデが歴史的快挙 ワールドカップ32強出場を決定",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSmsydWhldXQ1ZVg0WmlWQmxCTl9Kb0IzZDBUTGlESm1kYVMwZy1Xa0FqalJRTnl2RTdpN0ZFdlFhcldSU3V5TVhwaUJDWkdhTHV1WFlRZDludE42ZXgzREFXR2xwWThVR1R3cVBFWFFuTHJ3VlpwVU0wOXdFVl9sV00wcnZJS3oyUDl0TjB0dG9xUkV1eWpVTVlnWVR0MDBzOUJtMDhNMEozRmVVSnVNWUxJN0VySXFQQzFfRThIdWtRazlVN3pROHNXSU9hNm1IZDNXNTRR?oc=5",
-        "date": "2026-06-27T04:08",
-        "source": "USA Today",
-        "category": "スポーツ"
+        "title": "サウジアラムコのヘリコプター墜落、14人が死亡",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTl9QcUZ1VHdxdmRSYXhWRC0yWkdKMFhJYXNlM0JVMFEwR1BTeDA4djNxVjgtTnJPcVlTT0xGTDBlRE5FSllaLTdjcnFidVkwdDZKdlB6SmhKazhabUlvckNEaTF3VUdLTkgzUnZXbzB6MUZ3QkFBV09NVEZDSFpJTkkxUTlsekhMdlNsb0oxbl9QcEp3ZFZWYktvZ3dhTUNDVEJHSg?oc=5",
+        "date": "2026-06-28T11:50",
+        "source": "Reuters",
+        "category": "社会"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-06-28T19:59:03.735933+03:00",
+    "lastUpdated": "2026-06-29T17:32:32.293560+03:00",
     "items": [
+      {
+        "title": "サウジアラビア、G20諸国で国民の安全度が最高",
+        "url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxOVEM5U3c0N3BqZVlWSjVFYWlxWG91d0ZhM0JVYlpTSVJzNjZKZl9rRzY2OHdrY2dpNDdUeWJtVDBYb2JLNFR1c0UwWTFZaXNYZWpCUkFWWV9WbkNQZEtfaF92Zml4T3lvSXd0VElqSXRWVXRlNXp3N0xiTFZNSE5FUHhDLUJ2aVA1SDNVLUotems1QmU3YWdEOGxmakZoZlktbFZXb1QwSU9ELTlSRW1WVVJxYmdYRFdEREhQbGRVRkN1LXpydUxGd0VwTENBNWNvY0luUk8yalV1dmJHMkt5blV3YXBoVHBDM0xWeGJzZlh4ZHZremk0azZRWjJQdlQxNWIzNHVhUEcxeFhNeXc0OFVNdUZ4NEk4V25LYkFQaldQY0hxS1VvUU9OM1hScGNvZ2tLbkIwUW1iUFBpSGxRcm1vbkFVQ1hwRjd6MFpSOFdSdV9Jb2JlcWFJYW95X2NaX1lza3dwVmRSSG91aElMUGxiUVIwUm1uWTI2T2ZuVnRuYUtJamlBMzlEMFVKUEJISzlrUjI3cUptOTNsQjZva3RsWmF3WGpicnl2NkhYS2lUamUxMHVpMGxrRG82enRxZmdRd01TUW5ybkpDaFphTjloTVBsdGJTMzFQRkVJS1ltUWlh?oc=5",
+        "date": "2026-06-29T14:26",
+        "source": "الشرق الأوسط",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア株価指数、10792ポイントで終値",
+        "url": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxOYWw3QzBMWmNMV19DckdabGxDdlVGeVd3WWJ3b0NkbnYyRTNNY2t1ejlueGkwV1JzbkpnTHVGMkZ6SGVsbnBYdjBkQTk3ZEJER3RDQ1NJdklNMTFLcWVsOUF2T1FMalJDVURUaENaSWlubldOSE5TUXNLWVF3Q1Z4VkpDWjA4UWVCQXBKMzZVTWZSQ0p3UG43WEt3ODh3eHhYN2l1MEdhVnFqMjAydGdsYVFmNHUtMm9qd1ZrLU1hZ2ZhMkEtVnF2NngtZlY2UVdXR0tLLW4zUHNwT0d1Nl9ET3BXNmlaeUF4ZXJ4bG1Bbi1xUTIyeGN6MUpzTXNCYzMzQThNNkE3THc3S19UenRyUk5vcU1vX2hjQ3N0dVNRTTd1R01QRmhBdm5aaXZoZGF1OVltSTVqZjN0VnkweVRYam1fLUR3VHQzbl9acWk0WlRrZzRoVlV5cEZPQWQ1ZzBlUDdUYVlrOWRUaksxazE1eWEzaXdjd2tsQkQ0d0o5REl5TFVyOXFPM05RcWRmY0hsNXdubGVwNVNKNDlEX3NhUHJnRjBaOWNDcTVIdEZoMTVDNjhfbmZzNmFNRmZZbXdxdlNSNWFVTS1XSFlxWHo0enlJdjBBMV9GdTNkZ0hNRU9WOW9rSE54UGhJeUJTVlnSAVZBVV95cUxQNlNuX0owXzV2OWY2OWlXaTBxZGRaaktoZEk3UEJrWEJ5NHJiQTh1V21lcHNZSXlEZ3hOQkJJTUpyUXg5VWJobVBuZW9Nb19kcElaQ09WUQ?oc=5",
+        "date": "2026-06-29T14:22",
+        "source": "جريدة المدينة",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア：女性の94.9%が安全を感じ、高齢者の97.2%が住宅地での夜間歩行に不安がない",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1YM1FyRmxLMUFqaDhITDZvc3JkVW0wVVZNbXI4Mmdhd3F6cjdxQkRmeUU0bDNMei1xcWY3OXJFMlo5NnpXMEE?oc=5",
+        "date": "2026-06-29T13:13",
+        "source": "عاجل",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア、夏の観光キャンペーンプラットフォーム始動",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5PZk9WUmpPQ3dJajhzT1k4LVdDSXBIU29Bc2ltQzhxMWRaSWhHRERQellQOVZleGJUV05OWFM2ZTVvbWRvcnhV?oc=5",
+        "date": "2026-06-29T12:53",
+        "source": "جريدة الرياض",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、2025年安全指数で世界首位",
+        "url": "https://news.google.com/rss/articles/CBMirgNBVV95cUxNMlVSUU9HM1lvZnB4QzU0MUVqZ3ctYzFrY2d1dkJFVzhiZlBobWVWV0t4Vi1IRm5iOU0tQUxzS1I5dzhEb1pOUy1uMWZ6NnprX1dkM2F1b1hHWk9CbXpNcnZoMjV3UTBFUWFtVmVRNmdBUzdQS2VyanljUWg2ZmZKa0tXTGtYZjU5dVQ5SE84VG00dlNmcklXQS04bjd5cGJUbVdkSVp3aThuLWxQSl9jcnZSUkYxM2dUT1QtS0otcnEwWVZjTXVaNU1TUXJJTm9tNkhCNXJIOE45MnVCM3BNU3AwLVczc0ZsUFZUWmFrX0JhWjE2VzFXWndZNVJXNDJBbGRtMHV2bGlwYXFBWDFTdjRiZGN0a3VXazhYZ3VCTUhZOTNlTnpRZU1tb2Mwb1hRc3pLb2lTN3d4RWswZ0M1dzlqTGVpa0kybEZKXy1sQkY1c2tZVTViYm1XU0dEcXEzakc4Skl6OGFVb2pXcVY4bkx3bFJfTUZIc1k5YnZhYi12S0EwaVVFa0ZadU96TjZjODVZb240MHNpb3lPWVMzcm9OM09IbGl5bDhTdFhR0gGzA0FVX3lxTFBNTlpqY25oUmhVLXJ4OEJQVzU3TnF6ZFMwYmplX2RQTWJvU3VBUjBuR2VEd21EMFdSRGs2N0E3Sjg3R3NzS2NyUUVyX21jbVdZTVdRN2ZhTVYtLVBrNS1RVmVrY0dXRDd5WHEzcHdSTkpXTzVyNUk4N0FuYktJYTkwMzE0ckVUUUk0ckFNMnIyM09kREZialo5a2NyeUZFUHhEZTRjdUtWNElXdHVyQ0xpZDA4SEE4dVpJRHljMGhRbWktX3BxLUkyLVhIZTFyNDBrRmpXSFdWRHpoWjZ5YWVVc2UzYm5kVzB5OWtkUTdKSm5FblJtUmRtMVgyMndBSC1lWEpNUDljWFBzNGJHUWR5SXplLURlS2Qya2ZfWWhQOEh1c0EzRzFuQUFwbGJXYnR1aElobXlLYjBPbWNNLWNxandxb29sMGRuVzBEWnFzSGNXUGpkbUtXMk9mdDRQTTFiWTVNSFRKVjVsVFc2cEpEM2lLcjRyX2RGbHBCT3RYZVRLV0pHVERTTDlxY3V6bFBIdTdqRHh5bHBIcVAzQ3pSUWhYNExVRWdKTHIwc3lWMU03cw?oc=5",
+        "date": "2026-06-29T10:25",
+        "source": "العربية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア株式市場で16億8500万リアルの大口取引",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQb1hUajB5b1dCR2xkVjFkRkJFbDVNbHo2QzF5SVFRdW11MGtCZElnUVN2ZUg5MlRRY21xcWg2MUt0cTliZlpMNF9ZTmNCd1RYNlNkOHhfSzdZX3RKWXkwUHRQbzlxTDVEX3pQRVZCZ0NaUGw3QVJrckYtQWVJT2RiNmZkZzQxbVRwMk83dGtkRXkzSDhod3lSTU1zSllXN1lrQlhrb0xWWHpEbGxMa3JHaUJkYWtKTTJoUGs2ZnROUDNUMnNfdmNYRUdOM0YzZVJjT1hDZkg0YzlMc2xZN0g4M090S3YtbXB3?oc=5",
+        "date": "2026-06-29T07:16",
+        "source": "صحيفة مال",
+        "category": "経済"
+      },
       {
         "title": "サウジアラビア内務省、3人の死刑執行を発表",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVElWOWdxcjJDWWFxblFqY0ZLNFVzbzNRZm5XYXc3ak9yOVlzcVJmb05zYUNGeUJYR1ZYbFJPZ0ptbFVrNmlEVnAzNnFRazR2eUlkOVZTcXNiVVZJZU9lamxCeWJnUnNVbEhBM0FlZTJhbjN1ZzdqTDI5RWZsOXY3ZTlDRzl5dlNCQnNfWHBERkVBVzNqNElmN2JaRmFOUWF4OHfSAawBQVVfeXFMTVIzZGJ6M09DbTlFQVRmMWVRU2tvT1RnWFp2MnZncWVfRWFwNlVwNElEb0lDT1VEXzJtWGtqS3JBRVBZeVFlYWE1cjZxOHYzMkNZLWpyLVFLTVNoaGF1ZzdMQk9rbnJDX1c5TE9DQ2E2NkdLNmQ1eFZEdm1VdFBnZHI0MWJlM1FWQWpBVk1KNHZzUjVHNDdaUnM3bXhMNzNkWG9KcE0xZ0syZGZhTQ?oc=5",
         "date": "2026-06-28T16:17",
         "source": "CNN Arabic",
         "category": "社会"
+      },
+      {
+        "title": "サウジアラビア株式市場、6営業日連続で下落",
+        "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxOSFhWQ3MwYlpibDk3TnhCM3BiQXNsY0dPSjBIVno0eEhHVURGNGstWHBra0g0UGd3Z0RXX3NKZS1fWGp4NURscU9hMlNvUDF1cW5oSk5hMkFIMEZHWXd3b1c1QlByZlFVSzE3UlZRWW5xeUVXaTdmcGZLUkhPMklkYUUxclRmcDdTTjlFQXhvQVg1elQyWmZlX1puTTFMMFpOSF9qVDJ6YjhKbGlyei1yVUF5RXZaZEVVNUJweUZMY2ZFMHV5anlYenNPZU42V0Z0VE1pRUNVWnlWb3R4clFTVDNPVklmdFVfOC1LZl84M3JHUzk4SXBIUjJoZzA0amRVWG0zbDNYXzV1aGxORlQzLVpaejNkcE9VMEJXY0tnSWptLVAxSFVPTnBfWmR6X3JDaS0tSmU1N0ZmaGszYl9JQzNHbC1ueDc0QVhJUC1RQ0JHaTdpUWtJTE5OV0pwd0tEdlF5NW9MVnB3NUZz?oc=5",
+        "date": "2026-06-28T16:15",
+        "source": "الشرق بلومبرغ",
+        "category": "経済"
       },
       {
         "title": "サウジアラムコのヘリコプター墜落、14人が死亡",
@@ -221,61 +270,47 @@
         "date": "2026-06-28T14:14",
         "source": "جريدة الرياض",
         "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、イランによるクウェートとバーレーンへの攻撃を強く非難",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15eTZoNHNwVkpMUDEwR2tOd0FOTHg5X3lmUkh0bTc4NDhyNFV3a2ZvWjZuX3NBSF9mdlRUakdOcTk1Q19tZF9GUXVTeEtWdi15cVHSAVRBVV95cUxNdXFzM3cwNU1hMXp6ZXlrRDVreWlxOGZ1aTl1Y2I5Ul9MNVZHeFcxS0xCWFFDQmI5THZMSXlLV1RMYXpUVlFsZ0NodmlBUkR6czhrdW0?oc=5",
-        "date": "2026-06-28T11:24",
-        "source": "عكاظ",
-        "category": "政治"
-      },
-      {
-        "title": "チェコのシュコダ、欧州の技術力で沙特アラビア市場開拓へ",
-        "url": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxQNGJXX2s2VHRKd2FlV01NSjVKdEdTTXY2MjVrX2lfTkVCT3g2Zmt2OVhaMUtycW5zUnpqV1J2ZjN2NktiWFZmcGdYTkhGZ1R5SHFrV3U0TTFWSTIyYllvanVkTktlTXozdXNleXI4b2VURDFKamFBbk1ZbVk2VzhwaE1ZRnFYcDlOa2x6VEctQXlRemE5NTlnR3pLRkk3MDZQOVBQMlZkVjVXQlgtRnAxbEZsUWt2QUNjXzdUMXZIMjl1R2N4bkdnNl80TTUtSmdhU0JwWW95WVBoQUdVSDNSSG1WMVlXN05pX3FBdG9KWWtJZ1BVU2lieC0yOFRKRDlQcGdJZ09JWmxqT1pidGhia2VBYi1zOUtMLXYzMHZuUkp1UlVJM1liVjZaNU5mWTIySExEMW9WazVjbGpqbkxyMmxMM3dzdUp3NXl0RzZzelZRUUpLMGVjOTdMM0pZUkF2RF9OZWJHMzdZZ3B0SXpuUWhEVDAxTnZsUnpTcGRqalhjWWxnd3plLVl0clFXbmUxeHhFSEVwRUpQdVEzUlhMZUYtbE9xWTE5bll5M282WlJyYmdOZ3VlSjV3Qnl5QVlxeXJBTHFoTkRtR2Y2U2ZMcVlMdjR2bXV4NUF5a1lQWUh6dGNralFHOVZLMHJFNW5pQXVhcXVZb0FreFBGYnY5dHBwMS02cTViWWkxcTJianh5cl9TZzBMblE4T3Q3eC1tdmxFM09xYVNFUHE5MTJPRWM5T2hzX09xSHo4bW9fa0xPSUItWnZXNWpsZW5DeHZ2THRNaHM1dXgxcjBxZGt3eXNkbHc4aE1iSUM4TzZ3?oc=5",
-        "date": "2026-06-28T11:16",
-        "source": "الشرق الأوسط",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、イランのクウェート・バーレーン攻撃を非難",
-        "url": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxQQjFQMWNUVHdHZ25sbU0yeVc3WjVUYm0zQ1lFaDJCOXd6OFN0dVlhNHpXOHdiazVMbzdhVnVOaGYtdEN1Yk11QVh2SlRrQ3hQYWZnTjdGTFczTHdsazVoZGF0MUJUZWZMUmlxMEp2ZF9TQ3ZvLXl0eDRvQzBaZkhvRzlvUWNsZXk4M1ZtdnR0c2xlNnJSMkJyekE5NG1BYWNhcktwTkYwQ3hsTWNjYW1LS1JTSXpmMnl5TzR4Ujd6WXFCRTIzRGlIelN1bE5FVXhkTzREdF9MZl83ZW85Z1ZMXzVxdWhlT1RnSU1oTHl5eEZYNE45WVRGR0Y1cF9rZkZTZkQ2Mm5hTGJ3bVJDV0lMeHNDZElNemJpQXNXbVhFa0EzTTh5QUVWb0Myc3A5UU5WOTlBV3ZUMmZ3YzhoSGdBSWQ1UnJjRVdCUnJTUzhHOUI4RFgwMkdVWnMtSnk2VXJ3a1RyNTBVTWtiM3hWc1NXZjlodnpXaktFaXVnSE4xc3lwbDhiMC1mLUwwYmlFbDg2QjRXVXJUaU95Z3UwYkJWNEF0VVFJaUJ0cFZmMlZYSEg5RlI1dzRFT3VHdVVFV1l5dTZ1SzZQd1M1S1ZMQ3N2SGlweUY2dnJMRHNDOThDYkdqeFNYRlHSAesDQVVfeXFMTm9ZNGZkNE5rR0VjWDRwZklZQ1k3SGJwMEdMdFhqSzNVYm83eEM3cUpCRXZXMzltLTM3T3JFMjAzLWctUEdrQ2pkSmtveEZaUjFkZlVVbDlyand4djRUY2pSeF9ZMWF6MnhIWlQyUkw3dXhNcHRwR2V3d2lMUzBPUXhMZHF5TGMxb3hWQWtoX1ZERXJsY2N5MGF2a1VsWU5MaXRGWWtNaV9FVzFMaWMxNE1FSzZxZjlCNlVPSGJudlcxYlFGUEUxUDJoOGJPbTAwYWJFbllnYVNWUkduNEhrLUJGUlRCd1RsTmRUSEhqblFYWDVNQ1VLakdONkF1Z1BBN3RnRHhCSmk2OWx5WHhtM2t4eGFGMEgtN1FGc2VJS29OSkhEZGNablFoaEpfVEtfVEIwZ01pYlI2cTVXNkNfdHE3QWNVd2dIcl8za2hwMEVld2MzN051SmY3WWZSSzcyQXRTblY2cUtSSXdhVzB3RHBUYVItandmdUpROHdBT2xoeGYyQTk0endSS3g2RXZ4dFNRR0ZSbjNXVUdneFVmMmtDZTlnMnhNbV9DTDVQNl81UFpMaG81aGNzVmxUem14a21kVHBlc3I5TDAxV3pRUF9KTVYxcE10MjU0WGpvMVdqV3RMaDM2bXF3Y1E?oc=5",
-        "date": "2026-06-28T09:59",
-        "source": "العربية",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアの文化発信、カイロで「サウジコーヒー」展示会",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9qejhheTZ1b1NtUGRXdmZaS3RxYVY2ZjYwc1htYzJVUGVJQnNHdTRuSkJ4MlB6Q2VWSFlUV3NwdTItZDYtVEE?oc=5",
-        "date": "2026-06-28T09:51",
-        "source": "وكالة الأنباء السعودية",
-        "category": "文化"
-      },
-      {
-        "title": "夏の音楽シーズン開幕へ 注目の3組を徹底検証",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yWHB4d0QtWjBnd2hfYWluMkJkOG9vd2RtdVVHTEIxUnlQZEtEd3RxSHhvbVVCc2p2SDJ0VFlTelR2UDU5Wl9DQXU0R3NlUGY1dW1kZlBn0gFUQVVfeXFMTWZoUDFGc0N6d2Q4R21uclVhN0JJY2c1RmhKWmE5ZmZlS3VocWZMLTN2LXdnXzY4T2h4U1k1X2JXd0UxNkxvMmVnRnBKenVrU05aYTky?oc=5",
-        "date": "2026-06-27T22:08",
-        "source": "عكاظ",
-        "category": "文化"
-      },
-      {
-        "title": "外相、モーリタニア外相と電話協議 両国の最新情勢を協議",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9WU010cmUzdjJObnBSLUhJbnVGTmtTQ1Q2WHlCempyUkFHOWxnOTZoVXl6VEl5cUNFTXA4Q0hHSlNFdUhZbWNZ?oc=5",
-        "date": "2026-06-27T15:26",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア・タイフ市、建築許可制度改革で665件を認可",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5oZjBRWWhhTWhkdDZBU3hlWkFzME5vUncycDAxaWVCOUdlLXdUYmFQaG01SnJXWXBwMjh2LXh3ZG9GX1kyNTgw?oc=5",
-        "date": "2026-06-27T15:10",
-        "source": "جريدة الرياض",
-        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-06-28T19:59:03.735933+03:00",
+    "lastUpdated": "2026-06-29T17:32:32.293560+03:00",
     "items": [
+      {
+        "title": "サウジアラビアのファイサル外相が30日から訪中―中国外交部",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5SEUwU25IcDB6aTIzMDI2TlpxczZXbGFWUnZmdnFvZTNwS0tTb3U4dVlPNkZRdnJqaTNud3lMNlBCTTR2WlJwc1lOWkFfcWhvLWZ0RGJOVkZuMnhuMTM5eUo5bGVGbmJH?oc=5",
+        "date": "2026-06-29T11:20",
+        "source": "Record China",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアとカタールのオファーを断り、カルバハルは欧州の強豪への移籍を選んだ。",
+        "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxQQncxWFZmc1J3MlJHeTAwbXVtRGpOUFQxZjUyRkdvYmtieHZSUFVmQWlhM2JaSDltNDcxemk3bDlqRUUzYkRnRmxHQ1NCZ1FnVS1nN0xKQmRiMHNxMDVidVpIUmpwWnFnSGRhSXZXX2pFQW11WDVwekhVaGNBaEoyNXVPTHdkeWNOYmx2X21rQ0dsVXYzb2ZQblo1Q1lQRXVRbzlPVFpjaDZCZm1RR0NCR01KMjEzYW5kcmFpT1VYSE13bEtNVVF3ck90WGZ0MkUtTTZyb3dXTXBYdk5idjJpU3ItZkk4ZEs4QnR1NjhyaDEtXzZRM0pCZGhHeDJwOTR1SlJjSmpEMEJVZXp3d1BQWU5FdTF2MGVhM3VMUUZNRVN6MGVpWUJJV3UzamJPSno0Qk8xMUtLQXNaVHpNcERoeldMRXBDY19nY05NcE5nQnA0ZTBqZmxrdkdIMDZTWGVRNHFpOS0zR3NvSVhMd1htd01ITFNoQkF3MlpnWGdjTFpLb1ZfRE9DMUk5LW5EdFRGbHp3NDNIM0RMakV6b1dPVUdFR1FsbzBKN0NRMWhMOGpBb1htVkpTMW9IMnV3aFJOdk1aWXVZWVZFb05udmRHUG9JV0trT1FOWkUyRFR3UnozcHBJQUZVanI5dXV4VWVGT0hobndBNVc1ekszSmx5MzhRaUh5Q1JWbmpEUGJjdHF4UDhrS21TNjRjXzAwOHBJdUNLX1EyTHFJclJZZG94ZzZBd0xGbGwtbUJMTjJUOHZIR3U4cXBUQ293Y2llTHdCMUxkMHhCSGt4MTRmczdBV0pKR1NlU2NWbVhRME5sUGZtT0p5WWNiWldCYWFxRHhuSWRDOWNxVWpkT3hwb2c?oc=5",
+        "date": "2026-06-29T08:47",
+        "source": "Goal.com",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビアで国営石油会社所有のヘリ墜落 14人死亡",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxWnFSZ2RMVEVjdmJVV3g4U2I2LS10YmZUbi1VTHVUTVpycGJpX2tXRWlLaWJKN3JYZnJzd0RaM01pNGx6QUNDYlpoMlQ2bVRkYml5NmpRS3VqckF1M05RNWp3TWxibmwxQWp0ZldfRjZMdnp5NXJDRGcybw?oc=5",
+        "date": "2026-06-29T06:57",
+        "source": "au Webポータル",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビアでヘリ墜落 14人死亡 ヘリは国営石油会社サウジアラムコが所有",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wU1hFWFZSM01taGV0cW1ON2hVWUhnNFE2WFhzRlYwczlaSEFlU04xWWJDVlJXWnR5Q0lmX3ZxZVdIYkc4Wk94TjhITTljelJWaHdmOGt4Z0wtQ0l5UmMzZlhwSjRIaXBNdVhpU3NLak1jSW91VGJiMlpB?oc=5",
+        "date": "2026-06-29T06:28",
+        "source": "テレ朝NEWS",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビアの国有石油会社ヘリ墜落、14人死亡",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FVU5xSjlmMjhWbjFBSzdPSVp6WGpSLTA1dGtzVlJWNl9vLWZiMlk3T3MxV3pLMjJFci1SbEJCcThOdW56YlBoRmRmTzk4OHhZRU5pME9uS1VEN1A1b2tRdEphaDhOUkF1LW1OZg?oc=5",
+        "date": "2026-06-28T23:03",
+        "source": "日本経済新聞",
+        "category": "社会"
+      },
       {
         "title": "サウジアラビアの皇太子とマクロン大統領、電話会談で航行の自由の重要性を強調",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1veWExSEpFS3Ryd1hPMElBV2Z6VHlMaVNFMV9MV0JYNzJEaGFKU2pfNGhaQzVucmltdWFNZzV0RUM5R0FCRThpaXI2VGR3bTk1ZEVILTltTG9LWk02ckp6cXZHcFM4c0JRWC10eg?oc=5",
@@ -309,41 +344,6 @@
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UQmI3dUZzVTBJZ29pdEpkUFJCM3FLYW1mN1c2T0lfVHBFNWpqdHlfbjBJLWZ2Rmc3bU43eHNSdjV4aGYyeWZJZzZRMFdyVldCTnVSbkVmNnRMZlozODRCT0d0V2czanRQRFlaR0s1WlRtRWZ6cDRFY3dUSlJNSVU?oc=5",
         "date": "2026-06-27T11:02",
         "source": "Yahoo!ニュース",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サッカー サウジアラビア代表 最新メンバー｜FIFAワールドカップ2026",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOWFEaDJTUU1zRWVrZmM2dVJjeU1Pd0xaX1NJYjE4Y1NwQi1rR0phbkJvb0ttXzRrVzVTN201VWw3Y0lTNWNSWThPUUd6TG5vMHBDc1U5cXZIbmdPdXBFcko4cEZJbzlMcVpnSUxDLVZ2UEJmQktKM1N6TGhQZHduMlQwZ2V2aEtIaEh4TEVrQ2tiNjdlSGxsd2pzLTBtLVF3SUo1ZUc4Tzk1YUNweDkyMmgwN0FacnZlTzlEamxmVQ?oc=5",
-        "date": "2026-06-27T08:27",
-        "source": "Goal.com",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア、未勝利で敗退 陣形の変更実らず―Ｗ杯サッカー",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wODJIRDZQbjZ0TWJScGJaWUpQVHZOQVBZcUw3UzdWWFJoQzUzd0k2NEJ5eC1uN0FwT2RqT2g5YWsxeW9aWG1iVVM4WEU3bkhsT19WYnI5T3U0UVI0RDhCNnE4RQ?oc=5",
-        "date": "2026-06-27T03:21",
-        "source": "時事ドットコム",
-        "category": "スポーツ"
-      },
-      {
-        "title": "初出場カボベルデが２位突破、次戦決勝Ｔはアルゼンチンと スペインは１位、古豪ウルグアイは敗退／詳細",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wVVJvSkE1SDY5Vl84Y00xaWJUMC1fNUxzUjhYMEN2akVuLTNYMDhqVjNGM1RBS0VVQkVSc240Ml9HZl9EUXlaRHdZcEF4SGRlV2RSZUNPemc2bHlLc1RSNVlLRnZCMVI3dWdTVzAxWGgtMi0wMERBdmRJM0tLTDA?oc=5",
-        "date": "2026-06-27T03:14",
-        "source": "日刊スポーツ",
-        "category": "スポーツ"
-      },
-      {
-        "title": "【W杯2026】グループH 第3節 カーボベルデ vs.サウジアラビア ダイジェスト",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtRFVRbjJaVXZNR1RlM3pySkdEMjN3R2hjcEloNjdZLVZxcmxvaERWU1lXSEVOeGk1aW9UWHJiZGRjeG5oenRnQ2F1WTExWXN4bGV2R1dDcFdjYVN0?oc=5",
-        "date": "2026-06-27T03:12",
-        "source": "スポーツナビ",
-        "category": "スポーツ"
-      },
-      {
-        "title": "カボベルデ０―０サウジアラビア カボベルデ、無得点も主導権",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52bmFlREZQa3ZQWEdRUlZSdFc2YlpZcVFOMEFpclQzWE1NdjFfQXF3VUd4OEtCMXVpU040WG1CS2t1YmRVT0JsTmctRDVnMExJRkFFUHZteE1yb0toTGhvS3JRM3E3QQ?oc=5",
-        "date": "2026-06-27T03:11",
-        "source": "朝日新聞",
         "category": "スポーツ"
       }
     ]
