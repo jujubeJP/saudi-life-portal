@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-07-01T20:46:16.033200+03:00",
+  "lastCollected": "2026-07-02T15:26:49.228561+03:00",
   "security": {
-    "lastUpdated": "2026-07-01T20:46:16.033200+03:00",
+    "lastUpdated": "2026-07-02T15:26:49.228561+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-07-01T20:46:16.033200+03:00",
+    "lastUpdated": "2026-07-02T15:26:49.228561+03:00",
     "items": [
       {
         "title": "旅券手数料の改定について",
@@ -86,7 +86,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -94,7 +94,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -110,7 +110,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988294.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -124,14 +124,35 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-07-01T20:46:16.033200+03:00",
+    "lastUpdated": "2026-07-02T15:26:49.228561+03:00",
     "items": [
       {
-        "title": "米国、イラン情勢を巡る対立で サウジアラビアからの駐留軍撤退を検討か",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdEdTdW8zUzEzdEFpYWpLNlVudUlsLUdmRUVNWjJULUJzZVRyemUwdTlpZERXR082UThZa3o5Y0lPNnJNNHdZbjR6bVJfR2dBZENVenhGUnV4T1JtVW84Q0x5MWMxZndha1V3TFNxdnRBRnk1UkVfRUlKdTBtM0g0bkFfd2xzR1lrUjVkcmFpYXJqZUZ3NEg4YTRsRG5YS3VrNmVaaFYyR2ZuRHN6Vldr0gG0AUFVX3lxTE9uUkNTYmg2ZzYyY3ozYm1HRmNTMW5HUTQwMHlxaTR4X3JXdlFGN1VQeks3Wi1ZWGoxaXFxQ2gwQXQ3NFB6QWpyaWNqc1U5TUZVT21tTWRQM1VBbEIxaWFGNjlEaHNfN0tLd0YzcGVCRkV2VmFJWDNnZW9xTlE4bnhxbjVoSjVTeExnZG5FR2pmSzVud1Z5QWRfTFFPNE94NUE2SEhTREhxLWJldTdOdXNTTmJMOQ?oc=5",
-        "date": "2026-07-01T17:29",
-        "source": "The Times of Israel",
-        "category": "政治"
+        "title": "ホルムズ海峡の石油流通増加に伴い、サウジアラビアの石油輸出が戦前水準に接近",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQjRRbENaLTR0MXBadnU2NGRlTEUxR2N0M0pzTkszd1Z3d09sbTdBY3AzVEJQUk1OR25Na0lVWGpnOEdUZGNnY1hQX2tWdnFSZzdnZkpWN3ZNVHZpMjctWWFsaEsyUXJZWnR3dmM5WV80Q3hIemw4dDZNSm44WHRpdkZfQlBBQjc2bmVXUHNLZzJDb1VtNC1wTF9hc1A4dWxYYTVaeS1LVlNoSHc1d3F0WWlQNA?oc=5",
+        "date": "2026-07-02T12:05",
+        "source": "Bloomberg.com",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、イラン核合意以降最大規模の石油輸出 ホルムズ海峡を通過",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQWEwaWJqWG9XWDVKRDR0aWtyR1ViSnVHcGpOYl81eHlBdHNpdlB5cnFfc0Izc3R1LUVwV2xBblh0aHd1UkYyRm44eFBBUDZ3anF4OVZNWmxqYzF4cjE1Z1AtZTRhbUpVUHJjVnJnTkxEeUJoUDdMUkFqWXZWelIzM2R6MTdjTzgxeERCb1lvbldQRkNZX1F3akJFbXdmTVB2aENCS2ZyQ1hjTHFoSURVamt4VzlMRkpNS0V3b1hLMDZjTHAzZnc?oc=5",
+        "date": "2026-07-02T11:14",
+        "source": "Bloomberg.com",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラムコ、ラス・タヌーラからの輸出を増加 現物販売に切り替え",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObXVyMVNFblo4NFptVzhSMC1HS2VQTmpSbk51UzdqNm5LZG5pejQ4OWlXNGVPNmllanJ4TXFUT3FYdDhJUm45Rjdyd0szblBfVWFpVVd2Ny1OZDJ4cEUyUDVmTTd2dkItc3FNMlV6UXBYOUdVMzVMcTMwaDhVTzNVME9mejd2QVJNcEhMRXUxc3VFYV8xVXdhcGRGMW9NNjVHZ2ZvQmt5NElDYUJqTXdjOERhYkxidzc2bnNBUFlqSmdYQQ?oc=5",
+        "date": "2026-07-02T07:23",
+        "source": "Reuters",
+        "category": "経済"
+      },
+      {
+        "title": "WTAファイナルズ、サウジアラビア開催を終了 カリフォルニアへ移転",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVnptOUZrVkVLc3hlNWV5MlFZdS1FVTNJWGVrck9CZmhmUW1ueG9lQkptLUhMTGJzZlVVNnkyR3BLOWpReFRoamFrNUYwYi1UQVhSUThYR0IxVUhfZElQZnBpSXk5M3ZfRFZ3RGdWU0o1ZWVLMEF6ZUdOejdLUFJkMnFDNHR5Z19zMHNRVHc1dlRfZnllcTZqZUJ1ejBiVFI5TmsyaTdxNzVvUnV6MG0yMEo2MEJfRF9GU1lnUUZqYWg5QQ?oc=5",
+        "date": "2026-07-02T01:30",
+        "source": "The Guardian",
+        "category": "スポーツ"
       },
       {
         "title": "WTA年間最終戦、サウジアラビアとの契約を早期終了してインディアンウェルズに移転",
@@ -148,11 +169,11 @@
         "category": "政治"
       },
       {
-        "title": "WTAファイナルズ、サウジアラビアとの3年間の契約を終了しカリフォルニアへ移転",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVnptOUZrVkVLc3hlNWV5MlFZdS1FVTNJWGVrck9CZmhmUW1ueG9lQkptLUhMTGJzZlVVNnkyR3BLOWpReFRoamFrNUYwYi1UQVhSUThYR0IxVUhfZElQZnBpSXk5M3ZfRFZ3RGdWU0o1ZWVLMEF6ZUdOejdLUFJkMnFDNHR5Z19zMHNRVHc1dlRfZnllcTZqZUJ1ejBiVFI5TmsyaTdxNzVvUnV6MG0yMEo2MEJfRF9GU1lnUUZqYWg5QQ?oc=5",
-        "date": "2026-07-01T16:41",
-        "source": "The Guardian",
-        "category": "スポーツ"
+        "title": "米国がイラン情勢を巡る関係悪化を受けサウジアラビアからの軍撤退を検討か",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdEdTdW8zUzEzdEFpYWpLNlVudUlsLUdmRUVNWjJULUJzZVRyemUwdTlpZERXR082UThZa3o5Y0lPNnJNNHdZbjR6bVJfR2dBZENVenhGUnV4T1JtVW84Q0x5MWMxZndha1V3TFNxdnRBRnk1UkVfRUlKdTBtM0g0bkFfd2xzR1lrUjVkcmFpYXJqZUZ3NEg4YTRsRG5YS3VrNmVaaFYyR2ZuRHN6Vldr0gG0AUFVX3lxTE9uUkNTYmg2ZzYyY3ozYm1HRmNTMW5HUTQwMHlxaTR4X3JXdlFGN1VQeks3Wi1ZWGoxaXFxQ2gwQXQ3NFB6QWpyaWNqc1U5TUZVT21tTWRQM1VBbEIxaWFGNjlEaHNfN0tLd0YzcGVCRkV2VmFJWDNnZW9xTlE4bnhxbjVoSjVTeExnZG5FR2pmSzVud1Z5QWRfTFFPNE94NUE2SEhTREhxLWJldTdOdXNTTmJMOQ?oc=5",
+        "date": "2026-07-01T17:19",
+        "source": "The Times of Israel",
+        "category": "政治"
       },
       {
         "title": "サウジアラビア内務省、リヤド地域で麻薬密輸・売買組織を摘発",
@@ -169,38 +190,45 @@
         "category": "スポーツ"
       },
       {
-        "title": "2026年WTAツアー選手権、インディアンウェルズで開催へ　サウジアラビアとの契約終了",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYndaWWN2TndkeE9MX3RHWEliaFI4Z2JPSTBTLUdCTUlPcnZCVm1xdlhkRGFBa1RvOTdOT3VGdjk3QXE1bnljNmhUSFI0alJMeXFkWGhWTVhtRDJIbXRmaDhzbDVadWx0OHZZQW1sdDg1Vk93VUV6WW03cnR2ZWRORnJEM0RLczcwY1F5Z2t2UWZXNzl1R0xF?oc=5",
+        "title": "WTAファイナルズ、サウジアラビアとの契約終了によりインディアンウェルズに移転",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBHdWFDd2Vrb3VuSVk0LUk1Yk5IMVA0eGtpRTJOeWR4bHBCMGo0NFN0Q28wNXd5VXZpemxkcG1vVHNYNlV3MnJMQTJFb1ZmRXE0Y216NG9ySWZSQWkyc250TE84X1Q?oc=5",
         "date": "2026-07-01T16:01",
-        "source": "The New York Times",
+        "source": "BBC",
         "category": "スポーツ"
-      },
-      {
-        "title": "WTA女子テニス年間最終戦、11月にインディアンウェルズへ移開催",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NU2gyQ3F1eFhyWmVSVno2Qkk2Z1V6TlYzd28zdW9FZVFLSEs3SURlUzJGRGZpRXEtLTk3Z0hLWVVsNmM4UXpSSkVCdktMejF1QkpVR3k4ejAwbG9saHdnVzZwdjk2dGlFNFoybG16dk9TT3R3Y24wUlE4c3M2RHc?oc=5",
-        "date": "2026-07-01T16:01",
-        "source": "Newsday",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア、イラン情勢悪化の懸念からトランプ前大統領にホルムズ海峡での海軍活動中止を要請",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxUVhVNlo3aThGcVM3OExjcmZGcjVMV3YwVXVVLVlJZC1MRkpvZjhWYmhqWDJwcVZJWU96ZGhxYWtUb0dsMENpN3R0RkdPSDZWeUFKUVd3?oc=5",
-        "date": "2026-07-01T15:41",
-        "source": "Ynetnews",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、オンライン投稿を理由に巡礼者と観光客を拘束",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWGlHZUxhdU5GeHktU2kyN2NyNUhOX000Q0xIMnVXaGVTSGdfaHZlRnhjcHYzdzJfVFNsRFYyTHZROWpkZFg3ZDBQTklOTk9maUFSWWU4cVY5TklNVzJtQ3lmU1JmYWxtTEdlM1BvR2c2djZLWFExNWFQMXNDVWpvcmszMDd2QndRd3hjY2R2X2xraGtrQnIydy0tRm1JNkpRUUpCT1lHNGZSQjdH?oc=5",
-        "date": "2026-07-01T14:30",
-        "source": "Middle East Eye",
-        "category": "社会"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-07-01T20:46:16.033200+03:00",
+    "lastUpdated": "2026-07-02T15:26:49.228561+03:00",
     "items": [
+      {
+        "title": "世界銀行、サウジアラビアの教育AI活用を世界モデルとして記録",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1nSjJ6R0JYaWlYMW12ckZ1SjdfZmluWDRNU0pTcVNaTjQwNHJPYUhtZlFmcEpVTUNJaEFSWm5CWVBOaDF2Uko4?oc=5",
+        "date": "2026-07-02T12:21",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアの大型タンカー、イラン戦争休戦以来最大規模で石油輸送",
+        "url": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxNb2U4U0dLOG84TmRUR1NRZlFiQ2tjaFFzM1Y4cDJkN2tnbGZLMDZmZlBHUkpkdUJhUVpkd2NwaHBwYVc0ZkwzOS1Idy1veHZGWVQ4YlVUbWxIYy1PaHU0NEJpbXViSVFDOEVTTUhUeWh2V3VpN3lOZ3V3WnZJaE5YQy1nckViNEdUMERRQ3NlZncxc2tDUTdzZlROM1dpUFNVQW9pMmd6eklCWGZiNmR1X0lDSURZUXdKVGk4V3gwU29TSVlOMHA2eEpWMm9pOUg5eENfWFdvaUtfcVVKMUkwMVQ3MENBZ2J2d0ZKSlBvMkt5Y08tQ3lLWnEzcXVQOTJzZnNzaHh2RVBpV3c3dGpZclU4dWdGSHhVUldkYXg1STdwYmxtbVBETlFCYUNWMUlQWERKTjFScEtjTHQ1LVQySlp0NzNVd1hfaXpyVmpJdU1WbUdKUHZtY3NaWEhLRGxSNlpvQjR3dGxpWTZpcGxmUU5SZHl4bG51eGdfazBSckJSeHA2VUNzX2JpSHUtZUFQdUpCZGZuU2Yta3JnUDB3QUZPZk9aVzRSb1NHREF2UXFrTndRUEFmQ2hubzd6Vm5aZWhUUUhBeUJrUVdUUGY4NHp1YldGb3RFanJxbGhKQVh0TEpwYmVkQ3F3?oc=5",
+        "date": "2026-07-02T11:56",
+        "source": "الشرق بلومبرغ",
+        "category": "経済"
+      },
+      {
+        "title": "米国、サウジアラビアからの撤兵を検討 米国とサウジの関係に亀裂か",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcElzbzc4RnFzd0xHZHp6VU03WjBmMzVxSklyS09WSGYtWWhjdUgyQmtfZmhDYmdjQXN4RG9YYVhFOXRyQklNT0piZE1DX01vRGNWc0JmUVpvTlJ6MVJ2Q0oxVXNSb0VYaFVzNVo1SVRySXJQSVRIOUlRdW5LZ0x4T3JSRm9IeVJkYmMxRTNnSGhfeUJLVGR6MFBDMkVQeEszX2liMWdadExVUQ?oc=5",
+        "date": "2026-07-02T11:26",
+        "source": "Euronews",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア 違法薬物密輸組織摘発で19人を逮捕",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBwcUI3RlI4WkY1aHdhT21uQ3QySmo3ZVd2SkRrelhQLVRuUHpwVzByOWZ4amh1Q0M1Um11UEJvQ3d5bjhlUi1qVGowaWJ0YURJZnR1RlFoajJJRm9ZQ0E4T3JRS09UNktHOGFVYXhZUjVCQ3M0ZG1tdDBGRdIBhgFBVV95cUxNeEtFSjdHRWhleFpGV25yVnJIc3kxVEN2blVNakFsUkw3TDRQczc1YU0wcjZhV3JlbS1kVGpBaXE0OWpEWVpyU0VYaEZnTE5UaUtTaDhDa2U2RDV6ZFcyMjgwR05HOENtR0U2SHZPXzlBTFJOV2h3TF9YOFdkbU1GMmlmTmw1UQ?oc=5",
+        "date": "2026-07-01T17:55",
+        "source": "CNN Arabic",
+        "category": "社会"
+      },
       {
         "title": "サウジアラビアの定期預金・貯蓄が2008年の金融危機以来の高水準",
         "url": "https://news.google.com/rss/articles/CBMivARBVV95cUxNNnpZTDBTOUwycm40TFVSRlFXM2wyTmVKdC1BOTllS0ZSQXBWYmhLa2kxb1Q3dzVLSEtIS2VsVmxRd1dsMFc1M3JWbDRoRDRlMVNFU3NmVkZJNGJ0UjNDTmY3WEdHMjRwYmMtRmhfUko1VnFfeFdyajU2UjFXLXZaU2hxLUlxNUFfX20yQlhmV182U004YkVlQjV5RU5DWno1QzNPeE9RZVhCNFMwY1JvQkF3WFVKOXNkdmJ5ak8tRGo5THNtNDdSQjdkV1d0aVVGRjdPR1JMQ0hQMHRDYi1nU0pNNlRnbmROcGRHcDVWdzdDRFpDLUZpSTZYT18zYmd2YmxwSE8xOGNIdTlxcmJzcFAzTDMwOFN1MTRVajdwMTRhb2E5ZXV5YWxyUHRiY2g1TXZmZERHYlRzLTFkWVdmR2xyQkV3WnpFQjUycVJzaTJ4bWdKWXhndlg0eUtWQUZUdGN0X2FLWHJja0I3SUJWYXYxSzFuWHhjNTIwYmhWRDEtaUtMeUMxcE1NYWJsYjhQSW5fcWdHdVYzVjdKbENzMW1zd2hGOGNHNjZJNVRzT0twdy0yS1J4dW1WOWdZS3RNSnctR2ZFNXYwRDBtZmZpSmY4bi1sVXBpeTRPWEctUlc5QWJJS0YyNlRWdEp4UFdkOHllYXVaem5EU0hqQTF6RzJ4eUJsLTJSUDl4Sk5YSmpXYVM1TjBUeFVYckRjNzM3SUc4cm9Jd3ktSmFKWmtVQ2s2TnZkSEFFaWxFNA?oc=5",
@@ -216,6 +244,13 @@
         "category": "経済"
       },
       {
+        "title": "サウジアラビア：リヤドで麻薬密売組織を摘発",
+        "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxNZmV6R3RnamJtRnp0MUlIeUVZbkVleUtGanY1NndQV0Y1X2Z4emhLd1N1THhCTTltX3l3cDFEeU1SWl9XOVNTX00tNl9STlU0bTFXRHpIOVFCRnF2RmJXTlQ3MFAzaGdzX3ZyNXRjb0pPQnVuVThnYVU3TkMzNGJTYUdZX0tnRkJmLUhQTjNfNTJ2a3lJazZraXZHdjc0b1VuTGFTNTBPNE5WNEU4SXR0bWNiU01zZVM5N0pyWl9jSUR3OXd1NW02Qm9ydXNFaDQ0ekRpMkxYclhpdVRjc1JWZzFWMjNzZlRaZURTYzJ5Ml8wWVRCX29hRzMtNUtsZ1FpVmZVcExhLTF1RUlvbUY3dWhCV3VCZi1ReVZNWXROMTljeGs1eHh4V2ZpbnRoS0V6Ti1yVnprMV84WDNwdEhiOFQ3RThEeE5nMnRRZFhXRURfQkdSTWpCN0h4Y3pBUTZwaUFSQTF2ZEZMLTRKcTlWcW9oZUpOWWp3ZVdPSnlMZzNjWTQ1eDk0aHRyMGpEcExNWnRHQmJZS1lqdnhYNHdpNkNiR2k2ZlczU0VKYnM0RFVaaHpZTEluTklvcVhyRWd4Nlg1Nmt0NFY4WVJmR1pMT1g3b0ZjRy1sWUxCdjF5RUMxeTJOTzZwU0xrZVpGV3RCRmFZelU3bC1BbjJWVGdPTnU0R0d4cXdNRFFCTGtfZGdUWXJhMHo1RFVUN3pMT0I3UkNyLVF1QWV6QXBfTWczdXNwNnhUWnB3UjE3bFRiLVdmYm0tZ2hoSnhxOW8xT1oya1pZQWJvNXRXYjJZMUlR?oc=5",
+        "date": "2026-07-01T16:26",
+        "source": "الشرق الأوسط",
+        "category": "社会"
+      },
+      {
         "title": "サウジアラビア、2025年の民間外国投資が200億リヤルを突破",
         "url": "https://news.google.com/rss/articles/CBMiygNBVV95cUxPNUJlR2h0cTY4eUJPeENiTm9lWGN0c3hyV3pPMUlmWFkyeExBRmcxSHE2V0RlUVJOYlFkVkM2MEd0TDhMaVJYd0RvQ1ZpMnloeW04d0xhbXd5dFlOd3o2bDZOcE10U2tnaHl2aHhRSEFRMkZtVDlFNWFUNkREV1RBeWg2ZkJEMUlTeEkwakJoRHkzcS1DVVFpV3czUFRpSmJTTnM2OTZPZmxwX2I1c2N3ZFZ2S083Y29CTkt4Sjk2Y0tmVXZJRmRiVUZLNFhuTk9xTExQaXkxRGZhdzFnVzFCUGtrNVROUDV4UzRsbTlkT0MtUlNDR25LcktVeUgxQS1DZFpfRlI2b201aE9hNFE3djdhYUczc3FmeXJRWm43bUlrUDV0aWJsSVh3THBVUWdmcUp5MVhDdk11Yk9FYWNQZEZ1TV9leEtkS2l3QWwxNG14T0lkUUZPU0xPRFV6eWJtclE5bTlCdEJWb2Z2VTltZEUtYjFHbVRsYllMZmc5V2RkajdLLXNrRi1GX2xIWXlESDFQQ2JOQ1RZQjNEOEZIRkNuYnNlZFNFVFFBOE9oSHdhZG1yNWV6NW5ncnVXLUt5YmFiOGZULTQ5Z9IBzwNBVV95cUxQQVFYbFBCN1pJSklXdWxXYm5Ba2RFMEhyMkNrQU5Fc2ZlOV9UclRnQURrZURnRmM2eHgydGk4Z3B5RjREczFVVDRSVUJSS3JQTVpJNnJGWDZWQmZFOG1Fb0VYY1B4STZaMm43Rk5PTXFmSGd1eFI5dnlybUhEemJkTUlVM09mMmhFTmE5ODB6ZGxZR3pmYUstdjJQd2xLaXpUb1VOT2ZTM29SMjc2QU9zT3dKQ2VnYlgtQXo4a3p0SjYyNEdBZE9SS1h1VmQzaGM2T3dfOUdNam9XSEdBdlVDblJPNWVSRE5hblFSb0dpdl9HS0lfb1BqX3NkQThiU0FDNVNqLU5ULVBCbWxhdkliTjJZZTA4NWpLRnFtV0hFd3ZtX184dEt4dWZyQ2VxRVc3WHlQOGEwRFYzaEo5Q3pvSDR1MmdubDNkTEllMnZUYzFEQXllQUZrY0JjV1lRMXUwNXhzWURsYl9LSjJmZU9DeXV1VmhjZ1VpS1NjUVEySUF6b0tKMmZ1dW83WUlxQ1NmUHI4RXdvNVh0aFhxZTBRcGtKeGFsTXFBak91MkNRdEN2akNYN0Fnam44V1ZGTTRPTTZ4T1NiblJ6NUFtTXhn?oc=5",
         "date": "2026-07-01T16:09",
@@ -223,58 +258,23 @@
         "category": "経済"
       },
       {
-        "title": "イスラム銀行評議会とサウジアラビアのデジタル通貨が提携、デジタル資産の強化へ",
-        "url": "https://news.google.com/rss/articles/CBMiygRBVV95cUxPREtlLWlmczZ1am9COUpjRHJyMEhNVnVHdGFzM2FBdkRfV056XzlDa3BIRjR3QlN3S2hzREZPdmRHYmJBNWZnQk5KY1piQjZqR3ZwLXJMb1VLWWhNYmxBYTZxc25BNWtEb1hWN0UydjczbFE1RUx0eWJ6U2ViSHpuVDBRU202QnJSVWcwRFpVbnFlOU5nazd6Q0RpYjVqdFFhbkNHLWRqSVZHUXh5aUd4QzY4anBhRmJaV2VaTXhOUVNRa2t3Z0hIb1A4NjBIRUpaamVKLW9ydXI3dEtkUThCTV9sNzc3NThuOFJGQWE5Yk5wSWllSDRFNVAtUm9tMVJxWGNLLTFwWXFCQnB4eFRWTjZEM0NGWFNfVWNqZkJnVUswRHFfbkVkX0NBVm0xU2R2XzZSNG5qcVFQd0pVaDRza2Q0SlA5NzhRcDhEZUFlVGpxYmRRVV9lYmVSN1pwb1NnZ2lULTZFSm9SNlV0X1RGa243Z0hWbFFRNU55ZlNMQ3g2VEM0QzhMUHhpVW5CTHJLSzdjU1c1UVFjN1N5VmlidWxDRkFVSDVrX0g4UUtaMThFNWJpMXVDMFpiWmU5bzdiVDY2SzZsOVE5RTlPdTVfeGN0QXNZdjBKZUoyVUhoUEgtODNqRnBHcThRUFpfSVBaQ2tyaEh2WjVtYzhpVHF4QzlRSmZJNjNLa1BhSjZ0aExobW83V1hmalU0eko0NEUtM05BNENCei1HZnQxVWhMcWRMRE5PWm9ja0xVcUEwVW1SMC0zak55a1p30gHPBEFVX3lxTFBsdG5BZVFRVHVHRFNGQ2tXSFJRQWhwdEpqak1lOVAtanRNSnhFbklVamROemtfS3luZEdCMGRydkxkNmJHakRMN3ZhS0Zjbjk4eUJDNl8taTlmS3NjaFRzaHRIYjhxVGJNU2prVUdPYmFzOEx3TV9PZE95ZXZXY3l2MFM4akpCMk9FeTBfVFhCaHdQdDlUbk96MWpabkVsMEozWWJFUllWY2NZVkp4ME56eEhzNzVOVHdGd3FlMHFLRzNHQW0za0dkOFJ4UllCcjg4WXlZV0QwUDI0eERFUmpLVHM1elFVZGo0cmdBUEpZZTI0X0gzVkIweGdsbXNubkRiMnczR2R1a0hoQ3lweXJiM3VTOERzSTc4NmtaenFnOG0yenNwbTd6d0dPTktkUmdaZWpxUFpuRHJ2ckJzNzEyUENWZHU0SDVrRV9sVFFjdWl6ZDlkcHgxSVhQLUVoLUhTSEN5M1RHQlNDS2dtUFRoUk14M2JhbEV6R1hSYjR5UzRKNUJxYko5bFJ6My1WdzBzamlaZ2pwVldfRExWZTVLeEtpNkdwYXVlMjZVbkNfd3JJUDhNVHR6NURIeFVJeUV6MzBpcnNseGVkZDQ1c0FkUVlCcDd2YW83X2ZRdDNaSFRKZE44WW9XbWxGbXBKY0hLZHJBQVk3SExJMDhFVC1NT0pCRThSNW5GdXk4WTJyWkVPR21sTEdjSjRzMGp0QU1LeWlPRDhTVkQ2bW5FeDduSmRFNHZ1N2ludzlxTGNlbzVyTWQ3N1JBSW9HNHhPcw?oc=5",
-        "date": "2026-07-01T15:23",
+        "title": "サウジアラビア、リヤドの麻薬密売組織を摘発",
+        "url": "https://news.google.com/rss/articles/CBMi-gNBVV95cUxPWDJfbFVZRnpnR0dGOWJJMGlGTGxOS1E3OTVxU1pVdTNRWWNBUEx6T182dkNtWm1PSXhwa29yekY3TjVUZ1dfWnkyZG9LMHZaLTZRWnk3dVB3S3dyNjRkWC03a3pSWnFCWTR2eDBQMHpCLXZwa2syY3UxNVp5VUNKNVp0elpyYjZQSDY0NU0yZEhLYmEyRWMyai16OGJXUGpWOGE5SDFlNkF1ZnVFWXdjMXlqaExNWUNRb1Y5VEVHSnpaVEozR2JtMjk3eG1tMWNtRmgyV2tsYXBSN09vZWVKU0tzVG1SMDUxT1ExbDE5dzNZemJzMTlnV2UzckZNTFlSS3N6M01zTTRkelp0c0Ftb1NJekxIX1I0OHo2QUZfRHhCYnhDSGNfZ2lOT3FReFJ3UUE0QWZYMnpKZHRYeXpQLUpNQWdLcWotTWRsV2xUT0FELU1VamRGeUVTcEFjdnJoQUg4RF9sWHVsdTkwd3pwck8tN1JJb3laekhkTWhqWW5SWndIeVNzUjA2NjFEUWdYZEhHbVFGMl9EdkhKeFFQMng2d1VjRFhESjJBX2wxZXlOM0pxNzMyZFdvb0FxN1dwMTlwZko4eWI0VXFHUUpzanpDMDI3cElXMi1NTms2aWthVm40WTRtcThjQVhTVENJQzdKVjJnODAxUQ?oc=5",
+        "date": "2026-07-01T15:58",
         "source": "العربية",
-        "category": "経済"
+        "category": "社会"
       },
       {
-        "title": "サウジアラビアの非公開市場への外国投資、2025年は200億リアルに急増",
-        "url": "https://news.google.com/rss/articles/CBMigwVBVV95cUxQcWVPdjNfV2FQc1pUb1hTbmZRNUdWVEFHdTVaMzVuZ2wzeXR1d1RZdkZuVVBkQmtsMkZqMUNSb2MtZlpfbXVxVVpMM3RBbVpNeE9PTndZNWIwb2hLMU1rRWlURmlhbU5LMWtENF96OWZ4ck50bklvWFlYR0g0WXBQNGhlb1RiMFh0RnBzcGFTN3p4T1hQTG8ybjdCdUJvaEx5eXpiLTNaZzRLdlJQeXJhZF82NmJsa214bDM5Z0Fhc0h6OEU4aENuUTJhV21XN0RET3oza3g4eFVfOGpVcDJ2RGUyak5jNThfQ1dOZlpXOFVCYk1md3lFMkJ1SkdUZDNZVHZQWXdZQWtwQllHbmMtSmQzQnJqX1o3MzF1U3RWenlHbHFkT0tBdlpvenU4ZzlPQkppNlRPTkk5TzkwUXFyZzZQV2JSUEd6NVJjaEJlU3pwZWJveWF6WDNmbTczemVESWVSOGhXTmMzYlhqUHNmQ0Rad2V6Y2FrZE5FOG5sZmN2UVBmbWZkOTBrMVhZV3pPN2N2RTNIVUJxamNfWUNBbVQxN3lSbVN6UWkxdzdHYWpPaW54cjVsa2FXWHUwWTdHRjMxbmt1eWdVU3RQa1J0M0dNRXlmeTNyYWIwRU5fbkxlUFdXdVV0Rko0TGZ1ZWFkM3EzN3JTZjdZczJCZl91SVRzMnZHRElNTzd4WUM5YkN2VGZFMWRuOHBaRkJDeFc0SUdZR0VWOEhRNHRUSXVNVEprQjk2YW5Fc3gtNFJGOU85S0FrY2xkZmtWNXlBbHJVWGhEbm9BM2tBN2FpVHRpUTFPTzZuMmZzZTVaajNOVUlzbmNQM0tUVnpXV3FqWVRVRTRr?oc=5",
-        "date": "2026-07-01T14:21",
-        "source": "الاقتصادية",
-        "category": "経済"
-      },
-      {
-        "title": "貴金属の鑑定業務、無許可営業を禁止 今日が期限",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XVjZZeEdWWUJUeEJxM3I1WWI3WHNPR1RkbmJWaUJFRnBYVVVnRGFscHRUSjFlZTQzWVNYNFF3c3RuVXpOcVB1TG1kNUh2Z2Y5THfSAVRBVV95cUxPWHktelJmLVcwODdBTUFVYWlIamJyMDhKNmVScDRNbmQxd3N1VnJaUXpvd3gxSFpEODdzYWpERGd2NUlnLUhHY2ZMTFlVNG1JSWxhSWs?oc=5",
-        "date": "2026-07-01T14:00",
-        "source": "عكاظ",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、レバノン産品の輸入促進へ",
-        "url": "https://news.google.com/rss/articles/CBMi9gRBVV95cUxPY1MxM3ZtYksxWVhGWk1RTElYcEl1a3NJdE5JblFoTHBMNE5UZHFYRE5zZm1ZQ0pNRzR2Z1Myc1VoVHE4S01GeXJQazJPQXAxZ2JiWG5FWmg4NjlIU0xCNER1YjdLLWNnTkNMUzliNnhubTZ2MWpVN2RxNm1aN2t1MnVWVHdKLTF3dnRLWVZaem5wVHlhaGZzLTlnZVcxZU5OcjgySjdsM0lFRjVYUkxyOThmb2MyMXM3RU1lRzU4M0ZUQ1lRd0d1MG9OYldnVmdna3BKaUNGZy1WQU90QWp6TFAwVTdCbE1VdVowWmZWRHI2eXo3NkpvU19Wbld1RU5RbnJUcDNqYTJVVUtXOEluSVlVSXhCMXhsc1BRMU56U3FqNW5mN0dfX3lTcWN2dXRoV0RFc1dqLTg3M2d5M1NXUWdnRlJNWWhuTVVNdWJRQWtENnZ3emNMYnQ4ZUp6VUxxVm1IbkRUeU43NVdud202MmRLMnA3RU5GdFBQWDR6aTNQZGFwWFB0YjJSOVBXekhaZmxCbVNqLWoxYVpabTdIM2RZMTRUZVJ3bF9BelVuaWFWcGhPUU5qcS1xSUhfM28xbzRkUzYtbk1vSEJsNTZjRFBRR19JSVhaNUREUHBZVlZIZ3EwYkZiNF9PZE1zN0I3Q0ZHMXNkR1hfMHFNMXl6T1JWTGxKamIxNDNSTHg4S0oxd0ltektoZHltZ2x2c1FLUzVxczZHSjFSQmRNY0pLZEFRWWc0TDNMTG9LSmtVclFPSkRTNUNpOHdudU5TQVZwMXdMZ3hOeV9uRkdOOEh6dktZM3dPR2FYZ0ZxQUZzRmdOclFYZEE?oc=5",
-        "date": "2026-07-01T13:05",
-        "source": "الشرق الأوسط",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア国営石油会社、液化天然ガスの7月価格を最大27%引き下げ",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FMVBPS3Z1OGxyemswWFdWMEs5Wmo3MktqODhRM1JSTDA5S0FWUkZIVEV3czZjUDJhWkhlUEMta3RtUEJIUDFWMnA1Y2hHTTQwS0JBWjdycUYwVWJDWVhDMzdFTm8yR2M0MFJhUnlBTHhEY0t4Tnc?oc=5",
-        "date": "2026-07-01T12:20",
-        "source": "Investing.com",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア映画祭、アルアハサで17作品を上映",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1jbi1nNVVYaTlZQlJtXzVfejR4Vmd4Tlk2X04zWW5CLXhIdElUSEJTTDY0YnQ0V3oteUhTdTdXMHpIcWRBd0RN?oc=5",
-        "date": "2026-07-01T12:05",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "文化"
-      },
-      {
-        "title": "サウジアラビア、2026年上半期に5万1000世帯が初の住宅取得",
-        "url": "https://news.google.com/rss/articles/CBMixgNBVV95cUxPdkRTVFpXVjZGcE9xSVYtTmxTY1d4ZnJ4TzQ1WGlWMEdRRXpuTHRNNU11c094YTVBeVJyZzc0QkZZazJPSzdFT2RkUTFtbmNwbjhuX3dRX2FLSDBYOWg0UFljRUlhUFNYWXoyeGE1T19EbEVHQTByX1hEaEF4Tm1FNzAwME1zcjBzOURoREVnZ1Q4eHBycFFPdWEtc3k0UldaZFo5cGEwOWl2eDBiWlpjckxnU1NfcU1uRFl3VU5Oa2tpU3ZVSTJKU19FenBxR1F1RUEybWNzdVRDTERXRklyYjRuc2dqYkVCQ3FPamRDWlZaN2hZVzVUQWdQdXpiZWo4eHVZak5LclNUMHJpUlNBWDRLWm55dXRuVVlHaEJBc3JMTmdiU1ViRERxVEhiZU02Z3RKMXdNbFBCTnFlTW1pdGN2NUdTc0JDQWpoYkE0aUlId1BjX21DQ2Y3Mk8tdDRjVzMwTUZCbXJhTVBjb3oyV1BfVXhGOTlYZVJua0QzZmN0ZG5ZWS1jajNSbGVRZFhXSlhaQW5IX2RzaElsRnZ2N240dXpSYTNsZlViUDZRb0FobTdkVlVBdWRRVXNtNWE4c3ZXbzBB0gHLA0FVX3lxTE45LThPU09zZklJazFORnpRLTZpa0d4WWxBbGNkcFowWmcwcW9ISjhKZGtfU3RMcWNDb0d4bTBGWnFzOS1qamM0amFIOUE2dlY5MkMtYWxWQ2NCWk42cEExanpZRUt6Rl9lMjFlZm1VcjlTNlJhYWxTQXZURjl5Y202aEJ3UXRuZXNXdFV0elNTQzNTWjdGRHVGcWppbEpIYU9vZk9Ea1J6MWZkTzA0ejVHMDNGZTlzZW5kMDZkbENqcE1sMTJZSmM5Y1F5c2ZNblZhMDVsbE9LampMbkdfLUs3ZUpWb1JQajZGOXd4ekhLQm9kU3ZWc2lBaUZIcm9YODNwWUJCWE9IZnpSa3k5cndFUWYzQ2ZGR2J5ekFmUHR5eXc1SS14TEYzdlR2d2JFMGdNNUZvSks0NHBKdDV0ZV9GU2VWVlB1WHZEc29sVHE5UzR0SElHa1BiQzFRa1FVRmZ6WE5JNnhTWW5fS2I0WjRBQUpQTFhIQlZMTXlUcVNIaDV1N0VxSVQxWEVyYWZnWEppTE1lX1NJUzVRczc4NGIwbDYxMmx2Um5yOVk4N2hPVjNIZjRmeHBZSVFvQVhaV050bHpxVDJCX1kzbw?oc=5",
-        "date": "2026-07-01T11:39",
-        "source": "العربية",
+        "title": "サウジアラビアとシンガポールが航空交通管制で協力協定に署名",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9FNU9oT1dnM2hxYmMybXVVQlpoN3hrREpRbU1HdlFOM0dhT1NudVJEQnRybmd1RHp3em9ySWx0aGlzZDNKM3c?oc=5",
+        "date": "2026-07-01T15:42",
+        "source": "وكالة الأنباء السعودية",
         "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-07-01T20:46:16.033200+03:00",
+    "lastUpdated": "2026-07-02T15:26:49.228561+03:00",
     "items": [
       {
         "title": "伝統勢力を掃討し｢ドラゴンボール｣テーマパークを構想中…池上彰｢以前では考えられない｣サウジの変貌ぶり",
@@ -295,7 +295,7 @@
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxY1lqRWxqY0Y3dEZxd2duT3F0YUp0ZUJobUlDc2E5eFhOMHBJblpfTGpONHE2SXhUX05paGN3Q2RFS0xWRmJqT0YyWjFZcmlsSzJfVllDX1Q?oc=5",
         "date": "2026-07-01T08:00",
         "source": "PRESIDENT Online（プレジデントオンライン）",
-        "category": "経済"
+        "category": "社会"
       },
       {
         "title": "Saudi Propertiesポータル、外国人による不動産所有申請の受付を開始",
