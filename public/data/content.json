@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-07-03T15:24:05.074540+03:00",
+  "lastCollected": "2026-07-03T20:13:49.831639+03:00",
   "security": {
-    "lastUpdated": "2026-07-03T15:24:05.074540+03:00",
+    "lastUpdated": "2026-07-03T20:13:49.831639+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-07-03T15:24:05.074540+03:00",
+    "lastUpdated": "2026-07-03T20:13:49.831639+03:00",
     "items": [
       {
         "title": "旅券手数料の改定について",
@@ -70,7 +70,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": false
       },
       {
@@ -86,7 +86,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -94,7 +94,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -102,7 +102,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988773.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -118,23 +118,44 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100987261.pdf",
         "date": "2026-03-03",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-07-03T15:24:05.074540+03:00",
+    "lastUpdated": "2026-07-03T20:13:49.831639+03:00",
     "items": [
       {
-        "title": "サウジアラビア、米国とイランの合意後ホルムズ海峡経由の石油輸出を増加",
+        "title": "イエメンの武装勢力、領空侵犯疑惑後にサウジアラビアを威嚇",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVTBGcWdZSnBGOE1PY2ZHSm5UN3pfT1BXWldnTXNKZmg0clh5QVE2SGViVk52MWIxaTkyNktEQWNwMVJqdWZPbFdKMzJlbE1jUUY3dnBZVV9icHAzby1zRXk1NjJhcEZhVWhySkdidnhCVXJUZVpsR1dOblpRNUV6Tm1PY0J2UlluQ1hZX2FPcExObENiZk9IRGdaSW1iQ05LWG9OWTdrM0JBTXJ3Y3fSAbMBQVVfeXFMTlRERlY3ZkZzSmFNR0lNdlJfSU9vX2lZWDlyZnYxczhYdmhQVHpWcnZGNjFuSzlFQUJpandRU1lwbEtMNXkwVGFKTnBTSTBvSUdCNVYxdjdzdlRZM1EyS0tETkhienZQSGNQMldkZ0kxemdkVExSRUlhVTFXaEF2VjJ1eUJSX1NxeVQxMnhHTTVkNkJMSWlneEQwSnl2QTdBMUhzUy01YnhONVBBT21zVWJSLTg?oc=5",
+        "date": "2026-07-03T16:06",
+        "source": "Al Jazeera",
+        "category": "その他"
+      },
+      {
+        "title": "イエメンの反政府勢力、領空侵犯疑惑でサウジアラビアを威嚇",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWnVWSEdOUURXdjB1SGtQNHJROUNOWXRVVXFWTmphZFpQTThLWU9WX2xJYXBmTUdOZThSNWE1cU1Cay1mS3JRVnpKRXpOd2E0ZWdFNElNNlBPaHdVVUhBc0lBTzQ1MGNtZ19HclZjSHJaQVRPRnBOUktsQjZ1LVBpdzF3LW9vRlBGYWo3a2xZQXJsbFNhSUtrYXBEbnFXWVZOUGhXeU1zcmhINjEzd3BhOTRyQ05OZw?oc=5",
+        "date": "2026-07-03T15:35",
+        "source": "The Times of Israel",
+        "category": "政治"
+      },
+      {
+        "title": "スペイン・ナバンティア社、サウジアラビア向けコルベット艦8番艦の竜骨を据付",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQeERwNUVaaEhRbXY5OXhmd0lYTDd6MG9PaURfaFNaZjBHUVlZcU9Nb2lHaGpISFpIMXl2RHRMRjV2TTlzOGNLZHNvOEtYQ1JlZUgzNlJyajV5anRLb3hIUUlfNnFwUzFQbU9jaDFTWnA2ek9PcDBaeE14V0ZseG9QdFVvTnh6dl94enk3T2duZXVOeWNDVE9KVGdYRzh1bzZpclNRa3BZXzA0VGVoYzVGRVI2dF9NaGl2Ti1idDkySUhDNlRFZDkwdEV5LXdHMFBqWGxZ?oc=5",
+        "date": "2026-07-03T09:28",
+        "source": "navalnews.com",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、イラン核合意後にホルムズ海峡経由の石油出荷を増加",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOajR6a05jX2R4MlVia3pScTFtTXFwVDRTOTdveVdHMFhWUmM0UzY1clZrQTFOdkJPdjVOZ0ItdGtmaEhWbDY4aHpST3ozbDh2Yk9VNkdleUxnS3V3S25uajFYd2FXRVNPVlhkc2N4MnJQQlFxdDhvTGhBaUJkdE4wQzlmN0laaGp3bFIxTElB0gGTAUFVX3lxTFBxazR5OTV4VlUxZ0hRR0xwSVpKNVdja0N1WnJ0aDhYQ0tYV3Foa2pGRjZ5QWQ0SThfaDFBM185MmplaDdwME9rcm1uVHpYbG9OUTMxendMVzNGSU44UWNrZTlkclF0alBXaWVrVVhic3NsZGFIVS1SZURyVjQ4dHp6Y2VoZTgzZmFqd3F6MmZyMTh4aw?oc=5",
         "date": "2026-07-02T20:44",
         "source": "CNBC",
         "category": "経済"
       },
       {
-        "title": "メタの大型投資戦略、中東進出を検討 米国より低コストの電力に着目",
+        "title": "メタの野心的な計画、課題に直面 米国のAIデータセンターか、サウジアラビアの低コスト電力か",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNalUyVHFqZ0lLMS1Qdzdma3FxVjVVNEdOTFJ3c2FGczNjaTRNcm1NNFBFeXVkNUxTUk04UzZ5aHktTWdEZ1Z5MVJJdkpJTTNOWjctZ193Sk1JM1VjS0V6WGwyVkNLdk9NTENVMVZCamx4VE02aks2QVRLcF9OV1dOcmR6S0gyaUhwVDFIWUxzRQ?oc=5",
         "date": "2026-07-02T13:14",
         "source": "Fortune",
@@ -148,7 +169,7 @@
         "category": "経済"
       },
       {
-        "title": "「彼の死は私の一部を奪った」サウジアラビアで死刑執行を待つエチオピア人たち",
+        "title": "サウジアラビアで死刑待機中のエチオピア人「彼の死は私の一部を奪った」",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcVpxSDBiNG5iSDd6dlNGNUFJTmpiYnRwdEJMMWtZMnhzUkNsWnctTWw0RFhnQU1UZWpIUUZoSENjVll2dUk4Vkw3cExaOThyVUwtT2o1c2VmNzBoVEMtd0dJU01NdDMzWlAxUnpmOFdocWVIZ3c5YnpDblJUaThwWmtrY0FaOHZDVUVPM3VUM082dnF6dEtJVnFSc0NlZzNuUURuYU1iTEZ5UQ?oc=5",
         "date": "2026-07-02T11:49",
         "source": "Middle East Eye",
@@ -162,45 +183,73 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラムコ、ラス・タンウラからの輸出を拡大 スポット販売に転換",
+        "title": "サウジアラムコ、ラス・タンウラからの輸出を増加 スポット販売へ転換",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObXVyMVNFblo4NFptVzhSMC1HS2VQTmpSbk51UzdqNm5LZG5pejQ4OWlXNGVPNmllanJ4TXFUT3FYdDhJUm45Rjdyd0szblBfVWFpVVd2Ny1OZDJ4cEUyUDVmTTd2dkItc3FNMlV6UXBYOUdVMzVMcTMwaDhVTzNVME9mejd2QVJNcEhMRXUxc3VFYV8xVXdhcGRGMW9NNjVHZ2ZvQmt5NElDYUJqTXdjOERhYkxidzc2bnNBUFlqSmdYQQ?oc=5",
         "date": "2026-07-02T07:23",
         "source": "Reuters",
         "category": "経済"
       },
       {
-        "title": "WTAツアー選手権、サウジアラビアでの3年間の開催を終了しカリフォルニアに移転",
+        "title": "WTA ファイナルズ、サウジアラビアとの3年間の契約を終了しカリフォルニアへ移転",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVnptOUZrVkVLc3hlNWV5MlFZdS1FVTNJWGVrck9CZmhmUW1ueG9lQkptLUhMTGJzZlVVNnkyR3BLOWpReFRoamFrNUYwYi1UQVhSUThYR0IxVUhfZElQZnBpSXk5M3ZfRFZ3RGdWU0o1ZWVLMEF6ZUdOejdLUFJkMnFDNHR5Z19zMHNRVHc1dlRfZnllcTZqZUJ1ejBiVFI5TmsyaTdxNzVvUnV6MG0yMEo2MEJfRF9GU1lnUUZqYWg5QQ?oc=5",
         "date": "2026-07-02T01:30",
         "source": "The Guardian",
         "category": "スポーツ"
-      },
-      {
-        "title": "WTAファイナルズ、サウジアラビアからインディアンウェルズへ開催地変更",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTnR1cE5oeXltOFAxazJ6S1YzWGNncm5UUm5KQmRnM1luamZkR0ctWS1GQTZMaFRJQjdsY2w5VUlFVmw1Wnc4S2JxOFBLWHhJUmlvRlR4MGhpaGZSQ3BzRkNLR0lNTndsMGYzOTBBUXhwYmhpaWxPUjlSRnV2VHlQclZ3Z3dtVVNxeWVHdllMSWxId2VSc1piYzZ0UzZSVkZlLXRvdGVmX1JvbkVHbzFKTw?oc=5",
-        "date": "2026-07-01T21:47",
-        "source": "The Desert Sun",
-        "category": "スポーツ"
-      },
-      {
-        "title": "WTA年間最終戦、サウジアラビアとの契約を早期終了してインディアンウェルズに移転",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdXA0dXNZUTJxMUtmd0I1aHQ0dTY5Zl9xNG9aenJpQU9TV0YzT1dpbUY0ZG11RDc2cWlmTENiWFp0aEwyMVRkVk55OFVrRFdWMXJRZFQ5ZDJkbzZKU1hPUlYwV0JRS0Z2ZjhIOTdobnZLNnpTSVdwUF84WkkzM2F0SVkwVWE?oc=5",
-        "date": "2026-07-01T17:23",
-        "source": "Yahoo Sports",
-        "category": "スポーツ"
-      },
-      {
-        "title": "イラン情勢巡りトランプ前大統領とサウジアラビア皇太子が対立",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbU45NGQ0LUJCMlU5d29xZ1MxaHJSdS1yaDFEWmhfdEtfOXhGTjhfVWpyYU83b2p4MllPZGFKOE0zVkl1d2hUeXZUTkNQUHEwMnhleGlwUWxVcGg4OEtVTER6bUFQZ0taZzhhTkoxVGNDTFU2YlVaTlpFQlkyazBUMnhzRmRBSFd3SG44Mkx1aHRVWEFOY08yT0RwOWZYRmFmWjBMOWVVVVBsaDJNRnRaRENHNUpsWnM?oc=5",
-        "date": "2026-07-01T17:20",
-        "source": "The Seattle Times",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-07-03T15:24:05.074540+03:00",
+    "lastUpdated": "2026-07-03T20:13:49.831639+03:00",
     "items": [
+      {
+        "title": "サウジアラビアと欧州3カ国で始動へ サウジ・プロリーグの強豪クラブが新シーズンに向けた準備を加速",
+        "url": "https://news.google.com/rss/articles/CBMiiwVBVV95cUxNMDBSZllMbU9XUnVNZXVjaC11eG9CTmhUb2djS1psczZCa2RRMU1xcW9MUjh0SVVjbnp2WUh2NFJQeHczU2ZFRnNQWm5ZckpOb3ZBVVBvTThyV0trS0FHR1JremdkUkdsd2FVa2xPSmVtVXpoOUt6QWc2UFdENXdONDM1RFlpaXBFdGVtSTBtOTZJeVJzZEJPR1RVcmd6bldHYTd6VjdwVzBDSWdBdm5JRUlFZkNlVDNFOFJHNkd3bWxRMGxkV2ZJbTV2WVhscURsX0xOc3Y4Qy1ENkN0cFhKb2hrV0ZKcUhMSS03UGhzVDF0NTFRV1lsN1IzaUtMVjhVQjVQWmJITTFRSS1BSW5iSlczVjFHdkV1dDR0UDExY1UzRWptdEE3Q3YwOVZtMFdIcDM0TlhMUFlpX3JCQ1UwRy1hOG5ncUNMclNEeTlqcndqNFVCYTVJZUFzQXhHQ1VGdFIwMlRxMVBsWGNGOGpsTGFVNUFrTGtLUHVUTFcwU3NiOGpHWE9EY0ZvckVVdTJLZlNrQ0JxWENMU3dhb2x0MmVMREtwQld1ZmVvWDFBd0pFdElkNzZqdWY4RHVFX3ZfUlJsU09Iam9oMmVWdlhQVHJ5RnhYQ0lGOHNTQ0NGQTVXZTZpeXQ2bDZ1aV9aRGlJU0E0VHk1WmFqU3dIVmJNWFZCVDdSenFkVlZaVVlkOVkwaGpMVlE3Um1SblA3dV9kTTAwSTllUjk0d2NGYmJYb2stQnhQNnRHUlNJaDJmczJpaFRZRV96bUU1WGNOaVpBdlMzbzZBNDUycU1tRGVoMHhNeXlIcERXZnA1aVZvZERDVHVSY2FTb3VuNUdWQUI0aHJTS3RicVdkTjQ?oc=5",
+        "date": "2026-07-03T16:39",
+        "source": "Kooora",
+        "category": "スポーツ"
+      },
+      {
+        "title": "フーシ派、サウジアラビアがサヌア空港に着陸するイラン機を攻撃したと主張",
+        "url": "https://news.google.com/rss/articles/CBMi6ANBVV95cUxPSTJPaGFyTFhJOXUteEg2ZVF1U0VCVUV6M1BvMmJ4ZEtkMFdIRTcwdFktQUVVeTlwcDJ4aWVFTTBacXMtUmRiOWswZ1hYaV9JSUJPanN1WWZNSEhLNlphWFpuNkVLQVgtVjdSVTc3RndXeEZyTms4MVExNEhWNVBwWlE3SWR3M3pJT25SbFhFLWt2YmU4R1JrVnBpNlFWN29qN2RDNG01cVRXUVBpLVBkQ0xYLWk4cmZ6YTRHLVJxcnhhYWRxZ0NIY2diTV9PTk12SFV5aWs0ZVV4QXhrY2NMX3BrSmhUNVllLV9udUF5TTNwUmZjTkF3czFYcG02Q3drTFVzc2kyZ1NVZHZoa2FxMDcweGRtVDI2bHVEOGZFZnhYSnBfUUVpVGhqM3hoYTl1X3RuOFZfNWpmYTFSYlRseDNNOTUyMzhEQkM0ZFV6ZERVRHhrX3MxZG92YmEwNVJac1d3bEU5SmxEVkpGNDBtZ2RyUUs2Z0s0ajFqbkZMQ0FlUnJja01kTkFYdFR2cmFPakhRR2VrNnROcU5SeE44d2xmN1IzWXpKcTZndXk1Tk5RUVRtbkRTd3hzdmwxTEpUYzF5VTRTMUdYMHdQVThVY3RrRVhwaEZ0Vno5d01TRlZtZkpKYmRrdtIB7gNBVV95cUxORFB2akhwSDN4R0lBVXl0aW9rYzU1VGFkbmYtSTF5b1k0MFE5eE1WUDRQXzFpQ0VRN2pSalFkMUFManEzQnM1TTVEd0NkSk5nSUZYUjQ4UDFmRFVlRFZZZDdjSWo0dGNtVG9lT2licEc2VjFmVEtwOWJ2QmZOQ2Q1bm9KMUpJTzZLTDJzc2dlNk5nQ3EwdG1ERWVic2pVUDg0c21zTjdoMFo4aU82eVJUb1dhc185NVdiUmJnbWVoWm9YTGpaOUMzUHlxUXVXMzZ5V1BpQnUwOTNaeVJuQ2lfb2pBSnNxaFAtZ2pfallhVTR6YmcxdGF1UXEyZGpuTllhcHN6dHg3N3VSY0d2UGZsQTJpbDdVVVY1OHEwMndOMmkxMVJ1UDBvWk5Da2ZjSzZUU0o5MWpRaUplOVE3RzNEZlBQNVcyRWhFSU9qMFlTYW1EWUZlSjYxaF9tQjBhU3hmaXMybDlZaTZudUtGMDdiX0lfLVNBaVRYZS1EU1ZveFZQcGk1c3c2SDVmLXNOc2JGbXdTMmgtaFdpTjEwUHpUNHhMMkpvSEtpVVpMUGNxN1pmMWJONjZDS2tOdXB2MVd4QVFVWnpzb2I1aVEzcTBUWkZjdjdZczVTdzhEckFOTUk4UUVNRmY2Mm1tbkZMUQ?oc=5",
+        "date": "2026-07-03T16:38",
+        "source": "سكاي نيوز عربية",
+        "category": "政治"
+      },
+      {
+        "title": "フーシ派、サウジアラビアのイエメン領空侵犯を非難 再発防止を警告",
+        "url": "https://news.google.com/rss/articles/CBMi5AVBVV95cUxOdGt2Q1JETHduUUtxOHo4d2xic2lvYlpfZGpPMmdvZ0h1RmZLVmlhbWpjVUt4eWZRbGp5dGNoMXdDUEx2aFlNZFlrQmtCX09LdnhrUmNxejhzbDZqREEzdktnM1Q1VTk3bDFuMS14dnUtejlnaGUzTUtjbzBrTS1GWV82WUQtMHFFRUxjVGFWNkxUbVRtRjRaWG1KNFlDUlhoZUMtWTAyT0RVOXVjTDRvRXlZc3hlUUZPNWpiUk5VRUptbmtsUm9sc0dGc1kyUktjOEJBcTh0NElSa1ZWeGY3SnVYTUVVTmpIdnZxMWNrT0R0cDF4SGVpemdSdHpOUGljeWpyMERyZG52Q2drTE90dWxqbDUxNXdYdzBhQUpUMzF0bGhvaVZPWVdoak5ZcGRLOXlIMU82V2RjQlBWbEx3RnA1QTZxRXZlRFROTnhPa3ZvREVsZldjNklOYjcwdFM3ZFhCWFRMVHRRSlNqLU1jMnQ4RVd1aEZaV0l0T2RGb01zRDd1VWR0NDFWM3NjMTk0OFNOWXlrX3Ayc09UZ2U3VmpMelVocnVtaWhwRC15b0EwUElkdFpBeUd3WFBIdzduLVZoMEFhRTNRMlBLeldsa0xBQnNhSVpxSTVfSnpiNFdZTzR3bVNFZXdQeElSWC1BS0FUTWdsNTNTTlRjeGxjLUtSc0xsa2tsSlB6V2J2MWxVYlZ1VUo2eWwwZ0hYOVp3OFAtRlU1SWxWU3VBb2Nad2hvbkEwanFKTVZfdmNXRHV5RUV4VGF5VjRCUnl4enZLal9rY1ZIbEhfM1ZDcE9FMVpaNUtyZnBsbDAxUkozVzZ2Qk5JeE1GR1N0Tk5GakZfUGpMZW1TOEJyQUdKa2ctRldSQXVjckVhdmlLVnZsREt3M21peWZnZjdhWjROTG5SZ05QY2JpRlk3SmkyMTM3dVJPSEFlV3hBZG9ZMUoyYjZaVkFUWFU3Slg2eWh5d1JVZjJMYQ?oc=5",
+        "date": "2026-07-03T16:13",
+        "source": "France 24",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアの空港空爆を警告 イエメン・フーシ派、戦闘機が首都便を迎撃",
+        "url": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxOTjU0ajV5OHpBbUJWdFNwYXRXYzRteDJ4N1ExVlc1MjctdlhXQWRzTi1Eenl2ZkI5VklwUUxnREZFdWN3N05LclVNb0pRcVZ2Z0RuTE1xSUQ1VkFWYjlEMGRQNm5jTk5yMlgyZFM5a3JFdWZIVXlOdTlsbGdsMWgxWDUzMjlZNjJ5THl5cjV3SlBKbmFnTmgxUzZ6Y3hieTg2OUFmMDkzVW1IT1JZTHNZdGtWMEJmNDN5TFlhYTJUbGxFdlFEZUdsc0VEb0daLWJ3X201VHpJZ3UwZGtVV01MbmxCSmxPeU9WUG9NWHUtMHROOE1objByelZGTXBLcHJKd0p4bV9QMG1qc19pUThYbUZZeTVUbktIMXptMTZIakl1Nkc0OWJTSFJ1ZkFtNFM2Z0FPN3JqR2l5WGtxZ0t0UXpEbWEzYjhMYkd1Z0VoOHllU0ZPemp4UFhtbDZIQmNCSHAxV0Nnd2RpeEFlOFNRaEEyVTJTX3M2ZGxoSkVfSHNYWFFLTXZiSjlxWk02c01UZXlrU3U5dkZ4cktZeUwtUXZNSmNpRGlQWVN2NjFRQXRWS1pkdVdoSWEyUEYyZDEtd0YzQTlza1VaYk5xVU94Y2l6ZWR0cEljanNzbUNwcVJsTTFKTlF3ZW1wT29IcFN1SFlDbW5EdF9mYzNWQnhIZHh6d1BQcXVScUUxMlpxSnBOUGRfVnVDZG5najR0amJrNTEzemlROTFzYzR3ZFdHUWF5MXh2VkdSZ0dNZzJIcDdhc2V0LVhhUk9oSDdGQjd1dC1rX1N0VQ?oc=5",
+        "date": "2026-07-03T14:38",
+        "source": "عربي21",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア娯楽省、新制度で投資魅力を向上",
+        "url": "https://news.google.com/rss/articles/CBMi2gRBVV95cUxPSi1MenB5UGQzZWprUHpEX21JZENTdzJJZzgyLXFuU0JlT256VlpRUF96WElVeU5nbnRTMUo0YzhRNUJYRk96NGhHT09kUWphMnE1dmlCZ3V6ZWlfaWJhUExQXy1NWTJLdnFnS3JFSmV4T0VhLXd2dFRTcGlqcndMVXZxTExsN05EamQ3d0w5TWdqOUQzRkdzcDJucWM3b0hqc2ZUdjBaWElNeXZfVHNKb3R6ZXBfMW0tNG5neEpOUnNNNzRMdDZJMWNQVWdBdGc5a1VmVllWRzJqVHRfcVktdlhXSUlNLUozRWxSUHBmSjNlZVpnU3FLY0lBbFBMcjFGNFVjZldJTFpPbU85VGQ3OHlTRjl3ekM4Z2pidlNDN2ZZTGN6RTRQamM5SHZYaGhVTjZUTlY4aGx0UGhxOE9keUk3MmhZTlVzLWxYRnU1bWsxR29SbHFBNDVPMm4tczJXMEh4Qm1La2NSMWd4b0xJU243SldXLTJ1TlozZGJyMEpDNGxfZG1vc0FoWUF2MEg3NnFUYlRQRzlFZ2JsOFRkODdUa1JNdHJEaXVOZ3FUQjZGWjdvOW8tQzdOMlFJVVRxZXk3WTVCbUJLSGJ6a3Rtak1YZkdQaU5tZjZwMU9IeUVxaTFmejJtWk44VDNWOEcxNDg2YU9CUTRvVnRmaVM2QmNDWFMtQXB1ODY1YmNkREs3ajRhX1NUTmJDaXdTSmhVUU1MSlNZMjBrN1YwWkh2d2h1MExQTjgzU2dHWk5qdGdzbHBreFU1SWNBajhxSENma295MVFpd01fQdIB3wRBVV95cUxPeHNzNmFPMEdEcEg5TGNBMUU3elAyWTJ4V2RlUmVmUDZoQ2Yyb2t0SkwxWjdSWDVNcTVzQTVXU2FLYjlCd09XWXBlZnA2QjQxWHVjUVFxblpJWUF1bWJ4N3dMeVhuMlRXeUFHRmxZeDVHX0hrQ3JZUlc4cG1XaUZUUUUzOXBiRUhzRDc0X2MzLTFJUlZLZENfeFh6TFgzXzVpeW1GMGl6SHMxRkcydlUxM3hadFllUmxSWXoxSDZ0WVphSWc4Yks4ejFQS2xNRkdkR0FBMGF0emJjV2JvZlRVMXhod0JvSW0tY29BM3duRHNxMWlsREhmTTFYbm12OHBydV9FdXlyMUVDbmR4U29lVmhUR2d5d2lWM21ia0dYVlBoUGVtTl8wMnhMamhqdmVwTlgtT3JPWHdkczhwMUstUHF5ZmdOdVVIcE90SUVYenZGWFBrTHN4YWFVdHU5NnFxbUJFUm1YX2FpbVU4ZnowcVNZOWxRb2xYbFlYYTdGT3ZFTVVDcEN3b3FDQURNOUFkSDN2MnVkcWFaRDBTWDh1bkxfZl9vZmtRY3pVZzNFZnhlZHdROEd4WjBIYWtIQWRfekNSUENPdFRvOE1lTkI3OWVFcFZNZDRaX0pSd053OExpT0lPTDNyckVLVElTU2hiVkg0QkNYZ19FY21VOFpyV3dINEgzcmV5YXNfOUg0Yk1nYmczbnZmLWxoUHVZa1E0dWtoYklPdzRTWjRMNlZiWUVIV3l1WEllNmZabDk5TGs0SXpVNm5FOWJIY2pSZlM4cFViOVZGTWtCM2NLek5r?oc=5",
+        "date": "2026-07-03T14:16",
+        "source": "العربية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア大使館がベトナムの国民に7月の暴風雨に警戒を呼びかけ",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBQSVZDSlJib3plZW85QW1UYkItaHQyOGZOUWZJS0ZyT21Nc2wzLTJUZDNQdjl5cktXVkdXTUotOGRwM1N6YjlZ?oc=5",
+        "date": "2026-07-03T13:03",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "社会"
+      },
+      {
+        "title": "規制当局による大規模な対応 サウジアラビアの企業役員を解任、数百万リアルを回収",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JZ1Uyb2c2bExaZXB6WGp0NHhlUk9zY3RaeVRxU0MxTzNtbW9fZmFJU3RtT1RnNEt6UFlmbUt5cm1LR25tWW9YS2F0cTg1VFZ2R2JVS29TNWtZSko2bzJJ0gFUQVVfeXFMUGV6TS15SEdqZm9JWmZ1Mjd2LXBveVVlUXZMN3RpVG44a01QMHVMMkNybTRrODZYWlZBODhPZkVPNEl4bGIwQnpJbXRNYlJFMDlMX3k5?oc=5",
+        "date": "2026-07-03T12:57",
+        "source": "عكاظ",
+        "category": "経済"
+      },
       {
         "title": "サウジアラビア、水資源管理と砂漠化対策で2500万ドルの支援協定",
         "url": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxQM3liSzZpQmNKcHJJTlVadDlCT0d1dEQwMjNQMGFGVm9kSUdrakZzOEZOU0xVLW4xNnRzV0N6ZVNfenpiWF9BVEx3RXlDUWpqSzJ4ci1xdlh0ckhhRXBKemJsN1dERjdudi1NaTVoaUpfN0ZabmVpcTUxbFRPTmNKR1ZhSEw2UFVlcGNhSkJ0WGJrNlFnZ3NQdmdnTUVObFBLTVdKQTgxRTJqRlJuNmQwWXVhaWE1ZjRvRnQxT2JUU1RpbmpNS2lZT0t1VjVhbU81OWJJYUxNNjhQUmMyS2pwb1paUkZTRWVKelJ5NkFZUFJSQXlfQkdLYURZalFNdHNPMElsenFaOWdfOWNWR2FMSkQ1MkpTZVZDYXJqSUFKY3g2WFVOV1ZocXhkM0tSdUZBQnB0VURuNC1ENks4dUtXclhmNGdjWW5sNldqcWsxM3pRNlpZSGt6eDBQMUhhMUtfRTJQUXJ2YmtGWHFaTzhUb1dRMVFfVVRBY1U4b0NVMW5YV3otZjdTUWFLdklzZTI1S2FMMjFNVUdISHZuSWowbTUwUHd5RGU1aUlOTmhFdzZZSWVBamVsTVJaeEFTSzFHcjlENS0tX3NjME9NczRmTEJicUZ5Q19wMnpicVZBQk1QemViTHRBQmJNZElHcEp4RGVvTkFvem14eF9VZVhEUll5SWlHbWd5ZVVNRUFZSU5CR3dtS2ZFUkt2TnlhazAyRW5FT3oyWEVxdVFJeW5sMFVsMUxWTmRoZUp1N1VVbkQzUnoxQjY5VFFTN3hkS0IyZlI5MVhUS05XT0RVd2tBZGNqTWxsT2tnT25tc2dB?oc=5",
@@ -216,71 +265,43 @@
         "category": "政治"
       },
       {
-        "title": "サウジアラビア治安当局、風紀違反行為の外国人労働者6人を摘発",
+        "title": "サウジアラビア当局、風紀違反容疑で外国人労働者6人を拘束",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbkhUcnFFcXBjTG5mbmp2M2ZtQjJlaXJUZ0xhZWxiNUIwa1pyNEhUSld4UHZSOXVCNnJiTGJIZ0Rha1lOLUxBX3JjZmo4dGQ3VFlvd285MG5rNHl3TVpvQW1sZ2tYdGFqOXhRSHFpYmFxOVZnZ1hfS2FLc1U2Y01lbVhpV0lTM2pGZFZHeXZyRUNqRmNNTUdySW14b1lWYjlIVUtZWXJoMDROVGZhYzZN0gG6AUFVX3lxTFAxdDZxWlJjOVhEektXZllNZWk0Uko4UldabG1HellvZVBrLW9zbU5RQ1Y0RDlua3BZTnpHYkZORC1ObGpwNXlaNGhVRkg1LW1zcU9kY3ladW9pSmZNcFRTWVAwc2xyM2d1LV9Gbi1BTm9KOUZKYUx2SHBlN3pkUHdZc20xbGVrZzZ0LUpHZE1RdURFOW5vc1J0YU1CQndzbGs4NllkSzdZX2cwTktOUGQxNU9ZYlZ4ODFWdw?oc=5",
         "date": "2026-07-03T04:52",
         "source": "CNN Arabic",
         "category": "社会"
-      },
-      {
-        "title": "サウジアラビア気象庁が国際気象愛好家組織に加盟、地域連携を強化",
-        "url": "https://news.google.com/rss/articles/CBMiiwRBVV95cUxQTFY2N0gwbURsQjg1RlVyejNxTG1RZFJzX3psMGhJQXBTenJCeE42cDhnMHZVaWFGNDNFNHBGX0dTd0Z4bk9FU1JZc3E3TWQwYURjcUI2dmIzUnJneHI1Zl91QUVvcjVoUnVEZWJ1QlNxOEpETm5POXQ4U2tXOV91U0oxMG5MRkxvYkpzaFRNbWNfb2xPM1o0UFZBb2pxcE9Ubl9lVkY4dTYyelVsNUx1NDFzckltS2RvNEpWbEczN3hETUgxTlgwbHZ5S1NhS01qM01XeVFvNUJhV19iRnJ0V2NHUmU5SFNINEw2bW8tTm1oZ0d2dk1uT1ltX2V0Y3U0dHBLREJfUUZadGRwNjYtekJMRk1YSkpBekI5blBPRXYycmhvZjY3bE1EZGw3MGtjXzZxVXMzbE9XSGZXQURGcXpCSHNWMjBaam5sQkQ2Z1JsVDhTclRLXzhMSjBUdXZybUhWNGt0QWI4U09EX0ZyVXAtcHpRZ0Z5d3hSdWdUZnBBdUZGQ0VuLVpfYWNwWWc4aTBzbXlUMm1hTmVjM0k3SVNncTRJbmcyQWdJYWpTZ1ROT3JITFh5TVF0dG9Edk5uWE9VS2g0eGRXUDFHQzRoTGRvV1pfQ2hya1p2R3JTVlhYUmppUW14REpJMWM4UUxDZ1NpT1FUcVhvOEY5ell6SjY2Z05XVUdiRF84?oc=5",
-        "date": "2026-07-02T22:20",
-        "source": "الشرق الأوسط",
-        "category": "経済"
-      },
-      {
-        "title": "外国人によるメッカとメジナ不動産所有の仕組み 6つのポイント",
-        "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxQZkt0dGtLM1dqdlM1WTkweFRyVHlJcE16ZDYwREdkbDdiemxRXzNScWFBcjNKdmdQdlJFc09tUXl1NHpHVmZXWjVMLWZqZTRTWXNwRWJfN0VTai1JWXJlNEVQcVM2aDQ0cjZ2UG1CbnhVc3RKb2k0d0NVcGxHVjYxRGdsUzBidXI3b0p0Y3B3dEh3VkpOWmM3UVpFc3c1SlYwZDI1dXozUURXbzIwYW80Wmh1Zlc2M1FWR05wbG5rcy1HWjhUY015cWJLU09Pd0psZFFxZy1IcXMyWEVPLVBzb2xHeEU5OWo4WnoySThBLVphQ1dCOFFrRTVNMnVza210M0RGU1V2YVpOaHQtTE1YMzlaWFZ1ZzZDYTl1alBLUXRYdmFrdFNFUks3RVdBNUxteFliNzVCelNqSEdnMFdobVpfZzBkMnVLbWtRLXV0dUJmbUVXdHFvZzhRZkhhVGJ3R1HSAecCQVVfeXFMUFk1VDBjc2NnUjlORVV5SmRWZTNLTHN2WHRrWG1PdEdld2xXbUhBekU2UFpBeVVpN01nakc3T2pOS25iSm5TLVRLNGVYSktMMWRQMm9pZnBJVjR1bjdDRlJpQTVxdjhmWEZMUGJZcjdiQ3RaY0tuMmJUa2dFVTB4WXZKVDF1elFOMUpvaFUtZkd3b3VLdUZvMXFrRjZ6eXp2blNaeWVLUXRzNl9XbkgyVnBJak9CeW1MelYycDZHXzBIZWxKNGVOejhheWFYdEg0aUlBbkh6RUsxMmF1a1FsZUI3bEZJaEMtZ2x3Qmk0RDNUZnNHYWlwQmZRUHZIMFowTm0yTVJueGNod2hTZXhsRGlvdkZtNlV4eFRSTkhkLVlFZ1RMSUhiaFNDVFlia0haTlVJd3MyLWRxb2pNelJjSDFDOVkyWU9oQlRoLW5UYnUzMDJuUEk5Z1pfNVZSTG1DX0VqcGFUSXM?oc=5",
-        "date": "2026-07-02T18:41",
-        "source": "الجزيرة نت",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア開発基金とサウジ電力公社、協力覚書に署名",
-        "url": "https://news.google.com/rss/articles/CBMipgRBVV95cUxQZUplV2szcWMwN0VIdjRuMGhadEdmWVJFNG9sam1EY1ZBN1F5VThQTE0wUmNGVUtLbUZMLXN5a0xaODFPZG5ERjRlOXh5bWVjY3hIbkQwMnNvamJWV050dkVMaEdjN2RQcXlTVkJnOEhvMTJaSUF4cE1vMUhlWFNRdk45cW9jclFmTVlEWGlyU0dSUm1GSklvRXFqdzdBMjY2QjliQ0thdVRaTEljTHN3bFNoYy1UejZpREpBa2NrazdId1hoS1BYTkxpVV9RZjRPTnRoNTVMMEdXNDBFQ0F5ank0ZHlHdlRFN3podWhNV2FMM2NwQ3B1VjdMQW00WVdSYlZPMmtlcEhVMHBxeHNlYkJ6Q2ZmTWlIV0xWQmJsMVZZcHlhQUI5Qm9QTVFETGl3QVNyQk9VUnZEZnpBeFhySF9ZUXJadnNPMDB6WEd2V0FEWFpJNWhPZVUtNzNwSTdldE81WUxEV1AwRDdiRklQdzBiMkFDQWRUQlk3cjRma1h5eXpycEZJNUJhcFp0THNIb2pRaUhWbzY2QkEtbnJZdXl2d3oxNGVwVUpMeTRlLXIxakZzNDEzZ0hoQUdjUzY4MnQyd0xmQ1BLeHR0ZDdBQmZHVjlSLVpsa0pvSExfNWp3ZVNYbC1TOGdTeko0RGxzblU1ZmlQWXBscGtJZEczdmthaFpkLVRhRXFDVWl3ZmRUanNsSE81c1ctSHVYem5EZ3JPa3Rn?oc=5",
-        "date": "2026-07-02T17:20",
-        "source": "جريدة المدينة",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア・パキスタン首脳が イラン米国核協議を協議",
-        "url": "https://news.google.com/rss/articles/CBMi3wNBVV95cUxQZEU3bklwdW1OZ1kyVXhheUViUjdSc1hEemlFQy0tS0Z4N1VhNDItYm0yZVZkelFlSzJnWDNzSzJ1RkhSbHp5Mk84eEQ1WjZiTUstYUZDdDlVTVJUc0xSQVA4RXc5U2MtZ2otU09nZzJoTjQ3bHBRa3JKSE1LNzdIRHg1dnlKTEpyOC11d21QeTRtM2dPNGV3SUM0VVphUGpUR2FXaXJ5ajlSTUJsOG96MktENG1hcFdnRlo2QUYzQ2w5c09hRl80VHFfVkIydUIzUnpySmlfZXFlcmZfY2VrYVp2bElYNXRSa014Y3JkbmRxT1oyMlk4M2J1S3h5RDQ0V25pQk4xNmdMR0JFbjgzSzFhSjRiVHYtTmZhUGI3aXY0MndKTW50YXdYWUFLRXhzMDRlenZSUlFpVlhnLUdyYXYzenZ5WkloaG5Ob0tyMEowS0dncjJERWFWd0RzLTY0ZXpSRS1SWmZHYVdtcGxtbW9WOVFyVXNCM2NlUWQwTm11SVpob0dxQ2ZtU3FlMjhLN05JRkpZYjljUkFNMVA4aFRGNmtSNEVpVVp3bDZjb3JYZjNFTXRIUnFiR25Uc1dESUdlSHRPXzUydjhBeUM5a1NsNTZLYjJMWHlnYU9aTdIB5ANBVV95cUxPdkNScUNLMERhaXdubUhTaUp1UkVENHdENHZYYUtSWERxV1E1a05VV09VXzU5NTVjWHdmc0V4WTE0ZlcwZFZSc0pNcjVXa1hSa1FZRThNeWVTbEJoUXg3TkJpNTR1WlhkbWxRaVdSeTFreEszaVZGekNTbDdVR2Y4UlFuYzl1alNCVlBMUkZjcXpfWjBRdG1fa05CWkNwOGtycFAwZnNMUGkwbzVfWThXTXNiVm5CUUpiQ2ZRaXd1Z0tIWTI1ZFZodVlvZUtTQ0dwZlRNYTVSeHBEWVdNU29Md3BsSXBRV21YM3l5Q0hjMGR0UXI5QWpfc0sxMjMtbGVwTl9mS3VKY3hkUHRWaDhpemltRUU1NXNUNGtDcEFHWjQ4UmdWc1E2YkpQTlk1YWdPYWhfb3ZHSmk5WU50X1U2eTczQW14MXpvR0dNMlhlYk92bXRJRjVqOEV3TU80NDYwVS1rakU3RV90YXVsY2RfbVZJcFNUUnRtNFhkY1J0TEJocDN5SGlLSDl1UEJvX3ROSDJ1dlp6b2FlQmwyaVBscG4yM2FqaURYdGdhMHN6dGo0RmpXX1RTd0ZpRjRDWkd3R05mLUc2WVN0VjFVeExETUlPNXlpTXNqbUJYMm5OaUxYN01q?oc=5",
-        "date": "2026-07-02T17:12",
-        "source": "العربية",
-        "category": "政治"
-      },
-      {
-        "title": "ジェッダで「サウジアラビア水の週間」が閉幕",
-        "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQdmY4UXZnaVpsQVk4cG0zWXRZRlYyalhIWUJsemVGa0paeGdwYUdoTFVUNDBBWDYtXzlNN2RES3ZRM3c1U3NYOTVVcTNHcTJmbDBYUDZYUGtkcEVnQi1BRTRtMFVqc1djRVV2NU93dXM2UkZsWjNXeWtjc2pfdmkzbzZLbXgyamZkM0tka01adUFLU1BSR2VsSkk5UXZvd0pUcUVfNTdJZVhvdElyMFhLbXUzNk5yMkNEdlkwcUdKWVRxUW1iMHdWNmZKWTljQk9Qc0Q4YXVfYmh2UGNOam9OZ2NtMzdKd280dmR3bHhDRUdMNGh5M0l3SnlQSkptTUhGQUFJRER2NmNHUXRMVnlZb1ladUZ3dXRPdGcwNElVS1ZwNGVza0Q3bkxEYVdtS1Ftd2VmSkZ3U3MzR01PRUJIR1laNXVHdnlQV3NtUWt4S3VhNVlKSWd2Qm5LZGnSAeICQVVfeXFMUHFsRHppMV9Fa1hHcDFaYkcyQmpRRFZjTVRJM2RSNkt4bEg1eTFfQXZVc0J5WFhSd2NkZUxxSFA3ay1qQ2tuLTJHUWZ1MHlrR2lTOVJmQXJmZlJmZ05aQVRsOFhERFFha1UwczRGdDNmVXpkZHNJeXFROGNPbHpGY1BiQUIyRW41WEpJWFpDUHVyV3h3Mk5PSGd2SUhyMlVWa284Z2NBbDdibFpJa0lfUXRUT19RSWJ0NXJxRWhkZjlNODRrWElhOG5rQ3dJZlg3bGZhVzNpU0QtVmU1Nmt6bldXOEx0aVNpREhYYlRPdXJjU3ZBQ0xZdmZkbU1XN2FwWV8xWjF2M0FaYzNscmxwTEtLUk5sN3JvdXVhQnJuY3l0WE93azExdFJzZVJwUXMzNGw0blZBc05zdk11anJaSTV2NFBJX2hQOWR6MEhDeFEyNnFfNnRuRnNlLXUzYVFMbDlB?oc=5",
-        "date": "2026-07-02T16:51",
-        "source": "العربية",
-        "category": "社会"
-      },
-      {
-        "title": "シュナイダーエレクトリック、サウジアラビアの電力インフラ強化へ MasterPacT MTZ Activeを導入",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE00UmdMVk5WUU11UmlJMFlWOTFoUjlVbGsyLUpiYW1JdldZZGFreDBBU2xsb25UUS1hbHYwMEZBT3NIQ2ZKb0Rz?oc=5",
-        "date": "2026-07-02T16:42",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、ソコトラ島の電力部門を支援 軽油7500トンを供与",
-        "url": "https://news.google.com/rss/articles/CBMi0gRBVV95cUxNbGJ5UWVKbnktOVNLVnNqcUNYam1rcnlBOGFkbDNwVEFyWmhPa3UtUjZoanhzNEpHR2RCUUU0V2t2R3V5MnRUS3pxWVk4NWx2bXVBNFNOWGVrTlNDNXhGUUpjd0tiX2VtQjdjNDgtMnZwRzB6MHJMSGhoWlRXNHlzOTRUd19SaXhlWDlqeEg0Z2c0VFpDaUZMdW5GZmN1SXZMWUdHek5hNERXVmJXVnVaVmFBTWdtWWUwRUpEWXUxaU84S0pMWUkzM3hHQmZPOTA3U082UlhfMmdydy1lSjV6dkQ4MjJCRjAyX3owUG8wVFFITUp2Mk1rWmNySWxaZE5NQ0tIcVV2QVdEY0RBaGZNaXlwaGt3SjdycEkwYmdVc1pscFVrbEdmbHlrdF9MclNMTGE1c2N0MjM0ZFJ3QUdhdHFtQ0FDOV9meFpvZXpnWlVTUXBQSE1EeVF4RnpMN3o5WGh1ckxRLURwNXFRUTBNM3JNd2JjNW1PdU5MQ1huOVlHNUZGNl8ydVdTbHRZY0xjajN6RldMdHpvRUxsNVlqVE1KYXhneTNyRk1TYklyWlZOVTJsNmtIc25MZFpROV9lWmdYa2RybWN0ejdpcDJ4bjVjVTJmV251Z3R0YUpzNGNLakVLWjZIR0I2c2l4VkpTQlZCTlJHNGZTVlBVTXZiRS1NcTk3dzQwM3lPWGFlZnlrSEV0a3dsSjI4LUVMRlBBS3NmZF84SWZSMWtROXdydDh4bm5VUl91RjMzRlpJazJFbV91d0Jhd1ZlTUtCbjZOd3fSAdcEQVVfeXFMTW43OEpMRTNqcFR2SDNsS2hLRUdodUF0Q2J5Wm8tcHRpb2p4RXVQR214SXBMaDZsTXpLc0psTkRTWEJGMGxHY1JpdWFpVmtBLTBHbFlvc05ldG1ZMzdPSTh2aDBGclFseXlocDZUcWsyQS1XVEVkamo2dU0tb24zNnc5VDVQa0ZkQ2kzeXZ0aTNHN1lPMFhDMmRqVmptZHdxRVJWSVZNbWc4YlV5QXU5bVc3MlhvZzlPdDlYcEZ1VlpvQk1vdDdUZnNHTlhRc09HTXBuTTB3cU1NbXlscl9iVjI0VU5KVVNTTkp1d1FTOEdaWU96bzAzajAweF84TEQ4S18xMk1BWXFmcjZMdmN6dkFnTzhUVGFNYmhsUGtfMXRyeGE0S0xwc0J3NEFhUE1ydHJlN3NPNWdZSmFneTgwOE5GanlDa1lBazFtYXdzSjRKWFVDRVBCRjNrN2ZrMDBzSEhvRTRXaWFUOU9nWVNJTzNyeTZQN1JrZUZ1SDFnczJINEFndlJtX3JPZGRzV09VZnR0YThCZjRNMU5aZVh3YlE4dXhSVTYxeG9NZG4yZHp2RzBaVVBRZ3psaUJCbWJfU3VITVBvVi1jdU4zQTdTSlNVMTNzU0ZsY3BSRGtWdmtvSkZVQTZZS3RwbEhnSW1OSnp3OU1STFA4TUp0Q2t4ejBzX0Y2a21IZ3NaWXB2LXNoQzBGd2lUXzNTM3h6UWZvTF9fNTNUYkwwaENYcXVQVFh0bndTTnh5c2Y4Q3phLXNKSkxKYk54TG90VmEyZWV1b21TOTBmUjQ?oc=5",
-        "date": "2026-07-02T16:31",
-        "source": "العربية",
-        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-07-03T15:24:05.074540+03:00",
+    "lastUpdated": "2026-07-03T20:13:49.831639+03:00",
     "items": [
+      {
+        "title": "「トモダチ・フェスティバル」がサウジアラビアに日本の魅力を届ける",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZQU5uVmhxOW5DZ3l2VkNYelFmTjQ0NHFPRjQ2eDExZ3dkdDRKdmFNNHpfMHNNS3MtSjFGQ1h4XzhIQWNJR213UGVRM1NNN3VUN2FESm5sbkQ3eXRIMlR1Nmwtd1JScTVvck1vVw?oc=5",
+        "date": "2026-07-03T17:07",
+        "source": "arabnews.jp",
+        "category": "文化"
+      },
+      {
+        "title": "画像 | ピラミッド25個分､世界最大のビルを作るはずが｢進捗0.2%｣で凍結…サウジアラビアの\"8兆円計画\"の悲惨な末路",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54ZGlaaVBNVkxDOGdFem1tVkp0TzJVbU8xRWp2Z1Nlb3prUmtHU0J6YUJMaGppWVJJMmcwLVRVa2Q1SkttWTBxbUprWlBuVlVscDVxZA?oc=5",
+        "date": "2026-07-03T11:23",
+        "source": "PRESIDENT Online（プレジデントオンライン）",
+        "category": "経済"
+      },
       {
         "title": "サウジアラビア企業、ケニアのジャバリタワー開発に投資 執筆 - Investing.com",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9USDg4SzFkR21hWi1Bb1NiTHYtQS12aVUtZkdpcjJkdzRycS01RkRLQXVGV0x1azFkVGY0NmxLQnZ3NG1qM1ZjWU00V0lzX0NCQnkxeVZJaXhLT2t2dVhKRTRHZEJPVl83d2gtYTVKWTg?oc=5",
         "date": "2026-07-03T11:09",
         "source": "FX | 株式市場 | ファイナンス | 金融ニュース",
+        "category": "経済"
+      },
+      {
+        "title": "ピラミッド25個分､世界最大のビルを作るはずが｢進捗0.2%｣で凍結…サウジアラビアの\"8兆円計画\"の悲惨な末路",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GQXkxeXV5NGpHb3g1enJCZERxOF9jZUIzMDdTbkt1NjcycERPbzZCSjViLTBVa1czRlB2NGYzQWdibGl1SU5IRzhnTU02cUJTalhHVWhLcDMxQlpiNlpN?oc=5",
+        "date": "2026-07-03T10:15",
+        "source": "ライブドアニュース",
         "category": "経済"
       },
       {
@@ -306,6 +327,13 @@
       },
       {
         "title": "日本のアニメ、自動車に\"習近平の影\"が迫る…中東の親日国・サウジアラビアで起きている「日本離れ」の実態",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaF9tWVVKTFRidThJejV4YmJlMVo0cXZtdUg1anNXMng0X1VhWXdBdXdzWk1IU2hRTFlMdjlJcGNTMG9xaDFRaEZvX2J4aWJQM1YxTkNKUlZvM2tFbnN5dFRuMUZ2UUJPd3p5LUdDQ2Njd0RlaU9NVTZXd25OSE1HSXZoUzdPcm40?oc=5",
+        "date": "2026-07-03T08:15",
+        "source": "Yahoo!ニュース",
+        "category": "経済"
+      },
+      {
+        "title": "日本のアニメ、自動車に\"習近平の影\"が迫る…中東の親日国・サウジアラビアで起きている「日本離れ」の実態",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQWl4cS15ZndzOUZfYzUtaVFIdk1fZk9JV0E2LXJZVnhVMm9oMnV3V1oxMTZNUVJOS3IxVUEzQmQtOWE5LVVpTGFjMmw4VVcwRFZtc2pMWFh5bzBlWExYVVBWc2lqOThkR3pPVWtUR2dWd19sRW5lQzJmdDFEQ0xFNWFIRTFIc19r?oc=5",
         "date": "2026-07-03T08:15",
         "source": "Yahoo!ニュース",
@@ -317,34 +345,6 @@
         "date": "2026-07-03T01:45",
         "source": "Reuters",
         "category": "経済"
-      },
-      {
-        "title": "ウフル主催「日・サウジ連携座談会」開催レポート",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CS3BFOUFWRkkxdmI3YUVYRnB6V2U5Zm9MR2FGc0lFSnBEY254WFhLN0EybThsNkw2SkhTZFd4SV9KOVB0cEN5Y1lWMUxPNDhxZDZCY0xVVnNWZ1E0bXl3WV9lOGMwV2VVZlE?oc=5",
-        "date": "2026-07-03T01:00",
-        "source": "PR TIMES",
-        "category": "政治"
-      },
-      {
-        "title": "崩壊の影……サウジアラビア代表のアイデンティティを再構築する道筋とは？",
-        "url": "https://news.google.com/rss/articles/CBMiogRBVV95cUxOeE1FTXRuR0trdHpWSEVCZzZBWC1UMTNJRzBHdU8xdFpEajBvcXdmYWZPQ2lvMy0waVVGenY1cmpvNWdJckUxQUpsOXl3ZnhvM3VuUHp5bkJNcng4eDRHdXhQNDJ0X1RhNUFNTVlScVRzQ0QtalhPbzNOZW02M2hCVk9iOHRfcGNFeXZ5c2ozVFRNeW5pVzl1NVZNWEpKYm52emFmeE50Tl9tRE1qenpCNkdRWXBGWExnUUFaM3o0V0FRRTFmamp2OXNjX0lHeHpmM21ReHNnc25FMG9WcWM3NHZNTWRTYkNMSG8tems4NjM2el9Waml2MXo3YXhCY2NfdXF2ZVNhc3RtNU9Bb1JubGpNQWFXTVE0dzJKVzJQSTh0a1ZnTFBab0F1dmhyQ0J2aV8zNkY1N2pwdFVqX1BSYUd0Ri1pdVNMZ21QWl91aVFzbVZab3U4TkVRV2NoUVlCOGM0ZjdxU1JYaHo5eHdBVG9INEhWbVZ2SFZlV25SWXlMTFk1NUFHdUkwTHJMQVMyUXhHNkxiT1A0ajh4d3RpX1ZQSGxPaHJPbEFHb2ZLRGkybHpNWVRGM2h3dGVQZHliWFNHREZBNmhadWN6cldDaUJfdWFPamJENG1TZ2FlVllhLUtDWk5EX2pPUkdYbTRBcS0zOXhRRTNBVjh6dms2Mk5icDhXM2J3eFdlNkZmM3p5OGFIX1lMWVRWdUo3dl81bVE?oc=5",
-        "date": "2026-07-02T20:35",
-        "source": "Goal.com",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジ、ペルシャ湾から原油800万バレル出荷－イラン戦争以降で最大（Bloomberg）",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KRS1KSGZnV2Jtc0IxUXNMb1laQW4wZWYwa0FCMXprWTQtMzJCSVhGb3Z4MkozRGRZdGhaaWx0bGs2R3B1YXN1SG8xTnI5UWdYbWUyaFN5VWk1MVlXWkJ4c1dJSjBNUHlvTDZ3eVEtTkZxRFZjNDJmMkhiTlkxems?oc=5",
-        "date": "2026-07-02T11:50",
-        "source": "Yahoo!ニュース",
-        "category": "経済"
-      },
-      {
-        "title": "伝統勢力を掃討し｢ドラゴンボール｣テーマパークを構想中…池上彰｢以前では考えられない｣サウジの変貌ぶり",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hQXNwYUxucUJyakpodmhQUHEtdVlYYkljVEJFZzNWcENzVkhBU1ZFUGFmRUlUMjhfWkw0S2pnOElOQmNZb21fZm90YU1US1d4RmsyZ3J0ZFk1NkNBckFVOFBqWVc0NHhsYmtPN01YcHEzNzQ?oc=5",
-        "date": "2026-07-01T08:15",
-        "source": "ニコニコニュース",
-        "category": "社会"
       }
     ]
   }
