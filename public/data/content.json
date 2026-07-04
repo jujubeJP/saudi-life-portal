@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-07-04T14:49:52.719953+03:00",
+  "lastCollected": "2026-07-04T19:54:30.411867+03:00",
   "security": {
-    "lastUpdated": "2026-07-04T14:49:52.719953+03:00",
+    "lastUpdated": "2026-07-04T19:54:30.411867+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,14 +39,14 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-07-03T20:13:49.831639+03:00",
+    "lastUpdated": "2026-07-04T19:54:30.411867+03:00",
     "items": [
       {
         "title": "旅券手数料の改定について",
         "url": "https://www.ksa.emb-japan.go.jp/files/101044245.pdf",
         "date": "2026-06-15",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": false
       },
       {
@@ -54,7 +54,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101040715.pdf",
         "date": "2026-06-08",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -62,7 +62,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101033581.pdf",
         "date": "2026-05-25",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": false
       },
       {
@@ -70,7 +70,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": false
       },
       {
@@ -78,7 +78,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101028539.pdf",
         "date": "2026-05-14",
         "source": "在サウジ日本大使館",
-        "category": "スポーツ",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -86,7 +86,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -102,7 +102,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988773.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -110,7 +110,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988294.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -124,8 +124,15 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-07-04T14:49:52.719953+03:00",
+    "lastUpdated": "2026-07-04T19:54:30.411867+03:00",
     "items": [
+      {
+        "title": "Yemen’s Houthis threaten Saudi Arabia for allegedly preventing Iranian plane landing",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVzRlOC1qdVgyemxWYjV4QU50Q1pWQURJSjNqWlN0NllJdkJwUkt2bEpJaTlhVHIxclNEcmJlOVVhcGl4QVVSOGc3bnhLV1FQaWE1SWdtMlgxcjh3ZVhFM0hHcGRjc2xqVkpzazZPcENHeG1EbjFKZXVnd0twUTdfSzJJVi03MmRORHR0VlVodzZzazV4eHFQMjJDelh1ck9MX3hoRnJIOWlHZTZpZXFhYkRPNFrSAboBQVVfeXFMTUhqYTA2cTNlXzZKbnNESzRaU0VZU3FIdmdsVTh2RzNRMWlHbU5yb18xbDFwQUo1ek0wdFNBSGpHSS1meTdkU0VrZ1lKWld6R2RyTzBEdjQ4NE5FbWhReVZDOWlfU21iYVhic09INllTQl9YUFpqeXVfTlVzYWI3NkpLSmN2NHl2QkNtX0V4bHlHZWNQaGpGSkNkQkxVV3g1U3NUaFVoOHBJT2FVbm0xb2pmdmIwNDJUQkp3?oc=5",
+        "date": "2026-07-04T11:55",
+        "source": "The Times of Israel",
+        "category": "その他"
+      },
       {
         "title": "Saudi Arabian giants step up pursuit of €30 million-rated Barcelona homegrown midfielder",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVDl4MlAzcUZKMHYtR2k3RnJsbDRxRElzVTc0RWlOV3VpNDctWnUzSVc2NndISGxpUElNLXZaZUZBVThQYUdWZ2Q5elY4V1F1R2NiVURGR1pVcGZWdHBXNjYteGptY1hNa2VzU051WXJTUzM3U0wyXzI5QU91VTh4YjRPVHhieFpDWXc?oc=5",
@@ -138,6 +145,20 @@
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVTBGcWdZSnBGOE1PY2ZHSm5UN3pfT1BXWldnTXNKZmg0clh5QVE2SGViVk52MWIxaTkyNktEQWNwMVJqdWZPbFdKMzJlbE1jUUY3dnBZVV9icHAzby1zRXk1NjJhcEZhVWhySkdidnhCVXJUZVpsR1dOblpRNUV6Tm1PY0J2UlluQ1hZX2FPcExObENiZk9IRGdaSW1iQ05LWG9OWTdrM0JBTXJ3Y3fSAbMBQVVfeXFMTlRERlY3ZkZzSmFNR0lNdlJfSU9vX2lZWDlyZnYxczhYdmhQVHpWcnZGNjFuSzlFQUJpandRU1lwbEtMNXkwVGFKTnBTSTBvSUdCNVYxdjdzdlRZM1EyS0tETkhienZQSGNQMldkZ0kxemdkVExSRUlhVTFXaEF2VjJ1eUJSX1NxeVQxMnhHTTVkNkJMSWlneEQwSnl2QTdBMUhzUy01YnhONVBBT21zVWJSLTg?oc=5",
         "date": "2026-07-04T00:26",
         "source": "Al Jazeera",
+        "category": "その他"
+      },
+      {
+        "title": "Saudi leaders send condolences as Iran holds funeral for slain supreme leader",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1xN2VxTkkzNnlEYUxvQllEeTRlU01YWVdzTUxRSWI1NDJBNlBGWFZINC1WOG5aY1NMTENwd2JHdWR0ay1od3JiTTNNTXZuOHN2TV8xSGxPVy1SWG1KaGs4?oc=5",
+        "date": "2026-07-03T22:37",
+        "source": "Arab News",
+        "category": "その他"
+      },
+      {
+        "title": "Houthis threaten Saudi Arabia: 'We confronted your jets, we’ll strike by land and sea'",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWX2hmMEJDejIzRWk2cXJ0ZEt4UDVrWGRKYXVpSFAxUkhvc3hhR1ZVTkNWRi1MaXBaU0VJdlJhekZ5VG9LU1c1NlA5dWJnV0VOWTZtYWltWQ?oc=5",
+        "date": "2026-07-03T18:26",
+        "source": "Ynetnews",
         "category": "その他"
       },
       {
@@ -162,11 +183,11 @@
         "category": "その他"
       },
       {
-        "title": "メタの野心的な計画、課題に直面 米国のAIデータセンターか、サウジアラビアの低コスト電力か",
+        "title": "Meta’s cloud compute dreams: Why opt for U.S. AI data centers when Saudi Arabia has cheap oil and cheaper power?",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNalUyVHFqZ0lLMS1Qdzdma3FxVjVVNEdOTFJ3c2FGczNjaTRNcm1NNFBFeXVkNUxTUk04UzZ5aHktTWdEZ1Z5MVJJdkpJTTNOWjctZ193Sk1JM1VjS0V6WGwyVkNLdk9NTENVMVZCamx4VE02aks2QVRLcF9OV1dOcmR6S0gyaUhwVDFIWUxzRQ?oc=5",
         "date": "2026-07-02T13:14",
         "source": "Fortune",
-        "category": "経済"
+        "category": "その他"
       },
       {
         "title": "ホルムズ海峡の石油流通増加に伴い、サウジアラビアの石油輸出が戦前水準に接近",
@@ -174,33 +195,33 @@
         "date": "2026-07-02T12:05",
         "source": "Bloomberg.com",
         "category": "経済"
-      },
-      {
-        "title": "'His death has killed a part of me': The Ethiopians awaiting execution in Saudi Arabia",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcVpxSDBiNG5iSDd6dlNGNUFJTmpiYnRwdEJMMWtZMnhzUkNsWnctTWw0RFhnQU1UZWpIUUZoSENjVll2dUk4Vkw3cExaOThyVUwtT2o1c2VmNzBoVEMtd0dJU01NdDMzWlAxUnpmOFdocWVIZ3c5YnpDblJUaThwWmtrY0FaOHZDVUVPM3VUM082dnF6dEtJVnFSc0NlZzNuUURuYU1iTEZ5UQ?oc=5",
-        "date": "2026-07-02T11:49",
-        "source": "Middle East Eye",
-        "category": "その他"
-      },
-      {
-        "title": "サウジアラビア、イラン核合意以降で最大の石油輸出 ホルムズ海峡を通過する超大型タンカーが急増",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQWEwaWJqWG9XWDVKRDR0aWtyR1ViSnVHcGpOYl81eHlBdHNpdlB5cnFfc0Izc3R1LUVwV2xBblh0aHd1UkYyRm44eFBBUDZ3anF4OVZNWmxqYzF4cjE1Z1AtZTRhbUpVUHJjVnJnTkxEeUJoUDdMUkFqWXZWelIzM2R6MTdjTzgxeERCb1lvbldQRkNZX1F3akJFbXdmTVB2aENCS2ZyQ1hjTHFoSURVamt4VzlMRkpNS0V3b1hLMDZjTHAzZnc?oc=5",
-        "date": "2026-07-02T11:14",
-        "source": "Bloomberg",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラムコ、ラス・タンウラからの輸出を増加 スポット販売へ転換",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObXVyMVNFblo4NFptVzhSMC1HS2VQTmpSbk51UzdqNm5LZG5pejQ4OWlXNGVPNmllanJ4TXFUT3FYdDhJUm45Rjdyd0szblBfVWFpVVd2Ny1OZDJ4cEUyUDVmTTd2dkItc3FNMlV6UXBYOUdVMzVMcTMwaDhVTzNVME9mejd2QVJNcEhMRXUxc3VFYV8xVXdhcGRGMW9NNjVHZ2ZvQmt5NElDYUJqTXdjOERhYkxidzc2bnNBUFlqSmdYQQ?oc=5",
-        "date": "2026-07-02T07:23",
-        "source": "Reuters",
-        "category": "経済"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-07-04T14:49:52.719953+03:00",
+    "lastUpdated": "2026-07-04T19:54:30.411867+03:00",
     "items": [
+      {
+        "title": "الرياض تستضيف الطاولة المستديرة للأعمال السعودية - الكينية",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE4taWFjeTRiYmpPZFRWY040cmdtczB5YjlqclVkVGI5YjJZS2xPSVJFLXV2NTFLOEY0ZjJLNWdkS2U4WVMybUE?oc=5",
+        "date": "2026-07-04T16:48",
+        "source": "جريدة الرياض",
+        "category": "その他"
+      },
+      {
+        "title": "وزير الداخلية يدين التفجير الإرهابي في دمشق ويؤكد دعم السعودية لأمن سورية",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EMm9kclUyVVJjMnhFWnhkYXc3YU1YVXRJVl9jWEVtdU9scDY4Z1hTcWdPMEliaVk4c2NRUXVhOEFZT3d3YVNMTlRDQ0xuc2ZFVThaQ2FTM2dKbVNuQUdF0gFUQVVfeXFMTzJ1MTdTZ2xnRk1XZ1kzSE83aU5FSlJfNms0V1F3bk41bHNYVzdhR1c3bmhrdGVXZTE1eVdOTTNRQXVCbkQ1UDhfMVMtclZ1b0JsdTZf?oc=5",
+        "date": "2026-07-04T16:19",
+        "source": "عكاظ",
+        "category": "その他"
+      },
+      {
+        "title": "\"تفاعل السعودية\" تفوز بجائزة Effie العالمية للتسويق والاتصال المؤسسي",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5sdV9pRnUtWEZsYU1JOElBQ3R4NUVqc3dJc0Mwd2xHMXJOVldmNG5CcUZDZlEtR0hxczRCb09iZ3o3U0ptNFdv?oc=5",
+        "date": "2026-07-04T15:39",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "その他"
+      },
       {
         "title": "السعودية: 51 ألف متبرع عبر إحسان ينجزون 3 مشاريع لتشجير 225 ألف متر مربع",
         "url": "https://news.google.com/rss/articles/CBMilwRBVV95cUxPMDZ3bEN3UlUwOWJBbm1xdDh0QWV5VUlPSjRZMnZ2bjBLeXpuZUtDa08ycS03cEFCcXlqempmRHV0cG5EWHZoWjRoNDRnWDlxWV9HSGJRVFNFSWZUT3k0YWxlZEprS3BVS1c5S0FvdVMxV2wybjZ2N3VTb0J4elhiaGVoamxteU5nbk1HZHVKWUYybGJUQXhQVHBTNWZCQ1ZEcFZ3SUpkUEdmUjE0cHZsNGFfc1EtQVNXc2x1WkowMFRjaVBVa0x0ZFhQeEJJbmZGcG5oMWFxQ25DWEMycXBuMGkwd2lFQ19wZ0xod28ybUtlS3VBU2hER3V0UUY0Q25hd3BCRHNJZXZ4aUxKekdBaDZiaXNyeHVHRWVyR0VBdFZwVlNadjBEZDJ4V1VsWTZVb1piUk54UnZtVGI4ZnBYUzRtTi1nYVJSRGFnV3NLSkxTX040Zm82SFBXak5URTRTekMtbVVtclZ2TEx5SElteS14T1J4UDAxTnlDRUhRMkxXblMzVkM4NlpfRnFzS3Q0VWdoekhaUDZGbkJBakFGZGhhSU5iTGNaTm9UN1NheDgtTUF0Tm1YR1RXelgwelNyS0Nha1prSGtublhoNlVVTE1NblpqYUFUak1US214dlVrOWpVUVpONkJVYkJ2cUl4VXcyZzRKQjNEaVZvWEV3akVvZWhLM0QzNmw3Z2l5c243VWhYenFr0gGcBEFVX3lxTFBXWUE5V1Z5TzFPRGxFQ05xQVlqNThaT3BqX25QTThJMzhSSmo5dGs5VnFDc3ZENUx0b0RYeTM5NThxci1sR2w1OUpBZWdJYWc4NzBzZGc4bXNNRlUwSDBCUk1Wa2hRUkVVOWlvaGM5d05mQjlxdW45TS10d0NibE1XQjVPeGNkbE9sdnlhVURNVXVLMFVQVzZWelBRelBRQ2tHelk2QWROMFZic251TERsbTEwbVdOSExLSVpseXppRUthdTF3Mk8wXzFZbGFnb25ZTERZdmtyX2FKQzBMQ1BLLXlwallUZlNBOTEtamw1R1JBT3RtcUpYMlJpTHJqZTdHa2lWZlMxVm1HWXFhbmtHdTUtcWJuOC0wMjAxUkZYS3JzcnE0YndYUzA4RnhzMTU5RmRBM2REOFNfc3p5WWxueVlYaEdpa0hQWHV3U1BkTTB6MTNZZWdWcHJwVlhSWE9Ra3JJcWN6MnM1SzJoNGl0cGZlQVR4N1FiUDJqQ1VkeU5CbkZMblhJVWhsa3RSVkswNHZMUjI5SmNaQzhGWUNabll4U3ptYlVPSEZvOUtNVEt0bEVtVHVVOGVHTkZVa1h3ZFZRRDVhQ2FmS2NWV0hBTlFNQndHYzRXUkJpcXM3NTV0SUVFTDEzZ1ZxMzVCMlFILW94SEZXMnBLUmp0bHBOVnFJX211NGxxQ2swM0RQcjNjc1ZoYmdlbl9Lcg?oc=5",
@@ -230,52 +251,45 @@
         "category": "その他"
       },
       {
+        "title": "طفرة الضيافة السعودية... 50 علامة عالمية تسابق الزمن وتضخ 120 مليار دولار",
+        "url": "https://news.google.com/rss/articles/CBMixwRBVV95cUxOZzFCWTc2TlBidGpSb2RLTkVhUkxYNWxOSlNxUGR5Y3V3b0p6bkxfTG5GSlkzbXJoUHVmbDFhTUNzZ3B1SU92VUV2VHZHSmxxcVFoRWJWVTRfODRCdkJMUWVLeFBxdXlrSGFHQmhlLWhUQW16SnZtajc5WDVpN0ZaZ1lLMTg3TmlZRlZ1ODI2a1RXZGFhRWdsVHNlM21ac2t1aUYzTHNRanNfMlZ3ODdsQnF3OGNtZnhsVUZkRGNWcU1qZDNfVVlKNzZySzRYckdoWXgwSVNSdGRXbjVhVks1Z3FpWF9UQTd0UEtFS3ZaRFltMlY1dWJJeDBxcFhORkFJT2tFZ21FX2pHNkVBdGZ3UU0zbnQyRi1UR2tlU0tSalMtTG9MR1VLblJwMmF3Tzkyb0FsUFhYYVpZcWpTNk84OXFjT1B0V2p2UVBBejFyeGFxakNBOW45S2dORl9fVzFrOVBjVkNBRnVQM3ZOZFN5OEZ0T2pCVmVrWGwzZnVIaWNOX3d0ck1SQmRYTllUelR2TldBWVVWNzhmVzBkU003SnpnenlCc2dyeGt0R0lpQ1l6YjVWR0xKMm1fRnk5QWotY0tKejNXRnVHanNkTGozYTM0MFhLelEzbkt4M0VEN2gyWU5VMFMyTXRFTWQtN3JjeVZQT253R2hZM195czB0VHFvaHNrY0NwaFNycm9VWDJrQm1qTDk4WTdvSmF2cUw3VmRDdmRLeTBNLThwbnExLVRoUGdsTk0zXzFTSlJLbjNLVjR5aU1N?oc=5",
+        "date": "2026-07-04T07:27",
+        "source": "الشرق الأوسط",
+        "category": "その他"
+      },
+      {
+        "title": "من مثل السعودية في مراسم تشييع مرشد إيران السابق علي خامنئي؟",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeWwwNnh1WHQwSTI2emtmWERRTkgtd0hPM0YyZm1sSTM4SVdRLWhtLWo0WjlUb2FNQXYxTEVnd3ExNGNFcXdfdURyZEl4Yl9MZVlheXhvUWlBamE0VGVnTzJSSnk4RWRmV1JJOW5sLUE3alprOXU5SXl5OC0tLW9wc1pRYjFHbTg1el9VSmtLZ3JhdzlqWDNOTdIBowFBVV95cUxPS1N1ajVqeExkUnZ5RTNpWlg0Y2UtVmlMWmVYQnZ2dDV0TWdVUV9QWV92d2tHTFNndmw4bmFwYjAtUHI0N3FUUDBoT21rVUxhLUk3TjhVOGU3Umd0QjZiQkotYTlNdkx3YzJjd05neHpkbTdRZHlOTEdTd3lYX1BtZnhiZ0NQLXBDQ3lxMEdDcU5ydDRVcl9yVzY5cWkwTzAxTVdz?oc=5",
+        "date": "2026-07-04T04:51",
+        "source": "CNN Arabic",
+        "category": "その他"
+      },
+      {
         "title": "\"التحالف\" يرد على تهديدات الحوثيين ضد السعودية.. ماذا قال؟",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVi1yVjh5MFZkZjdHUUU4WGIwRTdjeGdCWV9hbFREVWE3SmUtclNGdy1ZbGNrVEJqWm42dkxaSnJfUHNrWWFMWkZ1d2x6dmt4UURlOUFHNEJOcV9iSy1oZHlhTVROTlZ6WVlUXzZQdVVtU1R2U3JlRWJ4Q05DaTFSRGw2SEdBY004N3JNdUlBMUFvcEdpR0R4TGxTN0FIUdIBqAFBVV95cUxPc0Exb0NSMlVncTlTQkI2blBEcWRSWXNLVE1pVmQxR2pmSEFZS1dJNFJrNTZTbDZ6MEpib21YdEFpVHVEM3J3YUF3YTNOT3BaUmZGWGlvY1I2VnZvTDhfY0NVUjVxaEh0c0Z0Y0Iwb1J3bC1DRmdESEgyeDFZM09hdzAwNXFDajBLUWV3OVAwNk9tUGp3bWY3cTM5Rmxici1NUUdtRHlkS3g?oc=5",
         "date": "2026-07-04T04:29",
         "source": "CNN Arabic",
         "category": "その他"
-      },
-      {
-        "title": "السعودية تفرض رسماً بنسبة 2% على تصرفات الأجانب العقارية في أربع مدن",
-        "url": "https://news.google.com/rss/articles/CBMiyANBVV95cUxPQlpBU25IeUhzVFRZaWFnak9JYUhRNnd5OUE1bWRjcHVzd2N4VThKQWo0MXNKMzluYnVveUtIZHJRTkgzUHFReWhDbW9kNXJTcUQ0WWx5Z0N0d0t4bHlpSGdiY19tTXIyZlhIanpWWjlwcXhmZktRclU1TWgyNGpGN3J6R3hSbldyQzZ1VnFoY1Q5TzJyTUlCRmRsOF92eGxhejZVbm55cFVLbS1remloS29TQklXVmZNNzRteVdaYzRqcjhFRFJYeDU3bE9ZNVlEZWpSeG5hZWllN1RHYXNLRmdhVXdRenUxQnFWRUxEX3U5NS1Hc2pFQkhraWM0emxCdDJpYmVmcEJQNXhsNF9xcnhYUUZiNmtsdmRvTE5oc1FJcmxUQlotTnhCM0Z6Q2RCUWJtaHpMd2ViZ0MweW40cWFOWHdNNEFXbXdudDBtVUFQeGg5RmNvdkktYldtS3hZMVBJWExCU2NDSENZNmJ0LVFwOHJkZzZnUzgtVDNqYTNxdFduZFZYNmNieUdzTWpRTFBVU1dlOWdwLWszMFhqY0ZQNlhDOG1LdTJwd3RTZ2hac0owam96aU95cU4yd2JGODJzbHl3OVY?oc=5",
-        "date": "2026-07-04T01:27",
-        "source": "الشرق بلومبرغ",
-        "category": "その他"
-      },
-      {
-        "title": "«الخطوط السعودية»: لا علاقة لنا بطائرات الكيان المُعاقَب",
-        "url": "https://news.google.com/rss/articles/CBMizgRBVV95cUxOYmI5V0gwblVSVkdnMzJkaW5lZFZ1Yk1zMkpJMEZhM29WdDEyQmFEbnpKV0NWUFVkcVh3dkd0ZEJIdE1jZm4xZ1NPTFFLMlBrMUM0TExwNVU4bTFTaVBQYTBsNWt1TGpDemJoTmhxbTNtQTd6U0ZUXzJxV0RIODNzR3R2T3lEQ1NVRElPOENheTlQVDRhNmREb1ZyZWtEUElTQnpCNzhuNUhBMEwtbGpGTGF1UDhBZDJyVXp6MXo1X25nSEJFTEQtSlViYkNScExXdGY2bUhEMVQ4cFdkVmFISDNmQ2t3M0NMYXU0OXhXbnUzcHVsZmR1czlOMU9qZUtZMUxZZkFJQkxad0xvbTZOUVdIcjFaUTNMYXFPck1uN2xjZEREQU4yMWhhdGNIMFRBSXlWRUowM1h2UmwxeUYwTEk4V1JTQ1lsZENDaVpjcXBYNGZwQVBuZHVhQnM4dWlZWUtDOTRIVTlkSlhMRDhkaWJwZ1JNNmY5QWw5S1hzc2ZqU1VmV3I4YVBOUklzYzlLTktqZTNsYkVFSlhIeXRBbmN3LWlqYmRDWmY4MVhqYl9mX0wtRG9EM1BLZGlNOERvRURsZjRpX3J0V2tPdG1JWTMwcjNFZFVDSjRFbGdBaFBuN01SbUsxb2xGTmdIRTlGbHZIMDJBZm5XV1pXY1FtdU56Sk5jX3M0VDVXeHpLQUhIQS1hRXpkajdWNHRzTjAtcDB2Z21fOHJnb2ppLTN5bml4TTRkQTVyWUVBSWt4eEdWU1hwVlNwR3A1NTRZQQ?oc=5",
-        "date": "2026-07-04T01:19",
-        "source": "الشرق الأوسط",
-        "category": "その他"
-      },
-      {
-        "title": "الخطوط السعودية ترد على مزاعم تسليم طائرات لجهة خاضعة للعقوبات: خرجت من ملكيتنا قبل 3 سنوات",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9vdE92UV83T3pjUE9VcTZYLUpkc2xfZVA2VTlDYVpYdk5JTldNbERZYl9EVjhhRFBSQW1weVFUdUR6Q2tCakVQV0NLYnJ3dVBWNVHSAVRBVV95cUxNaDdSZ0NlazQyWGxVdUN0WEZpRUg4NGVtLWEwRUYwMG9JemtXbHN3cnk1bzYxWlpmRGYxWWNDS3U2djRZVUc2Tzg1S05la3VOajBMLS0?oc=5",
-        "date": "2026-07-04T00:24",
-        "source": "عكاظ",
-        "category": "その他"
-      },
-      {
-        "title": "«الخطوط السعودية» تنفي صلتها بطائرات Boeing 777-200 محل الجدل وتؤكد بيعها منذ 2023",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5LZU8yUXlwVmloVzVtWWE1RXBUcE5NbERjV0w5ajNoaHNVaUR4WnA0WlRjTk5mYThNSDI5TlJIanBuTlhGVkxr?oc=5",
-        "date": "2026-07-04T00:13",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "その他"
-      },
-      {
-        "title": "サウジアラビアと欧州3カ国で始動へ サウジ・プロリーグの強豪クラブが新シーズンに向けた準備を加速",
-        "url": "https://news.google.com/rss/articles/CBMiiwVBVV95cUxNMDBSZllMbU9XUnVNZXVjaC11eG9CTmhUb2djS1psczZCa2RRMU1xcW9MUjh0SVVjbnp2WUh2NFJQeHczU2ZFRnNQWm5ZckpOb3ZBVVBvTThyV0trS0FHR1JremdkUkdsd2FVa2xPSmVtVXpoOUt6QWc2UFdENXdONDM1RFlpaXBFdGVtSTBtOTZJeVJzZEJPR1RVcmd6bldHYTd6VjdwVzBDSWdBdm5JRUlFZkNlVDNFOFJHNkd3bWxRMGxkV2ZJbTV2WVhscURsX0xOc3Y4Qy1ENkN0cFhKb2hrV0ZKcUhMSS03UGhzVDF0NTFRV1lsN1IzaUtMVjhVQjVQWmJITTFRSS1BSW5iSlczVjFHdkV1dDR0UDExY1UzRWptdEE3Q3YwOVZtMFdIcDM0TlhMUFlpX3JCQ1UwRy1hOG5ncUNMclNEeTlqcndqNFVCYTVJZUFzQXhHQ1VGdFIwMlRxMVBsWGNGOGpsTGFVNUFrTGtLUHVUTFcwU3NiOGpHWE9EY0ZvckVVdTJLZlNrQ0JxWENMU3dhb2x0MmVMREtwQld1ZmVvWDFBd0pFdElkNzZqdWY4RHVFX3ZfUlJsU09Iam9oMmVWdlhQVHJ5RnhYQ0lGOHNTQ0NGQTVXZTZpeXQ2bDZ1aV9aRGlJU0E0VHk1WmFqU3dIVmJNWFZCVDdSenFkVlZaVVlkOVkwaGpMVlE3Um1SblA3dV9kTTAwSTllUjk0d2NGYmJYb2stQnhQNnRHUlNJaDJmczJpaFRZRV96bUU1WGNOaVpBdlMzbzZBNDUycU1tRGVoMHhNeXlIcERXZnA1aVZvZERDVHVSY2FTb3VuNUdWQUI0aHJTS3RicVdkTjQ?oc=5",
-        "date": "2026-07-03T16:39",
-        "source": "Kooora",
-        "category": "スポーツ"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-07-04T14:49:52.719953+03:00",
+    "lastUpdated": "2026-07-04T19:54:30.411867+03:00",
     "items": [
+      {
+        "title": "バルセロナの22歳MF、今夏にクラブ退団へ…サウジアラビアからオファーも選手本人が移籍に踏み切れず（GOAL）",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZcUUtbHBJQ3UwODJNbGF2dlhibHlrbXpnTTJZelhpZFJlbFlwZEFVS0dTdTZwM0VkdEVHcl9pc2thenJkYUNxdV82dWppYmZ6QnVlQWhGdDBWTHdLT3lxZWg5QlRKMXJfV2hjOHJNVjd3NTZuWUNXV3FHdjFoNFk?oc=5",
+        "date": "2026-07-04T15:36",
+        "source": "Yahoo!ニュース",
+        "category": "その他"
+      },
+      {
+        "title": "日本人選手を多数育てた名将、今度はロナウドを指導へ！ポステコグルー氏がサウジアラビア王者の監督に就任",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQblRxbEt4V3lRRGZYWS1sTEtiR3E3Qm9RLThxWFBGWDVrWTF1c1V6Nmp0S2VCT3h2Sl90V0ZLanhiR3ZEbWFBOEpRTUVOYTRPbzFOanJkSnAxdk5QYkRCZDZ2VWpyRHZEQnpCbGlqdVJXMXNYSlA3aGhOemlXcF8zS3o1TFlxUEF6Q3Vj?oc=5",
+        "date": "2026-07-04T11:50",
+        "source": "Excite エキサイト",
+        "category": "その他"
+      },
       {
         "title": "【北中米Ｗ杯】Ｃ・ロナウドの〝つぶやき〟を巡ってポルトガルとサウジアラビアで大激論（東スポWEB）",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WaUJZbEhKZlBVemlaVHVHREdJSThydmI2amlPOWlvVXBNV2RSOUlmdFZJNU1sQXFjR1NfVWRGZzkzcHZoZjQtV1JWSjB2NlRJMDMyZnBRYUwxTk1lZ2xkMTJ0SW5vTUVuM1B5Y3RJNnZ4U3RJWFpXaFBJcnVjcjg?oc=5",
@@ -305,6 +319,13 @@
         "category": "その他"
       },
       {
+        "title": "アルナスル、新監督にポステコグルー氏就任　サウジアラビア・プロリーグ",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Iei10STNzQ3lsSEQ5QkVrcTlNdlJBLTBfWDRrek9COVNfOGJQYUt3NW1PdVFoU1V2MGJXS1p5VV9CdUZJVFR2NHZYS01JTHpacUVfMjlvY21aRmFMeko2aXZ3Ump5SjVEXzZMNjVLRjFzM3poYnfSAYoBQVVfeXFMTUdpbkcyU0pLZFB6ekVkcTdaNmVQYUN2cUhYTk40T2c5ZG5CMkc0anBRQUxHbFJBUGUtOUE1alhRX3N3S05Zb3FRTDUtV2RmdV9URXRKNjFiTUFVUVN6SFZHWWs4VXppUGZpaTNlTXQwekVEMXRSUkZlUDdkNzdtRHd6clRWRlM3RFhR?oc=5",
+        "date": "2026-07-03T20:26",
+        "source": "サンスポ",
+        "category": "その他"
+      },
+      {
         "title": "「トモダチ・フェスティバル」がサウジアラビアに日本の魅力を届ける",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZQU5uVmhxOW5DZ3l2VkNYelFmTjQ0NHFPRjQ2eDExZ3dkdDRKdmFNNHpfMHNNS3MtSjFGQ1h4XzhIQWNJR213UGVRM1NNN3VUN2FESm5sbkQ3eXRIMlR1Nmwtd1JScTVvck1vVw?oc=5",
         "date": "2026-07-03T17:07",
@@ -324,27 +345,6 @@
         "date": "2026-07-03T11:09",
         "source": "FX | 株式市場 | ファイナンス | 金融ニュース",
         "category": "その他"
-      },
-      {
-        "title": "ピラミッド25個分、世界最大のビルを作るはずが「進捗0.2%」で凍結…サウジアラビアの\"8兆円計画\"の悲惨な末路",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xY05tVjhkR0VycGlPMXhtazZ3RXBuMXF2aUpqaGhILXZvelJlaFNJSnlMMDZlRFoycnctbEtIcGtSSG4tSjgxUTh1NWV5RFEyV3k2d0tzcW9wX2Q5aWhYcWlCcW5oeWRneUFBRU5xTngwdC1LVm1Hc0E4VExfOEE?oc=5",
-        "date": "2026-07-03T10:15",
-        "source": "Yahoo!ニュース",
-        "category": "その他"
-      },
-      {
-        "title": "ピラミッド25個分､世界最大のビルを作るはずが｢進捗0.2%｣で凍結…サウジアラビアの\"8兆円計画\"の悲惨な末路",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GQXkxeXV5NGpHb3g1enJCZERxOF9jZUIzMDdTbkt1NjcycERPbzZCSjViLTBVa1czRlB2NGYzQWdibGl1SU5IRzhnTU02cUJTalhHVWhLcDMxQlpiNlpN?oc=5",
-        "date": "2026-07-03T10:15",
-        "source": "ライブドアニュース",
-        "category": "経済"
-      },
-      {
-        "title": "ピラミッド25個分､世界最大のビルを作るはずが｢進捗0.2%｣で凍結…サウジアラビアの\"8兆円計画\"の悲惨な末路",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE50ejVEdkRFaDFaMlp1WTFhSVFEWEk2Sm1xV0lhVWFEdXFvSmk1Yi12Nm9hWHFnaTZ0cDlIQjBZZnQ1NktQMHE5dF9hRDlaSi1aeEdLQVhRejNuOGREd2c?oc=5",
-        "date": "2026-07-03T10:15",
-        "source": "ライブドアニュース",
-        "category": "経済"
       }
     ]
   }
