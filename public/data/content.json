@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-07-14T14:52:08.138322+03:00",
+  "lastCollected": "2026-07-14T20:03:56.008310+03:00",
   "security": {
-    "lastUpdated": "2026-07-14T14:52:08.138322+03:00",
+    "lastUpdated": "2026-07-14T20:03:56.008310+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,8 +39,16 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-07-14T14:52:08.138322+03:00",
+    "lastUpdated": "2026-07-14T20:03:56.008310+03:00",
     "items": [
+      {
+        "title": "イエメン・ホーシー派を巡る緊張の高まりに伴う注意喚起",
+        "url": "https://www.ksa.emb-japan.go.jp/files/101059926.pdf",
+        "date": "2026-07-14",
+        "source": "在サウジ日本大使館",
+        "category": "その他",
+        "is_safety": true
+      },
       {
         "title": "旅券手数料の改定について",
         "url": "https://www.ksa.emb-japan.go.jp/files/101044245.pdf",
@@ -112,20 +120,61 @@
         "source": "在サウジ日本大使館",
         "category": "その他",
         "is_safety": true
-      },
-      {
-        "title": "【大使館からのお知らせ】領事窓口閉鎖のお知らせ（3月3日）について",
-        "url": "https://www.ksa.emb-japan.go.jp/files/100987261.pdf",
-        "date": "2026-03-03",
-        "source": "在サウジ日本大使館",
-        "category": "その他",
-        "is_safety": true
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-07-14T14:52:08.138322+03:00",
+    "lastUpdated": "2026-07-14T20:03:56.008310+03:00",
     "items": [
+      {
+        "title": "Saudi Arabia prepping for World Cup duty",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZVjgtMkJoRWRRWkVGWTdZUjFDR1FENERnQjJ6cTZ6TjdnOGUzSVhxcTIwZG53d3JUQUhUTnFtc0w0NjlhbUxoN2pvZjZab0pxRlBXclRyNXFkXzBzMURQZi1lby1iem1KcFU0RE8tVllZeFJ4bEhzYg?oc=5",
+        "date": "2026-07-14T16:00",
+        "source": "Taipei Times",
+        "category": "その他"
+      },
+      {
+        "title": "Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV0dzUVFKcENEN291dnpfS2lncGg4bWpRV0FNbWt1X2ItdHZLNjJfYnhvOUlaOGx1UG1EQmlGRGFQblRVUjc5ZjBkRVF6ZUtJaGdCY0dkSTQxZTZrcFp2TEplTFQ4Mlc2a1hBM256akc4RDltTFlnbEl2Vy1vVFhfbzYtRnJNbW1iUUpLN3RXS2lYU2t0ZUIxMjFiTTlreS1mWmw1SVVyaC1zYWJQRmNralcxXzLSAboBQVVfeXFMTm1kVVhaSThQYWRyY050TUh3UFJCU2FJTnRIOWRCY0I4STNnY3o5dWV3VVZvdWZJSjBLTGFEUC1UamlwOXhLSVVDMEUwRkV6Z21RM2x3WTE1YV9fMktFOXJ1em03MHRZZWc4eEg0S3ZDc2hQTkJXZll2aUNZdEt3LU5SdzkyM1BRbWgxMEJCdHVHSzJ1VklaRXpCcVJfaDFpQ2U3V01OWmV6VWRwSkdwRFAwOHpIa0tLcl9R?oc=5",
+        "date": "2026-07-14T15:22",
+        "source": "Al Jazeera",
+        "category": "その他"
+      },
+      {
+        "title": "Tensions Escalate Between Houthis in Yemen and Saudi Arabia",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOXV3Mi0xSkVPV0hnb2xPWkw3QTJGcld1UHZvRzBDYzJ2SUstUG80dFRTbnh2eC12UjRHTlYzUldpLVBUdDN0bUpac1MtNHJVMnlJbEtDYmhWX0l6RFVjRTZyWkZFMkVMYl9HYkQ3VmNpcmZwRmQ1OWhuMTVXWE55aFpUcER1bmh6S3Y4VHRfTnBJMDJ3ZzlZLWpuRUJRUm55bVd3aDdROEJKREMw?oc=5",
+        "date": "2026-07-14T14:20",
+        "source": "Democracy Now!",
+        "category": "その他"
+      },
+      {
+        "title": "Saudi Arabia Adds Agentic AI to Its National Data Platform",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWmw4YU9sUF9pSW9mcFNiTlRGU0pKUUdKNmk4SDJSdlpSeVdTQmxSQzN1czZ3ZUNRMnBDaFdENWRmQzdKdGxRZ2VBUGFHZU9MaUFZa2tqNDdUZmRUblRpT0k2SEo4YlQxaVhtZE1VUEh5dUhVUzljMnV0b2Y1SjE1enIyQUxOWnljZ29FdUxfS0RXTGNoX2x2aQ?oc=5",
+        "date": "2026-07-14T14:18",
+        "source": "MIT Sloan Management Review Middle East",
+        "category": "その他"
+      },
+      {
+        "title": "Saudi Arabia Targets Stronghold of Houthi Leader After Missile and Drone Attacks",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUXplcExDRTR5Q0Q3bjNFWUlPSXB0YUY2ZV9CVWxaMXpoWGhSdk1wTTRPQ1REeFBRRFkwQmJOd3lSMlZXa2oxQkpGd2dRMndjODEtRmViaTZac2lsYnUyOGxSWUZtRk9IZVA2dDVwNnVtbGY2MVNfNjlZUnAzczVfZ3ZrYXVDWWx6RThuM2NQZkYwdTJoS3FUQzdVVWRoNVJvQXZrZk41ZkxZZw?oc=5",
+        "date": "2026-07-14T14:07",
+        "source": "The Media Line",
+        "category": "その他"
+      },
+      {
+        "title": "Saudi Arabia grants amnesty to almost 2,000 detained Ethiopians",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1TNmhtRUxXTkM4Q0M4bUo5Q3Z0VkVoT09HYWNDZzBmZDEtV3hFVU9QS1MwMUdQdnpuVWVZNC0yZ0ZfVW5XMHNkUkkxM1JoVjdZVnB2ZW1YQVBnME5DM1dpT0RrczZyVVI4cEhRVnp0REItOEt3bWx1QzNqOGp1Zw?oc=5",
+        "date": "2026-07-14T13:01",
+        "source": "Middle East Eye",
+        "category": "その他"
+      },
+      {
+        "title": "In major escalation, Yemen’s Houthis target Saudi Arabia’s Abha airport",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZUxDWDVUY0kyZzFRQnI1UFBoSDRXc0IyNG1oaG1ndmlzalNxR1ZXck91RnpRcENocmx2UlhXQk00YklCUzVNQVJteUFscnFibWZHbHFvclprMVU3Z0ZTT0Zxc0ZKYnpXaHEzVjZvcVRoTEJLOUMyM3lyWnUxV01pSEtJZDBRV05JVVpmaTZzazRNTU1td3ZJeVF3Q0RHeVhD0gGmAUFVX3lxTE1waFN5emhjWWFSS1NKRlFnUXZtU2pUb0FDRzUtOXRvZ3hpczZlMmN6a1UzbGhpX1BYYkZSOTZMc1hDdlM5bHozaWE0ZHc1a2FQSGFaVnVuY1MteGN3SDdJek5NZi1ORE5va2JMUEVLYWtnU3VFUTBYZTRwT1FxRXJfbTJJZENvTnVCWlFmb3RFNmlNc2V6VXg2M05sV2VzSGpyOW1tNkE?oc=5",
+        "date": "2026-07-14T10:22",
+        "source": "The Times of Israel",
+        "category": "その他"
+      },
       {
         "title": "Is Hormuz open? Trump's toll threat intensifies rush to bypass the Strait altogether",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNTFHeTVFMFAzbU50NmFpalJsQ3Y1dlVfVk4tYnBPS0pVbmlyT1pVRnJiOHJ1X2hQQ3hJQWRIQTBBVll5V3NNU2FCMW43X2d2VTJzRGNfd25yelRJRVFtaGVKSzFwaTJTMmJnSGNIWVY5YWNodWdoSDhNejZ1UFBvVk93WdIBiAFBVV95cUxOM0FvMjNmUl9RS2NlVnlTbXkxYlVFR3JRbWdzTEVtQ2l1YlJVU2QtRk1ROGNNSGpqRVJlZkhGMnZ2S1llQTBOR2VFRm5WV3pQS1d4SDhqbHEybzlBWEFMcGxzQVlBcFVTSXkxbHFWcllOclliZENtUlVZM09oVXNrSkJtUVp3eFAy?oc=5",
@@ -134,73 +183,59 @@
         "category": "その他"
       },
       {
+        "title": "Houthis launch missiles at Saudi Arabia, in retaliation for Sanaa airport strikes",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHVidHFxaE9tdnZCWnhpVlktYmFfN1IxelB4QnExMEIycmNuaU1xcDdiMGJBTVFwekpkcFM3TFd4ZTNCc2FpeDNpMjBzNi1hckJzUVhaWkFBUUp3eTFCbjd0bFV1VjZOZHBxT2JuX1V4bWplZmNLaE1fbVBYbTRRdmMwemJKZnNrODFaVkZmUnF6Zl96OXBDc3d0cWNQelJuaW91YlZRUXVFamFz?oc=5",
+        "date": "2026-07-14T08:17",
+        "source": "France 24",
+        "category": "その他"
+      },
+      {
         "title": "America Extends Its Lead Over Russia and Saudi Arabia in Oil Output",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRDZVR3E0MEpDRERrWUVTNTAtYUhoU2trc3U5amt4UzN5c29zbGxsSjFNOWwzOWcwTTBUSm5pTXBtZklSYzlVQm1nQkRzbW1OYi1fZFRDRWJYdGVHSUItWl85SGNXQ2VyVTRHdEtCYzhjZVhBTW5zc0ttNjJtRVI4QnVlNkR1dkhvQllFWmNFaDA3Q0NJR25DdzlwdHUtQTJmUnR2eXVXMnJTRElDYUlB0gG0AUFVX3lxTE5hSmpsQTNzRzdxdkRTT0JaRl9LcE1tZVVyM0JQaHhjNzJXa2RlT2xYTVBFejRMWkFHcDdzaEdRLVlCM2h1NW5OVjlycVQ1OVROemZhbUlfSmpVczZ3SE9lakdJYzIxeEdUaWtmRWFMVWJkQ05MZnpWOTREVGd0MGVOamhxT0p4aFA0X2wtNHhVWG15Y2Yta3c4MmxhVEpOd09QaF9qU0FCRFJKdklHUkRJU2JYNQ?oc=5",
         "date": "2026-07-13T22:00",
         "source": "Crude Oil Prices Today | OilPrice.com",
         "category": "その他"
-      },
-      {
-        "title": "Business executives making 'contingency plans' for UAE-Saudi Arabia feud",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbVFtLTJ5dHgwQUJ0MW9DSDhLanN4NFZ3R1hSQ1hmakpVSTBTa2RtekJLN09iVTJ5WUxROXp4VzBXY3hWRTczbFNWZWJMSklLX2NSQkZsMF9OZ2dkN1FlU1BWWkllZFNGa0hDWVZySncyV0E5MmhPMW9WYy1iSWtaSVh6cjZuMEJhUnlEV1YzMTNVeXVNMUlNSXVVOU54N0NFSzlz?oc=5",
-        "date": "2026-07-13T20:04",
-        "source": "Middle East Eye",
-        "category": "その他"
-      },
-      {
-        "title": "Houthis fire at Saudi Arabia after attack on Yemeni airport, Saudi officials say",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNajI5RE51bDV0eXZHcEJwOW1rbjc4R09MTmdWQkhVRnRuVXh5c3oyUllsRVU2YkFDeng3dkk3dVE0SzU2X1VKNmFqOHNpNldwVmhqS0FjMVowWnFHZUJFQ3hwMFdJTWp5SDFEMmNmdkkxLVotTXczZGh5ejRNREhuMHRxMjMtMUpUb3dISnFNMnQ1Qnc4N3ZnVlF0dnVaYm9GWUhFcUZUWjRkWms5SXM3M2pPclJYWHhBNnZkZVFxT0Npbmc?oc=5",
-        "date": "2026-07-13T17:37",
-        "source": "The Times of Israel",
-        "category": "その他"
-      },
-      {
-        "title": "Iran-backed Houthis accuse Saudi Arabia of striking Yemen's international airport",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUmdiM1dzSDFOc1dkLVRvYnBkcUN4aFJYQ3FuTjdOODRsVGdVU1luR0kxU3ZhZkhmT1VKQnlMUWtkVXY2SHlHSktZRmticUYxRkhGU0JEUXlzTTF3d2RScDZEczBXdW01NG1JeVVxekVKZ09sVlA0NG5qakR3N1pHbDdTbkZRU0V0SjhxRkZGQUFTOUJWNmFucENYSGJWZU1HN2VubzBJVUh3R0Z4ZDRKZkp4a2R3SEpUb2F5eHY0ZlBMMWNwNlc2RVNxWQ?oc=5",
-        "date": "2026-07-13T17:37",
-        "source": "The Washington Post",
-        "category": "その他"
-      },
-      {
-        "title": "Houthis fire missiles at Saudi Arabia, reportedly intercepted by air defenses",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDWTdVdnREMDJhblU4ZGUweGFDd0ZYNEVuZU5mNDVoZF9ISXh3X1Z2emRZWGdrclU1ZGNrQ3Jjc3Y3aW9kamhzcUJqcjlKZmF6VGpiUmJBV05yWXVo?oc=5",
-        "date": "2026-07-13T17:27",
-        "source": "The Jerusalem Post",
-        "category": "その他"
-      },
-      {
-        "title": "Conflict Over Iranian Planes Imperils Yemen’s Fragile Peace",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeU1aYkhtQXBvbE9lYVYxclNqWk5wemR0VVhHUUtVU1NkQzN3ZTdabGZVZ2NVNmF5Q21Db195Q0ZDRGl1VUl0ZTN0LUE0RzdkMFhudEVISmpueWxjQ3ZobTlVUkZPRjFIZXppSEoxdzNQUkM3QllTSWF5TXZoeXZoMHlyUWhHZ1ZHLWF0WmdUUHRNZE5UakUw?oc=5",
-        "date": "2026-07-13T17:17",
-        "source": "The New York Times",
-        "category": "その他"
-      },
-      {
-        "title": "Games Done Quick Abruptly Canceled SNK Stream Due To Ties With Saudi Arabia",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ1hqS0s1RndNOUFxMEdKUVYyQ1FPRGtqX2hoMVJWNktVOW9NLVJxYWhKcm9JWl80ZHNXTVpWT1Z6cFFiY2VqVDgzOVAyWWE5R3h6ekpod2xWR2NRQnNPbE1VbGRjX19ua2ZNcThRb2ZCZnNRVVhEUF9EYnBZX1dxRUhpNEctUEZUTzdpenhYTzRRcHE5MFhSR2Vrb2dYYm4xekU5YWwyM0xGX0JPNlE?oc=5",
-        "date": "2026-07-13T16:14",
-        "source": "Engadget",
-        "category": "その他"
-      },
-      {
-        "title": "F-16 pilot awarded Distinguished Flying Cross for bravery in Saudi Arabia deployment",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSGpKMzBfeDVSY1JDUTZHVjliekp5bjFhRHBrZ3pTbzRiWXRISTdkRVVrWFk2MmRuNGpEQzk0WmFFUEJwQk91elNGQlYwY1I4R3I4OGJIYWR4ZGhTLTk4T3dZNEhMdmRRZTNaMXlPbFl6dnNFanhVcEViUEdFU1lES0l4TXlQYW1WSkpkUUN5OWVvM2dtSVdKM1NPRzhSOER3ZXVsZG1LQjdDYlA1UmFKR3o2NjRfb3BUTFVFUVdiaWtBT3FKYVZsbkpfV280cWR2a2hOdkVpYTlydlhrX2c?oc=5",
-        "date": "2026-07-13T15:53",
-        "source": "Military Times",
-        "category": "その他"
-      },
-      {
-        "title": "Saudi Arabian airstrikes hit Sanaa International Airport, Iran-backed Houthi rebels in Yemen say",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQa2FTVTBCeVNPaUs3eFhvbW5aM3JuMjIwUkh1SVo2aUx6TDVuLVVUVTY4YTdEaXh0NnRHUDczWkxmNml4ek5Dd3YtZE1MZG8zLUlsNEdwamhvUDM2N0RYZ21GaUlVVzhvY1B2bGo3NXFxMF9FOFZZU0lhZGtudE94WU5JQUd0TGtmYjdieldsS2tDSXhwRnlvVHdnbE1LVF84TmwwTnM0bw?oc=5",
-        "date": "2026-07-13T15:03",
-        "source": "NBC News",
-        "category": "その他"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-07-14T14:52:08.138322+03:00",
+    "lastUpdated": "2026-07-14T20:03:56.008310+03:00",
     "items": [
+      {
+        "title": "السعودية تدشن أكبر نافورة راقصة",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9RSC1ESVBnY1E3R2xyaVdRREtVV1pzRFN1OVcwLUJYLWdCcmFzOGExZWFlcFkwekE5LUNhQ0MtQndlS0laTXB0eFd5b05Rb293cGo4aGZBS19ZWUp00gFiQVVfeXFMTl9SdG1hWEVrMG5Ecnl6WUh4eTdJTnNHYVVfcDFUT3M2ZV9UcVhyMkpueHNYZUlGa3ZUTHIxeVYtZ3Y0X3l2SzlOMkZ0Z0N5Q1BaYkdBRFNKemp6TWdydDBDcWc?oc=5",
+        "date": "2026-07-14T16:08",
+        "source": "BBC",
+        "category": "その他"
+      },
+      {
+        "title": "وزارة الخارجية: المملكة تدين وتستنكر استهداف عددٍ من المراكز الحدودية الكويتية ومنصة حفر بحرية وقنصليتها في البصرة وناقلتي نفط إماراتيتين واستمرار إيران في استهداف الأردن والبحرين وقطر",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBhV0VLSDIzSlhIQlJ3U1U2dG85R2R2WEhFcEp0VW9CTzBFSE84NnZXb2R0YW15VzNKcTJoU0c4UXNjdEYxNzNr?oc=5",
+        "date": "2026-07-14T15:39",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "その他"
+      },
+      {
+        "title": "5 تغيرات في ملكية كبار الملاك في سوق الاسهم السعودية.. تعرف على التفاصيل",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNNGdEemIyazNreHF2WmlNdVNCdUZneEhBazdQYm5XNlpSU1ZYRXgtSnhLNERJeFl2OG9tcDdvTzh0RU9WNlFxZ3lyVFhVVTlGR2o5cGtTSWlDQllQZV9YNndpVVJKUUd3eUo1QS1uNEJRdGFScFR1YjBlX0hNdGEwZU5aTDVsUGt5bEZKTW91OGJRNWNKdk5FVm0xaUlzc2FYTE0zM1ZXSEV5THVla3R2SjdSenlSUDVjb1B5bV8zSldqeFpjZkRzSVhvTVA3eTRSUms0bndabWFQMFUtT3pEdXJfbURsejZlVlE?oc=5",
+        "date": "2026-07-14T15:06",
+        "source": "صحيفة مال",
+        "category": "その他"
+      },
+      {
+        "title": "برئاسة ولي العهد.. مجلس الوزراء يؤكد رفض السلوك الإيراني المزعزع للاستقرار",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBIM0o4a3RKRHNfQ2pENXNfM0tHT1hsVzlEdjc0SmE3Yng2Ynp1ZkNZYU1vUnRoUHhPUF80aWdyTVJ2Sl9MMjY0?oc=5",
+        "date": "2026-07-14T13:45",
+        "source": "جريدة الرياض",
+        "category": "その他"
+      },
+      {
+        "title": "السعودية تقر نظام إيرادات الدولة وتدين هجمات إيران على السفن",
+        "url": "https://news.google.com/rss/articles/CBMihARBVV95cUxQTkxKU25YUnA3V0FqMG5HcEg0cGhHTUpGTXNROXA5LWMxTDhjTlZqSVdpcUtaZGt6RjhMbzg0YjVScDcwLXh1XzRVOHZRU2ZfQjRDQnpKZ010MmZtcGhqUnJGYTVlMWpaX01LVHMtLXk2SDVXNWVhcW5zNjVWMUl5S1BUY0Jvd2hGVHFLUzRrcjhtWk54eExaUTFSR3VDUnJSUGU4S1pEblZEdS1WMWMzZ3JvZERnSWtUMmp5UExzUVNDWjQxbGhTZUlhNl92MzVEb3VRYXVVZHA5WGJocUZIUVNNLWlKMzNfanpLYlZXVE53VndacWtlMFVKNFdKVG5nUzVGSy1QVlFLVXdLTEFpM0RNU0N2VkJmcUlXV1pZWHluVmRKaGxHTXJDdDAwZTM2V2ZLajBaVndZcFFlNmYtaVRJMzRiQnJOS29TVHJZOEYyQS1qTVB4QW55OHFocVpqb3Z6bzJ5NFBObHFGMmR6WEh2T1hVaVo2VG4wdURCRVo3bjhQQ1dPZkgxM2FNR2RUZkZ5bHU1VjE0c29vaC0yWTZidFdWSXFzcXFWNTYzMjZpZlB0MlBfRFZQSUVYUndjQlZ2RUJlSkhNcWloMlBkd2NNT0c2Tm9RWVZ1R1I1djluY1FKMEJXX0txT3FNWS1kaDlfWjZsSkdiNFNydmpuS01Yam8?oc=5",
+        "date": "2026-07-14T12:34",
+        "source": "العربية",
+        "category": "その他"
+      },
       {
         "title": "البحرين تدين الاعتداءات الحوثية على المنطقة الجنوبية بالمملكة العربية السعودية",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5QXzlkdlhQUHRId2phS0pSUExrd3RPcnFMdUp0a2dBYUVwel8xNjFTU1F5TWFDWHNHUC1va1hhcWFVRHN2cEZF?oc=5",
@@ -216,65 +251,30 @@
         "category": "その他"
       },
       {
+        "title": "كيف تعيد السعودية ضبط المعادلة مع الحوثيين من إدارة الأزمة إلى تنويع قواعد الردع؟",
+        "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPaUpXRVJvbm9sZmVqRzRXZnprcnlRQ1ZqdVFOcnRoX0owem00RjQ4Ym9vRkxOb3FWWHl4bXRsd3ZMVWEyMVFHRVlfUkxsTndFam4yUjY3dXJMeU9fYl8wcG10ZmVackU3WmtRb194Z0hieEdEclZZZUllN18tc2Q3ZG94TkJQVEZITDhWeElYcjBmd2JzUjhBaTRYVFIwRTBYa3JWWkpDR1h6QTVVeGVtQXFyVUNEMU1CdjlzM2Z0RElCeVc0VlhQTWF1VE52UWotemprN2ZNT21MTjRkcGt5UldDWEdZTWM4UFdGbzN4YUdrUE1rX1NSZDVxbTU4S2s2N3RFZFZ0ZHhuUTRFS1NNYUIwMWZTV29EbmFqUkhRNERqQVg5dmN1N2x3MzdXa2JFclM2MjlDV0tCS05USFNn0gHEAkFVX3lxTE5taVM3RkFBYUdnWnBPRTRGUk1odkxwR3Y0VE11VGFaNzN0RnhDanRRZXY5QU5DOVRvSktoSl94SllYc2pFeWJsM3lKenFDUWxLZjR3ZHR1YTNlR1cyT0tVUWItZ2NQU0xqcU9oLTlncUZpZy1NOUVUTUhPVjBvcXhoT3NTZTBqY0hWVXZXYVJ3ZXlqcERWTC02QjBYTlA4dVdsYTAtZXR4VEFCU1c3OGRUbGZMSU1zcEMycThZS1J5SERyMTZ3MUU1TUNjbWs3MzE5Z0lnY1pTZUNfTHcyWkFEVmVLRnpYZUZBbVdfZ1RScHgxWTFkY09icXZhLUtzZUJUN0sxYUM0RUE5QXVlUGhUdWFOMGdDd1E0a185TTYyeHM3bzlKMk9rbkxuWHktUVctUjhmRVNfOXpKM2VPcFBQWWpSbQ?oc=5",
+        "date": "2026-07-14T10:50",
+        "source": "الجزيرة نت",
+        "category": "その他"
+      },
+      {
+        "title": "سهم \"العقارية السعودية\" يسجل أكبر وتيرة ارتفاع يومية في شهرين",
+        "url": "https://news.google.com/rss/articles/CBMiigRBVV95cUxNNU5UZ0Vsb3J1ZDFwWE9Mc2laaHhhM01VVlpxUDVFdmNHUmdNc3cwdXkxelptZjFST0FYOGllSWNHQ1ZFWUZIQzNTUFg4SlNHZmpMMFRDNEFVeHlHV0pmRm9mZ3lKbjZ4el9hb2kxREdvTmxmaXVFQ2RpTGxNSUY4Q29lYVU0YlBhOTdjNVBXNTVlT1JZbTBGQmRzVVdrSXZGZ0R0WEcwVWt3VXlFRlRZNmFTdW00R0diSmxoMHgzTU1FWUYwN1prcHFsd192TTVNcmRPbUU2aVp4S0tLSXh4VUlac2w1UDhFbnVTMzZXSWpKUmk0Y3NyY0JZZVpvRlFpSlZjVUdaMk16d19hMHYyYi1nMHdTWndFN0N2dEcyVVM2TmNxemRtRU5sWnpIVFRjZ0paLWZQWFRwaGRGc0JZYXFVRzE5Vnk1VUVxdmpSOWlzaHljSVpKd3lSTWZJcjVPVjFYUWxGTzVhbFZ3OC1DR2RVZm9FMERndkIwQ3RmaEFQQzNGMHk5ZUhBeTM0ajNxaXZ5WWJMbDNGUFMwemIzZzB4X19kYXlHMTdFSjZjcERpd2xEaGEyeG1jTHpMeVJKdUphcFVzZXJ3ODFMTFJNakkzVW05RURjbzlYcDhyVktGSl9LN2dqZGdNQWw5NDZwMmJDb0pVTkZwb1pENnJhY0xIU2Ztam1iSUHSAY8EQVVfeXFMTU5MZW4xY0pfV1otbnQ2eWVmb25YbjdxNnVPOEVXM1ZEZmp4LVAwNElFM3hlWmpuOVlfNHoxbUJNRjEwaHlQdUFhUmp3YnRzZHhyZGh3X0EwaVNXU1FJN0l1Znc5VEFFYnhuanU4dTJJSGREc1J6MFFqaXNndy0wNV9PbjVMbFoza2JsdU01MDRPSmpIdmtXN1o3RVNhV3hxc3dNNllkeXAzREFvTXFUdGpkMkVZTHNUUmdOdmtVaTJtNmVKdUNBMWoyYXlWcU5FZTB4Vmw2R0VULXBreGNmQW9UVFJlczVMSUM4TGFfNi0wZ2ZaaHFsMGt3TFlQcW8tQjVydFRqOFF0cnpEQTJVaW0zT3FYSU82OElqb2oxS1hTYkpKcXFtdWlFTmJDM3dFU1VFSG5yckFYNE5VanJHU2pBbzFQcDkzZ3lvUUlUMV92MjZMVzdpT3R1M2RfcGM0VWQ5V0J5bXRBX3VlYVNUVUgwZXhzV0tLQlUzZmplR2s1RjFQWDlPS0R6SXNBWnpDNmNrSUFSSUJfTVNXRklkNUwzdmkxN2MzVHJ5WklhRUduNklVRFprc3dRMjNfcGhob2c1X2JwVUctUlNNY1dCcG1PYlktVWRzSnhhVDk3VDdvcXFvZG9wMk40WXZZVC1VdDFOdU9SNDhHSmxHWXNtbEJmdWgwMGI5R2hMdlhqbXc?oc=5",
+        "date": "2026-07-14T10:37",
+        "source": "العربية",
+        "category": "その他"
+      },
+      {
         "title": "بينها السعودية والإمارات.. ترامب: أريد استرداد \"تكاليف الحماية\" من دول خليجية",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZEdYNGpacW1CcXIzendXWGFocVdGQzFqdTYyeVNFN25LNG8wQnR2ckdNRHNFUzFRVWRsQVU0cE1GV3BOTVV1SnpLNzJVTkFCYW5tZzFyc0oydnVNRWxaaElJNU00aFlnMTcwNHEzSmtjRFpMaXI5a0JRTmxxZmFVbkFod1FHUndjMmpQVzlvSXl4eXVvbnVVT1hxOGlzdHF2WUNYMjk3cUNtYklkQ1Z4RGVqdVVPQmJma3FSM0hrejVOSlFHMlE?oc=5",
         "date": "2026-07-14T09:38",
         "source": "Euronews.com",
         "category": "その他"
-      },
-      {
-        "title": "\"أريد تعويضًا\".. ترامب: سنسترد تكاليف الحماية من دول خليجية بينها السعودية والإمارات وقطر",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdHZSNlZmQ1EtMldDR0ZkZGpFVWpWUllpaUNHLWFyY1VyRDhwZGRwTmFHTm1oWjJubThkWWZXbl9kYkNrSHdtTWx1RGhEWlkwZVI2ZEFZLVZicHlNbXB5TmllY2pLdmJCeHZiT2ptRldva0VtZDg0ekhFMW8tS3k2OHhsY0hxVnBONzNPVHpYSDNLbFXSAZ4BQVVfeXFMUGhTVDJSQ3M4eXhVMHpXOS1EeTg3Y1hwZXJ6elNObTdsTTE3THZYRVRpS05adUNldnZOcHNPNjVuUmx2UFlYUFpyQlRYeC0zSEUzSEpvcmcyYk1iVklQSTg0OEVuNk1RV2VVWGEtalhJZ1d0YjdUd0M4dThFTzNZMmFHSWxuT1BCbTh4WFBNc2tmQnVjMi0ybXd6R2d2M3c?oc=5",
-        "date": "2026-07-14T06:35",
-        "source": "CNN Arabic",
-        "category": "その他"
-      },
-      {
-        "title": "ترمب يطالب السعودية والإمارات وقطر وإسرائيل بدفع مقابل الحماية",
-        "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxOZVFEc2VSbDlyRzdRazgyLUJDVW5lZzh1eDZZNmIwTGVpaS1DcGhWNnc5OVRzSm5QU2prNElfVGJRdWc4SU1nTkNkNGNBcjNaUUJMNTVyaTMyM2tDWVlUeVFFdTJ1MWF2RmdhWEJzTTBiR2RxckZBQnpKYk5vdlAzelM1dDFURXFfekhsaXVqaVZfY1RSeE5abzRDQzBqT25ReHd6bWVycDltd1A2YXBiWkFMTFpiVGdfUXhicC1TaWUza2R6bkxZRGZaUEM5TGhqU1BYSm5rQ0JwNjdaRlkwakQ1c2JVTGJGRUU0aEx5RC1VNEhIVnVnbzFYcmNwRTc0TU9ESTVfY0tiTHhkWjVGQ0tiQWV5LTA4SG13TXU0ZVEtSUdwbDNja3JQOVFab3B1X3VpMzBJRGFJa3h3RWhEcUNDUnY5TmExb29iTDJySmUyMjVZeWgxQmJQeWJrTU1Wa3VuN1ZRMldqOFZUWkM4XzRKRDh3dy1scFI2WHduZGdqdWVVUThUX2xuMkdIVWs2Mzd4MXlTc2Q2WVQ0S051RUswTkhmVGh5LTVEUm11dVlmZnAzaURIVGpxT2t5SjU3ai1RRDFqOXJwMHdWeFVzU3BLY3BGeVRha0pIRTdvbTRSRTFzd0xqTmN0andDa1hEZUUyMWEzWW1pV1B5OGM0OWVHNllLUXBk?oc=5",
-        "date": "2026-07-14T05:49",
-        "source": "خبرني",
-        "category": "その他"
-      },
-      {
-        "title": "إنفوغراف: السعودية تحافظ على صدارة مؤشر تنمية الاتصالات والتقنية",
-        "url": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxOOHNWXy1iUW1sZEtqaE5BcTBsaE96WkFUVWZIdllKMkpEbTZRTVdHNVYxeEZXNlNxa08xZ2p0MzdwVHVUcmhzeEJrcTE2T1Y4OV9YNG1CYVNLU2oyM1p4NlZNbTJkR0dfWURNa2QtdW9QQU4zV2xBdU5GblB3WnBBWnVkTzIycUJtTkMtck1ZREVHRDZObDBTZG90R0ZEQkwxbkx6RlQ4Zy1CYURiZHdrcXV6bHp5TDJwWGVueUUyTHp0RFRsekxoeVNoTHRYNWNzRHg0S1VWQUR3OUNEZlZVZWF1ZXFJUUdUTlUxaENHY2J2RTBkczdIZWkwVUxZWmQ2cHRhRFdSZnR0ZC0tazNJUGZGdlBTRjRzXzZ2bEFpUnYxbDl1UUpPUjVmTEJoLXB3SFVVVnU5QURJMzQxMlFVVDZQRGVqWDYweVZzbm5ld3JvSXh0bW5aSUFHb1Bad0RmZ09pMjRCMHNBTHNleEdHeVVUZjhHVW5hckZWdHhxTVZSbkhqeGNUUFBVaHhXcl9oaU5OX2VfVGVNOFRMN3RtcDZxb0xWR2h4OXdaRE5MaDlpd1ZHNkEyVktCT1RiT19lR2ZSV1czNUtVY0x2RXpQNS1RMnNwaWVkVXVwX05iZWRidi02Sm1XNkU5aw?oc=5",
-        "date": "2026-07-14T03:06",
-        "source": "الشرق بلومبرغ",
-        "category": "その他"
-      },
-      {
-        "title": "اقتصادي / 117 ألف مقاول مسجّل لدى الهيئة السعودية للمقاولين",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9qamtCNmNyT2VMMm9HbXRCOEo1QjBzcXI0SElWeTlzR1NHQVhFUFRKNVBlcTZBSHVBVzE1d1JxREZvX09xOWc?oc=5",
-        "date": "2026-07-14T00:30",
-        "source": "وكالة الأنباء السعودية",
-        "category": "その他"
-      },
-      {
-        "title": "الحوثيون يستهدفون مطار أبها ويحذّرون من التحليق في أجواء السعودية",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE10cnByYUJ0TENlcEJySkNvdWR4SDhsay1GNWl4OTBPeG9Ba21wdlowXzlyN2NIdGNGTVBHQzhHSFZaVEplakl5MUgyZTZCWkhiUzBuT1RhaW5Wa2hE?oc=5",
-        "date": "2026-07-13T20:40",
-        "source": "BBC",
-        "category": "その他"
-      },
-      {
-        "title": "إدانات عربية وإسلامية ودولية للإرهاب الحوثي ضد السعودية",
-        "url": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxNNTlSc2dlWUpERl9HNEhHQjA0YXZFdVVfOGxFTFc3cTAtbGZGLU1MY1kxM2xXeTU1OWhVVEhUR3ozQTIwdThTNDFhZ2l1OElaZ0VkOTMzcUh6WXdLellzYmR0ei1ULVFYZ3dvMWJZby1fVEJxekdsN2o2dUEyWlZuLUY1ak4zS2RSWnpqaG5hSnVELVJnOWFHX21HSjVWMmJjaTl2MzJDb3dTb2RhXzdBajZrNDVRX3ZKMWFodDdrc0tuMTlEZEdqLWhKZnpzNU9qTzEzYm9JZ3BLdmtPeHl3M3JWUjA2R2RKNEctbHVfQjdNa3I4MVktOUVlM0JSUUtveTBoMlZYSldvT0NRc0hyMTBhUWJTaEswaTV4U0FNTHlucVVzVlp6SjNUeVhHMVdfcTVPaXB2Rkl6YXVWNVgzTHN4Y1NGWDMyb1h3aTBLTmhQRE1XbnNOaFFoSVU1a1NTcExpT0c2ZmsxVWNTU3FUT2xXNjJIN2NMVHlmM1BSanVEWmR0SUZTUk1XQUVQakFjenpyQ3dUejQ0TkZ3Q1pleExqN19aTUlrX1lsTXlJRFhuNTNkbXNkUnlvZWw1THRKZE5lbm5fOUZlM21QUW9rNHQ2ZE85OHd1d01senVmLW1aM1U2dWZtZGd0UTFoeU52WmN3MFFNOWRIZUVJU1lqdDNUd1llNFNoMkVqQVhLakZVOE1rekI0NGdSYXpPVWVlUlBEV3RDQ2d1cHBDTV91MTRzX0FDX1pjVnQ2S0JOLTVDY1lzUldTTURGZ01maWxaT1MzWlA0WmV0R3Y0WVE?oc=5",
-        "date": "2026-07-13T20:36",
-        "source": "الشرق الأوسط",
-        "category": "その他"
-      },
-      {
-        "title": "التميمي لـ«عكاظ»: السعودية دعمت الأمن والتنمية في حضرموت",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54Vl9jYlN3bjhadFYtd3A4WFpkcENQbUhpZDA2SThHXzZ4azNxZGpKY0VBOFF2Rm8xR2p0V0ZJT0lYcjZPLUF5ME9XWWRCRkZqWkHSAVRBVV95cUxQYUVxUHdtTEo3eTdEZkZ2clplVF92QjZQOWxEcUhXMGtIWEJnOUVZajlSWjFaeVlJSi1hbGxYeWJVTUNzTzI4VmxZTzA4UHhIQWRWQkc?oc=5",
-        "date": "2026-07-13T17:43",
-        "source": "عكاظ",
-        "category": "その他"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-07-14T14:52:08.138322+03:00",
+    "lastUpdated": "2026-07-14T20:03:56.008310+03:00",
     "items": [
       {
         "title": "堤麗斗、『7・25』サウジアラビアでプロ第5戦 相手は20戦無敗の強敵「成長した姿を見せられるよう」【ボクシングWBAフェザー級】",
@@ -285,16 +285,30 @@
       },
       {
         "title": "【ボクシング】堤麗斗、７・２５サウジアラビアで２０戦無敗メキシカンと初１０回戦「成長した姿を」",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9ZX2hLeDJyOHRLWEEtSXJsVVJiUjA1bEFkT2FFVWhPd3NDR1J3a0pMNGZqNUVjY3IybEZidVBRdk5rY0txWGZB?oc=5",
+        "date": "2026-07-14T02:05",
+        "source": "スポーツブル",
+        "category": "その他"
+      },
+      {
+        "title": "【ボクシング】堤麗斗、７・２５サウジアラビアで２０戦無敗メキシカンと初１０回戦「成長した姿を」",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZGNqRXhHUXpyU2g3cnRKVVVqX0cwQlVjUUVtMzNJUER2dk5aYkhQekVpYjNBMjdRMG9PQmIzWE1HblJDTHdRMlhLMGozUU11VTFkU2JhdjAwQzFGRE92RkwwcXUyS1pMRnpGcG9XbllpUzBsQV9YU0VmRmFuNUVMSWpKS27SAYoBQVVfeXFMT2RoX1hnMmE1clgzaC1QWVRTbVJpWGlTMlR6Y2hKcmx3TzhaS3FfWFZGdy01SkdBZXRpUkRIWUJFaEtzYnFtbUFKdF9DUkFXNWlyeE04emtxaXN4TWVCLXdnemkzN3d6X1JpQW9vYVVBYjVIbmtYYjVBSGwyLWdEQmF3dlB2dlh4Vkt3?oc=5",
         "date": "2026-07-14T02:05",
         "source": "ｄメニューニュース",
         "category": "その他"
       },
       {
-        "title": "【ボクシング】堤麗斗、７・２５サウジアラビアで２０戦無敗メキシカンと初１０回戦「成長した姿を」",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9ZX2hLeDJyOHRLWEEtSXJsVVJiUjA1bEFkT2FFVWhPd3NDR1J3a0pMNGZqNUVjY3IybEZidVBRdk5rY0txWGZB?oc=5",
-        "date": "2026-07-14T02:05",
-        "source": "スポーツブル",
+        "title": "【ボクシング】堤麗斗、25日にサウジアラビアで無敗のエレーラと初の10回戦　サウジ政府イベント「ジッダ・シーズン」興行で",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSjBITUVxaUlKVFl4bmZ2TXdrZ0V0WWJpcVJlbXhpQU9mYmp5TFdua3RqbGFKSmUwLVZLdVZVUmEwRVJzN3ZSVXdBTXJRajFjSzJmV1ZCS09kVTgtcllKaXVHWl9nMkdOai1sVmNDQmVoMHpTTmpxSzBQTDBaUXk0bm1jUUpaQmxyOG5DNEx2aUFXT3NX0gGKAUFVX3lxTE1XeWxPZjVMOU9scVlhS0QxR2tvTlFUdVNncTAzSjhiaEVKRWRMQVhEV1JMZVpNZDdZSVI5NFdVQUV2UDdLTVhqeDhKQTNHc21COVR3WHZnbmhjaEcycHZoQmVHNTZWQzNaTmJjRDkxcnRjRGFVRTI0Unc3ei1tLTFwVkFDMEkxVVd2QQ?oc=5",
+        "date": "2026-07-13T22:27",
+        "source": "サンスポ",
+        "category": "その他"
+      },
+      {
+        "title": "イランが支援するイエメンの武装組織フーシ派がサウジアラビアの国際空港を攻撃 イエメン暫定政権を支援するサウジアラビアへ報復",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5OU3RKXy1KVWU1Nm1zUjNkYkU3cmtWNXZMaGV0MFVEWWRTZVVHcGQ3X29sc2pRSEk1eTJ3QUl1YnFjUTI5VmNwVWZHcUJuWi0tUHJaV2Z5SQ?oc=5",
+        "date": "2026-07-13T21:10",
+        "source": "TBS NEWS DIG",
         "category": "その他"
       },
       {
@@ -302,6 +316,13 @@
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBrdE5jOVpKU1NsbGRLUkdZeTVMYkp4aHFlMnlJbkxrX1FHMGMxbVhqU1NVYm9ZSzllMUxDdWdFSm1KTS1uanR4Y3QxWWdUS3NiQ0JKWVZBUEc1bmtkdUFtd281Vk81Q2dOLWJrUWljcHJfQ2o1NHIwd0o4Zw?oc=5",
         "date": "2026-07-13T21:10",
         "source": "au Webポータル",
+        "category": "その他"
+      },
+      {
+        "title": "イランが支援するイエメンの武装組織フーシ派がサウジアラビアの国際空港を攻撃 イエメン暫定政権を支援するサウジアラビアへ報復（TBS NEWS DIG Powered by JNN）",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wd2hreEdxUURQWjdzSTg0VElrUk9ybnQyUGhFTjlsVmlxekZXZTRZLWhvME52ZXRrVVc5S1pvdDNUaUpENEJYaHZuQnRYdGxqdk9XcWxXdGpINk9EbUFISURJbnJzS2pQaE8zSjR6T0JuaGk3bnBsZkFfdkgyNk0?oc=5",
+        "date": "2026-07-13T21:09",
+        "source": "Yahoo!ニュース",
         "category": "その他"
       },
       {
@@ -323,27 +344,6 @@
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KUEJ6QXpLYUNqNlI5dEpXdHBfVGJSNURKc3FJTFJZWHZGQXVMSTdRS1VUUHBPUzdSNEZjWDZiQWwxN291Mkh1bEV5SEtjLWJf?oc=5",
         "date": "2026-07-13T11:00",
         "source": "Mitsubishi Heavy Industries, Ltd.",
-        "category": "その他"
-      },
-      {
-        "title": "男子U18日本代表が白星スタート サウジアラビアにストレート勝利【男子U18アジア選手権】（バレーボールキング）",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90MTRmZzJWUEF5YTh1c1JPMDdaSGhuaEFIQ0M3eG9HSzBERHRJV0JhSjF4dHhHUW1EZE9VejFiYnkxd0ZqNFhTck5Ld2V2Um1XbWNRVVZqRXQwdU92SVJpQjFJT3FQTEZBSU1WdUQ3dmxsN2pwRnM0S0hwTHhCX2s?oc=5",
-        "date": "2026-07-13T09:44",
-        "source": "Yahoo!ニュース",
-        "category": "その他"
-      },
-      {
-        "title": "男子U18アジア選手権の予選R初戦、日本がサウジアラビアにストレート勝利！ (バレーボールキング)",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMUw4a2s3M2U2cmpNNmlMbTlOaXFtR3pyOUMtRTQ1ZDBJTWNJekhRU29BMDRYRm9Ob282TTRDTFBLTWZKLUxhaVlEN2JDc01ibV83UHpqSUl4ZzhVUTN0OWJIbHpUd3NhbVNhZU84aTVaWWQySzBEQ2xqV3J0SWhvX1p4Uzl5LUNlTHZSRlF3?oc=5",
-        "date": "2026-07-13T09:44",
-        "source": "Yahoo!ニュース",
-        "category": "その他"
-      },
-      {
-        "title": "サウジアラビアで抹茶が人気 | 地域・分析レポート - 海外ビジネス情報",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56VFh4WTdTeE0xVG9vamRqVktnTU5hem1HcGMwQ1hXSzFkYW53ck0xOVF5SFc5NV9qSnVZVzEyblJ4cHhsWXlDYmpiS2dtNzY3Qm85MVNrQ2NCWHdyYjVOTjNSQTV6NXhNWVM1WXZ1UWozTmlH?oc=5",
-        "date": "2026-07-13T05:29",
-        "source": "jetro.go.jp",
         "category": "その他"
       }
     ]
