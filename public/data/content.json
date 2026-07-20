@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-07-19T19:45:59.910232+03:00",
+  "lastCollected": "2026-07-20T15:30:26.356712+03:00",
   "security": {
-    "lastUpdated": "2026-07-19T19:45:59.910232+03:00",
+    "lastUpdated": "2026-07-20T15:30:26.356712+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-07-19T19:45:59.910232+03:00",
+    "lastUpdated": "2026-07-20T15:30:26.356712+03:00",
     "items": [
       {
         "title": "大使館現地職員募集（営繕）2026年7月30日（木曜日）まで",
@@ -124,13 +124,62 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-07-19T19:45:59.910232+03:00",
+    "lastUpdated": "2026-07-20T15:30:26.356712+03:00",
     "items": [
       {
-        "title": "US strikes Iran after American troops killed in Jordan",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSGx2cW15RkxnSjdfTzEtZV9ydGctRGRLeGlNQ0JsYS1RVTNVSkxfdkM5WHl5LVhWMXk5SnFMbFpxN0VPMC13Vm1OemdWLTBUcE5NM203REVhYzFUQWhTMzBNRVRUM2pmckNkbUZGMXpJaEpYdGJqTy1wNjVnbllHZmdaOVI?oc=5",
-        "date": "2026-07-19T09:13",
-        "source": "Financial Times",
+        "title": "Houthis announce maritime ban on Saudi Arabia, citing blockade of Yemen",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUVNmdjVYYXc4ZVM1SkJQc0U5OVBLR2ZnVHBtd3pfTWpQdWk2NnF0Y3ZZeFVGQnFsMUNTRVhMdmhwY2JoQkhfRE1PdktnY0prRGcxUHBaY0NCRnVyTWZQWkFKdmMxRVNYLWkyc2NXVTA2TFlVaWd3S3EtLWNEdUxENVQySXM5eFFDQl9WdVAtMUZVbW5XU1cwQWp2TzdGTWc0S3VKWU5GYXoxME1ZRlh3N05kTTd2MVY2MkVz?oc=5",
+        "date": "2026-07-20T12:26",
+        "source": "thenationalnews.com",
+        "category": "その他"
+      },
+      {
+        "title": "Yemen's Houthis announce a maritime embargo against Saudi Arabia",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWHdlNzlYMjRYMXJDSV8zQ3VMeTVIRWg2ME5mUXBCNnNNbjNHZFlZcWowSE5rUlE3LUpuSS0yeGp6b1dpdy1qZVNxeUY1V2hENVBjWjkxVngwVkxNcGhodkJVNkhiS0k4azBXUHNseWc3OXFodldFRGhWdHlZWHFpUlFfZmk?oc=5",
+        "date": "2026-07-20T12:21",
+        "source": "Newsday",
+        "category": "その他"
+      },
+      {
+        "title": "Houthis declare naval blockade on Saudi Arabia",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11SUpCSXJNOTBQY0doQ25WcWs0dEhydWRNMzJEVXI2SDd0Zm1zSVRHT2t5NzZ3d3dHUFdGWUFRbHNiRkJrem53N0hvQU95OFk5dC1aNWk0cFM0cDlB?oc=5",
+        "date": "2026-07-20T12:17",
+        "source": "The Jerusalem Post",
+        "category": "その他"
+      },
+      {
+        "title": "Yemen's Houthis declare naval blockade against Saudi Arabia - statement",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcUowRTU0M2hEUzRtdXAxY1FENjh0OWdXcEJlb2h4VlpBOVdGM2YzZ1BQSVhLMFQwOXhRN01aQ1poMVd5TTNRUHBZbV9jNWZRaGFaejU2ckpkNW5HUlZSdlJXWU5GNTlFU0NFUU9DYkJ1LXVFNHZBanlSemdrb3M1Vm80azBhNlRmTGRWbjQ2dEtkQVNfbTVNMUVReDIwYXB6aDNjN0pReHQ5S1BBUFl1NUc4Z1VyVHB4MWNnQ09JZw?oc=5",
+        "date": "2026-07-20T12:15",
+        "source": "Reuters",
+        "category": "その他"
+      },
+      {
+        "title": "Moroccan and Saudi World Cups draw human rights concerns",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ0JGVWhZOVlQdm5hamVjTjFzeGltbnpMMG02eGxfYUl3a0gwU21UZzlYblUxbDcwY3FwN1F0ckZYZjV5QjBrMHlkLVVuOWtYa2VlT0U1UWdYcDYyYWFLNGlIdEZNNzM3TW9ia0RrQW9xTkhoRW93QnJudFc0QTFPSDZITkt4TmRYZWphek5yU1h2N0M4TXVqdnlYa1NDMG9nWUlnVkN5UUpOUWlWdnc?oc=5",
+        "date": "2026-07-20T03:37",
+        "source": "Politico",
+        "category": "その他"
+      },
+      {
+        "title": "Saudi Arabia May Receive US Terms for Developing Nuclear Weapons",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWE9laWNqVVUzV2F2SHdIZUtyNlRkYUpiOGpCcUt6WkVvdDVvejlCd1c5YTBzU3Q2cVM4S19UWU5PdVJzNE5VcUM0Z3RzYVZ6N0djYjFYWDNWeXU1TGRCdGJZRXE5cGxKYWRxSmtwT0JuaVpXYkktemdHVWU3amhWOVprTDBrSlZna1c3TUFueEVYYlpKaW1kM21QMzI?oc=5",
+        "date": "2026-07-19T17:37",
+        "source": "Мілітарний",
+        "category": "その他"
+      },
+      {
+        "title": "White House Ready To Authorize Saudi Arabia To Enrich Uranium - Report",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUTZENXU1cUQxc2YycDJXTXk3cHJER2Zka1o2aDBGR2tnMHpaS21yNEVLOWlsUmpjWlU4QWlhSENqU3BvMEhIaXlMNkpnUG1wS1pHMEQ1dERGMVBlbGVKTS1sZk9xSmVXMzg1TkxtYlU3bnFreFk1MHE3TnF5VVVKSU50XzJpUm05S2RIcC0wVm9KUjE1Ry03OXQyMUJRZDR2bENBVWhCS0NFRmVXUWZJSVJ5UWRBQzJ6eEE?oc=5",
+        "date": "2026-07-19T12:57",
+        "source": "i24NEWS",
+        "category": "その他"
+      },
+      {
+        "title": "Why Trump’s Saudi Arabia nuclear deal is raising proliferation concerns",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeGhHcC1QQXN3X3RMZzM1NWdHMXg0bVdBeWF5Q1dOU3NBUi1ELW9TVGkzM3pGRXl5RGNza3poNy1abWhqaHRkNDg0d0puRkU1TmF2enpObkdjZE9paDNIQllPd2RZTEZLZnlPZ3hrUVM2bnNKX3VwODNoMVVwbTJYR0dvLXdiQWNwWUhKNXk3U0swUnZnNl95TWlMVEpLRG01SG9VVzNEQlJiOGNMUjBWc09CbVVaOGV6eUt6Zks0QnBsNXQxc1JoVHVXcC1MQXZSREIyTlZLUlXSAd8BQVVfeXFMTlhJcEU0SG43anhoM0lzVjdycXhMVURtdUpFOXk5TTVCSXMyRk0tRFNuYl9jX2lOd0R2WHlVb2dVQWFBVXIzOU1nWGVIdWVZN1k3czEwVTNkMkhzcENOX0lFNGE1akN6TkZpM1pOOVVBRXVGeWk3YUNESWpRNndvNTJUcmo4cWtEdVVPUjFJbkMwcEFaSW5TSUNtUWpUUlZqS19sajlXeFNMNVItczczckMydEF2eDFwTzJ0OXIzbWR6UlNncl9RbWs4anBJYUdRaml2TVpEU0RBQ1lUcTBYMA?oc=5",
+        "date": "2026-07-19T05:10",
+        "source": "The Indian Express",
         "category": "その他"
       },
       {
@@ -146,61 +195,68 @@
         "date": "2026-07-18T17:04",
         "source": "Arab News",
         "category": "その他"
-      },
-      {
-        "title": "Nuclear deal that would permit uranium enrichment by Saudi Arabia in limbo awaiting Trump admin sign-off",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOWJwOE8wVWVqSmRGYU5zbjUyaFNwMUNPVUdac2ZSdzZrV2pQb2lXMGZZTmxfLXhIdUhDclFUUHRhbVR2YmYwYUlJQ185TzBLSVVwN1ZaRWdpbzlLZ1J5eGE1bnBzWkhjYWZBVE1xc1pGaldlUTVwS3RrVkJBcEVKdENKLUpjSXN6?oc=5",
-        "date": "2026-07-18T10:30",
-        "source": "CNN",
-        "category": "その他"
-      },
-      {
-        "title": "Nuclear deal that would permit uranium enrichment by Saudi Arabia in limbo awaiting Trump admin sign off",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSEUyUDBEWlZYZEFTSERsQ1NkSjF4LUpIbjRRSk9xbFlHTlMwSGwzZUhTTlBUanRhUEV5TThaSnNEbGRZVjhlOVlPWVU4d0VIbGoyN1V4dlhyQlJfMUxUWlJsdEctMjRkUXdqYkdETnh4dFFtXzh6MWlWaEkyQmdLMjFSaw?oc=5",
-        "date": "2026-07-18T10:30",
-        "source": "CNN",
-        "category": "その他"
-      },
-      {
-        "title": "Iran fires ballistic missile at US base in Saudi Arabia: Report",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa1ZpSFpVOHFWVUpURzZnaVhFV1VlSEozMWlFN0tBckhKcDRGSzR0RVgwcmJBYlp6a21NR1Y1RTRDVE9HWG5oWExrQ3NVX1VBeWFXY1pfdTRNZlVtRW1ZOHBndm1ncG5TWTFTdmJVNDVyYkJDX3NMMXAtYXZIZWhQSFJjVUJteDhMX094OFkxRkliZjhoWFg1MW5hT0swa1RsaDRnb2ZCN2FvWEE?oc=5",
-        "date": "2026-07-18T00:21",
-        "source": "Anadolu Ajansı",
-        "category": "その他"
-      },
-      {
-        "title": "Saudi Arabia gives the all clear after warning of 'potential danger' amid reported Iranian missile attack",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTERlVk9SSkRwTGVBeElwTkd1c3E0WjVlb19XVF9vWlhxQUZOSnU4VEJCaFV4QnI1WGd1Vm41LTE0RHhlb0ZicHJQdGdnS2lBT2hKUXhtVGtSTDVpWUxueUpUVzFtX2NrQ19UMzNIQkVILUw4SjhWOFJnYXZXWHJaWE9BZzdXQUZHZFZ3eGVhTlZpbjZ3azdkYUtlbnloblZDMTB2bFBzNnRYb2t5WGZFTkw4MzN5eXVTNk55U0VpUjh5cTRwR3RFTXd3cFpUaWM?oc=5",
-        "date": "2026-07-17T23:18",
-        "source": "The Times of Israel",
-        "category": "その他"
-      },
-      {
-        "title": "Saudi Arabia welcomes introduction of regular commercial flights between Amman and Sanaa",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zVXV1aUdSdzA0Y0F2RE5maTJfQXRONTl0eVFRMGZ0VVZKVGdGeE1HVkFEcUlUVm45d1VwMXQxVW1meFFzSGVKeDU3RGI0ZUZnT2lLaWI2MFlUZHF6NC1z?oc=5",
-        "date": "2026-07-17T22:27",
-        "source": "Arab News",
-        "category": "その他"
-      },
-      {
-        "title": "The Threat to Saudi Arabia’s Main Oil-Export Route Is Growing",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMTY5UVEtSk5VNDBPVENQVEVMU011R3k4TUxjU1l5c01wOXpnVzJWTWlUd0VHQ0JsQnZxM3RhN0gzbE40MDdKWE03QktiQm5ldnVIQlFCTFNJUTVYTmRwZFFUTEJKeHNYZmFFOW1tMEdXam5aN2VsbmZUMEh0aUNGQ0o2SHNvVzd6N3NaVkctbTRubXlRRnViSF9BSUdjd0Q4T05QZzBIcHJmWXc?oc=5",
-        "date": "2026-07-17T17:12",
-        "source": "WSJ",
-        "category": "その他"
-      },
-      {
-        "title": "Saudi Arabia To Buy 20,000 “Drone Swatters” in $1.96B Deal; Could Arm Its F-15s, Typhoons with APKWS II Rockets",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZkFtQnh0UURldS1uaFFqUDJUUFA4bm43Tldwb1BRUlZCT3ZMX0VnTE9RbE94d05LU1E2NVdVcWFEbFRySjctV04xX2wtYXhPazIyNTVqdllzQ1NMY3RKWGU5bjV4TzlUVFVSX3FBSGxfa3NRZWR1b2EtMFBxMU1tYWhHYlVrTzVFSDZmTFBOX0JMdjlBNXVyTmt6NE4zeHpKdGJ3ZnlTZWdXQ3ZLNldXUGx5M2FTMjJyQktBX043S1BrZWRjV0ZBZGJGMFFnVm15Y2fSAdIBQVVfeXFMUGZBbUJ4dFFEZXUtbmhRalAyVFBQOG5uN05XcG9QUVJWQk92TF9FZ0xPUWxPeHdOS1NRNjVXVXFhRGxUcko3LVdOMV9sLWF4T2syMjU1anZZc0NTTGN0SlhlOW41eE85VFRVUl9xQUhsX2tzUWVkdW9hLTBQcTFNbWFoR2JVa081RUg2ZkxQTl9CTHY5QTV1ck5rejROM3h6SnRid2Z5U2VnV0N2SzZXV1BseTNhUzIyckJLQV9ON0tQa2VkY1dGQWRiRjBRZ1ZteWNn?oc=5",
-        "date": "2026-07-17T03:08",
-        "source": "EurAsian Times",
-        "category": "その他"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-07-19T19:45:59.910232+03:00",
+    "lastUpdated": "2026-07-20T15:30:26.356712+03:00",
     "items": [
+      {
+        "title": "«التجارة» السعودية أول جهة حكومية تُدشّن منظومة «إنفيديا بي 300» عبر سحابة «هيوماين»",
+        "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxPQnhkZGd0MDhjVGxaTGh4VHJrd1BybWdLdUZLR0hSOWsyNVI4T1lRNGNvREVUNUg5dC1jbjNOR3dlclN5akc5ZTRnYnZTNl9sb3pTbFd0YVp4bHlVR2h0V3B2cjRPMkthV1pxcmpHT0FiMDV1bFZVMnpsZTNvNXdXTndOTm1nVlFBeHRQSmh3S0VZVm5GWUVpTkdqeE1CQ0pzRHVjWk52c3NhUVY0MWZlNGxnUUdiemhKcmw5ZFJnMDlvZVZEamxSS2pOYXlYZkptaHNidzdUYURBZHFvUW9CdmNSR2hHU194eldqWXdBUmJES0k3OEMweWZJMXdQTGllVkphZE95RXlZTTZTRkwzWlFJeXBYRTczY1NlejBPd1NhenV4NE5qZS1tRkJxVVAtYWhXTFh1R3pXSVFEOXVEZ1lMQkw5N0FORlNLMTYtTFZqRjZtb1AwVmR1UHZpdGJMYWtFSGFSaVltZjk2Z3dmQU5ySlJnVzg0Qk00S01lb05kQjM0aXptWXhwc0ZsMnJDRE1xZVg1TFhzRlN0MHByUFowenB1U2dBZVRBQk9mUVg3dXQxZ1ZacWVYV0pJVlZ1Y0tpYnB2SWtQd29tcDFja1dvR2NkLVVXeklBUmxFd1BPWF9YZVU5bWUyenZMeVFuY3pwUWVjX3c3WDhjRTNHXy0ta19XZ0FQVlgzMGJGcFpmN3gwUUhxVTFLRWkyWjdmQmdoeWpGSXk3SXJlbE5DMXQtNTMzVHBUOXluNHFpSC1OXzc3YVBEZjlpMkkyak56NGptU1VVZmxBQjVGaDFlWnVOMGFXckRNVGZSSTBOakRtRkRMS3loUjNUWG5kazdXY3NpbHktX0pMbS04VUE?oc=5",
+        "date": "2026-07-20T12:13",
+        "source": "الشرق الأوسط",
+        "category": "その他"
+      },
+      {
+        "title": "السعودية للاستثمار الجريء تستثمر في صندوق سدرة الثاني للاستثمار الجريء",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1BMlpxZ0RwbEh6T3dneGl5RzFYYy04aVF0cWVicnFDcEhVZGllMzF6dlo5RzVvM04zOUhuZkd3ZDNXRWxMdWRR?oc=5",
+        "date": "2026-07-20T11:31",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "その他"
+      },
+      {
+        "title": "\"الأول كابيتال\": البنوك السعودية تتنافس على استقطاب الأموال",
+        "url": "https://news.google.com/rss/articles/CBMiggRBVV95cUxOblA2ZXZXbnA1bElwbGEwbXo0U0V2T2FtRXpPRmdEQ0NrTmFfalhXeER2TmZpa0FfWVU4RGFqc3dfX00xMWh4b0V5eXNRTDFHc1lUck1wRWtFdFNaUS1ETFZCOGJ2b19QcEc2bjlJT0xHTjU5MzBoWS0xN21ZRklmdnBJNDM5Z3dlRldJZFJaRjdUbWlaSU1SSDV3UUN4Zm9rbmE0OUNjc01OZlM1dXQ3cnN0dVRESXp3cG1JUV9NVmFsalg1UXJCT0FGNWRyTzZIYmF2bkxQOEJzaGh1OTRyRVZqU0xtZW00aXRfNkdFNHp5U0RJdkgzSl8tSlRyS21idjZURFlpY3JTeENDajNtMkdqa1I1NUl3aGZwYUFFUW1CZW16MUt5RmNEcGRLNGg1MkJIanFoRjFPUl84MExRX1p5S3JOcEx4UWRmc0tQVjJ2bWFhcVhCMEYtZHJjVkwzVFhvMWp6YnV6NmFycGVvYWxrR1gwelFtdnhNTlZqUEZqMHUxVEs0SjdPOG1EVUxIN0xhenRyeWhCM25GWkIwcnVuV0JMeFVMRi1NMTVyUGV3SUVKdWd3T2hwcnZnZHRnMWxpYzVQWEZwS2xPOURHMVJmcUtYR05qNFlJa3VIc09paF9mNEtTbUd2dS1vSTJVXzRKeUtObUg1Vnl5YWhTNUdn0gGHBEFVX3lxTE9wVTZNS0FmUzdyLXUtRTljbE16YVIwVnBnNElyWmZUSF81MGxFTnE4OUR4U0RDalJJSUtyR2I2cHoxRzM1TTZiU09Pa1hFOXVYWnNVVEJiblRLekxBdVJZUi10SWpqZ25PNFNmSGNTRFByUWVFV2VDbW1Ob0E1a1lMVUo0N0tOSkVDX2VvQUpnR3dZczZKWUdNRVB3ZXJvMVBsdFFEZHF5WXhMQjI0SGtVX1JmcXJnMHJBU00yMEVMblBhVWhnQkVtbk5xY0tPX2RRSlJLcG1yTkNqb2tkdnJMN0xna0RTbE1Mc2F6MXBQNzQ2aENkWHlxZk9BaFdKRVVGbWFjd05mVTdtcEp4aEtKbFJVRW81RTRJeWJUSW1iN296LWFoeW9fVFEzVW94bXlqRTZRNXdzdTBBcGVXQ204bnNtZ0MwbEh6ZzNUaVFNRGp6dFNLWUZzMWJPMWVYZlVSVlNqTEFkNklmX0c3SWl2OFBjaV90YzIybkVkYVlZeV9waUNUN1pHam8zR0ZtSHRlbTRNZ3JoNjBLY3NkaWI1QmthNWZad3NTVXEtajJsTXh2ajY1ZlNSOTg1b2kyTUlzb3dSX0hrMDh6RHJaSkFkbElkZnYxY0dpU2VnT1RrSVdtbjAxWG9xZnY3cEl0dE5fS1Foc25FMk5GY0hHNTJFcGtXTndiaw?oc=5",
+        "date": "2026-07-20T11:22",
+        "source": "العربية",
+        "category": "その他"
+      },
+      {
+        "title": "تأشيرة سعودية للعمرة تمنح زيارات تراكمية 90 يوماً",
+        "url": "https://news.google.com/rss/articles/CBMiuwNBVV95cUxPel8wem9xRmpZX2YwSFVBcHRZMnU3c2dIS244d0NYc3o4RXVzNWk3SVZDVHYzWDNtVlNjbmZQdlNnQTE2bEkyY2xPTFlYUjFLMm0wa2x0bmtrZURMWENXbmFrTmR0QmpVejZGQVRmWjJQRmF2REo2QzZWZUtvSXRuVi0yOHZfREJFcWRUcjlURFN4Z25oaTMtUzFldlBPTDhmSnF2d3dqZnJEQlZ4dS1PNlJuVHlldXJfcUF2UTlnWXJPMlFNcTNJWHMwWm9qY09jTkdNYXFTQU1rVmxsaUZmQlNMR2lUZDRSXzQ1NDNJNHlER0plLTQ2dUxPRDNFd2x4eFp4aDByTFk1aFltUUNVdXdHLUNqMjR2TUkwUXN1NElKVFVkZWhKbDJaZjhEMmpFaWdHeWJTaGZ6SDBYVUZ1OTJEdndsMkRJWFlwaGh5emtoOUFjWDkxRDN0ZEI0UU8tdWpqR0kwbVhPazJicS1RTGRCYXY3NUxzS2Q2aGZHQThwWVpNaHhHMno2TG1HOWFkYndCM0pfV1JJelQzQkJzWWEtQVdFOFplOGhwaU5HczVwajFnOUxHX3Rzcw?oc=5",
+        "date": "2026-07-20T10:50",
+        "source": "الشرق بلومبرغ",
+        "category": "その他"
+      },
+      {
+        "title": "السعودية تطلق تأشيرة عمرة متعددة الدخول وإقامة 90 يوماً",
+        "url": "https://news.google.com/rss/articles/CBMi6wRBVV95cUxPWXREOU9VSUxDd3BSZE1vSGI4VjZlM2xPYXpEQWlxcDdUY2s4OTdUbnBVT0phRWxOSUo5d3pDbjJGa0U5b2VYT1JkbnpvRGdTMGd3UzMyUmJsRUE1OEdPaEdIaGtaX2NUeUthblBGcTRNdlFmX2pYbUxhWmJERVdJWjB6ZmMzdjBtMU04YjBhU0JKeTBfbkROU3RZN3Vrc0JBRVhaSmUxYVhiUlh6MmNMMV9Fb1dtcUROa3NsOFNTWURrbUlOWXRvZlF1Sk9ZdzJPTFd2NzZjdERzaTdFRkhraEE2MkhQVnJhd1NtTWg0X0w5SEtIQzJzODlFR1VfWnNNdjZkS2RkSi1FX2pfQnIxd2hKb05HMGpQX1ZCOHZOZnZ0TUFIUDhkQUFGZjBvYjdYaFpoQ1ExWWUwR3ZPQTdmajl6dnRrWWJlMXdDNkI2WnAyVnF2akdLYXgtTkdoblBsSzVjSS04M3pxTG1rd1ozUWd5OTE3SDVPcTdEMURxVXJDSFVHRHlrazVCdGxQdjNCWW83cTJac0ZEY0hZRms4SVJvWlRnSjhQTmNYbkc5ZTJjWWNvRm1QaE1CX2VtN3cwelRkN2R0TE1lTDVrd3UyS2JCMnBsQm9DRjRKZ0M2RGVjUDdvWkNxb3JCT2FBc2xWbTZ6ODh6RE1xQ2l2TkQtUjZVWXhkdS1kc01kTFJEVURfRXRvbzhyVGpGb1ljZG5oQ0Y2Z0R2VEhRRHozN1VDTnFwWjM3M2hDQUsyTFlFanEtMHYwYi1Xb3BwaUF1RHQzdDF1czYzLWZFT2dEd1poTHhKa2xCd053RVdz0gHwBEFVX3lxTE5keHBRSndZTURjQTVyVk1BdVF5VHJLaW5hWmNUSWt3TWFEcjNNTE9tOEtmV1pTbEQzdmxIcTl5ejlwbkRwc2hPRWFMYjNVbVFqTmsySjRTZm9NN1JSNE1zTjEtQUlhaUtZSlNxaXoyMHN3T2tZc3JtRm1QTmJhU0hqQTJSUGx6MDdqdEtsa1N0T21BN2RQOV9HOEVTOUFiVTdId1dkTGdxazFrUFJKWFBWWUZsLXlCVV9ISHY1RExQYUdqRXF4aE1CcFU1dDJUbGpBQzZEald2a1NvUjJEVmZVTU1NM1VkNmhFVDdUZVlZV0VIQzZNeFAxbjFQN1kxRkhITjRLbHVnYzRnUGZ5M1BSRHdoeENHUFVvSzQ0NENrM2RyMDV1MVVzR1k5X1VyOXBKUS02MmFCRjdpN0VTeTYzOWliUXIxbUJuX0g4a2ZvT1o3RU0wRG51MkRqdmVBenlNNlpGVDFpbGRUSHJ1UGxEWDhCSUY5VFZ6N0VRdEM1OWg2TktRY1V2a3RZNC1UU012bGsxMnh2dzVuWG10cERFUTdXLUQ1YzM1cGpCYU93UXNCSVIydDBOU2pNcm91S3RUOUpGbk1mMlJTMDNaREItbGdDVDFRWVdUVnc5OG5yUjFKVi15TXAyMUJGWUhlTmpPNTdCZFBGUFliWEsyZUVvY3pRMXZmTi15aHo0aEJ5bUJfc01ENE1sSTB1ckg1eEM2WXpicE10QzNNSE1VOEsyZzZrS243WE13eEdWd0FybTNGMWRGTlNBMzFUcXV2NXFPTFNyT3hrRmtTLXV3QW9tV0x2VUpOVXl6YXhiZXV0SA?oc=5",
+        "date": "2026-07-20T08:51",
+        "source": "العربية",
+        "category": "その他"
+      },
+      {
+        "title": "45.2 %.. ارتفاع تبني «الذكاء الاصطناعي» بين مستخدمي الإنترنت في السعودية",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBOLU1tdEh6Mlp6RlR1blQxaHA0OHVpWUVSNkFuOGdFZnZuRlVXTkQ4UnlyRUg2elB3bjJwcVpPVGNaY2IyR21jT2NqdWVCNjI3bnfSAVRBVV95cUxNRDhkYUNUYUxIWmdqeVVrYW5CRE1QOS1VX1FmSEpkczBVNWVGemJaZXJhUnEyejhLRVNMV1BpMTM2Y2RRMWp0QnI3U2s5YkFnVTBaVjc?oc=5",
+        "date": "2026-07-19T23:28",
+        "source": "عكاظ",
+        "category": "その他"
+      },
+      {
+        "title": "مصادر \"العربية.نت\": السعودية تبدأ إصدار تأشيرات العمرة المتعددة",
+        "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxPWlRuV0hIaWxvZFFTVHB5TnFpOEZMS3dDaURtelprYkhfSy15bnJSZWozZW1hajZFSElFSTVFYjRmQzdXSnFPMzFXRGkzdDFINHJWcGNnVkZ2SDRVVFJwMzE5Njg0VzE5TkVWNDRKS1k1eXpuVGFVZGNfVjRfYjVYbnlJd0xtYk43RUN5dWN4RXUyMy1GTnhnU2JWN0VBMndaWmc3VWk5ZkJhUW9aZ0cxOGhkcl91d3EtOVVWRm5sTVI0c01wRE1NdF81XzJ6SXN0bmUzMG5fanJzMWlUSU9Ud2dyZTd5bHVyWnF3czVNRVcwRl9jaU9rT2l2ZFMtaDQ3RWU5QmxjSDFCWFdrUE9fbDVmOWFUZTRxdUwyQzNSVEE5UzVTUEl4Uk9qVkpJSUlNMWljRUx2RWV3NGFXOWl0Y19PNl9pUVJUTUVySWc2QmxQejNlazFzeExhaW5yRUxMWXFHRndfS2tlOWx6MGZmS0E4d2x6ajVHMnhXYlB4WW51M1ctalVEWVJFc1ppeDdPSFY5ekpxdldJTFZ0WWlpOVFsRXlvY2s2a2Jyajlza29zTHlUM0NPa1M5R2JjV1pOdEN0cDdnYUYzeENhY1VFeWRzY1R6b2Yyc3hOYVBnRlZ5b00xN2pjcm9DVkdxV1R1cmFyZXM0dmdmUWR1Qll2YnpXOGYweWVj0gGOBEFVX3lxTE0taHhjeHljeGhqRkVzNVR2bUlDVDE3ak9WQnRsTFo4Y0hCNWE0dGlOS3o3STJMenlYaExlaHRKLVZROVFQcGpuQ05VR1pNUXZ4REFsNTVic09McTlldFhnRVJORGFBc3dqRUhSRTlVcm52SkRYdFRPQ2JKdklvMjc5d2F3VmJzSHI2bWJ1R0dheTNOTnUteVh0OWhTbXVCQjYzNWc0NWthRDVheExZZnlCd2xCRWhsWmk0NzVscUpTYjBKanhGVllTcXgxYkRmS3d4Qkw2Nk41RjA4MUt3YmFfZy1IcnVDU0pkeTBOMDJORzJ5azBmUzVCZS1KUkxLUm1GSzdyV0YyWlNqSUFOOF9tXzUzc2FDYjZ5Qk1na0ZaWVk0dzl4NFNuUkZfZlNXdDdVb18xWE5CQV9CYldaTTF2ekV3S2tOZ3JWVEJSeDFlXzZfd3lfZzNkODZwd0VwTDRtNHotZ1ZTWldwaEVRSkZuTTdvdERKbllnczhQZkpYMXdRR291QmM4RU5PRHRjcG9nNndUNzRDYVljV0l3bV92aDlMNndUQUpvU2xwdlk2QlFXU3hER3JCSzRvSXI0b254X1BPWnR5dS1fb0JKZ05mMGRVTGhsSjUxTUVObng4OVlRRU4wSHFLSm1maDlpYjFwdU42dWR6MG1IX1R6YUo0bTFQQnQ5VlRvc29UbGc?oc=5",
+        "date": "2026-07-19T21:35",
+        "source": "العربية",
+        "category": "その他"
+      },
+      {
+        "title": "السعودية ترسم مستقبل زراعة الخلايا الجذعية عالمياً",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1NcUZNWC1rWThJckNzeWxONFhqYmZTTXVaeDRORzV6S2FOVW9Eamd1QjBJVFpOOEVBNG1vSG5ELVhNSEhjREhvX1cxOExoT1MzUVZ4NFBJcEhoWUNE0gFUQVVfeXFMTzU4Y1k4VnpzbERwNnVSd29STmZ5QVo4NVVCSnlENjlaQ3VoVjlaZWtweElGXzlzdVlBQkpOUEN6OFFpVXJYWFVnY3lCUHBNT3FkcW92?oc=5",
+        "date": "2026-07-19T21:03",
+        "source": "عكاظ",
+        "category": "その他"
+      },
       {
         "title": "الجمعية الملكية للوقاية من الحوادث تمنح اللجنة المحلية لكأس آسيا السعودية 2027 الجائزة الذهبية لعام 2026",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE50RkhTOHotcF9wMUE2ZWRkOTRza3pLNzgxd2xGV282YWpROXA1bm44YXJBMklLNWVfVHNrTk1pcGxOSEVleXZF?oc=5",
@@ -214,68 +270,47 @@
         "date": "2026-07-19T13:55",
         "source": "صحيفة سبق الإلكترونية",
         "category": "その他"
-      },
-      {
-        "title": "رئيس «الهيئة الدولية لمراكز البيانات»: السعودية تقود سباق الذكاء الاصطناعي",
-        "url": "https://news.google.com/rss/articles/CBMi_gRBVV95cUxOYTRFYjJVQ01ka2c1b2VyclkyNTYzN3kxWWQ4ZmpoMGVMVE9nQ1VWZUZqbktrdC1lT1pkSkpNUWpZT3pJZTBBb2NvVGR3RXZmWkI2YktWVlhhaGtSWGdFbzY5LWxxZERlTmo3bUlPWW9ncFY4UVNsQ2hobHlKUGdOZHhpRTlMTU50LU9ISUFGRWNJbVFNVkpqLVFwSXlYaUdTUWhncElBbnJBUTF4OWhEaDdjcGVWUVZIWk1aYlFiVzR2ejJFUVRQeTQ5TUYxNmJjdFphNnJXbkhvaXUyaGJmYjU4RHVBMzdIMHJlbl82dHllWnZ2cUgtTVFjMDRlQV90RC16ZnZLT3U2ZVZ5MC1iZjdkTVROdkNrLW1iWXQ5djNOTzlnSEg3alZCSUVSMEFJV3NCNVZHRzlOT1pUZHRrXzgwODBGNVNKZzN1ZWwyYkxBOUVtNWlEU0VYdGR6ZDZWZm9BLU8tSy1relc1SWlIVUxDa2Y5bnZDdXlkd01FTzljNmxObHludWY3QzI0UFhKZVVfN0J3bV9KV3JqbHcyelRNV0E5bFJIWURQT0VWX2hicDRtXzF0Yk9mVm9qWHlmeVgtQ1o3YVRKLXZmZXBCVzVZOFluZllqdU9JZ3FJZlRZdG12UzFQMXNBOFBMY1dzdW1kSEtpNXptZlBELTZBUFA4ejZzNndzaTVuWk1jSDlyTUR0OEx2MnU3N3M2R05XTXl3SmNGQ3htZTZCcXAxUm5PYWRNa2VoNTVwWnNuMnVHWUhXWEZzQkVzSy16ZlhtWTRKSjBLdXV2T2lPM1JhdVVMTDVXVWhfOGczX3R3U0VZQ0VLUV9LVFpFTGxVZw?oc=5",
-        "date": "2026-07-19T13:48",
-        "source": "الشرق الأوسط",
-        "category": "その他"
-      },
-      {
-        "title": "\"قيمة كابيتال\": القطاعات القيادية تدعم تماسك السوق السعودية رغم التوترات الجيوسياسية",
-        "url": "https://news.google.com/rss/articles/CBMitgVBVV95cUxOY0pPVmR5MXRMQ0piajFMWnBZM0kxcFFFVllKREZFZjV6MDdRSDRNV01IT3VQVXFfZnYwSWRoRC1IOEIyU00tNlRaSExGX05Wamo3Ykt6MWxGWXI0TndYYlVtbVhJNjZvTUt4Sm42NTVEY3piWWsybWc5aGh4cDhUZWI0SnhWS2xxRUVES2dXdzBUdDV1ODdVNWw2a1ZQOEZfRXIySlJyc1YwR3h4MjhqZmtJODdZRFVGOUhxVmo3dzFwZTctUnRQek1uS011dFZVOFVlTlo1NU9HcERQNDBsSGpfQ1BWNzhfNzBmSU1Ia1d3TmlXLXk0VjZFdGRodndDSFFzQU9EX2g5Q2NJS3BHRFR2YjVRLTdFUS0zZG1ydGh2RDA4aVhpN011OExfZnk0X3pTUGItSmFsS3Vqdm5oTzY0NDlTY0VzM3YzRFpZS1MxRW5NMmN5alV4NmtLUzQyWkU4d2RaOHhYMG1kX0ZDM2lfTGt6a0IzQVNSZDB5WW9rYWhhN3ZVTVVQWjRLR0VwbkJzTmFpWlBHTXVYN3k4R3JWMGYtOHkxYUlhN3FkZFlUS2NYeVNqbTQwUm1MeTU4MHhJT2VHamFOZC1oQUd0VFNSR0pJUVp6X0RCTUpOcHR5a3g0dHJVT1pCaFROWE1yMnRHWEI2OExlbzY4MmhxbzRxRG02dDNkX3dfTko0RVZmejF4RjNNdUFwZnc5TEpuWUQzT21LQTZ0NWJJWHp6Sm8tQ2l2MnJMMXdpYWFCbzJkR2VfTzJNVWhTc0R2dDRBVE0zcjRUNXVYRTBUSmVEQWJjb0x5TXJjMS1IczJXejVGQnExQmxDSHU5bFMxdXpkdTY2T0hZdzNpY2JFUFZsYjFJYnkwdW01bUxnM0xhcHp4MngzY3Y1Z0QtcURBUm1Qd1JKRnZ30gG7BUFVX3lxTE5USGZ3MzJFcHZwYlFQR29Ka1VGOW5nZ2J1T2p3Y1ZVVXVIZzd3MmEtaFlTZmM2N0FfU212bzNJSXlJdnBpTzdJQmRLUlRFZ29zX3BNcGNhZW1IMUFqVWEyaG12bjlsUlNTVEw1eEtMZXJiY1ZuamtJTktab3VCaGU1aVRFYTBQR2ZxLW11c2NCYkUxUUJOWkRscW1ONDhjSFBGVDFMSHpfekN3OE95RENiOTVSUmR1UmJQbnBIWlFEWEdjVzJndkhCWXpvQnJpSDZBQkVWUmVxUFBCc2ZXZXFSaFBva2p5Um5OMDMwUlFqRTA0SC04dWRzRUdPX0tmUlYtd2c2TXhmMW1ZTlBfWHRBdnBSY214bDhISlhZWDdlWWZqY0lBUW92UTdfeU5ZVDJKejVDREtYc0VvUWlGZ0Rvc0o4Y1FnXzgyX0NGSmZab0hwbkJtdU9jaFNjRWlSdERwbTlIRlE3OExWUS1VRENHcVRFZDRPSzFycVZaSXF5eDR3ZVpPWEJvRDBRcDg4aVlTVUVFMnFUdzJrQXVPTFhJcDdhSnZVUy1XLWkta0ZHU0pTUG9SMnhrYzd6X3J1SUE5cUxfakFPcjJEN3lBS1d2dXVIN2MwU3VRTmVaV0ZZdGtVNk5hOV94YzlYb1JFWnNqWkRVZUJjRzdCbC1QckhZNDA4eDI4QjI0UHdIbHlxZVpubzhqMmJzcFpiSWMxTVA4cVcyS2pkMGlOeEc0OFFJT25kM195bVdvOVJHS3FsNUF4UkFlVjZIR1RzY1NUeHhpd0JkZVBsZ0JRdkpGcEIzX1JFbzhCajIzMm56RUJpdFRrOGdkcUNqMHpGSjNjcG1LUmp3VDdUUlBwUlFacG1PTGdSTFNuRnZuQy15cWlRSHBuRjNiUHN0MFBtcC1KMUpIMWxNejRwM1l2RQ?oc=5",
-        "date": "2026-07-19T13:46",
-        "source": "العربية",
-        "category": "その他"
-      },
-      {
-        "title": "TECNO تعلن قرب إطلاق سلسلة POVA 8 في السعودية بالتعاون مع بندريتا رحلة بدأت قبل عامين... وتُتوّج اليوم بهاتف ألعاب صُمم خصيصًا للاعبين السعوديين",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE11MUYybnpoX3FSbVlNaDF3VzA0aVZqSDI2bW9UVmtmbXdUbG5WSTBOZk5QZndWM21hYzZJVTcyNk1MaFFVR2hz?oc=5",
-        "date": "2026-07-19T12:33",
-        "source": "جريدة الرياض",
-        "category": "その他"
-      },
-      {
-        "title": "الذكاء الاصطناعي يعزز نمو الإنترنت في السعودية",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5paXV5YjF2ZUhkSnZDN19KODhaTFVGOU5qM0k5UGFGdTJqdEJ3bWE1eVlvcXV5MmxaM3RQaVptUXh6UW83N1E?oc=5",
-        "date": "2026-07-19T12:24",
-        "source": "جريدة الرياض",
-        "category": "その他"
-      },
-      {
-        "title": "السعودية تواصل دعمها الإغاثي للمحتاجين في تشاد",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BT19sYUZTUWliRHczQ28wT19Sekd6Q0xNU3N2Zk5FdVVlUXY3TzlxbXpVcGFlc1hkT3lIZUxRZDk3VGZXaGV6YTM0aVk4UXVVcGfSAVRBVV95cUxQY2dKemtlc2JBaVVZd1VyTlRzVEx3cmo3SFctU3lDWHRCTTJQTkpiUDAwTVEzUmJKNmx3SGJpN21RSFNiN3ZvSXZDTVVwbDBWeEh2dEc?oc=5",
-        "date": "2026-07-19T11:00",
-        "source": "عكاظ",
-        "category": "その他"
-      },
-      {
-        "title": "التقييمات الجاذبة تدفع الأجانب إلى زيادة ملكياتهم في الأسهم السعودية",
-        "url": "https://news.google.com/rss/articles/CBMi1ARBVV95cUxPZENxSkZsbWFUSHdUS0V3cERaaGZyNHNyMWlvb3Fld0h6ZU1pVmM2b2U0ZWgwSVk5alFIaEpRQnZEY0xYT1hrb1AwZDdVMTNFal9kSE1INW1yZEtkaU1EUXZ3LTI0YWdMc3RDNUo3Y1VBMjJhVnJOeWE5V1RhNkRDdUFZRXZGU0c5WWVUQ01jd3pXdmJndm1yYmdINHBUZDRzVjF0LVVHWVlrMmFjU1QyVFgtb3RFVmtfWFcxTnF0QnkxWVQxTG9za0lfenFXTnB0am1KZkp1dTNza2R3bVlZTzRnckRyZ1NjQ0ZrRDBPYkVJTDFvZEVrU1VxMUtTeUpINU9McnZvVWJaT1daUjliZDZndzdxdEluZkFoYm9EeG5qeGlFYlZkb2g2MWhXdWtqUVFhRFlNbWNTNUhlVHZPMDcyWXk1cFBmYVNmbkNoY2RMUW4takNHUVJlcm8wRG56NWRmU1plYXprRWNLZVFhaThobmF3Y0pxQml0RVUycUJDOEkza3FUUkVWN2xaWDJiUHdYRzIzeFg0eTFyR1psVTB5YV9iaVJqWHo0eHo3a0NjUU9uZjlfMkRtUWh6SFZoOEZndVlxQ3FGSllwbTRFOEk5d1RRVk9Lc2NxeVlGVk5TY1N5VFNBVjl6dDdMWDFpTWluemlkWnVhQVlDZGVOdWp5TmNkWDNXYzFXa2llOHR5TkV3UE1fSDFlQjRuUW1xZlQ2V1pyMXl1VUNiOEFqUUR5OHlkbTFvR2xXVVQ4dnlPN01zQ0tyclNkNzMtcGxTcXhaYdIB2gRBVV95cUxOVkVmV1Rhb0Z6VGw0dUgxSVNBMUZUMUVvZWpMNGVSeXQ5clFpVjBaNEt0OEM5WW9pMGlxN2czdHIwaFowdFBNVmVWWjBYVFo1RVk3RFBETGwyc1c2ZTB4TUFtdUM5a3RDU09yRFFwM19YZ2RhS3oyNmZjWTk0WTdEZ3UzODZmYjBFdUpRN21xSE82LXpuaFlraENJaXc0MC1aY19NNWl1Rk1nU3BIeWo1a3Npam5SbUVDT2dyMHg0VjBaMmJ6a1VHNGtTTHJpSnlNaEwxc1ZIdlFqellFSEtRZEIwMGltMTFsbnhxMTB6S1lvUWlrTlh2ZnhvWWhtVUtUbW04REIyT0dpVGJhUXZDTHJxakJ6RzZaZGJsMjlRbVhER1ZhQ19Wa1pqaDhmbHBsY2VsM0wwbkZyV3NYV1l3cDk5MG5Oc0xGQ2VvSVp3TFVjMkhQQ2JIdnZoaUNBbWh5b21WTm1VQWVoMjJDQ3BjT1U5VUd6Mldmd1dPbjBxMDg5NlZiaVJKeWhtUHdpUExCUXZfUnpXejFKTlNJQmpyRFRPUHhmTzF2R0xQVG5ncl81R3FVYUN6V01pMXJ6dUM3Z0pDRTNiYnFSTkp1ZWJ5VVhVWnpQOUVlc3Vod0sxR09PRFF5STlOWjFIMThtNGF5SXlrM2ZDNW5nN3QzaFc0U24wODlkX3hnemFKQWJ2eGhIVmVZdXZOOWwxYkEzZlcyV2ZMRVFjaFRSWFVWTTQ3VE55TEYzTGVWM2l5MEY0aUdWWlNMOU1Jd21IY19iWWRiMkZpZzh5RUV5UQ?oc=5",
-        "date": "2026-07-19T10:56",
-        "source": "العربية",
-        "category": "その他"
-      },
-      {
-        "title": "صفقتان خاصتان في سوق الأسهم السعودية بـ 6.36 مليون ريال",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQMUxtbTZiSWdIbDdOVi1tU1pZckl4WlRJT2ZkeloxR3pPWUVHaHZsTUdxenkxQ3pWT0Eyb1dQdFRFWUJuaGxQMjFZWHM0cXhEZ1pjT0g0U05fc2ZZM2RNT3BiMnNpak93cms3V0REcWRXZUY0MmVLUEpHbkUxcWNQM2JSbE90MlpPZnV6VlFaUkQ5azJlUDZWSnJzaGdJX0VtR1ZyOXBlbkdSNDZ5ZXVUYkhwQk1acE5CTkFMX09Qam1abk81MXRvVEVkTzI2OG5GcFdIeUxRaUk2bTJYejc5N1VGU3JETXR5ZW1jdnRGMHB1ZzBreG9r?oc=5",
-        "date": "2026-07-19T10:04",
-        "source": "صحيفة مال",
-        "category": "その他"
-      },
-      {
-        "title": "45.2 % من مستخدمي الإنترنت في السعودية يتبنون أدوات الذكاء الاصطناعي",
-        "url": "https://news.google.com/rss/articles/CBMi0wRBVV95cUxQWDNEcklidU9fYnZleWliUVZUV2lxV0hFb0pQOFBNZHhuTERTbkZNZmlrUU9ERWF2LWVSNElaYUpGT2dXaXdSN0paZ2pVM1hocWFINXlSY2hIS3NpRVJ4dGZ2ZmlGNmViSzZGRmxyRi01TXZyRFVXU0RvWlZySlJwMjJOTWIwNm5kWEZEODgxQWlNdndRdi1TdGxNT2NmSXptZmN0dTd5NmlzdDlZb0tTeEZQZjYzTEtMOXNLVV9kOUN1NzdhQzdTVTBsTjNGLU1lWGFsZXFQbGpvemdIeUpZNERKN3JfTFhjV0hiRXVYNHpuSG5YZ0Rpd2ZrUGpkTmZKd2V1VDJVTGtCSWllZ2ZER094cm5DRjk2OG5nbUIwOVRwSlJRck9XTHBYaFJlYmgxLV9kQ2UtcjVSOUpjQ0hXc2QzbVVhSjdwSXhmTE5zMjhoaVJaNWdoSVR2R1l2QUEyUG1yZXZpTS1wd0tpbnQzRXFQUmVVY29NYlYyV1h1QUFLU0plbUhFMHhUbXptY1ZXQVNEQzJjTUg5OWstWjgxT0hiZXlyVGU0TzRQQXdzay1Wai1mLW4xZFNlMVFRQVBEb2dFZnpyS3d1cUNhT1FXMW5BQkZsUWdPZFptbDRudkd4b1F2WnNyUTdMb1NoR3JlVEppS1FfREszR1BpR2pFdXZyTXZ2SUFlN2RGUzdJX2V1S1loYjNZelZ3enFwX0NuRjE1U0l1WW05MmNCN0k2SHNvSzFUQV9yME9TWm1weGZBcC1aU2Ywdzk5OWRJX00tLVRZ?oc=5",
-        "date": "2026-07-19T10:04",
-        "source": "الاقتصادية",
-        "category": "その他"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-07-19T19:45:59.910232+03:00",
+    "lastUpdated": "2026-07-20T15:30:26.356712+03:00",
     "items": [
+      {
+        "title": "フーシ派、サウジアラビアへの海上封鎖を即時宣言 執筆 - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuNVZmdFRFZ3hsWXg5dklCalZQQUlwT3lBb0tiM0x4WHVSV3RwS0hxOHJHcTBNaHhaVjBwT19aNlFCWEZrQnljSmoyNlRJZTA1RUNOMXlIbTRTSDdQZnFZaDhPaDNYaVFDelE?oc=5",
+        "date": "2026-07-20T12:21",
+        "source": "FX | 株式市場 | ファイナンス | 金融ニュース",
+        "category": "その他"
+      },
+      {
+        "title": "41歳C・ロナウドはさすがにフィジカルの限界を迎えたか W杯で見えた厳しい現実「まだサウジアラビアリーグでならプレイ出来るかもしれないが……」｜theWORLD（ザ・ワールド）｜世界のあらゆるスポーツを楽しもう！",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05RHZ1Z0ROcFk4QTRHUDFtWFEydzNfc3pLeEZCc1Y3LTNGVnpGZWNOUzNCQ0tyc2RMaGlFazRKTjNiNkdqeHp4dDBrRFdVanJNdk5YeWF2MDVDNGVjekItOXZ4NmdzdVozdWpBd1VwOXU?oc=5",
+        "date": "2026-07-20T06:49",
+        "source": "theWORLD（ザ・ワールド）",
+        "category": "その他"
+      },
+      {
+        "title": "サウジアラビア皇太子とアウン大統領、レバノンの安定と地域の平和に向けた取り組みについて協議",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuaHllU2h6TFJfc016bmtFdHVRbG94UG8xb1dLd21lcUtoQUZFVWVmQUR1R1kwVmNCSjFoNHpOSmJvbC1SRElWU0VYRng5d05iWHo1U3JnQzU1LUVkT3VxSlhtczEtVXVtdWxVNQ?oc=5",
+        "date": "2026-07-20T03:07",
+        "source": "arabnews.jp",
+        "category": "その他"
+      },
+      {
+        "title": "米国はサウジアラビアに対し、ウラン濃縮を容認する方針なのか？",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUVkzUHJvdk4tdVdaQ0NuX3M2VnpoVkppdENHY2NaZFpvMnQwS2VNR2pWYm1ZLU42eFVQcGkwNHJ4LVRWc0hkb21McURtdWVBZFM2SXdCb0ItTVNtR05FZjVUd2lwcnNZRjBib1duc3dIUEdBRXA1ODJCQk1TSzd3c0tXLU1kdw?oc=5",
+        "date": "2026-07-20T02:13",
+        "source": "Vietnam.vn",
+        "category": "その他"
+      },
+      {
+        "title": "GCC諸国では資金流出が見られる中、外国人投資家はサウジアラビア市場を好んでいる",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94UFJ3cGFBSHV0WnR6ZDJiTUx2NVJVOFpsb250RC0tLUU5U3QxRU1oaXBjb1dxSTNMdndhb2pKSy1PVDRaQklweEJ2THlfaF9MVWgwMDRla0pXZ1NwakpyTHc1ZFRnTXc?oc=5",
+        "date": "2026-07-20T01:07",
+        "source": "arabnews.jp",
+        "category": "その他"
+      },
       {
         "title": "サウジアラビアは、クウェート、バーレーン、ヨルダンに対するイランによる継続的な攻撃を非難",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VU3VvdDBuZHBPVHQ3QzBfU2FJWnBvb1RNYVBjaEo4blBPbjEwVzJsMFl1alpXNDdNV2VZcjFLZmRNamlrQmpFSHlkeWpnbHc0SEIzZDdTdjVpX2pzcUswNFltOU0yRTdCdWRhNw?oc=5",
@@ -309,41 +344,6 @@
         "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTTRJRjlhei0zVzY3cThRbWUtU1FONmRKemRId3VwdDlGYU5HNHR3Y0FaaUcxQnlnaHM1TFRhREtTRjB0OWQ4b1k3V3NzZkxua0pvbnpZQkV2WUNiVnFMOVNGaC1nWHJyeVJvcjAxNHdOdkhmZVc0Q3V4LXV1VFBSQ3Q3bUxJeFpTTXliOHhkdHJoaHlEWm1OSFFyU2tnb1ZqTUdpLWFrWHVBSXN4bndHZ0hhU1JldFMwY2V4ZkNKbDdCYUk0aHZBRFRMZ21Fa2hXU2c3SHNEdU12SlXSAYsBQVVfeXFMTTY0SlRmMjJnUVh2Rml3OTgzejBOZWlVc2lqT1pvbkFsWVJ0Z25fQWdJckNub2VONDlBOWV5X094QTU3bHNTZDAwSmI2NXpyaGNFY0Nza1RVcG12c3lmVG5WeHJGS29NcjlOYUhhbnVtQVFFN2dET3FxWFNiZnFMTGJhZEs2LXlzR1didw?oc=5",
         "date": "2026-07-18T08:18",
         "source": "ｄメニューニュース",
-        "category": "その他"
-      },
-      {
-        "title": "プロ5戦目の舞台となるサウジアラビアへの出発前に取材に応じた堤麗斗（右）。左は兄の駿斗",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPU2dMdHQzcUFXWDhXUVlCQ2ZYRFBFanFOQWlERnRfSWVURzJjbHIzaFRnX3FvQU9yX2FfclEzU2dRNFNwVDAtU3FYU0RqcFE0ZllPMi1QNjFrblRWMnBDQ3I4ckRkeVhNVkNsRFFmME1FaWFfelAtY1R4cmItSTkzeVdPRDdleW9MZnJIRQ?oc=5",
-        "date": "2026-07-18T02:51",
-        "source": "スポニチ Sponichi Annex",
-        "category": "その他"
-      },
-      {
-        "title": "サウジアラビアの強豪クラブが、オナヒとアヤックスの契約を脅かしている。",
-        "url": "https://news.google.com/rss/articles/CBMixgRBVV95cUxOeTdsb25tbmdtVVhHODY2U3FCbzJrTDhDSm1vSUJsSU81a3lRdHB6N2dCNk9aeEJKZXZTcGd4R2JtT2E3TDJ4eU14dWdBUktFRkhMa1RKcUJLRXluMTRuTmtaWU56S2FkZDVubkxYNVVJdzBXWm4wRUlhY05IcDNGV0duMzVxWUJuaHFTd3NSOWwtSmpNYTFfb1d3M3c2T0JCbk1nM3lsVHFtYUxTT0dGenE4TUdYdlZDaUpLc3NEdHl4TEl2TzZOYjEtYS1mUlg4cjVvY3lnSnIySEtlSEFCcGJLcUJlMjBBZVVmMmZLVl85dEFaV2VsMU04eWw1RFRORlRFYlBDdHZLTHlKWmI3cWtuZlNUWWF3NVFvM2RwN0RTVHJjaVhpckJfU3RiQXpDdkEyTkp4QlNLcXc4QzRURTlnOVdtN0J3VkRzTWtxRndMMmRHVGg4T0VtS2dRZUJFWnhFT3l2bFhNVjJqN0xKZ2dURGJVYnJRQlkwWURTTVp3Y1FMX1o4WVRKaG9TTDhhbC1BMkVJWm5mTFByXzVJWExXbktxWXRvUUk3VW1Zd2xPd19xbHQzVWI2MUNKSUR1b0YxWjltSW5sMXpYNi1rMWtpM21QQlY3Vm9iS3NMdXduLVJTeDlYcHAxWlNvRnRFN085YXMzV29vUFRyUmlXWThEbERjUkRmRlltRVpMdUt2WUpDOTZXa0VPYmpLdDFqZVpRa0dSOVBvWV84a2R5SzFYOVBjeXUybDBHUlRkYjhnUklLeUE?oc=5",
-        "date": "2026-07-17T16:55",
-        "source": "Goal.com",
-        "category": "その他"
-      },
-      {
-        "title": "サウジアラビアのアーティスト、皇太子の巨大な壁画制作を目指す",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ETkRrR2FRNjUxVy1xc1V1YnRBaDg5SGFORjAtcnU5Q0duSDcxSWIzSE90S2RiNUdUcjU3NjVBX0wwdkxlY1Zkdko3bGZvYlNwY1c0ZWpMdWlWeXBCVXlMbjVXRVhBNjJlcThKUA?oc=5",
-        "date": "2026-07-17T16:24",
-        "source": "arabnews.jp",
-        "category": "その他"
-      },
-      {
-        "title": "プロ5戦目の舞台となるサウジアラビアへの出発前に取材に応じた堤麗斗（右）。左は兄の駿斗",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTEhYODc5b0NjT1ZLZ003WjJZZFhWNFljNXB1WTA1NEk1SUYwREJQcGxBS28tZUlOQU5xUTBSQndKNERrSXNfajM3YXVOU1pxWmFOOWZCV1FYdk9xRUNZTDk4SXN4alVqU0RLMVNVY3hQdERsMGNoTmFETmZQZEJnT3h0Ul9sUHZycGV4YQ?oc=5",
-        "date": "2026-07-17T13:49",
-        "source": "スポニチ Sponichi Annex",
-        "category": "その他"
-      },
-      {
-        "title": "【ボクシング】堤麗斗がサウジアラビア・ジッダでのプロ第5戦へ出発 試合が終わったばかりの兄・駿斗が同行してサポート",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80cmJiSzNuM1NsaTNtdHpjUFNsYV9BNGxieHppcTNLLWpZQldKaEJ1d3BVOTJuVk1HNjMwX0k0TDlfaGRrN1RUYVJhRVNEWFBjbklXYlRscGJYN3JtRzEwQVlXd3FnbVltQTdaUlJZNzhleHMyMGZHZjFHc0NxWkE?oc=5",
-        "date": "2026-07-17T09:08",
-        "source": "Yahoo!ニュース",
         "category": "その他"
       }
     ]
