@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-08-03T20:43:02.615950+03:00",
+  "lastCollected": "2026-08-04T15:24:36.296486+03:00",
   "security": {
-    "lastUpdated": "2026-08-03T20:43:02.615950+03:00",
+    "lastUpdated": "2026-08-04T15:24:36.296486+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-08-03T20:43:02.615950+03:00",
+    "lastUpdated": "2026-08-04T15:24:36.296486+03:00",
     "items": [
       {
         "title": "イエメン・ホーシー派を巡る緊張の高まりに伴う注意喚起",
@@ -78,7 +78,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "社会",
         "is_safety": false
       },
       {
@@ -118,14 +118,42 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988294.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": true
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-08-03T20:43:02.615950+03:00",
+    "lastUpdated": "2026-08-04T15:24:36.296486+03:00",
     "items": [
+      {
+        "title": "サウジアラムコ、中東情勢を受け石油輸出能力の増強を検討",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeVg3ZHh0cFpnUzlfVEc0QkdKTlhET051Unp4R2VNNTVuZVJqRG9aQVZ4anlJd2dfOWxvQndIbXd5Ty02YWNjd245MUl0RW42cWJOVFlLakFJZnBjR2NVT0paejFyQW5sTEFCNk5UT1d5aElXSGxrQzl4eE5MLTFJdkhPcnpIdFFQZElGeTRMTEN2VjFpTDdUWkdiNU1ac2preTA1ZEtMcDAyWWNPVVI4REln?oc=5",
+        "date": "2026-08-04T10:29",
+        "source": "Bloomberg.com",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラムコ、紛争の影響で減速も利益33%増",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdTA1VHhFT0dsUERYQXV2V1FpcHpDT1YwT0RtX01rb1VXVU1VaE1LNnp5N1lhWlhVMVR4RjJ6dFlxbTVGVzlvMW9yU09STHZTRFJoaEFQLUU2Ym5xdnZpWFlJNHI3Y0hZS0I3V3YyYjRwNjFKanpuX1hJclNDNVBqQWhBTTdNaHA5WDNxUFpUdw?oc=5",
+        "date": "2026-08-04T07:31",
+        "source": "The New York Times",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラムコ、第2四半期利益が33%増 イラン情勢で原油供給が逼迫",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03VUhVVTFhQjZFTktvX2ZvVW5CbUo1bHhkZnFLU1lIcDI4a3k1bXJhdUNSSUxTS3hsV2VMbXFSYnczMG1oTlB6bEdsNWpqT2ZPcHJ6UTZoaGNETXFrQThZTUNRSHpyX2t6UngyMmUxdlBBSGZIX1F2TjNKbTM1X0XSAYQBQVVfeXFMTk5IU1Z2cVdaaDNpOWJPTXZDYzdSaEVuU1hIRDRNTU1uSkdNRHp2YXlNNmxzWUlhRWFSbm9YcUo1U2hhUElhWUVxYlhHak13RzVVOEVWOUhuUkJRQzJVVzAtSTNPejFIcDJ2RGtjakliRXRzRmg1WHpCM2dYSXdOVWVWOUtt?oc=5",
+        "date": "2026-08-04T05:14",
+        "source": "CNBC",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、トランプ氏との関係悪化で信頼低下が鮮明に",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlQ5UEZKVWdTdGQ2LV9CNmJCX2JRWHBTTUh4WHFVekZuaUhhalhEVlRUSl9aY0Ribmh5b1hzbHlJYXVNRDMwMkpsX2t2V1NhcUM1aFRkUmJEVFFQMEZpR254ZFZiZ3E2RmpaYVFxU2QwX1J2N2RnZW9XYlJCSm0wMDlRd3Q4am0tbmJpVENGcmtpTmNGV3ozNkt3OXkyLUxibzdmYg?oc=5",
+        "date": "2026-08-03T20:30",
+        "source": "The Times",
+        "category": "政治"
+      },
       {
         "title": "米サウジアラビア協力 核兵器保有国増加の懸念",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOW50VVJQSEZObFhUakx3ZHpaVGoyUmRENkdmX0xNU05aaU4xYVRXVUZGVFJ5VGJMRm1lQUR3bF9sVUxkaW81UE92QlRrQ04taTFTVHVkN2lxOUN0QTI0VW9nQnBFWFFVNHJ3WFNBN2RyMTY0VlVsUzlXSFdEQlk4V2ZXSWFDM0tjYlh3dXpTaXRQZ1VDV0tiSU5RNzl3NTdzcmE3ZVF4dFRCaGRPMjFZaTdFWTNBVFZZa1pFZTBNemJrTWpuMkk2allVUnpPU1BCTnfSAd8BQVVfeXFMTUxsTl9XQ3g3dTA1ZFE2WXJkYlNRRUM3em5FSnBxYnBENU1lU1l6WEhvR2JMd1VqcmQ0Q0NpbU5mTW5XQkcwNlBvTEhtQWRyTWFkVGpOQ2NFSUN5eHF4NjI2RWNaV3JsNUJSMTNUVmFYbnFXNXl2WEo3R3JWNV96XzZUWGFDLVhwVFhiRUhyTlBJcGZMU1BNQm5QNk5rYWJIZ2FLajBxZThDQmkxZ0VqTVBQcFBuRVRGZUVfSDFyMnQ2ZWFYRGJXVkZEb1JxOHdDNnJmUzhqMHI4bTBsUjFYQQ?oc=5",
@@ -148,6 +176,13 @@
         "category": "経済"
       },
       {
+        "title": "フーシ派の新たな展開とイランの攻撃拡大、ペルシャ湾の迂回路を圧迫し海運リスク増加の恐れ",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcW01b1JCVTAwT29UNXV3OEl2aXNydFVxQVhQTWVUcmhnZUszWTBXRl91U1Z2c2ZZSGNhY2xXQVJDc3ZQTW1mNkNFRmdfczBVWU9VeXdIRTZDdWh2REw0U1llMDR3WDZ3R3dOYWxfMWd1VHBISGdraTcwRF9UQ2hrbm02V0pVb0FJLW05bHRYRFNOaTVvZ3p1RTU5ZVo3Q0pydlh4Rm83dXNFaGJLYkVhdFZOenVqVWhVX1hheEprSERjbzFScVRqR3NRLU0zeEYyNWNiWEZvaE9OVjFXaFNMcmx4dm5IT1JlN1l2TmNlWVk?oc=5",
+        "date": "2026-08-03T12:29",
+        "source": "The Conversation",
+        "category": "政治"
+      },
+      {
         "title": "サウジアラビア、イエメン紛争でフーシ派に対する軍事作戦を準備",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHM2pqc3ZvYlE4aHFKV2s5WjNvNjd2VGFEbmZQSzhxRDFwN1ZvNFBVSUpPa2FYcHFUUW1ib1ZydWdBVVMzc241X2xSOTN3My03UzZYRHE1bm9CbjJv?oc=5",
         "date": "2026-08-03T09:59",
@@ -155,52 +190,66 @@
         "category": "政治"
       },
       {
-        "title": "サウジアラビア、トランプ前大統領に対イラン強硬姿勢の見直しを促す",
+        "title": "サウジアラビア、米国のイラン軍事衝突回避を要請",
         "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPdHZMLXZ4VnUyQU5jVV9KVUZnM1pSSFdZMFlUNzBocDRZaFNwQl9KZHRNdl9tY19ONDJkSlh4MG5uMlA3UGpBMDEwQ0ZUa3l4QldZY1JaVi04bzJZaW1fdklPRUE2S0RxeHhSNURsUjNmTDFxVVJDODlYV0NMRGljX2tIUzR1cmd6X2x6RjlrcGcyV25EUmNzM011cGxBS1NoM3JjNXBaUUo1bWd3UktZakhJUnczVHdfYWxzTWtJc1lkRjJZc1dtRUdnbWp2a3BwZXQwUU5NZmZiWlkzek9QY2x4dGpKQk0zRnN2LWFtcTF3Mm80SDF3SHlEblBUSXfSAYcCQVVfeXFMT28xTEFTaVNuOXhEcnJKa2lsNUlRakFBS2ZmaVMwa2F0WGtNUDV2WmVsODZhMmItZnBiR0p2STJ2a0k1cUdTaUF2WGxkc04wSXlMRXI3eGx1ZzI0OWFYTzNLREVsV1laMjI2ZlVucDdlRHZ3T1ljd0g3OHloNTNCeW5nZEJZQldYSmxpQXdOS1ZBVWxDZTBQRndfVGpSSlBtbE12Tl9ZUWRkM08xY0ZBOXByWTlGbkFpYUxKcGF5NlBfMjdaZnZOcXlnN2JQUG1kTjRLX1BBd2I3aER2dW14RjNNQzNQR1F6N095M014S2hJZU1hazkwNXJzNEw5OC0xaHk1RzBESFk?oc=5",
         "date": "2026-08-03T06:33",
         "source": "NDTV",
-        "category": "政治"
-      },
-      {
-        "title": "湾岸地域の核危機が迫る",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBsUlJXMG5qZkRDNS14Smw3eU96Y1IxUTF1VTVSbkNjaDJEY3Z6NFN0RGtmT1B2TnFyV0E1dFdCUFYtREFhTGc0ZkFkZThORTRRa29odnBJUHZpdHJoN1luQUVSRXpUb2ltR25DR2tzeldYaTNfeGxJTFhiNA?oc=5",
-        "date": "2026-08-03T04:00",
-        "source": "Foreign Affairs",
-        "category": "政治"
-      },
-      {
-        "title": "マクロン大統領の関係者、パリ近郊のマンガテーマパーク建設でサウジアラビアの出資を模索",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRlFfQ2h6VHd2Y3NoVjNDd1FIU3dBRkhxaXZVaVFyUkJPMDNUX1hvb0h6RmlPdHJoWEhLdURyT0pvbUhxcWhKMmg2MDEwUEJJRHJMdlp6NlFmaWtHOF92NGVVNFgtQnhzb3dQNk5iQzlfMUhDNHBzbm83RTg5NHZzelpXM0FUa1dJZ3YxMHFMeDBpWWNYY3p1UHVGQno0UQ?oc=5",
-        "date": "2026-08-03T03:01",
-        "source": "politico.eu",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、地域安全保障について協議する国際会議を開催",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rcW5HS19aVmhOdFZuV0tlOVdodjNFOHVsZG53ZkRMbFRPbjJld0lPbWpYVzdob2pCSHhLOVR2NWZMRllLVU9ENmlnMGpiLVE1OEtMT2pR?oc=5",
-        "date": "2026-08-02T16:42",
-        "source": "Fox News",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア皇太子、米国とイランの紛争回避へトランプ前大統領に対話重視を促す",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcWdJZ0hLbTduamRXQktXdkUyLVZJUEJwN053cGMwM295b0dBX18tcjdlRXhSU3pwZjlIZzZQcDd6TmQtVkcwUF9venBYeDF6TjFBZkplVGJfYzJRS0hMVEV5QW9vZ2FOSmpaR0lxc20xVHhteVN1YU8yQ01CUEI4Y19TVEpPTHNGRjFSU3NPcFlBY21qcGtkN2ptN1ZjTnFQM3VraWpNX203VHRBTVcyX0dR0gG3AUFVX3lxTE9VLVlTSTJ5ZXJaREhEZEZXczU4Szd2WmgtVjNnbU1KbmduTjBOT3RvOEZFVWIwRDZCVGR5QnlnaFVDZ0ZjWGpWVFhLMnpZMjhMMVdpLTM1UHJ5Z2FvdGp5dHctaGYwUEVzTlJvZjRObEg3VmlXYWtXWmwyNXg3em9uMXk5Mm5EbGNDSXJoMWJvVmtfdkZDUmRUdElwT21YX3lJakxWN2JPc0Q1MFJfeEdXYzhuZDQ0bw?oc=5",
-        "date": "2026-08-02T16:27",
-        "source": "Al Jazeera",
-        "category": "政治"
-      },
-      {
-        "title": "イエメンの親イラン勢力、新たな攻撃を開始 イラン情勢の緊張が高まる",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUzZNR0NxMlRvamQxeTFqSmRFdm94SGU5RF9fUGZwTUd0TVdZd3ZfUkFTdGxfc0czWWdrc2FYdVk2WWNHYVB3WjhwdVBabGYwNXpBaE1JcUZybVVIYkZjdjVoUWZBdDdRTWIxR0lTQWVIcWlQeWpUb2NXcWVUaS05R01sX0hPUzJIbW1HbXZQakJheDg0d0tYNlVjTzJTcUg1MjQ1VVdaTGxFT1NtWnpaUlBXajBidWRSUHc?oc=5",
-        "date": "2026-08-02T16:00",
-        "source": "The Washington Post",
         "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-08-03T20:43:02.615950+03:00",
+    "lastUpdated": "2026-08-04T15:24:36.296486+03:00",
     "items": [
+      {
+        "title": "欧州商工会議所、サウジアラビアとの貿易・投資拡大に期待",
+        "url": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxPWXVGSTZKSkpzN04xYnhKMmZEeU1ET01xLWhxUmNqT3I2N3VoSTlfLXNsVk1mQTJiS2M5MzFFLVo2SzR3RlloaXlLWHFXRXMxU2xGaDJzTGJLUTRYVlIzaU1zS3hRWDlNeVd1Yjd6NVFDcS11OTB6V0dtelZiVnA2aXNMUU5yWTdINTNLX2pLczBadXB3R3c3VW93MExXZERiUlBiYU15VmlEVVYxM2pEZi1VVzV4ek1nRURXU09lQVdscHFJZ3JzTjFHTk0xNU5mWUdYdWJpa01nd0ZJdmJWeE9CTV8wUkFEN045V0Q0V3dLOHI0OVltOC00b3hvdWhjaV9tM3c4OUlJclJMdkNQRXpJS0xUTFBfMUY2eTVuc0hLM3NXa01RMWstbGNXNnM2YXkxQjBuNHVuVkpkVjhka3I5enUyYVhnV05KOEY0REFkdmlIN1kxamsya0UzekNlelJPb21SY1hDd0dwbFRYUXlfX0I1VkFXYnZYQ3R5emF1WUo3cjBBM1RNVWFaX0l5b2t2R3dPN0tHOG84cl9sSUkzel9hZHRjLU94dXJjR2xvYXBUSktFUzV3cXJRU1dISVVSSUhFay1xSDNCUmFVQlhfU3N4c2tPRWp5TTJMVE1jWnFVWmJQQl9xMVJQY0hlYzd4ZTFBWWVmV29neVhkbzA5RUN0c20xcWlSRUc0Rmw1NWhib21KR1BUSXFvdkFWbUJXMjF5UmZYQ3o5bUhKOG1RdUxnTFlqaEQ4N1pweEJpa0pva1RsUGxQOS1CdGlnR0dZNkhJbXhsTDA5eVp4VGhmQ0l6Q1pnX3ZBZERB?oc=5",
+        "date": "2026-08-04T12:10",
+        "source": "الشرق الأوسط",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアに新型オモダ4が投入、若年層向けスマートモビリティの新展開",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBYb1dERzByOVdMSVpSbW5teU1IaExCd0RoX242VFhDY0ZSU0JobWtHWG90elZWOFZicml4RTZkc0JHSGRWVzVn?oc=5",
+        "date": "2026-08-04T12:00",
+        "source": "جريدة الرياض",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラムコ、エネルギー大手で最高水準の配当を株主に配分",
+        "url": "https://news.google.com/rss/articles/CBMi8ARBVV95cUxPdVJrV2NlTy1QUUlaS1lEYjlIb1lrVURSaGlKNmdhdkc3UncxWkJEVmxLelFYZjR2dFhPNUZiclczZF8taGtQVjUwcDN3ajlhUlJxaVpBZ1lmOHhpclhQVWxsUEVOamxadnBmWlFfM2M2LXJ2SUYzUWVKT1p4cmV0b1Z4Ni1TRW1MS3hJVHM0cjRxZ21KQkU2ekJYUGtLYjRsMjVwQUFWLUV1dDRJRzZ2ZDk3N2RlaTFsdlRobFZ5cE5NQkJRR3BPUncwdjNhSHFHWFZvMUg1c3JMaXpVVHVuSkxRcVZpSE1xNk5fa2RJZWVnSUsxZXJNZjlfbkVwUTJGQWNhLWdGalZ6c3BKSHZIQXdrNHBvVGNrVHVHd2plVWdGNmFOaFAtdTlSQnVNaFFTSDNnaW14dnJJbWxMbjVoSEFiU3pGb1llOS1KNFpzcFNKZzJCS2c3V0hlTHpZTzNWSDM2WVZRMDkzTXU1dVZzMWt6Y1Z5UWFCQlNsU0NKVU9NQ1RaNEVVWk9UZEtKbC1DZWJMTEhuaVJXNDBtSmkwOTlGNVFUM2VVcnRtY3dyeDRicm9TVW5fRnpadmJXSFhVWHY3YzRuRDU3dm1kSzZoQVJWcldPYWU5ZEdpVm1tLU0tM09OWU50d282YlRrLTlqNEZoM25xdG1vZ3g0Z0VzSjRxSkRBdHNJZHBwZzJhRmhYWk03X2puTHhuSE5lYzFrLUlldldzaS1MZjRnNEFJSW13b0FHcGFjR0VFN3NYS3VucTlBTjc4VU1OZnplR2VKQ3dGSk1Scnl4bk5qdkdGTDJiS2VQbTdWUGF5bEo2VS0?oc=5",
+        "date": "2026-08-04T10:15",
+        "source": "الاقتصادية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジ・エナジー、第2四半期の利益が49億リヤルに",
+        "url": "https://news.google.com/rss/articles/CBMiyANBVV95cUxQNjZtLW5LYjVJNXlmMWRVTHZVNDg0XzVNQ0pkNWhkQ2tTZzdONWxuLUh3bHVYdHREZnhseWd6dW5kUW91NlF6ckZfR3Q1ellTUEwzSDFBbklPbjF0TkJOV3pzUHRNNFIxTFZWUXIwRDR2c1BRVDh5UnpEV09oTTJ2MFNUUUIyNWZYSDRGZkFMc1BHaEp5eUk4OHl2WXlWeFhweEdzdDRCM2xILW1HLVJjRzBmcUI5UW5LUGM1SjNyeVB2dVpvUGNDd0pKX09IaW1mNmZGLUlNU3lkVnQ0YnlMSW0yOTRySGMtTkkyNnZoV1NsZFpyWFcyd0p4OGloQnU2UHVfcDN5WFdXbzEzU04yekF5M2xDYkhsTHc3WThOTi02VDg3REhFdWpibUEwRkF1U1NMNlRxRVh2OGtnanMtUWNtQWM4bnQ1eGkxcGwwTlNoUEhHYzNJMTRVU1BZNXZObVl6bFd6UTVONGFuLTFFUHFQNDRCRWliYkRFMmx0bF9uQVlxQWRuRXRuSGtDUjJDYi1CU3JIZVowVWpfTjBtOXVwUDA0UkZtWTdkVExVNS16dkJISzVUN3JHSm1FUHBWVXprdjkxLUY?oc=5",
+        "date": "2026-08-04T08:59",
+        "source": "الاقتصادية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラムコ、第2四半期の調整後純利益が334億ドル",
+        "url": "https://news.google.com/rss/articles/CBMixARBVV95cUxPRkxQM3VyWDFaQU5oUUpqYjQxYzVUcVRSc2xZNVV5UFVsdHdWaHppUU1JdGdNLXB2ZW1kX3UxRFB1WTdwaUlFRlV0NWhyWXhZTFpqX0dSdDNOV20wYl8xMkNDazhoRmhWalRmaHFtZDJVc3NqdVRMR1RJdXRDcnRUYXBpQzZ5QmxBUnd5XzRRYTBndzFNQkFqNTV3U2xFM0d4MElIaVpMSUxzUkFybWljN3lJX3FhX0RDWTk1VExydTBuQmFydFlULVVPdlBOQUVVYzRvbHItZ0pKcV96aWZCVmpoemFGR0h6M3lVdTZKV0JxWDlfUm90MVhzVjF6YmVkeF9wdTQyeVowdEo4U19tbzRfbDI4MTVzOEV3c3VTY1lXVnUyUzBLSGVKdjZEaExKZF9BOGdMWkpBUlBPZmxFSGdfdzBpdVJ2NjdrOU9Jbm5rcXc4dVhvLUZzVVJFMHRkcWp2X1ZzSHhQLXB0RmVqQmdOLXkyeE1VMGQ2d0ktUmp4YXhtbW1LN2RPR1c1M09yd3k5N2VhR0hPbHFFRnBodHhpdDJnVTFtR1NMVWNlcDFNQ3g2UnV0MWZoRWRDS2NEV2dpekpacFRjSmhVZUZ5b192Nlk4SEQ1Z29MVnI0NVdZcGNXWlRkZW92WVhEZFFIMFNIVlBFRFpqZ0s1ZjBRZ05uQ2NkeFNGYlR2QnpjOXRBUEx0REVFN3QzQk5UWXEwS1NDNnRRYmdXQlI3Q2poVkkwdXZQM3A2RGlpcl9GaGlnV3dm?oc=5",
+        "date": "2026-08-04T06:31",
+        "source": "الشرق الأوسط",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアチーム、9月から10月にかけてアスリート支援キャンペーンを展開",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBtclNhcFlfS0xQSS1HbUhTVmJ1QVRJQmt5VFRnZzRCOWIyNk12ajlFXzNGeGFFMnZZTGtXZVd6QVN1RkhZaWlJ?oc=5",
+        "date": "2026-08-03T19:10",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビア 2025年の一人当たり保険支出が2367リヤルに増加 前年比5%増",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45QVBZNTFGdDJBb0dKdllkMGtFNExhSlh2ZjRJN2RMN3VjakROMHEyc2NRUUdNTjJMRnJwckJvc1hDQTZoZ0JENmRnZGZGQUxHWDA1UTNJT2d3NjRBSDBLNTVIaDhOVU9hZ2c?oc=5",
+        "date": "2026-08-03T18:06",
+        "source": "ارقام",
+        "category": "経済"
+      },
       {
         "title": "サウジアラビア・ヤンブー港、紅海の要衝バブ・エル・マンデブ海峡経由の石油タンカー通過が急増",
         "url": "https://news.google.com/rss/articles/CBMi5wNBVV95cUxNem8ycUVqNHNJd0dnRV9JMjhzRVVXdGptMF9fUnpNQm9aSm5WUHNTcEVzNk9Tam8zLUItdF96NzRpcDBQMmJQYzhrUnl6ZmpkQzJONDVSREtJZTJtX0ZjSGwxLTQ1U25jNElyQ0ZUYUJla2p3WDBQVlo0SnNzUXhGWHpQRVBPd1FIM2tGZnRZLXpEUkJvUVNrMHM5bnV0QjVqS1p1ZHppUXR2LVdyTFI1Qk5vSW92WkNTLVNubXdrTFMzYldHRXBpQ1Z5NUN5NXdJcGZLbFFaaEZpc0hid2hjUUhOVzIwd3J0bWdud2NIX3V1MHMtSG8yNzRsRUhIWkpPTkE4d3dFbVNLX3ZEVlFHellibXQ1NjhDZl9FcjZIZ05SQmtoejAyb2ZBaW5ld3ZkS3lJWE5YbU9QdzRQWnFaOERLblgyTm5zMkNOMnlZQmJXUFZpaXUwT0laYTBNMDI0QnRpYUx4U3plemktUUxmaUUzdkx3dlVIenlDTERhWjhzejh5UGUwdE9XNFVQVU5ILTBFMmp4RFdMVVFIT0p3Ym1qRlAzNkNYRFdJUFdlcHpCcnNabVgtc3JHN2pUems2cXM4RVN0S0dsYVVwc3c1ZGQ2dG9MZWVLcHRtNlJ0VGFZckc1Uktn?oc=5",
@@ -209,73 +258,45 @@
         "category": "経済"
       },
       {
+        "title": "サウジアラビアの電動車国産化、経済効果24億ドル",
+        "url": "https://news.google.com/rss/articles/CBMinARBVV95cUxQbUhQNTU2RnJqMVl0ZTJSMHFKVm9SeU40ZENwQUh3RE1IMXlMdXFKc3JxZWtuSG01ajFrNHMyMVZBZzlnMVBtNFBoNlRseWN1ZnRGeE9PSlhwVW5pbWZFX0trdkNWQklETXRZV0FtS2w3cXpIMU5HR2tleG9uaVZGaU41dzF3bkQxN2RDZ2JUUlhqMmh4ZU9CS1JMdEJxOEVMbm9WRFlqdDZUTEVhMkZkbzRkbS1EMGgyZDVKTkRWNkJQWFNKUENaWVpZRzh6MUdXRWZURnNkclhYWTRSX3ZzbFFDYVlEa3Z4bXMtdnE3OG1pa3ZhMFdTdXQ4MFhPTU5XbWZUekZLNzJLTDdNNHU3dHNYNU5NdTRZcmtMWmp5MzVaYWxUUi1Obm05c2VvNWZqWWJpSEc1enBTdENKUk94VEFBckxjNGhjVHZmbmJhZHBSZnJXOUpCcENoV3l5a3BoMHcwcFlKYktEUE9LdUFHNUxVNENTcEowVVpXVGJPamYwM0FXeFRKRlQ3Q25iZEdrWFo1eFhtSGxiMVhsb092TmZ4UjdSZmVScmRVVXBpQ016cnpFcG5yOFlVQjlPT3BRSFVQUjJSLXhUVWFrQVVxcFZlNzlxQ3BBdk0yTXZqRW51dDhaWDNkQUxXWC1CRk93cVlYTUQ2Z0J5cGNQczJBcVV2ejNYRWRUenpaQnI3V1FhZXg4MGliYnAxT2bSAaIEQVVfeXFMTU93RFg4aVhTdFhySEp2OGl0OHlUT3VMMnRJR2VHOUwzdktEUEJERURZUmJfWHN3NWpVRkV0aWJQUWlZN3VsUnZnUXhVMFRUUTRWY0Qwal9YT2NJOVJGRDlnZGk0bDhRRXhzU3B4TWhXSEM1Y2dVendkbDJBY09KSkxGWWhlVjFLOS1fQVlnTWwwVVNza0J2dDZmRjFQYVgtZkhlX2F1VGpXdmhudGJMXzE1YnJsb2ZwZ3g3MWpSR2NCSUdiWnNfX01INmh4SnVWQWlTb3NxR0MzMWhUdzdJUWZ4NVM3ZWpaam83aGM5QTNXZEs4UkxEWl9FVjBITkJSdXFDaDI1RDZhVmxPRlFrcGNLQVJUb1pFYWY0MWpvdGJBNnJLeHVxNUpIdjFiMjJEUHAtTXRVOWZUaEZRNnJ5R3RiSVlFTl95NkhfMEREM0FERU9xTDJJOHlUSnM0N1JhVkhEYTM0Z04yMGFRTnVKMmV0MjlHaGdXMVViNzNDZTgtOFRpd1E3andRcEV5V1JzUk15Ui1zUzh6WGVrRXBWclJ1eVExUHRZcW9Dam9lc0dMcG9nRThsSnZYeVlheHprQzhjb092ek5hVlduS2Mxdm1Ob1lkdzNxc3RRN2RiWlpmTUZJLW5OejJBbTY2R3R4LTJxYmRjZEtNdXBSNGRPcFoxOFRMSkI5NFNwRXhjLTJqR2N1X3Y0dGQ5NmRDVmxBRDRn?oc=5",
+        "date": "2026-08-03T15:41",
+        "source": "العربية",
+        "category": "経済"
+      },
+      {
         "title": "AI搭載カメラ130台、サウジアラビアの道路網を24時間監視",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9NeGNoSDRmdEx1VWZWcTlsR09PNFRYRGc2c0JJRThVeWRHN1pnUkNXUDUxZG9BenRUbmdYenZTS1c0UDBqN2pN?oc=5",
         "date": "2026-08-03T12:29",
         "source": "صحيفة سبق الإلكترونية",
         "category": "経済"
-      },
-      {
-        "title": "サウジアラビア地球科学協会の会長がスエズ地震は自然現象で破壊的な活動の兆候はないとコメント",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBGZ1puTWR4VUkxTWRtOHZLNG40VW1JSWMwSl9ORHh3ZTEtLUNFLW9sMzBjTmdJQ2wxWndvRzIyUC1Jc2x2dXk4?oc=5",
-        "date": "2026-08-03T12:15",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア、人工知能時代に向け人材育成に注力",
-        "url": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxPVzJaNHFiSVdEQ2NpQ09DMEVXbWpfTmQ2UjZTOVNwRlhTU0FzSzhZclFHY1BYZWFFSEVGenNQZUJwOF94VHRNSVJyNFEwN3gwMi1BRWZsV3FRVkJ4MWFCV3B4d09tdTkwMUJzMDNhOXZTWjA0Nzg3Y0dSb05iMEotdEFiOWpNZVRmVmN4eWNFS3BOUnZXbHN4WXp1UjA1SThuWmdWOTU1Nko3UTdTcFQ5MHd1RmlJQTlVZFRVWld6b1cydmphT0ZXRWlWOEstXzVaX3UxbkNFUG1JaDd4ZTR3VUZJMElRQlRCNF9kbG5CN0FldnhMRUVBWEVMLXQ5bXRfWVJ6Si1ubmZfa3lSU2ZqVF9yZmlmbTNNbFFmeVhvdlA4dG1zX2ZZcXJ1REdVbGZKU1pGWTdhRk5yLUhQd3o1TWN2eUdaZnRiUlcwelRVbC0yelM1N3ZRWE14blRrUG5UeXpINFh6WFAyYlIwbTJvdG53bEtrdHpfVGZQLXJEWXFqc1dTS0FhdC0yM0ZfZ09janlUMVBPOWtfU2JfdVJvbTBwTGVVX0ExUEJVUnlMOEtoRDlrc3hwNVNYNDZPSzJNSDVvOE1NTmpVQVFVNWIweTJTa0ExSlEyS3c4c2s3VmdfZi0tT1R5T2Rn?oc=5",
-        "date": "2026-08-03T11:45",
-        "source": "الشرق الأوسط",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア内務省、死刑執行を発表",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbFFEcEFsS0NmNWhkLVhnblJrWll4RUtqMGNndUNyOThwaldzMTA2NW51TWRKMVVlSktGNW5LU19WWVpneUdNVWZnSnY4NzkxVks4RU04eFBDRnY2bVozQ25NQXMweURjdGN1ZWtoZ3E0bTlUSzNlUmVIVUplVE95REpVaklVMWN1OGE3ZC1qSEJ5WERJNkJiM1dVSm1FMWRH0gGrAUFVX3lxTE1vWTJCT0pQN3ozNUNwMXRRdUVacnIwN1RvUmxhbFN6OGNYM0R5ellZX0J3OEVVQ0xiN29tcDhfTEhfQ044RFpqX2NfMjRVajY1UXU2RzRCbURLa2RMTmU2RDk2d3dtdHQ2MGVUbkZla3NLWnYtcDEwRE0tMUt1RVZPN2lSQUdQeElWR3VodWktRnFFelVPZ0R0SEdPZWpxYWVWSlpxNm9aMEVLZw?oc=5",
-        "date": "2026-08-03T10:44",
-        "source": "CNN Arabic",
-        "category": "社会"
-      },
-      {
-        "title": "トランプ大統領、イラン攻撃計画の中止について語る　サウジアラビアも攻撃を望まなかった",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUEdkaDJMYzNZY2xaS2VYVVhZY3VtMmVKZnFiaERrVm4wUDlaT2plWF9hUWxlbVlUWUdicUVIcEJBOVhRa0FtTTVPNC13TVV4TVVfVmIzdWtjRHBTdG9lZi1mdVpseGk3T2lMZ3lmZDhkdWs1dFBYZVVVakZpRExMaU1fY0h4WjdoczJPTWpXSnh4QUlYbjJRSWFMUm5rd1HSAaoBQVVfeXFMUGNNa3BhUHFsazlnbGlKSDQwTWRiU1A4YU9Kd1JtdGdWbmZHUGRtTHMxeWNLODY2bS1nMDNOTzFnWllQenVzOHVlc1phWmd6a3J4X3RwSEZHRHBuZm9RX1FabmRUMkE2bmhrbVhjT0tPMDJMSUMwTzZNcHJKWVpzRTZWdUZKMHVkZFR5aTRtUEFOa1BWd1Z6VVI4d2FuMFVUZUdmX2RHV2E0dEE?oc=5",
-        "date": "2026-08-03T08:20",
-        "source": "CNN Arabic",
-        "category": "政治"
-      },
-      {
-        "title": "花婿だけのものではない…サウジアラビアの結婚式で広がる新しい衣装の流行",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5uZGJEQzdIcWlXc1hwSGJ1eWhWWUx0NGhGcUVJaFRJc2xCYU5kVFJQZTVlODlCanJORzFtTXVQR0x0RXRaVURB?oc=5",
-        "date": "2026-08-03T07:42",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "文化"
-      },
-      {
-        "title": "インフォグラフィック：サウジアラムコがワールドカップスポンサーから得たもの",
-        "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxOUHlYM1Q1VjNlM0lpMllLenJxbHpHenNMbmlmNmxTZm55aTNuTXZtTVhYVnR3U1JxSmtUMF8tbklrNXhZX1MtVjRLN2s4dmlKaUJZYUJoZ1lvbDBLR2lvekxUWVBkckNwdHpGV0FLVG5mMzRuckpUUW1sZkpYa2RzWjdycDFfVkt0NHE2VUhuU0xzeVc1VndKcW1tTkYxaFJMa0FtVkVvRjVUVlJtaEFfTHhCUzI3alowQjhDWW03ZkRybzBUVm9ZUlY3MWpmb24xSW05c1FBdG1Zd0I4UkcwYlhpZDhOdHRtdzBVcTZkaFF3c1pmYnNJQ0wxeGp0RHZ3Uktjek5HdnVfSXEzU1JTWmpHT1NJLWJOTmFPOGw2Zjk5eGhWZUhIX2loaFNFaGxRX1pObUFOa2U1WGhKMzRGemNjNk1XX0oxbWR2UGJnWkJ1NlJDd2NqWDRBc2x1UmxBN2dvME1MT1cyWFdtbmVOdVVWbjlTMjItV2dSZGp2Z1BwRnRMejhqbXhlcE5YM1JzS2Q1RUJPTFJIQmZPeFV2dUN6dldZSV9KclZxMHlpejRvcGoySm5nNjZLbkY5UFUyQk1fRno3ZC1qUGE0SVd1RWwybnVpTjNkRUNYV0hiRVBVSXU4VDctZkFVcjlBQQ?oc=5",
-        "date": "2026-08-03T02:58",
-        "source": "الشرق بلومبرغ",
-        "category": "経済"
-      },
-      {
-        "title": "トランプ前大統領、サウジアラビアの皇太子はイラン情勢について対話を望んでいると述べる",
-        "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxPN0k3MWZ5by1DNHk0YndBcVQ1aFRQTTNVbjVucDQwWHhxX0pLZVF1RkEzc0NIVEQzOWkyVlZOWWpVNUNrdmp2NFJhOFNxY3VQNGh0ZzlHUk13b3c5NU9CanBuT3B1WGZSWVZNWjZMUVB0UDE2aS00M2JxbDI1U3F0dDZsdDdSZlVsRUFDVE0xTUNMZzJoS09PYnhULTd2aDFpMTkyYzNUZHhMbTE0aE92T1J4YVAzRnJpMmZoREdoc0dCLTBJUmZrRU5IWTFETC1nNURYTW1qempfdzNBS1pkQWNzQXF2WWdVanY0RDBoc2EzQTdDTWxoQnZMeXQ1QUM2Ty14em52djJLMnR2Z1lDZmlOVko2cjlkTHJiX2pyc1F5bDR0ZWVyWjQyOGZSaVRDdmE1N01uSnEtSnlob1dhQTNHV3FaeTNWeDdnZGVRaGNlTHhfWDhUeFJkY21yM0FjVXpZaXZVakNVQ25WTFZlbmVRTUN6cWxIRWd2NDYwWDBHNWpYbEh2eDlaT0ZkRUZOZVVuSndoN1JoU2ViaWJWZXh5R0RsNUl2VzdfYklRMHVoanQ0UkNidVFjVG55ajVHVmc5cmhid09mZmNHNUxYS3Z2RUZlVXRFTFZJRHZRY2g4UXd3cWNQTlBGZlJUbUJxbzJRM0xuNUczcWxJb0hoS2twNENZamRhekVBMTRVY3dyaGZq0gGaBEFVX3lxTE9ZQ3Qwa081VkdFa1U5TTI0SDNCY1dxS3A0TmdKUlYxLVdkQTNrVHEzQmxkYWdRaTQ1eWVyTF9vZXVGaVFhTXBTaXlMM2RXX3lILWlnZDdtOVYzNE1ZMy1xcXVjck1pdGRsN29vYlpScmtnV1JoVnJXSDBZd25RUXhjbnVSeE05VzE1eUxrS1BfYVFsc2hoWVhCelFHa1MyU19ORmlqbGdsX0lzZHZuaW5NZ2FkV0ljYjdrZU1raDhSbzFJM1dKZHdDemVwOC1Pd0pnU3ozS2RKd0lncUh0UVEycnRhMWtDS3hnX2VEb0NUTDg5ZkVfRlBLN0R4RzBVZ3Z3d0ljTG9uVE5rNWFRVFBOQklrZlhUQXNGalR3V1Nmekp1NFhPdHA5T3dJYUFBU3JQWmJoOXJaVF9sbzlnaG1QeXdlR3N6UU1qdnZ5bVF2bDJFWjlFYjlUbnI0YkVfZjFkWWRvVFZXVEQ1ekpIQXAwTnhjYzZKZUhENDlMN1FSNzE1ejFWMFZvZkNkQ1FCcm40NEt6QV9xZjNCYnN6R2xjd0E3Uzd5Uk9NR0Y2Q0lDZkk3MjViQTl4ZDZVTTBzWk51azA0RWkwYTJId3ZWWVhadGNDb0d5R3JzN0xGdHZBMWl4YTAzaHVPTE1INGRFeWZHaFBwWTBiYmlkcUtub2VjNjdSbUJNUnAwVnBJZEl3X2VTMWNXWUEzTEE?oc=5",
-        "date": "2026-08-02T22:39",
-        "source": "العربية",
-        "category": "政治"
-      },
-      {
-        "title": "7月のサウジアラビア機関投資家による株式買い越し額は4億1080万ドル",
-        "url": "https://news.google.com/rss/articles/CBMiqARBVV95cUxPTnc4M2dYSllIREp2bGZYU2VqWUNFanJ6QnYxa1BWb2ZjSE9uUkFYWEItUGlOZGQ2RWgxbHp3aWJKUE9MSXB6eHpXUmRJRnVFUzN0TVpnN1pyS0h5M3JKOXRHYmNreG1SWTcwbml5UWpDc1dVei02N00xQWVsQXMyUDlBRDdiZ3V5VG1wT202ZGdOTmw1dlVjSl9IVXNUMXlBU25XQl9nN2xUbnBiV1ZpWjhRLVotdTBIMHVZeUN5cU9NVXZ4R3k1cG0wamtDejZpckNvY3dUSDNjR2IxdFM1N1YzejY1eUZSRHdSc21XRVVBLVBLOFM1NU1sbzlOX1NRTFZoVjYzRHlrblVHNlNKZEROUVBucG8xSVROMUlEM2h3TUxoam5QLThHWkdLSmtpRy03MzlQZ2ZSaDdlMTgxNjdxQmlYYmVaVUtPWmxEZ3pkUDFtVXBody1IZjRzYlZkWTRxdXNhWkludHhaMUVFZk55RXFkMGxUVEVkdzdsb2R1MFJ3R3ctMklNRi1DaElhTjloeXJwT0F3eGtxRGdMQWxOZ1JPNWxEc0FfN0gxSUUzTXh0aVZXRzJBNjJOenZaMHVkclhJUUFOSzFfb2sxVm8wNDFlZ1pDUEVHVTBMYUg5SDJTSFlLZV8xVmlYcTM3b1VYOGF1bnpWeEo1Mkd0Zm5FLWNZcWVqZVk2SFMwWTJfTmNJN3RQbnJ1ZjZueklxbEh0ZkQzMXHSAa4EQVVfeXFMUEJJemVRcXA2NHhJR2k5a0NtTmdKWHpISU54NExOY3U0Wm03VDN6VUlseW5QN3ZJeFc2RmJOc3VEWXdnazZ1SVl6bzR0Y2NpdzN5cEo2dEhUeW5IcjFqM0RDSUhhVHhFbkVJcXo3R0hUTmlHTE5GWllLZ3N6MnVFZkl0TzByLTd5N2NSUGMyNS15d3JUR1B4LUh4UTJ3bGNKUzNxVU9KMXl0MnJuOUxuaE05aU4tWWxzaXV5MnZWNF9YUVI5emVoVVNiNFV0NXJMT25aVkxJQUJEa0c3MVEteDZzaUVRWXVrbnJqeUM5V2k1NTVJcEVPN0l2V21ydUZKRHZfS0hIME5OZXpEb204TnBMV05JSEI2NnRFR09vRHNDc3J3OGpjTUdFMzhHWTRnczJXUEpab1lna21tVVJQNjlTcnYtYWVJclROZ1o5VEZfYXFNdlZiSXFkbXlLR25qa1FpNHZQUS1tYjVjSVh0ZWViVU9INmtpVFFaVndiMm9nYzVtYmVsS2RrMFVvdklOSGpHRl9wNjllYzc0V3o1Z19MaWY3ckpySWl1N3JpTENvdVNIbTBxQ0xhbWxGMmhpeUtDNXFzNE5tRVZXcHhSLWktaENUOThBOEpfOXhtTlh1ZlA1a09yNFNod2RiaVFSbXA3SVV1RlV0QjJVc2FvalowUGVmLUdXRXU4OENNN3hOQVhmbzFJUGp3TkJGQ1dYTXdValpQckt2UUhFb0d3?oc=5",
-        "date": "2026-08-02T16:30",
-        "source": "العربية",
-        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-08-03T20:43:02.615950+03:00",
+    "lastUpdated": "2026-08-04T15:24:36.296486+03:00",
     "items": [
+      {
+        "title": "『スト6』『餓狼』日本代表選手6名が決定！サウジアラビアで開催するeスポーツ大会「ENC」で世界に挑む（インサイド）",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1EdWM4U1l2Nkt5b3FFUEJxVFlpNmFub3ZZUHU5elU4V1UzMDE0UGJXZi1hVEg2S1RkN2Zpb0YzYlhWWHAxeTMxTFhmdDF6UHlZY0VXaGtTSDAyOWRUanFNaTBvaVN0Xzl6R3VkQjdsMXhNajh4cGhRWjJYbkxjdjQ?oc=5",
+        "date": "2026-08-04T08:30",
+        "source": "Yahoo!ニュース",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジ国営石油、33％増益",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9YZ2ZoakJSbU1HOVJ2ZVJoOERXLWdKVmZuZjVuUVl5SkhoZXlFUnIwTG5WeHY2TWtUa0ZTTmhlbEliTW02X0N4Q2pGeFJFQzBOUlFSenJudzRkZ3J1NFhNb0ZRbw?oc=5",
+        "date": "2026-08-04T06:27",
+        "source": "nippon.com",
+        "category": "経済"
+      },
+      {
+        "title": "3Dプリント中に台を揺らすとPLAが15%強くなる、サウジアラビアの大学が確認",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ZaXdjdk9BVWdhUEVobkRGNHlKRE95bE13Qkhjb0l5Zk5LYTFBWkg0MThMeERjTUxlSW1lWlFIelVUR2hQWVlOUFZUd1NDZEVmR1dtd0tBdkVzRTBvZU80Q0s4dVhTLUMtcklnX1I0RHdfaWNM0gF6QVVfeXFMTnRWQlE5NWZmR09EbTlnZ0xzSnJzQ1ZMX3JpbWxFZFhxTkRKTVQzbkhYZGQ4LUNnVkhET016MFVmWDVDVTJPa1NUT1VwbjZzYXVYZmVMd3d0UDdRN0RDd2tkSVpMLVJhcEhadkJMdmxTbmZ1QkpPYm1tMEE?oc=5",
+        "date": "2026-08-04T03:18",
+        "source": "FabScene",
+        "category": "その他"
+      },
       {
         "title": "第3回国際原子力科学オリンピック、ジェッダで世界中の若き頭脳が集結",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsWHgyZy1GYnBfX1RBeTdaMDlibDVmQ2NHNzlEUHEzVXJXeEhwXzNGeVl5SXM3YkdaUXZZUU9fb0RWYm54QUdxc0xzc0pkMXJVV0g4YWJtekxlYmZ4UHI1dS1GYmJJbzRGdEFuZw?oc=5",
@@ -288,6 +309,13 @@
         "url": "https://news.google.com/rss/articles/CBMi6ANBVV95cUxONVJhaUxqamdGa0RuclVZWC1BYXNHWTdMTXh2VE9RbTNnVVgySVEtcjdsV3MxZEg2bUhFZkxtQVdESElzZEtTcFYtNU5tX0puaVVBckE1OFdWZzZsUF9KaXg1QnExd3BDWDRwWjhCb3JQNGFJYzlvb25XRUtaaDFfcWUzTFA5TVpWQXE2Qldvei14cXJ2dHZnTTRsTFNyQ21oQXdIVGFQVlJNd1hCOEdmMGx6R1YxZVE1TDhkdEVRUHRQNC1ldTZ1VndmNkFoZjlVX1Y5RFhuVjRkVl9Fdm1TdFIxTWxrNHZ6MnM1RUFfSXlxOGZnVVZmaVI3VngzR3hZVWdCWjBZY2ZiZVVwT2tWU0tFOWVPUHlsTzI4ZDBHY0JBWmFBc3BIZHIwZXMwaW9JMHpkUHAyOGk5WS1VMHpTNXF1YXJ0Y2dDZ3otemtXSUEzaU1lc3NUMXpUWXYwQUJ0NXUxZlZOVkU0X3RKaUw4R09JeU5aM2xDa3NyU1pvUm9YczFEVUFLWGI3R1c4eGxBUFZ2bEliaXFpeHA3ODFLU3BNdE5lNVF1SndzajJ0ZFlWY08wMWVaV2RveGVycDcxaWpMa1d5VER2SnUtbGwtcXhzalUtZmZkWEx3eW1OSWF3Q1dkN1J3RA?oc=5",
         "date": "2026-08-03T12:32",
         "source": "Goal.com",
+        "category": "スポーツ"
+      },
+      {
+        "title": "J1開幕直前…日本代表29歳にサウジ移籍浮上「レーダーに」 現地報道「交渉は初期段階」（FOOTBALL ZONE）",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5bGdpUWxQaVNLYkxwUDJ5Z19ta01vZ2dDMGtHZWdFVzdhX3RiZ1Q5cmpGSWJYdWtocGZ1NFg1SG5Vbk4wQ083WUN6U1dYUnBCalhaUWN6NHhvRE5oZVRweE45bFIwbHdVX1ZRM3A2RUNMZk5nT1hCWmV3bVppcnc?oc=5",
+        "date": "2026-08-03T06:51",
+        "source": "Yahoo!ニュース",
         "category": "スポーツ"
       },
       {
@@ -317,34 +345,6 @@
         "date": "2026-08-02T09:08",
         "source": "arabnews.jp",
         "category": "政治"
-      },
-      {
-        "title": "イスラエルでも中国でもない…アメリカの\"ドル覇権\"を静かにコントロールする\"陰の大国\"の正体 (4ページ目)",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5hMTRrNWQ3SDZOcE1VYno5UnNIZGFiMWFISUdUVVBNemJxdEJNNGtiWnpQNFQwcy1Pa3J2YVVFOHBXUU5aSkt5STVLWGtvdjdBLTh5eV9lOTY?oc=5",
-        "date": "2026-08-02T09:00",
-        "source": "PRESIDENT Online（プレジデントオンライン）",
-        "category": "経済"
-      },
-      {
-        "title": "紅海の風がサウジアラビアでのカイトサーフィンブームを後押し",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByQkF2ZldoT1lUTzRhVmJWcXBwaExSSkE4QUR5VW1YeElVQ2daNzJMZVkycEkySWJQMERlTEpyZHk3Z0s1UjgtMy1CUWZTbHl4WXlUdVlDQ2dOZDBYTkp4aUF4cDJyWnc?oc=5",
-        "date": "2026-08-02T08:08",
-        "source": "arabnews.jp",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビアのクリエイターがラクダをSNSスターに変える",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xak9uVkx3Tk1qREtIazkwRUdTbHg1RDR4c0lteTNScDg3ZjlBMVZxZjVDdnAzaVBINml5Rm5iS282Mjl2M2tfYzJySUYwTnNDOWJrdGtMMzZuQ2JCbk0xejRaNE1CTnM?oc=5",
-        "date": "2026-08-02T08:08",
-        "source": "arabnews.jp",
-        "category": "文化"
-      },
-      {
-        "title": "「サウジ移籍を考えていた」鎌田大地が仰天エピソードを告白 驚愕事実に英関心 パレスとの短年契約は「ビッグクラブへ移籍する可能性も残せる」（CoCoKARAnext）",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FaUhwaldlZ1ZSU1QxRHNrbFVQSk1nOVk5TUhzOWhORHc3UTBhWmRlTnFnZ1Q5VFZGOVg5QjJXakluZ0ZDN1hKUkszckgxaksxNTFWSVlCNU94Q2hKOFdReGhhXzFQbjlQSUxSR1ZRNDBjWnVKNkxrZ3pGQ0F3d1U?oc=5",
-        "date": "2026-08-02T07:52",
-        "source": "Yahoo!ニュース",
-        "category": "スポーツ"
       }
     ]
   }
