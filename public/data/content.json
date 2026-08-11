@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-08-11T14:12:31.911985+03:00",
+  "lastCollected": "2026-08-11T19:47:43.984358+03:00",
   "security": {
-    "lastUpdated": "2026-08-11T14:12:31.911985+03:00",
+    "lastUpdated": "2026-08-11T19:47:43.984358+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-08-11T14:12:31.911985+03:00",
+    "lastUpdated": "2026-08-11T19:47:43.984358+03:00",
     "items": [
       {
         "title": "イエメン・ホーシー派を巡る緊張の高まりに伴う注意喚起",
@@ -94,7 +94,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -124,10 +124,31 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-08-11T14:12:31.911985+03:00",
+    "lastUpdated": "2026-08-11T19:47:43.984358+03:00",
     "items": [
       {
-        "title": "1977年、サウジアラビア王子がアラスカの氷山をアイオワまで運び、中東への氷山輸送ビジネスを提案",
+        "title": "中東諸国がコロンビアのゴラン高原主権承認を非難",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNa0t5LWl3Zzc3dmxEVXVuY3RxZ0VxR29LSlhjQnl2UEZ4U0xVdll3eFZ4Wi1YbC10Nk80MHVQZk5CY3g2Yy01MXQtSDFVaXFmV29raDcxLWZjaU5lZzJQMHU3NHI2NGoyTkVEWUJTY0loRVlTa2pqM0g5Tko4Z0N4bmtmSXNsbWhhSEVnUmlnWmNtZTJEbVYtWW1HMFlPa1dtZFhjNUUwYkQ0Zk9FNjZRX3BnajNfZ2sxZjdiM1FBRTdQTlAwdHdrdzJqNkV2TU5ITWV4QWYyOXlRa2ZMaUE?oc=5",
+        "date": "2026-08-11T16:20",
+        "source": "Anadolu Ajansı",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、トルコ・パキスタンとのメッカ合意は「長期的」協力関係の強化に向けた取り組みと説明",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPemZLWnlCa3Mwc1N4Tm5STzA2czZtMTByNFh4ODdCWlpQS09QUjRtNE0ySmFHLUNKaTJtZHh2UjFpYUpUbzZ5M2RNcHVDZ3VCSHo5VFlpN1A0UmNJV191WktqcG5WMHM0VWhwUGFYNVNROWx2ZW9BdUFlOW1JV1B1bjN3SEQ0RXozWkxZVThUMmdETlNjVkhRd2djYTFselM0ZFB4ZXhTOWQyVm9aMldaaVFBWVdVT215eFJDYjVGQXdOUU4tSkgwVGM4TTlhTUdTcFE?oc=5",
+        "date": "2026-08-11T15:24",
+        "source": "Anadolu Ajansı",
+        "category": "政治"
+      },
+      {
+        "title": "評論 メッカ共同防衛協定　戦略的相乗効果と地域統合",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVG5EazRqYm9XbXRyR1ZOUlkyMC1UdDhBNHVNOXQ3NFJ4VWJBRndnVFRLbGppWHA0UlREb1RsNkFoRHZnazhvSC1FWjlmakpwcllTN2hWTTIzSkZjUmxPOHM0SGFBc0EtQWtBZzJGOXFva1hQVWdTckxpcE9kTmFEWmVSaU1GaE4xczZGVnp5QmlNV3BnSFVKcHNaWUl2WHN0eXBkV2VFdWpNWEJxRXdUbFN5RnlRd2Z5dTduRmNrQm1DQkptbG1rYg?oc=5",
+        "date": "2026-08-11T15:20",
+        "source": "Anadolu Ajansı",
+        "category": "政治"
+      },
+      {
+        "title": "1977年、サウジアラビア皇太子がアラスカの氷山をアイオワ州まで運び、中東への氷山輸送事業を提案",
         "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPd0NiOW9aSW5NelAxNVctTUhJODhKZmFsWUc4WWd5VGFxVEVOWDRzWEl2M0VnRG52UndVVVdmdE1oS3drS2NfbkhNNGtXQ0NJLXNkQU9jVGxGanJ4cGZISDNOUGExdkhwVnhjc3ZXbERENmFZZ1JxNkVHQXp4clVTWmFqSjlQUGl1UnFCbXZfcTg2N0xpanVpcnk4X29ZdUtKQkh5SWZMeURJOHh1alVHWTg5d0xBdTNnM2V1WjE2VGhfV19LcldYYUdWak1pbU1EZU5tUWZfTHFzV2k0ckdHdFhiRkpKUm0ySFdtMVFaOVp4eXFjYjFQdFVKa0JNcm5Nb3Y3N1BEMGRxVmhPQ3IwdWx4a0pjWTlPYWExUFFhWTl3TDJtQnhGbm1RNGV4M3Bxbl9HQWFJNGNfNDJKTGFzTjRHNXRhQldKVFRuU0JNa1V2TGRpY1JnSEJ0VFFSeEh2dlRWMjRaXzLSAe4CQVVfeXFMTWRObnB6a1BiUWMwWDVTNk1QOGF5RmY2TzBhWGpnWEVWTUpBUTVzY3RTSkVLTS15YXJ0YWI1UWRaUVM4cVdXNGdPekJ2ckxEd3FsTTBtdDJxd2VNU0szVEhMVU9RX2Q5YUtKMzd5aEpRYU5Kd3pmdWNrZ0Q2MC1FaFdGejBYNHFlcTc2ejBvZVByd3VERXZKYVIwam1ZZ0xIQlljb0pEXzRoQ3lxRUhqYzFFNjA5M2xUMTg2UTZjNzBXTVNnRUdkOUJrSEtNb0tURVluYnFya2VnZUNKX0dzU1BiaC04UnM2ZnVJZ2MxTnpSSE5GMEpNYlpwS3hpeVR4ZjdLNC10emNYc29UdF9pRkNJSmpxdUtiSDZUWGh3YnNzYW9yVVZyU3piazZfSVkwZkZaMDhyQlpXbC1OSGVMWXFKdV9pVkVMdW1wV3hHS0ZEa1hxb1dvUGV5dVZmc1drbUk2SWJBbW53LVRjYUdB?oc=5",
         "date": "2026-08-11T08:39",
         "source": "The Times of India",
@@ -141,11 +162,11 @@
         "category": "政治"
       },
       {
-        "title": "イエメン向けイラン便の運航中止がフーシ派とサウジアラビアの対立激化のきっかけに",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHhfTkVlNnF6azFYS0QzOFdoYWVPR2VmOXhJZ29yZ1haQlJfS00xTEpvenctY1lqZHk4NFIzTnFLc09VMjVjZExaMDR4QkJqeVlSZUlrNkNoMmh6a1ljdVQzSW02VzJFQmtsY0JyUGRzQk0yRWdiamJ0My1PM0hvcHctLVhrZENUY2w2cTd2MG9Sakpoc1k2Mng0cUVVV0N0?oc=5",
-        "date": "2026-08-10T13:49",
-        "source": "AP News",
-        "category": "政治"
+        "title": "ダービー・カウンティの買収話が白紙に　サウジアラビアの投資家が計画を中止",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA5a0psVjRiQlV1WGd6YnM4czVGc1dNamRzY2RXSGxYLWNzdlNvQ2RLYkVISTBmT3ExOS1OZmZXZFFhTlh5MXA2Wkd6OHk5eFlzM29pdmxsWEYxREkyRDhBUlZ6VHllS0U?oc=5",
+        "date": "2026-08-10T16:15",
+        "source": "BBC",
+        "category": "スポーツ"
       },
       {
         "title": "ロナウドとメッシ、欧州からサウジアラビア、米国へ—前例のない現象を確固たるものに",
@@ -153,6 +174,13 @@
         "date": "2026-08-10T13:36",
         "source": "Goal.com",
         "category": "スポーツ"
+      },
+      {
+        "title": "イラン便の運航中止がフーシ派とサウジアラビアの対立を激化",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHhfTkVlNnF6azFYS0QzOFdoYWVPR2VmOXhJZ29yZ1haQlJfS00xTEpvenctY1lqZHk4NFIzTnFLc09VMjVjZExaMDR4QkJqeVlSZUlrNkNoMmh6a1ljdVQzSW02VzJFQmtsY0JyUGRzQk0yRWdiamJ0My1PM0hvcHctLVhrZENUY2w2cTd2MG9Sakpoc1k2Mng0cUVVV0N0?oc=5",
+        "date": "2026-08-10T10:33",
+        "source": "AP News",
+        "category": "政治"
       },
       {
         "title": "スタヴリディス元NATO司令官：サウジアラビアは紅海のフーシ派支配を打破できる",
@@ -167,40 +195,68 @@
         "date": "2026-08-10T00:48",
         "source": "CBS News",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビアのRSGT、ケープタウン港の買収検討",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLWdBTTNaR2JYSG1DWGNld3BiNGc1S1BEMGFmdVQ5NWplOFlScHlXOFd6UzFwWElOMVloQkZtS3c4cmMzYlZKa3VVeWFLZU1OZXlPNEtONlI0T193eG5GZjU0bldBS3Q2ZGI2c1JPUUxyRWlnSkFlQmQ0RG1KN1BuYV9uajAyMnhGdWJVbGtEUWVuNkQyc3ktQ0pB?oc=5",
-        "date": "2026-08-09T23:33",
-        "source": "The Maritime Executive",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア株式市場が小幅高で引け、タダウル指数は0.05%上昇",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWDlGODVPNEVNSVJCVjRlUm8yTnNISzRhd1JPV2FXOEFuSlRqRkpDMWprSEM1cmZ6LV9xR3kzVXhNREN6aUxsNVpWQWl3aXduTlNyZndfblRqaU44am9RaDJseUtWUVgzbFlIN0VKbmVUb2xLZ0JybEdIelJJM1Z1UjVhNUZGMDI1WGVOcjlxNzBiWjZ4Mk5wTGVSTkNQbTk0WVA0eklmdmotYmM2dnBLV3gtUmRiNkU0M0VzNkhBcVktcjd1?oc=5",
-        "date": "2026-08-09T16:59",
-        "source": "Investing.com",
-        "category": "経済"
-      },
-      {
-        "title": "湾岸諸国の米国依存脱却か メッカ合意が示す中国の台頭",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOejJGdThRTzdVaWJVdGJ3YmdEcW4tcTJ6ZGNudEVYeVNiTndZTEpPWkFSblhMd1FDaWtBZUppdmx5WjhnUWlnS1VCdE4wYzgxRnh4am42NVNpeDBGOHNmSkY5bExwN0ppTWM4alhUZUh4bW81SFp6d3JuU0VQczR0TjJWOGRDVkJRZUp3SlBuZkUxTUk1OVFjdGhUTTVkMkFkVHpQRDZtdVZFb2gzd2FRMjdjZlNkdDI1ODl6NDREd0FQZVNWVVZORE5zONIBywFBVV95cUxNOHJYSGNKUE1YUW9LMzRJNW9oMFFSTGxHSXBPMVhWYTVCNFhTRDlqek9GZndmR3lFMmQ0S0lmb0V1T1NkXzdNLV95cDUyaDY0OHRFd2V6Q1JXdVRENUJObnRBS3NiUnVyYUxLaExhWEpybUFRYlB4OTFWaXpCQk10Z25NN21wR0tsclFEY3JBQWo3T3czSG9CSE04Qk84dURZbWpJY29obzRRLXJFV2VtV0lxejJUV1ZQUUx2dVhoc0VJTldrNVhyTUdZQQ?oc=5",
-        "date": "2026-08-09T16:00",
-        "source": "South China Morning Post",
-        "category": "政治"
-      },
-      {
-        "title": "世界最大の砂漠を有するサウジアラビア、建設用砂をオーストラリアから輸入",
-        "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOU2I1MlI1UXpCbnF2c2dodlJKb0F3ckRxWkxmTm1FV2VENzN1Nk5yMGg3VlJjZW9BSDdjMzhQNllSbHVYcUh0X1JubTVOZWZQMUZSVUdHNEIzY2ZDUFB6bWVkdVJDMFliNkxNa1dUMlFBdnB2Y3JRb2VhWXFramREQlNoNnBFVUFSOUxOdm9zcTdqcjFVMDgwbndKRGNBUml5TmxQay1oeWowNUVJVHBWYmNJNTdsUXd4Y29VcE5TUWk3YjktcWlWSnN4NzhkSTYyMG94aWpEMVRXdFBUUkdJUzU3UmIxMnFDQzBZOGd6ejQ5YUZYTkl5R0lnRlE2WEVrejBJMlJVZkUzcjJLSGpENzlMZk1MajZEX0hGOUs3N0IzYnNOaUdVdjNfUWJ2VjNwdnU5OWtNQTJxOGVIcGJXTFY1QnFhaTQ?oc=5",
-        "date": "2026-08-09T14:33",
-        "source": "Space Daily",
-        "category": "経済"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-08-11T14:12:31.911985+03:00",
+    "lastUpdated": "2026-08-11T19:47:43.984358+03:00",
     "items": [
+      {
+        "title": "サウジアラビア、コロンビアのゴラン高原に対するイスラエル主権承認を非難",
+        "url": "https://news.google.com/rss/articles/CBMiqARBVV95cUxQNFB3SU8zekY2Q2ZRQ01veTNxczh5aGxLWWVCNmszQUo5SEt1TDNlSTc3cy1icHlscHlLcmU0VFZ2ZmRwRGdDS0VCaFB3eFJOekI2QUp1UGF3S3lpdFpKWE1PS0tlOGRXOWJaeDZYaTc1NFFKUXNUQWEwQ3FlbG9ZZmxGQm9XYk9VQWZfUXVFa1VFN3o0d0VfenRnaEs3eldOaGtiempPV2dydFAybWJwMmRLQ3RzTmdVZ01SUmVnb213a3Z0Vk1WSjFUQjlqYmtLcWpzUkhWX2tGSVh6cXJFQy03bUxxeFJwR3o5UFk2MWNsb3NrRW9SbjczTVFaS1ZTbGR0MjI3U0hTcUFGSkx0eV8wRlF6dUh5MTk4NlZCYm5mTE8xVUNVcXJnb3F5ejVBVW9xX2hzb0lOMTY1SWNaSC15NmYxQWhFME1ERV9hak9BNkk4dktIdlJxVV9ucGNJMWUtSGl1b0RHYnF0a2ZDRTN2X1RnVjZSWUZ6QW8wcndCamV2YkFaQ1MtNmNRUVBFMkdoUjFzdjAtQlkwdTZZZUpmeFRXc21YRTAtWGxEeDFXMDhiNjFWOXlwWTJ1RTRyZkpKU0xEenBQSWNkLWxHNEF3MUZSTlB5ZjdXLVRNZHJjbU9CcU1EcDNCOE1xNEozUy04Z3FkVHpVLVljQm5BTWNqVUd5ekQxdTlsOUQ5UzJKdnQzaU9aRzVwS1VGTVI4ODNzN1JBTU_SAa4EQVVfeXFMT1RfT1dqQnlqR2l2bFhoR2YtOGxMOTBVYTNhT0hBam83R1kyLWtMWVAxeU8xU3JNRV9OaXZpQXBRXzJJMFYtemV2TWpyUlBHWGxzQkNWS3Z6R3g0LUNjRmZYbHlwSktxX1R6Znd2andLSXpBNUR0TF83NXM1OVJnQUNiS1VFS1FSQjgtYkZua2F6b2o4VzlublRmd1l6R3JpRzJMbW9VNHJNc0Z0cTBUZUV2bUk3Vi0ybG1LcUMwVzdGclBBdXpNVU9Fc0pwY1psUElTVk0yQS1nSkRUVU9aaTdfRXB0dUhiNWN1THV2Tk9WZGxnbTI5QTJoZUpSemphd193Znc3QlBpRXk3VEhQbVFqTi1nY2xxOS14TGltdWNUbWVXS1VEREJhY05WaWI0RXBuS3ZsRzlkaUN4M0JmMTFEM2JxaTJNWDhuWlMydUJzWG42ZGZxcGhDWlNjaVFLTFpVZ090Z2Q3R0NPLUdHaEJjOFFGcWNkdG5FRFFmUUJVV0RTb3pGclVTam9LTmpwTVk5ZDJxT0Z6cDNWWUJMems2WVRrd3BDUUo1clFSdVVNaGtMemN5MjNzUDJTSWVJOTNINEtBQUVVWmlJSVZjNnBqc0VQSmphRDFKbVhjNWVpZndKWDVsR0RXZjEwYWh4RlYwZmVPcGtHTlc1YlM1VkItMUF4UVBjazkzWWJNcWh3OFowcmc0VGFoWjJ3Y1NneWFVS0lzQ1AyYW55cG9R?oc=5",
+        "date": "2026-08-11T15:07",
+        "source": "العربية",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア財務相、株価指数が1万3000ポイント超える見通しを示唆",
+        "url": "https://news.google.com/rss/articles/CBMiswRBVV95cUxPTjRDakIycmREV1h1WUozbVFyc283ck03VzZHXy15bzJtVFUzcjkzX0xZcFNKV2RYWEJ0cldDeVdERFh1SXpMMm1YM20wdDdqQ2JMM2lsOG9kdzB2R2w0UUl0SjJOclpZc1dHYXdSOVdaX2laR3djV3A0Qmo0akliVC14ek5hbUJJQThFLXdvR3o5WVZhYUJzdG0wdmYwSjNucEYwUFQyRVpoVUY0VXZoU1FPN3ZqMDU2aUwxa2FSc3ZrMTVlaHlfZEdxTjN6VWNrZUNBRUFMV3FFc2d0OVZJYlQzSFA1WEVRN193dE5Vd1ViQ1dtd084OVI1eFFGQXJuSExBbFFnZVBCQWxOUUZPSXhDOWlaeURSWmZQVFBoT25sX0lqbVotREFnTG01MndtdWVTV3RJdVlMMTRSUWNhU3VRSWoyX2VHLVNfM2puV0pfeFl1dHFzY2p0OGNXRmY2LWxreVg0bXdSTVhEWDZhUmxhZGRHdk5UTGdHTlYxSVdTZE40SzM5WFZsX1NNTjEwbnNnc0EySWNwcU5zd0szdndGLVh3YmV3TEdNanFkOWgxWUk0RVF2a2ZsQmxYb1ExdmxJNzJQTjQwNXVsQlVnMF94RzBrcHJYU0VyaFA0NmlnNXZ5SDU4SUV1LXRBM3hNWmdkX0J5emd0c0RkX1p3Mk81NXlCY1IwZC1LVzVtM3Z1U2NCSzBndG9pZC1pSXhIaWdsT205YlkxOXUtS3QzOWZrb9IBuARBVV95cUxOU0c1TTRDUXJvRm5zcGx4dVZrUWJ4NjFlQzJTZHdmVU00VTNnMy1WeDE0QnFYQzJndFJaakN0Z3M2dFMxc3pjYXNzS2ZJN0lyRWN3Rkx4WThfN19fYURyWHVTaWpGb0pzaDNwOW1Md05iU1BBSWk0MzVTRXRFZVoxNlpSUTYycmZQSk1MVkZqXzYtdzJ3WG1MZm9zRjNITFUzelJqOGY2UklIcUtfZVF6RFFfMFhIWTNKWlhvWW1HRkszWG1hWXhhNnlyVXdvSVFrV1o0SHk1SEtkRUhxdEF6NDRNdWVFWWo5ajNZV1FPYVYxVFJzUU15Y2F0MF9qeF9oWUFCemVYM2cxajFpc05nTkNOdS1jQ0FfRUNsa1lyejhXMHlsckFCbTlORi1IcVlEOXljZ1d4LURma1NjbzZuZHBHZlNKN1hyMUVfOUZxOU1Ram0zNnFXQkx4SVhFTGtsTXpRMk1jWHpGY3BMZWIyT2ZGTzJ5bDN1VlIyNXFPUUxGTFJmVktIRWZOWDhiRmZzVUxUaE9hZ3hvM3dwaDNtTmdsUTh6czlZa1ZkeXEzM0NrVkdGYm9Nbnl0aWxfc0VoY2JHcXRVbERHZUl6dWFvNi16MWxYWVRTLS1uLThxcWE4b2lhU1U5bGZ5MVdmRml4aWdXUXpUc1c1YlB3RjRnWE0wak96TnlRbzVqSUNQQ0JJYmJ2dmtPLXZPU2VpdFFwTV9CME9XTk9jaHNQU05DZlB5bjJDNjlh?oc=5",
+        "date": "2026-08-11T15:06",
+        "source": "العربية",
+        "category": "経済"
+      },
+      {
+        "title": "アジア連盟、2027年サウジアラビア・アジア杯の審判団体制を発表",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5IYTQ3RkNGVUJoYXE4WC0yMmg1ZnBvY3ZUZ2lQZ3JmRzNoTGR4blZPX2VJMnZuam5kZ3hLcDU3ZVFPWmlreWw0?oc=5",
+        "date": "2026-08-11T14:48",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビア株式市場、主力株の下押しで0.1%下落",
+        "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxQdEQ3X2dySnF0akZTcG9BM2JSdzNkbDF3V21xbEtENjNaU2VnS0E4QlRBNWRYY05xbkJ2ZlAtUEh0aFVVQS1HcmplSXk4ZElSUkhRUnBlWmVCWGlsXzdFMnB4X0FiM0JnYUR3c3MxSlFMVjdhRG5xc2VCajdzSlh1dVNwSVpHc250bGJWdzFvU1VMYzd3a0gzcU4xNXRFTXlrNnZ2M3otSGh4VWE2c3JWaXJYbGhtQ1A2TkJkc1NlLU9jb3l1TkdfVnp0YlhIdnk0RG5oZlZOOW5XM2N4NE1UMFlfTzlla3d0RWRoX1haVzl4d29jY3M1TThneFlseGhybGtlWWRieDBZdEg0RjNrbVJBTDllT2xCRjBrQV8xWnNWX0hSb2dEY3FOWEg0dmVab0ZyNWhTanhQVDdPV2F2STR5c2dsWnh4RGZYRUR6OU1JS0k4dV9mQzBoVFM3RVZqc05UZ3dHMzNTSl9KN2plTXFMYnkxNFZ4Y2FxbTJQRzJ2Z3ljVG10eGhQVXBIVDZzU3pBWmFZN2xzcHdUc3NCNkRtY1JGZw?oc=5",
+        "date": "2026-08-11T14:12",
+        "source": "الشرق الأوسط",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、建設技術の革新で事業推進を加速",
+        "url": "https://news.google.com/rss/articles/CBMijwRBVV95cUxPNUVCMk8teXVBQ2xkYjlkVG5fbktvNEhtLWNuVG9VbFFMSFRwMDRlbmlISS02ekJaMUMySGNnZUcteUd2cnpmWFg0dWs3MjFtaUpVbHRqd0FsMUktMTJyNGdRRjNNV0p6UWExVXJnR1JFZER5Wi1XTUotdzFCWTdUREZfQ015MUdtSHV4NEJOQUZ0MEJDSnpLV3ZSa2t0SHNicURmM1NKa2hKWnRSUHZDcFYzWTdLQUoxNk14bkNwZUg1T0taaDJTbU90YTM5OWkzLWNWMWg3ZmFHd3ppSWVyOEFfc3Y4WE1lNHlHMnQ5MFhIcWpjSUNjdTJnd2UyMmtZRXFEa2JlMWVFUl9RLW5tcG1ZNHpZMFM2Tk1QV3VDTzNJd1Q0QjlDOWVpUzlDai0xSGM5WllmSFpBNWF5SmI4NVBTY0J3d3o0ZXUxZmVvV3ZVdy1KVkw2YkJyclpzNG9BaEJEaWktak1zN3B4ZUlfamxDdUN5eExUSVREdzlTXzV2RzhPbHFpdXVHcm1sVU5JNFNvay14SEVqMW1JMkhUcVc1QXdUMU5lWVQ0d1NraEZVeEt1QW5HUXNCSHZSa0xWaklOM3BSX2FMX2ZlOVY2Vy1MMEZERURXMmItWEpoalBIYXZHeW1hWHlaX3pMVC16REhlWW1welFSZ0FLV2VWNlltSGpCV0hETzlxSUNXYw?oc=5",
+        "date": "2026-08-11T13:50",
+        "source": "الشرق بلومبرغ",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア証券取引所の取引終了、サスコ株が上昇幅を縮小",
+        "url": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxQQ0dLVldMUllPU3p5S1ZIc1RQdlhLeFlDTmlTZ3ZzTTkwUU9xdFBNSzlCOFhjOGtIS05wYWRsQUdTanlxMDBjS01wa0pRSU02S1o5aGx2S0kwV3R5MXlRbnFEclNsRTlRSEphSjQtTVRUaUluV3FEa0pTYmNJY1dCaWNCUGlBaC1heGloX00xY0FrRDM3Tm85MEJnNWg1ZWpPVm9XUExTRG82RHJKMFRiM1FtTEVfSXI1VEhZcDE2bnpHT1pJR2ZTTG52cE5pdlB0WjkxMnVOOWxuNnRvRUNIWHd4WERmeTktS2tieUlXeEZMbEZoR1d3bWlCNWlwRlFkZzhCakw1aXNwUVVfQ0dZYmdXYzJNN1hFM1AtWkVQaUJrVjFVMWJFNU5zZmdndGdRQmpQR1h1TFV4ZUdzanhqRHU3bjFQSklmNmRJc3p5eTlVQ1dfb3BjTTZwSGtfcGluT0VPR2JEOENZT1JwMTVjLThCZnF5TllHYmJVSWNEVmdoTmQ5RERiS0NTbmxzeVpUMWEtWXdEN0FKUFRVYmhJeERxajVGcGE1UTV3aFV5a3dQaWZRNWJ0LU5ZdkVoZ3l0U1J0VUxuVHVJeUxHeVZwS1NwOTQ?oc=5",
+        "date": "2026-08-11T12:56",
+        "source": "الشرق بلومبرغ",
+        "category": "経済"
+      },
+      {
+        "title": "アジアカップ2027サウジアラビア大会、開幕まで150日",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE95OXptVUluMnB4WkVlemhGTzdhaXF5SW9QVDJzZlU5d3IwSklXTlR5WDRlOGw1MGt1UDZuV2FaODJIR0FURmc?oc=5",
+        "date": "2026-08-11T11:46",
+        "source": "وكالة الأنباء السعودية",
+        "category": "スポーツ"
+      },
+      {
+        "title": "AFC、サウジアラビア・アジア杯の審判団発表予定を明言",
+        "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNcVUwbnF2alVTNzJpUElJSmhBX25pRnFXSGhPdXp3ZHBINmxEemxNLUxKZ3UwMFFVNzY4al9Hcjd1UmRKY2xaTGJ6anpGNXNMUUZBdkhHRVl0c1pqWmN4eDg1ZzJSRWZwTnNLeUt6Wkl4YzcxR1NleFMyVHJwTG1RTEpFclFpeDZBMENVZmo5TlNiRkg0eFo1OUYzampfLUY4NXJSaUtVQTNDWUJCZHJ6bG1ncmFSSDZxRHZvMnNYWWRwN1RYQkVNZGc4anBQbnd4U21vb3hzeGwycFhYX3hsaENnellNa2V3OTZxN1hfS0J0bG45aW1SMmVKVlUwZnFveVBteDQ0Yi1ZSTJfXzhmSmtWVGgtRzlEaWJudGszMjl2UUVDUk80dDhIUmlRR09aekVVWWlfZXhtczNWY25kVXRQbWhhcGdGLUJzbjhOWV92VGhtcnlvTFRjS29EOXlYYlltODZaSnQ0V2txYkVpWGJOd0JzTnhFeFUwcVdkM09qOXdLREhj?oc=5",
+        "date": "2026-08-11T11:33",
+        "source": "صحيفة الرياضية",
+        "category": "スポーツ"
+      },
       {
         "title": "サイワイアシステムズとサウジアラビア電子材料公社、MEMS技術の導入で合意",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBqUXZRNnhQOXdPODd6aUE5Qzk1NGpUZDNDeWN1cjY3ZnA5NkVlcFlNLW9RYmNXQ3EtM3l3dmVycW12OGo3UVJN?oc=5",
@@ -209,72 +265,16 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、ライオンの再導入を検討 野生動物復興プロジェクト",
+        "title": "サウジアラビア、ライオンの再導入を検討か",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ1NtdkhNNExwOEJZa3E4UzVyX3pYM1NYTnBuMVFpZFRvcU9SeUdyU1BHaXgySmpCdm8tVEVKRXpTdTRjeDgzQ0VTa2tJVDE5bHVFMTVaZHcxQm8tOTR5UkViTkY1YXJ3dWliQWhWUDhwOTkwZnE4VjFEM0VsT21tSGlzMmJobHE5U1HSAZQBQVVfeXFMTVk3VEduN2s3aHpIRmM5UVNrXzlXTmdRaThaU3F5VjZaeTZVWW5BMFdRaWk0ZFIySlYzY2daamNwQ29Db3otcjdUdGJkVWFaSndtenVwc1NwS2JaSG5yaHZPQWctOENHMm9BdmpxMDFNRzMwTHRJdGVBckpuSkNpU2Z5TEtXT2RYdlZ5cmIxUWwxNWo0Uw?oc=5",
         "date": "2026-08-11T06:40",
         "source": "CNN Arabic",
         "category": "社会"
-      },
-      {
-        "title": "サウジアラビアの鉄道、2026年第2四半期に3800万人を輸送",
-        "url": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxQa1p5b0FmczZrTEFYVG92UkRaWms4VXhiOU1xTThyTmpKOTFyN3NudkhJS3BRSVZuZWZDUy1ucG02OW02MVRfOUo0cjFBMXRYZ0UxMVMwdVIyUU9XQ2NMaVlyVTVMU2F6QThabEdOTlhxMlZDUkViaXJFNG9kZ2Qxd292ZXBXbmlkZTNSWklTS3dOd1FuRkMxM2FyNmlPeERLNGQzNl9vcExjMmoyYUdjRXFVUFRaS3M3aUtLa012UWd5V183VXZKc1ctMkZJS0picFR3bkE4VUUzUWJxLWJ2Vmt3SVoyTG5QZlZsazJLSm12NzdVdEd6c096N0NJY0tCaFlxWXdZc0ViR3ZpTnJFZGZGQ2pjMEtFX2VMRGVKQk4weFVqQjZfMHdtei1RbEFodXhxbVBqb1h5VjRpRjBjQ1MxRVBqRjNMbU1HR0NYYVhBQ01BbkgzOWVMWkVqVlN6R0dWZzR1NDhRUVkwY3VBYmFid25QcFF3c2F6WTJfaDhFUlFQMEFkekg5eENaUUZQLWJ0dXFmQmpNd3FUbjRjdmJRWTZwWEJIXzlHQnVrNmhzelIyTWlvWEt2QWpjV0VVOTdPXzNSRU5kRDh5N25sRlFpMNIB2ANBVV95cUxNWmJ4N2NYM3ZtZGdqYnlxMXFzd3N0WllIbVdBSHZYSlZ4UDk4NHpaOWp0RjJ1UXRKNmF2TUI0SVF2c05ZWlBBZ0hFTi1pWlEyZF9OWFgtZThkb25ZY1VTWGZNOEhXdGM5eTQ1Vzdad1puV1NZY0RZLVA1dFF5LUtYenhlYkt5QkZYRUg2anBXeWYwV2p2MVEzTmJLcHp6WllKNkphR2tOOHpPM08tMnlteUNOMUxMVEU4OFdqZXV5RW1JSFFKODB6VHVPX0JEUGloZG8zalZHUlphdC1KRDFiN0RCUlZwdl81OXFwQllyUVRQVW5RMlNXd1labTExa0g5RVlMX0tvdnZUWGh6eG5wU1lOTjZlSlJRUEdQN3cwbUlRV2dNNkwwT1pybDZtejBTYmpBajYxalplRFJablhmV25oNU93UjQ0eFBjQk5COFB2MWxra0QwM0hjZjdVbnVLdmh2b1k1ckRGMmFCOXI5S01DNEg3TFBLZTBaREU0Y1RQTjUtSl9helRnNnpvWndkTmNMOFBOVFVRYzZfTW1zc0U4TjQxLXlMQVk3QTNYS3BweV9wYUxVZDNmMGhvM2VmYjRjcFdTUl9tX0VYSkJhOGdIb01kSUhI?oc=5",
-        "date": "2026-08-10T23:42",
-        "source": "العربية",
-        "category": "経済"
-      },
-      {
-        "title": "イタリア副首相、サウジアラビアを不可欠なパートナーと評価",
-        "url": "https://news.google.com/rss/articles/CBMitwRBVV95cUxPRUVfZHAtVUF5cVkzN2Q0Q2c0dUg0U1VnMTE1ejQtODlGOC12algtNjYyUGxQRkdyUGxTRkxHeXZuSzd2YTk1blVrTm9nazVaSVJsUHJVUW5LZndiV2lrWWZfWHVVSjAtTnNRVVR3OVZiaUd2MVhEY1VrMmNPWkJSTGpLVFVwVkpfNkFVYVVEeWI1WmVWaVBod2k2TGlDdFVJWW8wamM1TlZVU1kyd3Fvb2RjT0NQbFI0d080WTlUMDk5SzBaVjNBOF95Y2pURDYwallheDRKamQwT2JuZVUtbVNnNjRpNzRtcnZ6QmxMY2VSVFh0NFZXZTNUck1rbEhOQzU4c2QxX3RISkM5WldfdXVJRkJsamM0cjhzdXJ0LWYzNG5EVVA3Xzk2b1dXVmMwMFV1MzNZZW1zcTRVZ25Kb1pVRTRDbVAtWHA2eUo3ZjdBamFyZ2o3UXNNVlpab1l3X1NsVmRuZkprX0l2eV9MYmJiV3hUSW1seTFFbEl2ZnpkYy12RW5PczJSZWI5c1BRRVdxeDVWNFJUdng0VHNTZ2Jfbk8yV3NuWHc4LTJRaGYxbWFpZmlhbW5NWDJxVGh2Y2hMYmlhYkYweGhpX1hxOWR1VE5iVS0zZU55ZlBaN0xYQzlIMmp0bS1md0QtNjFXY0FnM2VRRGtlVEVWc3dzOHFSamVyRHJ2NVVmVm1PWFd2SDJjN0o1RmdRUExmQkZMb196Qy1mMGVIc3hGb0VxOTI4TnhFQjA?oc=5",
-        "date": "2026-08-10T23:12",
-        "source": "الشرق الأوسط",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、イエメンで二正面作戦へ",
-        "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxQVTRDVWpQRzNqdlR5YzJKRDBadGpibUtBdFlsUU45VHljbDh0cUlqbXBVQmpZdzUyZmlTWm50eVdidmNJR1VxX1RkOEZCbzQ4QXNuaFNjc28zN1lMbzQyc2R4SlNuR1g0QThGaEFjbWxoQlV3Mk5ELWVic2ZIUDhDdERGajhFT3VjQ2NkRWFiUjdILVFRdmNVUlI5S0Rwc05aUkJld3RRQXQ1cXdsRnZTT2lvYzhNbXhueFFkaUZXUEtKcE5hN3E3RDNEUHl4Q2FGb0hYTkM1SWtnT1ppTmsweG1Kd01IUUlkc29GMlhWdU1tUURJaTFCNDFDYVhjeENVU2s1RGZXa0F2dUNoZTJKeU9JMGFoTnJtY05HdXFNaXJXdExJTTBnTjhzTEtpUmh0X01aZFB0S2RvOXdwN0h3NWdrbGJ2NXczVjJRbDgxdGt2WGIzLWpSd3A0TEtxSmw4Ylpya1JyVjVKNUpZSnVJYmJR0gHyAkFVX3lxTE9ZWVo1cnI4VWJNZzRkcXhHUGRjS3VsNFZUMzR4S0E0Tk9sU3A3MlV0Z3QzQ0dfc0kzMkZ0SUFGUjJPZUFUMjFPUl82RFpxZ3hFRVI1UUYxR0V4c1NRa2FVMU5KWmhJbGZrbWktU0E1bUtKVGNVZEFVbF9yaHJHOTRhSXA0VmZmcW4xTnJqaGNLUjdBT0NYY3NJVl96S0J6RzdEUEpYLWk4cmRzellmcjl1YUVRZXRER0NfamhnUmtnSGxQb2kyVi11bExvczFsSjNCcFJtOVpOOExWZWFPc3FuaE44eGlUZEJ2aURfc3N2UmxMcjNTS2lTMUhpQXgzNEdrQURUa21xeXRjWGpDeHBMcWRWVWgtYW4ybERYbEpfaXB6dmpuc0pSM0I0RUNlY0laaEJxZlkzTkNGZ0ZrQzB4LVhOSXRRaWJlcXdlTlhpbmJweEY1WmZ2UzgzclNOZ0QtVDhYODlicnVWaHVaLUxralE?oc=5",
-        "date": "2026-08-10T21:29",
-        "source": "dw.com",
-        "category": "政治"
-      },
-      {
-        "title": "パキスタン、サウジアラビアとトルコとの「メッカ合意」の概要をイランに説明",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcVBIQ2dVRlNwV05wemFLQ0ZJOThNUlFvWFl4LTdHT0hLNmJwTnBVQXFycUgtQkhOVmN4VGh2eGpRaFZXNlUwS0V1UzU3N3RMeVV2dXBJWktUeElqdm4wcHZCVWlPXzhFZFpRQUktNFRLaHptZkxTcnVfbG4wZzFtdzNMdXFZQ0lqUm1RY2tCU2Rrb0VYcWs1clAwWnU4MlhPZ3ZNdVpVR0dGdG0xZ0ZheFR30gG8AUFVX3lxTE9mQk9uVUZoUGlpY2g3MHoyeXNNbVc2VmxqVVVHYzd3NDM5MjFibUN5Wkdta0txenhQWHNNT3hYOTFDMnI1NVQwcjdCLUM4NjF5cUNqTWNPWUNRZHhpTzJOdnAyUENBRnVuaFBrMnZveXdua0ZkQl8xSUhLZ3IzMVozR003cGtxSUltQUhxcUszekJ1U1dnRmRZQlhJRWVKR2Z3d3JTWmxzUkpELUhjOEh4RGo0eWdUNmxTcEJL?oc=5",
-        "date": "2026-08-10T16:13",
-        "source": "CNN Arabic",
-        "category": "政治"
-      },
-      {
-        "title": "ヨルダン銀行グループ、サウジアラビアに初支店を開設",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA2RGJ2T01xZjlMaGNGMlN3REJqRXVVRWdkQ25lNUd3RVFSMlVXTEdTb3ltT0F5R21iRjJKTk5fTC1zOGpfUjFB?oc=5",
-        "date": "2026-08-10T16:02",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア株価指数が上昇で取引終了",
-        "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNMnFud0Z2cmxpUnRKdDlyZHJHSVNKU29wZDZXa0FrbDdPTkRsWDNtcWpyRm1MY0Y4WkVaUWxYVEJBQ21udGdVRmtJMFhfckk1OXhnclY2WDZOVnBfSFh4ZkNZZW9NdTJDZjdjNHRiZnJVTmhPcV8xb0swVXFuUUJyRXFQbmdiY19MeDcybl9Ba1R0LXJWRDVTeWlkMDV6RWgybG4xaENiS29rb3h2YkdZSjIwNjliR0NvVDVneVNMYWJFNlNMNl83dmZVS2xqamtBRFN6Y2Z1Z2VJNVBfaG1QVExjZ3F4X2dPczN4NWstb3pSR2I3TzI4S2xOaWVEclIxU1luYVlKX3ZWM0xEVnlwOHpLVEJubmdXVGI5SU9fR0dHaGVrbjdQekx3b3lqeW55R2lRSkZzc2JDY3JyMEpuSGk1N1NkRlVNZjRKdnFsU3Bla1lyd2ZlUS1ObzkxUQ?oc=5",
-        "date": "2026-08-10T15:26",
-        "source": "Qatar news agency",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア女子ユース代表、スリカンディ・メルデカ杯に向け準備",
-        "url": "https://news.google.com/rss/articles/CBMixARBVV95cUxNS0tndTBJMF9IZkQzVWVRd1BMT3JlMDNick5zd25oZjdEekRxUGF2T2xHRWRTNE9IY2NKUmFWMmQyODlGa0NPRlVxQzEyWlFLazM5bXI4ejZHM0NPUEVFWTFpU1drM0NMdWdXblo0SGEzQjNxS1RGcTREU29ka2twc3BQclExTGdWUEpaanVCOWxiS0FkZ0xiQzlTX0VoZVJOanlHNW9oT0taM0NwaEtudjNiRFhHZ0hRbWhrM3RRd1pKUm1mX0Y5V2R2dWlqendBbU1BSm1XWjFKQ3gwVzl0QnF6VG90enoyZnp5VkpPZ0JuNGRpNHVRX1hFa0VGTzhtdzZ5cW5GdHBBbmhsV1U0ajczV3VOQVlPUDRFc2lJN2g1cXMyNmtWS0d1SlV1NGNrMEp4aTJCWUJEWTR5OXM5V1dSU1FpaUNoeHpETFZ2dFo5VmFXRlV5YnhOUklfRlB2QVBOYUFuVkM0eFlkTE5qdm5Ya19vUndob194bW52eWo1QnYxU3poMmJEQXRvSVZvRmtDRHg5MW95YVRRWmkyTjlQVkdZRmc3YWVQTFh2cWFRZEpoTVpUVXlMSnJxYWRrQ01NZERGUXdCY0RYWjJRRmJWemxlYWdmcWR6Nmt0WlhDSHVGU3RaSk5lbm55aTIyUy0zektHYlhvQlFoLUVLZlhrSTVGUFFSdERuLVlNbjJ3N2lGeDFGYjVtOXZqWGJsX1picHRyUkYzS3E0YlgzV1RRNU1wZjZzQTJFMmZ4dllZVktT?oc=5",
-        "date": "2026-08-10T15:24",
-        "source": "الشرق الأوسط",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビアの不動産大手、2四半期の利益が9.4%増加 2750万ドルに",
-        "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxOa1FJRXlOaGFhN2xiMlJ5MHFKcWdrdHBXNXJ6SEdPQlAyZm5qZG1WYXNvTWVwQk91NGRCNWgxampMYUdKNzZLeUQ1ZksxbnV2d2tRN0dhbXhJWDQ4T0I4ckdOcG14VFpmUUljR3c3VXNmLWlYa3M4Mk5vakFYNGNJUnVxNTAxWGpMZldlX0w4dUJkbFBjVGhfMGs4NlhJaVVDWEYwbHlYbV9VeXZOVUZUcTBTTDFxdEJWWExzWnlqdm1vUTRaTHQwOFpRQTVPX2twQndLMlhnbk41a2JaVDh4aXF1SGpiWmtsYTFHVlh2a2F5R3N0TUg2M1lsa1FOd013NkY1ekt3WmtTd0ZhVEU2c1VUNHB1ZmhqNkt4YnVteXBMMHZGOFFSMDFqUUstOEFidTlwUmQ2VnAwSU9PZlh3UHFZV1NhMjlSWUNVLThKUm5MOW1Pbk1MR2RwT1A4cVl0NGxjdk9MZjBNYU1HNUd5R3BNeHlIMzJYa1FldXVKUU5BOElhc2FwbF9nQnZKa1RpU3dhMm1oVWFkOGt4bDRYU2dWbzVMdkRSY1htS1lORUgxa0JDT1YxSGk4dFRPMllKNy05c0pZYndLOUNmcEQ3QjUycDlKT2RmendGbm9GaWlJYlJxYWlPSnpMYm15ZzVVY3NZSW5rVjZNQXFtLU5vY0VxU1hxcU5D0gGOBEFVX3lxTE9hbXNNc2ZpWnJoZjJaM3VvakRmNWlQVTNGVE9UTmM3UldTMDE0dVhLRmdGbl9WaWF4Y2ZxY3BqRVIyMkxDRnpHRmdNSU9XWG84NUxKXzZDRk5wUm5GVm1UUjJuWHJRanlfWWRMSTVrd0xKMC0zR2dWc0tBdnBGUklYdE8wc3RGMjVGSG9XWklETjVqa0c3WDhiQUp0T0dUaTI1U2h2N1N4dnhrWkVCUlR1ODNmcHdzM0ZWbURlZDBqU1NwRndBYUZ5bno0bW44UFJjU0pzaGtQbGQ2NVYySDhWVjdVYVFLX2VrbVJWa2lhbzBnQ2hNS1k2T1JrNW5pOFozb05ZeFFDNkFpVWZBN1FQT0xndTc5ZE9hNzBlaHRQLUxEcDlGV2JQLV9hMm1mZFJRa0t5d3JGOTVIM2VyaHBvUGNobW9sUEVWOVVXOGphbUN3N1VWS0JHV25GM2R6NS1GaU5VNXlHUXQ1RnhqRHJWem43b29LQlplUllzUFhJbS1zNjdhM1F2a24tS1gwcFBzOURlaFFGeDE1cGNoMFMyUXAxdkZkbGhCaXljSmlyNkU1alJPOXZhc1Q0Y19mNmowUFJFQUpzc3NGZ0QzQTJSaFRDcFcza194UU1Meld2LUR4VWlBLTYtUnMzbzlhY0M1Nm5LZ3dvUXZING5vR0N1MTE5Y2xFa2dUeXJBYUE?oc=5",
-        "date": "2026-08-10T13:51",
-        "source": "العربية",
-        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-08-11T14:12:31.911985+03:00",
+    "lastUpdated": "2026-08-11T19:47:43.984358+03:00",
     "items": [
       {
         "title": "BTIGがサウジアラビアの活動活発化を受けNESRの目標株価を引き上げ 執筆 - Investing.com",
@@ -333,17 +333,17 @@
         "category": "社会"
       },
       {
+        "title": "トルコ外相、3カ国防衛協定「ＮＡＴＯ第5条と同等」 イラン標的を否定",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1puRWNaWk40QU9qVEVtVHYtLTRqSXBjbVBYNzhRd3AzYUg2UkVIMmI5bmlYOHpxUjJPYmJDbG5KbGRVbHliOFFnTlBheFlaRzZCLVN4TE4tbS0xUTZqVlRvVTJqZ1doUnB4b1U3NjctVndNYzdqYVVPNUUwY05KaldR?oc=5",
+        "date": "2026-08-10T00:26",
+        "source": "ロイター",
+        "category": "政治"
+      },
+      {
         "title": "フーシ派が紅海の港を攻撃 7人死亡 サウジアラビアの石油施設にも攻撃",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1OdXVuamc4eW9OeUdKaFdvZ3hjTnZXSi15U0R4a1poN05VU2FrTzJvcmJiVkxmRnVlY0h5QVRZMXhnRndvb2RTQkxRdWl5VmVaU0pBeC1UMA?oc=5",
         "date": "2026-08-09T18:51",
         "source": "TBS NEWS DIG",
-        "category": "政治"
-      },
-      {
-        "title": "フーシ派が紅海の港を攻撃 7人死亡 サウジアラビアの石油施設にも攻撃（TBS NEWS DIG Powered by JNN）",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTQzBjSGxEc0VFWWhnZFM0cVNPcEt5R0piWkZ1MHJneGFkd2RFbUN1RUt0LWstdVVmZVhDQ3VlZkdmaUJTdG15cTVwcm1XYlQ5WjBIeHpLU2ZiT3pCZTJfU3pLek9TbDk1TXVENUV6dmFGNUNaQzBLdjRpWHh3Zzg?oc=5",
-        "date": "2026-08-09T18:50",
-        "source": "news.yahoo.co.jp",
         "category": "政治"
       }
     ]
