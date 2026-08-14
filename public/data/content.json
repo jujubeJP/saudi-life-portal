@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-08-14T14:12:45.690446+03:00",
+  "lastCollected": "2026-08-14T19:40:40.184930+03:00",
   "security": {
-    "lastUpdated": "2026-08-14T14:12:45.690446+03:00",
+    "lastUpdated": "2026-08-14T19:40:40.184930+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-08-14T14:12:45.690446+03:00",
+    "lastUpdated": "2026-08-14T19:40:40.184930+03:00",
     "items": [
       {
         "title": "イエメン・ホーシー派を巡る緊張の高まりに伴う注意喚起",
@@ -78,7 +78,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": false
       },
       {
@@ -94,7 +94,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -102,7 +102,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -118,14 +118,28 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988294.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": true
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-08-14T14:12:45.690446+03:00",
+    "lastUpdated": "2026-08-14T19:40:40.184930+03:00",
     "items": [
+      {
+        "title": "特集：「イスラム版NATO」が揺さぶる国際政治",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZmxod2RlVkZUN193QllZSFlQa2ZQemFkNFV1VUw1QzhKUHJtT3l2WWprNHZzbWRrYXpNOGY0b0dJalRmRW9HUXNoN0NXWG1hbWxETjZTMU5Ram5Jck5qT0F5T01MSmVwWWdxUUtDTDVqb3k4azJiYXFXYnNfUWhHdVRSRlEwQVlLQmRlcjA2NXhQVnpPejZHRDlmNA?oc=5",
+        "date": "2026-08-14T15:11",
+        "source": "Geopolitical Futures",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、紅海防衛同盟の始動を発表　実効性は不透明",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV2Q0NUJmRlBNNXNSd3RjekpaYmFoLURuNHdLTDBad3VENkg3cUpCcnJhVnFvakhrUGVsNXFIX0xTcWgxZjd1TFVqaXdHckNvZjI4RThEQVFJb0pYbVduUmFycnIyc3pDWjZuamxLSTc4NnlnQ19JUklDZlJXNlV2NVFWM1JLM0ZIYTVGZVpidHZRMXJLOXdDeE1OV0dId29XMGtlVW9kUHZ5TzFuVTdF0gG0AUFVX3lxTE5kclVtRzc4ZTNYeEpwNDVqSXFLUXRfZFFuTFE5N0J4bG5VZjd2WENjNTJEYzZxcGpXWTNsek9GeVg3NDRDUEM3U2JRblBsdmx0UTc1T3VETWJDSmZQV2xGU25UdzBKMU83TTNiWEp0dGtpX28xeVk2VWlpRTNDLTJLQ2g3NVR0R3NPaWE3OVQtM1RjREhkaXVBU01Yc3ZMbDFzWUhpYWduaDY2b0RQZWFTQWtaNw?oc=5",
+        "date": "2026-08-14T12:48",
+        "source": "Al Jazeera",
+        "category": "政治"
+      },
       {
         "title": "イエメン・フーシ派がサウジアラムコの製油所を攻撃、脆弱な停戦が危機に",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVXBsbHJKenlrWmNYWHQ1UmE3a3BhZVVDcVY4Z3FwbE8zOGRuSmx1ZUwzSXowUFRtZ25CMjhFem93YXhPWHhPd1M2NU1WUXBfLUg3S0pHeE1JTm15R1hqS3JfTjE2RU9xUW9NdXJRTWVSaG9ybzFrUElBb0F2cTRyc1h6ajN3bVBzODdJUGd4SFB0aVJycThQZ0J6akZFd0FqcVZlajJ2Tk40UVhoZC0yddIBtgFBVV95cUxQYTQxdE9RQjBlU0lGTGxFTVdpR2dtaExFbXZCUTM3eWVkclZQUkxpMHpKQzE3aUhsOWJSUWFidDhjSWpRd1l4TzZERkxiQWtlTTg4MEVJWDNYZDFMVVBGNEhBcUxfRkFOc2QzUkp4NFZnRTVXX2FtSlhqMWk0UjJoSkFRU0luMzhvMXFMYkdVWFNmcGxpMjNMQkR6SURpUzk4ekNHM0ZpUExuaUVrNkR1RDVBZWw3QQ?oc=5",
@@ -134,10 +148,24 @@
         "category": "政治"
       },
       {
-        "title": "サウジアラビア、海上防衛連合の設立に15カ国が合意",
+        "title": "サウジアラビア、皇太子とアメリカ中部軍司令官が防衛協力と地域の緊張緩和を協議",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZUVZeTBEdUhpMlprRGdnNFhZTXVjMzRJUThSUFRoZWdISmZ1azVYRFFrT1ZURTZjbFhUV0dZR0x3OEUzbEl2aEFhSlRCUTEzYmxab3Rvc3VzOWh1N3l3NU5fMlRIZEYwU0d0OHhjeDdGbTdpeDNrNnpWU1U2R1Rwb242bTFheHMtSGFBZnAwYmxxSEo1WWFsUVNRRHlLSW9SNEJVdUUxQ0JJdWRvVEFqVTh4cTk3T0Z1aHR4Rno1QllHYWtDaXdfeWtQNzJLSHo5?oc=5",
+        "date": "2026-08-13T21:52",
+        "source": "The Times of Israel",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、15カ国が海上防衛連合の設立に合意",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdldIZ184VlpXOFJSZ1hZZVhkWGpWYXRXVXFkd1lPZk1CUE45RjVuZ3RrbUxfXzUtaDRJLUxCbzJmUzY2M1k5cGdBTzR4UDhZazZlV2YyMDFGVWRNME14SVBEUWdvSnhKeVpWbko5YWRacE40Zzg4aDNxWkEzSmdqRWdqSExHdWNIRDFuQ3d4ZmJRWkJNOXFNamFvYnJvbGNRMS1QZUhJcDV0c0dHYnZKV2M5aDdjeEJPSnpXNWRXOWt1WGlVZ0JwdUtB?oc=5",
         "date": "2026-08-13T19:58",
         "source": "Anadolu Ajansı",
+        "category": "政治"
+      },
+      {
+        "title": "フーシ派、サウジアラビア南西部のアラムコ製油所をドローンで攻撃",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUFFkWTNVTGU2OTg5am91anBGMkNkN0NpT1RqcFFtcHl0WXhNbklrNDJGWFRXbHlhODhmMnZBekNEeFJ2ZHRDY3pybERnQ2RVd0ZQbDNKTVo1RFJ6WjNWWml4ZlJTTE1UbFpiQTJubWYxMkE3LWd4NlJ6eFoybWl6WWRiaDJrY0E1d1JGY0V0MFpRTk1XVTlKSmxQZVBvTHZHa29mVDNicnpIcXNldmhib2Z6OG9rWDVH0gG-AUFVX3lxTE84ZW5WVnBYVk85Vl8xM0gwSnh0U05IQm5qaW90Smd5MV9yT0Rvekw0N1FialRsSjZMa1JXb0xvUW1iMmlTdnZaRnBreFJQWl9Gc1dITExkV0RUYTc1YlgxRWIwUTNaRVdQcVVUWjFhTXdBV1A0WERaYWhuRS1wMl9pZXVlWTk2M0x0STN2eHFrOW9IMHJLcHNaeVZJSS1FeWNoWl9YVUtPcS1GaUR0RjRxMllfcUliTzIyZ3EyYkE?oc=5",
+        "date": "2026-08-13T18:19",
+        "source": "WION",
         "category": "政治"
       },
       {
@@ -167,40 +195,33 @@
         "date": "2026-08-13T14:43",
         "source": "Arab News",
         "category": "政治"
-      },
-      {
-        "title": "長期離脱を経てポグバがモナコでの活動を終了、サウジアラビアとアメリカが新たな選択肢に",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcklmVUNSb2NpeWNROWNJSlZOX3VVbjdYN0dzSTNlOWNkNGRRRGpUUEdkUUlmckFiSUViZ3ItN2VZUkpXUjJiQndZdGRGWjZJdTlyQm94MEZuMUIwdWlXVGd3TFNCdGpQeDhyNmllZTNyVzlFVTZ6NEp4Zi1sa09LeGU1R1FmcVo2My13WEZJTmMzWjlRYzFkNVZzTXh6NEQ1OVZTenJkbTJmSDdNSUVGMWJvVzhlNWxmazlSc0VyR3RPcTYtZEdGS2tsaVd0NnFzX3ZDR096d2lyVFp6TDVVVQ?oc=5",
-        "date": "2026-08-13T12:37",
-        "source": "Goal.com",
-        "category": "スポーツ"
-      },
-      {
-        "title": "スペイン・スーペルコパ 2027年はサウジアラビアからイスタンブールへ開催地変更",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxON1hwN3dqQ1Z6TXMzRENaLVJkRmM1TllSOXQxaG50TDc2WTZEVks1LWNubDNYRjhydU52eXlvVUZpUXZNNFpfdm05a3ZwRHlWb1lvRDVKWkNWQ3J4eVhCNF9VMjVVaUozdnp3WmhsbkRpbkJQOXZ4V0x3NVZERnlkb1lxbjVzenMzV2h0MURKUjAxSEhodG1MYjFlakY?oc=5",
-        "date": "2026-08-13T11:50",
-        "source": "The New York Times",
-        "category": "スポーツ"
-      },
-      {
-        "title": "イラン、重大な選択を迫られる",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVUt1QV9xaWZ5MzR6STRFSjNhVVJCMmZ1RmpINVFPNFBVX0RMU0tCQnJ3OHBWaDYtaEZQUEdQM3M5S1U1QXk4QnBWVUktQmZrQm9aTUlRa0l4cUdoOGwxNmlYdS1neV9tSkhGVlJVcjRSS2pMc2lwV2xDbG1yRzhSblVVMmI5REdaMGk2Y3RxQ1dzWVlIMFJv?oc=5",
-        "date": "2026-08-13T11:00",
-        "source": "The Atlantic",
-        "category": "政治"
-      },
-      {
-        "title": "トルコ、パキスタンとサウジアラビアとの防衛協力構想を発表",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUWs3VXl5XzJEaGdzbG5aSE9QTXI5MHRWeE9pMXI5VlIwZkowSU5vbGZVS194RjNYTE5TckdnOXVsRGxMVlFKZmRfVDlhSnk2VW8tSVFNcE9oNE9BVUhDaG0wVzVlTVRtUzdWNHdfSkFqR3BlZ3dkbXp4LTFtYUc5amw1bkJ4V2NxbEl3MUpBaWJRSEFJM1N2OWpiZE11bXFOZ005Z3FkUDFJeGpqZXNfdVI2Nm9DcDc3amFiNkZNOWZ3NnVwUE9OdklwTjkycXc?oc=5",
-        "date": "2026-08-13T10:42",
-        "source": "Reuters",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-08-14T14:12:45.690446+03:00",
+    "lastUpdated": "2026-08-14T19:40:40.184930+03:00",
     "items": [
+      {
+        "title": "サウジアラビア電力公社とリヤド万博2030、電力供給で協定締結",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcEIzaVlMaERKOG0yUWE4RXQzYXNsRVRLUHFlRjdmZExnd2pnXzRzdWhzU3phMk90VkxjTnNIU0hkemxIb2NrLWNrVGNwY2k0OWlxcldyMXlFbDhpcnFVY054bW5kSXprSFF0MFhvMDFianpTR1Y1VTRwSzAzRlFwaWpBZEVobnhueDRvZUViUUFIYUFfc1d1UDczdnBfOGdvTG5QR3RQd0hvc0xELVlWMTg5cUFmMlJzRHczZ183a3Uta0ZYN0ZYVWdDTnlpb3JVRERySHJiblRla3l0RG1iVWxGTGdteXd5TWc?oc=5",
+        "date": "2026-08-14T16:37",
+        "source": "صحيفة مال",
+        "category": "経済"
+      },
+      {
+        "title": "マッカ防衛協定：エジプトの立場は？サウジアラビア、トルコ、パキスタン同盟の今後",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JVWIwcXBKbFRIQVFxN0NSaHlMNzlscXFjeVN3SnFSNFJ1MDBYQUdPRXZIWFZ3Y1QtMnRISHNEcUVZVk9HVjhXQ3JVREJPa1FPOXFHdHo3SzE1Znl60gFiQVVfeXFMUEhQcmRoeS16cjhUemdfTDN5Q0ZwdkZyanlwZ3g4OGFzemtCVE9aN2RUQng0QW5LRm45WjlSdlRfNzVtb001NndnaDdmWHpzS3A5UXBEZ1B3VGxsYmdpUnVNUlE?oc=5",
+        "date": "2026-08-14T16:23",
+        "source": "BBC",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、自動運転車の認可に向け動く",
+        "url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxPcG92Z1p0VnVMQkltYzE5Nnh4OHd0NHJJMlhjTG1GUnpiaVVqSjlXbWk2YXhodDlsOU5qc2pRY3l1U0xGVEhyZm5zZXBlaHNNUW1MZXNGeThNLWg3QWE4TDJlX2d0cGJfSVAxczlRQkxRbEtpeElhU2pfR3VRM1BISjlEblJtX0pDNm9hY2NqeEJyLUNYZUhLdk9VQ1NSR1JLOVdiQkpKSEMwbUFjYTJ0MFhCSUhmWmVLUktoR29HdHBVQklNU2V6WXlsNmpma2l3REFCQ19iTFNIVVFDbHNwTnVVRFN2VVFBYUZuV1dYcC1Od1c4SnFBRUVXYU5zaXRrZ2lBVkJYOEs4QkhyNFE2eWxTU0FCMlBqMk9ZODRkVnVpRGVfY3BxclViemZIaVkzUDIwSThCM2NEZHZqY0luTWF5cGRNaDIyMFVGRjlMY3hxNXQtR293WGlnYXQ2Z3FYWDVUQkQ4ay1XSXhOOXNUamowbTZicW1NNkJwNG1HeV9qQy13ajF6dUhUMzEwLXlRSXhTTnJyR3FLbm5WeDdhd3lUTjdUdW05X2NXX1NIYVE3MndCY0c5RQ?oc=5",
+        "date": "2026-08-14T15:30",
+        "source": "الشرق الأوسط",
+        "category": "経済"
+      },
       {
         "title": "マズン・アル・サドハン氏がサウジアラビア金融市場監督庁の新長官に就任",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOFpGcU1nQUpmdTg5cTduTkwxMUNlVFk1UGVBZXcyNG44YzFMbUFheGJHRmRfSFNZdnVDNy1TWVBqRDJJM285eWJPMjZCOXdlTnRTR0xHb1FzNVd4RnBZRXFmbTZxRnJhdktvdHl3XzRsZDZ6WjhJYkRRbTdpUkp4STNWbU9MeGFHdzE3YVliQjA5b0haNFFienkwLXlVVDR6d3FDRnFsTmo3S1hZR2taM0RYczZMeGlC?oc=5",
@@ -237,44 +258,23 @@
         "category": "政治"
       },
       {
-        "title": "サウジアラビア国防相、イラク軍幹部との会談後に初めてコメント",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWHhkSklkMzFTWHlXWWZuZHU5SlU3SUxzYmVTQ0FHV1oxZGRnOVVIVmg2WDhDTnF3ZGcxbFNidEpYdjRHWG9LVGwwWS14MHhJN0NpaUItYjhkR0NYeTlERHo3RGZDZ2pUNVZsMWZuMmNuejV4akR6UWhDLTEzMGRLOXFCSTBTOWpRVkFtTDFTUGdzOEMxSjVTakotZ2NDblZ5TGxnb0stcXlWYmtYUW1fa1Y1bjFZZVHSAcIBQVVfeXFMTkFKeFAzMjNiblJDUnpoVV9NbjVncHQwajJhTnp5a3hUWDhTaDJGQkhFOFRZcmJCeV8yXzVTc1FTRDZ3emJFZ2RhWDl1TmlLV3o4UmF5X09ZNVJ1dTZzZVg5WDBENHNSSnBrMVJCZ0NmYjRicDkySlFZOUF3bW91Z18yTWNvamVsSkhpRUYyXzExU0VBRklqZ280ZVRidzVHSWpxakpFemxJck5Yb2N3Qk5HLVg2RmNGVlMzZmNzSDlaQ3c?oc=5",
-        "date": "2026-08-13T16:51",
+        "title": "サウジアラビア 海上防衛連合が جدة で会合 防衛協力を協議",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNUhSWTJLN0lPcmFDemtRblNtaF9hT09XcTU4d1M0TEhsQlhDdjZQSWlwck1oSlJZT3l0SHRLeE5tWk0tU1NYVTFWNENaM1RtaXYwRHA5OWp3TEw4VmdMU05rVGhFWUVicnVuUmk2Y0kyX3c4Tkw0QkY0WjI1VXlqT3A0a1BTbVJVY3JxTVFTOThTLVdpRzFNaXp0ME5xYnloQnRYSEYtTnREUkxNaUVuSVlsSDM?oc=5",
+        "date": "2026-08-14T07:19",
         "source": "CNN Arabic",
         "category": "政治"
       },
       {
-        "title": "サウジアラビアとイラク、安全保障協力の継続を確認",
-        "url": "https://news.google.com/rss/articles/CBMihARBVV95cUxQR3pSR1F0c1FaWWNVall2RlJOTzhPMTdRVDBrallOV3JtZldSSE41amdCQUhydkZGSzQzZjN4VVNyUEc2UWVNUVB5M0JnQndTZTNzckQxRTJZLUJBTTRMQWFtSml0bHRCZDFFcC1yUEtRTTYtQk9xTGtTS3ROTUJpZWFpbUxCYW9neWpfSGd1SmJrbFkwdjNOc0NicC1VYklyNnRXd295V0NEOUlpVjNzdG9rT1doOEQ5SWVCdWg3bXNWODhXUDBoazZLeGlyMEo0Sl9USVliSGdLWHZjZldRX1N0MHRHbGl0NlRsS0dUak83YlJxRC1iM1dnUGNWMjBORFY5c3VUcDFaTXVvZnpWemk0cEF3eU1Ud2g2ZmJLWEJMaXBlY0JiV29FUUdqekQ4dFNTb0xNZkluaF9qbnFtOU50d0RkbHM0RTFKeDRNS2kyRmxJek1YSlF0ZU4yQTN4SFpTQWZQZkJ1Q1FqMFVzZXFXa1VuMEEzS2ZJQ0p4Sk44QktxQ1E0T1hrN3MxY0R6YVhMNXJtY2dLU0hnekJZMkdidDVnMEp1czVfa0JkdDVqd3BFaS0wbXV4aXBWU2lWVk0wT3J4VnVOdEJQUzlJZUR2SnZTZW5vWkR4VlZYallOZG01WERNT0FMdUVoMkduUFRPa2hkcDNIOWxjb1J1Q3NfUEs?oc=5",
-        "date": "2026-08-13T16:40",
-        "source": "الشرق الأوسط",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアとイラクが軍事防衛関係を協議",
-        "url": "https://news.google.com/rss/articles/CBMixARBVV95cUxOMmlHWDFPZ2tlX2ppR1J1emtQc05XZkN4QmdIREJHMzNwak9FQVZmZjVEcXlnMFNQWEZGTG5DSkdYNWJBTXBYRXlWSm8wWEhxbHJ1QWpxbmRhMGx1bW1uUWhxbVJRazBKMVNiV0NtZVdUdmlnbGcyQ1d5NU5kMmFqbk1ZNFp0RmJGeFptMmphR21yRGpQZWVzR2UwS0VTbDd4UGF6bGpWLTJ5aGluVTY5VmZPUHcwa3JnaHlnOHZxMmpPMHFZdnZ3c1J1QlNWRS1XcWZfZEVBc1dwOEtzVHBHNmx3WU10Yi1HSExnV3ZLeEpZNnN6OWVkSzNncWFGeGwxX05Zc2l6QUFDNlhpTG9SVUE4Ujh2czc2ZTdQTjU3T0R1ZVV3ZDlGd0xXQWRMV00xQWRXWG91NlJiVkFwSDRlNHR4TTdDZjF0SU5ILXlKWjVZelhPTGV5UU5FaWNQamdWYzFWVUtfeDlWU1NYM3BRT1l5QjNuRjY0QlRodlpOU2NSeVg3czFTdE9kak1TT29kZ2k5c1dvSWVhaXRTc3ZOTWg2WGI2SWxaNEJuU2YycDEyTXBnQTd4Q2RzU1ZwSk52Z0NUdW9qYXNLdG1pNHlvQ3pPb3RiRlQyenBJcVprZERMSFFNdDBvbEN2VDE2U2FNU0lUNDc1LUpMTHd3bTFCRFVsRXl3VlE3UllUamowUmE4NGRkOHpYMGhpaWluSXlNR25IMEVleGJ1RVZvbE9fbmVHSDVBX216T1FMMHlHOHJtNFc5?oc=5",
-        "date": "2026-08-13T16:40",
-        "source": "الشرق الأوسط",
-        "category": "政治"
-      },
-      {
-        "title": "国連安全保障理事会、サウジアラビアへのフーシ派の攻撃を非難",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5fVVFyYzZIUkhvS2lUSV83SXJPZ1pneVhPemx0alg2YmRZYkpzbG5VdEF4NnJCeWdVS2M2Q3pxUVZVRjFTUVpn?oc=5",
-        "date": "2026-08-13T16:08",
-        "source": "جريدة الرياض",
-        "category": "政治"
-      },
-      {
-        "title": "トルコ、サウジアラビア・パキスタンとの防衛協力体制を公表 三国合同軍事演習を実施へ",
-        "url": "https://news.google.com/rss/articles/CBMi8AVBVV95cUxNWTU5R29xR0lSVXBHWVRnS0RpX3FTRmdhTEh0OTk4eGVELTh2NFBaNlg4WnF1VUFrSm1VejZFTk0wNW1ibjB4T1ZEd0hxNzVZdUc1VGNodHBFZXV2cXlNOVV3OEJNR3M0cjdRcE01bDc3akFaWDYwR25MS0JuYmlrdVBscFB0QnNaQWpwSUpIalYxcjBNVXJnM2JmZjh3aHlHeWp0cFhQbXBBNndzb0p2X0tXQ2hJcDlCMTNiRkhhVHpGbzV6Q1FSb0xqNDdoMlR4RjFhSDN3QU9yYzhfUHVDU0dkdms0eWRENHBMZkxNaTRGQ2hXcGJUMVE5UmplR0M0ZTZ0YTVqelY5aXBWaG1CUllfeE1XQVk3UWFHR3g4Q3NPTG13TmEyQTN3eGFiQjJSZ2N6STVXNllhOUhYUmV1ZFFQMk5IR3NkWW56bEExTF80MFpNM29OWTk2VGhxLWtsOFZpWldXUjRscHBsQndLbC1sMnJFT3lJcjd0VVRicUlkbmgtZTdMZVowSXVwQjVHbnItUUJ0Nnh2am94RFp3Ui0zRGR6SjQwY2FlU2l6R1pCSTFHaTYybVlJeHhpSU1iMTJNZUhCOW5adWRGdjVSem5XNGpHR1ZtQ2I2WkRNWXpGenBnVVc4VU5keXdacVo2V1g1MkRHSDZKaXcwQTBOZURSQlo3Ml9fOVpmQWpDS2huUkZxY3l2eUVsVlBiczZBaDdtcnEySkRGQ3B0MFFrQVFHeXB1anZxeUdLYVlhTzdnX1JETUFDSGxOOXJQMVlRdXd1ZGNBZ1ZYdEdaTEJ5eFdnZHQzSlRZUzVGM3lxV1h1TjdJZWc2OXVjSEVRNWdDZktuRGNPaTB1UmdNQy13dmpVWG16VFd1dkdCSm1iVFF6eGUzTWVPTWlVdTFNbWk1M0NkMk93akRncGRyTDIzSGhjM0JSUElleGJZRWZLbE5WdFE2V09idjBCYTZEV3JQRDltUUp3RnFsdFhBZEUzQg?oc=5",
-        "date": "2026-08-13T15:45",
-        "source": "مونت كارلو الدولية",
+        "title": "サウジアラビア、39か国による海上防衛同盟の発足を発表",
+        "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOeGR1QzF6dGE3cUJ2THhqaHUtRzNpaVJ3Ymxma3hNWG1qX2Q4WjFrOUZaWDlqclg0SkI2REpXTlBlWHpuY2g3UERjQ09vU2RDeld1RDBEMVA3VHVJQUxlZXlBNFFvNU5iVjJSdklXbUh4cHN1RjlaNjNEUWZYWi1VQjVlOTZjMUJhTlNTeVk0Yi1OSFdzaUt6UEVScE85dndZdFdHWWxKOVRGb2lDdlI1R2NfY3RqU3E4U19JdmFfcXpqZU5LbEVkN1Q5eVJYeExBYkliQUpsUnpxTDB2S2kwQkRPN212b2lPX2hGZ3FPYnVueWFmQjM1WUFQaFFIZ3FqSGpPUDdzZ2FhSE9aV01seUVnMk5wdlR4N2FrTjRTeGNoZHVmSmxKT1RPcHNnYzJ1aDd1WjdnMWxBblRrWElqalIxUDlrbXVQ0gHOAkFVX3lxTFAyaVA5d2hUZGl0WjNHMC1NeE10alMwd1ZXQ0tNNUVoTXF2RHBVM2EydUZqcGJrckxLWVdMOWtjNWp3dFVObDBtR1VkM3lDNG04X003Z3FvYzlHbDZwZ1NTWTlLU2RzOTRuN2JfZFk4UG8weHpNWlRLWmZQVFNoSndMbXlMcURROE5WbTBTZUhWSVZQQmhWTUJhME1Qd3FmODl3a2IxV0VBYU9uX3ZLRGYyd21EOEtYTi0xQTF6elcyM0JNLV9qZUFpWkpTbWZtZnZWT3dlbTBQd0dSX0VHTUhReEEyWGN5N1FMTnhxWWprQWtfRUkxeWY5THd3Y0otR0huaHRfR0FDUWg5TmM1eE9NTjExOEFHaDhBbVY3a2QwMFJnMi14MVY4dzNxcnZiSlQxa0VDWkdUTEd0X1c5OHBadUZWUmtHOTJ0RmcyMnc?oc=5",
+        "date": "2026-08-14T00:29",
+        "source": "aljazeera.net",
         "category": "政治"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-08-14T14:12:45.690446+03:00",
+    "lastUpdated": "2026-08-14T19:40:40.184930+03:00",
     "items": [
       {
         "title": "茂木外相、サウジ・オマーン訪問 １７日から、インフラ復興支援",
@@ -294,7 +294,7 @@
         "title": "W杯出場の28歳オランダ代表MF、サウジアラビア移籍が決定的に！マン・Cは112億円で放出へ（GOAL）",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YOF9odVYxdHRjMG9PZHY1SHlIYWJta2tVakVxUVh1aUhyZDJYbTlSQkFzcTQxa2xBcjNBTG9wVWgzVGpJd3RZUUxIZ1BoOXJvTk03ZlRTRlZEU3RfZGQ4Znhwb25kUC1IQTdYSEJTbGcxU1FQdlhZcUtyX0hmdEk?oc=5",
         "date": "2026-08-14T01:30",
-        "source": "Yahoo!ニュース",
+        "source": "news.yahoo.co.jp",
         "category": "スポーツ"
       },
       {
@@ -319,6 +319,13 @@
         "category": "スポーツ"
       },
       {
+        "title": "サウジアラビア南部の製油所を攻撃と報道 イエメンの親イラン組織フーシ派、「報復」主張",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSQXBBcTdvU1BESTZCbTdUUmJMRWxORWpPMlhrWlNIVVl5em9acWFYRmtuUDZrVml6VVZlWXFERFJoX0dxalpoT25YZ0Etbll4NzJaSEN6enRacWhLQ001SjZvanR0aVl3VUQ0elBULTFQV2RlU0E?oc=5",
+        "date": "2026-08-13T20:47",
+        "source": "産経ニュース",
+        "category": "政治"
+      },
+      {
         "title": "トルコ、パキスタン・サウジとの防衛協定の方針示す",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB0WDNWc0JMQlhCaEJ2Rm1TVjRiclpPMUE2SFZOTFNZLUFQWjhyNnhpMkh1dW9QZWQzRHUtNWNvMEw2QVdReldUOEREODhpSGxEYmF4aHFOU2xMVWZTR2IyYWtPN052dVdlbHJzdkppbm85NjVGd0ZYT3pjdFk2QdIBgwFBVV95cUxPdnA5WTVEYTRqYjVWOTBrLWVOdEVUaHBFMGJKSlB4aHJ4TVFNN1BJMGlOVlJZOW9oUk0td1REVlFReXhvemlKVDlXTWI2T2JwSGlDTHhWSGxYSVoxZUx1a25YZy0tTk40YndEdEhtOHllanVUdUEwZVJDcHNKWnIya3RfYw?oc=5",
         "date": "2026-08-13T15:56",
@@ -326,24 +333,17 @@
         "category": "政治"
       },
       {
+        "title": "フーシ派、サウジアラムコ製油所をドローン攻撃と表明",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRjRRRWptRmotNFFXRVBkTnhDNFl4cTR6X0lPTFZzMzBrTWtqbjFlS1lDVklJVE05NE1ZT0ttV0pHMXgySWRaRnNadkVjNXY4dnBsd2pjbF9Lc29oTEtuZDFTZmVoWC15LW9lcDZwZXFiaGUyUmxSY1VvVzBwMW5RR05B?oc=5",
+        "date": "2026-08-13T15:38",
+        "source": "ロイター",
+        "category": "政治"
+      },
+      {
         "title": "アジアでの4得点の後、ディアビがサウジアラビアサッカー連盟のファンの怒りに火をつける",
         "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxNak8yN3pVVUhHQW9DTmg2NVkxOU42Q18zQnNaQVB1VHdhb2V4ZEJUaHo4bnBnb2tYZ2dJc3d3SFd5cERlQVdZOGY0TEN0R3E2ekVDUkg3WkphNTZNSkhSTkNaWlQwdXluZDJSSmk2elJEWWh1aUZ1T19JZlJVQ2dsbjBhZ2FTamFUZ3BIc0JhcG1SU0daV1Z6ZTNpd0pfNVlLbWZHZVFUZ3pPcGFmbVFtSnZNR3lXWWU1TF9SOHZxanVJMm5Ha0R1bzlkNk0wV0Juc0tkcWh6clBvNTJMMjhQTk9Fa1lRUGJKZkx0cUNHamFja242RWF3UXp6UXJweTkySFZLMDZuZWw3bGhNc0xxNHd1X29HaHZFX3dxRDlUdE5mN3hoUTRtSWdqbVczbDhPSG5MY0x1SExSYnJGS3RUUHNXWllCTk1oQnd1Q2VzWGRqS1J5MXZQN2k4VG1tUkYtVVFBb2hyb2hlY3JCanNhNUdoZ3o2ZXVLTk1fZDhNdld0czRTeHhqWUJjc25pRGlZT0tNOVBXSW1HaGZpYlNyLWEwaEhfWFllcUwwWHEzRGVWWUF6bWF0QktpQVkxbDAzSldJSnFIUldRdU0wVjRqaGgzQmpYTG1nWW9lLUo4VWpkbmRPM0Zrd1RKLWR1di0tbVlHa1hwb0tWTWtXNWxJdkxkcWtsSExDNmhlcTllbVY4VnVsUHhDTFhxRnoyRUlPWDk5ZmNmb3k5bV83bklyZWpYRGJ6VFJMUURBNGV5TkVSN00tQlpQYVdud2RwdkUwbnBpaHdYaGxJZW42dWQ0?oc=5",
         "date": "2026-08-13T15:19",
         "source": "Goal.com",
-        "category": "スポーツ"
-      },
-      {
-        "title": "ラインデルスにサウジアラビア行きの可能性…アル・カーディシーヤとクラブ間交渉が大詰め",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kTUZ1U01TTDd1SDM1dktIS2JDeUh1dlQ5S1J0MnRrc3JjUW9vRFpYcGllWko3ODJIUUtJWWIzTzB4dGJoQTVlQ2JxNWx5MlJ6NWFKYU1HcThLaXRWZmdJ?oc=5",
-        "date": "2026-08-13T10:54",
-        "source": "千葉テレビ放送",
-        "category": "スポーツ"
-      },
-      {
-        "title": "ラインデルスにサウジアラビア行きの可能性…アル・カーディシーヤとクラブ間交渉が大詰め（サッカーキング）",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRcm1ycUIzQ0N0a1BZd2x1a2FubEJWR3FNZnN0WHdpMUxUSUcwZDh0MEtIdmlfRDdta1FtSUxZdzEtbjlaVi1hOVk5M1JGTDNpUW50MUNCRUpGZG16QmxCbE5yV1BhQ1pUY1dkeFlUS3R3cXdUSUFxRGQyOEMtMVE?oc=5",
-        "date": "2026-08-13T10:49",
-        "source": "Yahoo!ニュース",
         "category": "スポーツ"
       }
     ]
