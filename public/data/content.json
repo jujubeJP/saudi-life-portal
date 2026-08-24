@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-08-24T14:00:38.321655+03:00",
+  "lastCollected": "2026-08-24T19:24:18.921820+03:00",
   "security": {
-    "lastUpdated": "2026-08-24T14:00:38.321655+03:00",
+    "lastUpdated": "2026-08-24T19:24:18.921820+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-08-24T14:00:38.321655+03:00",
+    "lastUpdated": "2026-08-24T19:24:18.921820+03:00",
     "items": [
       {
         "title": "東部州領事出張サービスの実施について",
@@ -78,7 +78,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101033581.pdf",
         "date": "2026-05-25",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "社会",
         "is_safety": false
       },
       {
@@ -86,7 +86,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": false
       },
       {
@@ -110,7 +110,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -118,14 +118,49 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988773.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "その他",
         "is_safety": true
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-08-24T14:00:38.321655+03:00",
+    "lastUpdated": "2026-08-24T19:24:18.921820+03:00",
     "items": [
+      {
+        "title": "サウジアラビアのeスポーツ大会延期、湾岸地域のスポーツ推進に懸念",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYW9Dd3NQLU50V0ZBZnpRQmFNV0wyaGVWQ196QTlZYVFkdlJ0NGRYWExYRngxT3BtRE9VRVU1RjZRTW1kYnc0U3Q4M2JBbU5QanhUbWJ3MFE5M0FWQ2JYWGpqbGtFSnBMZ1R2TnJUTklKY0xtd0p5SURjbERZYThKXzNHZzEwTVJNTXo2a3dHNmNUcDAwVnhXa0QzU2MxYkpPZFVfaUMxLWtwOFNoS3c4dW03Z05xT3BwNWRNampsS2JKOFpsaGJfZVU4bjh4TWFWMi1PRnNwYlZaZw?oc=5",
+        "date": "2026-08-24T15:06",
+        "source": "Forbes",
+        "category": "スポーツ"
+      },
+      {
+        "title": "イエメンの親イラン勢力、サウジアラビア沖で船舶への攻撃を表明",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ3Y3b09UYldTZ3hQcV85eTVXM2tuQkZvMkxsb1F5Y0dHQ0ZrcklFSTVJZVp1N1J2YTFyQWd6RndUcV9raWtIRmtvU3BWc01mbzZ2aFd3T2pnd0xQalR5SnZxY3M1OFU3aHFiTWJiNHYzSW9nQWdTdkZFc1BGX2hkcjBXdGxuWXBNNFp4T1R2U2VUdS1VVnBKLXFKR3ZuZGJWeE04clpBcFpRV1dXRVE?oc=5",
+        "date": "2026-08-24T14:57",
+        "source": "The Times of Israel",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア皇太子がフランスを訪問 マクロン大統領と会談へ",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdVJLYnBja3Z3cW9tbVFWQ0JNWXJ1S2FVT3Z6SzZIcmgxTGo3SVFicUJzTXFUSGlxaW1hVEdBS1I3d1owZ29NampjMEJhaEFyYXY5bThpeXE2cjBMSmxhemZ5bzVYX09fQ0pmd3hla0xfVDk1RW02TnVZblNNSGVmbTRYSDJ6c2pXaTRCcGpvUk5PZVdfMXNKeFVPT0lDUdIBowFBVV95cUxNcUx1ckZzU2tkVHlhbzhkaTA1QVNzVzNUOTl3Uzdhb2N4bUJlcE5na2U1MzkzdVE1Y20xcHV6VXp5aHdleUVkblVtVERwTmRVemJGQTR6S2JvR25HTmdmQlBldTJ4Uml3ZTVrSXYzRDgzdElsRnF5U2RnSkhsaXNiSzB1Y3p6eW1XenBKNldXOUFlaFRiZjlQOHZVYzdJSGJTY29Z?oc=5",
+        "date": "2026-08-24T13:04",
+        "source": "Al Jazeera",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアとアブダビの株式市場の動きが示す意味",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQay1VSjB6aUJWTm1kZHFJcjJJMDlsTHpELTZXaHRCdE5vYXA4WFA4UTVoZnZYazNOSjZMTFdqSWRnUER4LUp6XzhEWDJ2SlV2V09HUzFLWHc5WHpCWnlrdXFjbXhKaEZubGdGSGZMcHpFczFYR21RTUJhSnN0UDVYTXZEeFBieTBsZGtBc1YyTUlGUWRhNVNGUG4xeHN3cHpXbDBGZWtEWnEzWWRKcWdGS3ZCRzRWSVNXTXc?oc=5",
+        "date": "2026-08-24T12:12",
+        "source": "Bloomberg",
+        "category": "経済"
+      },
+      {
+        "title": "論評：湾岸地域の新しい防衛協定は信頼性の課題を抱えている",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTjFKSUF2X05jRW5tYUFpNTRHUXNJdWdTNjhhWGtpdjN2VC1FNGFhazM1VTdVQ1g0bjdXNGROTGN1ZndZMy1rWlRnbnRyZ1VNVDlGQ2E5TF9pMC0zbTlpWEtoNmN0b09fRmZwd3NJcnB6VFZYX1hUQXJPMWlEZWpiVGc0NjNLU0tDZERUbGh1ZkMyeUNrVThTTXpvZ9IBowFBVV95cUxNS21tWVBmN2NfME9CdnltcS03V2hnOVR3MF9iWGFQbTBmSG9ucW5WdThfamVMRmRBZ0tHQVowNVUtMnRGNWJMSDhjOUZLdmlrS0hMSU1KWC1xMHYycF9Oc1ZRRExuaS1TVFN2WGlmNmxBc1d5Ujl1SmotMkdTTXdNZGRiNDJSdW15TWdsWEFRdWo0TGlwY21XTW5xbXJXeFVpZzNN?oc=5",
+        "date": "2026-08-24T11:20",
+        "source": "NDTV",
+        "category": "政治"
+      },
       {
         "title": "中国がeスポーツ世界大会で優勝　市場の可能性を示す",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRGtHUXBhYjVqTkptVGJrRl82OGtJTkhlUWZtSS1rUjFGcnBDRVNGcngzM0VtZUhjZU96cmpjZDlmTDEyaHR5UUJNeFUzRHZ4UXkwTnU5TnlMSmZqdHJWTXNaQ2pRNlB0aWJIdE95cXJZNTZ4bWwwYW5ldk45eC1ZNEVKNC1mdHJtV3VCYVBJQWtabkM0d2xOUnV1d09ldzRBeXFiVm9fSTRkbmZrYnZzQWdoN21tQ0hjSU9oRTlCa9IBvwFBVV95cUxNQkJFUkZFbGNtZGRybjFmWGs4NF9ZMTE1ZV9iX0RVQV9MV3R4UDQxdFJDLTBHRWpxdThERTVEbS1XMHd0XzZKbkhzLWxvYjlXQ1p3YXJGMzNoSVNkNUN3eUNFbm4yeE9DSmtwanBNRTBEaTBsYlp0S3MybEc3dFpoSWJUOWZ1U2g5MDN5TEM3c0dXd3dfNnRQNVVuVlJ6R1pPc1Z0R0FCQmVKQ1FrVmZWSHZESDFNXzI2VG1sckZRVQ?oc=5",
@@ -148,9 +183,9 @@
         "category": "政治"
       },
       {
-        "title": "サウジアラビア、戦争保険の引き上げで国家支援の協議を開始",
+        "title": "サウジアラビア、戦争保険コスト上昇で国家支援制度の協議開始",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdXBpVU5yNFYzS2Ryd2h0MndnUHdkVXdNS0U0aWtfdjBXUjlWV1l2SURHb1RGelZSYVlIRldyTm5GRU15cktnNUNGbFZGUEpnNjA1Szd2NUxBVHNCYWFPem9IQjQxXy1CSVYtZV8tZW9IaEhNR25pMkt4djkxazRwb2VRYTk?oc=5",
-        "date": "2026-08-24T04:00",
+        "date": "2026-08-24T04:04",
         "source": "Financial Times",
         "category": "経済"
       },
@@ -160,47 +195,61 @@
         "date": "2026-08-24T03:07",
         "source": "Equalizer Soccer",
         "category": "スポーツ"
-      },
-      {
-        "title": "マクロン仏大統領、サウジアラビアのムハンマド皇太子をパリに招待して会談へ",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeWJ3SzdtOTNJSHk2NVhhVE96b2xqX2ZLWmtVWks4TUxVQ1pQNjhFLXBrWVZRcVpreDZuczYyXzJfcC01OV8yaUV2MTRPaXhXZEllbGxjaG9od1hZVnBSV3gyeXIxRkZvbkdncG5Yb3VvNWowZ0F4bDhNM1BHX096cmVsN2RIdUpMcGN4bWJVR3hCOU55MlFNWUlLM0NQQkZwbmVFVW9DQnFaQ1Ezank0ZVpKUjljVmZ20gG-AUFVX3lxTFA0SHFTdVR6TEJjaGFGZ0xTbGVlc3Npd2J0NUhKcXhfLVhxd1RVREV1NVlNdXI1VHBYUllxd0VkNGxzcnZxQm1LamVEemRzX0daeGlDZDg1WGo0ZURyamphUmxEYXktcUhTcFZjc3lUc2ZtZTczb2NlejlKSy05S3M5bWJtVUppVDI0eHhteE5SdjVyTXptZ1NzNUs0b1oyR2tkODNoRDBIeVhzSEtmUTlESTdEcmVTcFBmV2J5Nnc?oc=5",
-        "date": "2026-08-23T16:18",
-        "source": "Al Jazeera",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、トルコ、パキスタンがイランにメッカ防衛協定への参加を招請",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80R3dhT053Yzh1RWhoLVZkaFprOWdVMUh3S0g0a1ZNZm41UTJuU1NRYlNkd2F0OV94b2N3MU9RWVRUV2hsQkdidktIR0VIMXNTeGlEZjgzMVJBYWZ0V0tSaWFKZFYyd0tkWWc?oc=5",
-        "date": "2026-08-23T12:15",
-        "source": "The Jerusalem Post",
-        "category": "政治"
-      },
-      {
-        "title": "中東外交からeスポーツまで マクロン仏大統領がサウジアラビア皇太子を招待",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPV3lLY25JeVFJWm81VHpHQ25hbWl5Z245eXVhVHRmY3NWYlZwMDVhT240SDBNWTJFREQwNkcxdlRiLUl1cXdFcFYyVGQzY29Rc2wwZVRDQnZfR2hKZkdocXZhLXB6M1U1ZDFzeDY2R1JmV0dQdTk1My12YnZId05JZ3hpTnUzLXBjYTNmbndqelptQjIwb3RpVkhqRU1uc0wxaFhrRE1XTFROU0g4VlBHT1VRdXUwSlZ2OTNlZ3BhVXlJUzRI?oc=5",
-        "date": "2026-08-23T11:55",
-        "source": "Euronews.com",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアの石油輸送、フーシ派の紅海攻撃で再び混乱",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS2hMYVpNX1B0ajBXbEdpQjY2NzZxMC0tdXN0QU1ZTEM2ekYtUGtPdUJqeW80Skc2ZHRZbHBjWldBX2F0M0U0ZVIzcXdPMXltRldCd2phZVRqOVhGaFprWFNWWlgyWUJTYVoxWXhHbUV5M3F0R05ZelFvZ3lUYVludnJMeU8wbWlYS3VKVFBrXzJsMzlLd3JXbUlwbWZBUXVWZlRERFBoMVFUUXo3eV80?oc=5",
-        "date": "2026-08-23T11:30",
-        "source": "Bloomberg.com",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、パリでのeスポーツ「ワールドカップ」開幕 ムハンマド皇太子が出席し影響力を示す",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT3NWX3FDLVk4OXFkRVlKcV9hdUxvbVVZQ0JuYzY3aVdmTGx4SHFFWWd6RlJ4V1FTWUhnYVdIdWloc2VlUkJOSzRyeDNRdFVVZUlUOGVYNGhXeGhuYVRfcmFBZDJNRWFhdWxvdC1iTWRQTWlUbFlsODZFQ1hFX3RIU0g0OEJDTXFRbWxJTTVzUHZwN180aVJma0RUTmZib084a2I2SE51WVAwYlBIeXI5TWhRNA?oc=5",
-        "date": "2026-08-23T10:02",
-        "source": "France 24",
-        "category": "スポーツ"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-08-24T14:00:38.321655+03:00",
+    "lastUpdated": "2026-08-24T19:24:18.921820+03:00",
     "items": [
+      {
+        "title": "ロンドンでサウジアラビアの高級不動産展示会が開幕",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1BQnF4UDhURXR6SUJCSnNPM2pXVGxTWXNMcGkwdTE4YjNDYk91ZzVjODlSTXBZUzIySWRjTTh4Q2JPanFQNVBJ?oc=5",
+        "date": "2026-08-24T15:51",
+        "source": "جريدة الرياض",
+        "category": "経済"
+      },
+      {
+        "title": "イエメンの親イラン勢力、サウジアラビア沖で船舶を攻撃",
+        "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxPU3BVejVQVmJBSjUyaDZCRUVuOEVHOUFSZzl0M3NMcmdtclpOMi1qd01zUHFpVzNkR3h6b3VvdEFDeVhISnp2dGN1aER5ZjE5ZXI1a2lxVUwwbUVoXzRZVDBrUjlyOFZTS29GUWN4YjJGVHo4Qzd3LVFkZGRsQi1Zc2ttS1JEQW1BUGhEMUNSSEx3X1lSaEhYdUh6RlE2NkluMUFzS2g5b0xpb3pVV2ljNWtWZWhiRXNVOURva050YVNIbF8yS29LMWowenBtdnRCeTFqX29QVXdieUlYcHBjd1RpWUM3bzVLTGtjTXlaOFRZUGpnbHQ5YS1YXzJucFlxSU5nVDk0Z2pJQlFLdlh2ZG14X1VqUWNmS2p1aFgtRE9yMVVrVWtFZk1OaklzQlRDVjhRRmlDOC10QmExOG5GaU80MFF6amVYN0NrcFNhdFktZTFZT3ltdE9SZWNXdVI5SHBBbThWeUZXYUIxa2ZNSGpWWkJnd01fQTlGTHpKUnNYbDFuTC1RYUxBclotZ1Z2SzQ0?oc=5",
+        "date": "2026-08-24T15:17",
+        "source": "SWI swissinfo.ch",
+        "category": "その他"
+      },
+      {
+        "title": "サウジアラビア・フランス首脳会談で合意予定の契約規模は",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSOW4xS3JVXzZkd2NSbC0xLUFId2RVRzNuTkRiY3N1bDUzVWJMdkJaZjQ1Y2RtTHFKZ1VnTWJJYUthTVdQakluX1M5bXpQYW01TFHSAVRBVV95cUxPN3RrM0lhQjlsN0VkdzJFQUViOXVwdUtaYWwtMDdXd05GRWprLXA0YUFpQTh6elFnUXplbUVrZEtjelIwcmlvTmVkWTItc2FPejluNFM?oc=5",
+        "date": "2026-08-24T14:57",
+        "source": "عكاظ",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、ダマスカスにビザ申請センターを開設",
+        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQUTBmTXZaWUVUQ2xHQjZIVmtoR3lOQ0p5RG80dlFWNjFaOFA0UWZEa2xual9UQUozeEZLVGpjWkJqVExnekQ0Sjc0U1FneEh0Z2syVjBKeG9mMllOUjV3VUJ2ZEJIMUNDdG56QkZUc1JwN0VGRHhoSFZhUXlydmpQQXdvcDNweXBTaDVHVm10Zk95VDA2T0p3Zkpxcm1HSmhSb1hHWGdHMEZiWWM1MW5KZWY5XzRuUFJsRG41dENqS1NmN0pwWXh0XzJ6YVY3SGI3T2g2cnVZUmx4b1RZTERfWDU3eHlmX1d4T1NjSDZ0a1FyZmNyV1BVNkUtaTZ1MV9YcDk0eW1jaVhZY01XYjVuYzBoWWdrb1J5elZlWGFRTdIBpAJBVV95cUxPQUMzRmdvbXRBOTZCNzZGTGtISmhpQVAyZFRkUi1XQ0szNy1MYS1sLUw5SThCX01KbnloN0FSUWJLeVRmaDE3eWM0dE1tdExrRUluSlZqRkxxRXhrUGE1SlozZkZEQlZlc3ExZWE2cVBpTzNmZGN0c1RpQkdiQ25fLVphb1RaemlpcmZWY3Zab05ndG5HeW1EM0R0RHAwek9vOWtOaVlEZDFLOXk5bkhPM3NVeWRnMzJNN1FoUF9TYlhqZEd3VFZ4NTBENVpVRjh4U1gwWTZ1Z0NiZEJUTWViVmNoVkxxcGFJaU0wX2c3STBySkJ5M205VENha0ZBQXJ6WU1mXzRLQ3VfcmwzQy1TTHp1RkFJaFVxUUtZanI2aXUzNEVV?oc=5",
+        "date": "2026-08-24T14:48",
+        "source": "الجزيرة نت",
+        "category": "政治"
+      },
+      {
+        "title": "2026年第2四半期 サウジアラビアの銀行の企業部門収益",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ROU9VLXhlNms3R1NoUHpyRktjUjBuajVhZHBQNmg1YUM0RFdGMm5SUk9QdVFnRGVFS2xNUDhLczNBUHROVGRPZGRXUGEtZlMyQ1pkUXVmUFo0NTlJV1ItUkFZNVZBNTAtWmc?oc=5",
+        "date": "2026-08-24T13:02",
+        "source": "ارقام",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、フランス企業の成長と投資拡大への道を開く",
+        "url": "https://news.google.com/rss/articles/CBMitgRBVV95cUxQTHRVd21Gc1YwLUdWR0FSSUpBdUJMNmxiLVpfWEZIMW53RGVJU1EwMXk4SExvTkRKTVZIa1hKaDMzbFh2MVNIQk5WYi14aGRDcmNINHotamRQejZkLUhZQmRtRl9SYUNKQlFyZ1U1N3ZJd3lhYzJ3Y0JFdDg1S1FldS1rOEZseUJZbDJDVnd5OEtWWFVfdEJKbzRKTTU1N0pXaXZ4SmdEdkxIMW1nY3ZVV2EtYmdUMnZPQVgwN2hnTmRkbkhobl9jR3o4eUdBR3VPeHZvOXlEVm55ZnRCcEJUaWlGZ2xWSFEtVDVIWG5BWkEwNkhvZGNyLXpENDlDWXkwT050SzFkRm9YdnJWODZ0UFZtazZRSTJ2Y3hLUF9tdEZsMU1SazRZakgwR3k5N1hpTHhjZ2JkRXJVbE5tcF85azFvUW1sRGk3VXhKUDFoaDY2aG1HNWxjTmExckN4cktCclh3NzJrcUFyTXBmblFMMnVuX0lISHhoRFNRLS1Pdk1aT0R0UlB2OWRJWFJXak5TTUFPamdqVTBqMVFpMHFhanplRWVucVN2TmtRMGpsNkJWUkw3YTNmekNYRXZVbEdkNTdkbHFRSnl6ckVtZGlzRGV6aWtORXBvRlF6TzBLMGZ4cmdPNXdqMGR0SzRLUDhfZjlIVWJnU3B0TnAxNF9qbEt0dmNiY1c4ZHR6Sl9pMWJCNWgyVkpfdkU3b0ZKOGQ4Rko1Z1dNOWozTHJ1bWQwUTZfblhHQdIBuwRBVV95cUxQNWQ3Q0tZbTdPZlp3cnhLZDNVWGk5MTNtOWlibUo0Qk05OTZCU1JwaEhmQkhfUnQ1a2kyQTBDR21OUXo5Qk1TcGY4SGVfUHFnWmg5bTJ1WTVQYklXcXBXNXlobzZ4YmNEYk44czlCNDUzVENiZDItbEVZa1RVeWhpcE9DWlZuRDdYSkQxMjU2U2JfUUxjcHNCR20yWXdDS1lickotdEJ1bWp3QUJXc3R2SXJYNXdjckNGODZwNDJza010QVBHYjhOYUdUQ2pGWC1mV1BwLWgxWVNOZGl3X0FnRGxESkoyTlROVkFVSE84a0QyY2hUbnNiMGRNOXRraE02c1R3U1FBd3RTX19Oa2xqM0VEMTJRbEd5UG13NHJrY2lGbzdwcEQtdDA5MFdJbXd2Um9LQ0dTd1NtTlBXLUVRbldCa1p3RWQ0cHp4b3J2Z190WFFneWxOUG83MjVCTi10bGY0eWc4UkpaOVFENlYtMXB2eEVJWU9BSjAwOVRwaGNDNzI2NmVwczRQTkdQdEVhQ0JYT2hScUQzMkVZYUt1am1xNk4wTU1tRS1JaXZlN0NDZ2xGN2swYXExZ0xEdzQ4eUxhaG1ibThIVFJYUEZDa05MUzd6dUszb0lnMmxQeWtKTWpsbGJjWXJLZGlLbW5JS1FlX0JoUWd1WWg3bzU2czJRcFdDNjFZOTR5Y0tuWHpLbXZDczRMWXRpU2RnRVhQNFJUbDlzSW85Uk9EZ3BlZi1YRnhfdlJhVWZJ?oc=5",
+        "date": "2026-08-24T12:00",
+        "source": "العربية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアのヤンブ港沖でタンカーが攻撃を受ける",
+        "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOQzlJbUdqSktPUkN3dmIxb0RLb0VDOXh4QTlzVGJwa19kdTh4MWtucjNYaTNrMzFtaFZ6WmE0S1NvcFg5Ym1UMXBWQzJNQmR0TFNnNlUzR1ltUjJQd2F0U1phVGV2aTJPX3UyUHg5VWZfVUlrM2NmeGM2LTJpNVAzN1JLOENqSUN3N2k2a1M5akxENDZHbVc1UTRza2VHQjM2Q0lXX0dBWWZ6cF9zOWlHaGFkOUtWY2hMSnRadUpUQmkyWlNUbFhMM3hyWFpmSm5NN2wydWRJdy0yU2ZoVU9HTlBuemFFNGhnRHZPblFydXVUc1YtbWc0VFlWYTZKbkVXZHh1aFU3OVdZOUR3TjRCVkZZS0k3NTUxX1BkOFljRk84MlN4RUtvSTdMUWduSm5FTHJyWVN3SzJRYTjSAcACQVVfeXFMTlZ6NjR4LWpVLXUyYUg1VHZCdjN2Q1BuNEtvNDdJQzlLaXZ1NmVVQl91RERVMUVtb1JWNlJxRkZKZGJ1NDRnMXpWQzhOYWE4dG02SUlYUHBlQ243NTYtNElLb0x6dWx2eTJqdWlBZGN3cW5DSnl2U3NKNjljbXJoRk12TFRDeUtUR0R2M25jbVB4WDQyWkFNX0toZjZLbThLWHFXOW1KOWRGRDhBUWxuTkt3c1N2Qi1uZUh6cU9mb21kY01jWUZzVVU2T0lEei0zWHFBSnRvSVkzYUpSSjRIUzVQRHRRc1p5Uk5Ca0pjQS1CVEpkVlRSLUMxV2Fub1lIOEZqdlIyM2pPVFZGTU94WTlMbVlraVZPRDBvenkxQ0ZmRVoteFpRSDdOY0hrU0d2OEtEa1R1YW91ZHRkRnQ1QlM?oc=5",
+        "date": "2026-08-24T11:09",
+        "source": "الجزيرة نت",
+        "category": "社会"
+      },
       {
         "title": "サウジアラビア株価指数、5月11日以来の高値で取引",
         "url": "https://news.google.com/rss/articles/CBMilgRBVV95cUxON0tKVXVmUExEbG1vaWk2YURfMG5xQm9hNEw1Zlc4ZkxCOHFndEUyWUlpekVEWXk4X1NPd0llMi1mYjZ5UWhRWXJoRWJrM0x1d0ZNTUljOUdrZXNZSHJDbHhON203TGxSVmhqb1BUYWFUYjdOT09pQVhtRHdsM1FKZmsxdmYwdjhiQkFUQS1pcWY3aExqRU5LNEpQU21pWE9hbXJ5T2doWUxRMThjUUJIZFZzS2hiR0hIYXVRS2tBQkdONnQ5WS03SGJRSTlWQUFEd3dIZElzZHZYN19LUllPM3k5NTIzYWlXQzl4dTJrS3pGbG9xZFJpTkVlcHp2Y0toczFNMFRBWTVVVm1wTW4tek9NTnlkVlg5NUhBV2ZEelJKckY5NjFSeFNWOFVFLTJxUjhkVnpzVXdYQW8wdnNUR184N1lEakQtWmtUdmFTQTJiZ3VhSm5Kcmw5TWR5RlZ0MExCb1pMbzdrd3dVZTlxeUJ0b1h6T2JfZDh6LXBNcFh0RjZFWWVFRnZyckw4Nm9EUTdweEVUMGN4cTgwa2hWelpudWk2YkJhSXV6NzE3eUdkOHNReUdrbEJwdWNYSk42Y252SWh2NTc1S2ZPTnVPVVFpc0RteHhBNHZDRkp6OWVPQUE1TjZXWnlJRmk3dGZkX3M5eThGNjdFLW1SbGNlSWNwdVpmZWZDenY0YWxRWV9GM1BzdHfSAZsEQVVfeXFMUFJ6bHhfajJYTTZSWWxTMzBSRzdRSlJvM3JCT01PaG1lcDNjekVHUElMZXNuVkdQRlZzamY2X00weEpLZzJwb2tBN2RwWWl6UEFjQlJGeC00TVFXMHJUbU1fajVQSXhZb3ZoTzNDd3JHMmJQT2ZMTzQzdFBIZUt4QktvbFJlWFhTU21MU1BtZDhJaHZMc2M5VEFiX05JRkJFbVF5OWRJazRSbHRSckVadk5VOE9vdGt3b0JYZmNDdGtTVnBHUV92SUVPUFNnUWFTZFFDX2J5aE0yQVcwdGxieWJPMG42bjIxbVpTaFl5RV9QUFBfeFpBekxZOFVWdm1FOEtyd2tKWVhuTzV3dk5IZWh3OFRKeDNRNFBpY0hQU0VRMndrUWNQUWlaa1NNTm90anRSOEFOcEswUi1qV3Y5Qk02S3U1SE9VcGxEcGlfWjdhSEtEQlFBbDlrcUJqdkQ2SEJlNjc4dy1Objl5N1lNT2JnV01rMVBQX0c0U2syam94LUNrVUZ1YW9WVXZBYzdWdkwxeGViRGNIblpGTnNieHppR0VCbGpPRXZPeGZQdm1VbU1sQ1h0UnFUNm94S2RTS1Q0Y0NVWVJtQUZFUVJ5UlFJdGFvQ0RkNmlKazloTURibkdXU3VPNkNfdVVoS3ZRYW9TZm5UajFrN3RSWUJRcGU0YThKM1hnNkxNc3pfclBidnN0Z3R4aU93Qk0?oc=5",
@@ -221,61 +270,26 @@
         "date": "2026-08-24T09:41",
         "source": "العربية",
         "category": "政治"
-      },
-      {
-        "title": "海運当局、サウジアラビア沖でタンカーへの攻撃を確認",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYlZiLXhlcVNub1dZdjZXU3phcjVVdmJkQ3NFNlJiV0N1MEsyS1d2WW9lM3FRWGVnWjkybnp1ODRWMFZYMWNCdlg1OHFhdzRUT2pLZy1MNUdMXzdIVWFXV0VMN0t5VWdfRnlsSnp5VUhpMWF2RXUxWEQ0aTF5Q1RTRndjUTZPbGpRY2lOTkdkQURmc25wSGgxRlJRLThuMDFVMW01SnppbWZkN3YxRkNWdFVqVXUteFlCNF84RFYycHI5UdIBzAFBVV95cUxQUjZVVk15a1hYZndxSjFkZmJNWW1RMk1JVnBwZGtwMFd5SFdNNGtBWGtrWFlDR3Y1VjNNTV9IQ3VaanctempGZXJTZ2lROVRlblBVelpfbEN1ajdRRVZsT3k5Q2lWT043VTE2UVdBSHhuN2wxVml1T0JKWVV5d1ZnQUJjbHlHamhOV2dqMFQ3eUN0VVRZT1ltTVczZ1E4c04xdC14dEVycDJSYlR1V01MRWFBbXo1UWlUZlpvTHBPaW4tTExObmRoUExBTzE?oc=5",
-        "date": "2026-08-24T09:29",
-        "source": "CNN Arabic",
-        "category": "社会"
-      },
-      {
-        "title": "速報 英国海上貿易運用センター サウジアラビアのヤンブー西方沖で事案を報告",
-        "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOQzlJbUdqSktPUkN3dmIxb0RLb0VDOXh4QTlzVGJwa19kdTh4MWtucjNYaTNrMzFtaFZ6WmE0S1NvcFg5Ym1UMXBWQzJNQmR0TFNnNlUzR1ltUjJQd2F0U1phVGV2aTJPX3UyUHg5VWZfVUlrM2NmeGM2LTJpNVAzN1JLOENqSUN3N2k2a1M5akxENDZHbVc1UTRza2VHQjM2Q0lXX0dBWWZ6cF9zOWlHaGFkOUtWY2hMSnRadUpUQmkyWlNUbFhMM3hyWFpmSm5NN2wydWRJdy0yU2ZoVU9HTlBuemFFNGhnRHZPblFydXVUc1YtbWc0VFlWYTZKbkVXZHh1aFU3OVdZOUR3TjRCVkZZS0k3NTUxX1BkOFljRk84MlN4RUtvSTdMUWduSm5FTHJyWVN3SzJRYTjSAcACQVVfeXFMTlZ6NjR4LWpVLXUyYUg1VHZCdjN2Q1BuNEtvNDdJQzlLaXZ1NmVVQl91RERVMUVtb1JWNlJxRkZKZGJ1NDRnMXpWQzhOYWE4dG02SUlYUHBlQ243NTYtNElLb0x6dWx2eTJqdWlBZGN3cW5DSnl2U3NKNjljbXJoRk12TFRDeUtUR0R2M25jbVB4WDQyWkFNX0toZjZLbThLWHFXOW1KOWRGRDhBUWxuTkt3c1N2Qi1uZUh6cU9mb21kY01jWUZzVVU2T0lEei0zWHFBSnRvSVkzYUpSSjRIUzVQRHRRc1p5Uk5Ca0pjQS1CVEpkVlRSLUMxV2Fub1lIOEZqdlIyM2pPVFZGTU94WTlMbVlraVZPRDBvenkxQ0ZmRVoteFpRSDdOY0hrU0d2OEtEa1R1YW91ZHRkRnQ1QlM?oc=5",
-        "date": "2026-08-24T08:07",
-        "source": "الجزيرة نت",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア・ヤンブー沖でタンカーが攻撃される",
-        "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNTkl1R2Npbk5oN3NRWWwzSXo0aWJHWHpReHhtejVFQjBDSmlQdFdBZkdYRjlpSkFFOTVFY2kxVnNFYWRRbjNGcHNXeURvbVFCeUNPSERyenpPMU5uOV9XSTB5MmZJT3BaWlVRZUcwWGUwQ25JMUpSWWg1YTd5UkNjenR2QkdxdUVUOEFodTI0NUpzd0E5WFhlVzRtUjc4QTY0YlAxekFyNFlUOFA0cUJtSkZ0Nm1qU05RUlpTb191WUdGNUVac0lXN0VkTjZLQXpuQ1F6RjJlN1lLMW5EZWFvOE96dk9tZzNZcmw5ejYzNUloTGw0MEVzVVRUXzdBajZGdVZQQUpxNW5tbHB5Y3FqbGM4cS1TRGw2bE9jT1BxZWJCeE91YUFMbHRGNlgzZjNLNy04QzZuTTFBM2p6c2I2Vk5tanN3Slpxb3VCdlNEaWdDeXNMZlk2NmdZVEtZZFl2MkJNVm5TUXBvUXMtNi1vUHhhVVZVNFnSAfwCQVVfeXFMT3RPWWIzSDFxaGUwMTNXaEdrUXo1bklFcC0xSlNkWjhkQkVzQl80NWZFN3hzdVBmek92Y3FBakpyRHFxZFAwWHFpQlNkclo2a0dZTU8yN2U3RXdHanZzcjd2dzdreUV4VWMyYW9SOXRxS2hQbFRqbExjaDBDUV95OUFwMEl1SngyMy0tQnY1Umt2SU5fa2ZVTUNSaWg3VUtwdjVMN2V5TFdYeFc0Wk5qRXlLWGh4MGFTZUlOZ0FWdHB3aGlYd3NsZWc0Zml4eVV0RXlKQTF2LUdEQ1FPSW5EVFNjMTZtN0xMa25NUVJhQWtLNFd1NzZOTktSNUtJOVk3SElHTUVQbE44QnRLclFfZDFjVVZsaFVtZEdCaFNJMmdQM3Zmb2FxZjhENG5QLTdmZWtheWl0YW9penZ6UmhpQlFtRkVBUFpIdjhRaldhdDFlc2dtRXFVZmhqenRwVmpCeTlidlZvMktGYWVNNWdyaVdSUzUxc24wdURFRzY?oc=5",
-        "date": "2026-08-24T07:56",
-        "source": "سكاي نيوز عربية",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビアの国営石油会社が新しい最高経営責任者を任命",
-        "url": "https://news.google.com/rss/articles/CBMivANBVV95cUxPeGR2LW1hTmlabXBrWUNYLXlRYlpfTEFoRzBVUzZicUpoWDZPYkg1Q3JlaTZsNXZieUZObUtvN2QwbVMxZWtZdVZCUXduckgzcmhLLTZkSFd3eGxWa3ZzeFFoQXVUemltak1uUUJhMkxOSWoyQksyeFhPbk9fTklNaEdzM0VSNExEdkowWW1UQ2owQzg0NkE0V3FlUWwzTUdmejVDaHZhcFo2dWlBU0NfRGhVNndVdTVrSUxBN3l0cFhyRWlkMm5IRHVVZzNmeksydmE3dUxWSWtqeEx1S1pYTmxLR19admJZcjNPR0Z3LWxPWTRkQzJBVEMtRHFjaDZ4a3ZSbFRUclRrUlBTRkVEZTdsQ3R5d09OX0FJUlRBZlIwMnVCZm5HNFdXbFZQeExlX0lPc1NYWWlVOXNYcU5ydTNWR003WFdXV3plbWk3N3A2VVZ1VE83cjNrb25rSVpyYzBYdjgySGZYemkxT21NWklwSDZtazdEZFY0eHVEZ1l1LW5VaE9tS05xemo5dmQ2NDlsMzE5NW9DQzhmcE0ySDBwRDFpdjBleHpodnBBR0pwSmg4cjBiX0U2a2k?oc=5",
-        "date": "2026-08-24T07:24",
-        "source": "الشرق بلومبرغ",
-        "category": "経済"
-      },
-      {
-        "title": "湾岸諸国の投資家、サウジアラビア株式市場で週間6800万ドルの買い越し",
-        "url": "https://news.google.com/rss/articles/CBMi9ARBVV95cUxNb3gtenRwZVpIUmF0REU1UDB3MWRuQXZGWl95YldtSjFVY1JWbE5mQmVsMUlZcElTeUc4NEVTZE14bTJYMmo3SWk2ODVoZm04RTI5Tzg1dU9XZHA4cUxiT2MtWXU4N0p3VmREalBaWlJrZ2FhV0J6UlFQSEtLOURrRVpYdTZ2YXBrRFVrRjBaV3liLU1iSTdMbTEyM3R5VkZUZE9fZW9uSk9EU2l3eWIxT2FGUFk3WVZIMDctYjdJcDFGTkp5VHhSU2hUS0NtcmZXdGxuaHUzaHZXakxuMXh2LTJ3MTBXSWZtZ2pXanBkZW8wby1wM0VKREpiNUZ5VFY4elBsNjVTMHNkVC1vUHFaODVIT284RTlHTFk1N0NDbkpkUkdZcVl2b2NaOVFNeTdaaFU3T3FSY1VRYTJkTHM2cTk5YlFxZnJtTW9VYUpPckcxZ19zcmh1MGtvN3NoLUgwdkRhVXVKZU9oN2lBajhGMXJITXF4S3J4dFZ0cGlIYk1wWnZMdlFIYzlUQXdfZVhLdFNZNnVYckJJamI0UmhrSXFueFdNa294QzZZdmlwTjRoazl4djRuV0ZMVndMRExtOUFuSmRoMkRDMDNzRFBZWXowQkhsYXkwT0VOblNGV3VwTnE3Z2tQY2liMlZDeVluYjVvU2dUdnotMGNnVUl0d3U2NHlQRWM0UlkwMXJDOXhFTTB1VlM1bUR1MWtkN0Z6ZjM5dVhnWi01am9oVWhjVkJaOHhiVHF1Q3EyXzIyZDVMcDdtYWplcXBrbk5Vd0tFSEY3NUt6WnAxZFdJMW9veUNiOHd4T0xPd1Z3dE9sdlM5bFhW0gH6BEFVX3lxTE5sMEt2aFVEWDI2YWZsNXVLZVotM0N4dVZaUUFaUnMtZHdKN0U5QkJod0JtZ3dvemVXY3M2VFBVcDI5VGFYQlNHQTRPWDFxTV9SZ0NzRzB3NjFSdDMxUUdwclpIZURxRnVtUGRUazhWYjNVQ25iY2N3N1l4RlBRMGFibWp1Yk9mdFI1OGlENGphUkJpeVJMTnlJaTFSeTZKYjM4WnptMWhaNXBsNEFTV05BUDA3elN2eVp3R0lkVEtzTTlQMVptYllFaEdtVUdyX2hhUmNKWGNxYlc4a1c3dlNUR2NRbEYxaWQ3QUlpWG9YdjN4YkNqSkZXUHQtcGZ6ckc0T0k3QkdyVjJCQnhXaUN0TlpQUlNCY2NuREZrb1FUc1RIZnRjQVhhVjFlaC1ETXloV2szcmFtRkR2TnFOc2wzRXRfYlNUWGhqYWNvakEtM3lneW9rY0tWOXltUmVtcUpzemNSQ2NKdWRIUS10a2sxRkJNYzZGa3o4Z1BwNS1ZclFjY0tjNlNSYldOQkxfRy1sVnpldkhjNkpHUDBVb182ekxaV2NZOGlrWmNwa2xlLU1WNHdzalJEdFJwdG8xUWJ3Ni0xcFlhMkhnbWdGWDVYM3Z1U0JsMzZ5YkU3Rm8xdVJzLWhaVzIyS0RMQlBtSHh0STVUQi1aSTF2cjZNdUhTOEQySU5hTGJKRldlYlg5R1BrYzIxUDVnVHpzTHRwRmJDWlVGREJUenljYkZDWGpfTTFiX0N6dV9sM3c3LWdjeWswdm5zN2h1SFZOWVJhcGt4ZXktY1pJTVd6OTR6aFlRQ2U3dzE1S0p1c0c4cFhCSXBRdXhkWjVHU1E?oc=5",
-        "date": "2026-08-24T05:32",
-        "source": "العربية",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビアとフランス、将来への投資で協力",
-        "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxObWk5bExzVlhDRHJMZFcyM0lsNGRXeThuQUt3R3Ewb0QzaXZXcnIydmJFS3VBSUpDSWR4WGREaEl4dXFENVdtZ0hhWFNqRUlWdTJRT2MyYTZSWS1zTHpkMVViU0ZQdDZGWExZSldRNkpYbnF3Q0xxSWlsZjFHOHJzTDlKN0dnZlZEWTFwcFVxbXo0WjI3STE4RHg0YmxKby1BZTY2bDVfdnVMZFVZX1JSM3liY1FQUXJRbnZ0R0t4WmVDbkhDc0FoakVYOVN1MnhxQk42WXhRbnY3eTloa2VjZnRkbWZsOFkyZzhEeThVWWtvaFRJNU1BbGIwQ0hpd1BzaDBIdHdtNlRBUU5ZdnpuSUZwZUxaUm50VHYzQVFYUHhZQng3QXdJM2Q2SzlmQU91Qm42TVNoVFlYVVJuaVN4S0FUc1ZwdzRXN1pWYkNhQV9pN1czaXJiSnRXRUltd0pwcURjOVg4aWdXU3BrN1JFak5RdHFfOE40V3VzdzVndw?oc=5",
-        "date": "2026-08-23T23:05",
-        "source": "الشرق الأوسط",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、シリアとの貿易円滑化に向け動く　ダマスカスでの署名式",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE42c3NjOFdNb3FIQkVTX0xDd2Q5TVRxSjVqMUVaNjZVUGVxVmpzaktnN3BReE9NVnJTWWFMQmhOcUltQnV2LUJFWHp0dGMtWVplOXRLeThnczZMRFBMODA00gFUQVVfeXFMT05wTmlqaGF2ejlqTWx0MGFoYlZUcGRlR3lZdDlraDNZbVlCdFhfWVlxVGRiVklZNm9vWkJBQjV3aUJEVkxwY0I1N0U3dWtDblFFZU1K?oc=5",
-        "date": "2026-08-23T21:00",
-        "source": "عكاظ",
-        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-08-24T14:00:38.321655+03:00",
+    "lastUpdated": "2026-08-24T19:24:18.921820+03:00",
     "items": [
+      {
+        "title": "フーシ派紅海でサウジタンカー攻撃 イエメンでもトラック車列を空爆…武器輸送と主張",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBhUEN0YU03OWhldEFJOXc2VzJaaC14alRsVFkzY0gzek9FcllTQWl2cjJUbWpfcUI3d3d5VjFEay1Ia0hYSDRCS1RhcTZzd0pmVS10R19RMXRJcW1qT3VHcGpobnhXZG1RVlZISktnWlgyR1ZBRlRvZTBR?oc=5",
+        "date": "2026-08-24T15:21",
+        "source": "テレ朝NEWS",
+        "category": "社会"
+      },
+      {
+        "title": "紅海：サウジアラビア沖で石油タンカーに「正体不明の物体」が衝突し、火災が発生。",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeFFaYkpITFB2UWJ6RkpYSzZ1SURKdUFZLWFmY0NpNUdBZUtsM2xsQ1Z6WlFGVWN0RmFfbXNKcDlOc1NWcDk3SklPWVVVUDItcWRRUkQ0b0VWV29WNEpsS3BNZkFnUEg5VjBYdkNBVkJjSjRYc2MwWnZYbkFWV3l0TjE5bkJXQkhpcEZfNXJfdy1TTUtuWU9uUHVzX0lVME50eU5aUDZmYVhSNl9sMEdKMGlITGtJdw?oc=5",
+        "date": "2026-08-24T12:30",
+        "source": "Vietnam.vn",
+        "category": "経済"
+      },
       {
         "title": "サウジ沖でタンカーが「正体不明の飛翔体」に攻撃され炎上 英海事機関（ＡＦＰ＝時事）",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91b3lsamVSSGg5RW92eDJZMmYtcm42UjJyQTdXaFcwOGpjWDREaHlDaWNfWDBJSHZFcmI4LWx4aXI0N2ZiaUZ2R1k0VlBZOGhZdGhncEQ1dmppbDFRRkRWc1VNY093ZXg5WTM3R2FMUTR6WmVfSGZUYy10Z0ZIMTQ?oc=5",
@@ -291,9 +305,23 @@
         "category": "政治"
       },
       {
+        "title": "サウジアラビアのデジタル変革が加速、サイバーセキュリティ市場は2032年に105億米ドル規模へ成長へ",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9PXzRucFZHMm5TUzUtU3E1UzFRMlcwTHJhRmlaMDhoWTJ3UXZwX0hLVmRwdDdQMHF1aExUT212Y1ZZN3JnWUVuUHdIelZxeVF2azlv?oc=5",
+        "date": "2026-08-24T07:00",
+        "source": "ドリームニュース",
+        "category": "経済"
+      },
+      {
         "title": "サウジがデジタル経済の拡大を進める中、同国とフランスのAI分野における連携深化",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PTEg4UXdTenFjajZKTnRsb2wydVFfOU4yYWl2VkRZRFFTcHNSX2tWLUJ4V2lSX3VkYTVqZ0xVQ3A4Z19hT3ZVUHhGbWhmQjlRRXQ2VkhteGFjM2VqM29QM3phZTI5YjdscUpGNg?oc=5",
         "date": "2026-08-24T04:08",
+        "source": "arabnews.jp",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、2GW規模の蓄電池プロジェクトで11億6000万ドルの契約を締結",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xbzZvOG1vcF85V2VIU005VFZCSjlwX2tvOC1MQ0FqM1pydjlBNFpBRXhGM3Y1VWEtMHVla3hGcDlMUEplYU1SSW00SW9JTVJXaGM4TV9CeC1PaDBKVnFSQ0RGX01mTTQ?oc=5",
+        "date": "2026-08-24T02:08",
         "source": "arabnews.jp",
         "category": "経済"
       },
@@ -303,13 +331,6 @@
         "date": "2026-08-24T02:08",
         "source": "arabnews.jp",
         "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア、2GW規模の蓄電池プロジェクトで11億6000万ドルの契約を締結",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xbzZvOG1vcF85V2VIU005VFZCSjlwX2tvOC1MQ0FqM1pydjlBNFpBRXhGM3Y1VWEtMHVla3hGcDlMUEplYU1SSW00SW9JTVJXaGM4TV9CeC1PaDBKVnFSQ0RGX01mTTQ?oc=5",
-        "date": "2026-08-24T02:08",
-        "source": "arabnews.jp",
-        "category": "経済"
       },
       {
         "title": "TEAM NAVER、デジタルツインプラットフォームがサウジアラビアの「国家標準」に採択",
@@ -323,27 +344,6 @@
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTmd3ekZrTE1TZ28wNXFpd1FjWjdlWFVWM1FNZ0EtLVZEcDMxS1laN3pad19RRHhiS2YxcXBFdDBTN2l6bXduZTR2bkdlc2tXQ1RILTNCdDliR3N0alNZVG5KS0ctWXpCYnRWSGtBSU9WaV84WmwtYnktaENkRUR1LVl2TEVWREZQRXUxVmVoTUEtVVE?oc=5",
         "date": "2026-08-23T05:21",
         "source": "Vietnam.vn",
-        "category": "経済"
-      },
-      {
-        "title": "100年以上にわたるサウジアラビアとフランスの外交関係を振り返る",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fZ0pjdmRSdm5sTlVUZHFSWTY2R0VCVHB1cTZUd2R6UkpKOHFPcU1XaG50d3piMHZMOC1Gc1ZGWmZMSkVyQ0VXWGltYmZNakpGdVJ3T2lFSG80OEdjb25samlBZTFZSkpGRkJRVA?oc=5",
-        "date": "2026-08-23T01:08",
-        "source": "arabnews.jp",
-        "category": "政治"
-      },
-      {
-        "title": "ペトロラインの拡張の可能性が、サウジアラビアの長期戦略を浮き彫りに",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEX00tLWU2STFwREtYODlEQVRINExfbl9wNGczbFZYQlVrb2pnbXJwWGZwQUlZTXI4YzdNTzktaFpfM2llZVZFVFV2cTc0TFhUT3NYTHc5UVBVdUtENWp0ZGhzQTBkeHM?oc=5",
-        "date": "2026-08-22T06:08",
-        "source": "arabnews.jp",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビアの航空業界の変貌：リヤド・エアとサウディア航空が新たな時代を切り拓く",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55cEhWYXRkek01bzV4dDQxR1ZMYm1xVVBNd0lZaVZwX1BhcHdHV0VkdjBISFk4NzVlbkRyWFVaMkgzQmF1eXY5ZW1HNUNNeHpLU0FEYS1HZTFwM0ozNXlDQmxaMS1uLTQ?oc=5",
-        "date": "2026-08-22T06:08",
-        "source": "arabnews.jp",
         "category": "経済"
       }
     ]
