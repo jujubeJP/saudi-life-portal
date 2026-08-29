@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-08-29T18:09:39.363557+03:00",
+  "lastCollected": "2026-08-29T22:01:00.639783+03:00",
   "security": {
-    "lastUpdated": "2026-08-29T18:09:39.363557+03:00",
+    "lastUpdated": "2026-08-29T22:01:00.639783+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-08-29T18:09:39.363557+03:00",
+    "lastUpdated": "2026-08-29T22:01:00.639783+03:00",
     "items": [
       {
         "title": "東部州領事出張サービスの実施について",
@@ -102,7 +102,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -110,7 +110,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -118,44 +118,51 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988773.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": true
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-08-29T18:09:39.363557+03:00",
+    "lastUpdated": "2026-08-29T22:01:00.639783+03:00",
     "items": [
       {
-        "title": "サウジアラビアで違法なダンスの動き クロスワードの手がかり",
+        "title": "サウジアラビア人の一撃が露呈、バルセロナがチャンピオンズリーグで審判の不公正な判定を受けていた",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYnlwb201emV2RUd5ZXNJM2JuU0RHZlNhRTY4R0NjNGxaVHZjWFBlOVo5aVlodjhSajU2NFJ2dGZkVERBdEx4dFByVU1NcjhJaUYtZmp2cEs2akZvTkFpa3NWVnZiVGNNaDkxMlk0Qm1waTd5ZjlmM1R3T0d3dllIbzQ5MXFXMWViTzVPaWRVazk0Y0xtUFRkUFlhWDFMdzVWekdQdVd3NUVKakZSRnZWX1J4bmE2MDdFTjlIRGp2Qm5ISWw2cU90TTA2SU16ZWRmMDJyelJUSl9zUi1Z?oc=5",
+        "date": "2026-08-29T13:29",
+        "source": "Goal.com",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビアで違法なダンスの動き",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQX0dQeWpiWnBOWFl6U3JpQVh5aTQzTGw0SGlPcWhJZXNKbTZfSjg2RzNXcncxbHVncnBNNXZxX1J3alhBcVNXRllCTE9jaXJybHYtbTVmWDNRWU1MV20yZHRUTTVUQWJEXzBweTEtMG00RW9oTGtHd0VzamZIR0tuQTFrN2NlaHk4dnRZVFpPUjY4aUFwdWtyeV9NRU9XMkVlelQxaTQwTnFpZ1BkZm1saUxaVlIxdWVzTFJxUVFnQ1pkaWxINEo3Q1lzSndQVVFnWmw4bVRTNzZKSTdw?oc=5",
         "date": "2026-08-29T09:07",
         "source": "USA Today",
         "category": "その他"
       },
       {
-        "title": "9.11テロ実行犯の家主が、サウジアラビアの容疑者スパイとの関係を明かす",
+        "title": "9.11テロ実行犯の下宿先主人が、サウジアラビアの諜報員疑惑者との関係を明かす",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94NEVRcTZLWWlsejZ3Q0xEMTJCWFBqQkxwUm9TbVdmSVY4Yy1zUG1uTXBYVlVaRFVoMElCd1NTclQ3UWJmV1ZKSV9iS0lHcnpZeUt1QUpWZ3hhdw?oc=5",
         "date": "2026-08-29T00:32",
         "source": "BBC",
         "category": "社会"
       },
       {
-        "title": "エスター・ゴンサレス選手のサウジアラビア移籍　急転直下の背景に疑問の声",
+        "title": "エスター・ゴンサレス、サウジアラビア移籍の謎　予想外の移籍劇の真相",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDdnZlJ0UzFIWm1paWdGNDlRZm5wQVJaLUQ2ZTBSNUJjcW5odFZfcDBwNlMxVmlPMVBEQnM5MXJMY2l5NlQyMWxqWEFFTWswcmJKenExSW5hcGtaQzRPMF9QRWkxR3FqaXRucVBrTV9NWjNXSmVZdEo0NVFXVHZnUVVBMGJ5WjBSS2p3cTNjaUtKcW8?oc=5",
         "date": "2026-08-28T13:01",
         "source": "The Guardian",
         "category": "スポーツ"
       },
       {
-        "title": "クウェート協定でパキスタン、中東での防衛協力を拡大",
+        "title": "クウェート向け防衛契約でパキスタン、中東での影響力を拡大",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRmJQZVc0SXVjbWpURlBTNThlcG9zcWQ3dk9BOEJwUDA4UjdXYkZxYVJGVm9yRHhRdkJOaU1HRjMxU0hlMlY2Tm5fV3poWlA3X05hWEFqLWZvSjg4MDhvUi1MQUhTalBQMk1hNFlsVnpxUDJnTXppbzlkUUxRdlZ6UU5ERUIzSF84ZHRXeEY1TWFvODRQRHZJcGkwbDg3VUxJYkZkc1NzaE1SRGkzUzRn0gG0AUFVX3lxTE9ZbHRTM1hiWW5rZzhjZHpEVWRMdUdINXhQOGlRMlB4b2NWNzU1bXViNVBwOEtoV3piZHNKWkllcVJrbmJ3M0hfNlB2Qmgwc2lhRlpQd2Y0cG5Rc2hZZ1BMVTR3WExBMmJ1RXVTOWNWcDJPMTdoZUNNalNnNF9wT04zMVdNMURNVmwtY2tZdHNUaEdDRFR4QXU0emVhSDVIN1RoN3N5Njl5RHFqRXBOSGpyaVBoTg?oc=5",
         "date": "2026-08-28T12:01",
         "source": "Al Jazeera",
         "category": "政治"
       },
       {
-        "title": "サウジアラビア、主力不動産プロジェクトで大幅な変更",
+        "title": "サウジアラビア、主力不動産プロジェクトを大幅改革",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcl9OOEpWZ3JodU5KbE9zWl8yeWt4QTJqT216TXE1aFVEOFU5RkNsc3RjNFNUS2tkdUdpNXg3V2xJWU1hRExpaHlMWWprLWtzZ0xDajlFX1BXRXYzV0dhV2RDVzJGaERRamZSWWc0ZV9YbnpjZDZWd3hzNlk4X1VJMFZkZEY?oc=5",
         "date": "2026-08-28T04:01",
         "source": "Financial Times",
@@ -176,31 +183,31 @@
         "category": "スポーツ"
       },
       {
-        "title": "サウジアラビア、FIFA投資計画失敗でインファンティーノ会長を支持",
+        "title": "サウジアラビア、FIFA投資計画失敗の混乱の中インファンティーノ会長を支持",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQS2FHd2lUaHQwQWIxS21VNVZhTlBKV2VpdExjX3g0MFJ2UDlKaVc1Wk5vTEFfM2QzQVVpUk82WlA0WlZJczJ3VlVTb2RtZmlWZ0NIVlptQ2hEQ1pWX2VsVDVxcUtPWTRGekVhdDc4cFd2aUV0Vzg2OGNuZFV3TGVMZUNTVWdpZ1lsaS04d25XZURLQ0Znc3ZzdDk2MjZVeXdfUzMxUnFfNGJpSUd2RXJSRnN3TFJmY2ZwR2Vr?oc=5",
         "date": "2026-08-27T12:33",
         "source": "Reuters",
         "category": "スポーツ"
       },
       {
-        "title": "ロブロックス、中東・北アフリカ地域のクリエイター支援でサウジアラビアに拠点設立",
+        "title": "ロブロックス、中東・北アフリカ地域のクリエイター支援へサウジアラビアに本拠地設立",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbnhBUFppM01QM21FZlI1OVVENDcyYXRFYV9Kd0FHVHNuM3M5RUlVajlUczU3SU5kYnVjS3lERFA1eUJUajZ5Tm5wMXZKa2VnUDBQc1piYkhlSE9UbU5NdUJ5V00tbURNX1NPcTNwTVBPUnNrME9nRlc1c2tsb0VvMjZkR0I3N3pWdUNqQlhnNDNrYmpkODMwc3hpSGRsQ1cwLVE?oc=5",
         "date": "2026-08-27T10:44",
         "source": "GamesIndustry.biz",
         "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、フーシ派の船舶攻撃に報復　新たな紛争の懸念",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOR0g0alhqSHVReDNzRlFjZnFja2l1Q0w0OWZ5cDFCSU52T1pWdUdTaWVVOHJrYVd1dGRjdk12bV9JTG1BcTU4WjNzT0MwQmhqYnVrSGw0dHQ2T2Jfa1BFRUNxSTVkUnVpcVNXWFl5Q3A3N0h3UHRYdGRNYTBwdlhQYnRid29IZGFGWTJsNEp3elo?oc=5",
-        "date": "2026-08-27T09:01",
-        "source": "The New York Times",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-08-29T18:09:39.363557+03:00",
+    "lastUpdated": "2026-08-29T22:01:00.639783+03:00",
     "items": [
+      {
+        "title": "サウジアラビア株式相場、7ヶ月ぶりの週間高騰",
+        "url": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxNY2EzWnlVYjh2ZGNrQVpTVmhJNGZUNW4tQmJDZ3ljM3FlcW5WQkZvVksxZ3NhR2VRcjJSTm5GWjVUSEtvRUJ6Uk1wQUp4dmI0ejNiSHZVX0xuRXoxRkcxdDkzSk1KaUVvQjVJWEZPS2drZXdURTVpRVZWNnBsSlJSUGVzODFPTE5hTnNITVpHSlNXOENoUWlKdmFWRXF4dGJiNllJRk1BNFF5bUFwdkp0UjdqalViQ29YRDlwOHN1bnpKRjR0dl9HTy12dGtjdDg3eVh5UTVzU19HWDhFZmpKTDNfWTJ5azZiYUtxeTVBNG9JX0JZdTlXVmtMdkVuWTJtX3l3NmU4VC05WFJrQm1OZ21ha01HSWxaX2xyRm0xcU1YZDdoa3lWZmh2dWFreDEtQm55U3dsV1kyRGxYXzJXQ0ZHeTVLUk1pdmJJcVF1cHJYOWMxWW81Z3p2dHZKUVdhUWoyb09XeU5EV0dsOUw1elhCSy16T05lcjMwejlJekF6cWxMN2RCWjFrV2djRDFFcUFMOGxBWjNqOFRaYmlXZ1gzQ3BQRjItVVAwa3NqSGlYM2xaSW0tdWZMTFNZd3VEa2g0cjdTdDczSncxRndjYlNvSlVIUWR4VEVIdUcwNEdveEoxZXdENjV5cjJBeHM?oc=5",
+        "date": "2026-08-29T16:10",
+        "source": "الاقتصادية",
+        "category": "経済"
+      },
       {
         "title": "2026年グローバル・シティスケープ、サウジアラビアの住宅購入者に不動産投資機会をもたらす",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1Hd1ZUUXU0YW82OUlZaVpuY0FDSlY0YVNuRmY3T1lCcDZIQmZVeGlucnFhZU50bWFfaFdudEx3VkdwVWhXcXNZ?oc=5",
@@ -209,18 +216,25 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア 内務省が国民1人の死刑執行を発表",
+        "title": "サウジアラビア内務省、国民1人の死刑執行を発表",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSmVUTGpUUXRTNWJKc0RJY0Y3OW41eDlwcjJvZkFsYUZ6S2JUeHNJWmRrSWxEY0RhbmRUb0FqcWtOLXFRNDVnczdDYi10alRNWjA1XzBtZ1BYN3QyVVotSHNyRVhNcktZQnEtZWhwRG1BNWVwUU9DbkRJTEtxSEtCdmtTNUFOUGNENnVSd0RqRkIwWU85eWczUktkUUtVOTNpLXhhMHJLSVfSAbMBQVVfeXFMT1VUYXEtVTFseXpjVkNVM2t3Wmk0NV9rakxucFZCdlFKZXVNUGRhX3dvVDZVUHVscnBzaHBRZGlNbWp5N1BTMVZKVU90dGlDWk84LXhxc0hwWmh2X1RwX2gxWU5CbF8teV9UalJqLWVIZXZBRDIweU54d3lRX2NRajhPeTdkMUdVY1hRVkpEc1czNXBGSmczdlFzbTBoTWRTdFRNaC1zaVdna3VIMzFoQTh4RnM?oc=5",
         "date": "2026-08-29T12:48",
         "source": "CNN Arabic",
         "category": "社会"
       },
       {
-        "title": "サウジアラビア教育省、4つの追加休暇を導入 特例措置として1つの休暇",
+        "title": "サウジアラビア、中東の旅行・観光経済で過去最高の46%のシェアを獲得",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE40dHRvUVRmQ2tzcGRhWmNfTWp2c0xGN0lYWTNsTDgwYmVYUHRxWHNRd2R5VVlDTmFqanl6ZHROZmo5RnF2cGxZ?oc=5",
+        "date": "2026-08-29T11:25",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア教育省、「例外措置」として1日の休暇 教育機関には4日間の追加休暇を認可",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrRFJRaExvZGdGQ21JaVV3NkZDMlU0cTVwRVdsTHlSdXJLTjNTZ0xBdWYtaXlaV3FoeHFNN0ZjVkp6QVhXbngwdTA4R25DX0xTRUHSAVRBVV95cUxNdjl0YzM2eC00c0VfOGozbE5GODB4ZWowM18zNjZ5UVkyYTcyRklGak91WG45MlBCamoxd1lxZm0wZ09ieWNYeTg0VEQyMG93NmpLMFo?oc=5",
         "date": "2026-08-29T11:05",
         "source": "عكاظ",
-        "category": "社会"
+        "category": "政治"
       },
       {
         "title": "中国の大型投資がサウジアラビアに流入、観光と産業が中心",
@@ -228,13 +242,6 @@
         "date": "2026-08-29T10:42",
         "source": "صحيفة سبق الإلكترونية",
         "category": "経済"
-      },
-      {
-        "title": "イラン系民兵組織がサウジアラビア攻撃を計画か、情報機関が警告",
-        "url": "https://news.google.com/rss/articles/CBMi6gRBVV95cUxQNE9zMnY5SHdYOE9ESHpZa0pNYUl4TjhENHN0WGxTcVh2Ykp3bnFKeUhha2RZaWZPQjBwdDgyZExTUjNSMXJCbWd1ZGlfd2FIRzA1dVI1SExzYTE0aFBnbXJ0NVlqRjEtU2xOa2tYbm5EVkNHUl9Sb3pQQjRvS1p3WHBLX2xBVlVPWERjTHh5dzdnemlacjMwWkt2SW1LVHBZX2VYT2RnTlB1aG9kVEtyYVQyekgwcDQ3Q3FjX1ROX2xINFNkVmFlTmNneEhrVlJHS3RJQVNmQ0RMX19Td0NVdEc5b0hCeWJHZFg1ekF1cUFRN1gwUU5RVHZaR1pVSDFHNUN0cFg2NjVuMzNEa0lUNmp4SWxRUkJDbVByZFcyQzBFSVhiaENrSnhlR25Yenh1a1RwREM0UzRSMzJrY2VzNkpyb0JXendYeDFjbVJBME9nQjV0VVd1ZjZSUDF0VFZPZThlMzhpT29vQUFPTHNkdEE4a1IyT1Q0RlZnRlVNQWs4TkRWWG1Jbm5VWEM4VlpWUGJzaGVUVWY3VTdRVGpiVWxmUWxLSjlMUjhGTjE5VENzeEVFNTNGU2gzaXczQXprSGlHTkd6RU5IUTZaOUY5aFdSNmdNNUE4Ri00cGxFdDRzUDA5dktSWEctME9ubnRQUFppa29xZ3dCdnh4dFllTDFHR290M1BQMlRYaGNHOS02ek85REFEVC1jOUFXemVHUEg1MldCREhnSEFsR2xjSUk1MjhheWhuWGh6SEx2ZFBidEFFOU5TVFBZZkhGcjFtbGJYclhzVERUV21mZHlOdnlSX0UwWDNVMnfSAe8EQVVfeXFMT2NMX3ladm9yNFhORFA4UmxkZ0x0b1RiRE4wa2RHQ2lOVlBNc1M2NGdCRmJSNlBPUndqNDZuRG9IY2NJVkJGNm1qb1VpbXhFNGY3c3Mxa0dKRDlFRHNtSU1EYnlkQWRsYXJReVh0alpEN3poMFZQM2gwZS14QThPX1BxM21nakFDQVFmTnBuNnByME9EQ2pQNUJ1WGNSWks5ZDRyLWhOb29OU2pmZmIzeTNISmhsaEJtdlNOcG1yNHlyeXVKYndLYXBTaEEzOHFUTlhjQk03ZUVBLTZEM3FKVHhOUjloemkxOERTZk9OUmhJQnBLMTNZRlRjYVdKMFdqT2d1M3hlaFM2QkdlMlBQRkFnVUNuQnFXdU5nMXBsanFyOGxnRmNiM2RsOVhPUjZkU0NKa2dyMTNtOVpNQ1NLMElNWDVNREh2ZnpoQm9EeU1reVFNM2plbnVqcFE1cUtORVdoX2R2UnFJZjktMmpGSzd5eTJ2MUI4VnZhQnFBdldIOFBacF9yTTN4V2d4NVc4dGc5WU9mcVpqSnFKSmZheENxTUlhc19fS1JBVHZkOGZTczdra3hMYk1SeE92MERwQ1A3elZjWW1iR0tGWGFXT09ObkJQVUdxcktMU0tOYk40T19KVHRBTFRHSVRhLUZTQWhmbm1Rb3RkaHB5X0VUQ25HRmN6V2l3VVJ2VVBpYXZFMWIyVXhyY2dfcWxRaXBQWk1oWHNfR1BGNEdQX3FtSDZ4WlBGMmZsaDI1eERTeVE1dWU1LVlQeE5NQWpIOFBwZEV3elN5MWZnckxmMUpIN3lWQzNGMndwN05vaV9WR28?oc=5",
-        "date": "2026-08-29T02:06",
-        "source": "العربية",
-        "category": "政治"
       },
       {
         "title": "サウジアラビア 曇りと風、砂じんを伴う 気象情報",
@@ -258,23 +265,16 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、豆輸送に隠された覚醒剤190万錠を押収",
-        "url": "https://news.google.com/rss/articles/CBMi0wRBVV95cUxPczVNOFIxMkwwQmliRU9NMFBMSTFqSzBVWFJqNi1fSTJITDNZaF94ODU5MkQ0LWc0WnZ3Zk9Tb3lXV1FOQzU2anhVMTV6OTZpak05TkVZQVUtdDd0dFNmalZoY01DTlFuOHlqMWtZVFFJdWhuMW1FUnFjSmx6V3hTTlA3blRjUXVIVS1MV2cwWjBpbnE5Q1A3b0xEckZ0a280M1NuX2R5ZFlRRGVrNEJ5MUdJTGhtNVdvODlRU2t3RjR4VXJZRFBPdjQ5UElfMHBOWlg3S1FsVWdPUW1MVlNhM0ZMb2ZMdzJSTUJUSlVrb0twRVZZcmh5WVQySldfMmtwRFNnQUJ2NjhTOUI1cThXZGJLcXIwelk0aThQT08yTlVaX0d2dUV6NldkREZpa3ozaU1XQkRSbTk0ZV8tQ2N3X21Pb05DS1JSbVNKeXk2bkxXbjZ4R1NadFBkbmJwYUREQmpYWVBmNU5kUDd3cFVfZjZreFlJRFJLaThGVFlUYXZVS1E3eDB1UWdZZjc0Um1mcllVbFBqbkNZRnpsTkJHLXNCaW9WLUVsTHoyZ0xJOXB4S3ZDWURWb3ZGWlgzSGVPclI2cGRjRExfNTJ2VVU2Um1scWNEX3otdEUxRWNBNG11SVMwTWd4TmFnRkVLUlpuY0E1ZnZ6b2dSU3FVbGVjb25sZ1NkUHJzcVNkWlIwY1N4VnJlMVhrVkNHSUo4Yk1CeF9leWhsNFlEUHAyeVpqREVHaDJtcWwwYTl3TVBuTEpJbjlNdDRYNGxGTElfcU1DU01F?oc=5",
-        "date": "2026-08-28T18:11",
-        "source": "الشرق الأوسط",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア規格庁、車検手続き簡素化を装う詐欺業者に警告",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1vcWxmV1M4bGU2U1FPSXVFbjlNYW1ISU1uRGdJSXllaWF3c2VwOER2NnAza0Riam9kVzRnanhKa0lQRzBpcGpR?oc=5",
-        "date": "2026-08-28T17:46",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "社会"
+        "title": "イラン系勢力による対サウジアラビア攻撃計画の情報が浮上",
+        "url": "https://news.google.com/rss/articles/CBMi6gRBVV95cUxQNE9zMnY5SHdYOE9ESHpZa0pNYUl4TjhENHN0WGxTcVh2Ykp3bnFKeUhha2RZaWZPQjBwdDgyZExTUjNSMXJCbWd1ZGlfd2FIRzA1dVI1SExzYTE0aFBnbXJ0NVlqRjEtU2xOa2tYbm5EVkNHUl9Sb3pQQjRvS1p3WHBLX2xBVlVPWERjTHh5dzdnemlacjMwWkt2SW1LVHBZX2VYT2RnTlB1aG9kVEtyYVQyekgwcDQ3Q3FjX1ROX2xINFNkVmFlTmNneEhrVlJHS3RJQVNmQ0RMX19Td0NVdEc5b0hCeWJHZFg1ekF1cUFRN1gwUU5RVHZaR1pVSDFHNUN0cFg2NjVuMzNEa0lUNmp4SWxRUkJDbVByZFcyQzBFSVhiaENrSnhlR25Yenh1a1RwREM0UzRSMzJrY2VzNkpyb0JXendYeDFjbVJBME9nQjV0VVd1ZjZSUDF0VFZPZThlMzhpT29vQUFPTHNkdEE4a1IyT1Q0RlZnRlVNQWs4TkRWWG1Jbm5VWEM4VlpWUGJzaGVUVWY3VTdRVGpiVWxmUWxLSjlMUjhGTjE5VENzeEVFNTNGU2gzaXczQXprSGlHTkd6RU5IUTZaOUY5aFdSNmdNNUE4Ri00cGxFdDRzUDA5dktSWEctME9ubnRQUFppa29xZ3dCdnh4dFllTDFHR290M1BQMlRYaGNHOS02ek85REFEVC1jOUFXemVHUEg1MldCREhnSEFsR2xjSUk1MjhheWhuWGh6SEx2ZFBidEFFOU5TVFBZZkhGcjFtbGJYclhzVERUV21mZHlOdnlSX0UwWDNVMnfSAe8EQVVfeXFMT2NMX3ladm9yNFhORFA4UmxkZ0x0b1RiRE4wa2RHQ2lOVlBNc1M2NGdCRmJSNlBPUndqNDZuRG9IY2NJVkJGNm1qb1VpbXhFNGY3c3Mxa0dKRDlFRHNtSU1EYnlkQWRsYXJReVh0alpEN3poMFZQM2gwZS14QThPX1BxM21nakFDQVFmTnBuNnByME9EQ2pQNUJ1WGNSWks5ZDRyLWhOb29OU2pmZmIzeTNISmhsaEJtdlNOcG1yNHlyeXVKYndLYXBTaEEzOHFUTlhjQk03ZUVBLTZEM3FKVHhOUjloemkxOERTZk9OUmhJQnBLMTNZRlRjYVdKMFdqT2d1M3hlaFM2QkdlMlBQRkFnVUNuQnFXdU5nMXBsanFyOGxnRmNiM2RsOVhPUjZkU0NKa2dyMTNtOVpNQ1NLMElNWDVNREh2ZnpoQm9EeU1reVFNM2plbnVqcFE1cUtORVdoX2R2UnFJZjktMmpGSzd5eTJ2MUI4VnZhQnFBdldIOFBacF9yTTN4V2d4NVc4dGc5WU9mcVpqSnFKSmZheENxTUlhc19fS1JBVHZkOGZTczdra3hMYk1SeE92MERwQ1A3elZjWW1iR0tGWGFXT09ObkJQVUdxcktMU0tOYk40T19KVHRBTFRHSVRhLUZTQWhmbm1Rb3RkaHB5X0VUQ25HRmN6V2l3VVJ2VVBpYXZFMWIyVXhyY2dfcWxRaXBQWk1oWHNfR1BGNEdQX3FtSDZ4WlBGMmZsaDI1eERTeVE1dWU1LVlQeE5NQWpIOFBwZEV3elN5MWZnckxmMUpIN3lWQzNGMndwN05vaV9WR28?oc=5",
+        "date": "2026-08-28T22:13",
+        "source": "العربية",
+        "category": "政治"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-08-29T18:09:39.363557+03:00",
+    "lastUpdated": "2026-08-29T22:01:00.639783+03:00",
     "items": [
       {
         "title": "堂安律サウジ移籍報道にSNS「W杯優勝とか言ってほしくない」「進歩よりお金」「応援したい」（日刊スポーツ）",
@@ -295,6 +295,20 @@
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE54RzZYNlhYVzBJTzZydjlGRmE1YlE3bExPS2kzMzBkVkUtcUdxOUxXblZvWjkxZ09ObjR5UEdrYjBQcF9kOFpB?oc=5",
         "date": "2026-08-29T03:07",
         "source": "ラリープラス",
+        "category": "スポーツ"
+      },
+      {
+        "title": "堂安律のサウジアラビア移籍にＥフランクフルトが合意へ 移籍金３３億円、年俸１６億円",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wMGNfWEJNeXJBWnhYRS1nWm5RNHgwVDQ0bWVTRVc3UzlaSmFseU1PT0ptd3d6QzlhZ3lKVHNSRW9GRzNHZVZRdndfNXByQ3hZTVpvZVFEd3JjWjMtd2pMV19ULUwwbzRhMms1Zy1R?oc=5",
+        "date": "2026-08-29T02:01",
+        "source": "au Webポータル",
+        "category": "スポーツ"
+      },
+      {
+        "title": "日本代表ＭＦ堂安律がサウジアラビアからオファー　年俸は破格の約１６億円と報道",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbHNtQTZfdHBJVnByVGpxaGhCWExFNkJVZzd0ZldTaUVrSnRvOGpHSG1VNXJIcGVIVHZLcVBGVGg1ODB4SVhudU9aRjg4UWlIOFB2VWdSb2x0WHJnYkFhTTdlYktTaThHMWF5TjYzalQ5SnNfX3lPczZCNWUyTGlYcTNGVG7SAYoBQVVfeXFMTUk0UGlzQkxBeWZWWFhVWmYxclNaXzBTM1hkS1BGZWswcE8yMG1SX0Qtb2wzaU5nMDJTZDFydl9ScFZXX1RjY3VZNTVLeTh4OHFoRnhwVGgyeEVpSGVnR1diaDVoWmNNdTk2dXJONDkycjFXLVdmbGNQc25oZWZKVWlYOTF4SEo1RmRR?oc=5",
+        "date": "2026-08-28T22:11",
+        "source": "ｄメニューニュース",
         "category": "スポーツ"
       },
       {
@@ -330,20 +344,6 @@
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XYmtQRjdfOEpqUTVZRE1RMUVQdEpnSE9IY3d5b1poQ1g4REFyM3JwdGl4LVhEeHdGeVNjd09jeDFralNRaUFhbjlhUzhfSTN0ZTY2MzhGd0VUaVRuRF84Yk9QSlk1MlZWcVppRUxR?oc=5",
         "date": "2026-08-28T09:33",
         "source": "au Webポータル",
-        "category": "スポーツ"
-      },
-      {
-        "title": "第1戦 日本×サウジアラビア フルマッチ",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9LTXNJTVlYOTQ2Y3hZd0QyZ01qWmhVcGJxVkJJSUY2N1hoOFhBekduUWJOOWMwUEVNM2FWTUYwbHU3cVdTbXVHQ0tsVQ?oc=5",
-        "date": "2026-08-28T09:16",
-        "source": "TVer",
-        "category": "スポーツ"
-      },
-      {
-        "title": "河村勇輝が超加速ドライブでサウジアラビアを翻弄、ファンから歓喜の声 (2026年8月28日掲載)",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1aUFBES3F4R2FfS1ZRV21DQjJnUkRFWjRvVEtMdDJrQ24zaHBEaDZZVTc4RW1sRXE5U2loYWhLS180SFlqNmZnaFJBWU8tb3ByVmRQMmxzRVg0TzYtTUE?oc=5",
-        "date": "2026-08-28T04:58",
-        "source": "ライブドアニュース",
         "category": "スポーツ"
       }
     ]
