@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-08-30T17:54:37.604790+03:00",
+  "lastCollected": "2026-08-30T21:56:21.813657+03:00",
   "security": {
-    "lastUpdated": "2026-08-30T17:54:37.604790+03:00",
+    "lastUpdated": "2026-08-30T21:56:21.813657+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-08-30T17:54:37.604790+03:00",
+    "lastUpdated": "2026-08-30T21:56:21.813657+03:00",
     "items": [
       {
         "title": "東部州領事出張サービスの実施について",
@@ -86,7 +86,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "社会",
         "is_safety": false
       },
       {
@@ -110,7 +110,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -124,8 +124,36 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-08-30T17:54:37.604790+03:00",
+    "lastUpdated": "2026-08-30T21:56:21.813657+03:00",
     "items": [
+      {
+        "title": "トルコ、サウジアラビア、パキスタンの高官がイスタンブールで会談",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMHdaSTdlX3FMRnp0Vk8talY1NllYamFPT1dCTTZUcWJ5TkExZGlzOEJPM1c4WU9UU09JTGJSZUYtRkhsQ1RzdXBjaXRXY1NkdGdITHQ1ZnZCaXdrczRjYS1QbUl0Z0RhbEtpaGZLMGZpVzY3cGg3Y2t0OXdCQV9mWU5NVkZQMWpDOWVUZVJwQmFqYy1SNmdxaGhTdWJTOXRobVFVS1I3dXBTOVJqcWfSAbMBQVVfeXFMUEZvcmFvTnlveWlJS250N2hlTTl6bXhlRzY0am5tWG9KRmxFMVYtbkdza2tMUmRpSlRQc1lNWkxVQlhkSEJnV0plTnMwY050alNSNnROUHdOQlFRYmVxTWdybmJTdk4tczR4R3lKSjA5dG95LUZwYnJuUjJ0WkpMaGhoU1gxTl80Vi1qOVFnb0YwT3ZVS040RS05RFJCM29femd5VjV4YW0tdWdPNU50MUw3ZEk?oc=5",
+        "date": "2026-08-30T18:22",
+        "source": "Al Jazeera",
+        "category": "政治"
+      },
+      {
+        "title": "イングランド代表FWワトキンス、アストン・ビラから69億円でサウジアラビアへ移籍",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0xOHdRV05RN3J6TC1GZkZvZHlWRlZ1M2RocEZLaVN4b0ZPNjMxS1FvN1JsYm9MaU54VzdYRXF4WlBjSG5BTFo2TEY2NEdDcE5tdm9LV3ZTX1kwdlN1LVpvVGFwTk1JMzR0b1pCWTJnaW5wZGJYSGxtd0dB?oc=5",
+        "date": "2026-08-30T18:18",
+        "source": "Newsday",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビア、トルコ、パキスタンが新たな防衛協定に基づく初会合をイスタンブールで開催",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mMG4zX0VGLTJIN3NPMnI0YWVXU2ZfSG1XNkxrbXpuWG5DamtEMnc0RndPMTJZcnFQSlJrZ2hmMi1zMVdfS21MRGdxV19GSDByZ2g5bHRTM1NjXzVs?oc=5",
+        "date": "2026-08-30T15:55",
+        "source": "The Jerusalem Post",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、トルコの再生可能エネルギー急速整備を支援",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTkZGcWU2VDFiXzdfQkJqeVplOGZVZGZIcEFsMnlVVm0xaFFtbWc1YzNuaVJPSnpZNWFsNTBJV2NMc25acDI5ZlMxSmhCaGY2RWc2OWViX1hVSWg0TWNIeFIyM3RkMjlCa3N4bGc4VFpFNHFYTjlmdGV6ektMYlVfWWhlbW1LYnl6dlg2dlZaQTlpbGVvdmV4Nl82NUF4a1RSM3o5dkVmajJUZ9IBrwFBVV95cUxPWll0LWRnYkR3bEpFRkNrRFZoRUpOd0FiUjNkRlNOTXd2WlI3d3BlNTVJOEdKOFo1dG5EOFF3RFo3VmdSdnRWZEZSdmhtUC1KV0tsaWFLQzNsQzBHZHZJNmNnOGhhN192dkNnSERlZ1ZwUXBQV3JUbU9fazgwWFB0ZmpkQXo4eE5sMFdKVm9ieTZjdVM3cjNoVS01YWxiMzFMSnpyNnlLT3g5NHI3UXRj?oc=5",
+        "date": "2026-08-30T15:00",
+        "source": "Crude Oil Prices Today | OilPrice.com",
+        "category": "経済"
+      },
       {
         "title": "サウジアラビア株が小幅下落 タダウル指数は0.71%低下",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRGZSRWhYWnc5TDZRYkxYbF9qazVXQ0pWLVNaamNlQjN3Y3BJdDNUS3NzbkswT1pFajg2RDVXc21JZWF4QWpKTG9uWjUyamxtVGRuV0doNFpGQ0d2UGd6bFhtTmpYVGlXRWlNVGs4T2hOQjVmZVhjUURqRVNiN01DYU5LRlJpYzlDRG9pSTZjTURrQy1SQmVNeEhudVVmanY3X1JIUnc5M0VmbjF0LXVKM2JVUFdLeEl6LU5DSllYeW92WDRTWnc?oc=5",
@@ -148,6 +176,13 @@
         "category": "経済"
       },
       {
+        "title": "サウジアラビア、スーダンと紅海地域への関与を再調整",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUEkwYTA5elVNV3MwYkhyaFZlNm56TWFzNnFrMkE4OXFsSXczeGI2dEZPWnRGeUQybHhBSzI1a3RNNEhtUEpEd2tPWjdYdGRZVkFMUTdnVEFqNmVmTktrRFZzbkFONjVvZ0hqVTFudFVHWlI1cTZwNlRrQjZNWDNmRjhmX2FpNFlSQWhOdUlFZlk5a0M3MVRyQUdLQ3ZiUQ?oc=5",
+        "date": "2026-08-30T08:26",
+        "source": "horn review",
+        "category": "政治"
+      },
+      {
         "title": "サウジアラビア人の一撃が露呈、バルセロナがチャンピオンズリーグで審判の不公正な判定を受けていた",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYnlwb201emV2RUd5ZXNJM2JuU0RHZlNhRTY4R0NjNGxaVHZjWFBlOVo5aVlodjhSajU2NFJ2dGZkVERBdEx4dFByVU1NcjhJaUYtZmp2cEs2akZvTkFpa3NWVnZiVGNNaDkxMlk0Qm1waTd5ZjlmM1R3T0d3dllIbzQ5MXFXMWViTzVPaWRVazk0Y0xtUFRkUFlhWDFMdzVWekdQdVd3NUVKakZSRnZWX1J4bmE2MDdFTjlIRGp2Qm5ISWw2cU90TTA2SU16ZWRmMDJyelJUSl9zUi1Z?oc=5",
         "date": "2026-08-29T13:29",
@@ -160,53 +195,60 @@
         "date": "2026-08-29T09:07",
         "source": "USA Today",
         "category": "その他"
-      },
-      {
-        "title": "世界的高級ブランド、サウジアラビアでの事業拡大相次ぐ",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Lb3NhcUpoQXRfSXAwOXFOT25BLWhiLXhoM2lPUDRKa05mbmFoUFpiOXJYeDlKSWdIaWEtQnFnckl4YmRRY0tSY2ZLVkp0U2tJakhjbERMZXZmSGM2OGJ3WWtUQi0?oc=5",
-        "date": "2026-08-29T07:38",
-        "source": "Arab News",
-        "category": "経済"
-      },
-      {
-        "title": "イラン系民兵組織、サウジアラビア攻撃を計画か イラク内で",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR040U1doQXpIRWpRODZiYzRtclBlZ2xIU1V4LVl4dktIOGRfT1ljb21MUUFOemVRbmIxNm5hVmZEMUdPcjlIeE91cEFmOGdHUDc4aG1PVjhscndWRVJ1MDFPcmJkRUNTOU14WFVOUUthTlJ1RktyNmJoNWhPTm9hUzdwQVVza082WG5vT2VCNVByUWI1ajg2eHVnV2V6aktVMVNpMXNIaUJMMFhnVzN1aDdfbXBiN2Y1UHp0T9IBwgFBVV95cUxOT1M0SHBPb0gyQ1BIV3kzT3hGUTdtQXo5alRZZldpRW5mVXNlZThlX2RFSER2OTVDMi1BWUlzTGRzTlJDMXNwb1laUnliQUlzNGd1VGtZSzZLNzB0My1ENUFobWYxTU5ZUGdKbVpVVHpqSWlZOFFNdS1FejFMVmI2NU5TRmhLdFdFcEZUMm5uUWpsN2RLVjduVHl2SlRIbVZLUkNMZEFSWXpZSTkyRjZuVEF4Rk9oTlZ5V0NTXzNmb1JJUQ?oc=5",
-        "date": "2026-08-29T07:23",
-        "source": "Al Arabiya English",
-        "category": "政治"
-      },
-      {
-        "title": "9.11テロ実行犯の下宿人が、サウジ諜報員との関連を明かす",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94NEVRcTZLWWlsejZ3Q0xEMTJCWFBqQkxwUm9TbVdmSVY4Yy1zUG1uTXBYVlVaRFVoMElCd1NTclQ3UWJmV1ZKSV9iS0lHcnpZeUt1QUpWZ3hhdw?oc=5",
-        "date": "2026-08-29T00:32",
-        "source": "BBC",
-        "category": "社会"
-      },
-      {
-        "title": "エスター・ゴンサレス選手のサウジアラビア移籍 背景に様々な疑問",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeDdnZlJ0UzFIWm1paWdGNDlRZm5wQVJaLUQ2ZTBSNUJjcW5odFZfcDBwNlMxVmlPMVBEQnM5MXJMY2l5NlQyMWxqWEFFTWswcmJKenExSW5hcGtaQzRPMF9QRWkxR3FqaXRucVBrTV9NWjNXSmVZdEo0NVFXVHZnUVVBMGJ5WjBSS2p3cTNjaUtKcW8?oc=5",
-        "date": "2026-08-28T13:01",
-        "source": "The Guardian",
-        "category": "スポーツ"
-      },
-      {
-        "title": "クウェート向け防衛契約でパキスタン、中東での影響力を拡大",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRmJQZVc0SXVjbWpURlBTNThlcG9zcWQ3dk9BOEJwUDA4UjdXYkZxYVJGVm9yRHhRdkJOaU1HRjMxU0hlMlY2Tm5fV3poWlA3X05hWEFqLWZvSjg4MDhvUi1MQUhTalBQMk1hNFlsVnpxUDJnTXppbzlkUUxRdlZ6UU5ERUIzSF84ZHRXeEY1TWFvODRQRHZJcGkwbDg3VUxJYkZkc1NzaE1SRGkzUzRn0gG0AUFVX3lxTE9ZbHRTM1hiWW5rZzhjZHpEVWRMdUdINXhQOGlRMlB4b2NWNzU1bXViNVBwOEtoV3piZHNKWkllcVJrbmJ3M0hfNlB2Qmgwc2lhRlpQd2Y0cG5Rc2hZZ1BMVTR3WExBMmJ1RXVTOWNWcDJPMTdoZUNNalNnNF9wT04zMVdNMURNVmwtY2tZdHNUaEdDRFR4QXU0emVhSDVIN1RoN3N5Njl5RHFqRXBOSGpyaVBoTg?oc=5",
-        "date": "2026-08-28T12:01",
-        "source": "Al Jazeera",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-08-30T17:54:37.604790+03:00",
+    "lastUpdated": "2026-08-30T21:56:21.813657+03:00",
     "items": [
       {
-        "title": "サウジアラビア、女性の参画で健寿命延伸産業が成長続く",
+        "title": "サウジアラビア機関投資家、先週のタダウル市場で3億7187万ドルの買い越し",
+        "url": "https://news.google.com/rss/articles/CBMi2ARBVV95cUxQWTJObC1fUE0ydFNFclAzOWhwT09IVnpOdndzajdOR1ljQmxhU00wX3ZzNmcyZkN5MzI2WHFlTUMxb24zMzR5T0JBajltUE9KM3NVM01wYThqQkFpcDRFV2FZdk5lZTB3SE5YU1haLUhCY0M5aktMM01zM0ZvV3dpcWJoU1M0LXpFNDRJSDFNTzFBb0c0R1VybzlQZ2RiYWRleXZMZmtXdkpOV0Q3V0NNM1dJSzlocFMtMVNjMkZxR1JEaDZwZXlBNVpLb1JSbWVuU3k5X1h5a05iV0VxWFAwSEJWRGdGZUtONjE4ZGxHSUFmU3FfNVZVNEk5Z0JXWFBlSHpaUnd3SGlwakhJM2U3dGhrbU54XzljQ2NUUTZXZTFIY08yamdXWllwWk9RRTY0b0NmVnVaNzh2c1F6S1dtRHRYLWlKRnN1VVZvRzJNUFVobnNoLVQxY3lKSll5ZDBYR0FHbGNJdXFHdWFOellGcmc1U1gtSlNUelRuZkJ2dW9ISk56NFlsNHZ0VVJjRHFyLXdSUllHZzRQUXJkSlFqTEpsR01uRk1iMDhjNXcxbE5WVGxDemlJUmIxU2dnR3U0Q2JKcDB2UG9BWkk1eUlFUFdfN2U4VGdQQkRveXdBRURZd2dSUFlFd2dpMWdxUjBHZlZCS2VjZDQyYV9PSmpwVEt5Yy01bk9WMW9xVmRGLVB0VmJFQURqTTF3T1RObFZXVjJ4YWpOYVpiaXM4NDVISnV3UUdOX2dDbjlLZmxLQjl3S1pmdXVVXzBVd1NlTVhWRXVtU090eVPSAd4EQVVfeXFMTnBMalVwWlNEeU1TRUpwWFFuUE5fSUxJdkR2R0ZaV2pEUVp5RGQ1bmhIeEJjUnFKVFN3aG1YWVdjZVc2SWx6X0VwOTAwX1prMVBKWll0Q1E4VzhqQWF2cEdJMHRUYk1Zd1J6R3JRRk5lSDZRUjRpalNmMS1qZDdvTTczcTdKOVVZUzU2UnZhQ05aNGtORGluMDV0V0ROaDJjLXMzMkJuZFVXZWJOU2NvMDB5UFhrR2J1SzExN0NmVFdSaUFzTE1DY1FtLWpYWE02Ukg4U3FaTUdnRlRRYktTWU5vTG5YWE9USXdZNXZOUGJNSUt2VWEyQU1Sdm1admFzampSNy1TUWFPb2hwN0pmeGpoZHFVeHhlNFpuSTE5Z1lWY1A3Y2ZselVtS1VwTFZzSkF2bW9tVFFkLVEzVUZDZkhKZTdYNmJwVWF3Xzc4Y3ByNHhwaWdiX3RMaVdPVnE5TXN3RWhHcEEyeGJybDhOeWR2WlVHUUZ4TzJNY2Z5VjVHTE5EaUlWel9fZU1LWElzc3FRZDQ4MXQzUEJoZXM4dklxZlZ4ZUxUcWhBY2FsRUdKQm1RU2VoOU5vbVF5SUFvOGhxYzdmMjh6VHJSMGJSYndaRThDbEloZkk3elZDbTRMb3dZbk9XZGFLVGFfZW5Vd21KT3B3WjdXMUxkNEdGRXRPVG91WE0tOVN5bnRIQnAtRXRYSUpQbGJ1MlA3RTk1UDgzeDIxLXFPWWJ3YkVNUlM3NU00SnMzaldSOGN6YzVFVWVCWGpaS21IMmR1eVlvQUt0NllnWjNtbUdxV2l3?oc=5",
+        "date": "2026-08-30T18:05",
+        "source": "العربية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア株式市場で大株主18人の保有株に変動",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYWsyLXRhWHppVktVbE1NbS1pVTdfMFU3dUdqLU1kWVpUdFM0ZXlsb1FORGVIRDZQUW1Qem00SHA0eWZrREpFNklqMjhOdU5jTWV1RkhNLXhlWkNQSU82eS1tLTRxV2FDNlZ1QzJ1VEtGcTNwZ0J5SUc0c0praVRBM1B2X0Y2YkZiZEVXR2FsTlhzV1RYYVdRWi04TF9wMEdmZ1RzdzZMM0toT3VSVnZWZnRjUllsYjZsaGdiWmMyOXVSOGJMek9kbk5XV0c5UWowanFkZXRkaDJSYnItbGwxVDF6dw?oc=5",
+        "date": "2026-08-30T15:15",
+        "source": "صحيفة مال",
+        "category": "経済"
+      },
+      {
+        "title": "シリア情報相がサウジアラビア通信社を訪問、報道協力の強化を協議",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5STHd4YzhsdUpncF9BZnVYT3REaDVTa1FKWlFydUQzOG90YnBKZzNYTXBXVDY0V1JRTHUxdk9LNjU0dzFDanhn?oc=5",
+        "date": "2026-08-30T14:59",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアとシリア、共同メディア事業の推進で作業部会設置",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aaVE0MkhXZmNXdl8zbEQxQVN1S184ODRORi1NR2JQczUxcnl2RjllR1JHdlFaRFlFdGxLVXhVbG5xemNGQi1ZaHF3bDVqdHRDYVHSAVRBVV95cUxNMUFhZXVITl9zYTFUNndJak9lOFp2T3FKeWpPZWlLWVlFNzF3N2VUNUhoaUhKd2ViQlNkSmJTWmJHRklBZU9XWnduYXE2WXZGclNXU0o?oc=5",
+        "date": "2026-08-30T14:40",
+        "source": "عكاظ",
+        "category": "政治"
+      },
+      {
+        "title": "シリア情報相がサウジアラビア通信社を訪問",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE85RC1fc3BDUHV1cWhUcHI4QkZZeTJrd3Y1anU5a25BN09OcUJvS0pIc0lZcWhMckdHTVppc3NQNGQxZ0hvVEE?oc=5",
+        "date": "2026-08-30T14:40",
+        "source": "وكالة الأنباء السعودية",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、女性との連携で寿命延伸産業が成長継続",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBINjc3MHdUQXc5czNnRExpYWp6UGM2cmU1Rk54eWQ5RmtpLWZZRVcyUXR3dTNMNzZBRkt1V2xqd1k2OWRxZXNF?oc=5",
         "date": "2026-08-30T14:29",
         "source": "صحيفة سبق الإلكترونية",
         "category": "経済"
+      },
+      {
+        "title": "サウジアラビア内務省、女性死刑囚の執行を発表",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTEJLcnUxSE5OS3c2VDN1YUw0RTZ1RUctbVI0RmVhbVdNOU1pWEc0T0FzanBIRjZqdmxjQUJ3dWxTbWFXMm5DZktwbFZyRUwzNVF3YVRvN1E3OTBGcHJXNUdqS3plcHNNWW5UT0h5VlNrSVViTlE2Mkx0WnJlQ0tRQzlsRHpvZ25hQjBJaVdFM25WNTB2V3ZBdDE1bXJWQdIBqAFBVV95cUxOY2tGcGxoNGRrV3F1TW5uNmxTZS0xbG5YU3NkdlM4VGJXSURkc25xeV9tclR6bkgwV2N0ak92MG83STRjZThqU0VETFNxc3l6dEE4LVZfZVVCZG9SWWg3MjNMaGVTdUtxbnVLNEZxWG9FeG16cnUtTWN5Mi12WUl5TFNlSUZqd2NJWlZxOHdPWF9kQ2pVR1YxdVhLbjRwbHdhMFctbV9wM3Q?oc=5",
+        "date": "2026-08-30T13:49",
+        "source": "CNN Arabic",
+        "category": "社会"
       },
       {
         "title": "サウジアラビア、2030年までの天文現象ガイドを公開 62の天体現象を予報",
@@ -223,58 +265,16 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア建設業協会の代表団がシンガポール訪問、国際協力強化へ",
-        "url": "https://news.google.com/rss/articles/CBMi7AVBVV95cUxPRHUtcW1JZ29qZXJ0VFY5WkpwcFJaMWN2UlFKenJrX0FuZ1ZEcGJfTlN4eVFOb05wOUxpN1JmcWdkYVJQaXdwY21PQmpBSk4tYzNENHoxQ3VUdllHdU1JcjZqcUxtcnpqVW1JXzhRaUZDLVkzT04zRy1jTWVJbUN2SnhqR2hCT1F2RE5CamExRVlvOXZqUXphNVNKZDU4b09hSWZmM0x2dmx3LVZOWDVlTWJHWGdRaFhPUnI2dmdPVDFHcExEdlh1T3JqbjhpM29Ea0J5ZWFsUm10b1pvcW1hbFh0b1pGdkJhZWxTVmoxVnNzSWFidWR2ekxKN1NwWGZMN1ltTWE2T3pSOE81dXBSUWpOSXRDOUI4QmlqRURRaGNLVEtQTEtzejFGaEN5Wk9Pb2NGOXBKRENVdzAwY3JjeXVwcU02ZUNYemhiUm9qb0VUSE9GRl9icFRNR1JOUVFKQ0wwQkJUZlNrWmJkOGVUTWdodFZsSW9haEtVUGJpZlJxdkpIQmRHTzdCR2h0Yk50Vkozc0hFQkh0clM5QW5hSWZtY3VKa0dfT0JiRzRPSXBWdFZaeThwT2pPczI5WXFYZVVTMnZUOGhCSnV2dVNnRnRuZE5UTFlJQkJJcjdiN3FlMUw3YmMtaDE3dUJvSHBRd3lVdHpjTzhjMFJpSXY1ZkRMeGlzMk9peGE2Q1FqQnQtWnZiSW4tcWYtOEFyTnI4UUFrY1hUUEQ1eVdheFhqUHFLRXo5eUE3dVlPb2xUZzhGRnpnYWthWDZYaGQ2dS0yV1FhcFFsbm5KTmd3a0tvOVd4MzhjemhYZDlpaEFMcnFHa20tUkl4X2o2eGR1MjNsNG1yd2szWnBhbWlSNmJlOUY2NXY0UGk1VHR0c0ZyeFZJS3dkYUFsdkx5RE11elAteVRwQkJnM0huUGpEWW44U0FsYXI5NnVSbUp6MVAzV2cxWXJPRWhtdG1BQ1lTVHJkRS1IaTFtU3BEeUty0gFXQVVfeXFMTzRrczRNNEdzUzNvaWpXT2xLN0pWTmpzdUNqbXhCWENMVUM2eGpKU2FyNnNZUHN1ZkloZGxzTVZObXRSdGI3R2JfaHFZOHNob2xxOG83NTNF?oc=5",
-        "date": "2026-08-30T12:34",
-        "source": "جريدة المدينة",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビアとパキスタン、農産物・食料品輸出を30億ドルに増加へ",
-        "url": "https://news.google.com/rss/articles/CBMiqAVBVV95cUxQQ1NYODA0b1BpR1RFSDRZaWVleGd4LVIyNksyekFpUzY1a19FWVZKamNWWnJfMkdpWExOSV91c2g5RkpaTWVUcnczRzhDODJOWTd2YVlyNEFWcjR4RzczWUJFeDdIaXFQa053dVp2MG43bWhGS08tVnhmX1JaMFltdUoxUEdfblZoUTRpNE41dmx3YTJlWGpWQ1J4UnNvcldaemZua1VJamF5cUszOWFBZXpLb1ZfVUN6LUZXNWZJcUhDQy1faGNNa1c0SG5sWVZydGNpN2dITVJuazE5enEyQ004bmhMWjgxQi16TjMyZDBpTm9YdjhwcnhYdVZhVXlFNjZtQmlxVE5jbzFPYkF5bVJ4Ul81X2JMQXVRWEtCSFBBRWhvbXZNdjZoQjE3SEhHbUE4QXk4UkJ6OEZPZm51REc3TGo3OEVQVmllN2ZyV3I5dTREXzhIYU8wLWNSWnVNQk9FRldPaHhQcW1LTEtWX0pYVGVjOHdFNERqenQwekgweHdVdGVVcmNLZnVBNmFUTDF2ZzNLYVFBNzcwSjRfc00yZXQwOHQzQVR3ZURJS2dSUTdMOE91azFzQ081V3c1VFhvTDVBM2dZS2dmZ1VXcHI3VDd4dC1wQm9iTTVOSWRSR0ZxYXZtb1FtTk9aQWVGbEFPSWFOb0Z4TEdJcjRtRzNiZEltQ1JyQzVJZUstdGl4TDZwQm02SUx1RkFhN2RwaU03Q2JzSEN2MDZINThKb2MzLWsyOElwaWp5WFYzNEsycC0yNWhZZ3docEl5eFEzcUp1R0Zwck1jSEpUNmR3Uk91V1pqMWRpVTN5SUZGcDR5RnVKaTJLSDZOdG5LVjI1Z0ljYmlwNS02cGMxV3JwUy14N2dsMVBKaktmeTZvYTBVWHVJM1Zsbg?oc=5",
-        "date": "2026-08-30T12:26",
-        "source": "الشرق الأوسط",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、デリバティブ市場の改革で取引コスト削減へ",
-        "url": "https://news.google.com/rss/articles/CBMipwRBVV95cUxOVFdxS2F6LW9qQlUxMEpOUjdqRGQ4OVY5TUJwSEZMUjFnV2wtcExFZzlEMTJnNng5SGt3WENNeXBkZ1VhSFNuSW9Qc0ZoVDdfNkU3T0poZElreWhXNWZzeGZ4WkFKbl8xMFoxcDRaSDAtVTh1a210R2l2TDQ1M0gzX1ZIMF9OSk1kNU5vLTdxNjUzMGNUNWZfQl81VlI3MURxblVmLUJtaVRlYjZTUVJHT1lBR3VDRi1RQ3NvdWJDSUJsc2tlbVhMd0xzcTFqYkVwSGEwSGNhRTlyOVJxN2hGb1RzUEhja1U5SzVlbUw1SktUNnJULThVX0VTWGFVSlEzWUhtLXBDVWh5TTBiRnFNVXNCMk9Ua1lWVThDNUhNSjhPcnVLeU0tOE95dmxYRHpUWkVmWHlrNi1fMU5xdk54T3JuXzJmaHZDblNmdW9ELXdHY292Y0xMZU05TjZNSHRNOHlQeFhiZzc0eDR1QWxMZDhCSXNEd292TnFxZVVFUC1aZVl0MVdXTERlLXdYajhWTmQ2MXlFekNQT0xIMkpMbEJsdWtqRF8xVEJ3cHhCcUFueHV2aGVsSWxEa2UwdjNTOFM0U3VmLUpxWDR1MExUWElZVTdVbjNoZ1JIcmQyYi1TcXd1R2R0ektKamVBMUFOOFNjUHJZdnVRSnVhdHh5S0tMeWZTbEdmT0lXWVFoenZGR0JROHliMXhiZEJ2UFZ0QnE3SFhUSdIBrARBVV95cUxNMXJOWDRvR1dpLTJYdHhVeUxjOGZWMjZoV2ZRQ0R0LXFvWnNOby0wSU1oRnlGZXJxbklwS2FCRXRWS3ItWFFWR2V5Z0RkX25tMDFqaVBVcWduajFJTUFQcW9aTUliOU5zY3VJY0g2NFRIZDFrbWZMZ25YbWVEZG9EdTYycXFUa0YyY0wtWjh3NDJSamtVajNYdW82dlNzTFk4Q0VkcUJqb3Q1TTBfZmFULS1fdGdsRHZISy1ZRUpxaVRDeDNJcDlYRjV1MkIxdHVfb1N0TGhWMFlGTEZocFptNUs2VFdhUm5nUV9xV3hzbzdPN0tpeWpsSjZLVnVZZlFLWlFYMDh3d3p5SjVYdW9rN2Y0b0ZyVnFGUHFuVjZ3OEJZR1k1cjdKQ2NJcjFxS1ZIVnd4WV9vWUtyclFCYUo5NmJsbmpXZ1pTTjV5SEEzMXQ1WVhBalF2VU5HSkpnNjRyWE9TVDR6YnNzUzJ0NW43SXE1TTNnUWpaNWZkZHR4UUVpSzlLSm1ZRE1NMUdwbzlyQkhrM0lVZDNrTWV0LUpPNDk0bVBldmNpeUpqS011WTlzMU9MNVFhdjQ1dTAyMkV3a0gtY0RWZmc1aU9WUTNSUHh6TFMxX1RMNE5UU0JPRzd5Q0lCNXE0a2RtUG1TYU9rTDlGWElCZGlfTTM5ZW5RdHNSQ216czJkc0hUM3pzU1VQQzhydnY1ZXB2dzFEZXV3ekhfczFIYmFxX1Jx?oc=5",
-        "date": "2026-08-30T12:17",
-        "source": "العربية",
-        "category": "経済"
-      },
-      {
-        "title": "トルコ、中東防衛協力協定の初会合を開催",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbER4aXU3NEV4T3VlTzdwcVV4OGVvQVJSVFBETjNlXzRhaXBfT21zQnlwTEFNZ19BYkRFVy1pWW12aGhtb29XbnV0cjFGZEVHWUpqbzF5UlZSbW1UREV6eTBWWVkxU1BDTHFkbmxDMVJVcVdXeUFnWE95SGdfVmpNTDdwRmR6YURQVlpZbC12SDFDdEd6QTc5YVFzZ2JCb3djZnlJMGNkdjhrS19s0gG3AUFVX3lxTE5hVS1vLVcyZV9obGZ0RVEya3FrNm8yQzZidm9kM0MzeVlUQUt0cW1lMFNkUTZJVXdOZlIta0g4blNfNHUxa0hYQmlxQTZQREZoSDhrWGZYeVFMMmRJeGU4dWJXZU5yb1J5d0t1QUw5aHhxcGxXWkQzb01nbTJKNEhMVkZZczkzdjFIOERwVS1OejdLY0E5WG1Kblk5QnI3RE94dkxpYTFveHpWYUg4SURZRjFXN3E1SQ?oc=5",
-        "date": "2026-08-30T12:12",
-        "source": "CNN Arabic",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアとパキスタン、農産物輸出を30億ドルに拡大へ",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBHTzlKX1VXN3JyMHNJdzAySjQyWmVVZk1uMVlFNE5QcWpqU3FkSV9Na2lyWHRUU0JmUzdsMThKa1BkUlZaVkFJ?oc=5",
-        "date": "2026-08-30T11:58",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア宇宙庁、2030年までの天文現象ガイドを発表",
-        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOOUJsT1QxZTRXaEJPVE1VYV9ZNV90MUh0aE5XZE40SEFnempac2VLRmMtNC12Y2Q5dkNHLVRLMmFkQktrU1hKMzMyTV9FZFphbzNNUVRFMC1yYURkR3VHanhPMkowc1V2aWRXNDE2MzMtb0pwdVptMFpERUdHTFRZQ0x6bzhELXluTm1fTnhnNmZnVHAwbEVvZ1dXSnZBTUFjLTlHVGVjNDhzSG8xOFlLSXlkcGdleUJ3bGJEbldDMVRqWWxua2N0SGtvbk5MSDJaNEV0ZDcxcFd5MXcwOGRpOGFqNThyMUtmQjJRZk5ZQWVJMEJETGV4SUhiNEdaZw?oc=5",
-        "date": "2026-08-30T11:44",
-        "source": "صحيفة مال",
-        "category": "その他"
-      },
-      {
-        "title": "紅海海運、組織改編完了に伴い新しい最高経営責任者を指名",
-        "url": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxPaEhXSm13aGY3bGRGNWJqTjJQM215ZlIyUHV2RDZFOTNRdHZHMWNyYWtqcWxWcU11bnZteEk0SkFxdjRrbVltUy0tc0hNdlB2TGloZnp4TWoxOXhpZ0hKN1hZMTRXajgtNkdJVmF2WEFvMXU4WU1OdkhaeDh4WDRTWGRHS1hGUkx6S1hYVzIta2I0aTZuUjRIMDFKZUxtWjI4MGhMZnJfdWJoVGRGUUlRRmlnQkVMcTRUNkFkTmctRzFVdk1wcmZ5S25zQzl5TXZpc0VBLU1NR0J0LXNTbGFhVzZJcVM5U3JPRHFTQTVFRVh0LXlxc1pzQnNSdUtkS3hjdEVPRXZTeG5Md3NEOUhrUXRSZE9oaHNHVEpYb3BPN2k4WlFXZmhYM3dMWHUzSkhxZ2hCMVA2MGFFaDlpdTBEbG1udjlMZXFjbzQxM1dzd1ZDVnhqT0RmSkFXTHRmUjd0Uks2MWduWkYtRHNTSFZTcUlISkpBOVRrQ3d3VVhKNlE2NGxFX0VQcFFBZUtyazNHa1FQaXI2YXZNbkwxN3BaemRRdi1Yb2RhWFVaMjhzc0RFSFkwZFN2akdnY1JXWllKWmJtZ2FjejNOaldHckxnSlJ1OXFqQXpOVmdER2VGU1RkNVFRcl85VzVXSC14amdlLXU5MA?oc=5",
-        "date": "2026-08-30T06:53",
-        "source": "الشرق بلومبرغ",
+        "title": "サウジアラビア株式市場が下落 サウジ総合指数が0.71%低下",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTMVNCX0JSVnBfc2ZsT1RXNXc4MExMZ0F2RlBRWm4tWWFqdTJBemlmbXdiRW82aldyOGpDWTB2dFdfUmxzU0FUdXd1aEp0S29pY1Z2RUpvOXFWT3ZfX0JTZ21YR2ZnZVhCQVBhMkxNNzE?oc=5",
+        "date": "2026-08-30T12:45",
+        "source": "Investing.com",
         "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-08-30T17:54:37.604790+03:00",
+    "lastUpdated": "2026-08-30T21:56:21.813657+03:00",
     "items": [
       {
         "title": "「我々は世界のトップ国の一角となる」サウジアラビアサッカー連盟の新会長、就任後初の言葉",
@@ -288,6 +288,13 @@
         "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oVGowREdESG1CaHB4VTYtQnZIUFRMR2hJdUMyeWlEOGNhbjQxY25ZUDQyYjNpaWxYOEtiR3VMV0pFSEsyOERuY3hCeHB2OVFGZmg3dTVWTHJDMFpVX3JIVFdCUU05QXRuSllz?oc=5",
         "date": "2026-08-30T03:00",
         "source": "gekisaka.jp",
+        "category": "スポーツ"
+      },
+      {
+        "title": "さらに進展か、堂安律がサウジアラビア１部アルイテハド移籍で口頭合意報道 年俸は約17億円（日刊スポーツ）",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HdFJwUkN1NENXeHAtUVU0dzF2X0FaeUd1UFdseXc1UnRCRUoxbHNxbjdoc2hvZE5pZ2V0VFpaWExfMW1Sb3V1X2YtT05QcWliYWp4Tjh6S3dSbURTck9tUlR2TTFsdlRlTzFpU2R2b3lHdEFRbi1QZzYyZnA0bVU?oc=5",
+        "date": "2026-08-29T23:35",
+        "source": "Yahoo!ニュース",
         "category": "スポーツ"
       },
       {
@@ -337,13 +344,6 @@
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1tcFNLYno4Q3pyYXI5bGZvOUlyVFpWQUFQZzA4eFhXcWk4MkJJdDlfeFV0R1pOZVFtMUFVZS13NG1oRGlGZ084?oc=5",
         "date": "2026-08-29T03:00",
         "source": "スポーツブル",
-        "category": "スポーツ"
-      },
-      {
-        "title": "堂安律のサウジアラビア移籍にＥフランクフルトが合意へ 移籍金３３億円、年俸１６億円",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wMGNfWEJNeXJBWnhYRS1nWm5RNHgwVDQ0bWVTRVc3UzlaSmFseU1PT0ptd3d6QzlhZ3lKVHNSRW9GRzNHZVZRdndfNXByQ3hZTVpvZVFEd3JjWjMtd2pMV19ULUwwbzRhMms1Zy1R?oc=5",
-        "date": "2026-08-29T02:01",
-        "source": "au Webポータル",
         "category": "スポーツ"
       }
     ]
