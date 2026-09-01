@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-09-01T18:02:25.857761+03:00",
+  "lastCollected": "2026-09-01T22:00:51.900077+03:00",
   "security": {
-    "lastUpdated": "2026-09-01T18:02:25.857761+03:00",
+    "lastUpdated": "2026-09-01T22:00:51.900077+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-09-01T18:02:25.857761+03:00",
+    "lastUpdated": "2026-09-01T22:00:51.900077+03:00",
     "items": [
       {
         "title": "東部州領事出張サービスの実施について",
@@ -110,7 +110,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -124,17 +124,24 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-09-01T18:02:25.857761+03:00",
+    "lastUpdated": "2026-09-01T22:00:51.900077+03:00",
     "items": [
       {
-        "title": "マイクロソフト、2026年11月にサウジアラビア初のクラウド拠点を開設",
+        "title": "マイクロソフト、2026年11月にサウジアラビア東部にAzureクラウド地域を開設",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jYi05UVIzd05QMzk2b1BVbEVLeDFtb0FfdGR0clFqTXFCb0MwTE4zWTRGNnlVZjJENHZSTDNVazlQTE5ORFN6Wk16eXd3cjB2d0RLU2M3Q3E1U1htT1JrblRqT25HQVFiOGo4Q01EYmFkcHlTNTJR?oc=5",
-        "date": "2026-09-01T13:43",
+        "date": "2026-09-01T18:00",
         "source": "qz.com",
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、ドル建て債券の発行で市場復帰",
+        "title": "サウジアラビア株式市場が反落 タダウル総合指数は0.24%低下",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNm9pQzJPVFI2SWp3NjM4NWFDYWd3NVh5RlMzUngtMFY0X2tUYXFJbEQwMUkxbHhvWnJvaDB4UXZtbEV2a1FjbUdXWWdKbEt0R19BRERDV2RFdHdJdE5vM0I4MW1ZYkxrTTdhUHdDN005UFF3YVUyZnhoNThxcGRJb05RWC1ORUVYZUJ2OU9CWnM4OEFxZ2t4MTlRaXFDM1NqWWhJUDFTTzNsUmVwaE5Dc0FjNXUzcXB3eW9EaTBRZTVHWUFKNlE?oc=5",
+        "date": "2026-09-01T12:52",
+        "source": "Investing.com",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、ドル建て債券を発行し資本市場に復帰",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNHYwdHpTQlhXQkpJYXVTeS1HdGpKNk9vcnJfTnZTeHFUZE5BOHg1Wk9QeS1PYUJzd3dsUExQbGR0aDU5UnE3SUlhdS1lamx4S2h2VmttNmdjRGdGbWRTWGk1TkNTS0tZeHY3ako2UXZNMGtINk9od3VhUG9oZkMwb3RjME1HU1VYNkViaW1ld2d4dkNrOXZsQUFLWnN6V3RIT3NnNkM5R2Q2WXRf?oc=5",
         "date": "2026-09-01T10:52",
         "source": "Bloomberg.com",
@@ -176,31 +183,45 @@
         "category": "スポーツ"
       },
       {
+        "title": "AMD・シスコ・HUMAINがサウジアラビアのAIインフラを拡充、AMD Instinct システムが稼働開始",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTlNfcGJjekJhNTRRQUExN20zMDhiMUhtVzJ6OTgzcm1uMnZsSzhqT01ON1lza1o4VVM1WlU3QU5MdWhhWHFaOXZ0TmtHNlZERkJYUWdRN1JudnBXOHAtX2VvbmxTUUZuZ0JhZTBpenNRM0VydnJmalJSMVZRdUUtTE1CS2xCTFFmQTNqSUJkMDdzQWJfZFpaeTh3UTVDQmhYS0ZIMDlBWE81NFQyTTlBc25PZ0Z2ejctb2lvSGRR?oc=5",
+        "date": "2026-08-31T16:59",
+        "source": "Cisco Newsroom",
+        "category": "経済"
+      },
+      {
         "title": "速報 | 堂安律、サウジアラビア移籍を拒否",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZHlnT2h1NGpUUWZkbG5CbGJOUG52RUV6WXlUbXlnaXpET3JtWFlGcXZHNU84Mk9XOGdRT09mQjd0SFNRdTdSRWo2ekxjemw2eWN5cWViN0JmTTViTFNMb2F0LVBFUWNsMG11TlRmNlpJWmwwaE1vcHBsN2lmZUktUWEtUlF0b1k?oc=5",
         "date": "2026-08-31T16:05",
         "source": "sports.yahoo.com",
         "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア、トルコ、パキスタンが防衛協力機構の事務局設置で合意",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeWU1R3ZsdXFMQkFuNWdGLWJMcGxrWDZJRTJGbGg1bEdQV0kwNVdyVmU0UnJzNTl3NGVFOU9qNWpTVUN2QWExbloyYWtXaFZUZWRuLUNoMktDUWo2NXlmSXR0eFBWLUNyVTdaLTkwNnpzY0FrVlF5QjczTGI0dF9tbEIxY1lRYjdkbDY5YUw2UTZjLXRlVEZSQ0RkUTlHTWF4bU8xTXU0VV9ESjM4NVY4c0w2bWFEOXFKZ0lMY3prZjZ6eUNzbGpSYlpn?oc=5",
-        "date": "2026-08-31T16:03",
-        "source": "Reuters",
-        "category": "政治"
-      },
-      {
-        "title": "パキスタン・サウジアラビア・トルコが会談 防衛協力の今後は",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOGFWTlcwUGlHdDRidHVJYVRpRE1pVzVZS0c2SlZjRG53RmFWQU9ydWpyYjNDd01mRlZ6WkpiMVZGOEw0UGRPOWhQWGlSQVJIWG40Y2MzRjV4X1Z5aWJGdHVBUnplZHQxUURLcmd2TEhWelNOOHF2N3JxRVBvOG1vYkJzS3Z6Wi0zeGhTZ2lSRTRHeHhlN1FfNjlIaVA4OHJhdkY4eHdUOGVUakpBMkHSAbMBQVVfeXFMUHZKaUhMZC1uSkNpZVVnQ0VYb3o2WXd5ZEE1bGZhc0c4aE5JcS1Zd05qRmMtQnpwRXd4elZXZmxkbk16QjdQUFUta1J1cmJlS05OU2lHdDZoeHE0dksydk0xamhCTEU0M2ttZ0FsY0stVjQxdGZrTHJHRjhjN3dzaXM5aFFNMnZEOU9fd0l1dXBTMnY3ZTZQdkpKMEpRUGoxYm50MlJsbHJLaE43R0F6MXZzaW8?oc=5",
-        "date": "2026-08-31T15:13",
-        "source": "Al Jazeera",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-09-01T18:02:25.857761+03:00",
+    "lastUpdated": "2026-09-01T22:00:51.900077+03:00",
     "items": [
+      {
+        "title": "レノボ、サウジアラビア工場の生産品の大部分を輸出向けに切り替え",
+        "url": "https://news.google.com/rss/articles/CBMiswNBVV95cUxPQkFqS1JEQkZOU3RmQ2I4MGFQS01iZE1IZnFnWUJnUlNzWEJ0VUlaUDZtVF9aVklOV1VkSGw3cmc0RjNwVkYtWFRUQmJmWmcxVHhYdkJxNGdVNW1PRXRvZTUzN3U5UFY3MFhlMWYzeHNfa0M0OUZaclpmaVlDQUZ0bnNfZWJsWWlzUm5TM3R0QUlCRmVTUzBTUS1FY3ltamdyQnpaTU4yZmg3SkRqdmtGQVprODBEaVBqanhzaGNQR3J3WHNDb1FWR2p4WGx2WHFJcjFpWE5LNUtHS0F3M1dTWVhmWlpULWxtbVRTQWVEY19RV0UtX2hqOXhEYUdzZlJ3T2p5UmU3dC1vZjRWQ1czVFJVSGctTktnS2Q5bHBIdFVfNzlvOXVGUFlzV3ZjRDFFeXhEUGp5Yk5DajFJV1RQZWZoTXdvNXFWY29udTlMNTBZVzIwajllcktmYmpMeFBmQWFUVFlzaVNya1pDN0d0eVZoOXlnZzZQYkNmYlNqbTFBdVl2T2ZpeGRVU3l1MmdSZ1E3Tk1IM2pMV1hXWVBJRGJYMkcwdXlvb2NVU1dBUWR0TU0?oc=5",
+        "date": "2026-09-01T18:14",
+        "source": "الشرق بلومبرغ",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、2026年のF1開催に向け準備を加速",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5RbUEwYU5CLUY3QVYtMmhFbGE1SXQ5dGl6ei1uY3FYOGpmcGFnOFFkWHJ4SFhTek8wNGNUNFFDZGNGeWJsQk1v?oc=5",
+        "date": "2026-09-01T18:00",
+        "source": "sabq.org",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビア、2026年の大型イベントでF1サウジアラビアGPの歴史を紹介",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBGWjMyREowaGxheENNd0V1bjVWV0QyT2NtbHZMc3ZoeTlWYzJXbDdXZGk5R0FuUElvSEFPdzRsbUVNaU41dXc?oc=5",
+        "date": "2026-09-01T16:18",
+        "source": "وكالة الأنباء السعودية",
+        "category": "スポーツ"
+      },
       {
         "title": "サウジアラビアの通信大手ジン、国内初のカーボンニュートラル基地局「エコフュージョン」を開設",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOenkwZ0lMU0tHVTB3R29Ib3JWRmo2R1hlSllkcUdVa0M4cTRXdFZvQmx0aVp5U0Y5dW5SX2NIUk41T2tOZjNMZndQMjdfOFY0OGVSLTdNU0pRbWxSNlZOX09QTUY2QnNOR09MMHRyeGJRNFFwc3k0ZEFISkJBeExFVVRLS3JZM183cG52NDFXSkhVaGhPamR3OS1feExicXJnTmMzdTlwUHZkU1ZjcW8wQm9OMy1FbkZnUFFpbHlTQ3piSVVWQXpudWk4WTFxOEFIRFFSZ0tVWUw0Z0JvTXFUSlg5Vkk?oc=5",
@@ -213,6 +234,13 @@
         "url": "https://news.google.com/rss/articles/CBMi0wRBVV95cUxNSWFVVlNhd1h1ZFNsRmM2M05SVzNDckQ3Sy10UXV3aVJhSl9JYUIxWXpsYzlKWEFRYnZOTWI5ZElBa2dyMlB5ZUlKNFBvcHI3MDJ3UjRaS3ZnZFVnY0JCSGpYUldMUF9Ob1BvNGVSdGNuX015NGlWajZOcVhIMjNIejZGbkVqWldPbXM4cjNZczd6RExlcksyTHhjT1pvMlFZN0RQc01TamYwYkpMcUMyUnBNRUZDajlFdC11dE1HRGhvNzFnT3p3RU03ZmR1RFhwZ0RDX3YzeXlrVTVuZ1dkcXl5NUhZWUtYbl9YeDBCNkc3X0h2ME1hTGV4SnNQWGJMZzdvUVh1dmxCVnpXQTRLUzBHSXVidGswVm9pdG9YcmNWZGxXczJxRXE4eTJNWFlZOElHempvVlBxRXFTYW95NW1aMlRpV0o5UXhPeWVRM3U0blRtUWYzU2t3LTRYelljLXRZV0lsVE1nSGRSRjhVRlRLeldWb0ZzNFZjWEtjdy1UMFV6SEs4R1JFc2lNY0g4WUtmNEhoTlE4RzBkbm5ScnhYNXBVT3RGYl90LTRPSmMyWWhTd24xcjJEQmpsd0pBRXlKQnF1SVVESTEtckJ6LWxVVkR5OFZtY3EwOV9McnkzWWhaSmZOakFQa1lhTmxwUWFhUEZnazVRNFFXcklSTFhJWjUxMDVHQ0FqVDVxYTNmTXZTcFluc0tGb1pyU3NuTXktSGdfRC01bFQwZlB0ZUE4Y1B3cDhtd1ZmN0h5bHY5ZUliSDBaRlVqT29Qam9PbnpB0gHYBEFVX3lxTE1xdi15V2NVelVKTHk1ZnRVZzdLZGNxTThpZnFOWnkzRDVRaFpUT0VXLU53dHdvUTBsNUR6UTNYV00tRWhpTnJ1TjRLVjBJYzV5R3VKMGpYUGRkU0FXNENzVVBYYUpKRHVwdEV4MTF0bXdIclFrNDhKQjVNMUpGTkU3b3lqWDFZUFdKU2JUaGZ0UW04ejhaMUxQRjBETC1ZRUJ2VTlXTEpaWUpYMG1pbXhUaTN6UjMxVGcwZDhqSGlrUVA1X3ZUaGduSFdVQkVsNHJaOUV3T01VYkFmRWdaQll4QVR0Y2FwWlpwRFQzRHBXZldZZTFSaHF3TC16X2dlaUNZX2RFSWozMjJaMk1mM0JHQjRqR3FLUXRsam12T2FqWmV1dTdsVFdjMlFaRDVSLTdZRm5FbXhMVkxNRXVzQ05QNDlyd2t5a3Q5UFdpM192V3hUODZEVHJPM1Nqb3BaZjZOelJHaVUyS0YzLS1COXVOY3dydW91XzRhZG1vVUxEUnNtM25yTExOT29yQ05XX2Y4VlNQakJ4OENJckVmVHo2NGtkekUyd2Zfd183WFZ3cldPeEJxdUVmTmEyUVdSdHdXbHM0WmtTLXByMXF3cEMyeTlsS3VUX3Rhb1JvVkVlNUhIR3ZsZk9LSnBudWxPQTRvOGNvTm5Fb3BfbC1RVENBcldZbzlOeFFUT0dtMmxRZmhWenhkMTViZ1RvZGh3NEJpU1hJOHljc2tOZV9lTTc4Z3pZbTk4LVp6UFpjY3h2OUdDbTJ1SnBDNlFyM0lmd1ZrZ2VXeS1CTg?oc=5",
         "date": "2026-09-01T13:53",
         "source": "العربية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、国際イスラム債の発行で90億ドルを超える応募を集める",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yZ0xoVTh4Q1g5Rkl3YUNLZ3ZfM0xMWkpXTXl2TTJXWFB2ZVV6Q2JBcjF0cC15Y09EMzQ4X2JmZmtOTWhyeFc3bW9JNkpXOUxVZklzbGpSWVZoUW9POC1XYUY4VkNLQzhJaEE?oc=5",
+        "date": "2026-09-01T13:50",
+        "source": "Investing.com",
         "category": "経済"
       },
       {
@@ -230,51 +258,23 @@
         "category": "経済"
       },
       {
+        "title": "皇太子殿下が議長を務める閣議で協同組合制度の承認を決定",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10N2lDcjdKUjlMVEs0MXE0UEFVZVNRbTRvaGVVWXBJQU5fZXRXVmFVVEtvVnRhUFQzWGxYYm1yVXB1YTV6dWpGYm1aY29NMnViaFHSAVRBVV95cUxOcWNmVlVpNUJRS3pPUHQzdFpGaFUtYmQ3bmg0MllfbGVEOTFOSktkZkN5S2d2QmpSRWNxZGpLSzU5a1Jpd1IzU2hySk81YWJzU003clQ?oc=5",
+        "date": "2026-09-01T12:08",
+        "source": "عكاظ",
+        "category": "政治"
+      },
+      {
         "title": "サウジアラビア、「メッカ合意」の実行加速へ 集団防衛態勢を強化",
         "url": "https://news.google.com/rss/articles/CBMiiAVBVV95cUxPYm5qaGphNG9yMjNMaG1fdnZDWWgyYUNISlA0TVVwWUJjcC1selhVdmlvREtvTVZiRDdoNV9GbmpWNDBWVG56NUdGT3BvUmlqWEF6VnhVakhsSTROeHlfRDRyakZoc0VMdjE2Tl9lMGZNRnBVbHdFdDEwRzRueHFSNWxZWXVvZ2RnbUU1N3JXc1dKLWJhbG9yRGpJWW9YM3EzejhueHZUazFSRDlkUWhBSVFCNG1ZNDQ4QkRENmFsd3dXU2wwc2Q4Y1BZUHBueERVZEh2LXMzNXZkeWFNWEtJc0wwMkNtR010QTlmcTluUDZ6N2M0eEVJQ1Qyc091a05xYkExcVJselVxZV9rMXA4bGZ0M0xOVE5lbURsV0FLTTNFRGVXUjVuUjBOcXY3RVhJLVBkRFpST3dXdHVRblVseWNRUE9yaFVjMmxxbU40WDVFbk51NlFJQWZIQlFMbHZ4aXBjZGRYMjNEYjZGelF5TndvSjF1VFZ6Y2Ixb1dUd2cwc284U1Y4TElwQVJybmZhZ01vWEVHZmpPZUJ6U3gta3FKYVJaVF9Rc05icmdBNi1zYkZCc0NrRnUtVUVZN3B3WnF3d2czcXNqT3NuM1BMOWJFa2NDYUc0SjRfOEN4amxpcnotdzFnY3BweVdVbFRTeHRwcUNwQTh5Vk1uMmgybXlmSnBCTFlhR19vc2dRZmc4bm92eDlMWXRpbWpxSkJJNm5vSU1ycHBHV25DZUR0YVdUVEpDa1lNZWVLSk1SbzhWa3laR0FwYTJlWmp2OGRhZ0E0ZXF0RTlpMDZzTUctSFg0Wm51WlVnN3l3UHdZcjZycndQUWRTUkk1ZzBXbTY4d0FXUk5VNWM?oc=5",
         "date": "2026-09-01T11:50",
         "source": "الشرق الأوسط",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビア株式市場で上昇率63%、46%、29%の銘柄が好調",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SSTNzNEp5YmREMHVjNWpGS1dVNXcwTVcxMF9QN0lsT2h3Y0ktRkticlhqeHJfeFkyQTBuZVNfQmVEY25xV05zUkIxbWpuX1BDSExTcmx4SnN6Y2NWV2ZYY29UWkVpclJNODI3WS12dHo?oc=5",
-        "date": "2026-09-01T07:59",
-        "source": "Investing.com",
-        "category": "経済"
-      },
-      {
-        "title": "アマゾン・ウェブ・サービス、サウジアラビアに初のクラウド拠点を開設 投資額は53億ドルを超える",
-        "url": "https://news.google.com/rss/articles/CBMimARBVV95cUxNUnkyREpKN3dYR3FNYWxBZnlLVmJsUHFSSFlLNGFRWTRXc1BhRXBldVpEUjZTY1NWUmY5TzZTY0hBOFRoWHIzSUMtUFJBZzUzQ05COGptRlQ0SkhPQndITV9qVTlyZlh1YVA4ejY5V2JGSFpqX1ptYmFPUWtiemtMbDY0ajNUa3RUYkkydFp2WnBiUEw2RmdNQXBPbGR2ejdKUDU2NnpRRFNZdDFaaW03VUhzVE9kaWx3Nk1EQWR2eHB1eFRsU0xJZTh2SHAySkxDQWpNSnc5UG1ha1RuNUtPSTlhWVl6SUNmMFdvWWpQTXBBc3ljcktlMmxlYzh5akM0akhaUUkyOHlWY0R1SkVuTnFodVMyMUJvOFlsSHdrQzNBXzVVZy1zUENKTldlejRDT3JTa0xlaDlIMjA4RG5PNng1UDd6QUQ2dDU5WkhHUGxub2VQdmljQ01lOWNBVGNsQzNGQmVGalZMdHc4TnJiRHRORE5LMFBkR2RzLXNxdWY4aXRxbVVGODJIVjZRWTJMVUN5WmJpTXBvVGJoZFNXMkUtSU8tYUNFUExXdkU5WFRhTkVxb3ZWT0M5SWZpVnNtNzRLZlZtQktKNlcyNEN5dkRNalZ3aDVNajdhZVBlOC1LMmU3d0EtOGhGdVlSTmpxRkVFeGx1M21kazkxUExDdVVZckdkbzBmWDA5N3hhaU9jU1haSnlfeA?oc=5",
-        "date": "2026-08-31T19:59",
-        "source": "معلومات مباشر",
-        "category": "経済"
-      },
-      {
-        "title": "アマゾン・ウェブ・サービス、2026年にサウジアラビアで初のクラウドリージョンを開設",
-        "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQYW55LVN5cXdSamx6S0pmVmlkLWo2dlJDd3J3dFRIMlFtMlVsYWExblVfSkYxMWFDMXJXX3NPVzk1NjZrMl9WZndOZU5ST3Jja3VWaWJzLTdBbENLMHFJUGxPLS1hX182c2pfV1BsVWY2dGFXM3VKXzFFTnNNeXZzMnQyT1hhb2pwUlNiYV9jelRaZ0lKZUlDcnBLeEdxNEJ0R0lWb0pJWk80SGZDdVBVT3hJeDNXelFZbjlEQWZrTGhTNFFoVzIxWFhseS13Vng0TVJDQTM2VnZ3RzUyN0lkUVk0MnNCUF9TMnhfODR2S2NVdHJ0eG9QU3RYRzJqcVZpSUFSV19pb2dHQ1phOGJLU29fVll3SjN4YWNMVm1IWXhWVE1xUGZENzlnbU5CMWpiN2JXS2NSeTl2cFFWcFJRRko3WlEzMzJUa2FDdA?oc=5",
-        "date": "2026-08-31T19:51",
-        "source": "البوابة التقنية",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア内務省、国民1人の死刑執行を発表",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY2c3RVUxYVFCTmNta1FhLTV5THJuWHRmVHBYWG92RG5qckttdGxJUl9KQVpKVnYyVUp0OWdHOHVKQTZkcjlHNmJFY1RDa1hUcVVmMzVsNFJzNkFvemlGeWhGREtGQXFZQnZuREw4MVFqQXp1Y3BsMFBzZkRJaE5KRW5TbndZcFotT3pTU2h2X3N6bkZOY1R4N2s2WjVPOHZIbV95c18xRl9JNEdZS1ZZZg?oc=5",
-        "date": "2026-08-31T19:27",
-        "source": "CNN Arabic",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア、銀行団から80億ドルの借款交渉を開始",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kaG9zbll6S3htRjNHQTdrc0R1YUZqYl9JeTFjMjNmcFVnd2FWOWk2QjNubzhCWWRCWHRWX3haWXYwOUhFYnIwNlBhVHZSUVRWNS05d20xbFdnb1IxZDNObnNMZlRLWEFmU2c?oc=5",
-        "date": "2026-08-31T18:07",
-        "source": "ارقام",
-        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-09-01T18:02:25.857761+03:00",
+    "lastUpdated": "2026-09-01T22:00:51.900077+03:00",
     "items": [
       {
         "title": "ノキア、AIネットワーク自動化のためサウジアラビアにR&Dセンターを開設 執筆 - Investing.com",
@@ -282,6 +282,13 @@
         "date": "2026-09-01T12:05",
         "source": "FX | 株式市場 | ファイナンス | 金融ニュース",
         "category": "経済"
+      },
+      {
+        "title": "イングランド、スペイン、フランス、ドイツ、サウジアラビアの移籍市場はいつ閉まるのか",
+        "url": "https://news.google.com/rss/articles/CBMihgVBVV95cUxQSzRITk1XMGU3US0yaW1Bd1ZuOEQ4M0docUtkNkI0V3NKMlFNOWRmRjJ6dndpZ01RWkg3ZG5FQ21UOGdnWnBocUdmUHpCTm5lZlFZa1FDcjNYS01tWHVOdHBOeHhOMWRhcWtvV3lTejc2UTg1T1EtSU1xVl9rNWxHbG40amJKX1Fwb3huZTBUb1FiU3RXV1l1ci1GemlLc1BQTi05TDl1N1FLWWxudU04anBpQlVWaXVJUmxrcXg0VWlxWDVGdnRmNVkzODBkY0dIUG5EaFhCcGF3NjhVSXo4S3R0WG1TSVdqcFZxZHZ2OVBDbzF4VXcwMFExWUU2Q19sVzFaWkxaaDVRXzBVa1BKYXF5ZFVnOUxXTGxnUDA3OEYzcFNBQUFYS0FYeEFFMU9Kc3E2eGpaWDdGdVdoVHQ5YWtsVHM1emM3OG8wTVlKdFlkOTFJcHB5SXBKQjhaTXBGS1ZPUGZVQzMwWkFkZldmTUhrSTVxX2hSRnNkeVVIV2NWZk1IVko4RWFlU28xM2JncHhlTXl1bGVGX0l1VzVOUEhQWjlYR2FZZ2RtRkMxNjhzVjF2S3cyeVlPUng1QVdXRndZbE1OTFByanJwUVR2VlgtdmdkeTFBNTg2dDA4bkpDOHltY2xQVTJQV0pBWl9NVXI3RnV0QlpVMmJoTjZYejVueml2ekxvYzNrREp6MXNHMnlFT3ZGendsRThidHlHSVFuQm5QZ3NwbkFadW8yenpuVTVuUDJqZzZ2TVQzZGFLM2lwRHZGbnVlVjJmUVRWRTJXUHh0SW9LRzFjeVRmb1l6Njk0c1Rmdmh6c3Zwd0U0VmJESDl6djdjNzkwcFY3QnJ4Skdn?oc=5",
+        "date": "2026-09-01T08:22",
+        "source": "Goal.com",
+        "category": "スポーツ"
       },
       {
         "title": "ヒューマノイドのキックボクシングイベントがサウジアラビアで9/9開催 Hero Esportsがeスポーツを超えロボティクス事業へ",
@@ -301,7 +308,7 @@
         "title": "W杯アジア地区予選、韓国がサウジアラビアに勝利…イヒョンジュンが25得点10リバウンドでけん引",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13M3RsTE1Ba1kxVTdGd3BLZmJNYnFGUGJuWlBJUFBCa2VJamhabFFieW0tOThkeUZaNUlwZjBya3pnWkE1X1ZfNlFXb2dKN003OVhmR3A0QVZfb2NoWHNJ?oc=5",
         "date": "2026-09-01T04:13",
-        "source": "news.livedoor.com",
+        "source": "ライブドアニュース",
         "category": "スポーツ"
       },
       {
@@ -322,7 +329,7 @@
         "title": "堂安律のサウジ移籍が破談 31億円オファー提示も残留が決定的に…現地報道「驚くべきこと」（FOOTBALL ZONE）",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tYUZSSllkd3FsNWpfd0d6LWptWUtwOXRmWDhsWEVBeGhwanhXZ0RGSWdDRDFyOEk3SXZaa2dQZ1F2QnZ0V1FvaHdwejVGQW1OT3dNXzNJSU9mU2FUOFR4eEtGQjJTZmlVcTFvXzBiWE90R0VyMjhIN0JhdEZyRGs?oc=5",
         "date": "2026-08-31T20:59",
-        "source": "Yahoo!ニュース",
+        "source": "news.yahoo.co.jp",
         "category": "スポーツ"
       },
       {
@@ -338,13 +345,6 @@
         "date": "2026-08-31T20:06",
         "source": "au Webポータル",
         "category": "経済"
-      },
-      {
-        "title": "サウジ・トルコ・パキスタン、防衛協定に基づく事務局設置で合意 共同声明",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Rb2pnelNUNllYY1NzbW9GbHdOYVNqUWNsWkJiemQzMUkxQU1rTzJjTHpiY2hXNy1WT3QwNU1FQy1nTmdkdzNSUlNtTHgzeVpyWU9kU1laRDNvUVh6bDlzTlo3bzdCV0lkWnZhTEt3?oc=5",
-        "date": "2026-08-31T18:54",
-        "source": "Infoseek",
-        "category": "政治"
       }
     ]
   }
