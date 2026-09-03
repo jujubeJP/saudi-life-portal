@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-09-02T22:06:13.419617+03:00",
+  "lastCollected": "2026-09-03T17:40:09.541377+03:00",
   "security": {
-    "lastUpdated": "2026-09-02T22:06:13.419617+03:00",
+    "lastUpdated": "2026-09-03T17:40:09.541377+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-09-02T22:06:13.419617+03:00",
+    "lastUpdated": "2026-09-03T17:40:09.541377+03:00",
     "items": [
       {
         "title": "東部州領事出張サービスの実施について",
@@ -102,7 +102,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -118,14 +118,56 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100988773.pdf",
         "date": "2026-03-04",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": true
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-09-02T22:06:13.419617+03:00",
+    "lastUpdated": "2026-09-03T17:40:09.541377+03:00",
     "items": [
+      {
+        "title": "サウジアラビアのHumain、中国MiniMaxベースのAIモデルを発表",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQU3ctQ3I4SzVHUWlCSG9Wakg2VG45Uk80b2VhX1JlemxxX2x6dUcwemc4ZUdOR1lHcGVLZXI5aUZYVU5vTTAzZTNEaDhyWkN3Z2tVcW1hV2N0emlnRFluYkZQTmkxM0dGVVJSakg3Zzg4OVpYU3ppRm10S0NnU3N2b3d4czk4SWp5Unp6NklnZTg0eGoweTVOVGVaVlo3U19OVVllUlNzSG9Jd2ZuNUdwUzRnZGI?oc=5",
+        "date": "2026-09-03T13:11",
+        "source": "Bloomberg.com",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア企業、データセンター建設に25億ドルのファンド設立を検討",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWXlpcnAyTV83TlJFVk94ZkRMQmhScmVhbnVnQTF5Q1Z4S3pPcEJFTFNtMTBaQ2xEY19XTGxKQU43c001WXQwNlhoRGtFdmZxZEJjVFpsVUZFeXF2UUVOTUFtV1FudzJSRDBJX2VfNG9wSk43RDF1WTR4czI0V3M4YXBrRGd4UF9nckpOZ3liam9qWTByV240R2h5OF8yZ3htWlRsMDhXYy1EVUwxTDJkZUZR?oc=5",
+        "date": "2026-09-03T12:43",
+        "source": "Bloomberg.com",
+        "category": "経済"
+      },
+      {
+        "title": "仕事が家族関係の平等化をもたらす",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcGswb2wwLXI4cVA5bGR4V2xidjFpVzUxRUZILThCc2ozWElaWDhuaW5WQzVfOFZMSzRYVEZnUkp6RVdZYzZUNU1NNEx2Nk80R1Zfd3NUOElJOGVxYVVTNHpuVnVZZXZRcTltVklqOVRIRXZ2blh4SkNLMUpqLXlJTXAtTFBnTC1pTXYwMG5B?oc=5",
+        "date": "2026-09-03T10:13",
+        "source": "The Economist",
+        "category": "社会"
+      },
+      {
+        "title": "バロガン、サウジアラビアかトルコ移籍も検討 モナコ会長、エバートン移籍交渉決裂に激怒",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORHBaVXRlR0RsQkE0b3VYOGpoYjRmMGFvZ1hWdmxnTG9PVmQ3M3lQVGhmOEd0bl9jcEtSTGpEdHFHZVJqY3RHVmV1NDQzUzUyNklsNUFGbWdDTkc2UFl1cGJvVTdnSjdSbThYa1oxR3NKdWdiMm0xaXFpNElnSVVXU3BFQTlNekNiZWVLMg?oc=5",
+        "date": "2026-09-03T09:23",
+        "source": "Yahoo Sports",
+        "category": "スポーツ"
+      },
+      {
+        "title": "タタ・テックマインドラ、サウジアラビアの大型プロジェクトに経営資源を集中",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbVZWc01lcXNUVHFQSVpncGFQYnlLYzl2Wkd0ampCTGtBT3hRVVE1TXRMRzM2TDN4NlVLSmdVOGJzZl9vc0dwT0pYNjU5NTRDSmZROW90eUltWGItRm1DQUljT0J3eDYwYXl1THdiT1hQZDQ3VFI0ck9pZ2g2eFZaanlMREZGM1k2RXVkRUFrM3lhSk9EUFlKbXhEUzAxY2lkX1Izc1NFN0kycmtWVVBhUXIyQ1owNkY2bm5CdkN5eUF3dw?oc=5",
+        "date": "2026-09-03T08:04",
+        "source": "CNBC",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアの核協力協定、20%濃縮ウランへの道を開く可能性",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLU1NbC1FZVV0Q095Zm1Dd05iR1FUQS10bDd5UllGRWdPMjYyY2lOV1JYUzdHOWFWMEREbUtjaHpZLVVTbXBhdUJheWxOa0tEaDZLVl80ZXNvako2bW9XYjJJMHF6dkVOSVR2WFhNM0JQYWc4ZDUyMExoQXdYYnhSVkFWOGtQV1Q1enN5dmFkakg5alRfRTVabFUwS0V5RkhEY0xmdlMzUHo?oc=5",
+        "date": "2026-09-03T03:33",
+        "source": "WSJ",
+        "category": "政治"
+      },
       {
         "title": "レノボ、サウジアラビア初のノートパソコン製造施設を開設",
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVjc4ci1mNVhkWENMWmVMaC1HQnItamRmb0tNWlpxMGY4RC11ckFLd3BQcjFHbVdUVHZpdE5SNEpZNVhtWVB6c1QwNlBTN056QTh0dFd6X3hBcVdzODR5RExWOXRpNk1vaEhxR0dTY29NTkFwYnd0cXczdlljMm9ZM21Ed2U3SDgtLTZrZ1BEVE9uUENlRVV6SGFZODZqYjFfN1B2S3NSNjRBRHBoUEdvcno2OXZVS2hxblNabkJFYU5vOEtybThLbEUzMHl5YkR5RXREbWR5dTVrQzVVeUZXTm5mQdIB6AFBVV95cUxObVFKbUpfWGVIck5aTGZ3RVZheDItUUczTWdKV3FTcGt2Ui1wamxsUVJYWTFuQjJ3NGJCQzJLaGNwYmdmRkRWT1N5YV9TcWtfeWVoWW9iQjN4UENKUVJmRGhkQlg4SktJck1wOEloTXhwWjEwSTVzRUxTcm9KN1dScGZUdXAzb0QwcWdMa3FqZEFva0dOR0pBVEduaEl6V25ZbHExQnhFdzBUclgtaEJfN0Q4WHExWTBQR2pyVHFSQW83NS1fSjl6QURxZUVyVzJubDRFeVNycG1DclgwamVzVk5Oa1JycjNj?oc=5",
@@ -141,60 +183,18 @@
         "category": "経済"
       },
       {
-        "title": "仏サウジ合同のテーマパークが日本のマンガファンを困惑させる",
+        "title": "仏サウジ両国のテーマパーク計画に日本の漫画ファンから疑問の声",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQU5XbHhFdlljMVpVQjF2S0V1WXhIeG00RlQ4a3dDeHpxYnBXeTRQY2pCcm5BNWdoVGl2NzB0akNramdrbHRvcVRSNlROZDJTTm1WR29CaTlSUk0tdkNXRXRzTjc1UzlJa1BueWlFX3FiTGJpekxEbHZNMEk3LUVtblFvNy1XNWtLa3ZveUtoWUNRcGJkN3VwOTFONXZfVm5CdUQ3TzVrUQ?oc=5",
         "date": "2026-09-02T13:42",
         "source": "France 24",
         "category": "文化"
       },
       {
-        "title": "サウジアラビア、ホルムズ海峡でイラン攻撃により船員2人が死亡と発表",
+        "title": "サウジアラビア、ホルムズ海峡でイランが船舶を攻撃し乗組員2人が死亡したと発表",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdW5sTXJ3VXZwZE1vZ2RUZ19pNnFoX3ZHc2EyYUI0Y3V0Z09Wc21IMkNNVHlrTXR5eTdOZkNYeGJ3VHhBWlhxeVBjemxGQWZzS0EwN2MxWC1GOWMySnFEM2hkY0V4VVRIcjgxbEdQSHpLcVhIa3Y4QU1Jd3dSWWt3RlE4RnBWRlR6S0c1RWkwVHJ4UlcxWE5oX3hRSVJ3U1RtaHdDeUZaTHBfXzN5OGdfX3dlZGtTYXFySjZ4M1NqRQ?oc=5",
         "date": "2026-09-02T13:12",
-        "source": "reuters.com",
+        "source": "Reuters",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、ホルムズ海峡でのイランによるタンカー攻撃を非難",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWU5IMlpmSS15Qm04QktSaDdjYzdCUUo1QmU0ZEtoSWsxb05NbS05c0hSaU1Mb3NsSGxtZWdTQ25aV1EwOFBOa2c2LVdncnZUQ2NfNVlnZ1hIWUFEU0lOWGd6VkRoSjFQZ1ZSNkhPVzN5eGF1SDdMTjNWWVNjaTBYZ045ZkxmMHVncWpOWERwZWtPNF9PNFpQallNX3VIVGZKdE1CQw?oc=5",
-        "date": "2026-09-02T13:03",
-        "source": "Arab News",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア株式市場が下落 タダウル総合指数は0.80%安",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaG94T1RmNEZ4blJiWjkzeFRnYXRxcmY0ZzVOWFZKUzdmZDI5QXhINlJOU3RyUGtEZTNGcjM2ZlhqOXlwa0tBQ0J6aWhOX1lmWllNZzlHVHlhd21VZEpPYzhCYWQwUDNhYXEwYlhXZDM2bFlMT1gtZ0diVkdiN0NORF82alBlMXExMURRY1JmT0tkcEl1cWVLd3dIbkFMSmlVTGVrNEVoTm9Pb0hkM3ZOZnUySlpodHR4UzI5Zk9vRllmYVhIMFE?oc=5",
-        "date": "2026-09-02T12:53",
-        "source": "Investing.com",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、原子力発電への投資で石油生産能力を100万バレル削減へ",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQendhVEtnT3VVZkE4ZllDMjVWLV9Ud1JlN1NuVUJLYUxnTHAtb1RDTW5paFFZMzFxNkpqZWVKRU1vaEpTUndZRlh3SnVkUmZDbW15THdkZm1uTjk2VHR1YkRac083QW5fWHBfNnRQc29ES2FxZUh1MktyYTZRTXVfblpLN2xNaFVCNTVVMHJmTDlDeUZyX1RYdHRURHhPelBIVTg3QkNtMGpEYkpvY2Job2tEX3lIZUk0YjEwdl9oQdIBxAFBVV95cUxNMXZDOXAtVWxRVGxsdlhkdEpfblJvbEMzcFR2TkhjTm1oNC1KUHBoSVRFVV9JSDNOMmp5aG0yWUEzOXFid19JNTdjVmV5SDFxMEFXajY2cFV6SGxBbjFpWWJTdC1HNXdYQUJnMFhHN0FVNUU5RmEwT2pWS3EwYk1pTEF0S21CU1RCM3pRNGlFQjM3V1llZ0dSYWVxMS1Ic1RKNDM2bG41NE9XZ19zOHdTcXdqVnc5cWhIWkxKc1pFMDZYNWlQ?oc=5",
-        "date": "2026-09-02T00:00",
-        "source": "Crude Oil Prices Today | OilPrice.com",
-        "category": "経済"
-      },
-      {
-        "title": "マイクロソフト、2026年11月にサウジアラビア東部にAzureクラウド地域を開設",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jYi05UVIzd05QMzk2b1BVbEVLeDFtb0FfdGR0clFqTXFCb0MwTE4zWTRGNnlVZjJENHZSTDNVazlQTE5ORFN6Wk16eXd3cjB2d0RLU2M3Q3E1U1htT1JrblRqT25HQVFiOGo4Q01EYmFkcHlTNTJR?oc=5",
-        "date": "2026-09-01T18:00",
-        "source": "qz.com",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア株式市場が反落 タダウル総合指数は0.24%低下",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNm9pQzJPVFI2SWp3NjM4NWFDYWd3NVh5RlMzUngtMFY0X2tUYXFJbEQwMUkxbHhvWnJvaDB4UXZtbEV2a1FjbUdXWWdKbEt0R19BRERDV2RFdHdJdE5vM0I4MW1ZYkxrTTdhUHdDN005UFF3YVUyZnhoNThxcGRJb05RWC1ORUVYZUJ2OU9CWnM4OEFxZ2t4MTlRaXFDM1NqWWhJUDFTTzNsUmVwaE5Dc0FjNXUzcXB3eW9EaTBRZTVHWUFKNlE?oc=5",
-        "date": "2026-09-01T12:52",
-        "source": "Investing.com",
-        "category": "経済"
-      },
-      {
-        "title": "ノキア、サウジアラビアに研究開発センターを開設 AI活用したネットワーク自動化を加速",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdkFpc1Q2M2FScjlYUnNMOFdoZE1lNWxoZlM4SjJLUC14SlkyREd6dWZUbXNyQlYyLVZFN0tlWHlNT0dCZEE3X3d1OEdsaWtZYm1zSUVpX1pGVHd3NUtvUXc5aXk0MnlrX0s5bmlZcThDcV9XT0lhYmZhUHdfalpKMGkyaG9EM2JRSURYWWJMcEVuVU5ZSlppNkdCMDJPM3d1YTVKWTJtNF9fRE5YQ2VfZFVsSHFtZUpJLXZPMFNnSEpQMm1sbUw0WHNMalBRTmlOLUFKbzJn?oc=5",
-        "date": "2026-09-01T12:00",
-        "source": "Nokia",
-        "category": "経済"
       }
     ]
   },
