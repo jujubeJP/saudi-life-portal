@@ -72,6 +72,15 @@ jobs:
           print("検査 %s 件 / 要レビュー %d 件" % (checked, len(files)))
           EOF
 
+      # ラベルが無いと gh issue create が exit 1 で落ちる（✅ 2026-09-03 run #25 で実測。
+      # kb-review ラベルはリポジトリに存在しなかった）。--force で既存なら更新、無ければ作成。
+      - name: Ensure kb-review label exists
+        if: steps.parse_results.outputs.has_issues == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create kb-review --color 0E8A16 --description "KB レビュー期限チェック（自動生成）" --force
+
       - name: Close previous KB review issues
         if: steps.parse_results.outputs.has_issues == 'true'
         env:
