@@ -28,134 +28,142 @@ jobs:
       - name: Run KB expiry check
         id: kb_check
         run: |
-          python scripts/kb_check_expiry.py > kb_check_output.json 2>&1 || true
-          cat kb_check_output.json
+          # 終了コードで切り分ける。
+          #   0 = 全ファイル期限内 / 1 = 要レビューあり（想定内）
+          #   それ以外 = 異常終了。ここで落として failure() の通知経路に乗せる。
+          set +e
+          python scripts/kb_check_expiry.py
+          rc=$?
+          set -e
+          case "$rc" in
+            0|1) echo "kb_check_expiry exit=$rc (許容)" ;;
+            *)   echo "kb_check_expiry exit=$rc (異常終了)"; exit "$rc" ;;
+          esac
 
       - name: Parse expiry results
         id: parse_results
+        shell: bash
         run: |
+          # スクリプトが書く機械可読レポートを読む。
+          # stdout は色付きの人間向けレポートなので JSON として読まない。
+          # 読めなかったときは握りつぶさず、ここで落とす。
           python3 << 'EOF'
           import json
+          import os
+          import pathlib
           import sys
 
-          try:
-              with open('kb_check_output.json', 'r') as f:
-                  content = f.read()
-              # Try to parse as JSON
-              data = json.loads(content)
-              if data.get('expired_files') or data.get('expiring_soon'):
-                  expired = data.get('expired_files', [])
-                  expiring = data.get('expiring_soon', [])
-                  all_files = expired + expiring
-                  print(f"has_issues=true")
-                  print(f"file_count={len(all_files)}")
-                  with open('files_to_review.json', 'w') as f:
-                      json.dump({'files': all_files}, f)
-              else:
-                  print(f"has_issues=false")
-          except Exception as e:
-              print(f"Error parsing results: {e}")
-              print(f"has_issues=false")
+          report_path = pathlib.Path("knowledge-base/_review_expiry_report.json")
+          if not report_path.exists():
+              print(f"::error::{report_path} が生成されていない。チェックが走っていない疑いがある。")
+              sys.exit(1)
+
+          data = json.loads(report_path.read_text(encoding="utf-8"))
+          files = data.get("files_needing_review", [])
+          checked = data.get("summary", {}).get("total_files_checked", "?")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
+              out.write("has_issues=%s\n" % ("true" if files else "false"))
+              out.write("file_count=%d\n" % len(files))
+
+          pathlib.Path("files_to_review.json").write_text(
+              json.dumps({"files": files}, ensure_ascii=False), encoding="utf-8"
+          )
+          print("検査 %s 件 / 要レビュー %d 件" % (checked, len(files)))
           EOF
-        shell: bash
 
       - name: Close previous KB review issues
         if: steps.parse_results.outputs.has_issues == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue list --label kb-review --state open --json number --jq '.[].number' | while read issue; do
             gh issue close "$issue" -c "自動クローズ: 新しいレビューリストに置き換えられました"
           done
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create KB review issue
+      - name: Build issue body
         if: steps.parse_results.outputs.has_issues == 'true'
+        shell: bash
         run: |
           python3 << 'EOF'
           import json
           from datetime import datetime
 
-          with open('files_to_review.json', 'r') as f:
-              data = json.load(f)
+          with open("files_to_review.json", encoding="utf-8") as f:
+              files = json.load(f)["files"]
 
-          files = data.get('files', [])
-          today = datetime.now().strftime('%Y年%m月%d日')
+          today = datetime.now().strftime("%Y年%m月%d日")
+          overdue = [f for f in files if f.get("status") == "overdue"]
+          due_soon = [f for f in files if f.get("status") != "overdue"]
 
-          # Build the issue body
-          body = f"""
-          ## KB ファイルレビュー期限チェック
+          lines = [
+              "## KB ファイルレビュー期限チェック",
+              "",
+              "**確認日**: %s" % today,
+              "**対象**: %d 件（期限超過 %d / 7日以内 %d）" % (len(files), len(overdue), len(due_soon)),
+              "",
+              "---",
+              "",
+          ]
 
-          以下のファイルが確認期限に達しました。各ファイルをレビューして、内容の正確性を確認してください。
+          def block(title, items):
+              if not items:
+                  return
+              lines.append("## %s" % title)
+              lines.append("")
+              for i, f in enumerate(items, 1):
+                  path = "knowledge-base/%s" % f.get("filepath", "unknown")
+                  days = f.get("days_until_review")
+                  if isinstance(days, int):
+                      when = "%d日超過" % abs(days) if days < 0 else "あと%d日" % days
+                  else:
+                      when = "不明"
+                  lines.extend([
+                      "### %d. %s" % (i, f.get("title", "Untitled")),
+                      "- **ファイル**: [`%s`](../../blob/main/%s)" % (path, path),
+                      "- **ID**: `%s`" % f.get("id", "unknown"),
+                      "- **確認期限**: %s（%s）" % (f.get("review_by", "N/A"), when),
+                      "- **信頼度**: %s / **確認者**: %s" % (
+                          f.get("confidence", "unknown"), f.get("verified_by") or "N/A"),
+                  ])
+                  if f.get("source_url"):
+                      lines.append("- **情報源**: %s" % f["source_url"])
+                  lines.extend(["", "- [ ] レビュー完了", ""])
 
-          **確認日**: {today}
-          **ファイル数**: {len(files)}
+          block("⚠️ 期限超過", overdue)
+          block("◐ 7日以内に期限", due_soon)
 
-          ---
+          lines.extend([
+              "---",
+              "",
+              "## レビュー方法",
+              "",
+              "1. リンクからファイルを開く",
+              "2. 内容が最新で正確であることを確認",
+              "3. 必要に応じてファイルを更新",
+              "4. frontmatter の確認日と `review_by` を更新",
+              "5. チェックボックスにチェック",
+              "",
+              "*毎週月曜 9:00 JST に自動実行。このイシューは自動生成。*",
+          ])
 
-          ## レビュー対象ファイル
-
-          """
-
-          # Add checklist for each file
-          for i, file_info in enumerate(files, 1):
-              file_path = file_info.get('path', 'unknown')
-              topic = file_info.get('topic', 'N/A')
-              last_checked = file_info.get('last_checked', 'N/A')
-              review_by = file_info.get('review_by', 'N/A')
-
-              body += f"""
-          ### {i}. {topic}
-          - **ファイルパス**: `{file_path}`
-          - **最終確認日**: {last_checked}
-          - **確認期限**: {review_by}
-          - **リンク**: [ファイルを表示](../../blob/main/{file_path})
-
-          - [ ] レビュー完了
-
-          """
-
-          body += """
-          ---
-
-          ## レビュー方法
-
-          1. 上のリンクからファイルを開く
-          2. 内容が最新で正確であることを確認
-          3. 必要に応じてファイルを更新
-          4. frontmatter の `verified_date` を今日の日付に更新
-          5. このチェックリストのチェックボックスにチェック
-
-          ## 自動実行について
-
-          このワークフローは毎週月曜日 9:00 JST に自動実行されます。
-
-          ---
-
-          *このイシューは自動生成されました。*
-          """
-
-          # Write to file for gh issue create
-          with open('issue_body.md', 'w') as f:
-              f.write(body)
-
-          print(f"Issue body created with {len(files)} files")
+          with open("issue_body.md", "w", encoding="utf-8") as f:
+              f.write("\n".join(lines))
+          print("issue body: %d 件" % len(files))
           EOF
-        shell: bash
 
       - name: Create issue
         if: steps.parse_results.outputs.has_issues == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          FILE_COUNT=${{ steps.parse_results.outputs.file_count }}
           TODAY=$(date +"%Y年%m月%d日")
-          TITLE="📋 KB レビュー: ${FILE_COUNT}件のファイルが確認期限です（${TODAY}）"
-
+          TITLE="📋 KB レビュー: ${{ steps.parse_results.outputs.file_count }}件のファイルが確認期限です（${TODAY}）"
           gh issue create \
             --title "$TITLE" \
             --body-file issue_body.md \
             --label "kb-review" \
             --label "automated"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # ジョブが失敗したときだけ Todoist の Inbox へ起票する（通知メール見落としの対策）
       - name: Notify Todoist on failure
