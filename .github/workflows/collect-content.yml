@@ -50,3 +50,11 @@ jobs:
           git add public/data/content.json public/data/rag-index.json public/index.html public/news.html
           git commit -m "auto: update content + static HTML $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
+
+      # ジョブが失敗したときだけ Todoist の Inbox へ起票する（通知メール見落としの対策）
+      - name: Notify Todoist on failure
+        if: failure()
+        continue-on-error: true
+        uses: ./.github/actions/notify-todoist
+        with:
+          todoist_token: ${{ secrets.TODOIST_API_TOKEN }}

@@ -1,0 +1,50 @@
+name: 'Notify Todoist'
+description: 'ジョブ失敗時に Todoist の Inbox へタスクを作成する'
+
+inputs:
+  todoist_token:
+    description: 'Todoist API トークン。呼び出し側から secrets.TODOIST_API_TOKEN を渡す'
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Create Todoist task
+      shell: bash
+      env:
+        # composite action からは secrets を直接参照できないため、入力経由で受け取る
+        TODOIST_TOKEN: ${{ inputs.todoist_token }}
+        WORKFLOW_NAME: ${{ github.workflow }}
+        RUN_NUMBER: ${{ github.run_number }}
+        RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      run: |
+        set -uo pipefail
+
+        # Secrets 未登録の間は黙って通知を飛ばす（ここで落として原因を分かりにくくしない）
+        if [ -z "${TODOIST_TOKEN}" ]; then
+          echo "::warning::TODOIST_API_TOKEN が未設定のため Todoist 通知をスキップした"
+          exit 0
+        fi
+
+        # ワークフロー名は任意の文字列なので、jq で安全に JSON 化する（手組みの文字列連結は壊れる）
+        payload=$(jq -n \
+          --arg content "⚠️ [saudi-life-portal] ${WORKFLOW_NAME} 失敗 (run #${RUN_NUMBER})" \
+          --arg description "${RUN_URL}" \
+          '{content: $content, description: $description, due_string: "today", priority: 3}')
+
+        body=$(mktemp)
+        # REST v2 (rest/v2/tasks) は 2026 時点で廃止され 410 を返すため、統合 API v1 を使う
+        code=$(curl -sS -o "${body}" -w '%{http_code}' \
+          -X POST 'https://api.todoist.com/api/v1/tasks' \
+          -H "Authorization: Bearer ${TODOIST_TOKEN}" \
+          -H 'Content-Type: application/json' \
+          -H "X-Request-Id: ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" \
+          -d "${payload}")
+
+        if [ "${code}" = "200" ] || [ "${code}" = "204" ]; then
+          echo "Todoist にタスクを作成した (HTTP ${code})"
+        else
+          echo "::warning::Todoist へのタスク作成に失敗した (HTTP ${code})"
+          cat "${body}"
+          exit 1
+        fi

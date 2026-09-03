@@ -100,3 +100,11 @@ jobs:
             --title "🔍 AI マルチチェック: ${{ steps.results.outputs.total }}件の問題検出" \
             --body-file - \
             --label "ai-multicheck,automated"
+
+      # ジョブが失敗したときだけ Todoist の Inbox へ起票する（通知メール見落としの対策）
+      - name: Notify Todoist on failure
+        if: failure()
+        continue-on-error: true
+        uses: ./.github/actions/notify-todoist
+        with:
+          todoist_token: ${{ secrets.TODOIST_API_TOKEN }}
