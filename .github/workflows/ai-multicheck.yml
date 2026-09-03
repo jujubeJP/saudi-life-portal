@@ -41,7 +41,17 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           CHECK_TYPE="${{ github.event.inputs.check_type || 'all' }}"
-          python scripts/ai_multicheck.py --check "$CHECK_TYPE" || true
+          # 終了コードで切り分ける。
+          #   0 = 正常 / 1 = 高深刻度あり（後続でIssue化するので許容）
+          #   それ以外 = 異常終了。ここで落として failure() の通知経路に乗せる。
+          set +e
+          python scripts/ai_multicheck.py --check "$CHECK_TYPE"
+          rc=$?
+          set -e
+          case "$rc" in
+            0|1) echo "ai_multicheck exit=$rc (許容)" ;;
+            *)   echo "ai_multicheck exit=$rc (異常終了)"; exit "$rc" ;;
+          esac
 
       - name: Parse results
         id: results

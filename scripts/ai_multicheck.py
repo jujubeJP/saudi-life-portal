@@ -35,6 +35,15 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 MODEL = "claude-haiku-4-5-20251001"
 MAX_TOKENS = 1024
 
+# Claude API 呼び出しの健全性カウンタ。
+# 呼び出しが全滅しても「検出0件」で緑になる事故を防ぐために数える。
+API_STATS = {"attempted": 0, "succeeded": 0, "failed": 0}
+
+# 終了コード
+EXIT_OK = 0              # 正常
+EXIT_HIGH_SEVERITY = 1   # 高深刻度の検出あり（想定内。CI は後続でIssue化する）
+EXIT_API_UNHEALTHY = 2   # API が全滅した（結果を信用してはいけない）
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -100,7 +109,10 @@ def load_content_json() -> dict:
 
 def call_claude(system_prompt: str, user_message: str) -> str:
     """Claude Haiku API を呼び出してテキストを返す"""
+    API_STATS["attempted"] += 1
+
     if not ANTHROPIC_API_KEY:
+        API_STATS["failed"] += 1
         log.warning("ANTHROPIC_API_KEY が未設定。スキップします。")
         return ""
 
@@ -121,8 +133,10 @@ def call_claude(system_prompt: str, user_message: str) -> str:
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
             result = json.loads(resp.read().decode("utf-8"))
+            API_STATS["succeeded"] += 1
             return result["content"][0]["text"]
     except Exception as e:
+        API_STATS["failed"] += 1
         log.error(f"Claude API error: {e}")
         return ""
 
@@ -487,6 +501,9 @@ def generate_report(fact_results: list, freshness_results: list, consistency_res
             "consistency_conflicts": 0,
             "consistency_duplicates": 0,
             "high_severity_count": 0,
+            "api_calls_attempted": API_STATS["attempted"],
+            "api_calls_succeeded": API_STATS["succeeded"],
+            "api_calls_failed": API_STATS["failed"],
         },
         "fact_check": fact_results,
         "freshness_check": freshness_results,
@@ -535,6 +552,11 @@ def print_summary(report: dict):
     print(f"  一貫性の矛盾       : {s['consistency_conflicts']}")
     print(f"  重複検出           : {s['consistency_duplicates']}")
     print(f"  高深刻度 (high)    : {s['high_severity_count']}")
+    print(
+        f"  API 呼び出し       : {s.get('api_calls_succeeded', 0)} 成功 / "
+        f"{s.get('api_calls_attempted', 0)} 試行 "
+        f"({s.get('api_calls_failed', 0)} 失敗)"
+    )
     print("=" * 60)
 
     # 高深刻度の問題を列挙
@@ -607,9 +629,28 @@ def main():
 
     print_summary(report)
 
-    # 高深刻度が1件以上あれば exit code 1（GitHub Actions でalert化可能）
-    if report["summary"]["high_severity_count"] > 0:
-        sys.exit(1)
+    s = report["summary"]
+
+    # API が全滅していたら結果は空になる。これを「問題なし」と読ませない。
+    if s.get("api_calls_attempted", 0) > 0 and s.get("api_calls_succeeded", 0) == 0:
+        log.error(
+            "Claude API の呼び出しが %d 回すべて失敗しました。"
+            "検出結果は信用できません（APIキー失効・モデル廃止・レート制限などを疑う）。",
+            s.get("api_calls_attempted", 0),
+        )
+        sys.exit(EXIT_API_UNHEALTHY)
+
+    # 部分的な失敗はジョブを落とさないが、黙って通さない。
+    if s.get("api_calls_failed", 0) > 0:
+        log.warning(
+            "Claude API の呼び出しに %d 回失敗しました（成功 %d 回）。",
+            s.get("api_calls_failed", 0),
+            s.get("api_calls_succeeded", 0),
+        )
+
+    # 高深刻度が1件以上あれば exit code 1（後続でIssue化するのでCIは赤にしない）
+    if s["high_severity_count"] > 0:
+        sys.exit(EXIT_HIGH_SEVERITY)
 
 
 if __name__ == "__main__":
