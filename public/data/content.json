@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-09-11T17:31:50.402126+03:00",
+  "lastCollected": "2026-09-11T21:52:37.211958+03:00",
   "security": {
-    "lastUpdated": "2026-09-11T17:31:50.402126+03:00",
+    "lastUpdated": "2026-09-11T21:52:37.211958+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-09-11T17:31:50.402126+03:00",
+    "lastUpdated": "2026-09-11T21:52:37.211958+03:00",
     "items": [
       {
         "title": "東部州領事出張サービスの実施について",
@@ -86,7 +86,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": false
       },
       {
@@ -102,7 +102,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -110,7 +110,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -124,8 +124,36 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-09-11T17:31:50.402126+03:00",
+    "lastUpdated": "2026-09-11T21:52:37.211958+03:00",
     "items": [
+      {
+        "title": "サウジアラビア、相次ぐ攻撃を受け東西原油パイプラインを閉鎖",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYTlEWk83M3ZzR1Q5bW14a1FaUGZIWWM2T0dlUlJPdC1jaXh0UVFiZzgtU0tXdlp1TmZoN2FQejFMWlFITUh4a0tWUXo4YmNLaTVtZE9SMFcwVnd4YmdRUHpGUXRtZGI1bHRvMTlLczBDYjdpQ01SbzVydDVYLXp4eWZkQmZ0TlZOcklfd0twSVpGZ9IBlwFBVV95cUxOT2MxY0ZZQ2F5REZjZlB6cU83RnlyVmRMTy1jRGJDdUZqMnNMcS1ybUdlWDFGQ1hYV0dlbzJ3RFlDNE03NEFnUTRoU3hWOGdSUTJBNjc0WWFrNWg4LTRiVlBjZVliS1lBTUdkbFl6M2tIM1JtY2dPS3U5aGxFNjByNG1RV1EySk5NcFJ4bmZSazJibXBQQk40?oc=5",
+        "date": "2026-09-11T18:41",
+        "source": "CNBC",
+        "category": "経済"
+      },
+      {
+        "title": "イラン、フーシ派にイエメン紅海港湾の占領とサウジアラビア攻撃を指示",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMW85OC1JZHI4UXYyMmxIVHpLVG5QVFBCcXdzeTBfZ043VnFpZnN6STg1RUdmZURBTmRieWFZa3pJQW5mOW4zNnJSdmw3RHIxbmJmaGIzV0FSeDJRaDZtbDluTVdQZVhFS0ZNOFdEMHJZb1RfRm9fYXduN085ZDlDOHVhNzd5U1FPR09BVTBtQTcyX19DekZ1R0N3?oc=5",
+        "date": "2026-09-11T17:20",
+        "source": "Fox News",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアのムハンマド皇太子、米国によるイエメン・フーシ派への空爆をトランプ大統領に促す",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMDVVNnZlSnQwWHo5cFhUczF3eUtRSW45WEtIOTRETTdqMUtaOHZqdHJFTExoTUVZNlFYUVhobTZ3VGVuR0daUHlkSmZadWk5U3N6bVZpZ0tHMXBqOGhCRHdYNmFJRjZ4UW1GX2JQUFZsMlhJM2QwUkdzZXhnSjkwbl8yZm5kSXAwY3JzUUFNbUczY3VXMDE0S0R4ZE1odw?oc=5",
+        "date": "2026-09-11T17:01",
+        "source": "cbsnews.com",
+        "category": "政治"
+      },
+      {
+        "title": "速報：サウジアラビアの石油パイプライン施設が攻撃を受け火災発生",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdTBNQ1lITW5CMjlZTFM3UktsZUNsaHFyb29zZ1VVMmc4b1N4dTVGMVZjM0FpSTR5eTk2N2hGOGZTSVBaTVlPWG1ZLUhJNUg4MUMzcVo2QUJWVl9aRWRvdUpzOTJndDNTN3NMdk55NWZMdXVRZUtJS0RZTXowZThEOE5BeDFJWlFmY2V1T0Jfc2liY29kdDNVX21NQXJhZjFtc01ORA?oc=5",
+        "date": "2026-09-11T16:28",
+        "source": "CNN",
+        "category": "経済"
+      },
       {
         "title": "サウジとイエメン・フーシ派の対立激化、パキスタンがイランと協議",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZFJHLWtfY0xPVm1PbmhNMTUzQnh3QXVfMUoycTB0OEZyWXBsN0pPMlNlc3gzajB5cXF2UHRQS2hueUZMcENpdzlPWTFoWmlOM2Voc2ZUZHB0VmpWS2hTWFJJTEt3S1JOMlpaSHlVbnhScDdydlhzRC1BNEhUMmpBMEI3MkhobFg0WWMzTXA5bWM2c3NnZVBIcnFfclhwRHpZazVaeDhTR29IcDBack1xalVFamRZU1NK0gG-AUFVX3lxTE9aazV3aVhzWFVCeElDSEtnZzRkR1g0N3Jsd3FLbkJ4dXZDdHRFVVlHRTRFRjh2Mlhhc0NmbUNEQkVfc3VkX2pBLUlhbFJmVUxxbEc5VGNMN0N2YVN3dENHVzd5TEljNk5qLVRwVFdtR2pGLUpubDVBTlQzNlVWRzUtM2l2ME9rOVVYMm1sajYyeF9DeDhoa1M2NVBtb0pidDJQbmNNcVc5T0JSYmM3ZjRNb0FWdUg5ZHp1TjZ3dFE?oc=5",
@@ -134,7 +162,7 @@
         "category": "政治"
       },
       {
-        "title": "9月11日同時多発テロの遺族、追悼式典でサウジアラビアを批判",
+        "title": "9月11日の遺族がサウジアラビアを批判　毎年の追悼式で",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE56ZTFqRlBmbXJnclJibjJudjFUV3ZUSG5yVl9oSXBmc1pjWTdROVF1aDZDOU5qLUZsRjUyN0xPRDlTZmRhVU9FV19kODl2RnowRlAxam1PQWpvdlh6SW82b0htdGJ6dTlCTk1tcm53?oc=5",
         "date": "2026-09-11T13:33",
         "source": "Axios",
@@ -155,7 +183,7 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア公共投資基金、EAとセービーゲームズグループの統合を検討か",
+        "title": "サウジアラビアの政府系ファンド、ＥＡスポーツをセービーゲームズグループとの統合を検討か",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSldqTThhaUpCdEpWWURPdnFxY25CLUVxY1UyRkNfWmNLb3RjUjV6Yll5NTVPUE1IeUlmZ1YzQjZqWGJTdFpIUFNWSkZVWGR4cTZveEYzd2o3UUV1VEFzSE9vRHdVSTZ1bXA0Z2NKWWJZM29MdEdGVTNfcUEwQkh3VFNGT0NoT0FpUzRqVmlWYVNoMThtUmdhLUJZTWVLVUlDNVd1QmtCM2NtTFk?oc=5",
         "date": "2026-09-11T08:29",
         "source": "GamesIndustry.biz",
@@ -167,40 +195,40 @@
         "date": "2026-09-11T06:54",
         "source": "80 Level",
         "category": "経済"
-      },
-      {
-        "title": "フーシ派、紅海沿岸支配へ イエメン主要港モハを占領",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUkxXc2JVVUxqdmJvWTRPQ3B4eUlfb1NhUHNzZ0pIWF9WZXBOSks2TFdNampOaVA0bnhvbmY3RFBYbW40aFRKaW5WbDBtQnJJeFIxc3ExamVPUE5nVXhDczZEWWJmcDBwZExXSVZWY3JXUjlqcm1mX3hXeGUtQWNJczJiS29qbFlOT3dIV2pzVnh1NThDc29fMEJqbGQtLV80VnM1SXhGQU1qRWkyWkxlaWg1eUhuQQ?oc=5",
-        "date": "2026-09-11T01:30",
-        "source": "theguardian.com",
-        "category": "政治"
-      },
-      {
-        "title": "9月11日同時多発テロ巡り、遺族らが「サウジアラビアの責任追及に時間がかかりすぎた」と指摘",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS1U4T1NKemNuTW1IYktSU2kxZEk2TVNFak5mY3piZ1BBN2hEZ3ZRR0xRUXEzZjdIcGlqVTd4YU5CZXNaWGctQU9VZmFKVF8tdjc2dDcweGNLMTV3WXppUlJicVlQNm1Yd1JtLWxRb0NZYUFQeWFmM3lhbERTZ2w5dVdnTFk4Y0pD?oc=5",
-        "date": "2026-09-10T18:39",
-        "source": "theguardian.com",
-        "category": "政治"
-      },
-      {
-        "title": "イラン系勢力の反政府勢力がホルムズ海峡迂回路の支配を巡り攻防、原油価格が急騰",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUYwT2ZBY29SQkhnbTRHTnIxTXVTWndGampQSVo0VlpHUkdDb0lGTkZOMXB0TFVxcEFFcVpWcUZ5RHNEd3NuZTk0ZnZBaFBWU1ZrN3hGNEdHVGtjWkJ5WF9xMU5tUnJlQWl1U1RGWVZuMkhFbjdvRHEtTmw1a2FmRVJ2d2phMTM3V0hLY3poSF9tME54RkZnand2VUV4TW50YnhueDlnc2p6UUp0VEE?oc=5",
-        "date": "2026-09-10T17:25",
-        "source": "The Washington Post",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、大手ゲーム企業2社の合併を検討 世界的ゲーム大手誕生へ",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbUxRM0JETEdGZkwyc2hDOFo5NmhLaUt3TlA2Q0kwYWQ5c3Y1NEQxNHZtRFc4bEl1VXB6Z1dMbTdveDFpeF8zVnIzaVJiR2VMT0ExVm92QV9IQ2FJeS05cU1mMk9ZNnJXeS1OS0hULTBfc0NSbldWd1ppYjFLT1VpSkVUNlZBcXZfYVpmcEdaN09NZ09MTUlmbjdCamhkYlNEdzBkSEVsZjB3ek5kUTlxcHBUYThhdw?oc=5",
-        "date": "2026-09-10T15:50",
-        "source": "Bloomberg.com",
-        "category": "経済"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-09-11T17:31:50.402126+03:00",
+    "lastUpdated": "2026-09-11T21:52:37.211958+03:00",
     "items": [
+      {
+        "title": "サウジアラビア エネルギー省、東西パイプラインを予防的に停止 複数の攻撃受け",
+        "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxQYW9WQmtJTEpWZTUzZlFfWHZIdWs1MEdRT1pwanVFV05Jai11T2dpd1p5OHFwbzRDR0xabklCTVp1U0U0MExfMHcxeE9xRVZPSkxzOGM3Y09GdmJwLVlteWtNYU1Ed3pvanZ2eW8xMlhsdDNRa09lUlBuSmxpUmk5ZGhRR1pZVkxzWDNhb1ROUmFGdlY3RVFVaEV5MTFpdVU5SXdsVEFhOWx4Y191RGdKMnZuWjhDM1A2ajJUY290ak80N0ZGa1hTM1dqYWxVUl9FaC1zdFhJTlpWVjlZR0haWHRFZUQwMDRGMlVZZXh4SDUtdkpIam94SV9HQWQzc2lYeHZTU0k3MEFMZzJQN24tb3hvdnNtTmpzNlVWeWoyZWpRdFRkdjhmU2hCclJwMGY4eEdiaE9JZDYteG0yY1MtQ0U1aFpmWGZDaVlQSW93ZkhMbkpXTjBONEpmOVZFd1dXWGlEY1drYnN0VjNsUkJJRV9WNXd6c05rOGhKcXlBR0ZKZnpua3JoNE1lVDVWNWtCR1kwaDNyVzRZVk5YcExRcDlQNDFvZEI4cnlVV0pGSU8zcnpaNlZ6a1BZNHhxSkhISUJrLUVsRWlpTDVpamdSNkREa3lxNHU5cmFaZzRsVUJBSGhTNTVTYlZmbmxmNHhOS3JfbVVLNzl5dktFZktqck51ajAxZUMzQUl0U3dHcGxuU01QVDhxRFBzQ0xRYU9pMlBqX1Nvc0ZMX3JEZEZpUUphS0xJa0RyMlZBZlR5QmhxNEVMeFZhY3E2M3pNNFJWQmF5dmJuV0xHU2VZd2ZrSDJEejYweEQycngtdjFMSTBpbXVxT1lpMVp5WEE5SEpsdWNCVklIbTczRW1lQVHSAZMFQVVfeXFMTjA4UVFRT3ZYdV85aHBqV21DMXQtZWxsY25YWmZ0cFhWNHB1cDNSZ29IazVUNmEySEVkQUNtYTQwNER0VGNKX3FXZjBVMGJBd2JXX3kzSmN1TmlGdlFLcWhaYlZzSy1WRXNtSm0teXNmbEo3djdodUpsSkRPcUMyMHJJTktIYnY4NnhFaGR0VUlLVVpseVFtUUxYR2twVFFlV200Ym9rb2RQbHdVaG9mSkh1OXpTN080M1NZYTkwOXpvVUN5Q2MwcUpITTA2WlFua3o2UFpvYlpNdlhRTkdNZFZjY3RzT0Z4YWJfcExaOHN2RWYwU1JJWEs2VldLVG9ybzNRTlV5OHp6eW5IdjNHcl80TDlaYVJtWmg2RDdlS2xhSnFEMDV2TEZwZlhGbFl4c2JINDdEZ1VxS0tNcUttdUxQVGpRYjF0MzdNb0piZVVWdF9HZ3E1bk5lMkgyaDhhMWxpWkNST0RUVW1uUEloTE1wdFUtOUxWRV9EQzZxRjV1dTNSNlJLMElSenFUeG1QTWRBcnc3RzMya1BISVdjNjkzZVZUeThRWXZNV1N3VzYxek8tank2bmh4amh4b1dsWG15Sk01M09TdHhYTzRJTmRHS3VPSjVaLWljS1hLdWk4bTJTSUJRM194ZURnNnVMSzhSZ2xRZ2VabTk0R25kLXlveTNtTl9mNF9GZHRiV3p3MDN6REhMRGx3MVZBX3lOcW5nV1VVcnp4NlhQNDVIMENzRWFPOXd3X2R1aFRuVXZHVnVmUFlHYi1PYWRiQktkcDRWdklwcEl5OThPRmYzV2RwY2dCa1BtUUFXcDJIYmxROXFnazdscmJYSGRSVk5tZTlCTTFZa3BaOFg1OTNib2plMWM?oc=5",
+        "date": "2026-09-11T18:45",
+        "source": "العربية",
+        "category": "経済"
+      },
+      {
+        "title": "速報 サウジアラビア エネルギー省筋が明かす リヤドと預言者の都間の東西パイプライン、朝方に攻撃受ける",
+        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOWDVReG9uTFdqVXc4YUFzVEgwMmE0N2VFSXV0R0JRWGhhVXR3Q0lCWDNPeHhIMW1tSXBpaW1qbXNHZ3M1Q0FOMjVoSkhVN0xpbG5YczlNMlY4eVpJcU9nTlVZckY1NzB2V0hrbnhXNG1mR3ZJVndSVWpFckZxVm14X0VtTTZhZ2lsT2poQnlRNU1NODdXS3ZXTThOeUt0MHVTclozN0QyQUNVOGMzNWczMkFUcG9hN0NRd0ZWMW9FN1pjUVM0VUlHV2M2TjRmbWlLeUN5Um9oZXh1OVJaaHIySngzcFlyRW9hNkRtQ19ObTB4aEFGVjZmOVU3cTNCa2ktZ29vRjZMRS1PQmZVVmtnS29rZ09sVGp5c3dOaFYzamVNd9IBpwJBVV95cUxOS3BIRXJTSFJFN0NmVVJVc0IyMDYtTWtGTWh6Y0JzMlUxX0VJRHdhS0NqZVdmeDdWWFczenRvSnpGUVFRTU9zUGpNeTVxdDZmNV9EM1RpbG9pTUFUR0lOdWNEVzhNYVhwTUtsNWNyWjBHRHZSeFNDOThaMXhLRW5RcmYwWVluLW5TT2MxWklyWW9rUmN3Z0JleGg1b2dEaXVyaURLWEJJdWtsZGJTWEQ3emR2dWRIMENEUmdVeUN6cWxjZE82djQxeUFxdnNURGlxY1YzS01teTRDd1pOM2p2VzF0Z3YxT1k5eHZrSVl1WkcxbHV2UXJkelhYRzlUQWVlR3FsUXhxSEZvY2ZDdW44OFFKRElHSVNHaHhNNmhZNzBVLVVoTGdj?oc=5",
+        "date": "2026-09-11T18:42",
+        "source": "الجزيرة نت",
+        "category": "経済"
+      },
+      {
+        "title": "中国の「蔚来」、サウジアラビアで初の電動車を発表",
+        "url": "https://news.google.com/rss/articles/CBMi9wNBVV95cUxPcGF4N0RzZmV1WldlaG9nSXhScHlHNnM3ZWFWLW4xY3NMVFdjS0pFenFndHdWdlFicVF6TFZ2MThKU09vOEpaZThwRGtfR3BPVUdLaEc5SXVTQ2dUdlZ3LUpLRk9mSXFpV2p4amZKRlRkUWtXckZYcUZ0OFVmT05JeWtUR052eG5ibDA1cEJFTTNtSkdKalIzTjdwbkxoTHpBSTJNUEo0cTU5RmFJc2hidEIxS2lmM1NNMlJzQzRQNzhfY1R0Xy1pX21remt4VUFoSS1VOFAxYVpucENPRXJucnQtYXZGMHN2OUJQRTNmUFBmOWJqbHN6MVo1NGlBMEVsYk1nUWhZSkVBd0tlam9GMDN3dmZJN3RrZy1JaXZKYzVXRGwtSFVYakQ3emIzSUpuYWplMTdlYk5YVVlKZnBKbG9VZ0YyaVdmck1NZ2NlaWtFcC1iVnZLelNUWFFBaDdhNkg3Q0hZMkpPdW9JRUNEOEFqMEx2QnRVWk5yRWczNzdMNVJCbXduZldXNUpXa2JDQTJrUTJjckJIS1FlUVB1TG5DekFjWjBJTHRXTzBIaGotX205VkttZkt2d1dmdXh2aHhESUZ4aXl4VFdmaVFSbmJrb3FmeUFmNDNYQ1FnTmVOaFJYODRSRlJxVVVZNEJTMHIxMEk1Zw?oc=5",
+        "date": "2026-09-11T18:21",
+        "source": "الشرق الأوسط",
+        "category": "経済"
+      },
+      {
+        "title": "米当局者がCNNに語る サウジアラビア東西パイプライン施設が攻撃対象に",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc1d0T3BaaDNZNE9rSHFaUUotSlA0R0RFX3paTmIzOGVQZVl6aklKZEpkcEpWNlhrM3BNcHhqNmdCYkMtMzQ1WHVsNDZIMm9OR3NhOXo4OVZEaXZ0U3lNWEFreDhFR1NBUHE2THVsb2lGSjhSUllXb1JITV9IWktiVU1YT296UHlqbHdSVkI2TEZPY21relc0VWJ2aUZyOEdZYVNJVEpKNEdnV3pkWnJJOV9HM0pud0pZWU9oZ20zMWM?oc=5",
+        "date": "2026-09-11T16:54",
+        "source": "CNN Arabic",
+        "category": "政治"
+      },
       {
         "title": "フーシ派、バブ・マンデブ海峡の航行は安全とサウジ船舶を除外",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWHBkZkdsNUs2SVlGTzRSa3V5VnhtYjhESGJ3ZXhtRVpvY0xtR2tTWWRTbW9keVlYWmkwY281ZjVwTUpwNGFvTVJZVFpvdGxLWjlOWTFLTHZwbEVxUEZFNEZTYzVXbjE2cEJUb3lwallPZWZZQldLZnZZUW1GMExEcmRQeVZ0d24xNVRkdHl3NDNnY1NhMDM0YkRSZWJINTczZUpGVWtkcUJVZGVnaEUyMG1tczh5V0JscmswSHpVbDZqX0JpcFHSAdABQVVfeXFMTnZZMEpzcnZiX0FlOWlaMF9RWVhtVTdTc19oRmZDd2xHX05CMUJSampLQVVWOTRKMWk0eU1QZldKbVdaRDZlcWVoRFpIV09EdFFvWkVsLTllaE5wVVJOZkE5bWUzd3lLYW1sSUhFRmFXdGxaclRpOGdpV3ltWU1JemE5Zml2cUQtRzhjVDEtZ0JGSjEzS0M2dzAtOTJPN3EzeHJ6SjNOaGVZcHg3N0k1ODdYNzhVN0FRR1RaM3ptYW1MN1JER1NXaWMzME5RMGVnNQ?oc=5",
@@ -216,17 +244,24 @@
         "category": "政治"
       },
       {
-        "title": "フーシ派が紅海の要衝で勢力を拡大、米国は軍事代表団をサウジアラビアに派遣",
+        "title": "フーシ派がバブ・マンデブ海峡の支配を強化、サウジアラビア皇太子がトランプ氏の仲介を要請",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1oVTEyMkJyVS0xZVFTaEFIV3hYbThuTGo2cDFlYlZUTEhwVVdheWJKeWtRckpUMjlFZnpWRjJoZHd6ZmdVckRhSmpmeExnQmtPWlVxNlRGUDU?oc=5",
-        "date": "2026-09-11T13:08",
+        "date": "2026-09-11T13:05",
         "source": "BBC",
         "category": "政治"
       },
       {
-        "title": "サウジアラビア観光局、リヤド国際旅行市場で観光パートナーシップを強化",
+        "title": "「サウジアラビアの魂」、リヤドの初開催となる国際旅行市場「スポットライト」での出展を終了、観光パートナーシップを強化",
         "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE00UU1Lc1ZYaWJCdkZhdElRakJvdG4zQ28yVWNMUi1zekx2LUhDYUdQS3BYMDV4eFJHaHJXdnBDc040VTdzZEE?oc=5",
-        "date": "2026-09-11T10:18",
+        "date": "2026-09-11T10:26",
         "source": "وكالة الأنباء السعودية",
+        "category": "経済"
+      },
+      {
+        "title": "欧州からのレジャー観光客、2030年までに130%増加の見通し　サウジアラビア",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeDdQakd1U2hsSjRETlUtWkptNWZ2a0RGM0g3c2IxMHk1Rktwc0N2ZU5ZRWE0RUE3VkVrMkNjNUhxdExJdktpR0Y2Y3RuVE83eWFkcnR1UlN0LUtHRGs1TlBZSTJlUkdwWXlOZWo2RGhscXVmcjhJc1NCM2NrU09hQnNnbnVUV2didmtWV0pMbmk3elNHUENfOVBzY0V6cnFVRkt3aXhUYWk5RUNiX1MxeHY5dy11ZjZETWY5Xw?oc=5",
+        "date": "2026-09-11T09:15",
+        "source": "Euronews.com",
         "category": "経済"
       },
       {
@@ -235,47 +270,40 @@
         "date": "2026-09-11T09:05",
         "source": "سكاي نيوز عربية",
         "category": "政治"
-      },
-      {
-        "title": "トランプ前大統領、サウジアラビアのフーシ派攻撃要求を拒否",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xcXBSbkZvQ2I3WEV3VlhjU1dGVmNPT2ZtcDFNR3ltRnVpaVRSRlZYSUVnM3RTbFh3a2JfNEtQTmdXR19oY3dMbHViN2Y3NVhtS0FaVEd4bkdtM05VWlVCZU9NeDRwOE45eWlLbnF0Y3hOc3R4djZKb1Ezcw?oc=5",
-        "date": "2026-09-11T04:15",
-        "source": "Reuters",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア国連大使「民間人への攻撃と隣国への脅威は平和への道ではない」",
-        "url": "https://news.google.com/rss/articles/CBMi1AVBVV95cUxPT2VKVG5KUGxST2MyODhlbnZJVWxhQVlRb3lRVTlCREpUUnJRejR3aW9DXzliMXZqZTg4eExJeDlmMklrcVdjWTRhU012UVRRM2M0YkdjTGhfOElmTHI0eUtUaDYyY1RiRkVQanZVVVk5enF4b3NHdEpmVFB6b0p6RzRhS1BRQ1JVcmZpdHBkRkFabFJrYUtxQVR6V2NNaHloMHgyd3A0ZmtJQWVPUEs2dUV3bDJqZkV3Vk1TcUx6MUZlT3RDSWZTdkRzLW5feHIyWkRWQjBjY2ZkUUhDQVJMU3NMV0dVbndRUTFuZndFZmRGd2VUZUNXUG5YYjFpUm5aeWhPZE5Qd1JqUEZkaFVVR0pHajlfaTFrcHJnLUVxcXBITjQwRHk3MEd4aXU1aFNIbXIzcjFvR0o0TENLVUlKekVmVjBDUnM5eUhTbVoxbmtxZXRhOWsyN3l6UlFJQktxcFFwaXdWOWRxVlg0Rzc1SDJOZ2dobkxsQkprNTczWEU3MVI3enZrc0ZNTGpoRFEwZTUzLWlvWmVXYVJpSmdqdGtFRGp0RHdfb0RBT1RzMFY1QWM4RU9NSnpxWEhnNm5hdWRJRF9OYWYydEVEa2lwRjVhMnpBRmgtMGFlTm9QOUJNOFFnMmdNVVNSRWFwdHUxbV9RRWJxcndtZjkzTnFaQnEyeExjLUJuT2FRU3B5OExEV0RMV0EyTkJVX0dEYWQtNnYyZEhnUW1BbzlWM183TURMNXBGMWRhSVdyUUxINEZiVHhzaG1WQ0sySFJCQ2VvV3hITy00Z3RkNjN5N005b2tmWUFxRzNHTUNwdkdqSmd6aFVUYTFWWUJsb1J0MWgzRlA1NFJmRDZKS2hReVIyMVVDVHFRSFFnOWc1SUpqeldtcnIwdGJjcnU1NEJIaW5TSlhOUURZZ2tzam1XSDVVM2xzVXJ6eFppQjhwY3JJelY2VW1Q0gHaBUFVX3lxTFBNUUNPOFNDVEhZalUwM2pnQWtXVEF4LXF5eFBlRFJva2RwcUJKU3FpLUJ5TjNqVXM2NVNvR2VRV2VuV0h6c3BvVWp4VGNmSDVUbUh5NE8wZVotMy1Iam8xMWsxM05vMnZyV1dXWUt5cFFfT3dQSzlvQUxZd0hjS25uT2N2NEtmYTFaaV9KdEQyeHZTUDZUcURiS05mZkNSTkFJV1dRb1RwanRtRnFsaVprOXhLNWF6UWdkcnNPSk93UW1aVk0xRlpoWC1MM0pnMjBkcVNWWXR6WkJCQXZXcXB3SVV5WTlLYWV5WE5PSDVSR1VmSGpEX1NPc3hLd3dvNU96dUNRNFhjTTlMV2g5aTBPakJYVnBGd0E5Q0VoWDRVdndST19GLXE2b0NtT29Cc1Y0YmhzZXlzUFlJQTdGczMtRlk3NVYzWjlJNTh1R2xheE5WZ0ZUbFpNVXQwLVJCVzdVRUhTUzZQeFpQdHZJZmpfUFQyY2ZFNXZIMFg3RV9rekdKNUpRdHVQUjBQS09xZnRjVUVtdlRmeVhzazU0cHo4OWtfbnlZWXBLOFNtc2pwYzdQRUttY29ERnoyMWF6M0U1Y1M4RldWVkNVZmt4R0JNOXZlYnZXVmg2VkdUQ19FTjlYN1pwVm4wOEVEMnVnUnQtaU5RaEtBUkVCMEl6XzVvVE5zMHJwQUlBZHdyNXFNdHF5akU4bm1pM0ZONUVOcVVVWUZ4Y3FXckRYTWVBVFljRGZiTm0yUDVPOHpGRnRnbVdJUXZXcGZFRjBnZHdyQVFUUm9Rc0tOdHRMTUduR1FOUmZKaW1CcEhzeTV2cUlTWlVFMmxZOW1sY1ozRkdVYjdiM05FU0g3bE82Zk1QME51dTN1Y0hxNkowYkxrUHhBcm1nUUxnWDN6UWJtLWNRWUxQajJqOUhBLUF6WHVveU95Tjc4dEdCTGlDQVd6YUFaRHVHclB0d3picmc?oc=5",
-        "date": "2026-09-10T22:48",
-        "source": "العربية",
-        "category": "政治"
-      },
-      {
-        "title": "速報：米国、サウジアラビアのフーシ派掃討作戦への情報支援を拡大",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWEVMYzJZNFYtT1JkZEFoZ1A1TkdzTjVZeUVrUjhsUE1EZkZwZ3E0Sk81aVI2NWd3c1dkVHRvZERZRXJXazVfX3hlaTVtckd4V2JWTC0xNEhPZDE1Z1dxMW5nQ08xcGpHajBhc0pKOVM0RjNHYlRhX0hjWTFsMXFvX3JWMnkwRm1FdHFYbFYzQlByTWRDUTBMY0JlWmxacDJwZzJKZC1aMDl5VzF0cEttQnBLYjA5VUZJT1IzZUxvYTFHSEZoRDdn?oc=5",
-        "date": "2026-09-10T19:56",
-        "source": "CNN Arabic",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア観光局、リヤド国際旅行博覧会を終了 旅行大手との協力覚書に調印",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9neGtmNW5sYlNHS1JhVDZaN2lxSkJjVVRNd2l4VXJaSWp4cGFIMGFhNjNWRm96R2VabzY3aVZ6cG9JbXdmR2dv?oc=5",
-        "date": "2026-09-10T19:33",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、大手ゲーム企業の統合を検討　世界的な巨大企業誕生へ",
-        "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxQdm9uOFFRZTRvMXZaWmFKa3lnY3dKTlA5TERfOGpMM3R3d0dXZXZtVzVTeFgzdXRHb3NlQ0NQRVFYVjB0ZGFiV0JCMHc5TEVUSlA3SDhlcmhTbUFMU1ktVkZSaGhneGIwa0d6T3BFTXFvREs1UWhFcnlBdjBUazhyVV9USWdHYmptcWo1bHVJWFVIbW1xWjhqMVNxLW5pVXZWU3E2MGg3OUg0MHExdWhvYjNqQzlFczBTdFM0UENodVZfU2dpbHN6TzY3ZEU0SDFVdzlWTGJUTzFZSnRSTm4zZlgwZEQzUnFEekprNC1hYjdySFFqdk1BVEg2eFZGS29LZ2t3OXhjdlkwSXo5WFJuRDg5Mk5MUW1hXzBoZ2l3MV9nOHQwZlloTDRnOF9JQ0ZVTXNzd1ctbmhya3lTMGwyN25POF9BTm1zQU9SaExtQmNQMUZhOHp2Q1RyRDVXc1FHUU1qbDU2N2gwUFR0UTFCb2t1NnVxUHZoLUVvQUhsR2E3R3dOU0lVbG9WYmRrR0VPZHpHXzVEbDJxZEtYSjNveEtzMVpZQU4wd20wb0lRdjRweEJ4dDhVMFk2WlBqckkxZzRvY1Z5MA?oc=5",
-        "date": "2026-09-10T16:22",
-        "source": "الشرق بلومبرغ",
-        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-09-11T17:31:50.402126+03:00",
+    "lastUpdated": "2026-09-11T21:52:37.211958+03:00",
     "items": [
+      {
+        "title": "フーシ派攻勢、サウジは苦渋の選択へ－軍事衝突拡大か要衝支配容認か",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zQUVIOUh1bHN3ZVVVOEEwdnNyWUFMM3VHdk9QbE9qcFRFNzg4Y2JMMkVDcE4tT2M1cXpNUDlDTXBPVnp3cWJQc1o3MWJoaWFjdFdDSVZ1dDFlSDd1NWZCRGQ5Xzdwd3BqaVRfaTRrZFYzbS1Sc2l3?oc=5",
+        "date": "2026-09-11T18:40",
+        "source": "Bloomberg.com",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、攻撃を受け東西パイプラインを閉鎖 執筆 - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1OMERCcGE0SkRjbDBpbnRaR2kyRFdTLW16cGFSVU1pak83UHAwLUFJSzZTZ2I0ZlZ4cS0wX01sN1pQV1pOUVZkdnpYdEF2MEVYUWgzOWE3MTllcTZuVkdlMGEzTjlPS1VOeDJlWXQ5M0o4VEFjaWkw?oc=5",
+        "date": "2026-09-11T18:31",
+        "source": "FX | 株式市場 | ファイナンス | 金融ニュース",
+        "category": "経済"
+      },
+      {
+        "title": "日本―サウジアラビア 第4クオーター、シュートを決める小川（右端）＝IGアリーナ - バスケ日本、2連勝で準々決勝へ アジア大会男子1次リーグ - 写真・画像(1/1)",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmQ0VJOE00bFViejNhWlpfLVlqaDBhTEM3VkU0bW91NXA5ZE9UeWpDbHNvTS1IZ3RZcF9JRnlwNFJadGZ6RE1HbE85aEI0Vks3ejhUMmxDNA?oc=5",
+        "date": "2026-09-11T13:18",
+        "source": "西日本新聞me",
+        "category": "スポーツ"
+      },
+      {
+        "title": "ビルポ、「LEAP 2026」登壇の成果を報告 ― サウジアラビア大手複数社と協業協議を開始",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uUjMzZ3p1VmhCT2hjVzJQcjZWSXcyTkJMbXVqY2EwWUs4Z2dIb3pQVlVJZENfTlgtcE9KQWZoZEc1eTNnWUFjNElxNGwxbFJUMWxOVDJqbTBhV204YWlDNHpTYTJCcThuVDB1OTBoQXJxdw?oc=5",
+        "date": "2026-09-11T11:10",
+        "source": "Infoseek",
+        "category": "経済"
+      },
       {
         "title": "Hanan H. Balkhy 博士がWHO事務局長選への立候補を表明し、「世界が信頼できるWHO」を約束",
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0ya0ZNSDZtWk5ZVnExOUwwYWc2bjVIQXBGMHFrdkpqT1VGNGFudlNnMEhTekN3VzA0R3ZIZnBjTlg5RTZHUGxmc28tWQ?oc=5",
@@ -284,7 +312,7 @@
         "category": "政治"
       },
       {
-        "title": "トランプ氏、フーシ派への攻撃拒否 サウジ皇太子の要請退ける＝報道",
+        "title": "トランプ氏、フーシ派への直接攻撃見送り サウジ皇太子の要請退ける",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9PLUdncU94eDBUcE5TWDVOQWdNSVN4bjZLQkFQOFY2cWN4ZksxSU96aTBwaGJuOGFONTRBTklYeDROZUZLTjk0dy1hTFFNZEE0YXdQZDBJUGE2ZndySWdicFZteXYyZHl0TW9aeldTc2xqQVgxQmFOOTFmOGZxZw?oc=5",
         "date": "2026-09-11T04:34",
         "source": "Reuters",
@@ -305,46 +333,18 @@
         "category": "スポーツ"
       },
       {
+        "title": "イエメンのフーシ派、紅海沿岸の港湾都市モカを制圧との報道（BBC News）",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZWWxqdlFYcG1YX1dDUjBJeU5qTjA3Skp6WEtTcGtpWEYwWm1JWDFTeTRTQVZ6bjB3V2hMeHJma0Z4QWJHWndlZS1oZFVRNW1VSVVTUDhaVGhMM3JYWkhtS2ZIMVp3Sm5FVGxkOE1kQm5QODFWcEJtYW1IdjFnN3M?oc=5",
+        "date": "2026-09-11T02:28",
+        "source": "Yahoo!ニュース",
+        "category": "政治"
+      },
+      {
         "title": "NY為替：サウジアラビアが「前月の生産が1990年来で最低とOPECに報告」との報道",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTFdhR3JncVRtMzlrNm9uS2R4WHNKekdMQ0g3MUhwYVRFUDBpLVJtbzdwN1ZtZVZybGFMYjU1YzJQMTJuX3cyT3MyR3Itcm1kMjZXWWFQYW1PeHFyM01uYWhPbXlEZ0NPcUUzdjFnVzNaRlFSTXFNY2FxY0NHbnl3bjJHdTdKaFhOZW5TMU5aLTFrMXpGY2VaQjBCTlltUll3dDdjcXVKbUNrM1NwM1lsTUhtYWF3RzFKTk96NVVsazlnYXc4Q0hEQnloU20zbGJRckRRdWdiUHctVGlr0gGMAUFVX3lxTE9TMnlJc3FmcE1Ia0toYTh2VDZkT0k1bDlaejZGVWE3SmRCdHgtODZ3TTBzTFFfOUJreDYzOUVZaUNES25RRkY0LXF4ZHhUeFlVdG1fblNUc09iYzlaSWNLeWNQdk5IZDNlYnhXNHdLWkZueldLa3FGZDZjNXhWZDZGSkZIQ2gyRkhnZGNZ?oc=5",
         "date": "2026-09-10T22:18",
         "source": "ｄメニューニュース",
         "category": "経済"
-      },
-      {
-        "title": "巨額の売却益をゲット？ サウジリーグからの移籍金収入ランキング1～5位",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yWUlZX2tYYjNuQk14eDdYcTBNYjM5X1pKQTc5RENHUU83TzJTc2Vkak5FSElmWVRmU2NtNkJ1VVZFZUhaM2JIZk5XYzBsdEduUmI5VDAzdU05Y1FJc0JlQnltY3k?oc=5",
-        "date": "2026-09-10T21:00",
-        "source": "フットボールチャンネル",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア 産油量急減 90年以来の水準か",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVdTlyT0RVRG9ZQ2dRVm1Ickp0ZmFUTnQzcGEtamtiQzVvZy01eU9UYXFZdDZJZTc1QjFhbldYRzF3OW5JRUhxb2JTZk5lOVFnS1hYWk9va3BqcTRBWHMtSkphVQ?oc=5",
-        "date": "2026-09-10T20:45",
-        "source": "テレ東BIZ",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビアの原油生産量、1990年以来最低水準に低下 執筆 - Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nMXhUTWo1U1dBc214SFRhMmZCaE9DaEdfdlU4TWlvV2hoV2NPeUFCLVFUbVFhUFZKVEZNMFFsZGRKZTlfa2xpbFZVSERac0thUXN1a0dZcGYtTDJHNHozZnZyczdfU1ZLNmc?oc=5",
-        "date": "2026-09-10T12:24",
-        "source": "FX | 株式市場 | ファイナンス | 金融ニュース",
-        "category": "経済"
-      },
-      {
-        "title": "サウジ､先月の産油量が再び減少とOPECに報告－1990年以来の低水準に",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxUnA2U2VlakZpSVRiYXY1a1ZQS2hqV0djRUYweUZVYkN3VEZhVXA1QjdjZ1BYdVRNSnNWaDdUaC1QbkZzZW1ycm5kaEhPVkh3eUdieWdpVWFzdTBTNjBQT25HbFQwVWRyZl9wcE1nZElTRmN0TjFn?oc=5",
-        "date": "2026-09-10T12:13",
-        "source": "Bloomberg.com",
-        "category": "経済"
-      },
-      {
-        "title": "【9月11日】バスケ男子 日本vsサウジアラビアのテレビ放送/ネット配信予定・ティップオフ時間｜アジア競技大会2026",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVWZFSHktc1UzRWpoSWJmMno5YVFRV1VnbG9hb2VwTUlHaHlRUXRqRWJQX00yVHdleVhMc1hxZjF4TmFnaUs4TnA1RFNHRG9NNG1RUV9TZktwLXdKUFg2ekU5QXFwNEh0VnNvdVZic2xSWmRTR0g2YXlLRU8xd3o4ZmN0YkJ6OFlZd3ZTN0RnUE9SVVRLTkkyaTIxOTNqajQ1ZkJxOGVLMzZNb0gzb3FpTTVGcm1Hd1l1ZW80czJYbGVOUE5PY25XWkI5SDZ1TUdI?oc=5",
-        "date": "2026-09-10T12:00",
-        "source": "Goal.com",
-        "category": "スポーツ"
       }
     ]
   }
