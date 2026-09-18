@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-09-18T17:34:47.957633+03:00",
+  "lastCollected": "2026-09-18T21:45:07.210822+03:00",
   "security": {
-    "lastUpdated": "2026-09-18T17:34:47.957633+03:00",
+    "lastUpdated": "2026-09-18T21:45:07.210822+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,14 +39,14 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-09-18T17:34:47.957633+03:00",
+    "lastUpdated": "2026-09-18T21:45:07.210822+03:00",
     "items": [
       {
         "title": "令和9年度前期用教科書無償配布の申込みについて",
         "url": "https://www.ksa.emb-japan.go.jp/files/101086223.pdf",
         "date": "2026-09-13",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": false
       },
       {
@@ -118,14 +118,42 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": true
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-09-18T17:34:47.957633+03:00",
+    "lastUpdated": "2026-09-18T21:45:07.210822+03:00",
     "items": [
+      {
+        "title": "サウジアラビア、石油輸送の新たな選択肢を検討",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORTBIS0lsWE5pcVlmb1lCcHlzYXdySlY5bTNBNDUxNGdKclJXU00zOVpLSkhlWVJFaktYN1ZRS0FEMUIxOUctb1hVb3I4TVZsci01YjRSaTBNN3VZUWNTU2o2VnpkdElIVHpvT21lT0pOcjVWWmxrN1RJeFpfNWtEWnFqd3R5a29IakZRT2xTanQtY2x1LXltMU5NVTZnUQ?oc=5",
+        "date": "2026-09-18T17:58",
+        "source": "WSJ",
+        "category": "経済"
+      },
+      {
+        "title": "FCC、パラマウント傘下企業の49.5%をサウジアラビアなど中東3カ国に売却することを認可",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOVhZQ0Zsb2kxV3U1cnB4cEJxcU04SFVxejROS2pHdVZwTHBISUFmVVBuZWE3bG1oRFBzREpoOVpYRlNRbWVBOTNQTkhDZTFObFhuMkZfRTBUNWNEbm5ONXpqZ2lVWFlZRm5henZWYXZWUm5KRlZnS0x2QjhqN3FEYVdlTWo5WUpvVVYtZk1ETFhhaWx1Q3Q1QVliTVZEQlp0NXhCNEV0X1Y5dlhEMEEwMGtZdW9zYXc?oc=5",
+        "date": "2026-09-18T17:57",
+        "source": "Ars Technica",
+        "category": "経済"
+      },
+      {
+        "title": "パキスタン、フーシ派との戦闘参加の可能性を示唆",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSHZYT2hQaXN3QjFiTVNqeHBQTzhsdklsczhORWFCSktjN25pTG5fU2hTZnViU3VyYnJycHBZRzJpN0c5OFRwbU8wTWV1NVd0YVFKcm9GeGJGdnpJelpMalZIUlpTcFpiOEs5ZGVhMUR5eUVxekVNeGRpNFNzSUlmamtERDFBLVJKNURqVmsxTGQ4dEgtT0E?oc=5",
+        "date": "2026-09-18T17:37",
+        "source": "Yahoo",
+        "category": "政治"
+      },
+      {
+        "title": "パキスタン、サウジアラビアへの軍事装備供与を拡大",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdGoxTnRhRVYxdkZTZUk3TE0zNlEtSUlyZmhYeko2UDJNakN3M205RmUtSmRoU3pGcmQ1Vml5ZHVuaXZKczN5d0pQWFFNbVNVRUQwNklWRGpna1F4RjFoT2FiMkdKUWZEWVo4dVZMOEhPVHEzaFp2UVRyNDY0QXpWUk5BR19sTF85b2wxdndCNUhreG5BMHZtNHdtTQ?oc=5",
+        "date": "2026-09-18T15:18",
+        "source": "Yahoo",
+        "category": "政治"
+      },
       {
         "title": "イラン、地域での影響力維持に高い代償",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdDFiRnpwc3JJRGJ6cXF0eTNlTnVMY3FvNnBpbDZnR3RfcjE4WTdQZEw0NXBrWkxpQ050bXNUNC1ncVNHd29pU0NzVVFoZi0zMFVLb21MRmk0czhvVjVWb0g1LWR5d2lGYVpRTVhyUHRTLThBUFV3VGVLTmdWb09QNGpGSmdyUHPSAYwBQVVfeXFMTWM2aFNTeW04aEY1MUxuaVd1UElrMlBNOEFINzZIZEhmQVA4XzZRXzdQaW5tMnQzOHU3VmxUcTkzN28xRG9IaTlxeXNXSWlmeVFtYXNkQndrS2V4NHFRWXd4VFB5SDV1bGpJNmRGaTMxaUp4cXhrNXdmY3hlRmQwUER6bVQ3dlJtZF9HX2g?oc=5",
@@ -134,14 +162,21 @@
         "category": "政治"
       },
       {
-        "title": "パキスタン、サウジアラビア防衛への全面支援を表明",
+        "title": "パキスタン、サウジアラビア防衛への全面協力を表明",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd0JGM1BTelVodGJxcFVIZGVuYnFSRkNVNVhkN1A3RExHX0hJanpEY1VGMjY1NkhzX0JjMTVQaVBtSnJxS0k2Tm52bWwwamNwMmxsREJjakFuY2FJX25tZ2hVR0RuNWNDZTFzSmxQa2hpdEkzTFdTSlZ5RDhTb2FpNmhSb1lJZlRyM3VrSEhmOENhbVlGNDlSNENrYzg0ZVVCbVRR0gGoAUFVX3lxTE82YXRMSnN2V3ZHM3Npa3otV1oxUVNfXzlxVDlRWDZUWGo1b2hRenJjOUktTS1CUExRQXA0YmNSanhaQW9BaTRxVUticzdzOE9BekRiVU5JR1JEQkc2RTVoWlZwWmgwT3FVcTd4WHpaTktpSWM3VkJZeVYzeVQzZDQzN0NVWFh3N3BBTnlCQkZtbnExbUE4VDJaT25MRUROa2JSeTZkVnZobg?oc=5",
-        "date": "2026-09-18T13:07",
-        "source": "aljazeera.com",
+        "date": "2026-09-18T13:08",
+        "source": "Al Jazeera",
         "category": "政治"
       },
       {
-        "title": "トランプ政権、サウジアラビアへのステルス戦闘機F35売却を承認　波紋広がる",
+        "title": "サウジアラビアの石油脅かす フーシ派の攻撃が1週間続く",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRy16WGVpZW1tckVwZ3VFZnZ2dGxHT1BEM0VxdVhfRWQ4QUtPeURzR3JCTWlZeFRxWWFZTFJTbWJvTGdsZ2RyblhocjdIS3YyOF8waEFmQjRXNEs2N2k4dDAwV3pNZVdIYTZNVXEzVXFZZ0QtdFlrenVuLW5XLVhTXy0yX0RTZXUxaUJF?oc=5",
+        "date": "2026-09-18T08:02",
+        "source": "NPR",
+        "category": "経済"
+      },
+      {
+        "title": "トランプ政権、サウジアラビアへのF35ステルス戦闘機売却を承認 対立の背景は",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZmlaOUMtVm9SUE1MVnZtVVd0cFJXdUtPV2JHRjZ2c1VRSWlJOHlnWFVzaHVfUWtwM3BEWXlZankzNFoyUDQzdFlzR2VmV1JXV2tRbUxEaFpWQ0VnZXNTeHRqa1VaNm1weFJVU0hDN3N4d20yeVhmVmZ1cFBtQ3l0X2ttU0xiVlk?oc=5",
         "date": "2026-09-18T07:38",
         "source": "CNN",
@@ -155,52 +190,73 @@
         "category": "政治"
       },
       {
-        "title": "米国の方針転換でサウジアラビア、フーシ派対応で難しい立場に",
+        "title": "米国の政策転換、サウジアラビアをフーシ派問題で苦境に",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSmMyQ3pQUF9rMXhFS2x4d21PbUZOLUVjVGFvdWx6SUZjdTNadWxELVRpNW9iNEdRRHN1SmRMYy11ckUtMkk1WWFQVmYydzlPcGZLTlVHZENnWDJiTjRaN1gwV210ZUJFQm9yeXdHMUkxVGxTOFE4bVhfY1NET255MDJrWFFvbFB1ZU96MWVvUmNBOVhtN0ZTVmVLQmcteGdwMHEzQmRPLWk3T3NTTmRPUk9vZTZMR19HX2U5MEVfSXZDMnQ5eWF4Y0hEZU5PbXpK0gHQAUFVX3lxTFBneXlGbGlYMTVsQ2lROHJuQUVQT0Q2WGZobnREMmw5YWNkTEJkRjZnWHJyTVdsMHIzemtrNGo4bHhUOWE2c0hPYmxYS1FtRHkwOGdhZ0RQQkhvdEkwcHFJem0zRW5HV09rU3MzbmM5dUMtUjNiNjZCcUVsZHk4cm9EM2owWlZqYUppalpMdmlPaTN6STlwQ1pjOGVYZEMtdl9ZdmM3R1JPa3RfRHJXbGdZUjk0aHdBamdvNjlIdEtnTnF2amFqY3ZMbVN3T3lJYkQ?oc=5",
         "date": "2026-09-18T05:00",
-        "source": "scmp.com",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア戦の敗北も戦術変更はしない、エバンス監督",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSFdTcnlmUWc5dXRZV2R0a3lzOHFqaVprYUlidGozMVl5NDNUNFQ2Z0VrcFpLWko4ZFAwNGF5RnROeFFPY3N6dzN1d29DZnNSYXBaV3BWUFpFSjV0OVgtSGdlaWZRRndGNTBrY0J3b3ZMUkNRU2M2ejFyQW9GMHllcF80aWpScFIwRG4w?oc=5",
-        "date": "2026-09-17T19:47",
-        "source": "DirtFish",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビアとイエメン・フーシ派の攻撃応酬で5人が死亡",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPV3pvTmFWQ0RPVWxMUGFzcEQ5LWk1a0JNOXh1aHpFdjNiTi04MXN1ZkVha2k2bHpuVGdUY3JxTjhZT1pYSWs5Y3BEM2lXSk1vS1djSHg0RWxVUnl5N1F4cFNiUDBpUFBVU2RyRlVKSmh3aTVOOWNvOThFRTVyblRBbzJwTm1DMnNvTmp2SzVXcjJCNVJoczVMWmFRRW1ZUkV0b29j0gGoAUFVX3lxTE9QTHNKNkl0bzkyeVJJX19BYmV5LUdxbnFxR3REUGFLcmlxc3Q0c2dvQ2JJWk5wc0JrQnJGbml2QU55MzRvcWtCSU9KM0FPald0dkFFN29YTUx1ODRSdVBHcU5hS3NyUUFzeE5pTU1hbHpMWXVnaGNVVDJJal9xOFYwamV1ekh4VXBnWUJlOVFmVTdLeFhQSU91akFZOUhMaVpLbVl1c29PZA?oc=5",
-        "date": "2026-09-17T19:00",
-        "source": "aljazeera.com",
-        "category": "社会"
-      },
-      {
-        "title": "最新情報・米国、サウジアラビアへの戦闘機F35売却24.3億ドル分を承認",
-        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQU3RIQjRpbHBBejBPNUFpa05pazN0b0lIQXlpN2JKQk81ajlWaFNVT29qXzBmaGdsZGhyTWx0VXhsNzBEUjFwMEZjUlYzXzB6dHk5WXp6Vks1akVISWFqRUNOUnc4OTg0WEhQRjdoV0FwSThseXptUkFXcGd3RlV5cE1nSklBMGh1RHNBQk1FbUI1VThidUpVTjFtbGRMX1cyWnk1c25vRGtnNmU1d0NTRl9QS1B6WEFlcHZwekluX0tvZFExYTBocnFyTHNNYW81SnM2OHRZS09fc1RfNmtqeko0R05pMUE5NGxRUWFoQjZlcUJVNFlyWVZObkY2ZUwtQV9XT2s5Q2I2R3UycDNWVXpHM1FiZTZXUmowRVNn?oc=5",
-        "date": "2026-09-17T18:52",
-        "source": "Haaretz",
-        "category": "政治"
-      },
-      {
-        "title": "米国、サウジアラビアへの243億ドル規模の戦闘機売却を承認",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONTlQX01aWTdhM21Pc2N5Q3hWVDFSbTM1WFhhTjBadHptcmg1RGRnWkZhakttQjVWMWI1cGU4WkE1Nmp0b1lBVlpDMktBMzdKZjJ6RGtxOGF3TmlpVjQyZDVoMmg0MGlENFJsVEpwOXdtc2F5NXBHZ1RPYUhMODBFcnhuTlV5SUNteXlGUWVwWnZLVEVXM1lrNENJREptVEtnZnhGdlAzc3pTMk0zUmtiSFRIdzkzeDRRX1gxRWt6SHRLanhmLVNEbDd3YlNsRkdiOV9JeS1DNWpwaDQ?oc=5",
-        "date": "2026-09-17T18:50",
-        "source": "Reuters",
-        "category": "政治"
-      },
-      {
-        "title": "米国高官がオマーンでイラン支援のフーシ派と接触、トランプ前大統領はサウジアラビア支持を表明せず",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLUZDTGVGREdSOXY5ZXRaVW02Rm94dDc4bUxLTm4zSDBldFdtZHZtRGhZc09vMUVQM1lIMk5vRDNqLVFRYVJGYlJrc0VyU1NocXhrd2M5eVZXa2l0MGsyOE5ZdXdlTU1pVXN1RkFsRFpiM3ZNRUJ0VVI5SFZGei1nWjhMandmNV9tNzlaR0tKeGkyUERjX0daUWN3OVV4Tk0xWHRHMGlWMHNrZTZaZWd4RUNxUS15MlJLdDZxN1RxSlg?oc=5",
-        "date": "2026-09-17T18:41",
-        "source": "France 24",
+        "source": "South China Morning Post",
         "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-09-18T17:34:47.957633+03:00",
+    "lastUpdated": "2026-09-18T21:45:07.210822+03:00",
     "items": [
+      {
+        "title": "イスラム世界連盟、サウジアラビアへのフーシ派民兵勢力による攻撃を非難",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kQ2s4eXRLbEdJa2tMM1ppcFg1bnZYWWVZemI3M0VpRjJYZGFUdWtra1hrUm9Ra3lGMjFVSzFfd1g0U3NxMlgwTkx1aVR6YXppWnfSAVRBVV95cUxOcnJrMDhDemZranhsWF9HS2ZZZU1IV2ZKYS0yZ3FiaUw5Qk1RYmhHR1VhUE4zV1RNWEVKR2pZVmVuN1BkQlUxUTlibkdLTUNGX1BTdFI?oc=5",
+        "date": "2026-09-18T18:34",
+        "source": "عكاظ",
+        "category": "政治"
+      },
+      {
+        "title": "イエメン速報　サウジアラビアとパキスタンへのフーシ派攻撃を非難　パキスタンがメッカ合意実行を示唆",
+        "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOQzR4cEE0bTR4dWNYSENwcnMzQUtVT2FkSnl1MF9zZVFDQjVHLUtrejFmcDA3djNSbVdaRDVESkZ2a2ZDa21vMU5oRkl4dUxaWmxVNTU1ZlNvWVloY2h3RGtFYk1fRjNiUGlaMEVBdm1BSDcwSGlsc2lrYlJfTEk1aDJSSEdET19KQ2t5NVdVZDJoLXVjT0hfaUhWMEphVWE4LU9zekh0am5OSmJDVVpEZURFNk1ZaDdHLUVfQmg0YkdjYjJIaTVmRnhuSEJrcWxvUktWdGdRSEhCa2JmRE9VM1NtX0NRMzM4bU1XTjhOSnhaUTlYVVg5LThweUd5S0RndGR2WVV3bXRGT3hlQldFRmpaT1hLbk5SMm1Bb3lvLW5haUxhbFFRSlYyajljNy13T296ZnhMa2dvWDFERWV4YjZyQzVoOThpbUJpb3FidURoUG160gHaAkFVX3lxTE9jVTlWNDhReFlOeF9tN0NpNjBGUEU2MV9tWlMtV1F1c2I0RXZHa0hOZnllcVhoX3lyU2lERkRIZ0NRd0ctTkNMa0V2LXVjS3Y3TGh4N2pBaG9fdEwxNFU5NVJBZjh1V0ZDX1M1ZnlDVDR0TjI2Z1BKcXFrVlRvbFpWZFdldWY5YmpZTkcySlBsSVEtNVYxa0ZoRmVjWDBHd0xmd1hRWVNNMDVZV3QzNjIyZVRtS0tLTnZlTE1zclg4U2o2dnlYRmxhUGNzMVNtdmd5WGhsMFg2bngwYWpoY2lzd0RVZmQ3aFlxRWdGUVk3RGpkOVBKeFUyR2VVZkthQkxKSVh2LWEzRW83VEY5UjRTbU1qekt4dDNJUWtLS2ljT1hNRG92TmtqZmltTC1qalFrV1gzbERQNEZjYzRIMHFXMWJjcEt2TmpabHJrenNaWnRCSVpyOGpKZ0E?oc=5",
+        "date": "2026-09-18T17:44",
+        "source": "الجزيرة نت",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア航空が世界のエアライン上位15社に選定、スカイトラックス賞2件を受賞",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE53VmJqSUxITkc0NjBxUC1EbWtIemFhTTBWeTJmUllGdXg2R0NLMzVNeEdSdlMzbFBxdGh0a0FUeTRlZnBTVUFyYw?oc=5",
+        "date": "2026-09-18T17:41",
+        "source": "عاجل",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア電子大学にムサイド・ビン・アブドルラフマン皇子の名を冠",
+        "url": "https://news.google.com/rss/articles/CBMiiAVBVV95cUxPY21XR2FqMGY0VUNjc2pxem54SjA1M1ZTR1lRM3hjMklTZmtOMERDeXBYWXltWFJoWW9RR3RXZ3F5VTJ1ZU1EY0U2ZFVsY2hPcnIyenAwN0VPYU9TMTdNRmNucURjenRaams5T2ZrQWg3OE9ub3RyQTQxdDJaM1h5Y0I1UERTV0F3Sm9RTlpnM1doby0tdmlnS0FXbmNhS01jRTZJTUZPUHJ3NVowQWNsY091eDVGRXNHS1pIQzRHM0JlMzBPanAzaTczcjhlWllhTVI3Skh4dk15RldObGJKTXpOUl8xZlZVbTVhY0g5VXdFbXZ2N1VUSF93TDhjWHZ4OG95ZHJRa1hfVzJiaGszTGhtQy0yemdQLWllMEVQTFRFWWhUZTJ1Z0tIWmtwVzRLMUdXVVdOR1dOMDBPR0FiY3QzTFJMNEhuMnc5ZlY4N193ZC1LZFgwWjF1OHBSdTJUN1dHa21CV29KSVZleDhoREVmbmVXY1RKVXB0OWIwT3RNTDJzWHFoTE1sTk5pOUo5WjVtN190WWRqamFVR0l5UXA3emgzWVI5TlV1Z0ZDdzB5UHZ4bG9aNDRXLUQwM05INlBJUVVzaHltSTd1Qm9EenpHenhNcXBGUHQtUmtONmpWdlN6b2VMYjR3X2xzZlVXdFZXSmlJZ0NMUUp6dHNFOER5dl9DaDYxbGZOTGhfZVlpMUUyVzFXd1VlZklWbkdBaHlsTUNUaFlGWk5YeWxJRWlHem5EZUN1MVB5Tmw2U2dKZXZKeVFob2pxbjMwYTlLeEZYdHd6SHEwVDRVdjNmbXVQYnItWlBCcG44dWNlbmQ5dzd2LVUxaHNYU1NUNkI1T1BKbnBKRk0?oc=5",
+        "date": "2026-09-18T17:36",
+        "source": "الشرق الأوسط",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア主導の海洋防衛同盟、41カ国が参加して第4回会合を開催",
+        "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPRzJuX1lhVnZMVHV5VXozMmNPbjhCOFJrWnVzdS11YjRZMlptc0l4UmhaSC1Vc2xaU2g0VG91anJWLU9aalZHSXdyc0p3RWdPQUJnTk1mRWhiUzdNcGJxRHJMeUhUVVIzdS0xUzFRemNLYlVhTTdxeGRUcGtzMmtEeTlDeFNDU2NnZEh3d0tpVDNWMlplZUQ5dGM5WGhuSVlYUXhNMEdmczVjRERJWTJYa0pUQ25FTHVuc0VRZTNIaWFpclRWTDFheC1MR3EtbDB4RlhWSWE1WGh6eDROLThIUE9CeG92NGtjRXZhM0RQc0JoVGJXMFJXWTJLaXc2Q2twZGNsd1ZqdFVKVTNOd2Z4WGhhU2wxMWY1bmpBVWRWNk1ZWlhsY2FXY0JpLTJhZDZJeHBMY0IwNFE5MnlZS1lGMHY5MkJKbFRWdm1UWlV3dl_SAdYCQVVfeXFMTlJpbFRTTjV3MERmNE1haGg1OGxrMVFnYW5DRXB5dzRvX0RNcjNIcFVGMTVrajN0SlhwdlNUbkpvWS00R2VFaW1STDBDZTRXd2RGbUFzM3ZxZWtjdnlycGVnMGRZZHlxV19pREpHSWNTYjFwWlpZdllGTEhGYzE0bkFONjNHeWlZTzhxQ3JhNlVYSHRxQ3l0Wm9aQXcyc1ZkOExwRlBMUXFWTno3VEx3TjY0aFA4SmlwaS05WVBJQWgxWE5qdHNEQjJ0RlY5WkYzanBJQVhHdHF4U09jTlJINENOUEJNQVdSVE40ZDZRTFNHLTd4M25nLWJXUURKOEVORk5UamdkSm9RU1Q4ZXJrVlp6ay1zMTdKbmNoR1JSQ0Z3dzJZV2FsX3dhcG50SDNNRUVtUEVUYVRDZGw2Zkt3a1FaajkzV1RQOVpEOHRXMmVzTnR0Qmxn?oc=5",
+        "date": "2026-09-18T16:30",
+        "source": "الجزيرة نت",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア教育相、電子大学の名称をアルムアッサド皇太子大学に変更へ　指導部の教育重視姿勢を体現",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9CWXBlUDBNeXdCbXFXZ3FQMjNfVFh0VzRkSUFwYWRubkRFYTQxMVNqdXJzU0VMUUxGMHYzWkhUVlZmay1MREE?oc=5",
+        "date": "2026-09-18T16:08",
+        "source": "وكالة الأنباء السعودية",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア国王、電子大学をムサイド皇太子の名にちなんで改称",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBkaDlSeWZSUXdQQncyWDNTVzQyODY1TU82ZXhNNk1Bb09acUhhQkNyYzJ5dEp5ejVIdkx3Nm1zU0piUDk2NHF3?oc=5",
+        "date": "2026-09-18T15:24",
+        "source": "جريدة الرياض",
+        "category": "政治"
+      },
+      {
+        "title": "イエメンで激戦、パキスタンが「サウジアラビア防衛に全力を尽くす」と表明",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8xSEZWeWRsNWNxcDJUZ19PU1FndHVtSThrNVZRaTRSNzBZMy16VlU5NDVpaEpkTlNjeTgyU0F5cjkzd0JWYVBwLXVxZ3d0UTNGMXdEcHh1U0hSbjJjenfSAWNBVV95cUxOR1FsamNlT2gyNTBwV0RjQWFiNFoybTBDQ00xdUFGcTJKbEpQeV83WVIzblB5Sk5pdWJ5V0ZOUjQxUXVsbXJGMnJCUFQ2RXlrTXpBQzNTWjhSN3pEcE1xWVJTbWM?oc=5",
+        "date": "2026-09-18T15:03",
+        "source": "BBC",
+        "category": "政治"
+      },
       {
         "title": "アルオメイリとヤラ、アジア大会開幕式でサウジアラビア国旗を掲揚",
         "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxQZ2hPeFpTRGlhRkllcU5vbWhvdFlrb3gtdTZxMjd6LWdpUnh3SkZVTzlQSW5sc0tFY1VOZ2RhR3FWam1WOFRTSkJRX2VsZnFTaTl1NHRWQ3Rob2M0X2poVDZTMlNNZnh6VGhsUW5KcVN2a1NRYURNWjljM3I3UWpsZjItckRBWkVDWEkzcUJwd3NOQU0yeEF1RkRNRnhRZTJralpjSWtzVWdZX0pZUVAzb0pHRWNoVXNFc09uSHVrQllSTnZ4M2xzSWxaVkRDcUwzUWVCZzVySWlpY1FZSkdmbnpoTFFIM2JNTVV0QnhVUEg3NTlBeUFKMUoxazU0Vzl5NzhiRHdON2h4ZXlQczBQRTBEVXJ1d2JFZTZXbm5taWtwY0NBMmhCVU56N1lJMFVIQzJiZkRtVjZmX1R5eDVwZFo4SlRFdGMzc3pQcEI1R1RGN2czSTdxdHhQY0dlUGtkdTFoWWN0dm9lam4zcUM2dFZzVmFoQ0hMbW9heHRpaUxLdk03cmJwcGFMcW5WZDg2Zkc3MnA1RFVCMlJCMmdNR0c2Q25zNVU4cG5hZENDd1JKZFk3RG1v?oc=5",
@@ -214,88 +270,39 @@
         "date": "2026-09-18T13:40",
         "source": "الجزيرة نت",
         "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア国防省 防御的海上同盟の第4回計画会議に41カ国が参加",
-        "url": "https://news.google.com/rss/articles/CBMi7wRBVV95cUxPTk1DZzRESk41RGRTZDZOTG9Hckw2Tkt4NWdUZ094QjlTMk52V3RRRl9lbDJMODJxUjNjTUFJM2tjQkN5ZGlhQmRFaUtYOXR3bUlXRzZhd05lS0luU25Wc2dQb0YyWG1jRG03Wk0yQzZxWEh4MGp4Zk5oMUUtU3N4b0UwRDJZYWF4dHR4OC1vRi12YV84Qm5QTVZlODNPVzRPRlhrb0t6NkhNN2ZtdXlwd2tCY2tlOWdEY0pOendZYjRwUXlmUDg5TGhoZXBQOHJDSC11OTNmaV9laVc5Snd4XzJDcFdCVHBha0VvbTJxN1ZsMFJTcVhESGJ4SmxnSTJxQUg1NXhST3BZa1FPUDE2T2pla3doQUJXZ1FaRUhCQldjTHJxR2hlU05UWU43VzBJTWhpa2Jia3FObW9KWE5FMTBiYlZHSE1hSU0xNEdKTFZZUmFxM2hxZDVYUmNHRS0tSGdJeGNmYmE4d2kwQ0huSEhRTDk3SldpZGdmN0tPeTBaa1BkMXZ3NlQyNExFVDlnU3hOQlg4UFVHM1BOLXFnOEpndTY5ZWo5U19ueVBTMVVCQ1VaQmRxNjhndGQyRGZfYlFiSW9WSDY3aGNrWC1RekdkX1JGRnVFSENZakFYSlNRMjQwRGNpcHVTMDk3eUwzUkxwa1IwVVhYc1d5OXF3b0g4X0gwME1Da1lVSFVuUHdkbnlkQTZCWXhBVGloTWY3eDVrMGRKRGJqa3k3RlpoQ3M1Y091R0dNc3hRQ3ZEbjRjellWMkFPT1hPdWhCRW5XVGdQakpxOG5ocHRLTDJnNUliT0lrRTFKVFRSLVB2RdIB9ARBVV95cUxNR0I1YWVSNjFXSWFoRmI5bmtjUDRLVGpaTWhmTnRaMk9mSGlpek9PSERZa21KMFBrYjhvRlFLX1BFLVNSYl9rdk9kcWZoaGl0dWNnY1h5QldBMG5CMlhJTDJ1SVVZSEFlbVFyZHM4YnM3RGxDWlVScHFoM2tRZnNHTElENndrTXFKQWhWVENqOW9MX2J0M1hiS3FRTWpCTzVVNVV4SkwwNjI2ZFhzOGJOQTVRd2tUQW93R2RsMHJVM2dyUEZFSW1xVGR3WERFWUdEYWFfWFlydF9pZENIRm51aTRBQ1UyVVRhdVY4ZnMxTlo3RXZGb2FseVBCY3FHNXVnbC1RNW5obUttSzhhYjhuOE8zb205MElweHUxREVLVEVHVmJQTzJCVjg0TWRweERqM3RwalB4WjhyLXYyRWhDdnRyZlFDTDBJQ3FCaS0zSWoxV0NFRTl1RnprQWRhNC1XTmZXRFJWekVfTlVoVHlnb3lSZGxIdU1hanpMeFpLbkpIQ0NNcklFS2lIZWdMYlVSSVA3QjVJak9YQmxYYkxjaG95QnZySXFhdGlSZHpGVmRqWW5DMTdQQ2N0OHIxbXM2OEF0NFc5djJXRWh3WGVLQk0tZ0x0MXBlSjJNdnVhd2liSTR3Z3lZUlpXeWZiYWV6aC1sMWh1YkFjRE1lUXdsanZheGpsNU50eFhmUWhDSkROQ2VCUXBLcUE3NUFCWDd0ZURDR3JjLVdkNUVObTNfQ1FxNFJOUVNuQlNUeUxQZ01wVVBZREIzcS1CelpCb0w0ckRqeW9IMzQwQS1LNE1xWWN1a2l0WEdqZGpfM25xWkJqb3lr?oc=5",
-        "date": "2026-09-18T12:53",
-        "source": "العربية",
-        "category": "政治"
-      },
-      {
-        "title": "米国のサウジアラビアへのF-35戦闘機売却計画が波紋を呼ぶ",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51eURyMkU2MnIxNjBGY2lOWTVpNnJ6SEh2T2NzQWdNWm9OMHRLTzd0anlqNW9IV1dfTGhmc0N4MGdlWVJ6X01VVzJnT3VSUlJTTENnRjdqV2FzZi1VOGfSAWNBVV95cUxOTkhkN255NE13VDZCclA3TU9pamMzZDA5c1cyN2p5ejdfNGlIakRzbUpOdktwZkVWcFY2V2RiRk1HM0prc0l3MlYxd3k5M2E5VWs2Y1MyRHV5clFfd2FJOEdwazg?oc=5",
-        "date": "2026-09-18T12:48",
-        "source": "BBC",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、パキスタンのモスク襲撃を非難",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sRW5UVURtTVg1UTc1S3ROQ0NTZXFvaWtab19GZlQtbzlYem9YbUlsYnVjU2JxV2xpSXVPdHVhVHhuaTkyTkkyamtXT3Rvd0RqZ0HSAVRBVV95cUxQckg1LTJhVGx4MDU4SnA5dUpYWHRZNWV5aDF4YXQtaVNoWExydkNZcFZWTVE2ajVZZ2Zadk9CQXlFS0tUT3hMZ0NXMXlXSkhNYndKM1o?oc=5",
-        "date": "2026-09-18T12:27",
-        "source": "عكاظ",
-        "category": "政治"
-      },
-      {
-        "title": "イタリア国防相、サウジアラビアの基地への攻撃で自国の航空機が被害",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTm80T0JrNWNBNE1uSTBWRXA1S3dPQlZ3Wl9XbDhldGxBT0RMa1NldTRJVlctZkRyZmtudHdDT3RiVXVFbGZmOFJyRTMydy1Rc1BkQXR0bklrUTdWQ2drbm9MWk1ZTThLT3FoRnZ0LWk3NFM2UVg4b1JVX3Q0QUZFS3RSNUxvTE94cURLVHVKb1QxRnJqRTRSeDNsRGFpY1UyTDk2WVpDMzVDRmJKaHVnVjg0ODdxcEU0U3JmTDlOdDJrdjdFZVpaeEJUcw?oc=5",
-        "date": "2026-09-18T09:52",
-        "source": "CNN Arabic",
-        "category": "政治"
-      },
-      {
-        "title": "パキスタン、イランに対しイエメン・フーシ派の攻撃抑制を要求",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPM3QyZFlabTJZNGF4dmo5bHB3bnhQa1dLWU9GNlFicWFCcklWSXlHUy1DQ2ViTVNGWUdmbEtBU2xfcGZuRzVSNmpXNkZtdkM2cmpxbHdEMVk2M0VvWEZ2TkI2VzloeUpqVnpXMTBhWXViQ1Bva1Y4bVR1cW9RZUxJa3BKV2dWaWdxS042dFhrQWh0bktqblJucUVoSWllaDZaTExIZDhVMnVrV2Y1WjEyUzlnWXpnd3hvZ0d0cko1VdIBxAFBVV95cUxQeFBPQUk3Z2RWOG05LU1wWG1HbktjVkdodkZHQzc0LXJybF9wUE5fNXZ0RU9tUDNqTFFmVXE0TUdmT3RJRWtvbXNpQlRfZVYwdFdicXhrMGNFX2RCdUUtRFk2dmQ4cDBNV3hJeVJvcUpPTHk0bXdiYlBpSHdsSW1tTmYyTVlCaldlaU5NcjlTQ2xmWWdCMGU3d1lNNG0wRHduT1BFMkNpUS11MEg5TlVxdkdpZmlIWS1DZWljbHp3Y0w2eE1T?oc=5",
-        "date": "2026-09-18T09:01",
-        "source": "الجزيرة نت",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアへの武器売却を承認 米国務省、F35戦闘機を含む240億ドル規模の取引",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcXdqWE95Q1pqcXVkc2NoSnpXSXF6ellUZDBRSkRjRWF2Q25oWnEtSzFBOFNtLXpxSG1IdXp6Y0JhblMzcFVIYkZRS0lFbmJ0M0ZPSXpwNEIxNjQ5aklNaXlwOUFjRTFLc1lfSV9rMWVSd2dxZkhfTUxRRk1oY3NDejlpdVgxYWVoemVna2p2TW80ekpqSnpKU3l3Vkl5NU0tNnFteWJGaFJhYkJyU3RkaElhQkUzaWcxOVBBcnFGWnJkM2s?oc=5",
-        "date": "2026-09-18T04:57",
-        "source": "CNN Arabic",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア大使館、F-35購入は米国との戦略的パートナーシップの強化を示す",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLN1B6c2VMcWVHRXUzak5KWlB2STBqaXRjeWgtcW9WeVotNFFIeC1VbEVTMWl5NHhxblZFRHhWOW1uWERzV1ViVk14NlREYVg3bHfSAVRBVV95cUxPNF9PRmFDSDlDREJmSi1HcnpyUnF0emFfOE9Sby0xYS12T2xLYlppOEZFSUxLcklLVUllUFBPNEJMUVdUREthdnpxRnUtWHEzNF94M24?oc=5",
-        "date": "2026-09-18T01:42",
-        "source": "عكاظ",
-        "category": "政治"
-      },
-      {
-        "title": "イエメン：ユニセフが最近の紛争激化で5万7000人以上の子どもが避難したと報告",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mSWVjYmZKQ25zRVpHaVh2NFA0M2Z4VlFXaGVpQVRJcFEwd2lLUTMxeTZ5bkpBYVRPMEpORm1rbkoyQm15SmdsTkJ6NEtCUlpsY2R6bFpJVE1SQlpjbGfSAWNBVV95cUxNdEpOMU1lX1FQYXVsUm40cHZ1RkU5aGVwVXNsbnBDQm5BeDlVU0JkcUpodEtIMDRnNkNHd1JPcnVaTTlUMDU2MElXbF9XZF9fS3daQnVNZGlWZWo1TE9PTmRqTGc?oc=5",
-        "date": "2026-09-17T19:01",
-        "source": "bbc.com",
-        "category": "社会"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-09-18T17:34:47.957633+03:00",
+    "lastUpdated": "2026-09-18T21:45:07.210822+03:00",
     "items": [
       {
         "title": "フーシ派によるサウジ攻撃非難 パキスタン宗教政党が抗議デモ（AP通信）",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wT0taRmpSa1pXTFFhOV9VUnpMaDh3M1YyZm8xbFhPUHZHeUoydi1hRlFrV2JPcm9pYXZGUmY4T3h4ZXBwd2FHWXBtYnRSb2xJb29ra1BBVVIyemItMnMxYUFSYkhjTy11Y01EM2JFV2pLRjVBNzF6dUthd2pVMTQ?oc=5",
         "date": "2026-09-18T09:34",
-        "source": "Yahoo!ニュース",
+        "source": "news.yahoo.co.jp",
         "category": "政治"
       },
       {
         "title": "WRC、中東情勢の影響でサウジアラビア戦が中止に。2026年の最終戦はラリー・イタリア・サルディニアへ変更",
         "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPY0lTS0dsSzViNDNtOVdYckhTWEplVjIyb0s5cVVJZWl4c1pLY3YtRzJZZDl6VVpYWGJzLUxxVW5obGptX3VfNWQxTU9QUGRKWkZWZTJCTTAycVREcm9IVVhCMkVkaUI1VlE5aDlPVDBZUnJLTlZJWmY5VE1ORXZlTmVnRk9uMlp4aUpEeHJZMUpjYjVnR2tETFRzbDBQcTRSY3JEZWswX2hpaFJTSjRaaEdBSHRRWXlseXpySEJ1d2hxNmUzcUdvby15TlJCZ2twS3gtYXZn0gGGAUFVX3lxTE90QnhuQXh6anhORU83Sy1VbXN6dS1xMzVZU053WjFqeF8xdmRadWRuSUhkUmZQUFYtRml2S1dMS1MtOXBtZUNLT1VsXzdYWk1fNnZFcmJtdWc0Z2RUTXZiZmdqRGlLeVREbmF2TjY1ZlczUll1bVpOdGZ0dGg2ekdLTWhyMDNR?oc=5",
         "date": "2026-09-18T09:19",
-        "source": "ｄメニューニュース",
+        "source": "topics.smt.docomo.ne.jp",
         "category": "スポーツ"
       },
       {
         "title": "WRC最終戦サウジアラビアの中止が決定 中東情勢の混乱で今季は全13戦に短縮（中日スポーツ）",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKTVJwTHhmNXhQZ2ZDWTZKd2s4bW10X3RVc1EzV2lNby1mdFRfYWZSbnNtSVdtODhSLVFDTE9MYnU4TjBta3hsWDlQdUFtLTBGOW1KeHprbG5Sd2J6UkpJWmZtejhHTzJOOVpuQWRTRHJQLVhUWU9Jc3lKZDk4RHc?oc=5",
         "date": "2026-09-18T08:00",
-        "source": "Yahoo!ニュース",
+        "source": "news.yahoo.co.jp",
         "category": "スポーツ"
+      },
+      {
+        "title": "トランプ米政権、サウジにＦ３５売却承認 イスラエル以外で中東初",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fR2Fmbll1QTFNd05sN2tEVW5GdXUyMWZwdFBwTjdRbE94ZHZMODh4SmpqM3Z1b1ozLUNYVVNZZG1XWDBycVdJZ0pGR2pSS2tpZnN6ZG1SZFo3M2ZsdHJxRDQ4NA?oc=5",
+        "date": "2026-09-18T05:19",
+        "source": "時事ドットコム",
+        "category": "政治"
       },
       {
         "title": "米政府 サウジへの「Ｆ35戦闘機」48機の売却を承認 去年両国間で合意 今後議会で審査",
@@ -312,17 +319,24 @@
         "category": "経済"
       },
       {
+        "title": "サウジとフーシ派が攻撃応酬、戦闘激化でイエメン人10万人避難",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV3dMRzdOOWJLbWdhSVZpZ1VMd3B0R0ZiSjlVMmRSMUJ3S1FhNDlqTzhHbGw3TTB1VlBNMkx3UVJPWGlSTnNkTnl1ZjZIRG9oS2VfYTkxOWdrUWVLT1FfZ3hDX2dzOTVxREw3c2RkOG4ycWUxZklQaDJYb0VxUHZ3QjFRSlBVVW8?oc=5",
+        "date": "2026-09-17T23:56",
+        "source": "Reuters",
+        "category": "社会"
+      },
+      {
         "title": "トランプ政権 サウジアラビアにF35の売却承認 48機",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxb1VYTVBxV0d6aVNHOVpreWF1UlZOREtnS1BvWE5qWWNrSXJHbDctUzZoS0dfNmNuSU9GTVI0UnNDYnQtSGNGT184Qk85ZzVtMzE2YUlSWXptbW9lT09F?oc=5",
         "date": "2026-09-17T23:18",
-        "source": "NHKニュース",
+        "source": "news.web.nhk",
         "category": "政治"
       },
       {
         "title": "米国に裏切られたサウジ、中国製弾道ミサイルのカードを切る（中央日報日本語版）",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lZF9YT2YzbFh6V2x6Ym94WHlreHFnUkRiX2NlcUNBU2FZZzBvY29iR0dGVE5GaFN5aXFqd1FnT3B0b2VsbEZ6WHptMjZuT1I5MUdsbVBjYlhPTWVrQ2VoZ2lFVGhGNDVqTUJwaEtHNVIxUmp1cnRUNjZuNFE3cG8?oc=5",
         "date": "2026-09-17T21:48",
-        "source": "Yahoo!ニュース",
+        "source": "news.yahoo.co.jp",
         "category": "政治"
       },
       {
@@ -331,20 +345,6 @@
         "date": "2026-09-17T18:55",
         "source": "アラブニュース",
         "category": "政治"
-      },
-      {
-        "title": "国際自動車連盟、世界ラリー最終戦を変更　サウジアラビアからイタリアへ、中東情勢影響で",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vT3k1NDNpMnRwUE1fV2tDemlRMTdDOGp3c2hSNnJWdUgyWGt5ak5rc3k1a1lpSnVJS0JRVlZxZFpQTVVqdTVYNGd0bkNKYThPSlZWd3NqaHpoRHJIWWxKRENLVDExdXFvZGtUOHktWVl2Q3lLY2fSAYoBQVVfeXFMUElpQ2ZROEFQOWJSWlAwQkV3b0NEUlNNdWYxUHU5bmt4bmc5TUxHOHh6U194QlRvV0tRc2UxVmtsNkE0MmtNSU54TDI0XzREWGxQdVBpUkV1RTFpLWVXRGpmUjJiYXZ5NDJaXzRoa2kxZmFpTk92WVRUM3VORGFiSzZVSDJxWUU4WVdB?oc=5",
-        "date": "2026-09-17T15:56",
-        "source": "サンスポ",
-        "category": "スポーツ"
-      },
-      {
-        "title": "WRCサウジアラビアが開催断念。最終決戦の舞台は第13戦サルディニアに",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA5QXhxTjhBeW1lVzFQZFNWd0dFMk13VkxDU2tPMkcyeUVJOUZXTWZmcHBvUUVUVTdIREpJYm9pd1lRUjRSdkxV?oc=5",
-        "date": "2026-09-17T15:06",
-        "source": "ラリープラス",
-        "category": "スポーツ"
       }
     ]
   }
