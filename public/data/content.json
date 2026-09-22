@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-09-22T18:05:59.301781+03:00",
+  "lastCollected": "2026-09-22T22:24:00.395788+03:00",
   "security": {
-    "lastUpdated": "2026-09-22T18:05:59.301781+03:00",
+    "lastUpdated": "2026-09-22T22:24:00.395788+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,14 +39,14 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-09-22T18:05:59.301781+03:00",
+    "lastUpdated": "2026-09-22T22:24:00.395788+03:00",
     "items": [
       {
         "title": "令和9年度前期用教科書無償配布の申込みについて",
         "url": "https://www.ksa.emb-japan.go.jp/files/101086223.pdf",
         "date": "2026-09-13",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": false
       },
       {
@@ -94,7 +94,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": false
       },
       {
@@ -110,7 +110,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -118,20 +118,41 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": true
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-09-22T18:05:59.301781+03:00",
+    "lastUpdated": "2026-09-22T22:24:00.395788+03:00",
     "items": [
+      {
+        "title": "サウジアラビア初の電気自動車、850馬力でガルウィングドア搭載、個性的なデザイン",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOEF4WE9LbDV5VUg5S0d3YlR4RlduUjd2cHdoWU8xN0xMcGVyZzVkOG5OcjQwczRRcUlzdDBtbm5mMnBYQS1YUVNVaWxEYmQ1bjlDcjNxdTBKZmpqMEFzQ2pHODBabG43OGc5Rll2Z1htc2hkRlhPWWI0VDMyazJxbHd0cmNiVDhVWVdYVS1Yc3VVYmVwV1JzSg?oc=5",
+        "date": "2026-09-22T17:42",
+        "source": "Road & Track",
+        "category": "経済"
+      },
+      {
+        "title": "ジョタの叫び「人間らしくしろ」 ネベスへの警告がサウジアラビアに揺さぶり",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVTA4dHh4a2tDZU12c0pnUk9YMDI0R3ZHcGdmNDlzZ1d6eEN3NG8zalc2SG11VjM4S1J3eG9nSjVoZlJINktqcDFOd18zU3A3aFhORFZGUWpQdVc2czFzd1pmYjNFcEpuajEtcEtoQmY4ZFROWXVRZTdFM0hLY0R5eWpkTXFfU0RHYU9ZUHFVUTVmRjNHRjZPS3JES3RidUpDV3Jyb1I5VVRvUnNUdzRmU01jMElYMWc?oc=5",
+        "date": "2026-09-22T17:13",
+        "source": "The Guardian",
+        "category": "スポーツ"
+      },
       {
         "title": "フーシ派攻撃で サウジアラビアとイスラエルの安全保障協力が深化",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5FY1lDR3U5ZFJJdEdEVVl1dDNxOElMYm5UcmRtSnQtRTdvV2VtUnlHTzJHVm1vR01lY3k1WnpIOEhuam91VUZKZTdUQ21mM3pLdmpwelhVTQ?oc=5",
         "date": "2026-09-22T15:00",
         "source": "jpost.com",
         "category": "政治"
+      },
+      {
+        "title": "サウジアラビアの東西パイプライン計画、石油市場に波紋",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQR3Ywd1JaYWZkdmxzWGRDT3NONzlNWlhSRE1TTlYtWUptU25fd0NPaTlDSVNHX0tsTzJZTWtjbmYyQ3RpckhWMDg0dHRuNWtEWXFtcGVCZU00QjRKbDM1SlM5TDltcWhLUkF2ZTZCY200cUZqWDFLRHdKV3pvbXk2YXY3ekNTX0NKVkM5Y0d4WnVUUGlTUm1DOV9ZbGtXNTB6UHEzMEpMOHdQSmlabUFLbmxoSXRzd1lyNTFIVnJ3?oc=5",
+        "date": "2026-09-22T14:01",
+        "source": "WSJ",
+        "category": "経済"
       },
       {
         "title": "イエメン情勢、紅海の戦略的要衝巡る戦闘で最大169人が死亡",
@@ -141,13 +162,6 @@
         "category": "社会"
       },
       {
-        "title": "ジョタの叫びが警鐘に サウジアラビアに問われる姿勢",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVTA4dHh4a2tDZU12c0pnUk9YMDI0R3ZHcGdmNDlzZ1d6eEN3NG8zalc2SG11VjM4S1J3eG9nSjVoZlJINktqcDFOd18zU3A3aFhORFZGUWpQdVc2czFzd1pmYjNFcEpuajEtcEtoQmY4ZFROWXVRZTdFM0hLY0R5eWpkTXFfU0RHYU9ZUHFVUTVmRjNHRjZPS3JES3RidUpDV3Jyb1I5VVRvUnNUdzRmU01jMElYMWc?oc=5",
-        "date": "2026-09-22T13:19",
-        "source": "The Guardian",
-        "category": "スポーツ"
-      },
-      {
         "title": "サウジアラビア、東西油送管の運用を再開",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNmJidHFzNHlscWlnT2hsWFdKc1hNRFMxOWRnTTRQRHVHbV9tRTJySFJoOGFoZXdNdTIwMngxZlczRmY3dWJxWkNiWTRYclVyT0JoWXQyUHJpNThicmpUNDMwWjNqREdrYmw3Ty1peU9oaEtRdC1GWXE1S0o1eGlrWDZONDhqS0FDbWotZXV1LXBvTEhUWHdlT1BzYU5udjNKTTFXdk1hX0wwVk1yczRTdV94R0p4UUQ1bEViTXJ2S2pEaTVLTFlvdw?oc=5",
         "date": "2026-09-22T11:41",
@@ -155,7 +169,14 @@
         "category": "経済"
       },
       {
-        "title": "英国、フーシ派攻撃に対抗するサウジ戦闘機への給油支援を表明",
+        "title": "「MBSを忘れない」 フーシ派掃討に及び腰のトランプ大統領、サウジアラビアを不安に陥れる",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRkhYYVVnX011MUJMdXVjVHR1TnhoQXZlVFc1dVVaelgwUTZkUTJZS2lXSVVvUWpxTlhwOUlVaXZ1M3l1ajRzRGlhTzVsQlpOVzh0Ym9hdFZfdUVfZ05kUXNkTHE1NDMyQWQybTFBcG1haWQybjJxeGJHTHAzcVI0Z0Q3U3c?oc=5",
+        "date": "2026-09-22T11:00",
+        "source": "ft.com",
+        "category": "政治"
+      },
+      {
+        "title": "英国、フーシ派攻撃に対抗するサウジアラビアの戦闘機への給油を支援",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00N2Z5eWN2TURyRzQxSXJFYmQxSTZyMFRVcVhES28zUWtkcTBGZDdja0tXWkZUdHpyT1VpMHpxWFk1WXgzdWdWQVhPa0RtREpqcHhvejVSdEpCQ1U?oc=5",
         "date": "2026-09-22T08:53",
         "source": "BBC",
@@ -169,38 +190,59 @@
         "category": "経済"
       },
       {
-        "title": "中東情勢悪化を受けサウジアラビアが大型映画祭の開催を中止",
+        "title": "中東情勢の悪化を受け、サウジアラビアが映画祭の中止を決定",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS3VON0xVMHppa05oaHp5Q0NncFNnRUE5cGs1Nm5vLVdEUHNyS3NFeFFkYW1EY1V2SjFON2RYbThkOTdjLVk5b2J4XzFsaE5sUlNlbjRveG1LWEdjQTUxTmpLamktMUNwekVGQk5kMGMzTUJpaWszMF9CclJaQnFlRWptSXo5UVZZRndPM0JBVW5PelBKcXJoejhiTDVQODZ1OXdWWUt2S3ByNjdEeFlJa21Hcw?oc=5",
         "date": "2026-09-22T04:20",
         "source": "The Washington Post",
         "category": "文化"
-      },
-      {
-        "title": "サウジアラビア、電動車2モデルで自動車産業に参入 新ブランド「シール」を立ち上げ",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbzRpR3F4blJVU2gxVVIxcThLY2Y4aXNXWVY0bmdFYjdsZ3NJblMwdFlWMFZfYzR0TEU0X1p3aGFLRkJBWG5ocTdXeFZVbzY3c2pnQlA2X2RkOXJ1cWR2N2oyR2VJMEpnaFdaQlF2emM0cXdoOGo1MmpHSFNta0hjYmU1Nk4zRWxTMmdCZW1mOTIyalU1S1FKVXprUG9LY1k?oc=5",
-        "date": "2026-09-21T20:55",
-        "source": "Ars Technica",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、国連総会で国際支持を模索　二正面での対応に直面",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWejFXNUdDUlhMS0lwZWNZNUdpbl9EaU9RSTdwd3cxdlBUbWxseXJRTkNCQjlQSEw5SXQ3c3Vwa3dibEpJeGt0Y3hZeXJLVnIxT05tTS00Q3hlSkNT?oc=5",
-        "date": "2026-09-21T19:26",
-        "source": "The Jerusalem Post",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアの自動車メーカー「セイア」が初の電動車を発表",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONEZRQl82Z2hCejJQWFlHVjZQUEdTVEdqVmUxQ0l4ZjlPaTN5NkVpX3dzM0NXdXVBVFo0Y2pyZV9yTFdHdS1fNUpzQjNXVzVhVC05d0VSZDFNT3VtcEpKTllSQVJjcHpJZ0paOVl5YXNJSXU0UV9RcDRrLXZrVDZLYW5FNXJYNUhDbkFvN0pDeHFRcS1TeXBmZjdyN2NLd3JvM1BweDZjU2R4Nk1CYVcyeUIzN05vbkNWRFE?oc=5",
-        "date": "2026-09-21T18:12",
-        "source": "Reuters",
-        "category": "経済"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-09-22T18:05:59.301781+03:00",
+    "lastUpdated": "2026-09-22T22:24:00.395788+03:00",
     "items": [
+      {
+        "title": "サウジアラビア航空、10年の成果を祝い新しい企業アイデンティティを発表",
+        "url": "https://news.google.com/rss/articles/CBMi2wRBVV95cUxPVWxueHJoLWx4Tm1wWFZVMldYeEExSnp5bl8yVHdWZFBkVHlEeUtHU0VnVmNmWkd3TjQ4ejlIOGJNR1JsdVRnbFF6LTdVbVZhT2JpYkZ2UE1tcXJEVWdqaVZ6dnlGZExHY2gwVmtrWDdaTjducmtFeHNoamNjRWV0dFpYVWQ0NXFMcFhBVkVJTWphNno2bU1qaXNjR0k5Skg1bXB4NFRUZEFVcWREVmZCUlpQSnMtNjU2QUVDelI2UEwzSkY3ZXZMMDZ0aXFrdGlIZ25aT3FQbFVEVEp0Ykxjakd3WXlQeklpcjBDcVRLRlVPUE1vZ2tReHBTb2JPZTA2OWNkcVlDNTF5SXl4RHEwUzAwdjdHMVpwZkQyejBYb3k5dWppWjFmWnZIZkw4WUFpcUhBZG5oN3NVZ2VvMXdtTEZab3V4cVE2Q09Hb3A2UDFWMjZNS0ZSTkp5UFd5NU01NTRpZ2ZMNlB0bkFLU2NjNWpYX1d0OG85eGFobndHb1ZaOWNLSHpsR21lWWZPRzlLcm45NWplczlCNHpDSW41VDVXU0FSQzdVc3RtU3BPX0tqWVV4cUM0emVrNEVwb2tUNHltZVBkRVhfaGJUTVdmWkRuZk5Yckg0VEhWaVdHWm0xR0JpMC13M3R3N2EwN1VEM1VNbzk0cDFMUDRyZy1wU2xjaVVueWE3NDZscnVUNFFSbHBJQzNIRFljRGZ3WlFBT0UzOEZ2WDZQVHpwS3BuRkw5TVFhZnJHWjZGWkxvaUdLUlpua2s2RkZUTXR0ZkZCODU2RTNsdDFtM3M?oc=5",
+        "date": "2026-09-22T19:20",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア鉄道とアルストム、貨物輸送サービスの効率化で長期パートナーシップを強化",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tWjg0dnBmUGRDb3JNNWhyZU9ZNkdMb0liMk1BQzAyZkRWdGl5MHJobXFLUEJNeWhYTm1TWGV0ejRxaml2dm5DTVRCYk0xTk1kXzFNdmp4Yzg5MW5WN2VpOXpuRnR4bC12bnc?oc=5",
+        "date": "2026-09-22T18:30",
+        "source": "تاسي",
+        "category": "経済"
+      },
+      {
+        "title": "湾岸杯27大会が開幕、サウジとクウェートのダービーマッチが注目集める　イラクはオマーンと対戦",
+        "url": "https://news.google.com/rss/articles/CBMiiwVBVV95cUxNYmhjRHk1ODBEb2d3QUVSMXd6RkE1SE4yQkMyd1JnRmxYQU9WSFFKNUlzVVhwQmhhU2FWalFfd1Q0anJCUUFXYWFLaklWSDVUWENIenA1S0g4VlVrREc4d3NTR0lHYzNrbjF2S2Z2dmhydnd2NUxDSlU0Z1V2T0UyQXdKaUF1MldVVWVzRDJfMGlSejBESFBzMkpBQzdqVWlLY0Z0Z1haWUlDQTg4V2lkd2lERlZGRGdrOUFxdDNnZENKU1lsYW04UG5OX0xaLUlRUDBQaHFqRkl0eUZlWVJMbnB2M25KY3hOcjJyZFZfSjRSMHMzNXRRQk02ZDN5R08tZ3BuYVNsNUs1WjQtTWFvaE9zNHB5ZEZZSUlUckNGb2JYeG1aa1VScXdDS095NmJiWjhmYm9TaW9HNThUc00wLXJkRTY1STRINnh5X0ZySmtzZlplaXdIc2ZhamxZVVdaWWFZaE5qM1daWHpLTFRIRWt0S3U1RkdLZ3BhYVZtZmRoejBzb2xRYmpqMk1oLTJEUnpGT2huQWFoUll0cFRudHhEVjRnQldtWndzSjBJMkY3dDVHTFpMTDhfeXI2dHA5bXBoY0kyVnRSNVhEaVBxY2IxSDF4UWlrY3JOcnJMWUtocGpMMTBlV1AwVmJjbmx0azBJSEdOd3BfZGFGOVVaYkpCR2h1RmRTSUpTLVdDQ3FFQkxvVThTZTdyRzF2MF9jZlBoUlUxZXh6YnVfWGszTjFTOHpCbm0tREJUdEk1QUlxR0VjcWx5VGxhYldEOEMxYWkxSUxOeHpQT1YySXpOWTBIQ1U5U08xLURSTThrOC1SUWNEaWZabk9ZWS1uaWF2dzJ0dUNrUEItYm8?oc=5",
+        "date": "2026-09-22T17:52",
+        "source": "الشرق الأوسط",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビアが首位 湾岸諸国選手権の各代表チームの時価総額",
+        "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPV2o0VWZtcjZ0dkYxNTZpNEFleUxMbXQwM2NYYktWY0RtelJZcTljUlFQTWItWnZOaUNPVFRuRzlJQy1BNElrMnYtaWZqSk5OWm5JeFVvazI1NEx1dW40c1FnSTNmOEhCcU82WHVoUHFEWE5WZjBNMkZSWjlCelNpbGpvaFJlNFhiZ255S0ducEMxM2JLOE5FVFJLZEYybXdjZ0w4bnRWekdpZXZzQmxSOE1aUnVFRFZBaGdZajJkU3ZYOG9PVmU2VXZFYjZBcDVjZHQ5SFNZTGM3REJLOXdtSXZjcUtPUHIzRnU3aDhLWmx0N0ZrWHNHNW41QkVFN2R4eTBxU05MU0s5MnlTSGstT3JfZUs2VXltSVdzQkx3VW5QcjdodjJLVDFR0gGvAkFVX3lxTE5RV2czd0JQWTFYQ09sbWNWTEVtTmhWVXpUT0xxejQzdVIxN21pTzFJN2NTTUU4SFk4SklseHA4SXExSnNwNXJzYklGSVU2aDd0aEFFaHZ0U2twc19qd0FyclR4bzBiYUxaQ2pXWEJOU1B2QXdKU2tZYjZkZ242ZGp0SkVkWUc4VE5ydFNRdWFYOGxtMlB3UFBWcWhvbktJVGdzSUJpOTZ0bXdpWTVZTXA1R25XcGE5Y0cxQWZUc2loRmJhVnd0bGYycWVSR1lZLVRfaTFZOFNNdzc4dmFTTVVIM1l5SnhzSlZXcDBFMFVnckJicExzcHc4WG0tNlNVOEUyYmFPeXZ6NE1nTm1vLTJGQ3owdmNLTVdyOEJDVHd6dVF5UDJtZWtUS2M3c2hIYw?oc=5",
+        "date": "2026-09-22T17:16",
+        "source": "الجزيرة نت",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビア、アルストム社と契約 北部貨物列車の性能向上へ",
+        "url": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxNUktwa1NVcGdYYllhY19hOXFMOUFEbUpGY0Nic193MzBFZkZwZXk1SlpIODlNUGNBTXd2dmZ2QVpTY3BDWkNYNm1MMTFDTm1xUEJSVnBGOTR1bDhuVlhiMzRROXFHN1h3NE5EQUF6S1RxVEtNOFh3czRZRTE2eGg3NUlmaFRJRUJZQ1dOVEZnX1l2MnpTRDQ5ZVlMVmhRazl1c0owQ1RleXBiUkRoYXhUWnh4OVIydERCcVZhSGt1MndMa0o0bG1QSXY0ZGcyZE5OY1FIekZwMF9fRXZIX1NqSEFrdWo4NU9QamNLY2tjbnlSMVlxRUl1SnVLR3Rzcmk1eFZhSWN2VGkwRlBSMTVuVC1SQUdwT2J5YkFWS3lQYTdWVzBBSUxheHVRUThrSURtODFITXJaMDFfUzliRVZBVEFrbXdCdERJcDRPX2preUVfWGZUTmFkME01X2lZd3ZvZ2xKTzhrbi1VS0VUT0hCaGNnd2VOS1VzR19FZ0dWalhtZUxRQnRHVzkxMTBNM1NmdXZNOFU5SnZhWVAya2tpVHlGRUd6bk9TZkFHb0xPbGlxdGpVQ2ZISnJtN2JWUzR6eGl4ZGxyY0pUTUNyM0pOSjVMWUk1YjBtWWNaQTFKeVo1STlZclVnczZSc1RzaHZFLTdsdDQ2NDZPZUFpanc?oc=5",
+        "date": "2026-09-22T15:34",
+        "source": "الشرق الأوسط",
+        "category": "経済"
+      },
+      {
+        "title": "アルストム、サウジアラビア鉄道公社と貨物輸送で連携強化",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9pUXRjdTdhcWNsYnBYY3VoeVRSbktYUWhONk5reWlDdEVvTEZPSmRvSkdsWGg2SnNBR1A5eWJuYlA2RFRaVzJN?oc=5",
+        "date": "2026-09-22T15:23",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "経済"
+      },
       {
         "title": "米国務長官、サウジアラビアとの防衛協定を堅持すると表明",
         "url": "https://news.google.com/rss/articles/CBMiwwRBVV95cUxNYVhmXzZVN0pPLWY4QXB2X1Bfb0ppZS1RNWNDc3lKRTBhS2c5UTJWZVZuZktWQnFKeHBUTEhPd0FzLWstMGxucWZES1pMYkRMelF3UjdiN0NxbWM5TThhczR4ekd0N2VlcDZrVHRkSjlPTVh3Y01PS2FaWjR1SWtZb3pDQ2RMdEpEV2xoSW1PR3N2VmU3Wkl3NDBKM1NRNmdETDBIcmdXVk1oQUJ5eloyNE9CRFR5WGs3WGM0WnhzVDBjN3lXOGZ6Nm1JMXplbzZFMFVmRm5QY25lSEVhRHN1X2xtRnBabDIxeWRiY2Y1UU14UzR4bURCQ3ROV3M3Tm9HOXFCSzAxZUdrQ2xySHRRYVljZHJwTUwyNEFCV2djbWhMVmUzZTkxWEd1MHVpZGpTTmkyVE5FRzVoeWZidjNuOVE2NzJIYmRFa2VISUNhZVI1LWZJVXhpQmlDS1VJeTdLS2QtaV8tTEstZ01zNlE0UGRrX05XNUgzT3duUTZyYWp6Q3RueC1XbUdPQ3R3NmRRNnJ5XzhJbVRncW4wYXQzWW1JVHVWZDBlWXVLRmtLVFFxQlZxc3U2QWFTVVI4T0pwai1Vbkt6OWdIWFNhTUhRdkRWYmMzdjB3ZkpJWFFvQXcxZGt2d2NGNlhLMHJwQUR6aFdaQW5qbDh5Z2QzSjQ2Zl9pYWppTlFKYnJibFF4eWNsV1NqNXdCblRLU0x1Nk85alplcl8yTF9DdnM5TElDdzBqTXEwS2locUVKRVhYMmhlaTjSAcgEQVVfeXFMUDhsRmVZQTZzSGZXb1FrUkdsTUpEWWxMU3lVSjNmTEJKSTJLdTNENUdJUmNyaTZFU29DMklEX0JBNDRndk03M2JrQTNaWlNwV1NDek5nV3VJeUxSNmFzc19kSHpkd3AwcnpGd1N1WGd3V2d3S3JFZl9jcmJJbUFfSjFoemVpR0ZpSEoyeTFjX0hQZmk2ekFPSTN4TWE0amxVREpmVExmU25NUUJTYUZ6c1gwLXBZNmt2RGhTTVpGM1ROQ3c3SXYzbmk5YXpfYWlUbW9VdDl6LVF2VjFhUi1XV0pVNkdKRXk4SG4tR3JqVE5hemN0Ni1QYWRaN29sOThQbDdEZ0J0d0lvRnZTZlBYbUVzb2VGeGpVN0paXzRMUDZpOGVxc0ZSb2pJU3gxWWNvQUNabWl2WVNGWThCOGFBMXNFM3FDVjMxRkRKdk9ZeXYydGlxbi16M0hfNDJXUnY0WDY0bXZfbjd3YzZZWUQ0bDFnWncxUUs3Rm9MVUI3UFQ0M1RHc0RCTlJSQi1fMmFaM19Ha1A4U0N5Zk0zREJlanRUREpSY2VyWHpGSjBWanNsY2ZiSGMzM0FSdzBJanRoNDhIYm4wT0NrMXRLSF9qTUZmZjdXUEFyaG1qOHZMNnBnWDRHQzFUQVU4R3JrMGxJbFV1NEVVOHd3S1FpUzVsdGhJZmZ6dU5EdWdnYUdJck04bFRNem5uX3BfWVBRbFpmeFZTU2JUVndEQVNHWWRrYUNrRFBzNVBIV3NGbG5oNXp6RUtDcVdOSXg?oc=5",
@@ -228,53 +270,11 @@
         "date": "2026-09-22T13:22",
         "source": "صحيفة سبق الإلكترونية",
         "category": "経済"
-      },
-      {
-        "title": "湾岸ダービー、スター選手の登竜門に",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QYXBJOFRwQUJUSjhNODlPRGlObHpmbDkwWW8yRTA4cmFrcGFLMEZoWTJfcUs0R0lYd2IybnFHVW50SzhpMG8xT3ZiY2dVdVB5b2dYbGVn0gFUQVVfeXFMUGtQcFFBbGVZYnJNLUNYWWh6OWRrWjhWdlBNVmZZa3JCaXFOMXFHMU92Tk1Wb1B0d2JtQ2NrelloQTFlMlVldFZnS1RpN1lWT2JoTHVw?oc=5",
-        "date": "2026-09-22T13:12",
-        "source": "عكاظ",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビアでの歴史的対戦　アルグリーンとクウェイト、膠着状態を打破へ",
-        "url": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxQZ0NRenY3Q0RROTZwckZqdklzMXdtRGQ5dDdPNkVvVlF0amx3OG1DRENvVVplNDZmekdyX3YzR3I3WVBjcXEyVUFYWWNlN3pZNjRucHZoNUVtWFJNOHNhZmctRE8wWE80Sjd3WjRIVW9xZHpGcnlfWlhVQlQyMDc1MlFYWWVyTkZ3VV9qLTM5ZHhiX2ZkQmdDTnl3c2JOalRPTkdVZlJtcHA5bmlRTE5hM01SNlp4N0J6VVRaOHp5bjNrQVVRVldRRE1COF9ZU2V5Zm8waEtQZ3JGYjFJeXRxQTVHQWJDY0Rva1gweXRGcXhJZno3UlNSeTBJM0d1NlBrSlJDWmNPZ2FuUG9CUWNFLUlobk1zU281MlpXNVh1WUQwajBsVXBtbHItRFhYNlBvZEE5RXVEbEFjcTdUaC1zMzJyZGp4ZDRWcjJvS1ExcEo1QnpMMzFFYjU0b2Z4WUhNOW95b0tJYWFQbTVtVDhnOVYxTkhma1IzQXBGV2JCQVZEUDA3LXRoRVV0V2xYakg4NFdNckF5VFRvVjB3QzhxVW1vcllSVVVSeDdic0Fyd1JaSzFwTFZJMzQzcF8zeTFpZGlJNjlBeC0tQWhoaHNvQ1dSRGI2aFXSAdwDQVVfeXFMT1NVNnVJWUJYR0N5aDRkNGJlQlRCRm5qSjJBSVNZTjVUY0MzeDVyWGNkTXU4TjBzamNGMXRzMzdOdC1ZUndyZnNpV1RKSmFSbG40azc3bzhqX3hOMXprVWp3WlRnNk1hVTZic1hKcnlnRTRjQTFac2xiLXhaU2taOUJFaGNFWHVDRXhBa0dfMmY2SVFVQ00tVGpwckU2WUl6R3BxZnhlU3Z5LUVFTDVUV0xGWEsxcGZrSmJpdmtteThzWTZnbGtGQ2tWb01la1o2ZGtMMS1xSDNyS0JyTGozN21heWdoVWNELTRhdGdaLTR2ZUZHb3FyZjY3QVFmNTlMcm9DV3FHdFFJNjhGRGlORFVxX00xdFVzZWxMRmU1ck5VVXdVcmd4bGxiaHNZSGd2aXRmSHZvVzFtNHhXTnIzS2EySy1PUjVqWU5PVkhWZEtwSkdKM1ZDTi0wYlNrQlFOZG1IWHRSZFBiUGdGeXg2RVhDanJrLTlKcHNFYzdFbnVWMkk3alYtRG9OTHNITDhoUkROQlpoa3I3Rll0M0RNMDVRUWFMYl9Qb1dicGRKTVZ5WXVRVVZ5NjFFQlRqN1Nvd3ZEcW9OT2otUlJveER4UGdXMUUwaXk2MVo4dXc?oc=5",
-        "date": "2026-09-22T11:57",
-        "source": "العربية",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア証券取引所、アディスの資本金を100%増加することを承認",
-        "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxPZk5LTUtnN3FuRFd2WGVqMmxsMEh4MkNLY3JmbUQ5anZybEozLUNzSi1hZEYtUjZnaWJFVHBBOF9ZMlJyRjJYYVJTNzh0cGxXSnRWbjFsRGszVG82cUdFNmZnYjl3dTk2ZzZqSnVUZlpUMGhPN0J1TjRuS2ZkNWNTSWZXRWJublZWaGpzOFc1SjZYZlJ2WFg3TGhTZl9Ha2VPdjRPaUwwYVRyeURFY0Fvc2ZOQ1FDWlFabVFDUVZoelRrZ0VzMjNjTHhhcEI2UUhqRDhEcXZfODBHYjZuWG82ZDNiTUZZa2JBdjRVbnAwSGJwSzlobnFEcGdycHNOS1VaRF9PNUE3aGpoTEljUnc4Z3N1emdmVVRya0FTV0ROT2Y4RmJwYzYwQWVqblJCbEozYjlPWmxKRC0zQ2VxeVhrWGNHVi1PMmVKNlp5VFFFc1Zlb29CVlVQdUpUcnh2anc0NjM1cHYxMWtFNXZEdHFDVV82ODdRSXpyWDVDQ0xNWmRqVnFWZXJCTFJPelhIZVBrMkNQcEh1bFBfSVNTZmhXOHVhU2VFdFhiTC1GMHQxdVVsTUQ2MHFKNmRJWkJrSVJyYlZtRzl1OWh5dmJhdVpFTEk3WlNXUlQ5Ty1YVVhHTVZlQQ?oc=5",
-        "date": "2026-09-22T09:52",
-        "source": "الاقتصادية",
-        "category": "経済"
-      },
-      {
-        "title": "湾岸カップ27大会：サウジアラビアが悲願の優勝へ、カタールとUAEは雪辱を狙う、戦火の中のイエメンも躍進を目指す",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GTWVTZkhMUG5QNWVUOGVKWFFpVUVOclJXUUtGR0tmVW92YUdqaThFckk4bGY2ZEtRdUJvcXpnWEZZc2taZ25wYVY0UnNNQ25SUGo3Vm1GRlJrdVRDWnfSAWNBVV95cUxOdDBvTWlQNndFLVVnVnhjOE0xTkRkNEJaaDZ2U2pkNjI3azZjUWVETEFSRng1ekgxZFFpSHBXOUZUVXI0WHhBRFlNeHlFTDVDTjFzeFhRdGJMbW1CQ2ljMnBwR2M?oc=5",
-        "date": "2026-09-22T07:05",
-        "source": "BBC",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア初の自動運転タクシー、運用開始",
-        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxOM3hKOHFfaG03amR5OERlMExEcFlzemRfT0Y0SFUwMWlacllSRzBjYnVCYV9Gd2xmUnFyUFZzZmVEMFA0el84cTg0eGlkLTVWbzl1N3pQcF9iS3V4dHVUT3l1NGVoZ183TE1hTUdsMnlHN2stdTRTR0lRRzFoQnVrbjZSSWdPdk84SmEwX3VQOHNVTzlBSTlOMEktQ3dHVENlNGFzblRfYXU1QTY2NUgyaTNKREVWRWFvVTJFeHN0YnhpcS0xRU55VUM3eU05UnZmODY1YjltZEhKZGI5ZVI0OEJ4dHN6YXM4OTVaUnBTbDBxRUQ2anpOWEgtaGtmVGlVcEVFeTVrQnJablBUVVpaTTcyQU15VFZnQ1JfN1RHZDczRXN0TGdJVGQ3N0tZMmhJMEEyRkFUOGhqYkFiYWU0a2hCbWNCWTdvVEQxVnhfb0Z6YmtQZ1E?oc=5",
-        "date": "2026-09-21T19:48",
-        "source": "الشرق بلومبرغ",
-        "category": "経済"
-      },
-      {
-        "title": "建国記念日を迎えたサウジアラビア、未来への道を歩む",
-        "url": "https://news.google.com/rss/articles/CBMihANBVV95cUxNZFIzMVE2UHlUUlEwcVdRLXhNYldRMUt4dUJmT2JHR1hLR3VhSmV2cFVteVdMaHpRQ0dIeWtBYkxULXdRM3Rkd1pmVkJlYkoyUENaSEFEQy1JalJQTlp1ZXFNUnd6TExfY0txeGVheEpVcEZYcFA0TTJodTNha0Z3OGpJR244Nk91ejd4anhSb0ZQNGRlb0R1c1pZSzFLVktrcDcwMjVxdGwwQlZjc0t6ZVpUN1ZlNk5lcEs5bDN6R2loYmdXQ3FiWVRFckRRN0FYSlpHZE91cERVbXJxSmxld3htcnhpV29CZFFsV3lFVmpoVzZ1NFNsRWRKUW4tTGVaM0NtSllnU09ONmtrUXZ6ZjU4NkIyLTV4TGY1d0oxamhXNlducHRfTkNqelNmQWFKeXdicDBBYy1sQ2lBOFdIUm5PM3ZaZFp6ZWYxbXZER2N0RzN0VEVqVkNuUVdMU3NVM2NwRTd3dlh3M3VLbm1RaFRrWkF2VlZpeW1aLVlrMVJsd2Fu?oc=5",
-        "date": "2026-09-21T19:43",
-        "source": "صحيفة المدينة",
-        "category": "政治"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-09-22T18:05:59.301781+03:00",
+    "lastUpdated": "2026-09-22T22:24:00.395788+03:00",
     "items": [
       {
         "title": "中東で“2番目”のステルス戦闘機保有国が誕生か？ 米国が売却手続きを開始“空の勢力図”変わる？",
@@ -288,6 +288,27 @@
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vdlFZcS1YQ2VTaEhkcXBXSnRhLWtWR0QtNmV5bDRCQ1c5WFpjaW5OTDFLVWotb0I2dWhBbWRRdENlaVFQeHZ0ZWx5VFNHTVpQdUthSnAxMA?oc=5",
         "date": "2026-09-22T12:15",
         "source": "西日本新聞me",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、石油輸出再開へ 紅海沿いの拠点ヤンブーから",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FTldRTUNsaENBeHlhTGxNX3haSmE0MklTR3hBV0J5Qjd2V090MFRQTXJZUHhWdEpRQmZUOUczMk5MNmQ0MEhUa2Q0SlR5ZkZwQ1JCWUZ3?oc=5",
+        "date": "2026-09-22T11:48",
+        "source": "西日本新聞me",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、石油輸出再開へ 紅海沿いの拠点ヤンブーから | | 全国のニュース",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kN0wteHJVYjRnLXJMOFlLVGt6a245WlN3UDlWTUFaSk55bzg1V1lYWW1yZWtJczQyWWd0TnREQkpDU3B1UGxLNXFSM2M3cVQyQnZxdzBn?oc=5",
+        "date": "2026-09-22T11:48",
+        "source": "saga-s.co.jp",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、石油輸出再開へ 紅海沿いの拠点ヤンブーから（共同通信）",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjWE5Cem9GMWEtMWVZbEZUVmU2eVEzQXVTcUljLTNsYVhTOEhBUHlRWTM0U3dxc3ZIWE4tN3lObWI2Vk9peGRSX1hOSzhiMUJrRUVGSEYzalhLb0RDM3QwdndVbEpnTDZlRy1hSDgxVXJRNGJCdklNZ2Y0RmtuOVU?oc=5",
+        "date": "2026-09-22T11:47",
+        "source": "Yahoo!ニュース",
         "category": "経済"
       },
       {
@@ -312,38 +333,17 @@
         "category": "スポーツ"
       },
       {
+        "title": "堂安律 サウジアラビア移籍拒否の真相明かす「自分の中では全部整理した」ＳＮＳでの批判には苦言も (2026年9月22日掲載)",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuVzQtaXBxQzl0RmxjRGJVMF92blJVd19JS3hhMGtNUjRHRUtuVVgzcXVlemswRmVyWnBKenI1S09ldFYxbmtOdFZXZkIwbWJFdm5jcVllNmV0Y2NxVWc?oc=5",
+        "date": "2026-09-22T10:08",
+        "source": "news.livedoor.com",
+        "category": "スポーツ"
+      },
+      {
         "title": "新型シアー エクソボット セダン登場！ サウジアラビア初の高級車が斬新だ！──GQ新着カー",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTWRsTVBKcFNwYU1QVmQ3T3JrZWh5RXBQYWVaeV9Wb2J1U2ExMEdDdTVlS3VreXhSZVJ4d2ZFYXBYOWdOYzRMWEs4NUp4TmI1azhTakVXZHVlYS1VOXFyY1J1UnRWd1I1UmNPZm9hOXhpRkFwdWZvX2JpamdwajVnYVRXY1kxMXc?oc=5",
         "date": "2026-09-22T04:52",
-        "source": "gqjapan.jp",
-        "category": "文化"
-      },
-      {
-        "title": "サウジアラビアの自動車ブランドは、最初のクルマをどうデザインしたのか",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1EODJraldmWlMtRGdHdnRJUm9LRGFlYWtWTkZJMDJMVXhucWQ5X0ZQOGtQc29hVDFSdldWUEdKX2lkbFduYlNrUFpFNm9udw?oc=5",
-        "date": "2026-09-22T03:20",
-        "source": "Motor Fan",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビアはデータとAIのリーダーシップを強化、人類のための責任ある利用を推進",
-        "url": "https://news.google.com/rss/articles/CBMiowRBVV95cUxOSjJGeFVtMDNLMmR0TkNIX2FlQWpMVVdkRnIwMVRFcXVrUkV6MkpqdVYzUXdsbVhQUHlpOXkyd0ZPZUhxQUFpdmtfTHhPdUVOVXo2V0preG1qcXF4RVNIaUVwSmN5R2VkT0JNb21TcWJ5VzNKUlB4cDlPVk5oODl2ZW5QOUdnRFVEZWJIYU1oUFN5R2w0aEU3YUFSaUxvUjVjVkpmaWU5T3J0amMxbF80MFBfSnJBd3ZFR29MbXVYYTI0ai1fWXNHcHdMOGc3aEhUaG1jbzdSR1ltUUV0N0k3dm5FWXMwdENRUUVaUDE0SncwZUs3Q2hhVHUzNW1kTktCaHBodERZckIwQjFEMUJmYnhCQXJRZ0ZkY0dnMkg4V0dZbUJTT04xdTVnSDQ0TE4xcVJzUWg0a3NKZWhnQlBZcS1iazBEOEc5QWVuN0QtLUNlUnFUY09Ia3RqMFBieGV4UFBJYmlSQlFPWUpCTlhSRnhOS3VfYXZrOGpnUzdUajBIenlHeWxnR2lvYlJKRldYT2c5NklteDRKbXJOUVFfWWxFV09QZC1nZXAtdXhIRV9vVks2M0lGOTNHb1hISlJKNzVoRzJ1LW1LemNHZ3RxQTd4TGZIY0ktY21PWFJuMUpXcTNxRl9MWm9GYy13VjdSRkhQTkZDNTFuUDM1N1dlTEEzTjd6S0l4UVJHTmNlUjE0ak1CS1d0T0RvaUVTenJRX2ln?oc=5",
-        "date": "2026-09-21T15:49",
-        "source": "アラブニュース",
-        "category": "経済"
-      },
-      {
-        "title": "米がフーシ派への攻撃検討も延期か 標的のサウジアラビアが再び軍事行動を要請も…",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94Y29iOURma0ZzQWhFbmZKM240djR0SnhRYlRmNXhTM1FYSVJlS1FQMzNsSHRReWFoY3diYTZNQTBTT0JDT25JVGJXSlhtME5WZnpVUXRjZ29BSjNza1QyVUt6TnBrbTZfM25hcDVCblhVMGJfNm5zXzVR?oc=5",
-        "date": "2026-09-21T15:22",
-        "source": "テレ朝NEWS",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアの紅海国際映画祭、2027年に延期",
-        "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPV1MweXVZNFJkU05VY2Zyd2V1UEpNa3VrSWs1M1p0bVlsT1oyQ3RpSS0taVcwekFMdG5XMUpLakpxbWJFMWJUeWhpT21kaVJKQUdlWjJJSTJSU0lhdEVxZk9IWXl6NndPX25ldFZheDFLYWt1eEV5QU1qUy1NMkhnWi1rR0xyeXJSTURwc1hEQ3VGWEMwbjRqZFB6SGxQcFVaV1JfcklReE12VE9pTDRaYU4xQ280endrVEVrVEZNS050RTNWZXR6cnlkbkFYYTdTYks4dWJaVFdmbUhmMV9vNnRscGtoNnZtSGZrWkhrSm5WcUxNUmhTS1dDUmVLQktfRTVSYlhva3YtVVM4cll6V282R1RBOTg2WVRDRTJ5MDZPS0dfVTQxcGtNTmh0NHFJYVU0dFlfa2xCek9aTWg4MWRn?oc=5",
-        "date": "2026-09-21T15:12",
-        "source": "アラブニュース",
+        "source": "GQ Japan",
         "category": "文化"
       }
     ]
