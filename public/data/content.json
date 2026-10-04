@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-10-04T18:26:55.250319+03:00",
+  "lastCollected": "2026-10-04T21:53:37.009408+03:00",
   "security": {
-    "lastUpdated": "2026-10-04T18:26:55.250319+03:00",
+    "lastUpdated": "2026-10-04T21:53:37.009408+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-10-04T18:26:55.250319+03:00",
+    "lastUpdated": "2026-10-04T21:53:37.009408+03:00",
     "items": [
       {
         "title": "令和9年度前期用教科書無償配布の申込みについて",
@@ -94,7 +94,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": false
       },
       {
@@ -110,7 +110,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "社会",
         "is_safety": true
       },
       {
@@ -118,19 +118,54 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": true
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-10-04T18:26:55.250319+03:00",
+    "lastUpdated": "2026-10-04T21:53:37.009408+03:00",
     "items": [
       {
-        "title": "イラン・米国情勢 最新情報：テヘラン、米国の条件受け入れまでホルムズ海峡の封鎖継続を警告",
+        "title": "イラン・米国情勢 最新情報：テヘラン、米国が条件を受け入れるまでホルムズ海峡の封鎖継続を警告",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMU5iaURRWm5Id3NwWTFrR2VBWWpWbW0ycFVqYXUtbC1FT1NwZ2pQU3VwR0k3eVE2UjMyb2p2bm05dUNWZC1GWklzT2UteU1CYUdVM3BfQ1pFb2xBa181UldkbDRqWTBLYk1VQ3VsOGRHX21OS0dhQ091amZuYk14M1F1MjAzQlZSNFVUbEsxWnNXOEJyVjh0aGdZYWJJTVJ4ZFAycXU2OEpfcFNxRWJr?oc=5",
-        "date": "2026-10-04T14:52",
+        "date": "2026-10-04T17:52",
         "source": "The Independent",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、2034年ワールドカップの主要スタジアム計画を撤回",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQXzVJYll6THJjX21RWi1FLWlzMHpzeHhtVm54VEZnTDQ3QW1Wc256cV9CMDdybkRRcWRuVkN3NTNwYzVuTDdrV2RoQ2dmMU9ockVWOXRBU2ppcmZEcDFvUlAwdkNOYXhFTk9ia0F5ZzR4d3REYURSX0pScmxwVzJmTGZPQ0h0NERSWkE2YXAxZ0E0bDJ3WjNQTlkxMFQyRm9TTkNTbC1tMkxHRUJF?oc=5",
+        "date": "2026-10-04T17:27",
+        "source": "goal.com",
+        "category": "スポーツ"
+      },
+      {
+        "title": "イラン、サウジ石油輸送路を遮断するためイエメンへの攻撃を強化",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYmVKWndBODRhaE5XZEE5d2lieHRxSVExQjhxRGJKWGhEaFJQWkJfU09DSUdkWmNsNGxnbEVneWxtcUNxc05adUZLb0JaMVcyMmpjd1VRUWpuQWZWM3doYm1Jb0dBQkN3OG9oc2UtbFBKd21sZDdzWnVmckJIVlNIRUJRR1BBaVlYaWIxdF9YR0Rrbmg4?oc=5",
+        "date": "2026-10-04T17:12",
+        "source": "National Post",
+        "category": "政治"
+      },
+      {
+        "title": "サウジ主導連合、フーシ派によるリヤド攻撃の主張を「根拠のない」と否定",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR2UxTng5TmFXNVZNcHBNT3BOVHlLN0djMkJJUHhQa19lV1hjTWw0a2ZzaXBiWDlfam5XOTRzdTZqd3NVYzAxU0xXc0htOEI5M0hYSENiM1RkNzFxaDJzRWJSQTZJLU83MVJOakhRVG9KN0ZCR3M5TU9MT3RvaWdXNEJVa0VvbktwLXdiYlFQVWVRNVZJMjlYUmtDUDhOU2Zs0gGmAUFVX3lxTE0wTjlFb1FMSXBZS21QVGNvUE9JTXY4cUhONEtxWnNQR0FTUVBpdVpzMTd4VzhucWxWejNUTzU2N2ZDbWVNZldfS1VQT05ETDl1ZjU2cDU2TUlueXgtUk9Dd1o2NGF2VEQtNnM2Y05xVWxCQUxQVGJDRnM0c3gzd3g2MzlZcnk1cTk2ZFpPeWxNd1V2cXp5SUk3UFYxZjZGMVY3UGx6UFE?oc=5",
+        "date": "2026-10-04T16:59",
+        "source": "Al Jazeera",
+        "category": "政治"
+      },
+      {
+        "title": "バイデン政権の中東担当高官、ハマス・イラン・サウジアラビア情勢を語る 米国がイスラエルへの強硬措置を検討した経緯",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ld3o4d2RuWGlVUG5scXB4d3AxRkVkTTdWMVUwN3VHU1Y3VVhQcmtySUtsUnVDZ1BFM25GTXY3akxCQzRSZnFxZ0I2dmw5YmxpX0xQTFplMjVxOVBXU191Yk5UZ0hIOE9tamdqZElDSTRvcEZ4cnk4YjVtTmE?oc=5",
+        "date": "2026-10-04T16:25",
+        "source": "CBS News",
+        "category": "政治"
+      },
+      {
+        "title": "イエメン情勢の緊迫化 フーシ派がサウジアラムコへの攻撃を表明",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdC1jenhXS0RLMXFaaTNaUTVsTVJrcDNLdDZKLVR6SWVYOEdRNWdqRjktRktWSEFRTG1DbEhYd3ZvSGpGd1ZtTEVNNDdMd09SQ3pXdHJMMXlodWVQRjlySVBpNXVlTlRZUDVDdlpjTk12TEw4WVhUaU9rODlnV3RRVUR1OE1UVlJVUjlKa0NNV2MzN2dQUldvUzFn?oc=5",
+        "date": "2026-10-04T16:03",
+        "source": "The New York Times",
         "category": "政治"
       },
       {
@@ -155,52 +190,59 @@
         "category": "政治"
       },
       {
-        "title": "サウジ主導の連合軍、フーシ派の「リヤド攻撃」主張を否定",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR2UxTng5TmFXNVZNcHBNT3BOVHlLN0djMkJJUHhQa19lV1hjTWw0a2ZzaXBiWDlfam5XOTRzdTZqd3NVYzAxU0xXc0htOEI5M0hYSENiM1RkNzFxaDJzRWJSQTZJLU83MVJOakhRVG9KN0ZCR3M5TU9MT3RvaWdXNEJVa0VvbktwLXdiYlFQVWVRNVZJMjlYUmtDUDhOU2Zs0gGmAUFVX3lxTE0wTjlFb1FMSXBZS21QVGNvUE9JTXY4cUhONEtxWnNQR0FTUVBpdVpzMTd4VzhucWxWejNUTzU2N2ZDbWVNZldfS1VQT05ETDl1ZjU2cDU2TUlueXgtUk9Dd1o2NGF2VEQtNnM2Y05xVWxCQUxQVGJDRnM0c3gzd3g2MzlZcnk1cTk2ZFpPeWxNd1V2cXp5SUk3UFYxZjZGMVY3UGx6UFE?oc=5",
-        "date": "2026-10-04T13:52",
-        "source": "Al Jazeera",
-        "category": "その他"
-      },
-      {
         "title": "イエメン情勢が緊迫 フーシ派とサウジアラビアの攻撃応酬が拡大",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObzJGMWR0VkJNQU9pTm5GRWt4alIxdHlpSFhfQk1VM244aWliTlh5dTJ5QWxyVWpSVW11OGRhN3VndnZneUJOcVNGa0VmekxvbmN1MTd3cEk5aVJMSllfdU53WEl4SzJiOUIwd2VMQ2JneWIzekd2ckk5NXRIT3lSa0tlNFoxWU1hcnpHTlBMVnBTYlZGWmc1X0hvcmJoZWZTcjdwcncyNjZPLVV6NHptSFVZbHFzd19MME5jak1kLWxpYXht?oc=5",
         "date": "2026-10-04T09:30",
         "source": "CNN",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビア との国交正常化がイスラエル情勢に影響か",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE43RWFEQ05mRTM5M1E5dVBRWHVBdDBYMWxDeFdVYlpYMXFNQ0JONUVuSmJPNkV2NjNvTG12UDlTQ2pmUVBsUXVKUjhIaUdkeXJua3pzX05nQQ?oc=5",
-        "date": "2026-10-04T05:54",
-        "source": "The Jerusalem Post",
-        "category": "政治"
-      },
-      {
-        "title": "イラン・米国情勢 最新情報：サウジ大型製油所付近で火災、ホルムズ海峡でタンカー被弾",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVlhlZUxvS1UtSVVmQmtnTG5zMjV4WHppRWFuY1BaUVJpWnNiTlJKNFdEeFpHeG05M3k0bWdEb3FVWHNyQWtpYXl6OHM2NGRubTRIMm1aQ2Zzb1JzQlN4RE15M3dRdDBiNXkycnkxaGhNdl9vclFBSjFWb1FEVE9XblpxN3NUNEQwREVMUmN1aDJJLWJJZ2x4a3VvUDVmUGZ3X3Y5VnhaWG50bHlf?oc=5",
-        "date": "2026-10-03T18:35",
-        "source": "The Independent",
-        "category": "政治"
-      },
-      {
-        "title": "フーシ派、サウジアラビアがサヌアへの空爆を26回実施したと発表",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS1RyeVJuTXYyMWgxcVo5SjBNYkl1cUxRMXJXX2VuRnhuc3NqajZrLXJ0bTNlYXliNjQ3N3BrcGhjdXM0LVUyNFp5TVJXb2k0VUJnRThINm9SNXQ0Y1FSN0FrNnFrZ2t6Y0N4ZDZsOTlnR3NWMV9PTGN2U3JtSl9Rc0h1Z0Q4d2JUdzRSNGkwUlVPZ0c5aWl6Mjd0aVNXWk5aQ2dxUHd5MW8?oc=5",
-        "date": "2026-10-03T14:43",
-        "source": "The Times of Israel",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、フーシ派対抗で欧州に軍事支援を要請",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSUlUNHdESXlYUjYwa2pTV1lmSi1XV2hJald1dUtBVnVFbTloOEFPeXJ6TU91bm5lX1BnVVdxc19wcVJTWEE1WEZGZktYbUM0UkRkNUg2Zk1HRjFkZ3F1b2xYTmhwVHI5ektrRHAzRU5GVjU5UFo5VHNvbUdpNUZRN0VDdzRzSkFYNmpxQmJxbk1oY0VXdElPam84ZHp3RVQzVW1leDhVMHpiU3Y3UGw4MlZ2elJlRk3SAbYBQVVfeXFMTjBpdkoyZjNOS2ZVZ0VpVkU5YU96eXBkT0oxN2lXX2VLS2FsNHk5aTB6eVRaZGRVaWxCS0hhU2NEV29XZklQNXV6ZmZDMnVmV2E2MkNPVFZzTWdyNW9ZWmVtYW1VRTYtbnUzajJFeVZVWEpXLVd0R3RhX014eW1LR2xZMHBaVkl1aEV5bUZ3WFJvVzNyRHNJdnNQaUN4RXZIb0QtcGs1MTVHTDA2YUc2aDBwd2QxTUE?oc=5",
-        "date": "2026-10-03T13:40",
-        "source": "Українські Національні Новини (УНН)",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-10-04T18:26:55.250319+03:00",
+    "lastUpdated": "2026-10-04T21:53:37.009408+03:00",
     "items": [
+      {
+        "title": "湾岸選手権決勝：サウジアラビア対UAE、緑組の4度目の優勝か白組の3度目か",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxbXBodGJ4OU5rT3JTRFdQRzZpaV91cWNscEt5QndPdGt1OUt3ZGZBM3Jod1YwaExSOTJCb1EzS0V3dzMwWXdPNkhaR0FfeFpQb0JiN1FxQTZTREw5MFHSAWNBVV95cUxNakhJelJJYlI0YnRWb3FSNkRQQ0N0TGt2eXJwMkFpWHEzUWp6NGNVQS1WR3BaN190MzRna0Z6TTVmLVRMNl9MLVR1cEZlOWo2eHdiWmlKM3NGQ2YyRnBQbTlHb0U?oc=5",
+        "date": "2026-10-04T18:45",
+        "source": "BBC",
+        "category": "スポーツ"
+      },
+      {
+        "title": "フェドル・シャキルが14年ぶりに復帰 リヤド・シーズンで10月22日にコンサート開催",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHcmxWVjVnOV91RVZDR0VrZ1Y3bVRCemsybklpeVRIUDlrRTM0cWlsVlZyd3pBTjJMSmxSUE1fZzg0LTBoY2FEWnhzMDBuQ0JhUUphQWZtS2ttLUNvZGfSAWNBVV95cUxQampLcjk3NWxHYUFpcTdDTGtqOExGajdNQzR2SjVMTTd3WklFaWk1MmUxUm84RV9McGs5Y2RvaUFCajRyazM0RWhVLUxBSG9fZV9zaFhTRk5JMHlyd3Y0bUhoQkk?oc=5",
+        "date": "2026-10-04T18:25",
+        "source": "BBC",
+        "category": "文化"
+      },
+      {
+        "title": "サウジアラビア航空、優秀職員賞をアル・サウブ氏に授与",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByMWhLRFZWR3Rkd3FtQ1dvSzR0QWJpcE5oOWF2MnNxMDVPdGFWU3ZsTWRQaDdocFpDd000bEZSRDItYnQwUHZ2cDJ4cmp1VnV6TzVYVGhRa0dUb1FNMjlnZ0lB0gFUQVVfeXFMUHB1amNKdHhDcXFzT2R4bjNRZ3pRMU1PTFN2cGdZdHpDOTdZZjVDVEFKVW1BWmtjeEhqc2hQcXNwYzFtalFPa3hOTEd2LTEtSGpfRzRU?oc=5",
+        "date": "2026-10-04T17:44",
+        "source": "عكاظ",
+        "category": "経済"
+      },
+      {
+        "title": "湾岸選手権27決勝控え、アラブ首長国連邦協会が緊急決定",
+        "url": "https://news.google.com/rss/articles/CBMiggVBVV95cUxOdW4wRlhtbklfT05WMFN5NEtNczR5bndOSDBwUkdBbVUzSWV0ZTdYSTVXWE4yUWNyNUl5NzdZdjFTVXRCTzNGMGZXa2pGNEpoQ0draUhRZmtzVWR2RUVBUUJwTERqX3pGeHVLN2ZyQkVpcXB1dHBfbXRCUElaLUNEVVdnejRFY0ZkYmV2X3k0UTl5U2JRajkzR1A5eEtqdGZxc21IWGQxQWhOdjBsZkpQcWpRZEQxeGdjRjI3dTVhTTZHaXZGOE9CbzhqcmRIZ0pYVlVhelBQNmNzLTB2SFYxQzFVM2ZWVEU4dkNCd05WMGs3VERUbDhjYm5Za0dMQldhQlViMHpqeVBJYmpOazFaT3lDWEhpQXhyWEJDVVhaV29VSlR0WEFQcWtHWHVxemUyMVBCbTRNbkhPSWZ0OFBjcVp4R3NQczNvaUV1WklQT0xYZHBXTTh1djhwQ0dEbU5Tck9wRnRScUR3NERDTzNnUWEyMVlOZ2tZRllvaE9aUUtVbG5nTUJwUXdlWHF3WFlhZ1YzWXgzbS1WWWhOSWhiMVppbWVyRF92djVsZDFHWWdHSG00cFhiRUxJcURnMjZrYTNDZUdhdUxpMGJpZ0lDdmx5Q1U4c3hlMmpMUnFHLXZad1hGaFFPRUh0YlJ3VVJsalZMWlFuZHlRX2VlVGE5MHRYSE5vN2JybUs1TWxXRjhMRTRHLTVHMG5hTEZueWtKa2htRkUxVHhYR3NxUGJJZFBUMFZIM0l1ajJabnlObXBVOXRuQTgzMC1WTTMwOHRMdUlFTG9DbHFSOThhTF9iMi1jdHBVdXRkU3d1SUhLZzkzTHQ5eG9saVozZllVT2JUcEE?oc=5",
+        "date": "2026-10-04T17:37",
+        "source": "Kooora",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビア金融監督庁、外国人の株式保有に関し規制当局と協議",
+        "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxQajN4bzNKTVBTLXZIMEdORl85NFF4YmlTWUtSRnNyOHpXT1htN2Y0aFlmNlRqN0pJeUJCYXlwUkk0VGN6cEtkaGRib0lOaG83TDhpUVlFTjN1OEtjMW1tdjQyZ3B6ZmZkYThQZldPdWQ3ejE5ZXl3a3FiNEFoUWN1OHRsaXVzb2J2WjFiVnIxckZPYmpMdjB6R3FTOWx4VTZ2bnZENnlWMUFkNllRamdVRE1pMEpheW41ZFRzX1o2OUtFeHF1ZXVPY2Z6ZnpWQ1phRzYycXVuZFE0SkxrREI0VWxyYTNfcklmTUYxdURwV0VlQWVDZlMzVVJBbXRTT3hLcy1ibnZMRTZac0RKclRKNWM0Y29Gdm8zbVpoSFVWQjVmZzJXY2Z1MWVGZXRUUGJxeGY2UmFlekNnY0luWGN1N2VlVzNBVDExYjlMdHNFUzFBX09teGxZZG1CZDZnMGdpaFNyWVBqSG5JM25JM3hldUlBbS10bXBDZHNaSXZYdlhRM19vS0kxV3o0VWlud1p0MjJrZUhiZ1F5TXNwVVFfQUpqdEl2Z01GalNtci1XXzVGZ0RjU2dncDVyWjM1bHVSaDlpYm42QmJQOWlZQWlQTGowWDVwR1Vla3hHX2x3?oc=5",
+        "date": "2026-10-04T17:27",
+        "source": "asharqbusiness.com",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア、イエメンの財政支援に6000万ドルを拠出",
+        "url": "https://news.google.com/rss/articles/CBMisARBVV95cUxPSnlrQnVUdnhaVVpNRkQtUjRzS0pIMWFzb3Z1SG5hOGlBa2g4YnZCX0taOXNVX0xzN001MHNvNFFVV2FybzBBanppbDJlNXlDTXo5WEtBX2lDWnVJVW1WdVRVRzJMN3pZRjRzZXZncmZycVF4YTU4NTB0LXBWcGxtYjAzOHg3UVpIRE1ZYXJteWJCUW5rOUh4ZG9vdUhoM1VubmIwTjNHYVQ1NXVtYktIZnlOT1R4QVc5b1lfTlkxZE5lck1LU3VsNHRhLWJPUVUyTzVqX2NXdW5ueEJEMHBrXy1laDNpSU9WQ3R3Z0RyaGJFeUk5UTlFOHBCemMyaGl1YUkwR3Z3RHJxelI4SHRRYlNuMDNRQ2ZLemJIT0QwUW03VzRYMVZnVXk1TGVOQzRmcmQ5NDdQOFFhcTNSVnhzZVhOdXd5YXptSEVnUl9MNVpPSXA4TXZ6d2diLXExSnJsSTBoOUI0bXZaeWluNmg1SVUzSlVnVlZvTG9Dd01ZeWpNNF9INnZ3Ni0xWWI4SGo5Z0ZPYTZ5a2wyOWFtU3hEYUwwLTE1UVR3bV9sS25DbnNZelZXWjlYSnJIcU11dEJiOG1uRHpvV1FKamk5R0RCV2dKWGR0THU4d19Vc293V3BseWw3cWw1YnNURk9sbHZZUXJIUTFVZnVnd3N1ZVFzcmVKUjF6N0RnbXBrcno2RS1vYkZTazZyM3pKNWdNamt3RVpVWXFoLTFlaDFCT1dONw?oc=5",
+        "date": "2026-10-04T17:14",
+        "source": "Anadolu Ajansı",
+        "category": "政治"
+      },
       {
         "title": "サウジアラムコと提携するトゥワイク・アカデミー、6つのインタラクティブゾーンと23のサイバーセキュリティチャレンジを備えた「مدار」イベントを開催",
         "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9lamplOENHb1BFbHhZSG9BSkI5MUUtNWFXVy05T0JxenI3aWF3NW5zUlN2Z19XVERoenNoSDdlZkg1YmlRZE9nMmJn?oc=5",
@@ -216,10 +258,10 @@
         "category": "スポーツ"
       },
       {
-        "title": "サウジアラビア株価指数、112.87ポイント上昇し10505ポイントを突破",
+        "title": "サウジアラビア株価指数が112.87ポイント上昇、10505ポイントを突破",
         "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9JRWNWa2xva3F5dnlXMEhaOHpRcWgxYWFadGV0c2lhTEJvLW1uUjI1UzJNS2MyZ29uSTBJUldIUkx5T0ptUFB3?oc=5",
         "date": "2026-10-04T13:22",
-        "source": "sabq.org",
+        "source": "صحيفة سبق الإلكترونية",
         "category": "経済"
       },
       {
@@ -228,53 +270,11 @@
         "date": "2026-10-04T13:08",
         "source": "alarabiya.net",
         "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、予算削減方針の中でエンタメ賞授式を中止",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbndjRV8xbGdGZUphbTB5WmJFcThjMjBmUFY5S3RUNHF3QUpubllyMmVtV01MYXFtZE1WM08xZkJtVUtKcC1GZW5wR0JuUnJfYy00am01dEQ1WGhGWUowUTNnWVhoQm5zVzRSYkI0VW1xRzBpT3oxTWg1d2VwTXI4bURob0NxZw?oc=5",
-        "date": "2026-10-04T13:01",
-        "source": "reuters.com",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、フーシ派への大規模攻撃に向け準備 米国は作戦難航時の参加も検討",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQckViQzlRZllON2l6elZydlNwcUhNeko0N25Hd1lHS2NueS1WTnRfekdnSVJNZmJFbkZod0xPZ3pkS2hyaVM0bXNabWMzZzRQTVVac3VxbkRRbGl3bHpXcENVUEM2bmNSMndaYVJaT3p3RmhQazk1SENlbldNME5LMTljS0x4RmNrZ1FEaEtZMUVlRWFNV1ptTUpiTQ?oc=5",
-        "date": "2026-10-04T09:19",
-        "source": "Euronews.com",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア株式市場、新たな注文システム導入で初日1.4%上昇",
-        "url": "https://news.google.com/rss/articles/CBMiuwRBVV95cUxPOHlLcDRUaXkzVGZBTUVjeldmUHNQcFhVbnozRzdLWkxSNExpa2RhNE5zQXh3a01CcXhWcWhpaGZkUThHdUs5WlNCTmRrUWdNZzNWQnFqTkFwYm9oLVJObGZfX2lha3k3TUN5a1JoT3BOWE84Z3gzTFY2ZmNrN0J4dkNXREdoMGZRdU1WR29yTGhnTDk3QTU0Wmo5RkFNdGNaYmEtTVVBTHRtSnVCQmVZck52ckpjOVFacjRIRlZaSXowckxaclkyMGRoWFRhTmVkb0ZmWlpQdWx2dUdQNFU5MDk4Uzk2Q2laa0NidU1jYVowRFhQUm8xWmFtdG9rZGJyb2JGaUlhRG1tbElFeDJpbW5mMWVHbW5aZmVSMldtcU9sRnVJaFYyZHhqV1ZYTFNBU21iNnVSZFJzcGhfbEhlb0V6UktmQU9pcXUxLWQydUVwZWlRS1RvUE9wVGl3TzRpa0p2YkotaU9oYmJVX09wY1JuMkNfVTczN3IxZnhDckRMVmgxZG93SWcyZVRIbU45WlFKN203d1ItSVlVRHpoOW00UEU1YVNKWU9vZE9DZEZFWFhfZ2NEV3BaOUROWWhWZ2p6ODhOdnotcGNiYVhQeTRHTVZ2cjlJb2JSNWpVWHlnR2VYODkxd3h2S0JsdU1CX3VvT1I1V193cUtXLWlDSXhGenZnM2ZkbXVsSjJqdWRVb1ZrU0R0OVBtVUFES1M2b1pCMHdQd0dyZW0yOXItS3NMLWhzWUJ6Y2I0?oc=5",
-        "date": "2026-10-04T08:46",
-        "source": "الشرق الأوسط",
-        "category": "経済"
-      },
-      {
-        "title": "第27回湾岸協力会議杯決勝戦 サウジアラビア対アラブ首長国連邦の試合日程と放映予定",
-        "url": "https://news.google.com/rss/articles/CBMi8AZBVV95cUxPVnJWcURETklhMUswNURPVEU0T2VRSmUtNlhDM3dLZlVvU0F4WHFnYzBHcVRQS2sxYThYZWVrWGRPR0hRdXRMM3ZESm5wNW01ZWlmZHVHZFA3LWJ6dFRYTzhhcS1LRi1GRFQ5a0NoWTQ4WVZScUdpT3IxRTBQYk5HQzhScmRkY0FycnZKWlJnYlktYmRYYWI3UWpsT3BmcmVIeEhkdmJrTmZmQktKOE0tckdpSURCTHdKUUdJNWViYVZmLTZDVXpsM0FEd1l0anJSNFg3YlNUdnV6Umk3ekhBdmNtTFFBdjBrMzMyS0c3MjVNNnZqaDRraUlMQ21wSXdUZTlkVVljaXl2c3JjYUdkME10U1piMFlMblB6b0xreHNqblhUSVl2SDJLZTBjN201X19GVFB3dXphbGNnMDgzV3pONkRPdl9MczNqcGtmVzhmN1p4YWZHZ09kN3pLUGxvVUJsbm5QQTkwbmp4VkFOaHJyZEs4bmN0a1JKbWZrMVByR05hVjQ1TTBzcWltdDFWa0dDRnNtaXFBenpqc2s3cEhnM0FERHlFUjVuWEdDS0ZKNDVkc2ZSVGV3R082U09xbE5VZUhXSlVWT2VGeWU3Ny1IOGc0ZERwaUZ3VmZhUkF0Z2lDRDI1LUlHbG5KSDZueVd5Y2F5Y3R0bi1GS0Z2Q3A3ZmIwV3NiTFBPRDc1WUd3bUJkVGctcm05NVF6MHpzRVdmZlotWXl1SzQ0WkRxTHdjSllWamNpeVlQR0dVcEFEdndHelNHVWoxX0FuNG5CWmhQMEc2cTNjQldLN1RIUzc1bFFMZGloLXVKMVpyY09GQ0p3Qy00c0xHT2ZFX3gwaWRFcXQ5MERoMklNSUVHaW5IT3puekZyZlEyeVBZTUExaHFKQ3pWVmFuYWJTME9PZzAzb2MwdDdiODgxSmFjQ3U4VGxIZ3NLX1pGcTBNLXV5RWFySTVENG0yOG8tMDZJY1AzQlY0Vjd5eUZqRWNqRGdRSVhtUTRLblQyWlhhbzg2dnFUeThDVGNFVUtRVDZBcnlFM1JFUlExRzd6Q0hRRXREV3Rac0NxbVNYdDItRGlEcnoydDV3eHdJLV9ScHlVRGxkQXdEb1diT2NfbFFvaGhtY2JfSTdDR0xmcnhJaEMxZzh0T0xKSlJhYVlXYkdt?oc=5",
-        "date": "2026-10-03T21:45",
-        "source": "Kooora",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビアがカタールを破る　湾岸選手権27の決勝相手は",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOF9xdEdQa0JPV1NzX2JOV3hqU2FoVUpubWhyZU9nV0xZc0d4cFZTMlNUUms1U19sTGxhODd0TnY0VGdNSkgzUmdGQUpGdUpjdlZ3ZlZySnFsN3ZjR1lOaHhaaWczNDVZQlRWQnByODVxMDVGVWlaM1hEVFhUR19rbEZCaGJEeFJu?oc=5",
-        "date": "2026-10-03T19:18",
-        "source": "CNN Arabic",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア、ローマの森林会議で乾燥地域の環境保全における指導的役割をアピール",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0wZGhvcDVqNGJLWkZXY2tWMFl2eldHWExrLVlaVXdkNkhPZ0V2ZHN0SGM4RkVNbTN1STNFWHJFOU9oNmM2Nnc?oc=5",
-        "date": "2026-10-03T18:24",
-        "source": "عاجل",
-        "category": "その他"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-10-04T18:26:55.250319+03:00",
+    "lastUpdated": "2026-10-04T21:53:37.009408+03:00",
     "items": [
       {
         "title": "サウジアラビア、2034年ワールドカップのスタジアムの至宝計画を撤回",
@@ -301,7 +301,7 @@
         "title": "【サウジアラビアRC 展望】完成度高いフィリオソラーレ 注目フライトライン産駒デミアンが迫る",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pLTdIVWZEY3M2Q0pEOUJHZkdUZDNDa2lqTmt6R2x3bXgxSmVRaF9oY3NMOE5fODhKdFNCdDJoY1RlNEpJLXZVMVI2X0dkOE1zRk0wb2hYS2xLN2cwZzhr?oc=5",
         "date": "2026-10-04T09:54",
-        "source": "netkeiba",
+        "source": "news.netkeiba.com",
         "category": "スポーツ"
       },
       {
@@ -312,11 +312,25 @@
         "category": "経済"
       },
       {
+        "title": "【サウジアラビアRC】フライトライン産駒デミアンや“出世レース”制したフィリオソラーレなど12頭が登録",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNejNIZEV3Z0xjZ3NVX09JREpZZEtfQUFueFhXbVNZeUxBeFJGUWpVdTNjNVktbWFNN2ZmUHVuTkZSUHdKcGx4NUdIcFAtWTF4YUR5WVRhdGMtWl9CR1NaSC1jWGFSOFpLcHNFQTR3RF9QeGxwTWJvczR6UkxnOVJlb1lWTTRvcDA?oc=5",
+        "date": "2026-10-04T08:22",
+        "source": "サンスポ",
+        "category": "スポーツ"
+      },
+      {
         "title": "サウジアラビアが850馬力のEVスーパーカー「Ceer Exobot（シアー エクソボット）」で攻勢開始 自国ブランドのクルマづくりへ",
         "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5tY2haQlFzN2NOdUs2bnYxYVRoWDVkeTZldnVCS1pyTDFHZmpRY0Y5cEk0a3h6ZE9RZElqVzNvbw?oc=5",
         "date": "2026-10-04T05:02",
         "source": "autobild.jp",
         "category": "経済"
+      },
+      {
+        "title": "フーシ派がリヤド近郊の石油施設を攻撃、サウジはイエメン首都を空爆か",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE80cE9ZcURobzc3UUtMYnhacmhWS000cGtGbEF6VHBlNHQtOWZSOFRjVl9UTmlDZk1mMlkxa2NMdEZvVjdFNUhUcWpyLTdiM0RN?oc=5",
+        "date": "2026-10-04T02:44",
+        "source": "Yahoo!ニュース",
+        "category": "政治"
       },
       {
         "title": "サウジアラビアに緊急着陸した旅客機のインド人機長スミット氏（イスラエル外務省提供・AP＝共同） - 「祈り」要求後に機長襲撃 イスラエル便の副操縦士 - 写真・画像(1/1)",
@@ -331,20 +345,6 @@
         "date": "2026-10-03T20:44",
         "source": "山陽新聞",
         "category": "社会"
-      },
-      {
-        "title": "過激思想に傾倒、飛行禁止処分か イスラエル行き副操縦士",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5sUWNISXpla2hOVDEyWFZwQ016RTFnUHN3ajN4dko4Zk9PWnFrMHRsd3pPeVNkN2JSR3JrMVRiNVB1ekJMemZBUEdicU5RSHF1bUE?oc=5",
-        "date": "2026-10-03T00:54",
-        "source": "山陽新聞",
-        "category": "社会"
-      },
-      {
-        "title": "サウジ、数週間以内の攻勢計画か フーシ派「封鎖」に対抗―イエメン",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9JRHZTVkdpZnlabUkzODNPSnJ1bTg3QjA2ak5QMDA3T19CNUNjdGZxUWNUZWNWZWhjYjE3bDl6OTlENWtzUXdVZlhoYXExalNyal9YUlpiRDJRN2lsRUFtMllwWQ?oc=5",
-        "date": "2026-10-02T21:38",
-        "source": "時事ドットコム",
-        "category": "政治"
       }
     ]
   }
