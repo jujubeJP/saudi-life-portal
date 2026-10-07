@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-10-07T20:29:21.455606+03:00",
+  "lastCollected": "2026-10-07T23:54:14.017833+03:00",
   "security": {
-    "lastUpdated": "2026-10-07T20:29:21.455606+03:00",
+    "lastUpdated": "2026-10-07T23:54:14.017833+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -39,7 +39,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-10-07T20:29:21.455606+03:00",
+    "lastUpdated": "2026-10-07T23:54:14.017833+03:00",
     "items": [
       {
         "title": "令和9年度前期用教科書無償配布の申込みについて",
@@ -118,14 +118,49 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "その他",
         "is_safety": true
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-10-07T20:29:21.455606+03:00",
+    "lastUpdated": "2026-10-07T23:54:14.017833+03:00",
     "items": [
+      {
+        "title": "シリア、イエメンへの派兵検討 フーシ派掃討作戦で",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9pNlVSTXlnWDZXQVZ4NUJWbWtqWFJoLWpYY2g0OHNzdk9JREFrcTVJMmJuTlRoYzFFb1NuZzRnU1h6T0lIaDQ5QUpDVFpSMk1JZF9Gd2JDUmdIdjA0MnowYUllOUdmX2ZTNHVCRHVUV2VLSW9zZHEzcVU4ek0?oc=5",
+        "date": "2026-10-07T19:45",
+        "source": "Axios",
+        "category": "政治"
+      },
+      {
+        "title": "イラン支援のフーシ派、サウジアラビアへの最近の攻撃を表明",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LSjREcTJfWmNaUE9vWTRCemdfUEczUDF4ekxCNmxtamxmNkQ5TmxOUHN4ME9zVkM0MjAtSTk0WE9KemVMbDFDYTZvdjlQb0ExSy1PSFlR?oc=5",
+        "date": "2026-10-07T19:32",
+        "source": "Fox News",
+        "category": "政治"
+      },
+      {
+        "title": "連邦控訴裁判所、サウジアラビアの同時多発テロ訴訟終結申し立てに対する判断を明かさず",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT0FsQkZFTS1XY1BKYUNUdWRTdkcxWWdpcE8yYjRQMzYtR2trSExWWlBKNDdlVEN0OUlpaGUwODZXYzItS0FxRzBSUFJFb2w4RlBUSUZBbHY3S3FzNUNxRk9JUF9WeHVwYW9rYlhibFBRTnNHb2pjelpjNURmZGFfbnRzZ2lySlJzblJpXzNvTUhrRWJr?oc=5",
+        "date": "2026-10-07T19:30",
+        "source": "AP News",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアの空港襲撃で3人死亡 フーシ派が犯行声明",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSUpvM0tkSFpDT2ZLRGFMcjJjVHdTcHFEc19valhyWEVFanpGWTNRa3hxVkRnRVpMY1BEendVZXRyS2lmSUd6NERTUWl1Q0ZtWU5NMGFfalhWS3M0MVFzTjNrSVJ6ZDBCc3FuR2FJcW1kWnc1amZZZGlkMkRzUlhpTUxVdXRUenR1Wndfd1EwcVNtSXBvVUk1ajJVUlBMUjJF?oc=5",
+        "date": "2026-10-07T19:00",
+        "source": "AP News",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア、フライドバイ機事故の安全調査に着手",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYjBULXpYUldRcnZ0TUJ2bXJSUFlkNkdQSHdoT3YtX1RUVWZNb2NYdlI0OF9seXUwMU5CbFRtTnkxeXRuRUNaV01yQlBHZE5HS2pGZDJPMlVxalpacXpxOUVjZDhpc3hYTURMUDBBV0tEMFdNX0I3RS1naEVsOHVjTTB2S0cwM1owQklJVVlrblFGeXpVelE4SmotNGFxYmZyMFpuNXhSaHNFOVl3MGFrckpvb3RDakFOMnh1SnlSaTZYZnRYWUE?oc=5",
+        "date": "2026-10-07T18:12",
+        "source": "Reuters",
+        "category": "社会"
+      },
       {
         "title": "9.11遺族がサウジアラビアを提訴 最新情報：政府が責任回避する中、100人が法廷に殺到",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS2JwWE9BdURJbWZJclQ1OG50SXUzOXFRUUVrNmZhc1EtejEtbXVDdERwU2w1TEFhZkxXY3ozRGJKRW1OWEE2M2w5NE1NcklUODVudy1JN2xFQlRhTmx6X3k5X056OTRBRVpOaDdEREZGazBCR0ZuRl8zUEk1NVJLdHBaUFM0VjJUSDhwMWV6Qlo5Z3gyNU1lQ1hLWkg1TTZncmJqbVVWMVE0SUhLcHc?oc=5",
@@ -134,21 +169,21 @@
         "category": "政治"
       },
       {
-        "title": "サウジアラビア、フライドバイ機襲撃事件を独自調査へ",
+        "title": "サウジアラビア、フライドバイ便への攻撃事案を独自調査へ",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRlRVbHh5U1dKODJwSGtTMlI0R25iX1lFVEp6aFZYT2NfOXR0UUx6Zk1HeEFuM0l5STdaWTVjSC1mTnM3djYzMWZoWUhLM0lYQmRJbGR6c1JrSkJrUUhXZnRZanp1LW1JbmhSb1ZiQlA5dVdTbG94VExkU1UtajV0eHlhVU9ycGpRTHZBWklXbVd3V0JYUWpVSGxFVjJmLXNzNU9BLVRlbTlaWTZCVmdfQ2J6aTk0SFVPU29KMDhn?oc=5",
         "date": "2026-10-07T15:44",
         "source": "The Times of Israel",
         "category": "社会"
       },
       {
-        "title": "サウジアラビア、フライドバイ事故の航空安全調査を開始",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYjBULXpYUldRcnZ0TUJ2bXJSUFlkNkdQSHdoT3YtX1RUVWZNb2NYdlI0OF9seXUwMU5CbFRtTnkxeXRuRUNaV01yQlBHZE5HS2pGZDJPMlVxalpacXpxOUVjZDhpc3hYTURMUDBBV0tEMFdNX0I3RS1naEVsOHVjTTB2S0cwM1owQklJVVlrblFGeXpVelE4SmotNGFxYmZyMFpuNXhSaHNFOVl3MGFrckpvb3RDakFOMnh1SnlSaTZYZnRYWUE?oc=5",
-        "date": "2026-10-07T15:42",
-        "source": "Reuters",
-        "category": "社会"
+        "title": "9月11日テロ遺族、サウジアラビア関与の可能性を示す文書公開を求める",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObXIzREJxOVFqNklsWE9USmExVjA2Y0VyTXZnSEQydXVESmdxMmJfVnVaUnpHTzNUVGtVaEV6TXNpS2d0WFhkc0pzRWkya3ZGVnlKVDRXTzAyY1NfdFZTRVF2R3FrTF9GZ1dMYUgyTGVhU2p1TGRPUmctRFZHakwzOHY1OTQ0UUZibWUycC1YNmVWM0MwRVByY3FfRXoyTG1z0gGmAUFVX3lxTE1WUkNFdUlxdDZfLTFMaTlCd1JPazBhNm9WbXJHelhzbTZVdGFuMlJ3bWxXcnp3NElSVTRMVlowZGtnVmFoOWk4emlEalFZNF9EdHZDV0swQkhMQ1l1SFpDcTE2MzZQck85YUkwQV9VZFpvMDZMd2FsUURaRmNiQzFIX0lRQ3RaeFNTUkt6bXY0cGtGSkVxbGs5TzZVUVM5cWROVFFWdVE?oc=5",
+        "date": "2026-10-07T12:30",
+        "source": "Breaking News, Latest News and Videos",
+        "category": "政治"
       },
       {
-        "title": "9・11遺族、サウジアラビアを相手に訴訟へ",
+        "title": "同時多発テロ遺族、サウジアラビアを相手に法廷闘争へ",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1URTQ2T0hhakIxQ0VvVHlnMEFSY2NzNkJJQ0lnLURLZnNiQXI3WFhZSFZTal9uWGd2ZkxrT2NrM3RkU3pRR19NaTFsYWNJTmhEWENBQ1NR?oc=5",
         "date": "2026-10-07T10:06",
         "source": "Fox News",
@@ -160,47 +195,47 @@
         "date": "2026-10-07T02:09",
         "source": "CNBC",
         "category": "経済"
-      },
-      {
-        "title": "サウジアラビア対UAE　湾岸カップ決勝の先発メンバーと放映予定",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTW45REp5eTdnVERabXVGVDlsMGJ6X2FmMGFxSTZ1dkZteE9zN1hsMk9vSWZrSjRYQ2NmYktGYnh0MzNBdW03ZDV1eEJFN1Z5cEZfczR1aW5hOGxETmk4bjNLamR4a1plclhJRTZxclJ6czlfdEtjaVMxRjlPdHJxa21R?oc=5",
-        "date": "2026-10-06T19:58",
-        "source": "Yahoo Sports",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア対アラブ首長国連邦 最新情報 後半開始（2-0）",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ2JwZERJYmdocXBULWN2Ykk1VWNWZ3FlVFdkTFlmWW1Xd3M3c3lENU5oVV9CaE9GNnloLTlTZFItOUFKSTJRY01hcjQ4LVVXYW45OGRkZjY5eWZ2enN3NERMQjNkTk40MWhjQml4TlpUcDF3b2tzeF9fVUktWVJyOFJ2Q1VXeE8xSmw3UG1JaUw2V2hhWnl0dXRUMmJUZEZvZGJLVktvd3NKZWk2RUF0T0FFWDZ0OFVvV3pucmJR?oc=5",
-        "date": "2026-10-06T19:30",
-        "source": "VAVEL.com",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア、フーシ派との戦闘激化で2つの空港が被害 中東情勢速報",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUEREcFpjTm9qdzNSb19SaFZQMl9aTzloS3g3QWY3bXhTR1R2anBNZFhjbElHVm1iSXFqT2RWU25jdzRkNGNZTDl5bnNGOVZyQlJNWHFBc1JqcFRGenVOZktzWVkyVHpmNEhRTEJNRXI3bkpfWW9nVlVuZUEyVmFiU0U5U2JoNnNYby13aHBXWGdCUUFHZ0JDNXFzeTRQR21abERHRW05ZVNuTW8?oc=5",
-        "date": "2026-10-06T17:38",
-        "source": "AP News",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアとイスラエルの国交正常化は進む可能性、ただし関係改善は限定的か",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTXdlTXVpSnROZUlTeUptdXRxeEpRaDBnRV8zb3RjbXRaUXRld29sX29UYkVlQVk4SDhUZGwxZ2s1YnUyMnRLWjBVT2JtNFdwN095T29yM1BjeDFRZ0JwbmJmUUxPZnlBTHViSlh0am95X3BueDY0ZktDU1hZa3pKOFNMLUUtWWE1RmfSAY8BQVVfeXFMTTBDRXg3U3E1eFJIWERhcXUyYnJmeDNIcFFtbnRNUm96YmFMQ3ZjUDlrWXVVQ3hwRGhnOVZTUDV6T3Q3RUFkc3ZFcTVTc3Y0Sk83LTdSa3B2NU91MDhfOGNhRjVDOFpOTDhOdVNSWGpoVElqeHJUa1FkeFR5Z3RUaDdJaUliWTM2U0FUT3hXbDg?oc=5",
-        "date": "2026-10-06T16:00",
-        "source": "The Hill",
-        "category": "政治"
-      },
-      {
-        "title": "イエメンの親イラン勢力、サウジアラビアの空港への新たな攻撃を主張",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMEU3YjJoeGZQVmE1VlpFWlBaZkdLOS1ObXVvTnU2Zmt2TGFVRnE0LXRiYkFzd08xWU11dmZ1OG5vWWlLQWpLRzhkLW16OW5RYXJhYngyLW5lc2tNUjBlUFBfS2RYOHkzX05HeG9IbFo0bDlOZ092bVJuN0EzSE0ySkdBNTNHS3JZb3FHcGZEMHlqRy1qelRpNA?oc=5",
-        "date": "2026-10-06T15:03",
-        "source": "Yahoo",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-10-07T20:29:21.455606+03:00",
+    "lastUpdated": "2026-10-07T23:54:14.017833+03:00",
     "items": [
+      {
+        "title": "シリア、サウジアラビアへの軍事支援を検討 イエメン情勢巡り",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56bUpDbmhESVFoMFp5N1huQTlndHVMbmJSUlhPZWZheUdKWXdsVVhMZVFUaDZRckpQUENUQWFRUkVkRkswa21Ob0dCVXBEQm5kaDJJdEhkMXJIVVZPdWZPV0YxSFZNMFg3ZnZ1dnR3TDdzcmY1ZjFqOVBXQQ?oc=5",
+        "date": "2026-10-07T20:05",
+        "source": "Reuters",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、火曜日と水曜日のアブハ空港とキング・ハーリド空港への攻撃による被害状況を発表",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQmFVanpRVlV4T1FQUm1Nc09CMGZxa0RIQTRUc0ZzLXJhVm5ESXJuWGdDcHY5X2ZNNnVEZXhwSTVMRzRMaE5CcnJiZ0k2OE5mMUdDMlROSnpndkdaQWNEeGF3Qk9QeUUyenREMWNSX3VfR21xQ0d1bjZJMkhkckJmYV9DMWJ4amFfbG8xem1EcmgzenEwdU5lRElHcjNnZ2pmVXdsQw?oc=5",
+        "date": "2026-10-07T18:30",
+        "source": "CNN Arabic",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア 2つの空港への攻撃で3人死亡、36人負傷",
+        "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPRXNzdm5DOEI4WnNQTHIwaThMY3lMczNHRnozd211VjJWMFZrcVpEaEw5WTZEYmc3QTh1X1c5bjE2RzJEb3pkclJRUC1DT092U0FBdENILXpQYjJQeWZ0ZmJJQUlLYV85R2tUOG5pUmI2cmhOMkl3YkZHT2hJS2NVaEpFdTFJaFJkRWRHYnczQ2FrU0hlLTFjbTBWcnpWcXBPOTBUMDlUdEx4a0ZJNERDcWprdUZnb280TFB1b1lGRW9xNzJvMTEzVko0OWEwOFZTSVJnbWdaSm5LSllWMXZkTUV6Wk1nNDdtdi1SLXZmRFJtdm1fUzAwMnNQaHY5dzRQMTk1TE9CMlpFdnFiYWk0VENHOFowbEI3dkZfQ1FxNXYtLXdqRldzNWRrSTY0NV9saEg2cjdKaHduTmFKZGlObDkydDZwMkFhZVN0QjhjTHTSAdYCQVVfeXFMT1FhYkNfclF6Rk9vUk44WnlGdXlmb3VYb1ZBazltSGxxUzdPNFVuUERFai1EaGJqWEkyZEcxSmI5VWxidmVsemxxdXJzUjRXOGhJTFYxa1lTdmd2cjZ2bGI2QzhyZ1FkcDBPdjN1cDBtNXE4VGxuUzB4M1J6UHBZNnBNRG1STjg5V3NxOEY5UUthRjlzZ1I5dHR2WXhnTjdkTGNmM2FTcEVjOXJYbkxlYTVxQURIUTBlQ2pBdVVDdUczRi0xbVByY252Sk9hS1lCTUtKRHVuMDczTHFRYjVtMU9RRVBfUGdMdU9lWTQxOThjcTctZ1N1N0h4MnZrYWxYOENDcjdXN2V1WUxtWHdnbGlLcldkUElNNXp1QVFpSzRGdDVaSDFpeVlKTEFXOUpaeWhpdkp1QjZKOXY2OGl2X0VFRVdxQlEwM2RLTm90bU9fNWtEcExn?oc=5",
+        "date": "2026-10-07T17:58",
+        "source": "الجزيرة نت",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア：リヤドとアブハの空港襲撃でスーダン人1人、モロッコ人とアルジェリア人が死亡",
+        "url": "https://news.google.com/rss/articles/CBMiuwNBVV95cUxOWVpuU1FscWR0QTlaVEFBUEdRa3BXTGlVOUtiMTRqTmpUWmtMckNrc3hBbkxhRWFUTTNTZGExMjdOcHdGOTRySUJTMmZkWE5JNHNOeXlMOUhVNk5iS0ZJelZMMldjZWlaU0VVN3dvM3NCVVR4LTQ5OGRfTGNmNXJvQkFnLXV3Wk4xVWJYYnN1UU1RcXJDTVc2cG1JWWtidGUtb0xUTHROVE1tdW9MaDJmNjhPNHd0YjNOUzJESTViMWhNeUVrbXdGOF93YVFZYUR2Skd4QTFXT1ZRTkM1VElZaTNWanZtMDBnV3B1WERJUVk5dHRXanpsMWt6aWdVNGRkSHU0S2hyZlEtUGt2UHVuXzlQOTRlT0Q1WDYyMnJvWFZkcWs1Q2ZKUEF2bDFxSWhkRjR1ZGJfR3VZbmduYTlFSWhORURTY2ZrcnhlWkJYMzdVSklNY05wclJ1X2ZzTmQtYnR3NjEycGozOG5hU2VxWXU1SzQteGQ5NXVfbVE1UDFSdElfRU9yR0xUUDBkbEw4TDR4N2lBZXgzOXRBY2R6Qzl1MWhOeHJLcTBmRkh2X055UExwQWdNY3RtUdIBwANBVV95cUxPaW52SFBjSG5tdnFaYkc2cEg0LUFURnRvdDlpQmxFQWZabVlVWGl5enlNRVcyYjE3dzV6OUJQZDJOWG80cGJFZTM1ZDlnRWZtT1YtWDFRakd3Z3BVUXZkVTk2RjlmMURtei03ajFJMmxXcUxEcl9IcDM5Nzc1WlVYSHpfUEJUVkIxQjNDVERMVHV1TG9oc1FCRTVQZjNWVFNMUWNFczZaZzVQQ1NDZWF6d2c0QXNWdHBZbG1KbmpoRUt2YTUzT3E1NUhXYktCVTh4RzhkRWdKdWlteTFBUXZpdDRDaktweEYxYkVUSm45VUFOVTBua0NmUm9ibWRlempRRGVJbVRMeXZkNEhfNHhyZEp6eElqVUx0cHlfTk5NX2tTVFYwczZnRkZ5OV9MRmJDUWsyZDZ1aEhqa2JiR29wTmFtM28xU0NUVzZGUV9QMy1CX2lJamhwaTdPTEhOM2pIeTJDWmc5THp0QUNPaEJqellmdFFTQWNQMk9RaHo4cmI1VVk2WFZGQllJYndoZUgzTUVfdXA2ejdzdXVRYXFYR2YzTmFoUk5FdVA3NERsSW5QMlVBNFM2dE1YaHEtNDhI?oc=5",
+        "date": "2026-10-07T17:55",
+        "source": "العربية",
+        "category": "社会"
+      },
+      {
+        "title": "アラブ首長国連邦の指導者、サウジアラビアの湾岸杯決勝での勝利に言及",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd2hBbHlvLVBsdlM5Z1FXTFgtMEFVU2xoU083Ykp3U2t3T2wzUEo5NmpOZWQ0SWY5RGtLdjBidWw2d2pBdWlLV2RQbWtXWURWYTIwekhSWXNWRzRRTWhaeHV5SE9DYnEtcllmZWZiYTkxcEtvSXkwNXFwVUd3OHVpdEtzTktTRUNndUdULUFoU1NaQQ?oc=5",
+        "date": "2026-10-07T17:39",
+        "source": "CNN Arabic",
+        "category": "スポーツ"
+      },
       {
         "title": "サウジアラビア映画「生死の問題」アカデミー賞ノミネートへ",
         "url": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxOYzk4MmxmbUx2Y2JQc2xVRF9OQkJNRXJlOENKQUhpS2VoakVzLXhRcEY2ams0Y0YzM0E4SkhFN0RoX1RNWWRweWQ3cnJISkZ3NXFRdU5DQ3VsY0wzVXoxYzNBQXdZNlR1R3VIOTdDUXExS3N4QXpOdlgzV0JRQTBJZmhJVXBkczJOR1RTTjN2aHQ5ZnFLRjJZcFotNE9GT2g0NjVjSWVPdTlkWldHRG9YOXVjVDBVNE5Ub2dncTdnX0MtV3VUX2tZZ2NuQm52QVZyd1UxNnNtRVJ3cFV2dFZzYV9FRTk1YU9qSkVpa1JNRGhKS3MzbVMxTVJDd3VNUXFyU3RwN2o1WmVBUkVTU3FUSG5oNTFlOXMxRGplM19Nc1E4RHEybmdPU0hHa291TFgwN3lBWFh4bS1CdnFMd2ZGTW9zbF9Sam53eGZnSFdzVXo4cDVvdWNnbnBsTWhTYXR5bXhzZTdiMXpBSVlkblJpU3BJVGxkVmhBMlItNm41a0d3M3EtclZqZHdmN3pFYmdVbUIzd1N2T2VCOUpuT01veGhNWjBycUtnbWpCanZ5YS1jby1GVWtxT2kwNTZWVV9WSjdjdFhYVy1ETXRtNldjS1g0S1ZGVU9SWVhxTHY2b2tJWTFHakVBNm15amZNamVYcXR0QkItUDZia1JHbFE?oc=5",
@@ -223,59 +258,31 @@
         "category": "経済"
       },
       {
+        "title": "サウジアラビア、UAEを破ってペルシャ湾カップ優勝 歴史上4度目",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1kQkdPXzVRb3ZIWHRlemxxTW1HdDdJQWFtbnZNUkc5OUlNMUk3MUxUY2RVdENfUklWVFZpWjdxYS1TSFc5bHpkX09LWC0wUlUtTGJmN0dmYWF0R2NmY0HSAWNBVV95cUxOVTJiVXp2azkyWEpSY1NOOV93XzhSeld2dU9ObHVtZmRUaVNEMUJvNlpzRk04THBfNl9vZ3FwUjNubGdUQndlYkR0dld1ZVluNXFHYzdTREtDSUhpQWp0R3VrNWM?oc=5",
+        "date": "2026-10-07T08:19",
+        "source": "BBC",
+        "category": "スポーツ"
+      },
+      {
         "title": "サウジアラビア、UAEを破ってペルシャ湾岸選手権制覇",
         "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNWUx4TzNMazJMSWQ4RnF4Zk9UUnRFLXJtanBLZ2tic2hLQjJjR1o2V2l1OHRTQmRGLXZKSkxGUnQtX0h3STBDZU9tNDlENGIyc0t6eW1UODlRejBHQXVEYmtpSmN0VmFBOWZWM3FEekkxd29qd0tyRC12eld0b2N2bFduNzhXRFBETU1odGp1aDlXeks2cTBzQUwwVGViN2hfVHJjUXpiMlRlZVlXTEQ2bUJfWk12R2ljbm5BN1hsaGM2djJoZlY5UTRzX1ZpU3ZvUFhNVWN4d0ZScm5iMWRaQVVwdkJTNmIyLXhYME1nWmg3ZFZoZjQzYzRsZ29WOFNnYmZrUlBVYWF1XzVKOW1FOHpYcFdNZnVPeFhvOTFELW5KanRmT2JZUExkbkRKRGRFYUdLMnQzOUx0RzNJUkthMTRxSlM4V3poaGfSAc8CQVVfeXFMUG5tRXF4eXdoV2Vkc3hIR095Ml9GeVB1VDBha2lVc0pDYXJYSUlzOEJLRi1zN1Z0c3NMb1k4amk1QUpnXzY4RGtMY2lScndxNm5jMnNKNlZ2aHlNUDhzOUUtVjZrd3dRSVlWbGwzX3Y2SGZHVlg4ZlpTaENRbUxhYUhoY1NIc1VnMGR2ZXF5NW1rc1NtZDNsWDZUUEZZLXd6TFNOVUhBdVlfVm5kdEVERG1kb2FGam1NVXFfMWdZa1RZbnJtOHp0Q2dxU2xlOHhqSElzODJxWlJBcndnWFZvcG5wY3IybzFMaHlncC1qVExnZFBOVERIdzM4TFg4SUVyeGVnQklJSS1FOURGTDZ0Y3hSYy1QNmJkS0hTdFJta0JDN3NlaEhxXzNSNFNuOFZQdmpLaW9abWo2RGdwV0Z3LVVqOTh2eUdHb3dFdExjZFU?oc=5",
         "date": "2026-10-06T21:35",
         "source": "الجزيرة نت",
         "category": "スポーツ"
-      },
-      {
-        "title": "アラブ首長国連邦の指導者、湾岸選手権でのサウジアラビアの優勝を語る",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd2hBbHlvLVBsdlM5Z1FXTFgtMEFVU2xoU083Ykp3U2t3T2wzUEo5NmpOZWQ0SWY5RGtLdjBidWw2d2pBdWlLV2RQbWtXWURWYTIwekhSWXNWRzRRTWhaeHV5SE9DYnEtcllmZWZiYTkxcEtvSXkwNXFwVUd3OHVpdEtzTktTRUNndUdULUFoU1NaQQ?oc=5",
-        "date": "2026-10-06T21:07",
-        "source": "CNN Arabic",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビア、湾岸カップを4度目の優勝で制す　アラブ首長国連邦を下す",
-        "url": "https://news.google.com/rss/articles/CBMilgNBVV95cUxOQ1JvUDNGcDlCc3hmY2tOcmJ6Zm1hMWc0YldHVUdhX1REazBwRkxab09lVDhyN0hTZEpZTVBPa2Rvazl1eFF3VkYtXzdSZXZXdmp5RG9qRmVCMUxoanFCa05MSVdKZlg4ZXlKZnZ2eEtfY3Y0R0RwSV83MzRobUxGVDhXa29nMUUxYzhLc2dLLWhaWU9JUFgyR29fTS1kX2ktUHBSRmlORW4zMEgweWdQZjdVUTJ5bnZ1YThGejUtR0ZoSWphenh4RHlNallkZ29VdndpTExQal9Xd1lKZGdjbmF6bVZMa0R2c0hneGVCZ3A1SzdKQ2pWakR3ek84bmxpc3FDV0lIUXJ5dnBVbktkRTRra3hPNldtcVM2QjVRMTA1T2E4eE1pWXowdkhneU8tWG5rSUZWUzNBWmpFNjdvczRxaXVVaTBxcW5ON3d1cGcyQk9YNXdQbjZLOTUxX08tQm5GckRreVJnZGxlRlJMc2NFRGhITFN3QUtycVR0ak1BWXhNU1A4UU5EMFJIdW9CMGZZbktn0gGbA0FVX3lxTE9uSkhNNjNPRHMxMk1WZzN0aHhhdTRuNi03d00telNUTUVxRzIwR19MVF9HNXc3R3c4Qy1PR3N1aGM2NnB1UktNWmZOSUNSMlZSMHhoNUhGdy1rdHFhWVpBRHQxY2hsNC1TaHdBdGo3VVU3anVsYW1RZEVkMGQ3SExDb3dHbmgzUFZZSExrX3d5OHVZUUg0NHJpQXh0a1VheG5maDBPaWc4QXIzeHhJanBBdnNIYW9PM2tiSmN5cHR0czJlTkxsZTNYSWh0WnlabFZZbEVWenBhMC14eG4zSi1WdWZoVF81UFFyZkJ0dE94d2NlX3JUcW0yVGxRM2J0eHg0RW5ZN0VvVEp4UUtxa20zbXF6TG1GOXRuNUFWdW1rSkJEZTNCTmQxRGxyUUEwdXZpa0FIVVZzX2dHVUtHYWc4U0VBa0ZGTDB1QW5uWENXNzdaWF9JX1E4ZlFoY2E4U0EwUlpRbjdOTUJWRUxpVHdzeURYMkpHRWI0MTk2aHUzdFdHeFloY19hcXlMY0FDakdFaXdvNTBwcW5EZw?oc=5",
-        "date": "2026-10-06T20:01",
-        "source": "العربية",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジアラビアとイタリア、軍事防衛協力の強化を協議",
-        "url": "https://news.google.com/rss/articles/CBMi5ARBVV95cUxOcFBHYktMN25mTlVmaTFDcFlRODBSOGRWLTlqWGRmSmxVbGlpaTROazNGZ3J3eklvVncwSXMyMmJNemFKSURWcndudHZ4UFkwejBRV3JHYVZDSGY1WkJvTWVVa295aGxqeU1SOGp4WXJMNnJ5aVFNTmpmUlZWeGdEbU1EaU9hdzRWNkFuUnI0NE1fRVVCZEcyZ0doTDZZVm5SSFFEMUdsQklhRjZ6cENXdzZSUGdzVHB0RUhjbEx6d3dfcU5RdUU2ek0xVVF6Y0NZU0tRZjRBRHFGSW5yS3otQmU2bXZPWXRCaE9OLVcydV9XTURMZFJVYlNHZnZMMGhsekZua3lFaFBkNU93Z1NmRXhkSkxMQVBtVTcyanl5dkdwb3VROEpTWVpmVDVjTTJaWHZMY05uYXYwOWxRRDMwdVY5WTdHRUdxZF9QOFMxSldPbk9kMzMxa3VwcXJ3SzZrdVdZbVRVQU5Oc0NuM1MtSkJaejdNVUVHeUp5WFE4eC12ZG5CczVLdFdoNFJLSmFHNGVjRkQ0Z0ViMmdjUHd3Z3djNUx0MHhpcVlMeUdTZXFZMjh3WmhZZXc3WWVTTzhUNkNLZVdyM24zUDhKMFJUU1k1bWpDOFhkZDQ2aHF2bU9oQkZlUW5HTV91MTBGY09CZmg5SUVTbHJKVHplbGhCVXVva1VlbzRxemFVYzNWZHpWaTZmUXlZOVh1R3p4a0dIUEJaYWxiZHhPUTYzRHdLTFUtb0RGanFoTVZGQVhDbHVtMDlKamt5TklPeVNZTkQxTDc1REQzYmNPXzdRdi1reUNRV0M?oc=5",
-        "date": "2026-10-06T20:01",
-        "source": "الشرق الأوسط",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア内閣 2027年度予算見通しで経済の堅調さと柔軟性を確認",
-        "url": "https://news.google.com/rss/articles/CBMiwgRBVV95cUxQbDZ4bVNkR3JGNHlzLUpsbmZkcnhaZENvLXlTbVhGc08wR3BYdlBaQTQtVk1yYndYZUc1bk1XbjJvbWdZUVR6c1NZRnJ0UUM5THpIeFROMDdvcG1ZR2lYdFpFZXIxNW9keGMyVjNCcG52QmhodE11ZVN6NDhwRzhIS2ZZREd2b2h2dUJiWGlTUUJjNDJoeEQ4bDlvcGl6ZUozLURRSDFPMVlQWHRjblRUbkM5UC13UjlrZm5hN2ltekMxMjJ3Snc2MHE0el9WdmhPbUI3SmkyNzdYcjlhYVBjX0cxMzRxVnRKaVB5MGE1OHR3emFpTDJhQjRzUjlxSS1VTXRMaHVKdGV6ZEF3STJJQUJQLUhHX0hwTVVfdXBhZFVLUXpTRm9sZU1kMDZtOFhTRWpud09yaTQwdkV5clFrTGhqUFc5N1BpSmRrM1FKTlhtVmd2Tjhybm52b3lGUElqUm55Z051VlktZ2s4ZXE4aUN6eXhGSHhnR2tLdHR0eVZ5a083T1ViYlVFeXg4bVVaakJOMnpKN1BMWmxqckhBM1NEZGlacU90VkMtWWN0b3RJaXd1NkhSRW8zNDJOSGFYTG5zb0w2OHZrUlVQN3pDWmM4TzVYQTJ1ZTJ1U1Axd24wSmlVTEllMWN3OWVoWktXS2FWVUVzZVptSGZNaHIxNEFyOVdSMEFWYlFCclJlUHY0MTN5T3FkVUxKQm5vNEpJeF9HMWhrc0RydUpoTV9TN2h4aVFYMHV3SHlPZ3JFRFlpUdIBxwRBVV95cUxONS1MaUxqNWVHSmxpWlpGNmRKdGllWUlBa0lDOWRxaUZVSS0wLWlFZVFzNm9jc3ZzSHVrUlBwWGpvcFdfU0IyazdtZUMtTllPMlljTnZxTG5tLVdEZHJDOV80WG5xc3FhRDVMWWh1b3REUjlydFN2QUhVMjJyS2V6M3hwbDZjN1Rha2hnMDEya3oyRm1ieXdtb0tmanZPbG9DaFk1VXB5MV9jT0ZaRF9TQlltNHozbDFnWFFvQTBJUHFLWm5xR0pyV3pubTRIQ0phdGIxbml3eVdzMmo5enRmM1ZIemlldGxUUml2b0pBMXpsNjlKenAzTFdqUUxsYkZsMkdRSU1HbXEwY1djVGRLOXhMQVhmQ2FCbkJMS1FKMTAwODdZZ0RGVVY3djB0M0FDYTVwZzdoN2t5eTN4allBNzlETHdXNlgtVjltYzdmOUZJeUM1S3BBRFh1azdnRXpHRXFsN1BtbHAwR2FtSDFnSmswU3lOLXB5cE9hOUpLVjBhUllYVUZJRHFGbk82cXN2UHRDcllSVTFLSEhWbDFudTRDa1JxX1BZM1N5ZmxxTGNTNjVCXzlvenNhWGpmLXBJQTNOYm8yOGQ2TjlzSjlRMlVXbXd0NGVzQkkyOThJNVBnemVxX2d5Wmwzd2Z6cjd2T0pBQk5odUh3b1BXakwzeU5DVXIzd3dMWVZQa3dyTmpsQTViTjRSZ181aS1rckJoS0Vmb3lFZ1U0QUNaVFBIZ1pFc3lFaWtmSm1oTW9iZTlRdG5ScEhJ?oc=5",
-        "date": "2026-10-06T16:27",
-        "source": "العربية",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビアのイエメン人労働者制度改革が大きな反応を呼ぶ",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9zWmpnTXRUR2ZVdlJ6aVhXYnRmVXJnQVV2ZWE2OE9rcVVwTlZ5SEk2SEhka2E4M1hfSElBN2RNUGhiRUtfWVNRZEVxTW9TVW52eWZWY0Z2VnNYcXJocEHSAWNBVV95cUxQMWdCS3hOOHMzWm1EMVhEZHhDVXlFR3hjVDlMZEpLWVhMRl9BcWpXZGhPcXJUdTBrUWFRbDhDNXhLd3NWejduUVlGUTk3VTRuT0dCRWw0TDRRSDJaeGtaZ0RPZEE?oc=5",
-        "date": "2026-10-06T15:49",
-        "source": "BBC",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア株価指数、10589ポイントで取引終了",
-        "url": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxOS0NjZXVid2p0c1BoSU5Qb280UDNwWGxCNzYyMHhyT3pPcEQ5X1N4MHJhbnVjYjQtdDg4LXo3dmJBNmsxWFRSbkM3YWN1clpLQ01mYWt0Rm05Ni1xUHUxdzhWaDQ0QnZnZ1EwODRGalVWcVozNFhrenZNc3lrRzNzQWZsdDlTZTRpX2o5c1ZIRi11clprZ3loX2JEcXZLNTJxVEl3UnhrRjBqcXFyU2Q3c0ZxTTg3ZGtibEY4SUp1RXdDRDJlZUFkdDFSVHRfLWdlVTVrdlROSkFBZEtyaFlrMkh5VGlBbGZOeDVPbVA2cHNSYm91cDEyR2RuU2dOQzR2cG56Ump3OUNWTFd2WmFSNmM0VmgxeEFjZW9XbXVtNTBNdlBySGJHakMzMXdqQ1FrLXdiRHBPdHBrVmg4cE9rRnJTaGVfSkVmMi0weE43Rk91VWlkeHpxbVJ5VFBGLTkzcGMtSDZwNjdmSUJWemxJRDI2WDg5V3YwanNJTS1DbEFSdjlwSXdndnJqWS1LeGpvdjF0S2FJeEtXOUhqc0M1dzUxWWlpdTRZX21YSVVQTWtDNFg1bXpjVi1WbzZ1RWtsSHV2aHN0UHY5MTlUWEZfeHBxV2RMNTdLdVhVUWU4Qm54RlpsRmI4US1FbVIzc2JO?oc=5",
-        "date": "2026-10-06T15:13",
-        "source": "جريدة المدينة",
-        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-10-07T20:29:21.455606+03:00",
+    "lastUpdated": "2026-10-07T23:54:14.017833+03:00",
     "items": [
+      {
+        "title": "サウジ2空港に攻撃、3人死亡 30人超負傷＝航空当局",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2YTNXd2tHTWVudnV0ZzZuS0JkUmowZ1dFam44NmZxOTJjZ0FxN0g2djAwMjk5VEphanpQTHBXR1l0dWFxVHpkWG0zakRHNk55TEg2eDhNdXc3UQ?oc=5",
+        "date": "2026-10-07T18:40",
+        "source": "ニューズウィーク日本版",
+        "category": "社会"
+      },
       {
         "title": "【サウジアラビアRC 追い切り】フィリオソラーレは力強い伸びで重賞ウイナーと併入 太田助手「しっかり調教を積めています」",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUmR6TFFjMUQ1ZXhwM2c3WFNYT05yTTVvVGVnTnFfQkJwYjE2VkFJWlRncmdaWmFrejdJUVVReXVqMGtkZkpPQmNiYWpSdzVYQlByaDJSZ18xQ0V4bmZPcU92dzZaS0lMSkNhcEVMWHA3dk9QeVFNZmJObzhIcGJEcEZVT1l4cm8?oc=5",
@@ -319,6 +326,13 @@
         "category": "政治"
       },
       {
+        "title": "外務省、ホーシー派のサウジアラビア攻撃で注意喚起 イエメン正統政府も軍事作戦開始",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ENXlrRmV1UWhoQzZBSlVpRFZST1oyV0RTNm1aSFctMFJBZHZtWkpwQlJmd1dwQkctM3M5ZGppbkw4aEd6RURYOE5DM2ZkSjVvaUptOGNkdw?oc=5",
+        "date": "2026-10-06T12:45",
+        "source": "TRAICY（トライシー）",
+        "category": "政治"
+      },
+      {
         "title": "フェイスブックへの投稿で死刑判決、サウジアラビアへの出稼ぎ労働者　恩赦求める声高まる",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtblQyMExPR0NCVzQ1Y1NET0xnMHJjbmIxZHdIYkp3OHR6WTIzSG5MS1dQRHdNWmU1YzJUMDlqM1VvYVZWYTdZbThZdDFZNjlFdXVfbnRsRnFwWnQ4RlpJV9IBZkFVX3lxTE9DSU9XX0huZW40RlEyWHFpQ2VXVXJIRnF0dGV1OFpSbXFsS2VkNXh2RjRWSnRpVnJPOTdSbDVOVFFvckN1dU1zUmMySTFYcmtPZm9fc0t0R1piY0hWb0Z6ZUJ4aVhqQQ?oc=5",
         "date": "2026-10-06T12:13",
@@ -331,20 +345,6 @@
         "date": "2026-10-06T11:21",
         "source": "Investing.com 日本",
         "category": "経済"
-      },
-      {
-        "title": "【サウジアラビアRC予想オッズ】フィリオソラーレが予想1番人気（netkeiba）",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xV01vRHAzdVVta1B2Mkg3NmtZWWtzY1h1Y0dyZmt1UFNGXzk5MGh2eUotYjZNdEc4UURQMFBLTlc2M3BMVEd6eUpURGhPNEltcF93dmRTUTIyUGVfMzVZWHpCX1hvVlZoTUdmVGNDTlowV1V6SWMzVnNQQjlFMHM?oc=5",
-        "date": "2026-10-06T11:00",
-        "source": "Yahoo!ニュース",
-        "category": "スポーツ"
-      },
-      {
-        "title": "【サウジアラビアＲＣ】小柄でもオルフェーヴル似のジップスパークが面白い 陣営「軽くてバネがあります」",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hODJoVWlYY2xVRXVNQUJuT2stSU1ZU09DTkVNMUVYMFlEYXJyT29ReklfY0RfX09fM2lwZWdUay1GWTBqYURhMDZhSDVMLVc4OHZKYzZxR2prUVM3ejM3el81Q1N3b2RTUzNCVHJB?oc=5",
-        "date": "2026-10-06T09:00",
-        "source": "UMATOKU",
-        "category": "スポーツ"
       }
     ]
   }
