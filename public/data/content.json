@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-10-12T22:54:53.370854+03:00",
+  "lastCollected": "2026-10-13T01:39:40.234805+03:00",
   "security": {
-    "lastUpdated": "2026-10-12T22:54:53.370854+03:00",
+    "lastUpdated": "2026-10-13T01:39:40.234805+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -43,7 +43,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-10-12T22:54:53.370854+03:00",
+    "lastUpdated": "2026-10-13T01:39:40.234805+03:00",
     "items": [
       {
         "title": "令和9年度前期用教科書無償配布の申込みについて",
@@ -114,7 +114,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "その他",
         "is_safety": true
       },
       {
@@ -122,14 +122,35 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100990792.pdf",
         "date": "2026-03-07",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "その他",
         "is_safety": true
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-10-12T22:54:53.370854+03:00",
+    "lastUpdated": "2026-10-13T01:39:40.234805+03:00",
     "items": [
+      {
+        "title": "フーシ派によるサウジアラビア空港への攻撃を受け原油価格が急騰",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTTZ5RGNoVEhkQU9PWXZCMWlyaTB2NFJmb2dZa2FMSkl3VWdrTUZrY3dTTU9scnJ6TUxWazRLbjluTUNFUVFKUFFGaDdjUng4QWczcERLUXhlNEFMWTNBVWs2bDJWYXZZZU5yX2hvdmdOandqZVJiVWhKYzg0QTRhZm1LNFFhajFfRVlpajdicE_SAZYBQVVfeXFMT1hrMExFRVMxY2V5MF80bTRKbVRpMzR1eVQyRjVFQnBTOTJjTkVwb3RHTm1KOGRxNEE2Yl9ieWkxQ0t4SFQ5SFB2enFyTlVsTTdOZjZZWEVTMU81ZkhjSHVBOUlCUi1hUVViV1JhaWZxbWNBSGdJMlA0XzdoalFsM2dLOXpPSVdMdUhScE9CQ0tnVjZNVmZR?oc=5",
+        "date": "2026-10-12T21:30",
+        "source": "The Hill",
+        "category": "経済"
+      },
+      {
+        "title": "デルタ航空、空港襲撃を受けアトランタ～サウジアラビア間の新路線開設を延期",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOby1RLXRUZkx4NlRVUXJWb2p2UTFmb1QwM0lXRTBrMC1zblB3SFY2clhCb2s1N1BoVV9mLXAzdDJoWEkzM0wta3JlZEZZZGI0Q3VrV2JELWRIR3poVS11X1ZVQVJLZmRoVjRhTFgxWmFwWE03U3hoRTZFQV9HSUxPaEVtSF9QMWVzOVRfc0xZQkg3ZURiWXlQbWdwb0VacUpVcFpndXhxVk1hcGJLTlF4d25oYWpEcVhSVG10ODVaVUl4R2R5U2Z0OGZ3?oc=5",
+        "date": "2026-10-12T21:15",
+        "source": "CBS News",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアの首都の空港、今週末まで閉鎖 航空各社が便を取消",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObGszbTdESk0xU0twcE1ZOHg4VFpzN2lzeWQ0ZDJseVpKczh6cE44eTNOb3ZDS3dnVnZJN3RCNE1wVDI0djVodU41LTN3WkVIemI0NWlucWpKY0tvU3JMeEM2YVN1OTBsdW5mZDVXeWhFcXdyQ1pGRjBVNTR6SmpBSXhzSXRObWtSTjlYcEJzOUxsX2Ezb28yZ1FrU083bzNpNmd2VlpjUkxnaE5PdEliNWpxeU5QNkp1V1JmcXlFdUJ1S01zcHc?oc=5",
+        "date": "2026-10-12T19:36",
+        "source": "Reuters",
+        "category": "社会"
+      },
       {
         "title": "デルタ航空、アトランタ～リヤド便の運航延期 サウジアラビアの空港へのフーシ派攻撃受け",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSjFqSTRESDFlcUZFeFRmSDk5OUE1QXRUUTEwUmZGY0ZGOEw3X2JyTnhuQ3NjWXRhZnp0OEFzYmZVTUJZUVZEX0xwVkFiQlotV09nY3pZQzRYY3JVYTVyYmhlamFJQlpfQ1hXR2lxZGIzblhqLWIwNDUyUTdFcmxuRjRoalJ4bE9U0gGOAUFVX3lxTE90VTZ3Ym9FOHNla2ZiT0ZxcWRyR1ZTeFNXaVBSdWhJNzlrSzVBblNlQURsYTBYQVFwQkJtcjhPYldqdHdBWjV6anlSdGVtV2dKM0ZYeHJ3MXFsNlhoR0g5Q0RySTZCMHZ6cG5JTjg2RFhNN0x5aC1rRU9RaXdaMlZUU0VSRVVFdWJ1cm9ES3c?oc=5",
@@ -159,52 +180,59 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア空港への攻撃受け、デルタ航空がリヤド路線の就航を3月に延期",
+        "title": "サウジアラビアの首都リヤド空港への攻撃を受け、航空各社が運航便をキャンセル",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX0c4YlJSYUNrT1pqLTA2TmFjdDZUdmh2Z3pXbG9vWF9mdS0tZFZ6M2tYTVUzRjZVTzhodnh4WU0waXV1bjZENURjUVhmRVZPN251V2laQmNMZ3JoNmIzZE5hWU82YkxIWTdvd2xNczBkNnEta0xGdzlmaGlFNkZ5M1lxcGZUNW5pRnMxV1pPT0NxMXZmOWpEUmpBNXRUcksyZWQ5Sm9pM1QweFFWdmZYVkdid0s1dUJSanNN?oc=5",
+        "date": "2026-10-12T14:48",
+        "source": "Reuters",
+        "category": "社会"
+      },
+      {
+        "title": "デルタ航空、リヤド空港への攻撃を受けサウジアラビア路線の就航を3月に延期",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBqSVRsTUxBeUVQXzZTT01heGc5cUxHa1BHT2NpRkNIRGFNWUd5bG56WDZnMktHS2k2RDl4MGNFUlZWVjRxQk1iQjE2TVhESVZocTZkMjRuamFrNjNWQmJvTmJ4QlhYd2ZCOE1oMFZYNUw2MGptUDJkU1F3ONIBgAFBVV95cUxOZ0UyMGZTU3FPQUdMalVRaV9kenFCQl9yVUFpdmFEY2xtbDAxQlRWVXFadHpCZ0kxdE95NnFwMzIzS0dFRlFSNENnZlE5ZXBvZXJlT0twVXZqMzJacHo2Rmx0Q3Z2RW1tdHZnc283aXRjWGF5ZjJxZFJCd0hmZFM4cg?oc=5",
         "date": "2026-10-12T14:12",
         "source": "CNBC",
         "category": "経済"
       },
       {
-        "title": "イラン情勢 最新情報：サウジアラビア、フーシ派のミサイルを撃墜 攻撃が続く",
+        "title": "イラン情勢 最新情報：サウジアラビア、フーシ派のミサイルを撃墜 激しい攻撃が続く",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGtkLXd1c0tZZlVxNER3Tmc4V1RodWo0UE5Xc3pWSjU3bkJRdDJFRVpmLXprUnlDTUYtQnk4U281TFNqQk5USWdkalJscDhGZzdJZ0tWaTV5MHZNQ2hFcE16VlNpdGN1SUtpb21felQ4cTdfcnM3MnJEbFdRWm5ubG5UbzNYVDdUSjFzZ1FrWS15U1lDNXlEZF9iX3l5MHczX2VVRS1pQVhRcEE1OS00Z1dXaDRVMldrcGQ5MTd30gHDAUFVX3lxTE84MkxvSFZFMjJnblFxWGZoLVAzRkxXUVZSLUQyWG1RR3BJMk8zTVJzQ2dHVVRrNHA3Z1BlRkg3bHU0aXBqZ1FaNW80ZXdmY3Z1UkN0SXpXcWI4eGZxOEl1dE5sNlNBcV9mTzJ1VXJ4TmJZVU5ON0llVTBRWXdRYzAwV2N0UHRkMVB5ZzVGREhZUVVOWEloaEIzTEUwUDlIanFla1pLczdxem5SUmJGTllEVERNWTJJNS1wR1pFSWRyNnNPWQ?oc=5",
         "date": "2026-10-12T12:47",
         "source": "Al Jazeera",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、フーシ派による空港攻撃受け便運航停止を拡大",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUW1LZ251S3RvUVlackJyb3cyeHlOR1I1LUNsSjcyeXF6bzNJQk54RDB0M0p6eVJneWZqcjBWVkVtWGZiRm1wVnlGcDZuak02RUd6eWp0TUtHN1VOdENPaU50WE5qNE1iOFVIRkphaXdVaVlSbGs1eHpVRnVKMHRHc0FUWHNGd1JTczl4S3dSSVNTTFAzaGZIVjdhb0FDM19LNzhFUjZLb3c5aXlYcnBkYg?oc=5",
-        "date": "2026-10-12T11:49",
-        "source": "The Guardian",
-        "category": "政治"
-      },
-      {
-        "title": "中東情勢：トランプ前政権の高官がイラン打倒を主張、サウジアラビアが攻撃下に",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQjExQVpfbUt5dFNlNDEyRWYyU1hScFh2Zk1oS0g3THFISlQ2VG0yNWRiVU1TemhFMWtZRXZqRU5YZFYwbnlBcFA1blhrazNUR015WUs2UFNCTHVucVlLUTA1UTJJOGtBNVFqLXVFbjBhTFFVTENEa2c2MldzQ0xpdXc5dVJBODF4SjBpMjR6Y0VldEZrTURXckJpYw?oc=5",
-        "date": "2026-10-12T10:54",
-        "source": "Sky News",
-        "category": "政治"
-      },
-      {
-        "title": "カッツ国防相、西岸の難民キャンプでのイスラエル軍駐留は「恒久的」と主張",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wWjNfTEJibmZRWGFyb1hhSTNZMWwxcldUZzEtT1hlVW9XcC1jTDVValVmb1hZZVI0bDlXd0V1MXBwaFo0YUlGVm9kVk51UmN4eEd2QWZhRkNLdFZlYk95SHBvazNBd9IBa0FVX3lxTE1Qek40NmJpd3FSYkdkWlRSWWVpNWR4Y3ZLVFdXRmk4cjZzVEtOVERzM19fS2pjbHZ2c0tRTGVISWk3S0xMekp4dnUxdjRlZWxGYkpKVW1VYjdOai16VzIxOHNka1VULXZxMWQ4?oc=5",
-        "date": "2026-10-12T00:16",
-        "source": "The Times of Israel",
-        "category": "政治"
-      },
-      {
-        "title": "イスラエルとサウジアラビア、地域的な連携の利益とリスクを検討",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13eG9kLUxQa3U2Q3M5MkxWb2tNejdWRktnaHNzMEVSdHlFR0k3ZjdEdFRTUGJUVFkzaDZSWHhoSkZva3BzUm91U1ZsaUoyRDU4MXJjaTQxTXc4QU1H?oc=5",
-        "date": "2026-10-11T18:52",
-        "source": "The Jerusalem Post",
         "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-10-12T22:54:53.370854+03:00",
+    "lastUpdated": "2026-10-13T01:39:40.234805+03:00",
     "items": [
+      {
+        "title": "トランプ前大統領、サウジアラビア皇太子との電話会談を明かす　フーシ派の攻撃後",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdE4tbkJZaXE0TERTMlRRT0ZyZ1dIMnJKM0hEM2hIcDkyRjNPaDB1MlZxMlRfM2ZuRTdTalVlYjNxRklsQk12ZGs4dnpNS2c1VUlLeDctOW9taGxGMFpHZ29mdEpqTHNOR0Q2ZVBNUkdzdEhaalF6S2tWR0dVbWc5LXpjejE1SWtiUmUta3RQQ2hrbGkyUGNxblkzMF9FYzJpTzlLeGZwTjFtXzBlcFBvcG9tUUNYVEFwMnAwVU5ocXNUTl9MSEYwLVlJOVo?oc=5",
+        "date": "2026-10-12T21:53",
+        "source": "CNN Arabic",
+        "category": "政治"
+      },
+      {
+        "title": "心と心で応える～サウジアラビア大使館の呼びかけに、エジプト国民が続々と応募",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zajVVaDcyU0FSZFRRZ2FCNjJZY2xnZGpfTmN2T0poa2VBRmNuenBCeWtnUmJUZGFOS1VaMXVHWE84dkV0YzFuUFVsQ0Y0Mk5oTUFrenFR0gFUQVVfeXFMUHQzcjFYTXFYTlBwUGpJMV94cC1BMVN4c0xVMWFuZW8wTkUwdktqbDQyVXlILVBLQW5tWVVvMHhSUzNmYnNCVlJ5elh0R2RZWGRQYkda?oc=5",
+        "date": "2026-10-12T21:50",
+        "source": "عكاظ",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビアの皇太子、エチオピア首相の再選を祝う",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51VTVlOFpFUC0wN0FzdktNWmRqUFIweHNjd0E2OXN3ZlRmN25DWG9iNVp0UHJVbkxsRUE2UEJINEtWYzZ6TVM1M051V0Ftb0NUWnNnbGotUEo2NjEzeTBZ0gFUQVVfeXFMTzQtSXdmTDduOHJiMVNhamNsbkhweTRDcHF4Wm1kNEstOFBsV2pXc0dVWkZZU0JMbjRTREpFdWdrVHVsVHhGMVAzOWNMMUVlMW5UcUl0?oc=5",
+        "date": "2026-10-12T21:36",
+        "source": "عكاظ",
+        "category": "政治"
+      },
+      {
+        "title": "イエメン勢力の動員が鈍化",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uVW1FQ21vU05YM1FPYVAtU3F3dmdjUUJSWW1PLTlMVGZpX09MdlR3akk0bWU1NUZoZDI4RFo0NlZydGdjR2JvSEd4VW5SeG5KQm1RV25MQ3Z1emFy0gFUQVVfeXFMUGRxb1VsajROS0lLczFMUFVWektRUlBpbUNLMFJ1Q0QwdERONlhvMmQ3TWluTm0xUjZFQjB3ay1nYWQ1bVlxTE5CWXdKU1VlR2tNN3gx?oc=5",
+        "date": "2026-10-12T20:56",
+        "source": "عكاظ",
+        "category": "政治"
+      },
       {
         "title": "サウジアラビア当局が空港攻撃映像を公開　中東地域とイスラム世界への意図を分析",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxON2JMbTEwWW5Yb0lYeXVZdVJ4WE04TWIyVUxZcXd0U0p6Z3NqRDdCWjFwOW5nY0kzZURxcW5kWkFWTlZ0SVpMTFNGWEx2bjR2UTBoQ3FqSE8tZkpQRWh1aEg1a2x4d3ZHclo2YlI0QWpXNUtGRnV1MnhzOFhGYm5NLWp0ZkVhQWJQb0paeERkVU5QaHBaNThmWmdkMEg0Zw?oc=5",
@@ -227,11 +255,18 @@
         "category": "政治"
       },
       {
-        "title": "速報：イエメン 有志連合がミサイルを迎撃、政府軍がマアリブでフーシ派を攻撃",
+        "title": "サウジアラビアが最近の情勢撮影で米国人を拘束",
+        "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxOYXFIZFZ1Znl5bk13bHMxSUF0TjlxZktBRkhKcXVZa0dfZlJrTXhWLWJ5aXl3MGlQZ1g2T2xRaEltZHAyVzV4bTR2d0ZWRF8ySllYRlRlTmpEYjZ3bnB4RkhDVmRkZHQ4QkRyb0dvSVRnbjhfeTlQeWdTbWgyQng3UVBQeGszRVEyY3BfWUMyOXdXcEdSRW1nZWhRcldibW82a0NtcXJTQXJvTUlzMnRoLWYxU292X2VFMlUyVS1SWGQ4WkZxYXE0anRVTEN2bVVoampGWVF6UWw1dG91endPRFZEUUdoTWpwUkhrMTFCc2tOem5vaFJ2endham80VzlmS1QyTlhqQ0RJb2wtV3prTVg1NXNfOHI4RERzaUg2R2xES3hLNnRvYjdrTmp1ZjJGSXI4VXdjUGQydjBJdndheXo5MU16TGc5WUFsY3VyZkNBNFFyYl93LWw4dXpIQTRIemhxQmJqdnFXOUJGOEEzWmhQS3pkR3lyRUFobUg0QTJyVEJQLXQwS2c5Q1VUNS1kS1N0cVl2UnpaRUxEZkJLNGU0UWtiaWwzclpsSHA2R1l5ODRtRkdFVHhmd0todkk2QkdkdGRRUGNXaVI3WHhlZWJJZzBfV29NSVlRSEx5cmgyRlFVdXlVNE92cTFTcHN6eWJ6Vi03TmVXYV9FWFYycEhQU1ltWTRBLWdycUw3dEFuRldBSzdZU0dlTWR6SV9vSmRBcGVJelRIcU5xdFFncGx3NllHOHZ5Y0kwdUJOd2UwZkF5ZGpkbjNsNGd2dDFYNm1CbzRLSzBZS2prYTJydzdVeXNGUEJwYU45cUd6dm1EOHfSAfgEQVVfeXFMUE51WFhqM3VTOHpBSU1yeGJOc0dfeDdGTFhTazBJU3BHdzNseEZKM3IwM2tDamtBRzlXbGp0ckpQcUQzLTNKd3UzM3dzcTlZRmJNbEh2Tl9udlRRMDlSanJDOTJkWGp1UzdJZVI0TS13MnJpNTFqRGU5d3RkSnVKTDV2RkM5YlEzVWRNMXZfaktRNml5THNCS29pVWNIZ2xJaUZFQVNNMmxub01MOWxERGZ4Vy1DUUk3SXItM202dDAzZ2pSUGVodXRNWm91ZGVQellRY0pPc2M5eEVocWhhaFNIQXc4MURrVUZ1RHZ1Zl9DY0t1ekpUc2FYclpuT3IwMFZLRnVKc0E5OUt2U1FkSjQtNjhLNVVYY2d4bWtZdXI0TGVTSVp4MzlwSWF6bllpeEtkTmF1ajFTTnhVaXRkQU9aOE9TUlgwcjJBRVVPaHc0cy00RlZJX1Q1NGx1TENZVVpTSXpHUllRTzBscUtTV2xHbHZ4SzNlNVFlMHltWVhXWjlraU4zTmRoNnlTcl92SThnSGh0S2g1RmZlVFhUZnczR2Y3MVNRVW1vc202ZnVQcENwcmY3Q3FBQzdqeF9jWUFoMHB1QURzYmd2X2ZGUmtMay12NTZuY0toWjRYNHlPQ3RiaFJHR25iOXVIbWk0MHlKT2RsNzY2cW95S18tQ09oNDk0WXFoLU4waEllU0MwZ0JGRVhiaVJ3NS1JQXhhQlFvd29pUWxVNWNWak5oYzNvRmY0SU91TExHT09heFM4eF9CM3g5bTRZZ2pocllVYVFpVHN0dEFnRkwtcDlFa0ZjZkhPSjBaYWxXU2ozZnRoTUVkVmtqMHM?oc=5",
+        "date": "2026-10-12T18:43",
+        "source": "العربية",
+        "category": "その他"
+      },
+      {
+        "title": "イエメン速報 サウジ主導の連合軍、弾道ミサイルを迎撃 政府軍がマアリブでフーシ派を攻撃",
         "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxPdVBBVFBxUEh4RThDZUgzZU9haVFqNGU2NzJVT2FOUC1uR3dpM1p4b1B1VW9mUXh5Z1Ywem5HNWxaTFg3a2J1S2VmQnlSb2stOWFnVjFlZEFTZkdOMUd2by15akNZdzlPb19MVVd5Y2d3d1BUcXVFNWw0UlRuLVVTaWlCNEd5a1d4czhESDBOVzBFTUFWOVFvakdSYm1iUWxVRGZDSm5wc1ZxSnhmbjNMWXVZdFVwTUVoX0ljMEQ4RjA1N2ZzaGRmdFppSmFXeF93Zmptd2ZPUmlLd0lJMEhXTHk1UFFNZFFHTlBDazNoRjNFUVJXTDBBdUJwcWJwTVNSZlVkVTBHMmZQVkZkX28weFhuN3drYjdSWWUwNXdmMXJfQW44eTl1RThSdmRyT1Z4MnBEVzRhMHFXNDRSQU9UcHVlaXJPbnZLVkQyd3lNZU12VGpILUVoQ0Z5UjJGSTZtUkNHRDV30gHrAkFVX3lxTE11bkVuQWQ0TUZYZUlQbl9LTnVyWVdkSWpTQWJIWTNvY21kQnBQRmFTdXJ5TG5abTQtel82SUg3WHpESkhnaTdxOENVM25uLWttc2dSU0NhOEFKRmc0LTdfdlZkYXZvUDdkNkZIMzdOSlF2RTNBSmhWbk9sNENHN0N5Vl9PeDFWMUJRamRMcWl1MHRNQmJYQ290VnBuQ1ZXendFcjNSaXQxSEFBanFiUkhEemlnYlZDTnQ1UE9fQzFkRmtydi1HSVhVTllhb3QwNUNrd2lGMGhFc2k0V0FGUTFLUUpDNmN4eHY2NEEyLTBEaEVfLUlpZkVtV2tnb1lVeUowcVpIOUxON0FEWDlYMERQejNGX3ZCRXpMTkhLT3BkM0NpTFR6Um01ZUxiM3ZuampYLXpPeWJ4NTh4VnR5TlQ2dUFrdkxEcGJXNWdWMXk3VHVCcXQzMmI0eUxCeDYtcHpRbE5RX05qSmJkNA?oc=5",
         "date": "2026-10-12T17:56",
         "source": "الجزيرة نت",
-        "category": "政治"
+        "category": "社会"
       },
       {
         "title": "サウジアラビア・エネルギー相、国内への攻撃に対して厳しく対抗すると表明 イランがリヤドとイエメン勢力の仲介を提案",
@@ -239,47 +274,19 @@
         "date": "2026-10-12T16:51",
         "source": "BBC",
         "category": "政治"
-      },
-      {
-        "title": "有志連合、サウジアラビアへのドローン・巡航ミサイル脅威に対応と発表",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNG9JVnRxOHhnWWJwT29Zamk1TDRUZGJHQ25RbXAxQnN0WTBPbmZzSjg1Wk1IVU5IZUpPMmFpeVU1c1hKZ2F6QkJCZ2tZbzlfUklBYlQ1VXFBcFdjZU9UbmFRTUhmUzBUV1VoeG9jWWEtLUF1VzZRLVJ0UHBRdkZZOGZKeEtzbEVOVC1hV2IwSzRGRXd6NkNNamtpdlo0aTlvYzZObWd5TGExZkYxZElXZTFB?oc=5",
-        "date": "2026-10-12T11:09",
-        "source": "CNN Arabic",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアへのドローンと巡航ミサイル攻撃に対抗する連合軍　最新情報",
-        "url": "https://news.google.com/rss/articles/CBMikAVBVV95cUxPZzlad2ZJSmQ5RXdsc1NXNzZscVFKYXFaemV2T2JlSmdtdzU1VUluV01xMW90ajVUU21BaGNHaTA3ZFM0WmdneTFnXzhNUEZfeWZ6S3JoS1ZWTEFrampWbXpFRDR1cnVBZGFZMEhxN2c0ck5pZnQzSlJxaGgtWWJuNklEb1FyQ0FCdzd5VFdnVWlDeG1tM0o1MEdWOFZSaDRZMWZySDJSb1hxNzNOdkJJYnROR0E0OGp2WWRwU0JZZFd5aEk0ZFN6TTVQTHJuS2UtdTdhdzZlZmlmUHdxMWVIMlU3aTloLXA5ZVBrMU9zajlUTlBJTWJheFJMYW1ITGIwWlZhMUYyLUVDRi1rRGxkcHdBYU5WLU0zQWpVQ2lKYXhtWk9rSWJBQlRCeDg1LXRNeXJ0b3BlZlhacEtVdEl5RkJYVkFPWk1SdHN4cmF0OFY1b1ZaRVNhOWRqS0dZYXlDbVhXOXc1UjRkam1VcFBkeGF3SFd2clhYTzU3VkdwZzhMNjJfODM4WVB2anY2Y1pDVXgzdFlSRXN4dzBNY2VnR1RLelVjSy0zRWdrQjRLbi0wWDRxNHUyWFlFS1RscC1VZmJYeUROZXdPazRhMnk2T09oazd0MHJFeFBvVlBsbkZDSWxnRzZBS29jc2h3SmlpNnhQbXlfUE4xbG9XMlc5Sy04SHBtcGRsazJCQXNQVzFkTVk2a1I3dTJrMUw5S2pyMkYwdldvNmE1Umo2Z25vUjlScUVpS3VLUXJlS2JnTWNKaktkVGkwNjFmMnRULWg2QXFpOUFleHBMcV9oYkZudnNGNk5wcU5Kd2g3WEw2VllUTnBDVU5lV0NiV1JnOUJ3NzlfZENxNzJrYU5vN1JzeQ?oc=5",
-        "date": "2026-10-12T10:01",
-        "source": "الشرق الأوسط",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、リヤド空港へのフーシ派攻撃に報復空爆を実施",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU2I4UkM4TDIyX2cweXpvaEdRY0YwdTBtdzlVNW1nZy1iUzBkaHdiQnlsb3ZWYUJYcmNHby1iWVo4Z0JMamRRN2tySHkydDFDajUxbVdiVFlnSi1XQnJGSHV1V3JhbGFzSUxsY1lhUzlBS09vUzV6dnFmaHpOeW12OGNOVjlOSjg3NnhUM2QyZw?oc=5",
-        "date": "2026-10-12T09:06",
-        "source": "CNN Arabic",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアとカタール、石油とガスの輸送・輸出パイプライン構築を協議",
-        "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxQR3lBVElqenBBZmtXSzFaT3BqZnI3QlRFdlNIdkpxbWhSSHlMbWVTbzRhOHRGSFBhcGJ4VVc5bVB2VkNpMVpMMUdiSTRMd0RSMWJGSW5PaHVOcHNpOE1NZWFtUjZrV2RyWVAyc1Jmekh0LTcyblRWak9mY1FvakJaU19YTzZILWVoRE82LUtyVnZ0N3pLTzA5dFdMNjdLZEJ0SVd2eEw0MTBYNVpaYmZ6VG1HSVdtZEltcUZtaGtZN2d2N3kzOGl6ckVHSGVJb24tQndSMmYxN29HU2lJbldsejhOczVWYmtublRneFZ1MWEwVW43UU9KZEJVWGktR1NmbHdMMzdpQ05WRU84MmdRU1lhR21Id0M0RFJNOWtuanRFd01KS2FnWm5ERXNocDIzWUlBYzNfRi1WSWRRa3JMUEZUZWY3YTBWLTd2X2YyUzNxNE9PN3c3M3c1YmlMdy1Db1o1M3k2VTFPZHBIWnNhUzBMWjIzLUZqQTN6RGtxb2JSS1RHNVpQbjZHZkxHT242YjZBWWtaODFCajBLT0dlWVQtNVU1NmZtQ0E1cHFmOFhHNDlHalBHRE1Za3U2alIzWTEwMW9NV1pTRFBhcnFOb1ExVUUwc1AtV1dhaXlzRGlLdmhZRWZRd2ViLUFQdw?oc=5",
-        "date": "2026-10-11T23:12",
-        "source": "الشرق بلومبرغ",
-        "category": "経済"
-      },
-      {
-        "title": "アラブ連盟、フーシ派の攻撃に対するサウジアラビアへの完全な支持を表明",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wS0h4NVRVa0NOVGNuOV9NbTBZTWZfcDJiQmExWW1ZUHRteW0ySUlDaEc0S0tPNUJmdXQxbkxtdE10UDlpM2c?oc=5",
-        "date": "2026-10-11T18:18",
-        "source": "عاجل",
-        "category": "政治"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-10-12T22:54:53.370854+03:00",
+    "lastUpdated": "2026-10-13T01:39:40.234805+03:00",
     "items": [
+      {
+        "title": "フーシ派幹部「アメリカが関与すれば厳しい報復を行う」",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGQ3l1cHoyaFZ0NXlWQl9TQUlYc1pFU2xjRUdVRjcweGJrWUZ6eF9OdnRyd2ctei01Y2RjaDdBZGFLZk5MRU1OTDM4TVE5ZnMzQ2NOR1E3N1plb2ktMTlv?oc=5",
+        "date": "2026-10-12T20:51",
+        "source": "NHKニュース",
+        "category": "政治"
+      },
       {
         "title": "【速報】サウジアラビア「緊急警報発令、市民にシェルターを探すよう要請」｜FX・為替ニュース",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0dlV5S1ZraGtoSVk3MEczb1NUZ3BrVjM0cDNEaU0xdUE2NVZRSWdleUhkRWtNMVRxX0d2aXowdXQyU210NHBlUW1CNXVILWNua2c?oc=5",
@@ -302,11 +309,32 @@
         "category": "政治"
       },
       {
+        "title": "フーシ派による攻撃激化 サウジアラビア首都の空港などに攻撃相次ぐ…死者14人に（2026年10月11日掲載）",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdXdBXzF2TkVzcjk3NFVQX043WXZnYXNBbGNwTDhxdTNtUjdqMnBPWHJ0aE5mVGxjWlZvQUNZVHYzN0ZhOHFpWENteUctYXJRY2VWODQ4SmFvalVxdUs0YTFZcnFHLWJTYjhzRWZ2ZTBub1dObzRoMHZIRHhqRmhwTkZiOXM?oc=5",
+        "date": "2026-10-12T03:02",
+        "source": "日テレNEWS NNN",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアの安全保障、脆弱さ浮き彫り 国防「主軸」の米国、支援応じず：時事ドットコム",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5DYjFfWGxnQ0kzaVd4RmdNUndiUDBZdjEwMDhzSjBMMlRKcy1CeTctRjJ6dktlb2hTYW1SY01vcXQyYllLM2xJYnNDR0R4MXR3alFWZ0pMY2FhWml1bzU0T0toZw?oc=5",
+        "date": "2026-10-12T02:44",
+        "source": "時事ドットコム",
+        "category": "政治"
+      },
+      {
         "title": "サウジアラビア大使館が国民帰国のためのバスを手配：声明",
         "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxOVU93MkltN3NIdXliRjNYVW1ERFJEQVRxWDZ3S2luVGxHMzROTTRwWHhpN1g0WmZzYkpZRXlSakljUkhVVjVrRWZjc1I3Y3g0MF9ubzlwZFR5d2swR0lkMzBSMEFQcEhBZlZncjZ6NUZWOUlsbE4xNDhkWl8zVFc1YXhqa0ozcWlEbzZPcnFCX3RxSTdfMWU5cTlfaF9WWDNKSk8ybTlhNU1nYUZfNjBpTnF0R0ZxYnFmeUtvVUg5Qmo5dFRsY1JlcWNnblc2WjBFNGlZMFlNUTVrM3oydzFMUUh2MnJQR1NJSWI0dHpmRU9zbnlwU3E1aUZVbTc4QUl6bmYta3dKNFloMDBUSXlEYl9xYnkxSHRET0FpTmQzbklpemhuSmMweFJxcWUxNDc4UkhYZTFBZllfVER3bE1DdkZMRWFFLWpUR1BaUU1JTlRYM0ZPTjE3cDhuT09faTF0UzNjSnU5QnNWMGQ0TEdlbUdUczY0T0pkWVRMcDRiaXc1RVhwSndtTGo5NktoVmJZ?oc=5",
         "date": "2026-10-11T21:46",
         "source": "アラブニュース",
         "category": "政治"
+      },
+      {
+        "title": "10日、サウジアラビアのリヤド（キング・ハリド）国際空港に駆けつけた救急車（ソーシャルメディアから、ロイター＝共同） - サウジ空港にミサイル攻撃、300人超死傷 新イラン武装組織フーシ派実行か、米は「介入検討」 - 写真・画像(1/3)｜【西日本新聞me】",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB2b2YtSmhtU3JhTDk3OEpmZ1lGOTNNTG9lVERZVGwtUWZndW9KR3ROQ2pkY1h5WjVMbEV3cXZDamxRcldydjBFYjlLWjVPcE5SeHZjbEpsdw?oc=5",
+        "date": "2026-10-11T21:21",
+        "source": "西日本新聞me",
+        "category": "社会"
       },
       {
         "title": "フーシ派 リヤドの国際空港攻撃と主張 緊張高まり懸念",
@@ -321,34 +349,6 @@
         "date": "2026-10-11T12:56",
         "source": "アラブニュース",
         "category": "政治"
-      },
-      {
-        "title": "日本代表・森保一監督がサウジアラビア情勢不穏のアジア杯開催に言及「大会がどうなっていくのだろう」",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4xSWtCS01jMXQ4WTR3WmVHbkE5Xy1jZzY2NHgtZ1BGcG5xZUFkcUtFWC1IcEVWeDBiNkJtR1BGVGd2eFlvWDVyRF82QVZUTVA1OWNSeUt5bzkzakFhNWZ5Nl9B?oc=5",
-        "date": "2026-10-11T10:01",
-        "source": "スポーツ報知",
-        "category": "スポーツ"
-      },
-      {
-        "title": "サウジ首都の空港にフーシの攻撃、12人死亡 トランプ氏、攻撃への参加検討",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5QeVZQcE1kbEpWSDZWRGpjd2dudXltLTFxV2pVallESDNTbExEOFlpdm1nM3hraXR4STZUY3duMzM0Q2Jrc1JIV201U2E1Tmw1ZXYw?oc=5",
-        "date": "2026-10-11T08:01",
-        "source": "CNN.co.jp",
-        "category": "政治"
-      },
-      {
-        "title": "森保ジャパンへの影響は… サウジアラビア首都の空港にミサイル攻撃、12人死亡300人以上負傷 2027年1月にはサッカーアジア杯開催（中日スポーツ）",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJQTN2TndCM1RCdDJRVnlEaFZycVRvNDFVVDh2ZmlyS0VGSHVZSk5CWXF1ZXJBdVBpM3R6RWVYUG94LWVPVEh2QUhhMDY2Nkd1UHhscmk5ZWZqOWFoUEZnYTBIUUZFNl9QNFktcEozTnVRYzAzWjh0aEVRblFqVWs?oc=5",
-        "date": "2026-10-11T04:00",
-        "source": "Yahoo!ニュース",
-        "category": "スポーツ"
-      },
-      {
-        "title": "森保ジャパンへの影響は… サウジアラビア首都の空港にミサイル攻撃、12人死亡300人以上負傷 2027年1月にはサッカーアジア杯開催",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZy15am15bnlXNmlrUzFRUUE2S01CZnM4WVJCaW9pY0NvTUhrVGVzNktpZklCSkI5ZVZGV1NkeG9ibkk4bTNWVmtlMnhjdVk0QU1QaGVYbktWSGZCaHRVZzBUM1Brd19heXVvcWFqdzFibG1SQi1OVVNmQXlVLTVzVkVRSk5oUnhQYm1OcXRjaUo0enVPM0pKTUdvU04taFYyVGdOczdlVVNPZXRnOTFiUmNvVGdkY3U4d29QRGMwRDFCdUtjWmNLQXNad2LSAXxBVV95cUxQV2tlM0g4cDNiV1hVV3J0TTVialFzV2RIM0JHM29ERE11OXRObTRwYmxxdGdvU2YyUWl2eDRXRk5tMFBCUGxudUpkNkFrTDVmblUwVTR1NVMtbldhM2hWeksxdzQyN0VxQWJrTjMzZXlyNmdOSmRNNi1QMWdO?oc=5",
-        "date": "2026-10-11T03:47",
-        "source": "ｄメニューニュース",
-        "category": "スポーツ"
       }
     ]
   }
