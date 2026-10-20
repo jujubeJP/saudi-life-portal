@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-10-20T18:15:22.051481+03:00",
+  "lastCollected": "2026-10-20T22:45:00.044598+03:00",
   "security": {
-    "lastUpdated": "2026-10-20T18:15:22.051481+03:00",
+    "lastUpdated": "2026-10-20T22:45:00.044598+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -31,7 +31,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-10-20T18:15:22.051481+03:00",
+    "lastUpdated": "2026-10-20T22:45:00.044598+03:00",
     "items": [
       {
         "title": "消費税免税制度について（リファンド方式への移行のお知らせ）",
@@ -46,7 +46,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101086223.pdf",
         "date": "2026-09-13",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": false
       },
       {
@@ -116,8 +116,29 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-10-20T18:15:22.051481+03:00",
+    "lastUpdated": "2026-10-20T22:45:00.044598+03:00",
     "items": [
+      {
+        "title": "エジプト、イラン支援の親イラン勢力からの攻撃に対抗するためサウジアラビアへの部隊派遣を検討",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQnBseUk4Z2l4ZVktb05vMndPN1E1MGkxUTJwLVIydTRGRDVCV1FYcTc5Sm0zT0pMSi1LOGFJLVhlVUNVZnpqdmtvVGJjUExUell0U1BtdGhJeXYtN29WMXZRNnRzRmtXT0twbWtPQndKM1U0YXZFaTcxemoxN1lOV3Nn?oc=5",
+        "date": "2026-10-20T16:54",
+        "source": "CBS News",
+        "category": "政治"
+      },
+      {
+        "title": "トルコ、サウジアラビアとパキスタンとのメッカ防衛協定の批准に向け動く",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX0QwZHg2d1VQS19vTG1KNE96ODAxbEQ5ZU9Vc0hZcEkzaDJBcmh2YWtJb0lIRXdnUmdwb1JVeU5XNjZtUGVUY1N3UFpUVnlnR0NCU09wNWtfOGFVNjU4RE4zaTRudFltY25ZcXJqWU5vOFVIWmxQUXI3OTFBZnd1Y29ubjY0TjdSam9mUURfbHJCTFU5c29GM1dUcw?oc=5",
+        "date": "2026-10-20T16:52",
+        "source": "Al Jazeera",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアへの攻撃相次ぐ中、トルコがメッカ協定の批准を進める",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWVVGQzZ4dnZ6XzNFbU15VVUtUXlTNmtKMW5US3ZiZF9PVm1qZXMxVmtmV3cyb0V0eS1lZFNwMFJ1LWtqMjh2aFlRcFExS295YnJNemgxeS1HRE8zaHJDSXk4NWtGUW92WURlUzExWFVEUi1jM3hsYmx4c2ZJZnBEdUNSWWpDU2Y5N1YyYl9iMV91Um9WWFI3NlVqY1dabzFjWW5YNk5sa0dpby1qRnQ3YmIzbWY?oc=5",
+        "date": "2026-10-20T16:27",
+        "source": "Bloomberg.com",
+        "category": "政治"
+      },
       {
         "title": "フーシ派が難しい相手とされる理由",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORXZPaHBmRmRYS1pBanpqeUt5eXgzcDNuLUt3NDJpUmxpd0dnU2tXQ0l1aVRySnp0cU53VTRmbFZ6c2hPTTBZamtTLUtDWTJZc0E2SUpPV3ZXUTlMZmxSeV95SHpZUDBIMUg2WjR5NjlVWGxjdkJrUWFJNU1wT0l1ZmoteHVBUUdySVZ4enZWUUtJZEVnVjM5QkJjV3d1cHJpcjVDRll4SVpXX29BRzM3X3Zkb2k?oc=5",
@@ -128,9 +149,16 @@
       {
         "title": "サウジアラビア、メッカでの不適切な行為で バングラデシュ人夫婦を処刑",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTlRVcmE4b3U0eTByNS1rYW83SllvUkE1WGJyNkp2cDRtUnhRajdENG5Md3BybXNONGN5dDdXTnUtN3hYby1Pc1hqZHJmWEpBS0QxeEpDQkFOdC13LWhycG5LQjU4VlVBbThNZE53NkpmeEhOVXg1NGk0RjZ4WVhXSkdhUEtmZUxlbTlSWWx1UXJQa0o2VGRrdVlHRUlZa3BKcmk1TmZwVEJXM2RwT0lSUjhTNlo3Tnc?oc=5",
-        "date": "2026-10-20T13:50",
+        "date": "2026-10-20T14:45",
         "source": "The Times",
         "category": "社会"
+      },
+      {
+        "title": "英国、サウジアラビアの都市防衛へ戦闘機を派遣",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZmsyNnNFQVBvVWFyMnpzNU9sSVNUbEFfLTF0SUJXZEJXQnVBYXdySUhBQ0Jtazl0NWhwVkNXMmlaTUQyM2xUOThBV05mbm5ueURPbFVXRUhfT3dmejRTRzBTMVU3cExadk5YVDhJXzBJSnUxMVN5d0x5RUhUMXV4VEVzcmzSAYoBQVVfeXFMUDkyZUlrdk1hbGRxUHlUUnNzZk41akRCN1pZZk5yMUI3cWFlUkowSF9WbU5MR2dQNEhTaWFBcUFVTHVLTmgzXzUtdXlPekNZVENLTFo1a1JfeHB2Z3FEN1lKTkZpSUNCWnBUYU9fNXJDcHNfbzg1TzRaV3VUd0NSbllGYTNYVDd1LWtn?oc=5",
+        "date": "2026-10-20T12:23",
+        "source": "CNBC",
+        "category": "政治"
       },
       {
         "title": "サウジアラビア、「砂漠のダボス会議」を延期",
@@ -159,40 +187,40 @@
         "date": "2026-10-19T20:24",
         "source": "The Washington Post",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、バングラデシュ人2人を処刑　中東ニュース",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcVpZRGhZT3Y1emJqaU5GbHdkLXM2ckdNLU5ZQ0N6SmU0VVQydW4wMndGb2V1ZzMzRHViTVBtWlNlN0kxclFURFFobVQ2TDFySldKNGF5TktyT3ZpLU54Q1pUMk9qYjM2dWVweW9vdTFvV2NGQ0ZkR00zMmdXWkxlMkZ1ZE5ReFhjM0wybG9mT0dfMGtPZTczaGJINEp5LXJrbEFDWEpjd2h5OHpHdmZFNlk2UUpxQnc?oc=5",
-        "date": "2026-10-19T20:07",
-        "source": "AP News",
-        "category": "その他"
-      },
-      {
-        "title": "元OpenAI従業員による盗聴器埋め込み容疑 サウジアラビアの支援の可能性＝米検察",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN1EyODdFMHdNVDVJVW5YVW1rWE5YX042MFNLWldLeVJ1UFlydXJYQnB5YlNldDhNdURMRlRGYVZicEp3SkhEaEZ0eXQ2VUhkanA5QVhZeUIyRVg4dW4wbzhmblZvU01PX0hlUUp5YzJZZHBzT0FSemhVN2k1eXVycG1PcnR6TXBUSDZSUERsc3pEamlDR1FCUnRXZk5vaWJVZDVGd2VmNEd6MThaZ3FvcS13MXRIYlo5d1p4S2JYOA?oc=5",
-        "date": "2026-10-19T18:17",
-        "source": "Reuters",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア 少年期の犯罪で男性を処刑",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYkd5VVpLQVVRcldia1JwQkhmbW9EY1hiU2dSanlfWnYyaVBzLU04NDBKa0oyTDN6b3RMZU43QTJiYjg0dXozM1RSbHotTzduLU1PRWdmVjVZbV9WRy1tTVdZT19XaWhPc1otUWhMWFZYbFliNFVjdWVBTS1rRHJhRHBKejk4R2ZyMGpYYw?oc=5",
-        "date": "2026-10-19T18:15",
-        "source": "Human Rights Watch",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア、フーシ派の攻撃相次ぎ来週の「砂漠のダボス会議」中止を決定",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQjZHQ2NNTXM1Tlh3MHF1TDZxYUJmd2RBUi1tVU4tWkpsbnNvYi1FM0pOcWdrMjRqZHZET3JZRzZUSnd4Zy1KRW5GZEppNkREdjZROTRQeUdodXR2MjM3aHVtN3RxXzFGMHZqZksxZV9hZkUtcnNaR3FSRlptQU1aT1NRUU80VkRjZU1yNFE1dzlYQ05XZVJqZWlRcXE?oc=5",
-        "date": "2026-10-19T18:03",
-        "source": "CNN",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-10-20T18:15:22.051481+03:00",
+    "lastUpdated": "2026-10-20T22:45:00.044598+03:00",
     "items": [
+      {
+        "title": "サウジアラビア知的財産庁長官「新制度は知的財産権保護を強化し、知識経済の成長を支援」",
+        "url": "https://news.google.com/rss/articles/CBMi6wdBVV95cUxQaDZuSENPblczVnl4a3lFS19tS0tabms4cHZLVFV3VGl6Um9JbGlNMHB0V013QVM2NkxQWlpNVFBZRnJFTjhjeXFSVWc5VFdaMURDSF84MFpSNHRHY25VWUVCWF92eTU0dk5IWDg0MXE1QzF6OElieHVqWU1BTTUtRTBoR3Y3Ulh3U3VTckNiaktHTmZzSTcxVy1ZM1hSQlgyVk40dWNBc1AwMjQ2bGpkWWliZXdDZWM4X0Q2Ml83ajV0a2NBQ0dDYjV6UHRRak5wRE41d2JFR1pOWmtiRjZaX3Z4Vy1mU0FFazA1SGVMUzZyNXBVV3N0X09reXFMNUlfNThpaGtJWnRCVVZ3QnM4Nmh4UXZNLTlaODhvM2xaVkt5VUFESFk2dkVqcDJBY1Q3Yk1kMkQzU2tCUGZwdUZ6SlJENVVZd2k1Wko0UlN2cjhCVExEX3RQejdhUmRxMGRGVVE1UjV3c1h5WW1VSk44Y21HUnlhRFBZN1c2cS1RTmJadk1UYURIb3N5aTh0c3hsbzVqTUQ2bVFrYnNvTHZmUDlKWU5ISlZYNVJ6TTJqZU5WSGp4blZENWk1WFY0ay0yWGloZzhCRHFYenh1dXJEQUhaMGVyZ29tNGxFY24zVGVBNFExeml6amlxNWtIWlptMTdyblYtdGVldzJSWWpXQmd5TGM1ZEpZeFN4QUZmM0ZqVHZ1U2F2dElWREtQanNlZ1dnenF2SElxeEc2TmhPVEZXd2xKWjVvNTl0ZlJoc2x0MExvQ1VwNTFtTVd6ZHZWMHpVMlJ3di1jUWtyLUkxX1RHVUhmcWNXb2hwemlTN3pqMzhkalRFNW5KTWhuTnNmZHhoZnJmdmM2dE9wM1NHQjBhVjB0OXlVeS1udGtkVVRxMk1EbzBqZzBNZ0NOY05ub3BqQjFCXzR4VTAyTFpfajdzcXF3VGY5aXdGVjNPbTRjMHNaNFRhUFZTUDRJUW1aWnAyUWUtUDk2RUNjYjRjdGVWV0cyZi1qV0w0Rm1BeXBDREhJYzFsUzFtQzhVZ2ZvbllUZHZtaURwYkM4amFMUmNWMVlaQmo5VkZrQUpsODFxUVZDSHp0QUFZTWNSWXBlQlhidFZ5N25LeWwtQldEeExSSGNEM051UHpJR1NvSDdzTldqWXJ2MTg5S0FiaGUtUWFQOTZZbU42SHV3aFpqdEJwMXFFdjN1QWloZTYyVTZMUV9HbTlGSWRSM0VrWFQyNldGdEZsaFRrU0FTaFVkMXdCT1k5MWRWSFg1dVJZWWpYMnUxbkFQaDhveDlUNGR1b0lCQXZRUm1LYnVKdDFqaFJZaFpvVk5GTFVR?oc=5",
+        "date": "2026-10-20T19:12",
+        "source": "جريدة المدينة",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアの取り組みを評価 アラブ諸国の文化財保護基金設立を呼びかけ",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE8yWlZxVzBueGZnOWcxbmNjMzVMSldSTUxNLTJaUWtERXpsOFJNcmNrVEE0NXpyMFRwOEF1N2RYRzlCR2xLOUhN?oc=5",
+        "date": "2026-10-20T19:08",
+        "source": "جريدة الرياض",
+        "category": "文化"
+      },
+      {
+        "title": "英国、サウジアラビアへの防衛支援を拡大 フーシ派の脅威に対抗 【最新情報】",
+        "url": "https://news.google.com/rss/articles/CBMirwVBVV95cUxQU3FPNVVJNUU5UmJOeTF0WWVkekc1Zmd6QVVWX2tOa3ZPdTZJSzFDUFVVcE5MeXdUMk5VZmJRSlFKTGo3dURXaVVOM1J6M0p5OVVHY2VBMDlyNWp5c25mRE9wMnMyNml1aEJkXzZLTXRJT1lPMGhTd3JpVURYb1JWV2lvdld2TDNzeVg4d1hJTGNkZEViRHJQVUZVQm40QXJqYmRBcTgwcndCWTE3V0ltZTltVDJHZ0xjMmJBQlZwRDJCWXJWZmQtOEZZZ2JFS1pNcTZ3LWxnT3JxdFp4OGtKWHEydDBDY1RVdEY5VHBqVlFSRHhveE40Y0U0bERPOEh5VG5yYnVWMG1IOEZoLUxvejdULS1qQnZtbFNiNTZRdlZFdHVscDVhR2FleHRGb29fdndITHdXRkVmMnN6YUNpQmNiVlZmYUMtTnJJS2t1MHJIeGZKYnpuR09ibzd4SlN6MG5feXdqekh5ZDVQYmFuU2tCNDhfeVRrY0UzTnZ6UWJzWkoweGlTTFJYYlB4RkVEbVVFVFpJM1FLeXowV2d2am1sZjJtVkp5MzZWQ3VBVnMtcEp6NmJnSlhlbVA3bWtra24wZFQ5VjVDVXBQTzBObnZvUWJWWHNCWXJxZ2VjdGVTQm0tbVduQjVvYnpYdTZjMFpnLVBWcm85VmU2a3U1bUVxcElnZnRuZnpDVFpuV2xkTEhUZTNILUVfOVpELUZUbmZvMXNBdC1pU0JUZk1HTWtEUDBqajliWkhhaFBfcVhfd3RXUGNiWnc0RGZQYzYwWWE0N1pXb0hUQzl3MVJSWUo4OWtNWXV0LW1qanBTdmhuWWlpcHdaZUMzN0o3VFpWSmpLMTZva0dRN1FGT3dDVXl4aHZRTUFFTHB6TERoUXJ5VW9RaU8xT1lGd2N2dkk?oc=5",
+        "date": "2026-10-20T18:56",
+        "source": "الشرق الأوسط",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア知的財産庁長官 閣僚評議会が創造性と革新性を促進する4つの規制に承認",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBqODhleVEweUJSZ0tIbWdTcTJJX29EYzVpaW9ONDNpU1hpZk9iZGVVUUFnb1MyMzJ5QU9lODA4RHdscWZEdXc?oc=5",
+        "date": "2026-10-20T18:10",
+        "source": "وكالة الأنباء السعودية",
+        "category": "経済"
+      },
       {
         "title": "サウジアラビア環境副大臣、「サウジの田舎」プログラムの2032年末までの継続を決定した閣議決定に感謝",
         "url": "https://news.google.com/rss/articles/CBMiiwdBVV95cUxPaW1McUtmS2RrVkp3cW9VSFdFUVJnZ1JIMFFzMHhKQnAzSTNBeGJwamNKR2lrdkp2eEJIOS01NS1QdWUxd2NUdXQ2T1YzWXQ1Y2t1SEdRQncxU1ZGLXdQNEZ4RmpGUmNwaTlyYW9Rc2g1RDM4SERzeVh4d09IN0g1VEdwdXNLWE9IeVc3NFozNFJUSTNjMzY4WDdQLVRVMUlnTzVzaTRqMW4yWkhQM29aMndGODFuZjBuWHRSN0w2YUhuMEItRmJ2NkRhblUwNmVsZzlvWlFibFpHc0hPQ04yY29qN2pRTzJvaldlaUVNVnRkTm12bE5VMGFkSUYxZzlsa0NxU3Y3bHNVYXFvaExSTVU0VHV0d0lOc2Etdnpyc2FGcFZLUmVnR0EyUW1TREJmSy1BMmJYSnYwaVBwZUdlYm1HY0tCRHlFeWRkR3NQNlJlRTRTd2Flc0Y4bWxRdkt2UUx0a3hFNGg4VjhfN3pQTm1ISUpPNlkyWk44dzNzcy1IckNnZ0tSNDM3R3lwaXZkZ01ZbUo3WWN1VF9sQmJZT3NHTjBNd043Y1ItXzdQWUc4azFjWVRSUVdJZTJsdVBFeXVSLVhyTE1tcUZVeE9HUEs1aW03QzZ6R2czLVB4TzhRckZXWEt5M1cxNVpVd3pNLWU0ZWkwcENTOWNKWkhYZThOMUQzcXNHQ19BSUxuX09KeGpsejBNLXZqbnpXUGFtZ08xU2hWbUtLZGtnVVJZX0NIYk13T1NCcW1kbkxGcy12eUdRclZ1NFk0ZjdQWV9KTUg3dW84LUdMYzNsYnRQTFNHU0IwWEpjNjNwV29rSGlRbE1sZ3ROVWswNVhxaW9HUWhjT1NRRTlwbTFLclExMW1iQUY2WjFqX1hSRUpacXhtZ2Nwc0lVbEt4Sk9WZFhfZEhHUXYyaXpHeU4wWktHcWxITFdFaHJiTWkxNEZoblpzSkhvTGplQ29CZnJ2VGJ5UGlqaHhOdVRQRWNySHJHVWNnMjEteHo1YzFUMElmMW9YS0V6MktjNlBIY19qSWdEOThhS2JSODBiYUZ5UkVVdUl2UzRVd2otV2dZQ3hRNnBBTjFxdVBDRW4tYklyLUtTbHRoWUJiUzk2MWFobE93OVU2U01TMUZOdkxndjNMTkR3b2JWc0ZjQTl0azVqOExPQzctczRaR1dRdENURnE0MURuMWlRdnZTUlBN?oc=5",
@@ -229,50 +257,36 @@
         "category": "政治"
       },
       {
-        "title": "サウジアラビア株式市場が2021年4月以来の安値で終了",
-        "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxONHZvTmVYYWJtMm52US1QcERCTFVoeU5ZQUE5VklDYk96NnRleHpKTVMzWjlfRlg0ZHFIYmttT3B2V3haOVNOZ1pVM0cyYngwMHVQWS1QVlIzVU5mck5DZUJ5RzNfT05uV0xRdFY5LUZ2ZlhuX2IzZGlQNTQyLVFSNS1TaFFNbGhtdUhTZjFxUnZWUTNFeGtiSDJkcFlwWEtZNGtobklBOXpxZHBzVlNZOXJtVlZoUE9GZHc1SmxmVHlSN1JSbTFKUjdWendnQVpNU1dSczRzWG96bHFCU0hlUy14ekFsZC1WYXpUeEVfZ29EU0hVN0p3aE5Hd3VZLURCRnpXN216YnJqeVdzZFVQVHhNWTNwMjYzdi0tNjdsREkxcXFUOWNvejltUW1oNmtnM2h6TVFRRWtXaDNiei16MDZyT0phMnhqc1hCUEM0UWVfZVdqUG9YM2xRdVB4Nkx5cXhubmxEWFlPYVlRaS1hUWwyTEhSeVJCcU00ckplSWNQVEF4ZzByWEVIQjlrbFhSb19hNDZDNkV5cU0zZzJYMnpSWENmdDRi?oc=5",
-        "date": "2026-10-20T12:59",
-        "source": "الشرق الأوسط",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、リヤドに向かったフーシ派のミサイルを迎撃",
-        "url": "https://news.google.com/rss/articles/CBMinwNBVV95cUxOelRLaUtici1OYkxySTBtTUxJR3FNWmVZMTg1QTVpdmtncDhUamNqdWdCT1lsbUVaUzdPQjE2bUlUQ2FtWFdVWHV1R1pNWEhDUlI0My1WTTRvc0RtMExEaUg3bzhIRTV3amZqWS1uVjlna0hUNUprYWlwLUQ2WU04ZXpJbzVCbWxIYlhKY3Njc0k5eVk0aEJBUlhCMGtpQmxTUTNIdm82NzdwNHU1UGVXNGxPMDhqN2p5REVua3phY29zWlNNci1Fd2tCR0Nma3BpMGw0blRpcVBPbkUtZDJ1RVNjZ1RHb2xWc003OFQtSk5KTWdUVE5SMWhNQnE3RmhHTURmN01XSzYyR09xcWNQcEZzWnVRV1dsajVyVVVobEk5bW9PbmE3V2dIQjFESzhZYzFnd2lOaEpJamdNa1VTbEdRRUVkWVVGb29oTVVNNHFCUERqTWoyd2xwd1NEcVpJOTFjTHVGbEtyYnZWa0ZZYXNVQlYwZGhPWGhXRVFNcEwxdTdVREVqRU9teHMwckdvRnNYTXVDSFJBN1lVemE00gGkA0FVX3lxTE1MQkxYT1RENmp5bkNmTHA0MXZHY0FmUjR2eW5Sd285S2taUDV4U2NsLUFwWHlOOENkaXJDN19GQVh6bFRCQUhNNTZsWGVYckpkVExxM2pzeGRUTkUxbjZQT2ZrdWc5cEZXaEFkWVY5VldYMlZxR2M2LUNneUplcjU3NlVSakZKdGhWV2VDNWdkX1F5UGc2MTZDdTdkMHlpdFpVOHlkcFBia1lsUWxjcWphaE1LVjA0NEdXU2sya2FtYkNuQ05LQTNVcmlNQnhveFpSelRncnRpX001WlMtV0xpZ3lCaUc2NmIwQ1AtS2JrU3FwNERsYlVja1dQQXVMSE82bzlHX2F6TjUzZlBEaERkaEt2MG12a2kya01UMmlSSUJNSlh4X21sMmtYaW1GaEpPdGUybW1LRl93bjFEQnZEQ0wtd3hLWjhWc3o0aVBUTWRxYU5SZEhNWmM4UF9KREUwX19rY0FTcUtVWWgyVktoeUZhX01IUkc5SnROTTdxNG1mcnI5RDY2RDk5QV9pTnBNWkxoM3c3V1E0aW9hcDUwUDFwNQ?oc=5",
-        "date": "2026-10-20T09:08",
-        "source": "سكاي نيوز عربية",
+        "title": "閣議決定：海外派遣職員の付き添い者を教育使節団に統合",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9iUHNpTDBEU0ZBTWxGYVNRU0k2SENHemhxM1RUZEI3eEJRLVNEQXFwYUhCc1A5QjE1WHUxbnJVZFcwQm4zZ3ZuSDlGVFRpenFMdmfSAVRBVV95cUxQTVU0UzZOQm9DSXplTm1WbWtEUWxfMm1BVVpmQlNkLUVJRTFsSGZVamJrVDE4MnBhQU9UdG5UNVdfQUR3a2pIV1k3YWVrTmxhUGMwV3o?oc=5",
+        "date": "2026-10-20T13:22",
+        "source": "عكاظ",
         "category": "政治"
-      },
-      {
-        "title": "速報 サウジアラビア：連合軍がフーシ派が発射した弾道ミサイルをリヤド方向で迎撃",
-        "url": "https://news.google.com/rss/articles/CBMi5ARBVV95cUxOOFllcXRQX2lJREY2a0c0Uy14b1BOYk9xQVNleTBrT3k0MDlMRDZka2ZoejVIbmlObHpoUGJncC1JZmt2QWhYaFg4NVNmWjF5T0hlMU1MSW13YkthR1EzcnAxN0VFVmphcHhHVzZHLWNRV05ibHRzUV9FX3FySDJsdW9aRDZmR0Z5eXBLLTBVVG50MmZHREpvX2pHTWFVYThfNnUxTDkyQ08zam5FZFlsUkF1Rm1YZHo4Q2YzVnVZQ2tFbkRGdHB2ZFRsSXN4cXRxOXZjeFZPUmw5cnFOOHY1T082Z2o2ZG1qZldqeDhqd1A5SW9hUzBIMXJidmQ1ODBPeWhHa2VFZHA0M3dBaHpKbTY0dUxObTlmcEpjbDJTWVJYY3hpbWoyLWhIVVJiNmVhUktuRDFadWxMRV9SeTFFaTVlUkxaendIaHQ2MWlvdkR0ZkFyWXBhcDE0MU5tOGx2d3IweUI2T3E3ZFhTREVnRlBqOXgydUZLVkhiRG5wWVhvTmduOG9iYkZUSFQ4Tldjd3lmYkpaZVVOYzJ1a3JyOTEyYTJpODEtZlVia0ZRY2o4M0NxWXRNaElDMzZ3cWdHV25PTXUzYVZIaVVDRjVoVGdBZHBvZUtBTzhxTWtqdkE0TlpRRFRXVkExREFUMzE1eXF0VmYycU1DQkN6UDQxa2hyNzZjZHVTMmFLbWNIMEdDUVVuOG4zdGQ5ODY3eklqY0FiOVhNdzljQXNyZVh3RzZsaW8zMkl4bFdnbkJITk5GX0JxNUxLWW9WeE9WSmJPN3NESVdFaVA2QzV4X0luOVVZRjE?oc=5",
-        "date": "2026-10-20T08:22",
-        "source": "France 24",
-        "category": "政治"
-      },
-      {
-        "title": "カタール首長がサウジアラビア国王に親書を送付",
-        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQOW1GSUUtT0l3N2prNzliVGtpdGpFM3NCVzA4QlJrd1lFM3Rmek1aU1BOcFlPVGpRVHdaMER3VlUzOHh0SmZEejJhb0Q2U2ZWSVNrcm94RTdrYVdBcmNSV2pYME5iWURQUXFiU05KbC1CNlhieXZtdzFSaTk1LXdDYlZtc2JTSG5mSWFzeUhndWgwbUZReHFaT2kwUmZqYk9oU2kwMHotb3BuaDNiamRnZS16U1VJTVdLWkZhdDJiOExjWGRkRnRsbTBwNUhNa0hNX09KQXYwa1gtX3dXbmN6cU02QUFzYkFwWmw1OXZFbVpReEktX0FTTF9jUmJ6Tm9GTVFFOXRmUUdLX1Nldk9iem1TLVJrY21uSEhrVGJybnpnYlh0U216ZGNmZTc?oc=5",
-        "date": "2026-10-19T20:16",
-        "source": "الجزيرة نت",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、フーシ派の攻撃を受け投資イニシアティブフォーラムを延期",
-        "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxQQmZZZVgxWkRORnBqUTJxMHlJUFczNXJsZkRzQ3NWNEZmQjZmMmtHVDlGN2dhUEhUU0h2YUdNQS1GVkpRWERob0ZfR2owMXNOSEdZRnlvTnJLTDB2b29CTHB6ZXFyeHhjWEs1Ty1OLUQ3eGI4V2pYNUJxeGllZmsyMW8tRjFQT1JhRjNaQkpLajNFb1k4UG5kNVBPVWN6VDk0TUxWeXY1T0txcWduUTVxQzRRdUdMU0tYVEJ0UnI5RFYyM3ZZNjM5amFLMjhuS01aV19vUjZIWTdaLUdsOXZLLXh4Zy1ib0lFUENBTTgwelp6bHhyTWZYSXlDRENiR2hsT08xa0YzWFhydjdFZHJaRV9LeE5Cak15S3kwdlRSd0JOZW5QbXF0eHlyaWpGTE5Wci10YjFSZ09xU2M2dTQzcWQzNmZySHBlNDBhQURWUU5qTHo2M2VtNnJXdTFPTUxiUmdXSmN3WDJnZjZuc1p3MGdkV2NKc0ZDY3dmNThpZ3VDOEdjNjA3S3ltUFB4bGZfdW45TWlkNmhtbTQyQ0J4V0FmdVJLNW5rdnFiRmZzNGw1bV9FTjd4NmEzSmNURGJIcUh4azUwemdfWmtSenlmQ3JtOG9mUkNXUjUwaFNfa0VGZ2c2RVNyZGZwMlJVUQ?oc=5",
-        "date": "2026-10-19T20:03",
-        "source": "DW.com",
-        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-10-20T18:15:22.051481+03:00",
+    "lastUpdated": "2026-10-20T22:45:00.044598+03:00",
     "items": [
+      {
+        "title": "サウジアラビアRC勝ちアゴルディーノなど33頭が中舘英二厩舎から転厩",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1laXJnY1ZLLXNkSWQ5clV4M3NrX3NLM3Q1ckZuY1JGaUR6RG5PQ1FwaTR0MUwwR3h0MVlfVFZGM2xWaTNKSzMydmJFVG1QUkEzX25ULXB0eWxrYVRHc1dZ?oc=5",
+        "date": "2026-10-20T09:12",
+        "source": "netkeiba",
+        "category": "スポーツ"
+      },
       {
         "title": "サウジアラビアＲＣ勝ちアゴルディーノなど３３頭が中舘英二厩舎から転厩",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DNGdlZUxzSzRrLVZ4bHFoNWtjbFE2WklhQkJzYzNWNUo5RTB5dEFlbFpRTDQ1U0RQYXdDVnBxSUJkNGUybjU3U2g0SHRtSE5IdGR4MEtoa25fUTVpRV81WkFZT0JzQnJydi1ubTlB?oc=5",
         "date": "2026-10-20T09:12",
         "source": "UMATOKU",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビアRCを制したアゴルディーノが三樹祐輔厩舎に転厩へ 中舘英二厩舎への臨時貸付期間満了により",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UMHF1VE5zNERCT0NGdjIwS3MtRWYzS1QwTHBlc09wSXYwWlJud0dqVHdQdkdSUWFIX2tYejVXZG5rT0VOeEFzd202aFlUVlFYVDUySw?oc=5",
+        "date": "2026-10-20T08:39",
+        "source": "東スポ競馬",
         "category": "スポーツ"
       },
       {
@@ -287,7 +301,7 @@
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3c2tUdmtJWXhOYk1oY1JTSHBIaWtHWHI5UjYzVkRPNThRbkhoVGluZkRib2lMTGw1OWlEelpfODdpbkhOYzdkU2w4Tjc0OVlicU91R1Z5SFJwWEYzY2VwSzBXaw?oc=5",
         "date": "2026-10-20T07:25",
         "source": "時事ドットコム",
-        "category": "社会"
+        "category": "経済"
       },
       {
         "title": "OpenAI盗聴事件、捕まった元従業員はサウジアラビアの独自AI開発に参加予定だったことが裁判資料で判明",
@@ -308,7 +322,7 @@
         "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQTDk5di13SFZ2ZHZ5Q1Zub2dINTdvbmlmOXd1NFFKcW1RYlVpWFVmbzlGY0MzUW9iUWtwSGhQbGUtUndsM1JJQll5dXpfRnFtVVFnc3R0SkgtaGhTQ2VyZEJBczBOOXY1MDhfTFd3WXFrR1hpR1ZOMkpjZVk0VExxWlpRSnlVaFFXYlh6YzZDdkZ1YU5HMm1sU21mWUU1NnhpcXBlWU1NNjVBVFVYcUVQa3R0Q0dFSzMyUkk1YTJPVGhrbzd3NTZncV96Q3J3ZVpqOUNmd2c0eE1ETHotMFBRX3ZfTHpaUdIBlgFBVV95cUxNU3JwekxFcjVtdUtrcER2WFRPM1dtNDE2Yld0VjBQMTZYSlgxWHZtaDFVMzJpWklORlZBTlJNcDJFdWxtNVNwY2FVa29VSzJfSU9yTDZiRG5GRXpPeGtyd0xaYUtCSDBJaW5ZS0FsMGo2cHF1YVhPWFRObjUzZFZnejRkR1FwXzI2SkFkZl80UC1tZmpHaUE?oc=5",
         "date": "2026-10-20T03:00",
         "source": "ｄメニューニュース",
-        "category": "スポーツ"
+        "category": "社会"
       },
       {
         "title": "サウジアラビアで適正な頭蓋健診とヘルメット治療を開始、日・サウジの継続的な診療・教育連携体制を構築 ―現地の小児脳神経外科医が診療を担い、日本の専門医が教育・症例検討を継続支援―",
@@ -323,20 +337,6 @@
         "date": "2026-10-20T00:18",
         "source": "毎日新聞",
         "category": "政治"
-      },
-      {
-        "title": "【グラフィック】中東戦争以降のサウジアラビアの原油輸出および韓日両国の輸入増減率",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kMkdVRWNrQ2dOWXo4UnhUTm9iREJDRFpnLUN6dFdHVzhJSUhsN2JhdU80amVrNHp6dV9RS0pVV1VtNE1DdE4tWGhfRHE3NEVtb0xzRmxXdUhxTkVidzZ1YlB1RXpkcklRTWlRVk9FUHVWYk1NNGM0?oc=5",
-        "date": "2026-10-19T23:30",
-        "source": "中央日報",
-        "category": "経済"
-      },
-      {
-        "title": "アジア杯 開催危機 通常開催か延期かの2択 11月の理事会で決定へ サウジの情勢不安影響（スポニチアネックス）",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CVTBJWnZoZHhvQVpDVUtJajBFWHhhTFJNeXc5OXBPTE5SS0gyQmVuMHhtZXZXM3QyazVvTkVxRW1VUWdvQW5IdVJJZHZUaktQcTkxYThTaUxCVXhPSVY2WFJLVTNTQmd2V2JhNE5QMHQ5dmNQd3U1dWNkUzg1SUk?oc=5",
-        "date": "2026-10-19T19:41",
-        "source": "Yahoo!ニュース",
-        "category": "スポーツ"
       }
     ]
   }
