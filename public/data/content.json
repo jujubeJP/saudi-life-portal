@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-10-22T18:27:16.548850+03:00",
+  "lastCollected": "2026-10-22T22:38:27.467666+03:00",
   "security": {
-    "lastUpdated": "2026-10-22T18:27:16.548850+03:00",
+    "lastUpdated": "2026-10-22T22:38:27.467666+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -35,7 +35,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-10-22T18:27:16.548850+03:00",
+    "lastUpdated": "2026-10-22T22:38:27.467666+03:00",
     "items": [
       {
         "title": "消費税免税制度について（リファンド方式への移行のお知らせ）",
@@ -114,19 +114,61 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/100995068.pdf",
         "date": "2026-03-16",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": true
       }
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-10-22T18:27:16.548850+03:00",
+    "lastUpdated": "2026-10-22T22:38:27.467666+03:00",
     "items": [
       {
-        "title": "サウジアラビアとUAEが混乱を招いている",
+        "title": "紛争下のサウジアラビアで格闘技イベント開催は適切か、懸念の声",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRlFlZEhVeS1lSHVpWmlGMTRPa21YZ1ktSm05b3RaZHN4Zl9iRGdSaWx5WnpCUVFYSEJBRU1obnc2ODZBcDk4RVNXWmp6RURWam1yQlVjQkFtck0tdjF3RVhHRWtMNVJSXzlhbkF5bkNhemR6Q29zQ0prUThoX1dkNnREZnU5SWR0aUZyTWFIWVcxRVBqaFVDVUFWc3B1TmZ3anJyN183c3R1OWxzelJGTEx6bncxZjY2QTVrOVV4NDV3MFlGYWZXZ2RlN3JPb2ZUak1SXy1sRVBFV3kxRXc?oc=5",
+        "date": "2026-10-22T19:23",
+        "source": "Yahoo Sports",
+        "category": "社会"
+      },
+      {
+        "title": "米国がサウジアラビアから外交官を撤退、イラン情勢の緊迫化を懸念",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX3JLbnNxZjlncjJjcnR4Wm4tUW1Oa0tQMkVFeG5Qcy1hU0Y1N1hlYW1lc3pMNzk1d21ZOGdhMThzZGc5WnI2dTNDY08ydk4xUHdqOVNKTGhUS3B1WDZETWwyMUVzMmd4NHdMSEsxdkhmWEEtWjVkVkZ0TDViVk5hYmlqOG9Gd0xpRHBUN3hKYUtPaFplT3ZMWklFWDNfalk4RlFlUUswaWQ5SUhq?oc=5",
+        "date": "2026-10-22T19:20",
+        "source": "The Times",
+        "category": "政治"
+      },
+      {
+        "title": "米国、フーシ派の攻撃を受けサウジアラビアの一部外交官に退避を指示",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOGZ2VEpSaUZoaWQwZHVVek1fYUJpT25DU2RIaU5mWWFVTkJZa3p1bTRXZHE1SlRTb2pMS3pOZEVKQU10MkpSeHNfY0h1Ul9PdGYxdFNvTzBWQWVidnJfTTJYUC12NjM3S01namtXWmVjcll5elY5ODVIVXlKejNKbWZ1d2xPS0YxOG9EcUdFb0hxYlBhWHBRSkJkWkhTU2pqT3ZPdFNyT3dYMTBsRm83d2Rn?oc=5",
+        "date": "2026-10-22T18:43",
+        "source": "The Washington Post",
+        "category": "政治"
+      },
+      {
+        "title": "フーシ派が インド人14人をヨットから救出したと主張 インドは支援を検討",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZFRaZjNfSlhNR3VGTWpval80eFVhYm9oN19KYnNmTkpwank2cWlMLUdFTWNlTXZHMXllWHNGTFJ5ZFZRcUxZcVFoTXNwNzZtSDRfaTY0RTVQVTk3OHMydjZMOWNlam9CVk4xNWg5QVR4U2xjN25kUGtSZjc5UGdCQ0RVYjZPNkVpWWdLZ09WdDRiWTFSYVR5ZU53QXdPZzBHRzhyRmQzNW5GVnRmcU1ka01qMlFYUdIBvgFBVV95cUxPVk1XTzJ3RHVnVjh5REViTE4xbGkxY1ViLVE4N3Zvc2JLaF9lVU10cGF0a2JLQXh6a1RjNERubWhKQTJyNnpvTG0zd2M2ZlVqQmhDNnpBaDhQWFBFTndud3VBanhfakZYbXRqblVjWW95eTY2YlVXVmZIUXJDdUNMSmhvVFlGeWE0M296YjBSMk9maDRxT1VRZ0lSUlBPSFpBQlJiQnRJeUE4Tl93bngtN01jZk9XRHlnb2VxMFV3?oc=5",
+        "date": "2026-10-22T18:35",
+        "source": "NDTV",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビアとUAE、中東情勢の不安定化を招く",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTV9vVmw0NVh0b1dwODZOd0hYbjRubFR2b1loMU1UcXJxV3M0NjgyZkNRVWx6Zm5kNk5zQUhNRzcwcFNnN3oyaTFxdUplT0tqU3BzQUlwc0MyZi1jc09IR2xUbk05VVdLaGU0NHNNZ0VwaGJlTUt1aTRrVjJzLVgyUEpyV3gwSnNWOEo4Ukp2VQ?oc=5",
         "date": "2026-10-22T12:59",
         "source": "The Economist",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアへの攻撃とイラン関連リスクで原油価格が2%以上値上がり",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjRlQlhGVEJPT2JaeEpGWkxTZFVEdnpuMUxLRUZhUU1EY09ZcnJMaFlZNmdUbHkwdlBpcURmeHpZXzl1c1Z4WW94YmtMNTJ2N0paSlQtNXJ2eGVfam4tdW5NekpScjdYLU1RSzVGRTJqN3hCT3NOWnNmNGZpYjEwemo3ejBfOTU2ODFoMWtFX1hWS3RHZU9lcm93anl4UUczODQyd1hrUVc4VHQ5ZEpPay1SWGhWbW9YdFFPVmZWd3ZwNmhV?oc=5",
+        "date": "2026-10-22T12:51",
+        "source": "WSJ",
+        "category": "経済"
+      },
+      {
+        "title": "イラン、攻撃的な軍事方針を表明 米国は警戒態勢へ",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYWoydmRWR3hfaGxNdFNTVU5hcGhtckhXVFI1d3RyLU1BS3JPaDRma29uWktuQURIQ2xqMlRFMmFCeEJranpybUZhWHlkSjktc3p2TUtvckF3ZUNMVzZlRDhIYk14YzBFc0ZxUmVmd1E5bmVHTDhOLXNPTkhzZ1VoXzNtWk9pdDhWcUNKMGhaV3BDSFZVUlNLME9WSG1ZTFVwSnV4SkZpU1LSAa4BQVVfeXFMTVZwTlRtcW1DZ3BLaDNPRUhXV0RFTFJiUktZRVRxcG1BZTg5c2dFYW1jWU96WlB0U2RzVkxhblhDcU9yNGpwNlc2OFRjYnJSblYwWS01dlZfbU5aWk92M0dzOVd1bWV2UUE3U0x1dWxxOGthbkZJRDJ2MUJTRHk0SldTQ01UbldwWVZrRG40Q2M2S3RsME9SZTVaZ1JuOHJZeXZjd0h0NHJUN3MyeU9R?oc=5",
+        "date": "2026-10-22T12:15",
+        "source": "Al Jazeera",
         "category": "政治"
       },
       {
@@ -137,7 +179,7 @@
         "category": "スポーツ"
       },
       {
-        "title": "トランプ大統領がイラン交渉否定、ブレント油が112ドル突破",
+        "title": "トランプ大統領がイラン対応を示唆、米国がサウジアラビアから職員撤出を命令 ブレント油が111ドルを突破",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUjhnTDQ4QTM5cWtlRjN1MXFlOU5yQVlVd3F0M0pDNExkV29mV1duQUpSUjFiaXFuajRkNHRSc1EtaTBzemJOUElXbDhYUTRnSWlrdm1TRUxtQXEwdjM3blp5QnlVOFZJWnAyYjY1dTRwX3UycVZoMHJIWFZaUEZJNnRn0gGHAUFVX3lxTFBBRTI0YmhMaFkybjlPdGczT3I3cVlXX2xLcktrcjJEUVNueUY3QmNldksyRjFaWGtvUm1KUjVua2VibWMxcU5FWHpBakZCSWt2MXhUM0ZYd1FJeE1sLUtwREJ2Y1lldkxOdXZ6UGFqS2pwUksxZS1YLU1XUFNsTzBBMUJwRXAydw?oc=5",
         "date": "2026-10-22T05:12",
         "source": "CNBC",
@@ -149,54 +191,54 @@
         "date": "2026-10-22T01:06",
         "source": "WSJ",
         "category": "社会"
-      },
-      {
-        "title": "トルコ、パキスタン、サウジアラビアの防衛協定の仕組み",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMnJyYTZ2NXBaVGJRX1Q4eFB0VDgyX0tNSU1NazFUUExVUmd2U3RXdzZFa0JlenBGZUNvMWtuNlRIM01PclQxbmVJR1g4QW9lemw2VV8yakl2a0p1QWItbXg3Yk1ROVdtZGxaOU9KRVQyNHFsOTkyN3F3TENMSV9NSlQ4WnFpYVJmMGxJMndSQW9taWkxV2ZGLVFxVWk1MzlEcmJYWXFsc2thSE1hMng5ejdGdENaUQ?oc=5",
-        "date": "2026-10-22T00:39",
-        "source": "AP News",
-        "category": "政治"
-      },
-      {
-        "title": "米国、サウジアラビアの全大使館職員と家族に退避を指示",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbWxNdG5URnIyZWNldmlLeHBJUlNfQ05WNVFCN1UwRG9hRTJOSjlHMXg0NXZjaHdMS1p1Y05qWU5XOUR0cF9MZDJ5RGx3dFRlSTBYNUFIcURNRXdhM2ZURUxUWm9TUFBEa3hNYUt2MXpmSi1fV1VLY0dsanlXYVRRN0hoeXVjM21kQ2JoenRnOTVzR1pNYW9mQU0yQ2lRNVVURlI0dnRBa0hZMW1idTZYOWYwU3htTHd4djJpLU81NA?oc=5",
-        "date": "2026-10-21T19:28",
-        "source": "The Times of Israel",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア勢によるEA買収、BioWareが初の大型人員削減の対象に",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQUY5akE3aEJCZ2J1RFlqeWxsek1pc2dtNEVOUVZZR1dfZElXZ2h4YlFUMHM1d2pJSFBLc1A2LURiLVlONl8wMExRVzZtaExyb2VMQUEyTFltbFR4a2lHajBHRWNEaXZzWHFnZzlORHYzcndZWWxNRVo4MWdTYy02ZFZhak5VaHlVd0VmMVY2NA?oc=5",
-        "date": "2026-10-21T19:24",
-        "source": "Defector",
-        "category": "経済"
-      },
-      {
-        "title": "速報：フーシ派の攻撃激化で米国がサウジアラビアの外交官に退避命令",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONDg0WFNBeGFxeHpUVUsya2RYd0k3XzF6bXU3eGpZVnh2T25MWHVsQzVrbE9PNEdaWnpfN1dmRmtxajMtbl8yZ29EWUxYaXAxcnkxcFN1NEVDLVE3bUtkR0NwZDVPN2haVXFERXRUeHRnQ2QyVDhVdjBNa2FIUFVDOWFicGJOQVVWR0JFMnZSM0NLV09nZHk5UzA2LTgtbmFEVnlYZDI1Uk9ic1hyLTZ0Z2NKbWI5QWgtWWE3ZzV4eE11bmpCcGstTFAzQnVGUQ?oc=5",
-        "date": "2026-10-21T18:58",
-        "source": "Reuters",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアの原子力計画、政体変化後の継続を想定した対策が必要",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUVFhSlpzdmlfUWNZMGxvZm83YTEzZTk4aGtheFV5MW9mRERqS3ZHQjhGc2FsZ0NvQ292Wkw0c1hjTVplX2IySHNWSHdZbHR6NlBIRGpkMVVqOVBTcmI2emdBUmo4bkx1Mm9meHlRMFotSTEyTWdNSy1QT0lsT1NZQXl3Ti04RDJWdU5lcThsdmNVcVo5c09QdXN0R09RQ2FaMXN1MHYxaVVYSngxRFEtVFBoTWU3Zw?oc=5",
-        "date": "2026-10-21T18:38",
-        "source": "Breaking Defense",
-        "category": "政治"
-      },
-      {
-        "title": "UFC サウジアラビア大会に有望なウェルター級選手が追加",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQm5iTHNyV0dRNTMwTGZTRkVnT191QlBkLU40T2stWGJROFZhRmpIVVI3dVdRY2d1c3pBVG5KeTVXXzkzMGxLaDhDN2FkYUpleTFVeWtFQW9JdHo5QUZqalJiZUJuOFEza3JfclVIQ0p1dXNEelIxeVE4V21SRklEd1drdlB0RmNZcUFCUXY3UGtKQQ?oc=5",
-        "date": "2026-10-21T17:50",
-        "source": "Yahoo Sports",
-        "category": "スポーツ"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-10-22T18:27:16.548850+03:00",
+    "lastUpdated": "2026-10-22T22:38:27.467666+03:00",
     "items": [
+      {
+        "title": "サウジアラビア食品医薬品庁が13地域の郷土料理130品を食品成分表に登録",
+        "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE0zTjExbXFza2NFUWtJaUJ4YW02RkMxeWNCTktOZ0JUWUNNUWxNbEM5SzN3OW5SWmVJOWFVSUhfemFmaGxT?oc=5",
+        "date": "2026-10-22T19:07",
+        "source": "عاجل",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビアとカザフスタン、腐敗防止と越境犯罪対策で覚書に調印",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBSmx6am1zUFA2Q3djcXlJcU42QUR4cjYydWdCSk01M214aTJ5bWNUZy03VVhCeS03dGhPUEx6X2tFcHo5OUdPdjY0eURrV2w3SlHSAVRBVV95cUxOZTB6UUI2SkxHYVI1NTM0eHEyRlBIM3JXUnN0bnJyR0U5aXM3eEdVdkJNMzZXbjJYS29hRkdndGdDUkxjeS0xUlJwcXBRSjJ5SEZ3UjU?oc=5",
+        "date": "2026-10-22T18:45",
+        "source": "عكاظ",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、ナジラン州を狙った弾道ミサイルを撃墜・破壊",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNeXFHOHZUWlZpTUxmSHprQWU4SVFyN09vZ2h3ME9UMlplNHFPZzhVelNBOHVkd2tfOVlTYXY3S2pXaU9YdjI4c21QNFlQSU51cDJlNGJnSVJja3JNbGdIY3g0TW9Ub3VsckdsdkJIUEfSAYsBQVVfeXFMT0xTSnFZWXpaVGhSaGxpZVQ0OWRKR3NkRnRGRVVxaTBueUwxTVVfa3hhU2xEX0Rzel96RC11SkhiZmYxaEZORjNiY1ZvNjRnLXJObGNUbVAyV3V1SFpTXzRpbmJZRkFWc04tSjlzLVlfMmVsS0Z6YjllX3ZnbTNvVXhsX0FhZ2lURnI3dw?oc=5",
+        "date": "2026-10-22T18:41",
+        "source": "الإمارات اليوم",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、キプロスとドイツとホルムズ海峡とバブ・エル・マンデブ海峡の航行安全確保を協議",
+        "url": "https://news.google.com/rss/articles/CBMilwRBVV95cUxNMElXN1RHd1lPVkEtZGd6YWlQM1ZLeXEzUHpNUWpyOEpGNjZBR2IxMUljcUc2aUI1RGVTUGVCMk1jVzcwQ0o0dlBVNkhnd2stN1diQ25DNU8xNUtpZmhRdWdfQXJ0eGtSaXRUbHNQQ0J3eHg5enJqNnhETzAxcVVuMXZYNUlmU0d2ejY2NEswN3dTZEVpdFNuWkhzaTZ1elVOMDNWR2lmSmFJN2tlM2wyRWtCdm9GWFYzVjNHNVZPMndNd0dEX29RV0tYWWhtRGpwTWNWTzlZUmY4WHY4akJUYUlpd0MyUXFGeXIwZmVtTFlpX1gwVDUxc3RPcG9wT0EzdlFHZEtMdVBfdm0tQWtjWXZWNEZoWlJTNkJab2hmLWlFRFNCUjlKWGhBRURHT2czc3liSnV2dzEzYjFTYkh0bWNMWUNZZHlMRTNuTDRySVMwQVBVVzlwTzBEdzdjRVlpWXdLbUJBWEtSYjNDeVE1ZnpMLXBEX0VZVnI4eUtxb3QxTDVyUHVSbHlzbVVidFF6LVY1Mm9lYU5KOHdrSkItODdXR1VYNzY0a0hyV1huV3FGTTJnVmlmbVNrT0lBa2t3QlJhUHhWLUcwTlVfWV9OLWNuQTZaTXZ4NEhfNVZ6SEpYOVh3N1E4cE1wc0N1WEMtUzRyVENqYVk3UmxvUDhSZWhoQVpRTkdFNzM0ckUzTElfWUZWUlQ0?oc=5",
+        "date": "2026-10-22T18:22",
+        "source": "الشرق بلومبرغ",
+        "category": "政治"
+      },
+      {
+        "title": "イエメンの反政府勢力、サウジアラビアの防衛省を攻撃したと主張",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZdTFOVFh6emdUVnRELXdMb3JpQWl6TzlaMnI3Ykp6c3UzZHJaQ1pidmNuRDAwZy1aTjE3azE3WXRmOWRPbGtxa1g4VWowdWtzclFXWnIxeklhbXd4bUHSAWNBVV95cUxPQTVoZWNGSzUwN2piemEtbG56N0tvSHJodUdRXy1xRmJjVER4RUgtOEwwaGFYLXJDclN2Njg5elFlOWFuWWs4U0ZXOExpT1VZc2I5R0JGbVJuRm9Qc3R3Z0F4VDQ?oc=5",
+        "date": "2026-10-22T17:55",
+        "source": "BBC",
+        "category": "政治"
+      },
+      {
+        "title": "エジプト、サウジアラビアとフーシ派の政治的解決を呼びかけ 紅海の安全保障脅かす行為を警告",
+        "url": "https://news.google.com/rss/articles/CBMiowRBVV95cUxPVG0wWDBpZkxrRVJpcGJkVkZVdEJibDFWQW80ZXV1RTNwc2FkbUxORlRaUEJYNmV3V3J3d3MwcFk4OTd1aThhTWd1Rmg5YmduQnVPZFp1WHh2Uk91bFhZN1UyLXBBWFR0ZGt1NkJWTGZ3eVI0MFQ5VUlhc2FNWWljZU8wdXdKN1JuZ19nbE9ySHo5QXV4VDNRVU5YVWowUmF2TkNLbl9ndm1pc0x4VXJUY29aU1N5endvYU1yeE9WY2NYblJIaWMtNHJ6UE5vOXVBVkdWcTVDc3FYRmRod2NsU0VxUHprVjNNbEZjdmtBXy1VRkxoc3Z0dngxYmZPN0UwVndtMVlEd2pBcVd5TG9yLUZJXzl2cEgyZ0c3ZGtrRU1FNHJabU44RDFTLUdmMVZDblBtLWhiYW52MnhlWUhJMk1yZ1BmbE54UEllNC1XRW8zWDNpX2M5R2RqemJoaWxGRzhXYjNNVXYxQTBxR3owem5JRWVzS25SVHFleHl3clhPUlFTdzFscnFLWmpkUU5WSGRNbXlUTExRNWg2SExiT0VZOXE2dGEzWW5YZU1vdVF5c2tXU3VsdWc0bTVfR0pMS1IxejRUdEowbERuUlJDZjBDc3J3Rktib0JGVVVHaW8zZ3Z5UTBQUVdVVEY4ZGIxdjByaU5fdnJhVHRPZnRnVE5mQU9fZWxGdlNhZXBDYlNkZDhoX21LbHNvWl90SG9sTkZJ?oc=5",
+        "date": "2026-10-22T15:00",
+        "source": "DW.com",
+        "category": "政治"
+      },
       {
         "title": "防衛協力から技術移転まで　サウジアラビア・トルコ・パキスタン間のメッカ協定の全容",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMFYzc1A3NlpKd0JxQS1kY19SemJSMUxFbGstOGVncWpLNWEwMF9sNkJzejk4M0FsQTRFOUFIN216SHVwQm81cUtxQm9TU01WOVo2d2pON2J1NmxNNDNRMmFzU193YUFtSzhRNC1qZmU0QTZUVnRWX21iSHc1ck9hV1p0eG1EY0l1Tnl3dWJIcmtfV2E2Y1hWd3JNTkR0dDVfdDl6bk5fdWZrNDBzYWFIRWRqc2xPVmlYR2hNTkcyLTdVVDdsN3Y4?oc=5",
@@ -219,58 +261,16 @@
         "category": "経済"
       },
       {
-        "title": "速報 イエメン：フーシ派によるダンマーム空港攻撃を非難、タイズへの空爆継続",
-        "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOWHhVM3dORjczemptLWtzNjVzZjBOWm1JUnkzeHhnNXNIdlQ4cmU1N0JXbnZqUk5HVmhGbUNDczktdENTZDZ6RElGT1VOVVRvLTNyUkN0M3BRSldObm55Ml9uYzdNdkl0LU91RnJBeWdFbTM0d0lFNnREb0RlbkhPZ1JaZTlhYW5lZkZuWWh4ZTEzVFZ0aTZ3Y0l3cWVtZUVwQ2RjWnVwRS10M21NNm8zeFRNYzJnVmY2Nll3UmhJTFd4R0tmZE82Tk4yTHdkWU9sQUZ5N1RxT2VHaDc2blVuMkF5NDVCNmFLQzAzR1ByZ1JpT3JRLVlCSldCT1NTRThNMFZCamFBX2dQdldEdFVWS1N3aUloX05aMkNBQmpmSm5paWVHS3BwaURVa0ZGNDMxWEhaSVROaDFCNExNc3c4SXMyNHJSbU1RWEV5MFNwSzU4RWVGUHBIbHMzVkwxbkhDWUxrTGNyQmXSAe4CQVVfeXFMUHgzd0lacHltbWZ4d3NtM0o5MHRLQWNxWTN4TjBCbUxXTFhHRmRjcEF1TmFKbHNkeFdILW0teVRfQW9xRndZajRSYlNjclMtYWFmVDhFdEo5LU1majU5LTNxcjU3N19acko5emNEeVRYSWQ5eGx3NUVjX2xPcFJMWVNMUGFtV2xoLVozekZlZkJyMEllbXJ2LW5ldjNlcV9FTlBxQTRzczhiN0xyTzI2T0xuSDY5cExta2tBbGl2WFg2ZlNDQnNMWmZ5allfNWlCR1J5NFM0V3dDTXNzUWJwTVNzdDRReS1XbVFQOFhzdEtFTHRZaDF1cVk5c0hDbGpHeHZ2VWpHejA3XzZpMnZnd1B5b2JWdVJGVnhVR3hBcUVsdktGZUlvczNrOTV4RExRb19seGIwYmliUnhyVGQ0TGQ5MUdfOU9vVTJjdFdWNWkzZGV1bU5KTzBBZG9hXzRLX0t1YlZuYlZETXpmbmZB?oc=5",
-        "date": "2026-10-22T11:49",
-        "source": "الجزيرة نت",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア ダンマン空港と油田施設への攻撃で4人死亡、18人負傷",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jaFE1ckNSQlU2cjkxTlQwR1FGZ21NcjloLXQwSVNHT0JwMUlOS2tSc2UwckZIajB5OWg4U0VUcG5HMUlOcUF3WUtKV0dwRnpXd0RJWF9fajBLdXdqeFHSAWNBVV95cUxNc2hyUnVTOXgtQnhZZ1p1YlV0dWNDcUM5MzBsTzlQWFFJMExfS0VxeV9XU0xyVFZxa3hRRFJwZVg1SjhTYjhLV1FvN2xjeU9zYkZraXg5bHZiOXVKZjg4S0NPdEE?oc=5",
-        "date": "2026-10-22T10:20",
-        "source": "BBC",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア株価指数、売却圧力の中で9700ポイント付近で推移",
-        "url": "https://news.google.com/rss/articles/CBMi9gRBVV95cUxQenBVUUdxV201bUJwU3l6bEhjUmxrVjA1ZlBhWlJyMng5THN0RTVfUHBPRzl1VE5WNDJCX3RfeFFTTkdFZWlkUVpLMzZkLVV1U0pXVV9ublBzQ05HVExpRWFjdVVXS2x1eS1PYlVFWmpWVTRmRVNfcjZTaVZlY21nQ29mblhLcjBUVnJJTjV5UUFLUktBcUE0b0lFZ05lMEFLZDVvMTZITjFnd1BHeVk4b24zSGhCZnJrUkRHU3g3ZzE5RXFaR3RZN0RnQUdSWEhTTU1DR0FUNmtMcW1IRGhSanVYbFlZMWR5ZEpsNThGTTdPaDZMZ0dXM0lrb2JTMkt5RmFvTXZvQzNWQjhhTXJ0ajVwRUxGSG5aeF9Bd2p5UXI0TW1FQkJ4TnRzSzk5Yk9IYnF6ZDFGaWtreWV5UHFKZjZVNzIxSGROdEJCODB0X21jdktiSzlZdHN4Q0duMFdNcjZIQ0N5Wno4QjAzRmJ0dXRZN211WkEySDdCUkxsR2R6TDBqR3RfUExuRXVTQXRPeUN5ZHJNemtDZWdOUXFqYjA1VGstMm9BTkkwNUk2akFUZERwbHBJVVZIVUFUXzJ6c3M2Wi1WUENCN254NXhmM3Y5OE5oZE1FazRxT3RJT2tHQWhSV0FJNTgwcGZIcUctNkFnZjlTcGg0MllwaUZzanl5ZlBUZU1yUUd0OGE3RzF0OEhRTlVhZmJBVWQwX3YwTTNJVFpaeTA3MENzZWFFQmhTdDdoQThUUDROcGlmcVRlTV9iRlJPREFkWkhaSi0xMklwaE56NVJrMUhNTFhrQWlnUUdMSHFET2VFdF9LaFpvR0lTM2fSAfsEQVVfeXFMTnQ4QThxNUhXWERzQ0UyRTdQYURWbW03elY3OXNhcjBISlZpZUpBd1ZxbFFVNkk5dER2dWdXRWl0cjRvcnRwSUY1UFM0WGhRZHFwQXJQMjdBXy01ZGIxOTZSUXFEWndIa3BqekpXYjhkdlFvVmRKMzMwdWJ2MGVsX05xVDBMRmNCY3Y3dm9uUERsSzU4TkN4Tm4zeUJHRm55aURQVGw5a0phWElnZjBkNm05MWtKWEppWkJnYWtPRm1nY1lBdkU2WXh0bkpQUzVzdURpd1hFbEpkejZFTkhnRGphMF9VM3RLdjNpR1gxZ05MUEdHQ1ZNT1hscEtidTk4Y1NFbzlnTmxYbmZFTGJBMVdXTWJ2amtINEQxNXdEN1dzcGZPTTdXdlBqLUZMX1QyRFFBekE0Ukc4Sm5hWVJzS3ZsN0tHRUlodlhvQTZCeEJoOUVibHFpQkg3cm1nRGNiVV9XRGlvZ2dVSlctWDlzanJBWERCcV9ZYmNOS1dfRHVIMnZKbVhlYlgwbVg5VVZyZWdObE1BdzM5bi0talI3Y3dSQWQzMnlyWGVzYk9TalVOVkFucFZUNDNNM1lxdzg1TGhLTVBGbVFzRWg4OHR5eU1wblRPay1QcWViVFhSZFhTd3dab08za3JSVnptQ0RYaENscEtGVjRKTDJJdmh4Sm16cXF1Q2p1ZGJpeVpPWEdobENfQ0tiOEJ1MEN6YUM3VDlqalZJUGlKTG5kWGE4R2poWHZVTVRJZ21KbGZtT2pnNU9Fc0gyQ3U4ZUlfczM3NnF1VXhGTDdnTFNDNVhZTXdoUk0ySHFiZ0lnUzRPUzA0aFgyTGIxZmtiQXc?oc=5",
-        "date": "2026-10-22T10:18",
-        "source": "العربية",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、ダンマーム国王フェハド空港への攻撃について新声明",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUzg3QUVpSTFsMjZuREpRVEd2WWg3YndjeUNFRHJ0ekhUclE4NXp2dUZPYXJZenljTVF6V2lMQ1VoM2JxQ0pMQzJ5X0R2SkdwTmRxRjBCMUxtZkZrcDJOVzl6U2dhVk5tdUZSdXUxWVlSdGpNS2xZbGlqZk1nODk0TTJCbks1T1M4UGdOSkp3Vm9wUXVvNjBSVko1RkRDVHJqczBZN0xfbk1RMmFXdFpaWW1XZlE?oc=5",
-        "date": "2026-10-22T08:09",
+        "title": "フーシ派：サウジアラビア国防省を攻撃 vs 有志連合：無人機4機を迎撃",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPanE2ZzQ4Y2dNMFMzWDRBaUlFM3BnczF1NHRrd1V5Nk96cUhiTkc4V3FlSDdydnE2eEJReW51WG1COEFONFBEOFVCU29oMnd1c0RNX3k5cU00NHd4alozMUVIZ0JHaC02YzF5V3Z5LVVEOXhZMWg2Sk5RZ3VHNEV1dE5semlSYlhmaTN3WFI1VGdMNlg1NFE?oc=5",
+        "date": "2026-10-22T13:15",
         "source": "CNN Arabic",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアでバングラデシュ人2人が処刑　事件の詳細が焦点に",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1UdG1jTGNmNGp4Z294VVFiX29XdVpjTlUwalZqM01td2FWYmZZYlRWUlhMLWRoRDVqcWs1Z0o3ZHpaMDlhaXd6YmU5MTBBZGJ6eVU1TXN4Z0NiblptbnfSAWNBVV95cUxNc3ZETDlvcTRncTZLUHZRaUdsRU1YRFNycENxMVF1SzJWNDR6RUtJVHdQa0U0UEFrUTNHVFkyc284bG43TXY3NFVDQlBMZ3M2NW4xdlBTWnBKRmhKLUljY3QzclU?oc=5",
-        "date": "2026-10-22T06:50",
-        "source": "BBC",
-        "category": "その他"
-      },
-      {
-        "title": "米国大使館がサウジアラビアから職員と家族の退避を指示",
-        "url": "https://news.google.com/rss/articles/CBMi_ARBVV95cUxOV1hIZTZVZlF2U2xYYXVmOTZocUlvU25GSkZwcVAza1Z4NDF2ZXZsdlVZYjlYV2tNSGRmZTVkRjM3ckx0N0JXY21Sb0wtbXZLZ2JiVnRraVZhUm9LY2lvMmRGS05GelF1UGFBSUtTTThsVG9DN1dYWFhmUlNnVjZLRF95RF9YQkhaMkpWTFBESFdJYXJQaUN0T0lOLVVPZFdVVmxxZXRKRktKUG5ubnFzdjc5SXd5dmFNbjRWSUgzZmNzQTFJZWp6d2wwN21VaDN3RU1tQmlXVkJUT2wyQzd5R0hqSUEyYTN3anZJeThPY1BZczdlakp4QmtoZlVGMnptcTFIQTVlS242eTBNdWpkMXNaQkt2YWFUeWNpLUs5U2xEUE1vemxzUlZhZUlUd0RCRWxBMlNsVkJQNF9PY2xuSTBuUlNqSGh6YjNrWnh3OG1iVnMzUEVJX0RUSFptYnI4TU5PSThDa015ZWkyRV9QLWdTSXh2NWVIYVh0V08xSGR0bDRMU05KMDZGUFg5RWxnMmxGcndOb0wzNFdIb0xWb3ptOHVXTHNRY1BNdk5rZDF3dlFDOWxMLWVUNUJzbEp2MkVTd3FDS19jWVNJT2swb3dXNUxRTG5xZlNPZ1BNQ0xOQktPNHhQV0ZWSDJuai1DclpHUUJ2WldaT2ZLeG5yWWJxWVl1Xy0tOG9iWDJ0UU5ObXNJWlZ3SGNydFQwc245dG9EdDREZjY2VFFKWVlaMDdPb3VlLVZpSWZmaHhva3N1ckhXUU9yMzRFMi1nWkY1LTFLODkta2l1V2thc2hTSVlRQmkzX2libDA3UFNFN2ZtZEdPRFVWRWVSTHg?oc=5",
-        "date": "2026-10-21T19:28",
-        "source": "France 24",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア：シイバ油田への無人機攻撃を迎撃、2人が死亡",
-        "url": "https://news.google.com/rss/articles/CBMivwNBVV95cUxOekZ4NFNQazd4WXFReHY4ejkzandzOGEwcUZ3dzQxeHVNaFRrd0FmTG84cmNDQ1dXMloyM0IxazFKNE1mLUNudmtYc0d5UFhwMEdaZWk3R2ZOTjJTbmptSFhEcTQyamtfX0hFMmtJQ2xhc09zOEM1OW1taVl4NVpRakk3Tzlmb3Q2TnN3cU1TVy0wR1BGS3VCbGFQYjltVzVXcTU4MEN0UWE1VnJ6ZGoyTU1xYU1OMEpwN1hVWXNfZXFSZTM0Z1czdWpFYWdiMG1Kc1BTYnNxdnJiX3pjcm1MeTZyMWJBbGx0VnFXcTAwU1UyMTdGOG1mVENqam9vRXNMcmtzbGo3dDJJMWx5ZTRLY2xLeEp6OEVlcnozQVNUZWw1SU1SSk44RXhRdGZwSENIVnA5VURkalc1aVJuTks5dFNfT3lQczdwdW1Hcmg2N0FBVWp4bVpubFhVRTFmRVpIYnlsekZHUWQyV1VuOE1BWmpRbXNGYmRtclZxcmV6Vy1BTXkwbzZpbl92NnBXajE3aS1GaFpfNHNEc2xWYWZqcjQzajUzZjRNSkEwRDQwUlJpVlMtUnhKWXNYQk0tSnM?oc=5",
-        "date": "2026-10-21T19:20",
-        "source": "الشرق للأخبار",
         "category": "社会"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-10-22T18:27:16.548850+03:00",
+    "lastUpdated": "2026-10-22T22:38:27.467666+03:00",
     "items": [
       {
         "title": "【速報】 米国務省報道官「米職員の退避命令は、サウジアラビアのみ」｜FX・為替ニュース",
@@ -280,31 +280,31 @@
         "category": "政治"
       },
       {
-        "title": "サウジアラビアの空港や油田にドローン攻撃 3人死亡 – Quebee キュエビー",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIRFdhX1BHcVY2MUNmdXVBWE92bDVxMWNrRGZkeTBNa1k4d0xmckMxRFd5dlBPbUVtYmh5d3RqQndMMEppQWpWMDhzWTZBRWduVjIwUmNCRUc?oc=5",
-        "date": "2026-10-22T10:06",
-        "source": "QAB 琉球朝日放送",
-        "category": "経済"
-      },
-      {
         "title": "サウジアラビア東部で空港と石油設備攻撃により3人死亡",
         "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxNWWFwWDZfVmpVbFBzYXBzRG1MUDJ6OEwtVW1UQ0UyaTFJcGhNWGlCRTJqOFVUN2lIRFFQc1pybzVkWWNZSzFHdUNlcVNpZmhxM3NCYk15S2JxUDlmLVhoRUJyVUNMbl84eUVUS2hkaUI2QUFKVC1VNkEydVh2UlBoUXE4NjlGYTBqTTlPYy15bFBWVWMxX2pIRlNud0NuQ0NxWGhHaEU3ZzF3SlRvR09rLWk3dFlWeE50NWdXLVhyVllkNWwxZ0xweW10dUpnZ0JSQ3BIUmRpeDZ1S1daaGtyczZOTHBmM3Q0R005WXJiT0VFRFlPMktrb182ME9MOURqTWVla2haUkxkaVNwb0hmSnBmUGJQWHBqYzBKamo3NE80Qk1fTjJRaFBqX2JRSUpoQUtmb1dzYkxHcWxpUVNLNjVkNmNreU9SaFVuaDNfdWJRYmZyNjFtVTJpSFAwY1Vya0czbmlyWG83djJSVUtscFhXWUswTGlUMmp6bWpwb05BNThKa3c?oc=5",
-        "date": "2026-10-22T10:04",
+        "date": "2026-10-22T13:00",
         "source": "アラブニュース",
         "category": "社会"
       },
       {
-        "title": "フーシ派の攻撃激化　中東の大国・サウジアラビアがなぜ防衛に苦戦？　世界経済への影響は",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd2NhMzJEZ00xRnV4bG5paVZtaXNVNmQ5S2hpbFZiT0drNWRLSkRsMmdVTGFveFRpMjZncG93MW80X0h6T2V2TzJTYkdwUXo5bVYxZGdxWkxJN0JWXzJmMkNlNXJ3aUdHTnR1bVJrRGxMYm9WbVZZYXdTUlZLZ2VQLW9QOENqZ9IBiwFBVV95cUxOdU5HbDB0bHJvazNtWjlqZVRyZXc5bmlPNVJyOGtpWUIxRWtmQ21IY1VYcFlOS2piTExxSm5acjB1RzIxZVR3X1NabS11aFVBOUo3ejRuelpPajRyZTVKajc4cld5SVVSQVc0cF9tbXdyVXVFbmRWTG1KVEFSd3RqUGZRd0xKbDJEbFBV?oc=5",
-        "date": "2026-10-22T09:00",
-        "source": "ｄメニューニュース",
-        "category": "政治"
+        "title": "サウジアラビアの空港や油田にドローン攻撃 3人死亡 – Quebee キュエビー",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIRFdhX1BHcVY2MUNmdXVBWE92bDVxMWNrRGZkeTBNa1k4d0xmckMxRFd5dlBPbUVtYmh5d3RqQndMMEppQWpWMDhzWTZBRWduVjIwUmNCRUc?oc=5",
+        "date": "2026-10-22T10:06",
+        "source": "QAB 琉球朝日放送",
+        "category": "社会"
       },
       {
         "title": "フーシ派の攻撃激化 中東の大国・サウジアラビアがなぜ防衛に苦戦？ 世界経済への影響は（テレビ朝日系（ANN））",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pYUVMZGlCNXlvNVBOSl84amdhUXBBVHhMdUFyUENxVjU5TVE5VnBPZHpSci1HWHR5OE9LSTJqVGUxLU5TaGIxT2hYV1ZfengwYms5WHMzSFRpcENCUk5fa0NPZldwcEgtLUZXam5IRjBnUi1GMTU2NDlWcFBrVDg?oc=5",
         "date": "2026-10-22T09:00",
         "source": "Yahoo!ニュース",
+        "category": "政治"
+      },
+      {
+        "title": "フーシ派の攻撃激化　中東の大国・サウジアラビアがなぜ防衛に苦戦？　世界経済への影響は",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd2NhMzJEZ00xRnV4bG5paVZtaXNVNmQ5S2hpbFZiT0drNWRLSkRsMmdVTGFveFRpMjZncG93MW80X0h6T2V2TzJTYkdwUXo5bVYxZGdxWkxJN0JWXzJmMkNlNXJ3aUdHTnR1bVJrRGxMYm9WbVZZYXdTUlZLZ2VQLW9QOENqZ9IBiwFBVV95cUxOdU5HbDB0bHJvazNtWjlqZVRyZXc5bmlPNVJyOGtpWUIxRWtmQ21IY1VYcFlOS2piTExxSm5acjB1RzIxZVR3X1NabS11aFVBOUo3ejRuelpPajRyZTVKajc4cld5SVVSQVc0cF9tbXdyVXVFbmRWTG1KVEFSd3RqUGZRd0xKbDJEbFBV?oc=5",
+        "date": "2026-10-22T09:00",
+        "source": "ｄメニューニュース",
         "category": "政治"
       },
       {
@@ -336,10 +336,10 @@
         "category": "政治"
       },
       {
-        "title": "トルコ、マッカ協定に基づきサウジアラビアへ軍人派遣の承認を計画",
-        "url": "https://news.google.com/rss/articles/CBMiwANBVV95cUxQci11ZEdoSnllUTlGTlMwTE9Vd2JWZ1psZFBVRGJfX3RUcTJEMmZzREVhX3ZFMUZOZTRCMVdzRlY0NE1oRFp3dFZwQmt3aVR2MW9LZWgzYzlKRTVZQlpVMVZ3RmVWbHJmbWItSzBKRWk3N1VZaXZqdVBtSmdSOUVGZmZMUnJQeHduTWhnRENiN2s1OS1IYjRwT0RrRzFoS3NFYlZmaGxUcGZ4TF9IQU5EcVB5RktNaklPOF9JOVpHUEhWZjd5MDZZTHcxVUVGTEFuY3ZpUUp5aGc0RFctSWEyQUI4OV9tY2pVaDBDc2hNclIxSVlCRjhpel8zOTRrMmNhbWIyWm9JVzBxMGhoRFVSbHZhZVh0aDdFX1VLZjBlQjJfd2xyaHV0eHZkMHlhZlhKZnliWFVqczFuNEExSENZYUZXd002RlEtUWVvcTlPa1UzZmp6TkQ5X1FCVkd6MGFVanM5R0hNWmstZ25kdjdQVUJfRkxwTTlpRkF2VlBBckVlZE9ibzhCODRiR0kwLURRUkhVeThKMkNmMnktdFZOSGF6c1UtTDJKVFNjMnh6Z2dQemZIa3EwU01sQjBhVVVR?oc=5",
-        "date": "2026-10-21T17:04",
-        "source": "アラブニュース",
+        "title": "米国務省、サウジアラビア駐在の政府職員らに退避命令 フーシ派攻撃で「死傷者や混乱」",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11YVZ1MjdpUEhWSHNpU1gxUEc5eC1rcUdJT0ZoblctbHN1V1JGWDNmN2NsdHF2UktmS0IyRXVsUWR1N3J2c0pxM09ZVVl5Vk94NkZaS2xZOHdFRHpRbGpLOWh6VVBranRYOVIyRlpWazFvNmppSFE?oc=5",
+        "date": "2026-10-21T22:20",
+        "source": "産経ニュース",
         "category": "政治"
       }
     ]
