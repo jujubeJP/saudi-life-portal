@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-11-07T19:33:29.205688+03:00",
+  "lastCollected": "2026-11-07T22:44:36.467352+03:00",
   "security": {
-    "lastUpdated": "2026-11-07T19:33:29.205688+03:00",
+    "lastUpdated": "2026-11-07T22:44:36.467352+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -35,14 +35,14 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-11-07T19:33:29.205688+03:00",
+    "lastUpdated": "2026-11-07T22:44:36.467352+03:00",
     "items": [
       {
         "title": "大使館現地職員募集（清掃員）2026年11月11日（水曜日）まで",
         "url": "https://www.ksa.emb-japan.go.jp/files/101110445.pdf",
         "date": "2026-11-01",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "社会",
         "is_safety": false
       },
       {
@@ -120,14 +120,49 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-11-07T19:33:29.205688+03:00",
+    "lastUpdated": "2026-11-07T22:44:36.467352+03:00",
     "items": [
+      {
+        "title": "フーシ派系保健省、サウジアラビアによる空爆で首都近郊で27人死亡と発表",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RTjYwczNybTROUmtuUVB2c0NmWFFzbFN2em1kWUNhS2hBNFk4NG5KR09jbHlfVU4xMUFpRHRVLTFVNkpac1FFV20yeFRfdTFKVEtpS1NNSTdpVWdSb1VPbDhvNHFVM2RJQXh2TVVCTTlnN0JmcHNJU2MySnI?oc=5",
+        "date": "2026-11-07T19:13",
+        "source": "Yahoo News Singapore",
+        "category": "社会"
+      },
+      {
+        "title": "シリア軍数千人がイエメン、サウジアラビアに派遣へ",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQY3UwYXRfUUlTdFFuam1jSTBVMTBpdkctblY5NElMM3lZSVNCekR5Y2FLNmYySWN2UUdWeWdYcGhmdDZFWHhYT3ROWklUQXNBSkZiQUJ2UnZ4cEZ0Zi1PLVVJX1RybF83Yk9oRjRqS1hRV19mUzJlV202NnFWcC1LYmFsUmVRS3E5RlFVSkNfVmlsYTZ3RUJvVFNfY1p5cjV6NklRc2gtc3VGZw?oc=5",
+        "date": "2026-11-07T18:30",
+        "source": "Al-Monitor",
+        "category": "政治"
+      },
+      {
+        "title": "WWE クラウン・ジュエル 2026 リヤド大会 各試合の専門家予想",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOby1pb25yWXkzLVZNbGl6a2s5NUJSeVgxLW12U2Y3VEpfMTl0ZE5IZUU5NjU1UE84Y1ExSXl6eWoxVlV6bUJYeldPSUxRTWI5dlM3RDh3Wklycmp0SGhIdXgyWXFCUF8taDZCbWw0YUVieHVUVXl3RkZjT0JwZ0s3TDhzU2I4dHdIX0ptcG9CY0hFUjItdGtyS0Nn?oc=5",
+        "date": "2026-11-07T17:30",
+        "source": "CBS Sports",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビアの空爆でフーシ派メンバーら25人以上が死亡",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01Z21MaS1UMnZrUWRfSE8zM2x0NnVrVkRaYXJiQ1lMVWJJWjZtRGpLWm9rcFljaWVNVm9VRWExbUxOZUV3WUJQNEd0Sm5ZZXBFdnkwRldXTTN3OTA?oc=5",
+        "date": "2026-11-07T17:09",
+        "source": "BBC",
+        "category": "その他"
+      },
       {
         "title": "シリア、イエメンへの部隊派遣計画を否定",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd3BMWG9vWWhTdFVpVlhNaldMcmVnalB4T2FaeldRaTNyWi04QVNfOXRYOFlmcXNsRERBQWtfdnV2N1ZYMWR6VlhRcEtmYkVhZ05WVkpvUU9mVW1KVXhFcU1vQnlRV2NzTEpQLVNRQm5oRnkxa3NSYmREdG4zUjlVTTVqckh5dmlnX2pkYndxcGI?oc=5",
         "date": "2026-11-07T16:16",
         "source": "Arab News",
         "category": "政治"
+      },
+      {
+        "title": "イエメン：フーシ派、サヌア近郊の攻撃で22人が殺害されたと発表",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeXFCTkRmSE4xdldvbkdYTktoRUIycXNKWVhSRVV3aVpVUVFkWno3NzVDSUZtdWpvZXdtNmJqVGtjVXRjenpfblExeEg5aHJUV1dsVndiVXJtbF9mdWlDMm95VVM0OXdvM2gwdG41QzJqSldxdlctb2RTOVdPcGRBSm5BNmd1Q3FZ0gGIAUFVX3lxTFA4UGw2eVk3WjV1T0MxZjJrZVZDOVl5aEtrUy1qV2FLNmIwMnVudnFMNGpiM1Vhd3ZsamRzc1hGeEZ0UWt0d1N3eHItakp5ODRNeExuM1RmQXcxd25XeFAxWDY1MXpsNjlSZkhXeVdXX0EtMGtFWTNzbWw3ZWVna0xqT3VMRHkxcF8?oc=5",
+        "date": "2026-11-07T13:54",
+        "source": "DW.com",
+        "category": "社会"
       },
       {
         "title": "シルバーレイクとサウジアラビア公開投資基金、ユニティの買収を視野に協議",
@@ -137,11 +172,18 @@
         "category": "経済"
       },
       {
-        "title": "速報：サウジアラビアの米国公館に警戒情報",
+        "title": "速報：サウジアラビアの米国大使館が警戒態勢に",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPT21DX09Sbk9fQi03ZkRGSllzZFFIRGNlTXZ0eEJ2TDVablhnRDFkYXp5bkJQei1KVmZ0dTd4Y2Z6aUlfTmlSclN0emtFSkxWZmZZNXoyMXRzbHNfWndpSzgxRW0xUXJXdkZBLVVNYUpRcVVLcU1JN19IOW5SQVRXVDdmZmtyb3pl?oc=5",
         "date": "2026-11-06T23:20",
         "source": "U.S. Embassy & Consulates in Saudi Arabia (.gov)",
         "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、新たな観光電子ビザ導入 4か国への到着時ビザ発給を拡大",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNejY4bUwteENBWHk0NHFCOElCc2Z3WnJrenNYX09feWIyaWxqdU9DQzFkOWdKeGMzMGxLNjZIenBFWDh5RFV2emstc1NIZi1NbkY5Y3hVSGdkdU9rSUdMdnNCYk5ramVuNl9waDhnUU03V1JxcXRNb08yNVpSRWNJaVpYQVo2WS1hUnF1am5Ldm9USlZ1Wkhvc1RuYXVidjFlTERuYV9tRXZ3elJPa0REaW5SdS02d3ZjcXVjQlEwejRhSzRuMmhEaTVvTlk?oc=5",
+        "date": "2026-11-06T19:22",
+        "source": "Arab News",
+        "category": "経済"
       },
       {
         "title": "サウジアラビア館、アルジェリアの展示会で貴重な写本を公開",
@@ -149,54 +191,40 @@
         "date": "2026-11-06T19:22",
         "source": "Arab News",
         "category": "文化"
-      },
-      {
-        "title": "WWE クラウン・ジュエル移開催の決定 サウジアラビア政府が判断",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYklfLXVBbW5oTG5IRWEtVGVPblZ1R0RyaWh0bmtYQXV3VjY0VFFzUVdhVVkzZktPdUNpcTN1X3FMcV9jczJYekdfdnZwSjJHOHdMT2Z6WFd4aGkwT1ZacFdtNVY4emFEZENlUkZNOEJaS0pmUmxtZFhMc3ZFd2x0cXB5b0hxdw?oc=5",
-        "date": "2026-11-06T19:06",
-        "source": "Yahoo Sports",
-        "category": "スポーツ"
-      },
-      {
-        "title": "シリア、フーシ派の攻撃激化を受けサウジアラビアに軍事助言と訓練支援",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUEFNLVB4eWF5SG5CNm5hM0p3OVladTN6NXNhSWN2MlV4elR0eGdYdWMzSGZ2TEN5NVA0R0puWXhrenNUX0FtaGd6QUJFX2xMRXg2b250RmZ4ZW83OFZoYklyeFNsN1BnRTg3TFFBbWp0ekVXUldHY1FnRl9wLWtldmJla1NBVFJLbXpoTFgtSzQzOXdwSjNBNkFaY2YtQ2NDVk1pRzZuUHJyZFdOVWJXaWkxYXQzVXJEdTQ1Sl92eDZxcFQ5ZGcxYzBJMmRFb05r?oc=5",
-        "date": "2026-11-06T16:46",
-        "source": "The Times of Israel",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアで開催のレッスルマニア43、WWE悩ませる課題浮上",
-        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQS09EU0NJTm1YMHpaX2RGemQ1cnA2WTRjMzBWb0ZwQlJlLW9pZUZuZF9FOWk1ekEtMWtzSDNpX2h2aGQ5Wm54aTI1V21JU000SXRSeGlvMjNvOGM0R2VGaXpuU0ZqVFhvcjBsSU1FWEZsblFCNkRRRkFlT2hVdFZOSjZPdmFudnZMMzY0ay1jOUw1LWlmVkI2UzlySEE4aUV6WFVkbVpLbU1PQk9HczdhMW90V0doS2lvN2lMV1BuZFJnN1oza0d2Mmd3S0dNcFlFZU1tNEs1UFFsMi1UYjVNMk1LOUNtUE1iNnJnRGZEUW5iU2F4amFiQkdQRWs?oc=5",
-        "date": "2026-11-06T16:30",
-        "source": "Channel 3000",
-        "category": "スポーツ"
-      },
-      {
-        "title": "シリア、フーシ派の攻撃を受けサウジアラビアに軍事助言と訓練を提供",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObFFuV2xuOUtpNDJEVlB0Q0NMYV9BQkNZTzkzRkNVWHBrVGI2TC0xeUk0LTVzdWJrclByYzR3OS1PV2VJaExTT0hud2hzSENNUnlZb0J5cE5yclAtcmljYnlRcFFTOXRuOFVYbUlnbmh3cU5qQTNQSWJ3SEJ1UENMTWFUOXVBZ2xVckpNWjcwOG5meGVBWFBZRlRyZ1Q4ZkNweDlsREhMRWFwX0NrSDctbVoyZDhfdUdzOFAyVmFReUFDNkVBcmc?oc=5",
-        "date": "2026-11-06T16:19",
-        "source": "Reuters",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、シリア新政権と防衛協力協定に調印",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVUFmYzNOeGJYcWhFd0picURycWxJQjVrb0NLQU56U3N0UzQya045ckVseXVST3I5c093d185ZldsajM2cmhSVmVKUmtwZ2pMQXA3WTNiaE9fRW5PVlNST1NsODlVNldHUFdTVnN4bEM4eFlsWWlVeDR2OUxjeEpKRVlNQ0FMeU9QV1dSLW9QRDNyaEZJaks2Wi1PTFhHZkpSeE1hTTNPRElrSTZtWkFNajg3T0NnODhj?oc=5",
-        "date": "2026-11-06T15:22",
-        "source": "Breaking Defense",
-        "category": "政治"
-      },
-      {
-        "title": "11月9日ニュースレター：WWE中東進出、新日本プロレス・パワーストラグル評、レッスルキングダム展望",
-        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPS3pNM2xZb3QwWS1TRGFZTzJpbkRLRHdMWDg5b0h5RTg3X0dWOHhROHFRTFVyN0dJTENOd2Z6djluejZDdFRtRUxSNmVEYzY3VGwwTHFVNEJ5NEJ1WHVYR0dKdkhhQWJIZFd3aXd6ZzJjU3hyblYxWGxwaVYwSWZEQUhFUTRIVUc1UVZRUHFXTkpCVW9Ub1hrbURnUzBjRnJCY1hvcjNqV01uaVRjZ3E3ZlJCTzlqSlZrOGlvNW9zNTFLNFF6REJYR0ptVXZOOTAxUDMwWjZuS25lWTlrVVotYTZ6dmZUYU5yMkVnbnZVNDVrc25hRERfQ2w1V010ZmtzdnFpLUZEVXRsUQ?oc=5",
-        "date": "2026-11-06T14:54",
-        "source": "F4W/WON",
-        "category": "スポーツ"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-11-07T19:33:29.205688+03:00",
+    "lastUpdated": "2026-11-07T22:44:36.467352+03:00",
     "items": [
+      {
+        "title": "サウジアラビア史上最大規模の少年サッカーリーグが開幕、600試合を予定",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FTGQ0bm1EbzBHV3AxVW5zUXhOeVRvbVN3LUJha1huMUhFcGdKRjJfZDNYTHVLb0NIOVRqNzU3NC1Lb2lsRDBZRmY3V0xfT2RBSUHSAVRBVV95cUxQeThVX1dTNUFuSkRzcEtURElIQ0hKaG10Sl96aGl3cFVmS25nUHFrdnc2a08yY3hwbnV4Q2hoZG1QeElDanBxQUVMV1JsRDU0a193blY?oc=5",
+        "date": "2026-11-07T19:33",
+        "source": "عكاظ",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビア・スペシャルオリンピックス大会が選手団を表彰",
+        "url": "https://news.google.com/rss/articles/CBMiowRBVV95cUxNakNfZG5ub2NPZURrTzZNMFFBQ0UtM0toano1aF9XODlOZklFZ3ExZzRrbTdTa0FMNmJiLTVjZGZpSGFiUHE1NU1IZmRxQmg1WE0xVnlHWWtrRGhScFZjVXlWREttcTFHN3JKakMyQTVlQnNYMDl6Q0FDT2lGd2JtaWM3ZEo0bW9pbHlMazVkYjR3bTFOcWMyakp2UnlUUjRUbVgwWl9GVVJsa3p4UHJzWlZORF9oZ1lxYXhpTXA1SjR5a3djSnNza242NXlJYVgycUdmU0c3ZEU4NDRnRFV3SlgwNC1hdkJDd2JtRncyZG9pZTBRaHVrVEpWdVJFTWRNc01MZFhKSkg1ZndiMTFwdFpUMmc5Tlg4OW5rS2lXeVRLek5yOEFnVlRuU0I5MHhiS25fd3k4YVAwekJFV1o2MUhRbnQ5dFI5cDl6X1llS2N2cWpWNTZCbHQ2cUxjTWdnb0g3VjZtT0VfUldzT0xpYW1MWFA3SUNURGdpb1dCaGZBcWM1SzRWVmNON19zUTAtbjBNa1JfcWVUSER4Yzd3bVlMVU94cVhkQUFnMks1dDlaMkVmODNfLTgyRlVqMEZLVDlZdWE2MmM0UVBNM25ZOHVqWldWcTBxSUVIdDlTUUpTT2c4b1dqempmNHN4Z0VmZlN1cEtmb051SWR1Y1JoUzBnT3Qza25XaFhDb2ROZkE1SGh5OEowc2ZNR2RfeDBxRXFZ?oc=5",
+        "date": "2026-11-07T17:28",
+        "source": "الشرق الأوسط",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビア株が2週連続上昇、市場の方向性は依然不透明",
+        "url": "https://news.google.com/rss/articles/CBMijwRBVV95cUxOTERBakY1c0M0RVlOeFM4V0ZHSlBpSnFfanRGV19ZY0t6R3NmRGI1aFpNc29nVWFhZ1pJVmJxUnhMd25pM2NkQlVlQngwbGRzMGhMcWpEVFo5VXJFdWs5ZF96M1ZlM1I0OGRMbm9jQ2ZlQmZkemIzaEFfS1BqZHJ6VW9DX3U5aVBFMTJWTEc1bm5xRktIUnVWVm9LWmZZbUlQSEEtUExoVm1uY3oxb21VZ19ZNm94ZUl1d1U0dWM3RThYem9LdXZLUmcyMmN0NlpRRWRwcFZGX2JqZlJKbUNONGJWS2otSmIzZXZjVG9jLVExRE9BOVhvaVFRSl84Rnd2NnZ4U2QyWmg4WE9xa3lrdDNMVDZPblBsOVNIcmttbVdqTk4tNGJFekNhMXVxbk9kd1ltNElxV1lMMWtTQU14ckkzdUg4ZWdWU2F6Y0VJTTE3SUtBczJGTXAwNXpjaExLUlZoLUxsc1JhXzRDUmYtTzN1NXlZTkctSFpScllPRjQ3UmhYMDZWSnF4RklDOWlZT044bXNuR3ZyWlBKZGt5Z3FDNlM0a0xoNE1ZQzc0MlVsREdzQ3IxTkl1RVUtMlZrblVLRTVDcVVsWndtSGh1SUZlQXdxTGtOUEQ1RnN1Y1FlSTJsQnJKNWR5emtUNlBqUldHTTY5bWoxWnpJbzZDZkJ2UHlCNS1IZ1RPSnphTQ?oc=5",
+        "date": "2026-11-07T17:11",
+        "source": "الاقتصادية",
+        "category": "経済"
+      },
+      {
+        "title": "ダマスカス、イエメンへの部隊派遣を否定 サウジアラビアとの軍事協定の詳細は",
+        "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPS1l6cHJvck1tN2RGbTFGdVRVNi1hZEZUVjFXNGV1RmJQc1VhWjJOQmRid2tLaUswQzZxeHRhV2NrVmJkY0stR3F2aEtNbWhEMllEckRCWUlmbXI1U2ViZnJ5RUY3N3B1NVFFYngySTNFMXE5Rmd5elV5S3RoOUZGYUkyMzIzMlZCNWd0WVVYVFUyYnJQZUhBME5rc2d1eXkyRFpuTXc5bVVVdU9sM1MzZmJKZHNhQjFRbWNpbVB4REpFdWVsMmtOTkoyMTlheWtjOUJodm1KRGdCdU1ySGQycFVIQzVCcHRrRlZfU296TkREUUxlUG9vVWxjZ2hnVE9nakRYV0J1aWdIUEVTS2lxX3lZc24xRHZTaVBIaFdoTVduRngwOHdlWUlUM0h6cng3SzFZ?oc=5",
+        "date": "2026-11-07T16:21",
+        "source": "الجزيرة نت",
+        "category": "政治"
+      },
       {
         "title": "速報：シリア兵士数千人がサウジアラビアとイエメンへの展開準備 フーシ派との戦闘に",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNalFNSlYwMzZJelRmNENhaWNtcUJuWDBJbklsRks0WWstcnRqdFppME5yZG9McUdBRmh6emZpUG9VbjBiVkc4QUZQbzNtSUk5QmhKemIyS2pnZjhyU2NIdTdsLUlOV01RekFyVzBja2E5UkpSVWVMN0pkeXdIc1RPRkljUHJsQW4xSTdBMW9pUlEyV3pUVV9nRnlNQ011MEk?oc=5",
@@ -205,7 +233,14 @@
         "category": "政治"
       },
       {
-        "title": "サウジアラビアの企業が顧客体験リーダーシップで金賞2つ獲得 ロンドンの国際賞",
+        "title": "サウジアラビア駐トルコ大使館、国民に対し豪雪と暴風雨の警報を発令",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE93Q2l0M21GRjFwWms2QnVfN3JaNjdldHBic2E3UHF3YzZGRHlqd3RyM2pOb3FJbXJvcElIcG1OMGMwNEdQMXVj?oc=5",
+        "date": "2026-11-07T15:50",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビアの企業が顧客体験リーダーシップで金メダル2個獲得　ロンドンの国際賞",
         "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9hbG51WkFlLXJYU1FsNkNNSUU2OExBWEltMUh5VEUtaW9LZzFvQ3Y2R0FPZFNmeUg1dUNQMXpMeEM?oc=5",
         "date": "2026-11-07T15:22",
         "source": "وكالة الأنباء السعودية",
@@ -231,46 +266,11 @@
         "date": "2026-11-07T14:06",
         "source": "عنب بلدي",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビアの行政裁判所、人工知能を活用した司法制度をロンドン国際会議で発表",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9JUkVsX1A5UTEtUGlWQW05MUp1OTFsNnd2QnQ2bnZBMmo5TW9Ec0hzdzJGekZ0bzJyQmEtZ3p1R2tyOUMyTU40?oc=5",
-        "date": "2026-11-07T13:36",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア内務省、未成年者への性的暴力で有罪となった国民の死刑執行を発表",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaEZ5WFhpUlNkd09sWjI4QmFFMlBrNVRqcXYyUkdJMDhhdXYyVjdrUjRBNHppaU5vSXM4cGVpUnpkMC1xOWVFVl9DZWJmckM4T1Q3S09heThSNEpHeFdERkhQaFRFcDlSZ1QzVHgzcjcxeUlKSnNFN1pvUnJkT1N1ekJnS25HM042TDAtMWJHOGY0NzI4T3dxaGVzZjQwWF9kcXg2MVRFbl83SHNNaGlHcGdpQVBodw?oc=5",
-        "date": "2026-11-07T13:15",
-        "source": "CNN Arabic",
-        "category": "社会"
-      },
-      {
-        "title": "シリア、サウジアラビアへの軍事支援を表明 フーシ派対抗で　米当局者が警告",
-        "url": "https://news.google.com/rss/articles/CBMi9ARBVV95cUxQU1M2elNTMlU4V0JHU09IbWY5NlFDcS1DSk5pdS1KLXVmYmtZZ3oxaF9YSmhfRVZrbXhhWlJCWmdNOXd3c1BzVWxhcHg1N014WUFXcE5mVVVrc29LVl9QajJaSXdBT2Y3TmlJSEphMkkyR3U2SV83T3VyNGVQZWk2S0VUeUEzdkVjYTVNX1ZCVHJBaTVNbUN5eFRkU250NnFDR2Y3XzdoUDBZdFVPbC1lSjB5TVpUUUpFTzE4UG53YjlOZ1ozWjN0MWkta281X0lhOE5wU2t0b0Q5eWpZMGY5LUlBaE93U09Ld2NMUy1rWXRSTi11OW4zamdMY1BFQjZyQ0xfaHAwVG9MNXVvUmNab0toZXNrb3B6YlBSQmZyV1kwaVNDcnl3V3J0S0FmS1BhU0RLSkQzV1NwSDRReEY3VXZUUEdrVXlsUGdvMDlyVHRiYVBEWlZxSnJOSnhBRDBFRFM5ZUVTRjM5bnZrWEJsY0x5NFNMV2J3UUNCUFE0UWw1WHJSaUtLeV8zcUVvMGJWR0hkV2JIdzR2Nkx3RE04MkY0dU1mdm1VZ3R2V2RueUxia1NiemU1X3FScTA4Q1ZYTEpNNzllTlN2WGI4ajVLNUFSazhsR09IM09BaDFKbnlxMXFnVVpuVlZvM1hkTHVVQzh5MndRMXBhVGVMTlFFckZSeFFrZTlnR29lajJGeFRRRF9kLUxpR2JGU1hLNkNXaWV2MFFiN21nWVpnMDNuWnlCNXlkcU9MMjN2MldYeUFCTWdSMGlmZ2JDcDF6WHJuNm5YaXZjb1pFQVJhRW1jeGdwR0N0NlhUT2E3QUQ0Rk1RcjE2?oc=5",
-        "date": "2026-11-07T12:50",
-        "source": "مونت كارلو الدولية",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアのセメント企業、2026年初からの販売量が4435万トンを記録",
-        "url": "https://news.google.com/rss/articles/CBMiigRBVV95cUxNSng3dzNocUVxcUUwNU5GZ2dPaDdNOFloT19RZlhNQ2tFRVBrOXl5UDlkeHRMdzBlREdMeDI2QWtQMkNYUDNxYzRVLUZPQzByQldGOUhuRG51VXY5RWtBNk83R0xBSmJKLVVkdGVheHhWZEpGMTlzaXNUSmU2a1M1aEdGS1gyakFtY1BDNWh0VHZVNGZwekRfODJRUGQxaG5FZ0ZSNENSRFB1UnFYSEVjSW5rc3hCMFBKNTIxVDJIM3R5aTlqeVJXVnR2dk1NOUk1MVZQdTVIejFwd3RCOXFQaFU4Nk9WZ1h6bW5HWVB5MmthS1M5R2hFY1UwaFJVSk5DZEhkSWU4bmd3bXNrbkEzckU0XzdMbGFDeHFlb0NadFQwb3djNlI3d2Q2WGc0OWhtM2poall5c2pyWXJ0VVgtbENwOGNBMmY4ZmhHSldyVzNTT1JTaWtfMXZqRHpyVWVfbzBuSWk0ejVMUzBWMzBHS2E2Q1pNUHVDWDRwRWlObUxqUUZRY2tYa1BDVzhoUzVYUjBGejQ5Qk9QT3RSaWI3WEFKU3RVZ21GdzE5dUg1c0NocDdNcUV2YUdVNGRUbkV1eXM5RVpNRjljNVdpdDVJaWJuQWZqeVJmalFlOHZDQlJqQUd6aDRKM09Ha0o4b3dKMC1oOGMySFp5X1pRQ0M4RG1RbXZINGxjRWfSAY8EQVVfeXFMT0RzNkwxUVpvSFJ4TlVyZFh0dE1LNXZZcGhwTmNqMG5pUWwwVVc3SmEtSUhLM2lTWmhLT0J2NE1DUGxKQ3FKUmFJZ1k5eEgxb19RYWVHN1VwTC1XRE82UklIQTNkTlV6LUZZX3ZJSHRvUnl6MGd3dkRGLUc1a0NHc3ZZamxPRmpHZWtsTnFuNVJldW1XU0taaEtxX3IxRHdpM2hMeE9UN0kzd0MtMGhmc3NfdzdrRjFTQVljMmRJdEw4N0xrNVQtNXUzeE5fNEpwVmt1akZrXzljNUlMMFUyYkVWUS1rdy05T0V5R2RiV2R5dEhJR1J5akF3ekZaSElhTWx0cjJQZXBtaTNFVUZ0TkJZWHB2OVBfSkdpV1RxREtNTHltZHp2blZOT0NTUjktbnEzc2VEZnFJU1cxTmd0UEtTelFEMlVCZV9UQ044dTJlcnFscDJuQTg4XzRybTdtOXZLSFJ5MElITWMwcTdHc1pJYzM2eVlzRlpsUHo4cnlmd2NVMm5zTUpxcnBaR3NwbFJpRF9JUGQ1Zl9kaV83MkFTNzYwNUJfbjRYM2pQa2U5WGpTY1FXUjJ5Vi1HM3RIR1RTTjV4TUhnamxieGRBclFyMkl1WTU3QmhqRGh6TkhGQUxqQy1yanI5WGZBMXdEY2tIMnZaaG9kVXBlNjk4Z2taTk9lMmpSX3pPbWZIWDg?oc=5",
-        "date": "2026-11-07T10:28",
-        "source": "العربية",
-        "category": "経済"
-      },
-      {
-        "title": "速報：連合軍、聖地メッカ地域でドローンを撃墜・破壊",
-        "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxQWkg1aHIyUXRwbTNaQ2pTYjhkZUpfMDl5bGpzRzhGX0RLUUF0SkJfU29aZ3cxQXdrNl9VYXEwSGV4d3ZXSVNmeHlyT2FacTRFa0lpZWN5cnZhMlY4Rld6dHhvOWJuRXcyZjJ4bDY4N0ZSdkwwaDN1dmwxS1RlbG1McnBlYjh1dWRjcmZ3QTRRMFRBTWE1RVVhanNhb0V6VzRLNzZGOHdnaDVMb2UybUZsd0pzbzZ5Zkl5MEU0cUJ6ZVFOQnRWeGIweC1oaEUwY01iOXlHcFUtMWNyby04YVIxUTRaVDdjOHVxT2VkTUdPcHFPenc3Qll4OGxfb3pkQkE2UjVaQ0RyVXA4Q0VPbVRwV0lnaDVPSVFfaTU0eVFNcHo4R2NZamVUMmJPczRuUFBhdm1NaGNsa3AyRDd0T01YYVFHYWF1NzM1RmxGdFRQeHJ4WTh4SGZicjJnNDlZOVFHaUxJTFZNMlRpbW0tWGp5WTVMSkdyakMxM1pQQnJKaHlrbjhqRFc5cC1vUG02RDQ1eGFIMWxJRVdodXBTc1dxVUM5b0ItellnLUhubzRqbWN2LVJSQ0Zpai14OVh3SjJlVUFEYThEaHV3NGpJdVJIVVNGUjA3dDdrekZz0gHgA0FVX3lxTE83QW9aZWFJdEtPN0U2cFIyaDd1dVNTZ1F2RFpjWWU3SmlBRkprVTRQSzN6UmJOM0hUM01zYklFS18yVURjLWxqMjdsazdsc3ZCdHp3SjdJNklvMURTSndKdW83M0VYVE55M29XeUx3YnZVN01tZ29ubU05WjdUUkVSTU5oczMyZHkxR3JMQ1M4UHBmSUUxblp0UWpFQWRhT1cySDctY0hsZEJlUmtDOGZ5RjVKRDdTTTVlblllOVBkcGNLRWlyMFJKeWxIbHR4U3VvN3FqaFlXMUE0dnFhTy16Rl9IaWlDMFdybTRLNEtaTlFTcHFIY1RJNzM3T2p3SEdrSFhEUjNQSTh6a2FvbWtzWXhjZHAtSGJOOV9fNFJ6MktXdmJQZFNiazg2ZVpKemQ4YWNLcGl3M0dzRXpBWDJsWmFTelM5NjZaMEZqWGJoLTVhUjdMaVZvR2d6TzRnam40YWkzamtEU1UtUVVmeDlPR21QZjBwTnVqb2V0TGVuTllfOEJoVzBQYkFPZnRvRmdKc1ZXRndCTndmS1NkSnZ1a0xoMmxCRnFDOG54U1M5VUZiLWdCOWdOVUNkbWxfejlLUWh4R2FIQ2hHbEFKd1lxYThVV09IeEtDRTdSSkE3Qg?oc=5",
-        "date": "2026-11-06T20:19",
-        "source": "العربية",
-        "category": "社会"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-11-07T19:33:29.205688+03:00",
+    "lastUpdated": "2026-11-07T22:44:36.467352+03:00",
     "items": [
       {
         "title": "ワールドウオッチ：サウジが挑む石油輸出の代替ルート開拓 豊田耕平",
@@ -278,6 +278,13 @@
         "date": "2026-11-07T15:02",
         "source": "週刊エコノミスト Online",
         "category": "経済"
+      },
+      {
+        "title": "【京都3R・2歳未勝利】異色のサウジアラビア産馬がデビュー戦14着から一変 単勝91・9倍の7番人気で波乱演出",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tNUtUc3RveFFEbGZKQ09HdkNOZkhNblVRT2NMVjd1bGpVcmVPMkVzbXcxcTNQemVkTDgzX3VaTFRvd3V4T3pEaWJuVGdEczc2WjhVWmJSampvNjgwYV9j?oc=5",
+        "date": "2026-11-07T02:44",
+        "source": "netkeiba",
+        "category": "スポーツ"
       },
       {
         "title": "【京都３Ｒ・２歳未勝利】異色のサウジアラビア産馬がデビュー戦１４着から一変 単勝９１・９倍の７番人気で波乱演出",
@@ -322,24 +329,17 @@
         "category": "社会"
       },
       {
+        "title": "「私たちはここにいる」：EU大使がサウジアラビアへの支持を再確認",
+        "url": "https://news.google.com/rss/articles/CBMinwNBVV95cUxQZk9mNGM1NWJKc1ZOM2VSQVJ1c1dCc3RjODlnTE94ZlZ5X0J5UXJqR2Q0UGwzMHJlb0o1akhLQlI5MkJLcE1VcGJHeTVHY0hLWGNHU3NKR0F1dWxNa05UZVY5QWNfa0JWZy1HRDVpQXpNdmNlNVFRZVM3QnhCQ01kbl95SE9TUk05U0pQVjFEMV9reVVpWjRZNS1HV2otNXRDRk1valcxZmJSSWRDM0UtX3VBZjNlSHZTV0VtRDBwY0tueVk5Z2xnRi1TZk9WQXlnWC1HVmRTZGlQY2tGMFpyNXo4WEdERHFoT0MzTDJ1V3RxWVN5R1V4MUJ1cTRCUk5XZjZrU3I4bWh2emdpdXJwWWRsRUg3ajNfbGJCdU9aQ3o4eFhaUlJMM3hOVzQ3ZG14R3pKblNpSGhSaFJPOE4yZWpPeXd5bUVjSkVrVTRZSzZUaEF2OUtHeVBmZnlwLVV0dTZmMnJaczRDUGJmWWpxRW9qNnhNY0dRbE52WjROUWxDeWpCVUdORHpJelRnQUUyVjJuY0hhY2I1ZFVzWmRR?oc=5",
+        "date": "2026-11-04T12:58",
+        "source": "アラブニュース",
+        "category": "政治"
+      },
+      {
         "title": "連合軍、サウジアラビアを狙ったドローンを迎撃・破壊と発表",
         "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxQOTRJbHhUOEtyYTV5RUxEMXozcGR1dWZSanlOSWt1V3Z1M2NVZWFNSldNcmhZT0xFM2NKYUpsc29WX096QlVFVW1jaS1SZE1CNXRmVFIydFBFaHZFR2ttcGIxN3JtNGNla3YzUTZrWUpRYXl3Nk11RmxONTU3M0hENGlNNUszNGZLSmJDX1pFV000R3JaeXNxVkF0VnhuaHJPTml3ZHlrZDNYUVdELVEzUWdTUExHYXhZNXJEUTNIODBXdnFjWTJNUXJONTdBYXdBQlNXMDlfUXlKTE9wQmZzbkZkczdWMHVoelZDV2piU3J5U3VSenEtVUpXYUJVcTM5dExBVmZTczk3bnlRMkpmRjlsdVBkQjgwNU5fOHU0blRuWm4wOHpqa3kzZVVhQm9FanRrelAwZjVfb1dKdDNlcjRLVkRMNXZ6ZkdsdE5hRFZoaDIwODh1U0huUVVOMnJ2ak95WlkycFBKZWJOZHdoWkNuMXdSRDJGZEFnWVo1Zy1WWUQ2bjQ5NWk2aXdtYXRE?oc=5",
         "date": "2026-11-04T12:55",
         "source": "アラブニュース",
-        "category": "社会"
-      },
-      {
-        "title": "渡邊渚さん、サウジアラビアでの服装について説明「外国人へのアバヤの着用義務はなく」 (スポニチアネックス)",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTGhuQXVZSDlScFVxSkNXTFlVcFN4ZThqaHN2Q1hzQ3A4WlVhUVZhbmVreUZhSkhqRWhhaUpKTEhMZFZVSVZtLXlmWl9naUl5VjAxMlpiR0dsT2NYVk1wZWE5ZzVla3dNNmc2X3RGYU5mREttbGY0NE96WDQzbmRwSGw3VVFaQmVKODdtOFN3?oc=5",
-        "date": "2026-11-04T09:16",
-        "source": "Yahoo!ニュース",
-        "category": "社会"
-      },
-      {
-        "title": "渡邊渚さん、サウジアラビアでの服装について説明「外国人へのアバヤの着用義務はなく」（スポニチアネックス）",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92b09XX2Y3Snh5Z1ZIVURwdzBGOWpRV0hBUEd2VGNOYkcxNXpPNUdZMWpxLVNNaHBoVU5HdTVGQVowdjVLZllkUkZJRER5SzNmanZLemlzQnd2b05zaE5jOFJDVGNRV0ZlN3pVQjNnQ2NnLTktMXZ4bGxEZlFJUms?oc=5",
-        "date": "2026-11-04T09:16",
-        "source": "Yahoo!ニュース",
         "category": "社会"
       }
     ]
