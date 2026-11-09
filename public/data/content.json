@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-11-09T23:55:35.843057+03:00",
+  "lastCollected": "2026-11-10T02:54:17.817906+03:00",
   "security": {
-    "lastUpdated": "2026-11-09T23:55:35.843057+03:00",
+    "lastUpdated": "2026-11-10T02:54:17.817906+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -35,7 +35,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-11-09T23:55:35.843057+03:00",
+    "lastUpdated": "2026-11-10T02:54:17.817906+03:00",
     "items": [
       {
         "title": "大使館現地職員募集（清掃員）2026年11月11日（水曜日）まで",
@@ -50,7 +50,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101110444.pdf",
         "date": "2026-11-01",
         "source": "在サウジ日本大使館",
-        "category": "その他",
+        "category": "政治",
         "is_safety": false
       },
       {
@@ -66,7 +66,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101086223.pdf",
         "date": "2026-09-13",
         "source": "在サウジ日本大使館",
-        "category": "政治",
+        "category": "社会",
         "is_safety": false
       },
       {
@@ -120,20 +120,34 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-11-09T23:55:35.843057+03:00",
+    "lastUpdated": "2026-11-10T02:54:17.817906+03:00",
     "items": [
       {
-        "title": "トランプ氏、カタールとサウジアラビアがイラン和平合意を望んでいると述べる　米国は必要に応じて軍事行動の準備",
+        "title": "ルーシッド、四半期決算が市場予想下回る サウジ追加融資で株価下落",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBKaS1pSTFQRzB0MWlUTVkxUllreDJlUUVEdnFqTnFHRnprdHhnUENWRWo0THM2OElkY1ZnYkVtUWpkSndvOFJ4LUtjV09XcHp1LVJWNVVILTluMFdmdGplLXNGb1NtbkpiaDZNand5a1hScXoyUlVHcA?oc=5",
+        "date": "2026-11-09T23:20",
+        "source": "Barron's",
+        "category": "経済"
+      },
+      {
+        "title": "トランプ前大統領、カタールとサウジアラビアがイラン問題の平和的解決を望んでいると述べ、米国は必要に応じて軍事行動も辞さないとの立場を表明",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2o4T2dDT1ZqQmlqM0JxZEViaHZzWjRPeGtRd2N5MEZweXhTWXV1b0RybWgxNzZrMUJmOXFDMGMtTGE1RzJCMHBNdkctTVZpWXhBUUcxYUhnOTRqOEpQZUpPWjdsZHgtTWc4cWYxYnRtZEgzb191X2tlOUVVYXh4SFpnejMxYXRidEhFalZMeDlSSlhmUm5IR0Nyd2hybHhWVjVrcXA1ODVaYWo1ODhFSEhNMFZxdmdaN3VLTEc0dE1MZ21pVGxFMFh0TQ?oc=5",
         "date": "2026-11-09T20:42",
         "source": "Reuters",
         "category": "政治"
       },
       {
-        "title": "トランプ前大統領、カタールとサウジアラビアはイラン問題の平和的解決を望んでいるが、米国は必要に応じて軍事行動の準備があると述べる",
+        "title": "トランプ氏、カタールとサウジアラビアはイラン問題の平和的解決望む、米国は必要なら軍事行動も辞さず",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYzFTRnRYakFlMHJJeE1tUFdGVTV0S1FZVHkxdVVYTmhUeVY0TFhCTmFXTTYzY0kwZzIwRDJ1bkdCbzdNX1h1V0txaFowMDZwSFRDaFRaTXdwUmxjRTZlYndlajFjSFJ5OXJIbjdJWC03QXpwX1lWalE4MV94ZFJNc1ZzakJBdDZCYmVZVXA1MFluRDRtV3Q2SUxha2Etay0xQ0hyNktUX051d2pDSjJaWkotOGV5aGhKbUJfOXpDR093cWFBWjR6d19KcFBMdw?oc=5",
         "date": "2026-11-09T20:35",
         "source": "The Times of Israel",
+        "category": "政治"
+      },
+      {
+        "title": "トランプ前大統領、カタールとサウジアラビアが仲介 米国はイラン攻撃の構えか",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBweV84Y1A2Z2ZSbmtnbmM2RE1JSXQwdVlFYWpfd0llczRiWnN0c3lKeHdoU0o0QklLRFJWaXlLcXUzMXRZVGtMRTd5WGxwQ0ZYX2pzdDRfc3BtTDlfb2NCb2RFWlV2ZzR2RWc?oc=5",
+        "date": "2026-11-09T20:34",
+        "source": "The Jerusalem Post",
         "category": "政治"
       },
       {
@@ -165,61 +179,61 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、フーシ派の攻撃翌日 リヤドの警報解除を発表",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRFo2NjBsd2ZzTWNuTGtJOWZvbGVUanhLN0p2V1owR092a3o2emVkZllMWjc3YkF5aTJubFhzU3d2Z0FDT09FVWRyanJjdHVydVBkTkxDVmNjaERnYmljaDRZcUJGRTZUdDkxNFhhT3dXaW9RUS1McGc1eXZGT29yVm8wVWpNU25CenRqb3RJQmJIS3RickZfRnhBeEJFclppT3B2SVl4eXJMLXR3V0pTdjFpWHNLQWZpSFViMTVSM01WaE1QNXg0?oc=5",
-        "date": "2026-11-09T07:15",
-        "source": "Reuters",
+        "title": "シリア軍、サウジアラビアに展開 中東情勢が大きく転換",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LU3VKM1ZtaTdwUllLU0g0aURtVmxHUVpOS2R6VmxVVVRIX2ZMbjIzQlpiSFJUdFJOYWM1RktlWXdTSW94TFAyTjhId1lVYnJ6RU9Wb0hwQXh5Snhn?oc=5",
+        "date": "2026-11-09T15:47",
+        "source": "The Jerusalem Post",
         "category": "政治"
       },
       {
-        "title": "サウジアラビアの首都中心部にアラムコタワーが被弾、フーシ派が新たな攻撃を実施",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3VFhjNFMxVXpNZWhoTnJhcEs4clhMM3BveHNLUkpSUGhubGF5VDdWemd5aTVWLVY1aWNoT1l2Tm5kTWczXzVCTUoyMjJXcGtFdXVzZjgxcHVrYzg?oc=5",
-        "date": "2026-11-08T21:37",
-        "source": "BBC",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、フーシ派との紛争激化でシリアに支援要請",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX1dxU0xBWTBCTTFSc1JQR1I0RlFkTkE4WE9yV2RiMGlSUnRjSm9rbnJwRmVOLTh5NUhjOWxLUnBncmZsSHlEZEhSQzRoaGlNdTJ0NnVROXJBZWhsQndQUVNGSGtGYWJYcjlMVmtGLTNLSWdCVWVvUlp6enhCbk1wcmF6NDNtS3BvUk9wNFpOU0cyMHRXdlZWTHIzQlowNVRVX3NsVjg0WFFkTGRfdjMwMFI4VlpyUQ?oc=5",
-        "date": "2026-11-08T19:33",
-        "source": "Orlando Sentinel",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、フーシ派との戦闘激化でシリアに支援を要請",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObFNfMGFpaEpaOGRfS0RYa3FEOFh5OWFNaWxxbUlkcEFjNF84YWhEdHRKV283Q3loNmdQVnhUQTl6SXRzSjlIQ3pyVWhwV2JhejFpaEUyc2gtVjN1QU12NGdFNVVfU3BJektraHNJc0ZOTURqTVJyTFFpZzBKSDlwUlVWY2UwSmJ1eEFtNXJOQkpzVUl6eTdyVTFB?oc=5",
-        "date": "2026-11-08T18:57",
-        "source": "AP News",
+        "title": "シリア、サウジアラビアへの部隊派遣を確認 フーシ派との戦闘激化で",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRDdTSjlMcUdhQVRNTVB2ZVlSQlNLZ3dLSGJWdXRmNjh0OFlobzNFMFZHUDhZVDc4OENTLUpNZkkzWnpHeEk1eEwtN1lCanlGZDRKX0o5eWVvVGxaWUhxaDhxTnZicU5kLUtJMWhOMWZCTUlENVF3RjBWNDZhMEM4cy1nVXNWUlpzenNMUnNzWW9oTG8ydFNLVDNCckdEeFpOUkZMYWd5aGhTRnljdThPVVVzTkZLNTRLcmfSAb8BQVVfeXFMTnRwWWpRM0YybjRoT3RhZS1CUFhEanRzWlF2cFdtWHJrQktGSWFDOHhWUGI3OEk2NWlQVU9TRDExMGhlbGlNUkc2U2tEelBhdkRCVHFSdWJJVGNjbHZNNHRHM2pjNVFfMmR3cUc0emdDSFZnTk15RWJzeHRkRW5Gd0xZaWFlT3ZfWFg4WlQ1aDh2bk9CR2FSVWcwbExVM1pBS2g5OGdDa3JIMUlvZnFhYXNkRVBPbWk2VWZ5eHJCRk0?oc=5",
+        "date": "2026-11-09T13:15",
+        "source": "Al Jazeera",
         "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-11-09T23:55:35.843057+03:00",
+    "lastUpdated": "2026-11-10T02:54:17.817906+03:00",
     "items": [
       {
-        "title": "サウジアラビア出入国管理局、利用者満足度98%を達成 平均処理時間は19秒",
+        "title": "アラブ教育文化科学機構の議長、イエメンの反政府勢力によるサウジアラビア領土への攻撃を非難",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1hd1V6NWJQbGZfbWppSWY5MkRxWk1mejJwdFpZLUhoLVJlUHhwY25JcmNZYUdfVWdwMkJjbWJUNGY1YUZJdkRj?oc=5",
+        "date": "2026-11-09T23:39",
+        "source": "جريدة الرياض",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアの名門クラブが海外で躍進、その戦略的背景を分析",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1oM0NTc0I0VVpEekpwQW1zWHRBd0JrcndvSm1lWGFjbGdBTlN6SkFqaHNxNUtJdzZRX21zY2p0dS1ZZ0FTcHdr?oc=5",
+        "date": "2026-11-09T23:10",
+        "source": "جريدة الرياض",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビア入国管理局、19秒で乗客手続き完了 利用者満足度98%達成",
         "url": "https://news.google.com/rss/articles/CBMiyARBVV95cUxNUlJKUVZkQV9obVE2YlgxRjNac0RCa0xTQUpFWkphU2VYSkFkX2pyeXN3eUxITEtBbkhkanZXZDB6aG9RZmt4M1N3UFZXdU43MkowRXNiUjdKQ0M1dWY0SlpkdkF5UmE5WWJKenpyYUo0TTdPV29IdFBSU1B6NFJ6VmJYV1JERnd2djZYNC0wRXA2bEVEQzJXVVdTNExkdHF6bVV6VlIzOTJXT3BGTWxHMDVFVFRlZlVneFcxb0F1eFhyR1p4RV9ES3dkSXFDUE9ab1R6ZmVQYWJaT21pU0ptb1RfNnZ4d2NFSHBvT3U0Mjh5akx3UmRoYXVQZlN3WlEtY2ttQkZ4Vl84bXRUUnQ0Yk9pMHh6bTl6OVBrRzJHZGFBZE9RZUs2amJNT2ItRzVhZnI0UTBDOHlpd1c5UllEZE9rc051NGR5V1I5OWRraS1JcTRPMHNWVmxxQTZKTEZZNDNfR1Y3eTJETzVySEJMQ003RmU2eEhiTVFyOWxxbW9SMGxqSGdPc2l2U3cxVGlmc2R6dENjRUNUSVBHcEtQRS1JVTBYV1hNQ0JJMWViU1NkYlpxNWYzOUZ2YUhpclEyaUlmOGl1RDhDbWdLMGhsQVFFZDBZSG1zR2lPdFFVYzdoa2VCdzY4alpkcE9aUG5UbkxhZUhfQ0hYUndGR2FXMklmLUFaZE9vMklseEd6dVE4aXdnOGFPSjdFQjBZTEcxZ2NMWnJvd2tHNW5IMUYyMXBVaEEtTVE3dVBrVWFFYUdRd0lXTDBoZtIBzgRBVV95cUxQZWJYeHJURG1ZYVphY3VzemZBLTZJMG50MVVPWEE3SG9KZ1F0Y1BEcFdZdUF5Vi13WExjeG1Cd3BsNVcyZnBfYkNlMnN0cnVGd0tZS0NERFJ6Z2RyUmF2YjdkVGIwQ19IZVpITW80U3NSN282N3cyM1ZvY1laWUR6bDE1TVM3bjQ2cjFFN2o1alh5aGxDRlotSGkxUFMtcFdFSWw1UU1weWotZDJ4cmtuVzhfYTdLVW0xUy11cjRoOGw1QTVjaFNTbFRpRGlKTGVJZ2xVSFB3WlQ2cXpHVkxqQVZlNmMwQVJnZ0dMOHpjLXhrNDUycWVjSUNEVjN2VUNaWHF5MmN0V1BjTkc2Y3pWd3RfNGp0OHp2UXlaTWJqeGVweDkyTHZhdzhud1FNOVhlWW13WFRsd1MtN2Jjbl9lQk42ZkhnVzZfdE1YazVIZHRTb3pmNktZVGpUZDM4UTZpX3QybHl5Z2F5NWFELXNKVUo4VXNxUm40WWJpV2d4UTR5VzZIQTAwb0RaREs3dUdWNWRqRjMyRGQ3VjJmYlNqUWxfZkY1MzUwZVV6TU5nYmQ4ZnZSZjYxTXEzREtqNDE3ZjMxcXBDYTFIWGVCNG0yT0JZT2ozZzJ2OHBfZkRQeC1zS0JUSDlqQ1ppc1BLU0pvODFWNVFSb3hJdHBUN1pUOWpWbGxkYVhHampxa1hka01aQjJvVENJSjFKU2xxUUVRRk9ibnc1X09KNDh6UnR3clZSQ1pJZU1Ia3NxNnYzRkNQaUFsX0cybV80bER1dw?oc=5",
         "date": "2026-11-09T19:11",
         "source": "العربية",
         "category": "経済"
       },
       {
-        "title": "シリアとヨルダン、11項目の協定に調印 サウジアラビアとトルコとの鉄道網接続を含む",
+        "title": "シリアとヨルダン、11の協力協定に調印　サウジアラビア、トルコとの鉄道接続も含む",
         "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPLXRyNkVFenVsTmR2dm5nMWV1M09Ua1o4VkJyUm5ycGk4YjNjNzU2T0lQeVdISGswWjdHUXFEam9mSFlaZ0FyX0NmeTV4N2xwWVA4V3BOcVlJU2d2RDVwSW4xejg2RGRZM0djUVNPSEdNWE9DWUxSWGtxXzFaZTdlZk1Bb3p5OFdYTEZpS29qUWZrLUlJc1N1S0FqNktSNnMtRGQzcE1OaUhUdEJMMS1vUGZPd2JJYnhOTG9qV095ZDJBakRfbGhWY25IMk9QZC02QWZ5SVVOb1BBaVg0LVhQb3NyVTFRUUZ3TVJOekFHRmV0c243SnZpMGVmanJ6RjN2SXFoblFZWU9xb00wY3R1TWE3cUVYam1YVmVYLU5rTmQ4Tlpvc0w1ckVab3lPYVBwYjVGR2xTekUxOEp5d3VzVkd6RnZPckpKSklLNUVQejFmdTQ?oc=5",
         "date": "2026-11-09T18:28",
         "source": "الجزيرة نت",
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、東西石油パイプラインが攻撃対象だったと発表",
+        "title": "サウジアラビア、東西パイプライン施設への攻撃を発表",
         "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxNMGlkLWYtY183UlV0YURjSVU0bVB0XzBMd3Y5a2dGR3dtUV9DbTc2RnlPNklXTHA1c1FhVlpHZjd6N1FySlZMUi0wYUZwVG5KNndKMU15Y2FjaWVPQVhoUmdtYkpmRWhEYUg3ZElmeTJ6Y0dUdjM0V2dJNnoyRm9raU44NXYtcjdxTWRJQlpUVHJROTdHTkhCVkxULTFhVzFJdE9pWDE3dm5YenljcklHczBnc0NveWRvcHNCN2JwNUJYc2JXM1JMejRMTUVRVE5ETkFmLVpHNDRwY3JVNzJXYW1UZUxLRTg4SFdOMTcwbnBvRW04OGN4QThyVG1WNnNLeC1NVHZESkpkSURieDE5QlRXLUkxRE5UaE9CZGF1ZFA4dXYyZS1WeldnTnlhbGthUmlqaWtxUXZvNTB6STc5WElrS2lIeTB3dW9lamZhV2dWNzlfSFVEdEZVSm5kTU10MzJ4TlBxeFZ5OGlkNjhV0gH0AkFVX3lxTE5yTzVyMmpuYkFYcVlheDV3M0FVLVhPakZwcVM1SS1nZTlmZ0hyWkoxT3I0b1JZNHkyd3pJVmxYbTE0dmF3UnQ5aUZ1cDVqTDdXRS0wT2dvaE9SajRHMzEtcEJhLXNpT0dOVjlwd1E1UUdVZUktZk5nbjVpZEtybDJ0RG1TSWlVaFl6aG1RXy13MlBMVkt5bG9XTXp6MDFyYzlsX01SS0o4aDRfMVBDWWpUNmw3bGpkYXpVRjR1aFE0VmFhWjdOYUhmLVdBdEw5MVR5MzNGQmtQTjFnejVnZVRnWXF3VUE2bkhWODZBajhxb0RYQUk2S29faHV2Z0Y4VkpiZ19MOVVtTnQ3RHhrYzRtaVc2aTd1ODRpZkwtNDFZRzRwVnkxREhDQlo2Z0tnY0lxRS1ub1daR3hMcERzU204eXVlNUQwSi1HcHV5RXdEWThaX3F1NnlPdUk2UWJ3ZkQwcGpuSEtQS2czVzF5bGxTTy1wRg?oc=5",
         "date": "2026-11-09T17:26",
         "source": "سكاي نيوز عربية",
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、東西石油パイプラインへの攻撃を発表 被害状況を明らかに",
+        "title": "サウジアラビア、東西石油パイプラインへの攻撃を発表 被害状況を明かす",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOLUJlb0xuMjNmaC1hcjZaTW9KR1dxbWNyTFVyWkRXZ1JJT25OOWtnaGZKWW1wNlRydDY2OFlzNUhpZzdwekgwdXdzcWVJYVlnZEcwOTlRekw2LTFPQV9RVDNuZ2VGa1VaUTFMQ2VtZ2RZQVd0SGF1dFE4NHJRZXI2TlFHRmdKOElvTlZiRm0tNks5RGFWcllxWEVfU0RVMXEwYjF5TUpfRnZic1dBV2FZazFGWUVndzNqcmdlZV9QYm9td0JM?oc=5",
         "date": "2026-11-09T17:10",
         "source": "CNN Arabic",
@@ -233,14 +247,7 @@
         "category": "政治"
       },
       {
-        "title": "サウジアラビア・エネルギー省 メディナ地域の石油パイプライン攻撃を確認",
-        "url": "https://news.google.com/rss/articles/CBMi3ARBVV95cUxNRGxhS01keS0wZFY5WklONXhLSVBCSXNGX0x6ekNrdWN2Um1LUDVjcDJiYlprTmxFdnNhSjNfUDlkU2Q0LU9BelZaNXhNT0VwcHF0RUNQcS03RU5neTltSS1CTHRyS1NOMEZnME1FTzBMUm04Yno0VmJpS2lUdjVuR2twVFBQTzlESTR5RlJGNDl3YTFXV2RiVGMwVGpaQktZNF96clNzZUN1WlhmdTVwWEtnZVpybVB1NmQtbWsxekhvQnA2S0xuYVVXcHduN0JNZHA5bFR1Z2RIa1lKNGctUFVRTjBBSTlDVjVNa2FaQmZodFE1MDZnTGZLckhGZjVmMjM0NHFFaFJHNlNycEZXTkFBWXNsV2pzaVVTV1lRQlVNMzFEZkVEX0gyWUtTMDhTTFBfa2lJOEZfd210Y0J3aE5pUDJzcGZVSVNpYjVhNUx3WVRLMENPTnduV05XTklWYkIzM2h6SHl5ajRHLUtocy1UanVCVUZ0cGpmVG5jMDhHQ1hsV1U5R19sTWFBd0tpZDZ1MUpUMFFDcXkwSEl0WExNcHZSdDNocDQwT09tYVl1V2pJWFRINGFRRFd5ZnREX2NzNW94b2RHNE9XbnhmaFVkM3ZRdkFZc1p1NHNFRTVDczRiZUpCUTlTeDVsSzVqRnpaaHZhMnFjbVYxb1hHOXU4bmdiMnpaSWtseENOc0gwcEUydXhHLWY4ZEItbFl2SE0xUGZsS2lHWnRsZ1hKWnB5X2JCMmpNSjhYbUpaUDhDbFJqUnFXazdVZU5kOGdNZ1JtTFBpRU5vSWlf0gHiBEFVX3lxTFBiVFNLU2ZuZlVKa0pFdVhxdGlWMkhiVTRNeU5zWTB2YnA4OTlSWEl5ZzBmTmp6dVhzSXVyX3RWSHpOWnkwb1NNMl83SFo5N1JBeU9INVB4bHo4MjU2TWl0TlpFRXhkRWNWNUJYRVlycmRyUDJpYkZHQzFYQkdOZ3ZERUpXS2RQYVlKNHJoMDYzWTRPek44ZmRzczZwaU9ObkFVbVBwUzY1Y19PZFVBaEtpOU8teGJMWld2RnlaVEFQeFRka2E5ZjBZQU5VQVdkTnZ2RnBMZ1VZdVpBR0p0aE9mdmtheWtUV3BoT05Bd2h1X1o2MUJCOVpkWjN0dmNlZFpGV1ZmQUpmcklqbDZsMzhWVlRLZTFrZTkzcUU2VldLS0JmbkFUcEFLdkR5cXI1ajVTT2NzdUFyY2p0Vk1PcHhtN3JmY0NXS21wSUZ5TTBFYzBGY2VrNlFlZ1JKY2NRWUM0SnRUU0F1ZGM1Szhjc3djUklybmF3NHB4S3ZxY0tyX3pYTWZ2Q2F0WEp6ejJqOUdjblZ6U1VPUTJvMnNfVUx4ems4TGdacHItRU9aa1FOaU9TbTExbHV2NlAycm00V1pQcmJkMUE3Y2pQcENxVlhCVzlLTU9ndWJMVDVMZkNiRVluY0l5VW51bmFQMlE5OGJoLXRVTE9YUkNWeWp0aVNKdUtJZ3BuTTJMcmd3Zy1jeHJBUFd5Zk1rUW5JQUo5eTlWOWdzSmlXVHdVZzRISnJ6WWhjV1JEVlBqUUFyWTBXSG13Y0xNYTVQdXdzWlRtT3dEVjRZYWVNMVZ2Rzl3WWR3NVE?oc=5",
-        "date": "2026-11-09T16:15",
-        "source": "العربية",
-        "category": "経済"
-      },
-      {
-        "title": "シリア、サウジアラビアとの軍事協力を否定 イエメン派遣部隊の報道受け",
+        "title": "シリア、サウジアラビアとの軍事協力を否定 イエメン派遣報道で",
         "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FR0g0VUZDaF9jWDBHQXlKN1FlYXdGQUFkbGxFZE82QXplbWJrNTM5YnNTYVZFNnZRTGx5WXc5X0ZqbUw4bF94Q2xjb2NibExQZWxtamwwNzEzd1VlOXfSAWNBVV95cUxNZnpjRU5ucWJTN0hGQ3dzdGZzS1FaY0s2cWllbzd6bDhCbVBCWl9NMWV3Mlk5VGJ0OHk2cXpGYzV5WmF2VDdlMERaZERMV0tkSHpEVVpaWWQtQ1lnRW9iR1M5NWs?oc=5",
         "date": "2026-11-09T15:11",
         "source": "BBC",
@@ -259,19 +266,19 @@
         "date": "2026-11-09T12:23",
         "source": "العربية",
         "category": "政治"
-      },
-      {
-        "title": "メキシコのプロレスラー、ペンタが語る「サウジアラビアのファンを愛してやまない。リヤドシーズンでの優勝は特別な瞬間」",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UbzkwVHM3S1F6bm1hdldaNEdzcVExUkJTZGNqTTFpUDkzTFJucWJpZWo4em1DWHlnbVNVcWF3NUFOdlNaM3VIQUktekhfOUVTZ1HSAVRBVV95cUxOblF3OWpjaVRVSmo4b0M5TnE0TWtLN0xZMG13QmplRWRSQUdfdDkwbk44NDdQS01CTUtkZTlnTnBNNzk3ZmNnTGc4MFozd1R4aDZzNDg?oc=5",
-        "date": "2026-11-08T19:44",
-        "source": "عكاظ",
-        "category": "スポーツ"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-11-09T23:55:35.843057+03:00",
+    "lastUpdated": "2026-11-10T02:54:17.817906+03:00",
     "items": [
+      {
+        "title": "ルーシッド、予想を上回る損失計上 サウジPIFから17.5億ドル追加調達",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1WejE0ZVItb0RUSmtiWWtUc2pNM0R0VjN1MUZrMnhtb0JERDY4TmVsU09YRTFyUXgwM0dQM2wwLUtVbEp5enBOVDBEclRpRHRBMF9zWHl5czdqajRDRDNmY3JOQjByV0Iwc1ZEZUVjM0xUWkRM?oc=5",
+        "date": "2026-11-09T21:25",
+        "source": "BigGo ファイナンス",
+        "category": "経済"
+      },
       {
         "title": "【ＷＷＥ】「クラウン・ジュエル」翌朝…サウジアラビアにミサイル攻撃！ 選手たちはすでに出国と報道（東スポWEB）",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YbTAxZUNRTFNSU0RnYXc5eHMteEF0SHFCYzFtdEQ5SFhCSmoxWm5OMDVVZGp0TjhaUW9tMWRxbzhUcWQ4RFAteG9BallRRDM3dUZwckh0TFF0T0t4ZTYzNHFOYlVsc1l2aWs3UTdzc0tJaDVMZXVua3JIUnpGeWs?oc=5",
@@ -315,7 +322,7 @@
         "category": "スポーツ"
       },
       {
-        "title": "サウジと軍事関係深めるシリア、イエメンへの部隊派遣計画は否定",
+        "title": "サウジと軍事関係深めるシリア、イエメンへの部隊派遣計画は否定 | ロイター",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWmJqRzRHbVRBV3Mwa2I3NTdGMUhNc3VuRXM1bVd3WS1WYThnNjFtRG8wLTJrZmpQRlBOSFJ6UWI0TFgtMEdITnRSbXdDcU9WQjNsSHdqQ1QyVWs0WTA0SnVmLTgxY3g3blFNeWlYYUR2TUJBQnJoSURJbmppdDJ5ckFTNWF3bzg?oc=5",
         "date": "2026-11-09T01:08",
         "source": "Reuters",
@@ -333,13 +340,6 @@
         "url": "https://news.google.com/rss/articles/CBMitANBVV95cUxNTmVfcTlUWlZtYy1pWVR3dkhhcEZlN0hqNEUzVzRhSlRXeEFDSlBHUFBEM0dxZktzUDhOSUxFSVFQeXJUWjNvcG05R1VaNnRLYlpFMEFNN0F0VlhJR0VTcVlHb1dHajFKYWh5YVVsYnVxdFJLTEowXzVfb1lTZmRUdzlqZERKUmhTZG1rTjNRaVdRR0h4RDh5czBlMFhJNERndEpGeW0ybDcyN0RWU0taTl9IbU5zOE1kb0JQMUUyaFJVQUdQLUZFamFGRTRZbEl6ZVpkRXc3VkJPdnhzYm91aFVpdDQ5enJqWmNWMlZNa0M3T2djSTFaOF81dGpzV0lRX25uaEQxcncwMmtsdVpMUUE3ZkV2UE9CWHFqOHRYa2t4eEgwUzAyNXVrTnZBOVFTVllXNDhmcDlMMWM2Zng3WkZkMktkMHZoSC1BOHAyVUFsR2pHQTRXRGhzRFNRZDVaZmxWY0EzSXdDWnpjMkYwT3VlUkQwM3NkNEJtWGFYVU9sOTRjX25HdjN5RmJ0S2VUV0xRbUF5NjhiU3ZFejJ1U1VNcjN0YU9fQkZqWjlmMDJPYXJq?oc=5",
         "date": "2026-11-08T16:15",
         "source": "アラブニュース",
-        "category": "政治"
-      },
-      {
-        "title": "サウジ首都、金融街の「アラムコタワー」が標的に ミサイル攻撃か [米・イスラエルのイラン攻撃 イラン情勢]",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45RzdWekhhd09ZTFYtUlBqX25qbWxjUXd3MEZMc2RqeU1VOGZ3SDc2dVVsbmJVcGZ4YTVQeGZ4WWttTGE1d1dINzk4RjIwVlN2MnVMaWh0RlRNQ20ycHRJVm12WVBVc1E?oc=5",
-        "date": "2026-11-08T15:30",
-        "source": "朝日新聞",
         "category": "政治"
       }
     ]
