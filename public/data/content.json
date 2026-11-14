@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-11-14T19:39:56.952852+03:00",
+  "lastCollected": "2026-11-14T23:14:27.238123+03:00",
   "security": {
-    "lastUpdated": "2026-11-14T19:39:56.952852+03:00",
+    "lastUpdated": "2026-11-14T23:14:27.238123+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -35,7 +35,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-11-14T19:39:56.952852+03:00",
+    "lastUpdated": "2026-11-14T23:14:27.238123+03:00",
     "items": [
       {
         "title": "Microsoft365の大規模障害によるメールシステムの不具合について",
@@ -50,7 +50,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101102965.pdf",
         "date": "2026-10-18",
         "source": "在サウジ日本大使館",
-        "category": "経済",
+        "category": "政治",
         "is_safety": false
       },
       {
@@ -74,7 +74,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101059926.pdf",
         "date": "2026-07-14",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -106,7 +106,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": false
       },
       {
@@ -120,10 +120,24 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-11-14T19:39:56.952852+03:00",
+    "lastUpdated": "2026-11-14T23:14:27.238123+03:00",
     "items": [
       {
-        "title": "サウジアラビアの砂漠の古代湖畔で発見された12万5000年前の毒塗布石器",
+        "title": "米国、サウジアラビアへの攻撃後の急速な緊張激化に警告",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6U3pGc3g0dWJYN0J0eVdpY2xseUUzT2dFemlJMHBoZDdicHE4Tjg0bVUtWVg4aUdyRWxWblpORVZYY241cmVuNUNEUWlxdlBYNkFsMWFQamRTLU1I?oc=5",
+        "date": "2026-11-14T17:15",
+        "source": "The Jerusalem Post",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアなど18カ国、イスラエルによるガザの病院爆撃を共同で非難",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYUFraURya090clVxNFFldEpsdHdHQ2NnbF9oSWdVakdYdjNOTFhadWJpWVVFTE94c0xUQnNPSHZxQW9oMW5BbENadUJBN0xiQ3BJak5WMDUxbU5DR1ZiZ2NBZUVkX2ZBdDhpN3RkNWdiZ2pjRy14dEFjLVNjcy1wWE9SNjBFOGhEbHpxTDNVd3RfSS1EX1UtRFJkR29jUzhZVk5RWU5hZVVSNkVad0FReDgwcE5nY0t2WlB1NFhtX3k1Sjl0eGtn?oc=5",
+        "date": "2026-11-14T14:31",
+        "source": "Arab News",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアの砂漠にある古代湖畔で12万5000年前の毒性物質を含む石器を発見",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVDFKd2JOaEQxRHVVTXVKRVdiXzJGdjl0WHZSc1daTFRGaEVjNUtjRVZ0ME9pTTBCX0ZzZ2hVNGIyQ1dYd1ZLY0J5Yll4WUhaNmxWNHpiOEg3UHNkQmlWTGdLRGN1MkdGUlJLYnQtd254ZDZhTFJ5bjJQM0t5MGNxQWh5SkhubUFGRDQ0TXd3?oc=5",
         "date": "2026-11-14T12:53",
         "source": "Archaeology News Online Magazine",
@@ -137,7 +151,14 @@
         "category": "スポーツ"
       },
       {
-        "title": "GCC、イランに湾岸諸国への攻撃の全額賠償を要求",
+        "title": "速報：米国のサウジアラビア大使館が警戒態勢",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN09FRkF1U2dwbDJrRk8ydURydWNnWmJhM3g4eE5KN0JlNWk1djF1bVlGUDJsbDJScjRaaWU5OEJ5QWhtWTRES0gxX0dJUUxCTkc3MWZDTDFzR2RiYVJ0Z1htVnJOZGtBaU5UR090WVJ5NGJQZFcxazZySXJGNTdPbmVVUHI4YTdrTFB2OGdn?oc=5",
+        "date": "2026-11-14T02:09",
+        "source": "U.S. Embassy & Consulates in Saudi Arabia (.gov)",
+        "category": "政治"
+      },
+      {
+        "title": "GCC、イランに湾岸諸国への攻撃賠償を要求",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLTBUbEdqLVBRNHdmd0dUZVg2WWxodGkwa3lBYUpTN2ZnYkhNVWJXbXphZE50bnZ1NGVveGRzY1NjNmhMTFl1c01MQjUxMTQtSnI0M2FGUUx5SGNxOHNPYlA3cFNsMlBPYXU3dlc5eHU3UXZaRWg5T0pQajA4Sk5NOFpSenA2RTdURmpF?oc=5",
         "date": "2026-11-13T22:26",
         "source": "The National",
@@ -165,38 +186,24 @@
         "category": "スポーツ"
       },
       {
-        "title": "トランプ前大統領、サウジアラビアは「瓦解しつつある」と発言",
+        "title": "トランプ前大統領、サウジアラビアは「崩壊している」と述べる",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5QMTFPSGdFTU1jWVN3aFJUekVmTkgxZWdnakZDS0FkbW13bHowUW5IbXRwSXVxem5OQkE3eVVqaF9ETU9JanVTNGZsQzktVmFmS2ZaS3Z2cFhmVjU3TndiX3NoZFY2Z1l6cVFxMmhhcGtoNkF3dkQ1RHVVTF83Zw?oc=5",
         "date": "2026-11-13T17:55",
         "source": "Middle East Eye",
-        "category": "政治"
-      },
-      {
-        "title": "韓国、サウジアラビア戦で先制点を許す",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRjVGcFJub3I0Q2pBMXI0WkRmUDdPemhRVDJDMjhKcjR5azZSVFpHTkpHc0ZqTkFsdV9rMjlTODFHNk1NaXBXb1lJZnZ3YlZvNm9JRFR2bnM0a2kxNkZaZGQtUGxMWWlkRUJzUUp3bnJYTURNY194eVE0dnllV3BwTFh2WnViZw?oc=5",
-        "date": "2026-11-13T16:42",
-        "source": "조선일보",
-        "category": "スポーツ"
-      },
-      {
-        "title": "米国、サウジアラビアにイランとの貿易路遮断を促す　パキスタン・トルコへの働きかけ要請、エジプトは対話を呼びかけ",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRXpjYnFSbjY2VEFlcGpxWE1DTGpfLWNIcVhFREJvdWNESFBackkzNmRFSUN6WjZZcGhWQkQ2ME1DeDRKVzJBS2FOUGYyVXVUQ1NGOTh4ZHRCblFNX2F6WkRqZXV4Tk8wbFVkS09STzNOd2pzRzMzTkx3dW5lSWlDU1U3YnlaSEpCbGo1dzltMXRrcVI1S1NOZ0xPMU1NSFBYWTJ6bDQtUnVxdlgtTzZoZ1M3VWFiYXBOcXJORU40M2o0UmtQQkQ5RDFyd2htc2hXX08tdmpR?oc=5",
-        "date": "2026-11-13T15:30",
-        "source": "Business Insider Africa",
-        "category": "政治"
-      },
-      {
-        "title": "米国、イランとの貿易路遮断でパキスタンとトルコに圧力　サウジアラビアを仲介に　エジプトは対話促す",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZUgxT05UQjlSTVoyRWNkbW5TNTBDSmdGbjBsZWxKbU5jZXlfZGNQZE04cUZmRzZTVlJzRlFla1Rnd1pQYlhJWUlBdFZkS05WZm9oWmNPTDB6Y3ZYYkVIMXVRX0Ytc0JoVDFjR2lQUVlOTXNDLUJ5bWZUdVNmUHY2eGR1QjRYM2pUR3JOWDVuMG41MDlwdm9LeXV0blJqdXRxczRhWFl5TFZnSnI3XzBKQ2Y3NjFBNmZJc0F0RVUyaEU1WGd4U0w3R2dwVVZwMlY3WklnbWV3?oc=5",
-        "date": "2026-11-13T14:00",
-        "source": "Business Insider Africa",
         "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-11-14T19:39:56.952852+03:00",
+    "lastUpdated": "2026-11-14T23:14:27.238123+03:00",
     "items": [
+      {
+        "title": "サウジアラビア、ベルリンでパラリンピック競技の振興フォーラムに参加",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00UFpKcF96eWVmb19LbmF1Z0tHQ0lBTGc5OTJnbnFYMWJTOC1Fa1JUSmIySGJSUUVJWi1kek42Y3F5d08zVVIya1p1NlBsOXhTQ3fSAVRBVV95cUxOcTZEUWFUcEtMWkk1ejZFTndzSzFTVG9jd2hENGpKOWtsc1QyUTJiX3p0MFFmVzBONlROd2NiMGFtYlBBaFBuR2R0Q1lacXRNSm01U3E?oc=5",
+        "date": "2026-11-14T16:59",
+        "source": "عكاظ",
+        "category": "スポーツ"
+      },
       {
         "title": "サウジアラビア、地域冷房事業に新たな規制 配送体制の整備と消費者保護",
         "url": "https://news.google.com/rss/articles/CBMizwVBVV95cUxNNWJlRHJuQ3Vvel9ta01xSXk1dm9RMk4wRU5SbUs5Vkt2ZV9UZHFwYlpUN0RzdUxnMURVVEtxZFRQWGl4OUpWaVpGYlRDNVJWRm41NHI2a3MzdWtuaU1DejBYc1R1VXJLV1RZZnVFRjVJTS1CdHhTQ2tKQUNFYUVoQVZUNmVTVm42S0ZaUGx6SzJ3WURUbVgxUEhWTERhamtQQkFiQU9XdVFpQ1BSZkNjT05PXzlYS05YaWp4b0FoQ2tsNTMzdThZUUhCaF85dFB4dnpya3JfdTRLVlJNbEQ5bktDVHFSZGtTZmRoNmo3VDJOR2xtcnpGOU84ekpZc0J6T0hfY3pxRUpzcU9KSktaMU12NHBGdXpabTlkZGt5WFZmRGpWYnYtN2YwRFZpZENsSkZYQnNacUFoNEF2SnJ5QnZzWlVEZFhQa1NEVlhTdzJzZEYyTm53cEhpRnduUkFiYkFWdXhwc1JRaG0tQ3lVcjZVb2NlQUpfZ0VNcmgtQ2NHc0taQlVUYm1xUVkyczlMcVo4UDdubk82NXZvcmF6WUpxY2JlWlRNZXd1dlJVeW82Y2dHYlRNUkY2TXJNeDNmWjRPUVJzTlAtWG9abEJXczlrVkJjTHMzOGV4dkg3NnlnZ3VKelEzeW5Kb25NOVl3ZUhoX25LYlZVRC0wS2hhb05GdFNqTTVyOGR4MUpLbExTRkVwLTlyT1J3T01IMFNFRmRuVklGWTZ5bTh6VjdtWjM3UldKTnpZV25PSHVqUTNScVhta1dRZ3NIRmRfZHAwNnFCYm1sOFRFVGZyaUg0TzUxMmZkejlsVG1UNDBHd2tpa2h0UFVpZEJWcDBZLXQ0UTBTY1g4b2VrNEozSVFkd25pQ0FGaHlHR29pVkl0MW1KQkZFYk5Ec2ctT21kR1FTb1VHdnYyWlB4OFBPeXRMeW1tNVd0OWRuMDVVMl84c9IB1AVBVV95cUxPUEZ6NHE2QS1xUGtzN3IzWW1QcGRrZ0tRVk9wT3BtYnhxMDg2al9UX0p3aUNKME9rVDRTWHdkOHdfS1VjNmMzaEhWYmFmNm1NYkNneDQxbkdIMHNxd0RwSlBfQzVCQzdjdlg0V0dxVnY0R05ONHVDbFV4SGpZY2dKWUQtQnl0dFd3RF9sQnBZWjZkd0dlaTR4SG5ONHRLZGhwRGhOUHEwbXoxd0tFNWhvMFlIRzZDc2c1R0V6RnFpbVJWRnY0M1NoSkFoWkVleThLck1xcjZycEZwNnd6TWxUNVpraEk5djZSR3pySEpsUGtzc1dGZjFzUEJfTjV3QjJrNVdCbEdRNXp2dm42ZEtlSW43aV9xMS03WWJkMnFoNXhzcDhZUnJuc0g0MW15eGFBVTNWQThVcDJVTURjMnJsaW5keHQtZ1NqX0VZT3lBcWhlYklqS0RyeHRjUXFwa25QS1BkMHhLcVRRTFg2NkJwc1plUkNsT0g4Qm1uV0RNYXlFYjdySW1qOEtsQXB4WE5wTEhRRmY2MWhvNHVmVGRNZGtESmRvd2N5VHBkOS1tajZzRFFvc3BydkptTk5fMlN5ZmEtZEFvUHBVcDRqMWh5NTFaNWozU3AzQmFCQ0huYkFDN0szbERpTUprb01hZVdYVThjTGtnUjJTZGNFNW9fdEE3QW1hX0t4dXU5RER0UmliWFZpOHYzRmp6VFNUNEFFUHJiY0Z1T0hlYXpQVWZZajgydUhFTFJvVHBYc3lGMkY5R1pWUXh5a0h0UU5LWG5uc1dKTk9QMllUdTRNTDVXQnBpaFA1MWxGakE1WDFhZENHTFlYaVhTcHVYS2R1SElqMzM3UXB3UHRWMExIc1laaEc0Zll5WVFhYlV3MTZYMFNzb1ViWm8tT0lBUzVwVUFHM1dMbjJqZmM2NGZZd0ZDYTlIdlhNa1dOU0lVVDg2aXBhM251?oc=5",
@@ -210,6 +217,27 @@
         "date": "2026-11-14T13:26",
         "source": "الاقتصادية",
         "category": "経済"
+      },
+      {
+        "title": "サウジアラビア：国防大学の名称を「キング・サルマン国防大学」に変更",
+        "url": "https://news.google.com/rss/articles/CBMiswRBVV95cUxPZWJYT3JhWHJSU2g2aE5RQjh1cDFhekdPdmMyY0dzV0FtaXdqZ1ZkOVhCUEM5QjFWWlh5V3B0T2VXQi05NG40cUFYMXRlUjQyWlNKQ1ViRWxRekF4aUZfVk5icnlvazUxZ2VJWm02Y2FOQzZ2ZFdhZFFLc2hFSjY2NkpTMG9GQ2RHTXIzbGpwMFJadVJkdk9yWUNpUXZOdHREWFVUbWhZWUh0MVFfUDNXRXdCakZtSk56c2RPQjFvTlU3TWJyNThycVMwWTluZE9MZzVpRmdoRDNkNjlURHVjbXNVRWVQdGlIQkx5MF93SnQtNURUTDVFZ1ZTSWZWTk9BU3VNU1lpUUR3MVNfekJ6Z2l4TFFQSjZQTkVUZV9kSFAtdm1jX2FPVjZkeS05NDhTOERHSjFPWHdsQVZhSWxlTGoxOV9vcno0UHJEcGlXY0FEVFNyTXdmVlhUX2FGMGhlZTNVU3VhV1RONkZVcEtOdVVnalpGRy1qajRJemtFb1ZhQ3R1dlhuMXBXVUlwcXhGaWJwVDI5TEtkbXhhTnVPVTJQbUw4bUJjTEUzWTJHT0NSX0ZOTDItMVZCcDhUOV9SR25qYmJhNHZIYzU3Yi1kRVVvUktzT0JzMkxHaFdDQXJFejJocFc5QjRjYXFaWG9va0l5SUxRTDZST0lwMzdxYUxqYnVmaklkQ3Z5ejBjeHRKYVFUN0ZUZEhVeHZqeC0wNTFpaWxKUE84Tk54bnBKdEs5ONIBuARBVV95cUxOd2NyTlpLMGRlRUNwczBENVpYNXNDLWR6MkdDZS1PWDd5R0kyMTB6bkVVNElXNzNNdjZXNnoycjh5d0ZWSDlLQzRfa0tkR3d6LUZXT3AtS0ZGMlpuYnBkWnV5R2xEaWNKM2U4VTBzeF84WFBBQUpId3pvdkx2UmNzYzk5TWFtT0J0dUVkcDN6QVRueXpWcDRNeklmcW5yaFd0Vk5RdUk0VU5xNlI0dmRRYXd5QjdvOWY5dG4xN2RLVFF1TU9NMUw1ZW5OZ2h4LVlpR1Jic1FyV1luMXJuSVR3RlpkanJZREdNemJxaHo3a0pSMzJqUW85RUVKOFVwLWZ1bzRJamdGZFJ5LXQybEhyX2hvdkFwRk1OSE9rQ2VnYXhOM3JmVFV4NzkxQzVPVUF3cDZLdnBiS1RQcmJybjdaQTNvM0x3NUFUazFjNVpXQXFxLXg1UW1LM1pKYTRJQWlvdktiV1NaUTJySW9HOHc5NVQ0SVd0ZDY4QjNVbUhYa0ZZVVJwbTBIOUtFdlhyUENNNjRsYnE1U3J6VC1EZ1VWZXY1R0g0RVhfcGJJQjZibFRtYmtFUnB1X2FZREVScU8tb0I1ek1pXzFzYk50RU94NW81VmdpQXBCMHhOZUl0QnhHVkx0cGZNNjJfVjBQZE15azJNMXM5cklEQ2RvT1lSX2hSMVJid0FvNXlReWFsOFFBblZ5NGRUX0g2M084VmkyWXdnSEY4Qk9oNlJ1MjJNcDU4azFCVENl?oc=5",
+        "date": "2026-11-14T12:32",
+        "source": "العربية",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア電力規制庁、地域冷房サービスのガイドラインを発表",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA4MWJqV29zczRPYnc1Nl9wYURSQTZsRVdnLTdRbmJpXzBHZEg3RTM3cWY4MTYtRW5XTi1VaHRGaEhjNzlzM1E?oc=5",
+        "date": "2026-11-14T11:53",
+        "source": "وكالة الأنباء السعودية",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア内務省、東部地域でテロ関連犯罪に関わった国民2人の死刑執行を発表",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd1BGSFJfSFYwTVE2czBJYzBFc3VpU05rdDdTMV9rUnp2TTZxdzFIQjF5cGZIczczdGN0Qi1FLUc4Q3pXOWlQbFN3UG1KNEo5Q0pLdHdkR3U0ellubDNXeTVjZUg3cWh5cjhwSGhCdDlFWmJIeGJmNzVNVFpkV0o1RGIxX1J4ejBsb0VSVjVncGtiTGxGUXdFWGN1RlRyNVNmQXJ0Ul9RNjlOMkp4d2hPWXF3?oc=5",
+        "date": "2026-11-14T11:03",
+        "source": "CNN Arabic",
+        "category": "政治"
       },
       {
         "title": "サウジアラビア 本日の金相場（1448年6月4日土曜日）21金とインゴット",
@@ -233,44 +261,16 @@
         "category": "社会"
       },
       {
-        "title": "シリア、イエメンとサウジアラビアを支援",
-        "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNaVhVeWN4NkcxYnRhYmU5Zmo3eWl1bndXOEN3bnhTUHVWdEZmMmh3bjhOVURMQmxFZEpaNWkxUFV3TzZLUnhxZUpPMGNyNkdTM0NKN2RQVFpVSFgwcEl3TUNYZUo5ZzNxNGdLUVlkTDJWZm5fUWlVTWRPWXdnMkQxQ0UwSnAzMDBEYVhMei04Z3ZTNW95czBaSC1qa1ZHNk9zV2dTZ25IaGpWaXk1dE1ELXlpNXlWaEN0X2tBSnhZM3ZMYUdxQkhGUFZoSVpBSHJWbUpmdzFCMlJNVE01a3RxeUpNWXJmOGFqV3RxOXhqLVVQMDVlWW94RWFPejQ4d05EejBkaEVQOE43WV9PU0pxQlVfamFUXzduT2U0QWhKVEYzWG9UalE?oc=5",
-        "date": "2026-11-14T00:06",
+        "title": "サウジアラビアと韓国、アジア大会の記念試合で親善試合",
+        "url": "https://news.google.com/rss/articles/CBMi9wRBVV95cUxPQ09neTAwYXMzOTVvWnFWZ2s4RWtjXy1FbnFLM3BTdVFVdm96Q192RnBHRVBVS2Y5WldyVG5nMGNPRFZEeVdXVDFEXy13Y184cVBmMkhGbW5sSEk3Q1JzZ0ZsVUcteFhjOWlmNTFLR2xZS0RoRDdLcUgzS1Y4QWFQWk4xREg2VnNjaGZHNUEyeE90T2ZlTEZOM2RhYkUyMGMxMlM3dnlRR3dqVVVNdnNwclo1RWhVa1hNemQtZGg3eXEtbFFJTVJqTmNNYTlDa2FrRm83cm8wNkt2WF9KenYyaXBENHRHcGw4MEJGaHV3d21wOUNtNko4MGxtZElrS1pndFNwcVJWRV93WV8wUWU4T253Nk1iREVwQ2FER3FPa3MxOWZqYm5hNmpXcmZaNlRMZjdzZXJaVW41bzZnZm1pUS0tSmkzSWxEdTJLeWxITTFuU3NoUlY1VGpDd1hqVzNTOUVaWTdsZGdKQ2ZMTGxxOWZkb19QRmdRX1BpTjNIYXpQeUdqSXg1elZLZFIyRVNaRkdKZXBOeXlnd1VFeHAxVGdPQ05ESVBOMF9ockJDb0VWeXZmOHJzRFNCMHVhdTlUTEx2OHZ1QTRQaHBBLS1mQUYzZnVicFg5UmhiUDVXN1ZsRWtRZnhFTG1hTW13OGw0bFB6OE5nWW1jeUNrb3VZdXd2T2hkX3ZFR08zSXFXMlpPbXp2UldtQ2FKUXZqaV9fZVE0ckpSOTdtSGV2NVRmc2k2Z2VNaUVWdDdQXzRnN2ZBUDViZTZJb2M3eHpVbFhvWUR3c25UV0NqaHpjdm51ZTE5Mml2Y0FIdXJfUDI4Ymc2b0hycFVv?oc=5",
+        "date": "2026-11-14T02:04",
         "source": "الشرق الأوسط",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアとUAE問題でトランプ前大統領が窮地に 回答内容は",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5CaTAtam9lbDFGQ1ZjZlZTdjNHdXpFWkxPLU9nbFRmbElscVdCSlFTdWlLa294dnFlWGxWTnVYX1BFa2ZmVFNj?oc=5",
-        "date": "2026-11-13T22:31",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア国連事務次長、フーシ派による民間インフラ攻撃を非難",
-        "url": "https://news.google.com/rss/articles/CBMi3ARBVV95cUxNWkljYzlQZXd0a1BxZXpSS0Z2ckJvY2pHZHd3cWdVUVA1UnVLNV9CQU1Qb0pGelpQNzE3ZGdCdk42ZExhLU9zMzdYcm1uM2h4RFhUajg1S3k1OElVeHZqX2Y3QUhEN0l0U3VpcnMzRHVaZmJnMUVFM3pjeE85REJ4X1NaQy11RkpaMG04ZW5YdWwzWFpHTVdmUmhtd3RQWVNnNFFGVy04ZVQzWEdBTEJsZ3dYVUVGQ0NOWHZLM0QwdFNpZnBUMVMwNmFIa25kOWlKVFptcld3RTlwOVBCTExEQzdzUDlEVHNXQnJDNzlxaUZLRHZHNjhMMWpkM1JoR3AtZklZRVh4Z2NudURRM3FtbGk1Q2wzbll2OVZPdVR5RGVQTndLeFpYS0hXZVNlXzBVcjE1akdQaThBVkVERkhMcVN5Yk1FSW5aeVVjTkFfMTI1NklUdVo1N1U2MWdhd2Mwa1BHcENPX0h5UzdGQnRzcFdXRlpnM20xdG03N3hFZjBaTFJTeGo2b21HaldJUklsajVwZk44a2tWTUJXVGtiQVE0ekxtZE5oUVYtTUZpMkpaU296SllmYXlDX1k2MnRCTWVsMWp3Xy1Rc2VkTUlXT1RGUFlEQ3BSUExOZ1BOYTdlYUtQNGhjNWZHWUZiWUkwanhIU25VelBUdGlfNmxEUF9lVnp4eG50ejVJOEY0RDVfUHJRN1dqakx0aXI2WVdaRVEyX2J2V0FqM0tRY1Y5TU1JWS1DYTVHYVNGUDFzV2JRZjByNGNCd0gzR1pwem8yREtTWUd1bnAyUENO?oc=5",
-        "date": "2026-11-13T21:27",
-        "source": "الشرق للأخبار",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、ダカール2026で水泳の歴史的金メダル 青年オリンピック初のメダル5個達成",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4xSXM3WnlTZS1QaUNKTk1QdVlDUVhVQ21aMDA5NEtjY0czLXpGMGFrX19SbFBuQjlPc1YxVXpVX25Vb1NZY2pR?oc=5",
-        "date": "2026-11-13T21:26",
-        "source": "صحيفة سبق الإلكترونية",
         "category": "スポーツ"
-      },
-      {
-        "title": "司法改革と刑罰執行の狭間で：サウジアラビアでケニア人労働者への鞭打ち判決は何を物語るか",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtTXlEM0JNd2p3RTR6UDN2N3NJblFSUXZSVDhZOHZBRlBkc2ZhNzlQbHFYaTVCbmFtckk4b1ZYQjNjRXpfSnkxcEJZT2kzLWZYTV8zOEk2S3ItRkRLaVHSAWNBVV95cUxPNFFOdF9mdnhJdTkwMlFDamZjMUdKdVRpbUxtdlZscmJvM0lpdWJ2M055OGtLajJ0bHJnWjlpMng5bTR3cnYyTnZtZUJXVE5uTDBXeHdwUzRJYnh1V1dSbnk0dzg?oc=5",
-        "date": "2026-11-13T19:08",
-        "source": "BBC",
-        "category": "その他"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-11-14T19:39:56.952852+03:00",
+    "lastUpdated": "2026-11-14T23:14:27.238123+03:00",
     "items": [
       {
         "title": "サッカー日本代表のブラジル撃破、韓国メディアも速報「韓国がサウジアラビアに惨敗したのとは対照的」",
@@ -287,10 +287,24 @@
         "category": "スポーツ"
       },
       {
+        "title": "韓国代表・孫興民 サウジアラビア歴史的敗戦で酷評「先発レベルではない」「ミスばかり」",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zb09aSHdZN2JZakYzZVhqNW1kNTR3OHZERHlMeURRWThUNkE2eE5PcWZtUEx1YkJjS1JCT2V3WDl1UmktdURlWmwtX0R1ZURMeVI3bWlwVWpJVmU5SWFvLXVTb3dwTU1VcVZ2QjhB?oc=5",
+        "date": "2026-11-14T09:18",
+        "source": "au Webポータル",
+        "category": "スポーツ"
+      },
+      {
         "title": "韓国代表・孫興民 サウジアラビア歴史的敗戦で酷評「先発レベルではない」「ミスばかり」 (2026年11月14日掲載)",
         "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9yX2ZKY3Y5RDEtSWF4UWhIMld1LWxpVFQ5bTZGNTlNMTAxX2FCdnVEWnVBOE9ObVZNT0l3ZmROQjJFMDJZbTBHa0NvY0cwRkxIRmlLazRpUHZyQVh6ZUE?oc=5",
         "date": "2026-11-14T09:11",
         "source": "ライブドアニュース",
+        "category": "スポーツ"
+      },
+      {
+        "title": "「韓国はサウジに敗れたのに…」21年ぶりの黒星を喫した韓国代表、韓国メディアは日本代表との違いに注目 王国との再戦に「もはや弱者ではない」（フットボールチャンネル）",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02QVNSb0pySHo2VHZrVXBJR09NWjZVSUlKeVNGVW9rQzV3S2h4bGNRcXVpcFRWQjJuWnFmWmZ5RDVIZ2tDRlNRRXkwN0w1cHd2REUwQlNjQjIteUk1V1NDeDI4alhncmh1VXFjZkFXal9ueDJpSll4Q3owWmdSR3c?oc=5",
+        "date": "2026-11-14T09:10",
+        "source": "Yahoo!ニュース",
         "category": "スポーツ"
       },
       {
@@ -327,20 +341,6 @@
         "date": "2026-11-13T13:57",
         "source": "日本取引所グループ",
         "category": "スポーツ"
-      },
-      {
-        "title": "フーシ派、サウジのパイプライン関連施設を攻撃と発表",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT1dLd29pb1RyRjBsT3JsM2Y3TThZcExWWkhNeUFfbDJsX1NYcWZQd3lUU096WUd6Qmp4S3B0OUxSMnZ3a0ZmNFFJQXFkNXlvNVZDLWhXb0gwQklybjc4eHYxQ19GN2tza3Z2T1diWHpYRXJTYVZjUTFmRFBja0lmbmt0VlJ5bk0?oc=5",
-        "date": "2026-11-12T23:54",
-        "source": "Reuters",
-        "category": "社会"
-      },
-      {
-        "title": "「砂漠のダボス」、来年１０月に延期 サウジ：時事ドットコム",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWkwzT3ZRNGlMcG1ybExhcXZpMXpUcUJibG5DQVN6YTQyS3doc012UGdDTDV4RjFzLXBVZ3ZYWTRXYVRxR0FDZ2FQblRiUFYtQURJNE8xd0l3VUhKaktqenpkV3VPdmE5eWhoTnBqU2lsVTJtOE1YSjhqLVpQMFFLNQ?oc=5",
-        "date": "2026-11-12T11:31",
-        "source": "時事ドットコム",
-        "category": "経済"
       }
     ]
   }
