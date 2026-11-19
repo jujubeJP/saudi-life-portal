@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-11-19T22:04:56.039263+03:00",
+  "lastCollected": "2026-11-20T01:49:44.884979+03:00",
   "security": {
-    "lastUpdated": "2026-11-19T22:04:56.039263+03:00",
+    "lastUpdated": "2026-11-20T01:49:44.884979+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -35,7 +35,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-11-19T22:04:56.039263+03:00",
+    "lastUpdated": "2026-11-20T01:49:44.884979+03:00",
     "items": [
       {
         "title": "Microsoft365の大規模障害によるメールシステムの不具合について",
@@ -106,7 +106,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101029703.pdf",
         "date": "2026-05-17",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "その他",
         "is_safety": false
       },
       {
@@ -120,8 +120,36 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-11-19T22:04:56.039263+03:00",
+    "lastUpdated": "2026-11-20T01:49:44.884979+03:00",
     "items": [
+      {
+        "title": "サウジアラビア、リヤドの最高層ビル攻撃される フーシ派が政府系ファンド本部を狙う",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYmhES2JrakdIWUc0cVk5RkZia0hjMEZmVXF2ZWZWRDV2ZFc1SU1ob2l1bzl2YVY1a3p5Y1JmYmRGRWpETlZuNzJLdDBQZldiTTl6TUlsa3dRR2dxaDludzlWTXkxWlVYcTlnOVM0TTd3ZDRkcEdPTEZTMXBXZ3dSTVY5dkY0VXdnU2owaWNOc3Zid083ZzJIM3poamZEU0Jucktid3lGODhtMVNWZmhuX0Q0Z1pCdXpqUnRoY1g0eGM?oc=5",
+        "date": "2026-11-19T21:57",
+        "source": "The Standard (HK)",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、経済改革の要が打撃を受ける PIF・アラムコへの攻撃",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTHpkdHdhV3VGaDA0VUttOWZQT0ZMTDk3VTVDWVhHZW80WXo2LW56a3ZzUlJMd2lsb2hoczQwR2ZWSjFQVTBfck9rTHZtLXpmRFVuc05oV3VQX1FzVEM3T3BidWJvRExUay1Mb2dlT0NIMWlEclZJOTIwZEtGcE9WOERic3FwZXhLekFoTF9xTXN1ekxIcGkwRFpKcTE1UnpOWHdfWncxVnE?oc=5",
+        "date": "2026-11-19T19:29",
+        "source": "Al-Monitor",
+        "category": "経済"
+      },
+      {
+        "title": "イランの支援を受けたフーシ派がリヤド最大級の超高層ビルとサウジアラビア公開投資基金本部を攻撃",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcUFEc1E0bk1uQktYdVhFYS1CSzVtNFVDaE1DUHV4QVBXUUZnckxQLS0xZVJ3enVwbW9NSnd6ODkwN0dtTkFzSUlZQjJrNzZoYXAtbjF5aVlXWE0weEE4Ulk1eFBJTC1ZaWdTeTlBMDZQLTFtcnVMTVJ6dzREVXd5Z0ZTWS1zcFdqMk9lRzE0WHdGcFd4QmtJWGJwTTY5c0N6aEI2UVhGSmoxOW5TWF9QdEJtQVJFWDZQRjVqZzUzYmREZ2xiMks40gHMAUFVX3lxTE5hZlhkY2pqSGhGa3RGUUF2NnhhbDIteG9id1FMcURCVXQ4SEFKUEZWamZOOVZPSXdmMnpmQjhZMndPZm5oWVdzTG5IVnZHYzg3UTJ3ejEzZVk0NjJ5Wkg5aC1UTlZrd3ZfTWFQQkdhV2F5UlRzV1J6WDdaQjVhQlI2U3hDQjU5eUxxb0d3MXJSak4wUG4xLUE2MVBwUGpkZVhlOHZBM0t2QTJDLUtpU0lYOXdubnZxNm4wbHV2S1NUQ2NHZkRENFlVYWpPcA?oc=5",
+        "date": "2026-11-19T18:32",
+        "source": "Fox News",
+        "category": "政治"
+      },
+      {
+        "title": "フーシ派、サウジアラビアの政府系ファンド本社ビルを攻撃",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRWI1ems0cEZ6LU04d0xSRTBQU0puQnItOHliREh1MFhwMnp4YnFxVEJwVGFSMDJ2ZFNRRVY3d0loZm5TZ2dBeHZSczhvWk5Xa19UR00tS1ZmUTZKMGdhVlh0YnBPcTBXUHpMNmVqY0pJclowdWMwSldIcmtFeUd0cVNNb3ZDekZxOGUzbURpNkJuS1k?oc=5",
+        "date": "2026-11-19T18:08",
+        "source": "Middle East Eye",
+        "category": "政治"
+      },
       {
         "title": "サウジアラビア、フーシ派の攻撃でリヤド高層ビルが被害を受けたと発表",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN2dSRXcyNzdIa2VEZW4zd1NlS2pyb2gwaTkzVUw1aDQ5VDVsdjJDeFJfekYtekhlNFgzRHE0VnNxVXN6dC1ZNUoxaXA1SDZ5VW9QLUl2REU0d3VDdEpFSXNCWDJIaWZtMUJKanU4amNhWExFY29pZzE0RXpnQmVhbFQySl90STgxdkFzTzllTkNUYnBlWWhGSXdOaWRmS0hQUVFVZkw5S0dNbXpZSXpBd184Yll6QdIBuwFBVV95cUxQYmoxb3ZGV0R2YVcycm1LM3phc2FRaWJoTXhMc19TVjhISWJ1ZERTNE9Ra2Exbjg3QjNuZEJMcGltNWZ6Y2N2cHJ4bUcxcWw0aU04Y1RPV3l4dEh6cXVLRDlxSGJubGloeGVSbGZrUTRJcjk2YlRiWGVTT1Znb19xdmgyYlZHYVZua2NvcXlfNW1TdHJ3YmhEOHRzOVpKMkpObTh4Qkw3RUp5OHBlMDRIZ1ZYTVo0X1dxa2s0?oc=5",
@@ -134,6 +162,13 @@
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA0VEdyaHZQS2cxVlJKdkJiQnB1NTNIMU4wTS1WUkRGdDhRSjQwOXBTWW95SW1ZaDQwR0JqTU5jRF9TcXdrZ0t2N013c0tHWWVQZHNxNEc2Ui1YejBp?oc=5",
         "date": "2026-11-19T16:39",
         "source": "The Jerusalem Post",
+        "category": "政治"
+      },
+      {
+        "title": "フーシ派、サウジアラビアへの攻撃を強化",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTXVIQUMwVTA5TllQb203X3V6XzNUVlNqaHhXd3NlNjJ0VF9rVUp1OTdRRjBWaVFMREswSVlfNjVESFAwb2w0NGMyVk5LeWNjTU42RnBIOWRsR05kWFktNFhrNnJtMm84cGNmekdUYmlvREJLQkt6NjUxMEZ2Sy1wUjVQbnhMS2JG?oc=5",
+        "date": "2026-11-19T16:20",
+        "source": "Reuters",
         "category": "政治"
       },
       {
@@ -151,52 +186,66 @@
         "category": "その他"
       },
       {
-        "title": "サウジアラビアへのミサイル攻撃、リヤドの金融地区のPIFビルが被害",
+        "title": "サウジアラビアへの攻撃、リヤドの金融地区のPIFタワーが損傷",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ieGctbDhsekFjRGx1NWFlSEhwa2UzMldwWGgyWEVfUkwxOWVmdFEyaWhvVjFkSHN5My0zTmgyUG1SSjNENXhzNnJtNkFGUGZNTV96bzNpb3NCbFVI?oc=5",
         "date": "2026-11-19T15:22",
         "source": "The Jerusalem Post",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、2027年の優良外来診療センター",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaDdBQzFDTjdreFdlNEgwdWJKTjgxYVVCOXdMWnNRMlZ2dFFTNGF6dDdNUE91Z3YwRDZ2UGhTRTlfLVFQRkRXVGdGZEU3alByeVdsM2VjU1ljZTJhT1plQ0ZNMzc1QWtJck1RQUJOUGdNeXBLZ0Z2MjlEVmN2SFhRTjY3Yw?oc=5",
-        "date": "2026-11-19T14:27",
-        "source": "Newsweek Rankings",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビアとイエメン紛争の影 民間軍事会社RSFの動向",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdzBZc0NhUkJOUXVXdVhnV0ptQ0xab3ZDTGMzQ2hNRVlpWUg1d0FhVzZtSk5VWHYydzFkcmw2dVBpWTBjMEstR2xmYnhvOVpkWU1zQTBoNDVvVy1TTVRJNm95ZHItMlBMVjN3Rksta04wcGtsNWR0enVzRHV4MzJJb3MxZ3BJQzhkSmJj?oc=5",
-        "date": "2026-11-19T14:00",
-        "source": "horn review",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア フーシ派の攻撃が続く中、外国人労働者がリヤドを離れる",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV1dvVlJOMzhYNlBILXBzY3ozM3BMbVI1bEt2Y25KRE56c2pRVkwxM1hDZlhvZnZQTXBWUnNNYjZZU1lXRkVrWnVIblAyMkN1UmRyNWl2TkVkWU9UNVZOTl9QOEh2R05zZGd5Q3JPUUxDQXpfSzlSeDdYOVlSYWo3bUFKUzdLdGRoeGh6NEpQUXJnUQ?oc=5",
-        "date": "2026-11-19T11:50",
-        "source": "Semafor",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアがインドの第2位の石油供給国に浮上、ロシアは首位維持",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOGFFLXpheVdRTVdEZmh5dzNVdWpQR3RJRnJSbjZMMkNscHBaZWlNWTFLT0RpN3RGVU5xbHh1WFJoYTQyVGROQnRDcjZxaW9QaTZKZ2tkWGhDdUpRWnNHNXY5ay1PN3BZcmY2TFcxYnF0OFBtWUUxZzlfblZrZU9tVFZ6aDRaOFhuZjlyX3ctVS1wQ3h0VzFrRUd3eWNvRlJTakkxZjMtOWFsaVJjWDBLVnZ5aFV1QVMxb044M1pYbS0?oc=5",
-        "date": "2026-11-19T06:29",
-        "source": "Reuters",
-        "category": "経済"
-      },
-      {
-        "title": "国連核査察機関トップ、米サウジアラビア原子力協力「査察体制は十分」",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM29jX0xtaU9HSHAxNUkxOHNvMWFuLV92SzBBZUgzbVNCaFNuRklKUUFtRG1wOVFsaVNlMWRBRl90VGJYc19XZ1R1QzJmYnFIRDNqYk9INWIweGhVRTRFbVJaODE2NFRjQzJyYng3UnRZVjdCZFRVN0luaW92Q2xQNnlYOGFSOW43aWkzTWVmeWlENW9UaDdoRml1QlEwZUlIMG5UNFIzaGJPYjVvRVJrNNIBtgFBVV95cUxPVVFKeGRpRzh6QWRXdk9IR1FkeTI1MXNxbXN2dV9xZEludGRGbklGbHRzMTFvemw2X0pjZnljUEw3ek5pRmhyUTBtaVZ5Rm5UT3J1MmgzQXFXaTVqU3lobmFGN1A4NmNMQUxCSk9VVXB1alpfNWdsdUJZd2FqeGwybXFWbk96TnpxdVlmd2RsbHVfVlZRQ0syNGFyajUzUjNHZldRWURLMzAxNlpmY0s0czZqbkJwdw?oc=5",
-        "date": "2026-11-18T22:09",
-        "source": "The Times of Israel",
         "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-11-19T22:04:56.039263+03:00",
+    "lastUpdated": "2026-11-20T01:49:44.884979+03:00",
     "items": [
+      {
+        "title": "イエメン　サウジアラビア施設への攻撃を激化させるフーシ派　有志連合は軍事拠点60カ所を破壊と発表",
+        "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNLTFHZkJkOVJZMHZXR0NOdEhSTG1PRFBqa2RtakxWeG1tblA5RjlORi02OFpiOHdBcHRzb290QklaNnBDdHVPNWxJSEYzSjFuakI5dHRPR0FFei1FRFp6Q1hWVndsREluTnNiNHVaZHhvaGhNdTRoTzJhb0tadXBMVy11ajJURFNjNG9QWnFRdTVnaUFEYnJjSkZXYk5NZEJyZVgydWpldE9DWGlIY0RZamhsUDEteTUzMjB5RlZoNzd1R2V5NjJ4dXg1TzktTEIyZDF6NHB6M0tkYkk1UDBfcVpGa1VqRjQzYk9hQWFuRGU2Z3V3OTBmd1k3bm1JRkxYWnlhcGJJTHlER2UtQ3htM2FYazVvNjlTZ0prSG1TTnpUbF9iWnpmV3Atdnk2cnlvTDMzVVRHbVY2b3B1Q2pMWjd0OFRzeENFM254bC0xVHVXN050SXdQOFA2anRONGM?oc=5",
+        "date": "2026-11-19T22:30",
+        "source": "الجزيرة نت",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、イエメン領土からの隣国への脅威行為禁止を主張",
+        "url": "https://news.google.com/rss/articles/CBMi7ARBVV95cUxQVDhpcFFKaDRWQ3JYNEF0TGRpYnBFb09mV0sySjBrdTNOa3kwR2FYSWkzbjJ2LWwtUTR6SE9lUE8zZmU2U0ZKSUZyb2pIVEJTR3U2WXk3LUVha054WElEQWhGNDd0Y1FhM2Zsd085U3NGUVlmbHctN0taeTI5RnU1ZVhXQURiQVJLbG1lMEJFU1djY3ZkeTNBT2pKcGVHWHUtSzEtMUZVV1lQMEQ5UTVvajZZU3lSZXBtR255S2tSdXEwRFMtdmE1T0Jhc3owVm1TZ01EOV8wU3ZHb0JkYzdHMzRNcVUtNGpGUlZjeERKWkcwOVpyZ1lZR0dRcklwb3NpUEt2bEhOUWdZMlZ0bWtpcXlkU2NKRkttZXF3eWFVY3R2RHI1OXoyd3B0b3hSTXZHR2FtWVBhWjN5YWZLYk5fejZ0Q3M2UG5EbnpJQlBzaHdjZzJKaUJfUjM1cjhZV0x1X2ZIakQwbjlWRGl5d2FmeXJ0QllOTklXOS1vc2VGV0ljUzlMY2dVUHJFWmQxbmhnTi1wWGV2MHJiZlZ1czZRMzJ5T0YtejRTY3Jlc2lUUTh4Y3Jxd3BycmFMU0dQdm1fZWxqRl9DN1lIY0pFRXJlckFaMTNPRnNYZ1R0X2xXUDl0TUFtd0RRUk5MQTBzUnBHLVYzOWEwQWVwYTExR1g1ampkY0hlNFR4dTYtbGVzdkVKZW8yamN0MHFlNmIybDdvanhqRm9KekE3MDVDWEhrQjJOX2FtcHF1WVZEMFhENzBGeXJObk40Z2lRUTNtWnNFelh6d1BqQl9NX0pQLWUwdXpkVmsyV0MtcWJaaQ?oc=5",
+        "date": "2026-11-19T21:12",
+        "source": "الشرق للأخبار",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアとアメリカ、教育分野で新たな2つの協力事業を開始",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE56UlVDN3NDaTB4RFB6a1E0N1c3UExjMDJWN1RZaFRsYjNpMWZEckhTNEhyNW1IOVBOSmZCNXhoTEQ0SFdQNnZN?oc=5",
+        "date": "2026-11-19T20:43",
+        "source": "جريدة الرياض",
+        "category": "政治"
+      },
+      {
+        "title": "国連、2026年のデジタル政府とAI分野での王国の進展を称賛",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52YXUzNVcwUW5iN0pXV1k3RDhzZnFmM2UxTGdWUFk2Z3U5VnZyeU9xazYyYXItTUJwazJYeVFHbUxITlFuWFZmOQ?oc=5",
+        "date": "2026-11-19T20:22",
+        "source": "عاجل",
+        "category": "政治"
+      },
+      {
+        "title": "フーシ派、サウジアラビア内での4件の攻撃を発表",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVnFXNTZERWRaaHNxYkgtaDdIY3VVZ1ZUQmRGQzhBZGJyNy1KbEhuTS13bjZoSllKRmFGajJ4VzJGeWZ5TjRXdGtDNzZWYVhXSDR5bWNROEpaZTRHdTdtY2lnSGdSQVhlRnl3MDdLNEVFbENINWNaRks3dDdjUkVkb3VGNVQxSS1zVnRJN2dXa1dJRkhYSloyMHdEczBrcF9xRnc?oc=5",
+        "date": "2026-11-19T20:03",
+        "source": "CNN Arabic",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、デジタル政府構想で「ビジョン2030」の目標達成を発表",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1DYjRvZm9qRzVyOGttZElzOFcwX0QxV1BvcEhVSDFSekwtT3hTaW5lM2FQcjdCY1V3bE04QnJjeWdnVGFWTTBR?oc=5",
+        "date": "2026-11-19T19:23",
+        "source": "جريدة الرياض",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、デジタル行政サービスで世界首位",
+        "url": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxOVmFmMVlDN1NIdDhONERmVWI1aHhqRFQzcWhnU050cVZIVzBMemhQTmlKYWcycHBaaGtQZkV4VWY1VTZCOU9wd0JEenNzQjdscE5TRlRoRnIxQjhfSzZtZGxzakpHRXpOZzZxT1hCNkRfc2NFMk1wMFdYZHFnNGt5LTZCZHlwUjNxSFFlZ2xEaWdWVGl4bUJUakJMemJlNmRrbDc1djZFbFhCakhJZHlfY1JpekdvUVpXUGFmRjJiYTlSM0hUa2h5NEpYVExxTFhNVWt2ci1vYkNXQ2Q1R2pHaWpFQ3F4LWNsYzdxaUVSbzRNc0JDTEF2LW9Oc3hIOE80SzQtTkc0MVR1XzlxZ1FpYk5OdDgzeENndTNLMDl0OHBoWjZvQWdzaklkeVBRWEZkdHYzZDBpRVh4ZDQ0ZDRWQzVFM3JpZW9TVVRPVDhsM08tMnp3VkNhdG9UWEdiRmZwVGhtUEFGR3I0Mno0UEdhM013OXVQU0w4cEVQaTFISUhsQ3MyalhCNHQ5b0FUYzRoTW9YaU9Kc3l3SUd2NHdqY0tYbXlURG5ZNXRDVHZ4U2M2eGV5ODgxSHN4b1pxU2w3N0Z4RTU1WlFzQ0k0OXZzctIB1gNBVV95cUxPYXdsWnBYVjBxOEFsUTZvUlZuQjFfN01GM3pTZHlIRS1hMnNBUXZJSTBFWFdsRURJN1JYdVpibW4tdnNpdHJqeWdFMXI4b1hfS0hhaFV1WU9ISXBYb3cwcFg3WDZkUklISlJVV0FXaGFJaWtSRmtOamtNVV9uZnAyQ0tUcUxBbUVXaEFUaVlsWERlaUR4bUs4VndYX3pTVzdHWEFkMDM5N2JGamxNbDJoWks2bVVSN0tPaWs0VFk2LTFNN2cxUUxqOVlQbTF1NUh0S2psQWZBUFVJU0hCdUVfYzAwNlNYY3VWWno0d2tuQ0JrVWx3WExxYUJTU2cydWtDbmZaZUdWcHVTNV9XSmJXci15Y1lYbFphTGp0VlVBam9yN1pWcnM4Q1BiLVBnVWtkd2VnTVdGTTFHS3gxWDl0QlRYSm53LThxOERjb0twcEVkbTVReThFOUNKRjJ2OU0zY3JjdW8tN3ZLT2NnT2ZnVTllbktJVkNmeDVuYnM5bjEtTkJWYnNyVWxoWFpPS3V3SG1SQkkzNVZsZ3hMbDNEUHc0d3ZTWkZLbUt1U29XZVVseXI1SUZTbXEyYWRoWWxfQzdkMnBtRE5OVERQVC1VMHk0U3I0QQ?oc=5",
+        "date": "2026-11-19T18:12",
+        "source": "العربية",
+        "category": "経済"
+      },
       {
         "title": "サウジアラビア・リヤド：フーシ派の攻撃で金融センタービルが被害",
         "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOcFo3aXZhMGNZRm56SVBHNk56MzhpUzBjODNVeXFLYm1UckU0M3VCT0FKbE83RF9TNHAtUTVuTXZHVy1EMFA2dE5TOUlSc3JTVHZQTlBxMWhiVzJOUExUbGEteVZjR19HU2VCU0RpVUlVUGk3X1pBOWIwSExzd0IxMzNsam1tM0pRbUVwNm5uejRPcUVHY3FxVU9WTnNick9HTlRIMm53U2FhMlpOOWJ0MUplQ1RHaEpLZ2w2eU9TbnBubGdtemdjZ0tRQjVEVzhpa21PdXpXZHhIX3hFR1QzLW5NQm5fdjB3b1JRZmJ4MHc1MXhZanh3THRWZmRfVkFPb09CaVNZdDROalhnM2ZLLWNRTm03c05oQ3J6bUVieUNfQWlJQk9IWmRhT2tWS05SVVJqTDJONGptOU5LY3NCaDBCYmhhbWdvMFdTWjZVR1VLOGhoUVhtcnVCMlZCUktw?oc=5",
@@ -212,66 +261,24 @@
         "category": "スポーツ"
       },
       {
-        "title": "サウジアラビア主導の有志連合、イエメンの親イラン勢力によるリヤドへのミサイル攻撃で物的被害を確認",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aNnhoZ2lKSk11OVNPSXZKcXRUVWFmTjQxOTZTVm9zN05tWjdORlJLZHhQc0ljUzV2Yzl1TDZkQ0dRanNCMU9GNkNKS3oydWlvSF9kc2VoSzlFQlZKckHSAWNBVV95cUxNb3JtTXRNSWZIRllxREVQY050ZGRYQTlVR211ZGR4NG9MMDhnbEFST0VXX1VlWkdrcXY0X25pdEpETG1WVGIxNTRWaGRHUXpwRVdSWkNydVljR093RTFPUTdUUW8?oc=5",
-        "date": "2026-11-19T08:31",
-        "source": "BBC",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、フーシ派対策で半年規模の作戦を準備 交渉前に成果獲得を目指す",
-        "url": "https://news.google.com/rss/articles/CBMitgVBVV95cUxNSkRlTktZN2xKYWhSeTRzaHJ2aVJfV0JpU2ZCU0dmaHVidmptdi10T0h2TU5HMVQ2b1UxU1lCUTM2LVFDS2p5XzlGRldrQWpsRmtFTGNSdHZUc2VjbGRLQXEwNUxrWF9KUG1mWjFSWVlXaUZKUVJMTG9CZ1g2WXFheGpiV0dIWGFVajIxN25ZNUVIZmxKOHN1TXZuS0JGRHpWNjkxNmF1SWtJVjNudEsxTTNJTDdMckJ1MEVManBEQ3FQbGY0bEZ5OU5rMlNJSFVFMXo2MGo1YzFfOTI5b0VOazBIMXBpX1VISXRNU2N2RDFiRjdtNVVqcDZtTXNTNkp4U2liT3Y4ZTBnbm9zZGprS0pqS1Z2M0t5MHhJRFQzVXBWY3BIY2JwcU1aM3VJRGFUcDAwTFhmeEZLc214d3RUcHpzVVJzRVFjRXp0ajRzcng3QWE3d0c3dFdSTWFwVFhteXB0ZG5MRUJmeUZOT3MtTEEyZlZBajNTN0w4TnI0U05yNkE4UnJfNlNRdV9ONkZLd1VXRnVsODJtay1GZklrSnVyd0M1NFRVYnF4RnhHTjQzdndrQ3NBUXpGR2N3bmtXSXB5UGtvdDMzSndFZ1hKRTBkeTN4QTBPYXVfVFQxNnNPeDVIb1VrZTRscDRVVzZOeGpHaHlxOHc1NlFWdVl4M1FSd25pMklreXdaRjZjRUhCVTJVU0pUQm95Uk54T3FhSDQzMndUcnZsQnduRTJDcFNNTUlwYW50aklDZVNRWHJEbHdSeHJLR04zRlhRNURhUGtaSS1RSzFHdDhYV3h3amhSVkw3QmdJVXJINkJfMHhrTkxmX0c3LUtYeG9yWmpIeGdYS3ZQcTRkOGEzd0JibTlqVENhMmRlUWNJdXU5VVZPVkM0bzltSG1BbWtCRHdmU0hYc1dR0gG2BUFVX3lxTFBwcmpxZy1xd1JJLVhJazR0VlpkSG1jVWo4bFFJakZWUXhWRVoybENXd2NPZDJPNDVKMnJwSXRqbjMyeTlsTHAtZ0ppV2V1d211VGRIQmlGSWlXSlNnTjRjZHpmaHNsb2VGMzBLckEwa0lQWWVXdGZVTkpyaWgwbC1wRWhCa1ZncExsa1dnMHNfRjE2eWNVRkctSWtOUzdNQ3VVcHhaV1U3ZWN3cFduOGRBbWllbW1wWkx1SlZ4TU8tRV9PeGhraUZSLS1WeldxT3V0amZVUXhnbXVXd21hQVVPWWJydGtMbF91a2xERHQ5T2NPRW8wY1BDX281MGhsWmRtX0o4aUlseno0dzVsVVhkekMtcFdHM1ZVdnZRb3RKUmRKXy1kam9sdUlmdkJ3UnhVY0RXZ0RCczNpaXhSdmloeHdxZ1JDYlBfTDZ1NjZjRWFBbG5uVDdNMWlkVTBwLWlwV0pJVVhCZ19EMWRsdmxFMmh4dGJHbGVYdUlQSTZMdkRjQW80UHBRT2x0XzBMdG9BbGVJRGRpNjFGV2lTWUJ1d3dSektfMkNvbVN6aTltWjRsb25rOUI2MW12ck40eC1XVUhzUTg4eHJJdl9EaF9iUTc5ZU5hRHhqVllIZkdoZjY4SklLeW16d29QTXBrcDJ3V28xelBwdDZGcVk4eDVibzVpeHZPTjl0bVlFbXp1eW5YZllHVWtHbzFaaGlRNFB3Y2hpWUdXeGlNbzdLcVdWMmpUUWsweWFNNzQtd09pY3p1U2Q4TTN1UWh1UTlUZEFrakR4MkQtaWdJSjZHQS00dEtNRlRBU1ZIanVQV1V6TnVSTEZZb1pSa2x4a0dYbHdXRFlqNTdEbU5iRjhZMXB1NkRHSWtfRVdRbXVzNS01YzhIaVRDM3d1OFpKREtENHFibm5MTGc?oc=5",
-        "date": "2026-11-19T08:12",
-        "source": "DW.com",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、リヤド方向からのミサイル脅威に対応 破片が落下",
-        "url": "https://news.google.com/rss/articles/CBMi4ANBVV95cUxNSWFFVzdYcUNHZnNpazlNZ3ZIaU9GUi1KNUJTZWhpYmZjTjNsR3NsMlI1bzRPdlRPSVVmOEUtM0RkTGlhQWdaRlRvSS1DbzVXaDA3OElzejlxYzE3eG03a3V1SndiVlBscUd6QXBFVjlqcjJHcWFVSmlrMEtxZmw3bWxmVVdIN2xNU1V0T050M2k3dnNCVGR6STU0LTNpZGtpZjFaOU5aR3Vwb004a0gyRHR6V1ZZM1BjcE1zc1F6QUloQ3Zld2VhUTBCTXlMQ2xYT25wMGxBdnBWZEU0eFpYWVo3M2FMdmtYMGQwNU1VN052eFd3X2ZPWk5POXByLVROR2RVVktPalJGbmJNTU55cTJFdE8tQU1RTUljSVpSU0YtWGpCVXdWTEFrdHJ3RjFfRDRNUU5fMmg4OEE1RzVCcEN6UmlHNUs2U080a3dBZU5BRUpsdnZQTE90R3VRZTFxOXFRekphQUxJTWVMR2Q5eEh5YjZjRzdheXNjMkMzRnpFa3N0OEhZZm1kQlMtUGhEckQ5Uk41WFYyQndFNHpJUjl6TkFfYXREMi1WcjVIWnZJRlB5b1ZlcGFLZ0JuS1Bnc0hmQ05saHRya21fbWhPT3ktYTQwVGxJRzdoRUxPZEnSAeYDQVVfeXFMUFBKSWRFbXh3OFRaM1VhendmaGk3VkplQnBESFRsU3VHcUF5aFJNa2Y3enRLZmVQTUVKcGNIRE41Q0NxR2IxLTNjNWozQmdQZFYxbzllYTRVSmxHNFVyM0szek1ERlZuTkN1TGxtSkswWkFPdk1IcUswX0pyWVFNMzY2c2dFYmJjV0VQTWpmUWpmUDlrRGdoUFFubXdWZ3hLWEw4ZG1KNEdQYVVBckJqaUxzb2U3YTVkN2FHUTJSQzc0VGY1aERSQVRKX2lJa3JMY29sMHhubTdpYVJZT1RFc0VPWWM5bmhWTjRIMmtvZ3BmMEZCMGtiT2lPbmlPTUFqTjlidi1mU0U1VlI3VllHMXJiT3VtU19iQ1NUeXB6Rmk3ZUhNWFJfSEQ2OG8waVoweGd6Mm05WUxtenVwaklGbTlrTXlDVWtWdkZrME5qMTd1ZDFHRHI4NDhwd0gyRFBWeVJET3lBdTdpQXhBd3VSOVBZdEI2aXpUbGpWTW10a0E0MzFzUTNQVnhZQzFtN0FnanNkTmdyRy1sNVU0MU1MbXpQVjRGd2pTMDE2dGFLLUdVYzBQSnIzZ3pBQ3k2eUtCaEJmZnIxZTY4SE1ITEZMdVN5UmlDbC1scUpjQlNtSm5SZG05SWxB?oc=5",
-        "date": "2026-11-19T03:09",
-        "source": "سكاي نيوز عربية",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビアとUAEの米国債保有額が9月に減少 世界的な売却の流れの中",
-        "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxPN0FBcXdNNk1UTllpZFFnZnV0SVBQN3hiMEd2TDVLMEhCRnBfRWZYSzU5Y1RzT3pUcW42RFoya254U3doajJsdVRlUWROdlphNjdfUW1abm9PUzJlNHpvSjV6RC1FaWE1T0czVHlZVU1FNlFYQjhSOW5jT3lGNnNVaTkwMUdDMFpMcEVpQWhJWTYyaWl2UmtPdXJrZ1FVcU1WdlVZaWRfUEN4dnNFZXpnZXc2dUMzWFZJNF9McXptMzI2VWpRWTJxeE5SVVFlemctWkcxa2F1MDA1TktLOW91bjhxRTRiT216clhRZjNXWmRqSEludGtLei04YjVMeVpidnI1ZnZtVElNSERxU2YyaTR0NDFZS0hzOThfZThta2F0UmRFUEFvVl8tLW9iSGtQWHFmVWZRT1U2MHhXR2w3T1FBY0QyN2Rfd3BBQUYwMDM4cG9ycjNtSWpEcHNlT1lVeXhQbnNJTFFqT1FEY3ZUQXpBVzgzdmdTT2tYNEhkZy00T3BEVklVSFlLUEJnUlhLZkZrRzdZRGs0Q0xhclpxcVpUZVhCZTVjVjhBT0RhemR1TjUxMTVZYTdUOU4xd3k5amFNUnA0V0VSb243UDBUcnJMNDdvSHpXeE0tLVA1WWFlajk4Q09EWmtZdkFpUQ?oc=5",
-        "date": "2026-11-18T22:43",
-        "source": "الشرق بلومبرغ",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア南部への弾道ミサイル、有志連合が迎撃",
-        "url": "https://news.google.com/rss/articles/CBMizwNBVV95cUxNM3drczhfLU5zSEl1ZF9fTVlVYjNwRk1WczAxLTU2aFA3RnY2ZEdkNUZGdlBWSUlYZVR3V3pvUjBmcmpHaE5EZUZRTG1WR2pzY2prN1VTWW5HUmE5YkRXUlJDdTBBWl9OMmg2ZWZqVDlOeUp6aXVEaUlVNGFWUEhnTTYyUDRMTmFGaWN2M0M0SFYxRDNSUzFPRjBfUFprZHJwTjhfNXJJV19HTzE5ZWZQSlE1RXJWSHBDd1FiRDBjNWhHR2tENWxYdmcxZXpfYlZjcy1oZHJxaGRlcmplQmZnQ2l6elRIcFBTeG1SdGpiVmJKTjdVRjRPMkI3Q2plc0NMcmpKU3NBWm14MUZJM0cwZHpSUnRjTFhMSXlUVmRKaUc4dElvZDdnTTFzQkNJeWVsOFN1RW9nU3NLXzE4V0t4R2RaenNnZmZodTZqNVJ6TFIxQWVYUDV6cmk2cV9Kd0Zual9KWENSWGhRRkpMeGVzVURDNEJWbGNEWU1ZSUxuMVRvV0gycTQxSUJodEdpN3BnOEhtMklpSkJ2RVU3aG5xTG9sZ1AzeHhlMVB3bGNMNHVENUpUcHg0ZzRIWF85ZTRhVGpvVzdGUXFNWUI0Y01B?oc=5",
-        "date": "2026-11-18T22:21",
-        "source": "المهرية نت",
-        "category": "政治"
-      },
-      {
-        "title": "電気料金引き上げがサウジアラビア電力公社に与える影響を分析",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPZ2VxR2lOZnZFTG5ZSFJrMHhBVHlNc1kteUxjaDhVUmxpcHp6LVZFS2t6SjhiR18tNzFmQkt2b1NXdVRVVmJqd1FQZ3l1cmd5WkY1anh2TnQ3b0VBQU4wUE1XU2NGUVlLcmc?oc=5",
-        "date": "2026-11-18T22:01",
-        "source": "تاسي",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、シューラでイエローアラート発令",
-        "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxNQThIdWEteWhOVkY0RGYxSFkzNlBaRFZFMTZPWXdvTU9SQ3JZOFpRYUxEbzJsSmxyeEZKN21sdjlvdlBQMWNuaGd4NzdHenptWFo4SFAxSnhyUVFWWU5DNnNkeGpwa0d2RW5ROWRJYk5IaE96RkZvYXVxVjBlZndEV1ZVdnlxQ2xCMGtUVUJBQ1lPR0ktVUpEUzdJS1VQYk1vSElwUTBpdndkUF9lX1FEMjVCcGxJejVfamtqSjVDc1BWM3FPRERaRS03SnIzcXdBZ1MtcXJNakV0MllGa0RfMERtbmlTcVk3S3puWjlSbV9feHRPalE4aGxMNldJWkt0dmZNRzBlRG5EZWloWlplNVRjT29kdFV5dmFEd2lEb2E5dWhIYUpYYk5SNl9qYmRRYmJtTTlqNUtZRURLTC1jTVdHVlcwMVZiMml4TlZJYV9pUWVxRHV2TmlDTzBjLVlhcHR4akJpWnlIUjEwbEZtbzltNE96SFBBUjg4T1BaUllEbW9VeXR6UnZ3NmNyLThOUFNGU1hYckdYYTJIVjk4ellNblJWOF9vaUE?oc=5",
-        "date": "2026-11-18T16:05",
-        "source": "الشرق للأخبار",
-        "category": "社会"
-      },
-      {
-        "title": "速報：サウジアラビア、イエメンでの軍事作戦を2027年まで継続する方針",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xN3MwZVNzU2JjRjhhdFlpMV9PNW1vbU43YzJBd1Vfa2FDTUxRczBOeTA3WmhyRHloQ1JyRm93VWdidk1GcFVkbUFYMG5IQWFKYjRfTVlla3lWX3FpTV95OVVkNEZYbjdzcW5mRTY4eWFmelNBVGE0ZzJ3cw?oc=5",
-        "date": "2026-11-18T14:47",
-        "source": "Reuters",
+        "title": "サウジアラビア主導の有志連合、フーシ派のミサイル発射台を継続破壊 サウジの防空システムが民兵組織の攻撃を撃退",
+        "url": "https://news.google.com/rss/articles/CBMilAVBVV95cUxQdk5LQi0zQ3NXLUpXYTg4TmtmVXpUZjJUT2NkclF2UU9XRE84Zlo4TlluX0lLbnBjdS1ZcmpYdG1fbG0yZ1paS3pKVXpvTHJkYV8wWnNMd1d6b3hweFBkMzhLTWtBLUdoeUkyZ3ZrbENXTFVKbUttaDlqbWo4bzl2M2FQbmNaZ3N4d0xsbHpxOFdLcHpNOXZmMVNoa01kWVRrRDJZWUdPOVBVajZOcnYwSktrR1haVGdmY0c5NXFrYkFOY0w0Q09PcTNZQUZDckRpNm1XUnIzRG9pc0p6MGxWMXd4S2JITVNtaHROWUN0bmJxZmVfUWFXLWxhUEppZF9zMzlteWR4ZHNMMW5WNjhHR0wtVFdVMTJTdlV4UmhwTlVqMENCNm5qVHlDaVdLTEc2YXJvckVKSXViaTZNLTZGNFhNdjV4Vm10UE1CMkhKYjUwUHRwRjJranFiTDlfVWRodmRZYnQ2MHA2NXhIX2JINEtIN1lsSzE0eFU2RFVPNldwWFBSckVnQzlSdy1FQXYxTTRmOHcxaXFYdjNMcHJmZzg5a3hsclhqNjBHQ3ZlS1BpOEZnSENCNngzeHZ0YmZxZHFGeTNwT2hGeEp4OTBIRC1YRFF1NW9UZHdXSU14OFZPRy1nS2tNcmtKbThvTkFvUE9nOFZpcHFzUGRfYlZRMDRWRXBkTEFEanRmV20zb1BkWEE1RjRUYWloZDNIUG1rcHdQbFhEVXBoM0xfN2U4X2Q3bTVyYmlxdXFDVl9lMzF2aU9uWkZRN3otY0JZRVdMNzJnanBLRlNqWTJ0bWFRb21HNC1XVXZMdTNqQk1xUzhsbWhQdGFBYjlVYlgyNm5DWlM1dlJyY0ttTnE4dW5HTndrb23SAZoFQVVfeXFMTy1penBKeTRaMTdtM05zQTRVRVlyQ201ZUUwTTBNX1g5U3gxWm5qbHBFS3VvczA0cHk3ek84RGNmYTE0V2kyblA4aGl1VF81M0s3TUtRSXhUSkVTbjM1M2lOVV8zaDlkeW5ZZFJVQzN4NDdJT1RkdXpHMy0zalF4Zml3bEN3NWZIMVQycHRqOW5DTzFGV3FHRTRyRGVGUGo2R1ZOanhtYUtqYWNEV0lLaFFFVHphQ2MwT0E3bE5EYnRpclNJQzJremlaQWRaN1VrcG5oaVZtd0Y1cWtmNklfLXdyRUpmUkNUcnAwMGZtemhIM1VmcGVpai1XS2dwTXNjRlRwNjNUYmdrWkhMTjdkV1lNeVhselZOTmxxR3pvaWpRdS0xX0JaclZFVWFhZ2tQMmtfQV9IUWktOEo5SUNrb25peTNmYmNybEdBeGFZLWpIbWZXTTdxTUtNVVUtOHR6X2pNbDI1eXFjd0lIemVzYnI3QUZGZGJtZ0FVVEpRbmg0RzFzRXk4d2xPdXN0Q3IzMlMxZkdoOU9JOGFZNXBjNVpvMHpVb2JETGUxdHJjMDZZaGZ5OGdmRF9hS1o3VU5wWEhfQ1hJUVhzMmY0OGpyQ204RlY2Qm13djBGWmR0MG4zTE9IblZxbERFSENTN0tid3MwMDMxWUxLQzhZc0V4bWZsY0RYVVp2N2VLNDVmUmVkUTlsaDJFcml3b04tbVVyb0hBOUUycVBvRm9QcVFxa3h0WExvUE4yVWhHVDU0LVdrWlh6UGl5Y1JiQ3dLQl9jSTZ5eGVYeHhsa1RxVWxodzZySnJRM2lNaGJkWHY0N0RrOUcySXZfXzhpREVWZ2tBd2ZpQ3E5MEhYbnFUUkxxLURPOEU5blpaZVZB?oc=5",
+        "date": "2026-11-19T10:56",
+        "source": "العربية",
         "category": "政治"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-11-19T22:04:56.039263+03:00",
+    "lastUpdated": "2026-11-20T01:49:44.884979+03:00",
     "items": [
+      {
+        "title": "フーシ派によるキング・アブドゥッラー金融地区のタワーへの攻撃で損害、サウジアラビア民間防衛省が報告",
+        "url": "https://news.google.com/rss/articles/CBMijAVBVV95cUxQS0tUdkxqRVoxbHE3a2lYTXh5M1h3dG0zcHJfZmhHVTBJWmZjaU1laENsNlJYcnJIMEM3OU1YdlFzUFN1RmpjX3k1QnNHTlR4Qnc1UUI2cHNDM3JWQ3JzMlNtZGpyMzRBaFZIU0hjZ09ld3NGWUZxZXZvelE1OGV2b2hqa0JNWkNObGpWY3hGblJ6RmktQUMwaV9ZdWF4YklLRFc1c05HeE9LUFpNQWlBNWl4eWsyX2hpWEtPbDBBZ1RYNFBpNjB0NXlWSWNIMHl5dmpIRllsZFVtdlZUTGM3bXU2LTE2VlBTRFpNUllQVWUwRFR4Y0hpU2pISXdPX0QxclJfeU5VYnQ1b2JZYmtUeWNiT2JHQXpacEtva2lsbnlkQkhWX1BUdHRrWkZ6dHNxczZIV1VHVmRXVWFncGh6bElGYjFmaHJkUU9oNzBBd2ZyYTdTTEI1ZDdBQmhYMDJtNGlDd29tSjZGb2F3M3Z5Z0l0TjVyZW9Sd2lNSDItOHA1Q0VrU3FBY2Fac0xFcnFsNzBWTmNCaS1CYmlMdE1mZWdjUlZtUTFCajQ2em12ZXhwV3N3b1pXQkFoT0dlUG50eGstc3dkc0ZwSWVfaXdsYTZ5NnFsT01DTmU1M3RPMnVrOGR5dzdLM3B1bUkweW0xLWFZckJZSWxxdXlMWFJBbzE1SC1tS3Q2ZkROUVJrZVAtd2pCdFVyVkZkNGphWXc1U2NqVlR1UE9TUHQzbV9HaFhORGlGY1hYaXZUX1BFUFhkdGJpOG5sTV9aeGxVUGtoUTByYUhIdkMzS0dpNTl0ei0yMF9Kc1E5cUZxVGdCc2FJSGk1T1FuZjFVbE95eWlMMTN3cWk0eHl3amJ6?oc=5",
+        "date": "2026-11-19T22:16",
+        "source": "アラブニュース",
+        "category": "社会"
+      },
       {
         "title": "A代表からU-17まで:ウルグアイはなぜサウジアラビアにとってW杯の「鬼門」となったのか",
         "url": "https://news.google.com/rss/articles/CBMi9ARBVV95cUxNLWZGSnExYVNXb2pVaVdwOFJmYVNVLUsxLWRKT0h1Z01xa0VDN0Rtb3B4c2hlRHlHWmRNcE1QVUZCS0lyUmNxNTRNUll2bzY2WmFuN3BSN3pGSVQzdjE5X2pkMXVveDA5ZEc2QUtzUUxlMDJfdkxiajg3SE9rajRGWWVRelNjOEo5ZFhrX185TzJJQnZfLUd5THFmSTBOc3ZqWFpURU01em4wLXZlWVBOQ0RjT2JUb1E1SW9kOWtHeVNfek9ISHp3dmtValJ5amhVeVpNdWhDR2kxaU1XNnlFSVNaQm9ZcjhsT3pTZlFOVEx5Xzd6WUN5YTdhTWg1RTRsSFd4eW5DZ0pkNHF0YXR1b09KV2Rkek80WkRFZEV4NWtXbGV2OGhJZ0JSRkRGQW5UYXRaUVcxREN1SmRNRTMwTTJRd3JacUZXcmRTa3ZVM2hBUXNvZlIzQVBsM0hyVy02QVZaLWtpV0ZYcWxZZE5xZEtESW9SaVExQWljWEVLcGV5aVBaSTJxRkx6LXM1ZzgxR21iTnRPQThManR4Rms1d1VsYi1ndUZWRXNqSU1aQ2hKSjRUcmhvTUZDTlVhNGlpX0hNZWRybDZESnhCWnJqbm42b3NubnRvZzMxWjE3Um1INlRCblk0aVA1dXJVaGVqcVdtQnFtcXVYU1FGRDNhZUN0ODRPWUlURTQ2R3NqaFBLQkluRjBtMWVvNVRvOFRZMmRDMFd3RFJKSVJabkR4b0J1M21XNUU1S21JS0YwX3M0Y2ktTTdyTC03UFJVZVBjUEJJX0M4T3JZaE9GT3JtZ2lKWTY3dGVRS3FEVXBMT2V0Zldq?oc=5",
@@ -291,6 +298,13 @@
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mUXd5a1drdUliWkl4VmZ2OEZxakoxZXFhTVNwMzlROHJhenhOWDRRcXlVYl9yLVl4LUw3aVdZMVRDN3c3RUU2ZUNHeWJHSm85aTY0RkFlUUU2ZTd4YkhZ?oc=5",
         "date": "2026-11-19T11:07",
         "source": "ライブドアニュース",
+        "category": "スポーツ"
+      },
+      {
+        "title": "川崎のアブドゥル-ラフマンがサウジアラビア代表選出…W杯アジア最終予選Window5で中国、韓国と対戦へ",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIMWFtVXpMM3RfcnBmNlk3TWUxdmFXTU9BOWZidXNXMnVUV3JJeVhROVhoQzlicERKZ214TWhmMHhyaXBhRGZLQ195eW9HNDR2c1dDM0stcnFKWmZwRG5jNmJKOGJUX0lfSVRQSW80ZU1LbUtOVVNKUUpwWlVfdDg?oc=5",
+        "date": "2026-11-19T11:07",
+        "source": "Yahoo!ニュース",
         "category": "スポーツ"
       },
       {
@@ -327,20 +341,6 @@
         "date": "2026-11-18T02:46",
         "source": "Yahoo!ニュース",
         "category": "政治"
-      },
-      {
-        "title": "サウジアラビアのB2Bケータリングサービス市場は2032年までに3,500.1百万米ドルに成長",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0waURXYnFNcm80QjZfQ3phZ2pnNnljZ0J6ZzlNbTVqWUg3M2pBRThOeGFYZHhDZFc0dk1mUnVyNTBCdEFxZzVnNThZcnQyamM?oc=5",
-        "date": "2026-11-18T02:00",
-        "source": "Newscast.jp",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビアのB2Bケータリングサービス市場は2032年までに3,500.1百万米ドルに成長",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MSFhZMzRzQmViaTlBMmlpUFdPVW04WlRUTFd2MVY0MUlCX3V0SGVmeDNaN2JnVFBsd1pQYjlMbTBkemdLWWktOXlscGVvSWs?oc=5",
-        "date": "2026-11-18T02:00",
-        "source": "アットプレス",
-        "category": "経済"
       }
     ]
   }
