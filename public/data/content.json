@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-11-21T20:42:12.928366+03:00",
+  "lastCollected": "2026-11-22T00:20:49.440258+03:00",
   "security": {
-    "lastUpdated": "2026-11-21T20:42:12.928366+03:00",
+    "lastUpdated": "2026-11-22T00:20:49.440258+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -35,7 +35,7 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-11-21T20:42:12.928366+03:00",
+    "lastUpdated": "2026-11-22T00:20:49.440258+03:00",
     "items": [
       {
         "title": "ホーシー派の攻撃予告に対する注意喚起",
@@ -106,7 +106,7 @@
         "url": "https://www.ksa.emb-japan.go.jp/files/101033581.pdf",
         "date": "2026-05-25",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": false
       },
       {
@@ -120,8 +120,29 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-11-21T20:42:12.928366+03:00",
+    "lastUpdated": "2026-11-22T00:20:49.440258+03:00",
     "items": [
+      {
+        "title": "化石燃料の段階的廃止をめぐりサウジアラビアとの対立が焦点に、気候変動交渉が膠着状態",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPU1kxQzdNNXpJY0dmendlY1VjSG5EdHUwbmpjTkdCMDgxR3UxWnZOOEs3MEktTW1PakJWOExhMzdEX0wwSVdQS29Rb3lXeVhwRnlvYW1Ia3o3RGJYQkxmejhVTWhxZTRIdmlxQjJFbWVpUHdRTHhZV2ZQaGtFZ1VpdEhOcGhqYjhaOTl2WjJ0OEtqZ2VwbzNOazFMaGRVbTh0bDdIeDlOUkUtZ200VjZJYjdJMlZVaWhpZGUtSEZIRHl1THVy?oc=5",
+        "date": "2026-11-21T19:46",
+        "source": "The Guardian",
+        "category": "政治"
+      },
+      {
+        "title": "イラン攻撃後、バーレーン民間工業施設で火災発生",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdXpPQ0FFdG9kOGJYRHF0S3FydGtoWXdDZ05BckNmd3pFeU5Sb1FiTGowLTMzd3ZFUkhKajh5VDBORjNCOVB6d09makphQ3NCekREaXQ1bGpFT0h4YjJTQ2ZTUVdCTjRzY0xNelZ5UG5HSnU3eGR5eUdsX0FOc05jRjg3WEpYa2JZWm41Y2ZfNUZVVzB2VHNmUFlGY0RWN0dyT09FR090WE1EbzA?oc=5",
+        "date": "2026-11-21T19:31",
+        "source": "Khaleej Times",
+        "category": "社会"
+      },
+      {
+        "title": "オーストリアの鷹匠、サウジアラビアの祭典は「見逃せない世界的イベント」と語る",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOemNobjdhck5COHh5bjF1eDgyUEFsRlFXRG5Bb0pSUVJ1U0N5MW9GVWQzT2IyOVB6WlVVR1dGV1hQaFUtc013WVFBeTRYS0hrNUtrMXB5RENLanJidVJBUUxsUFZvcWFUVDVCbnp4WWpLVE9rWF9qTS1qZ0phOHlwU3Nua1Y4Z09ydE5wVVl2VUlpUEhUTGQ1WXV4WndMLXFsTUhnTFJQYmptSDMwYzFVRU1CSlVNdWl1U29aWUZxcm9qWlNDQUhQbWJlR3U5eDQ?oc=5",
+        "date": "2026-11-21T16:32",
+        "source": "The Detroit News",
+        "category": "文化"
+      },
       {
         "title": "米国、イラン軍による湾岸上空のF16撃墜claim を否定",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTlptbkY5QlNoN2RFRUVGNjR5ejNtdU5Gajg4cm83SlJGRWpqT0dUZlhmM1YxdDREUzRQeFVnMmdJbkxIejNJaG5ldVdVQVVRWW51ZzU3ZGR1b0NudUFDeVBBcGtmamt2VlRjNUNOdHdHazNzYTNsUHpNa3F3VW52ODVCeXZoNHp3QmZydVhrdVlIMlJQcHAtZFVOV1FDOE1CMWtROXExZEM3Z2s?oc=5",
@@ -130,28 +151,28 @@
         "category": "政治"
       },
       {
-        "title": "過激派民兵との戦闘、想定外の事態に",
+        "title": "急進派民兵との戦闘は想定外",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQV0x4SzhsbEg1QndZOTlVNC1GR2VlSUltTEstSFN4YWU0cFhRZVRUWG9yTVJfOEd3Yzh2REdYdTRXekVDeW5xWjZqMk5ObjF1OTByRW1tSkg4bmNDblFIdWliQ2NTUnBDYUwtandBVUZGX0xjbkhGQlctLWZqc3F5YTJrMndmZ1AzS0E?oc=5",
         "date": "2026-11-21T12:00",
         "source": "The Atlantic",
         "category": "社会"
       },
       {
-        "title": "サウジアラビアの戦略的狙い",
+        "title": "サウジアラビアの戦略の背景にあるもの",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWWxqSW5KSnlwY2NrUEFhSWhyaGltcWsxbGRCdVNxYWhuWGJrQVlkZTNpNlo3enlBNkt0LXcwenJPOHpjaHR4YkVDRmhIcDh4YlktbFJEeU4yX0dwRmM1Z2dZbzhlSm9IZXV4ZXIwdnhzd24tTlJoeHJFMG5ucktwcno2OWt4YkE?oc=5",
         "date": "2026-11-21T11:00",
         "source": "Arab News",
         "category": "政治"
       },
       {
-        "title": "サウジアラビア、日本への原油貯蔵量を3倍に拡大へ",
+        "title": "サウジアラビア、日本への原油備蓄量を3倍に引き上げることで合意",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUUdLMGhtNXhKUzZLNllmS1RtWVkwT0Fvc2NyZ1pSb01BWXhWZDF5YWxyUzJGaHoxOTRIX0UxcjRZSEFXUFd1bGlHcS1VVUg5VHRwNXNUNTlxUXFOUFhUV3VXa1ROaFlwTnhJNlNnQVRUOTEzdU96TXVVa181UkFhVG4tRURBd0kySFd5MVp1ZVhmN2g0NUducTNHYWdHWG5Yb1Y2Y2dUUC1CT1cwU2s2ajBJYzE?oc=5",
         "date": "2026-11-21T07:04",
         "source": "Japan Today",
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、2027年から多国籍企業への最低税率15%導入",
+        "title": "サウジアラビア、2027年から多国籍企業への最低税率15%を導入",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUS1wbjFtQjdNeXRybWJiTFZod05aSVY2QWd6c0VVcHBlU3JVUmxhMFdheW1KNUlITnN0LS1HSy1UQ0k2a0FNLV9CLVRwTTdhT1ZaODdvWTlhY2dEOWdWSVVoUjhzS1BGQUN5WWw1ZmtsY3VWbGQzdnVzRE0wMUpqRzdXTm9IdTd6c1dCV2w0Z3F4WUhWMFBFYTdXUzloXzdVdFhrYlZ3RHFSOGtkV0pPdjJEMVhiUkhNckFzY3A0cmwyTTB4STFj0gHaAUFVX3lxTE1XRm94NmI0ZHdQNlhuNVpiUk9xLWdPUFZHdllndXoweC1lWHB2RU02Q1lLRV9tdnhHSkg1ekFlajczX1NXR0dELUg0WGhUREE5YTZsM0FJZTUySkZJQVgxVzAwWGNiSUVBN3B4cU5iX3pIN2h0TGxlbFF0MHpQUDFUcGxXTU85NHRtVDc1UmcyQjYzQWRkVHBIUkdzVGFhSEM1S0g5LUVJNjFOeWRNc0MtMjRPb0hlbUFWQmFSakU3WGdoOUhlSTlXR1Z3aGVGOU1jLXdvb2lKUHZn?oc=5",
         "date": "2026-11-21T01:30",
         "source": "Gulf News",
@@ -165,44 +186,44 @@
         "category": "政治"
       },
       {
-        "title": "トランプ前大統領、イランは交渉を望んでいると主張 サウジアラビアとイエメン反政府勢力が交戦 中東ニュース",
+        "title": "トランプ前大統領がイランは交渉を望んでいると主張 サウジアラビアとイエメン反政府勢力が交戦 中東ニュース",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWG11c0t2cHNUVFlEZEwyWHVQRk40anlnM3ltcWtYOE1hV01IaEswQmpnRExZNEk1Z0xGRkZ0T083cWNGTUhvZUd6YUxwWjVwNjA1djJZZWZZQXh4SjI4SGRLVmtBMzN6Q0cxWVJjMFpJOW5DdUFWVlUtNEF5NW5IcU5sMHNwcmNVZTBfeXZVMWRKMk5HV1UwTGVycE1xd0c3TG9HYQ?oc=5",
         "date": "2026-11-20T20:46",
         "source": "AP News",
         "category": "政治"
-      },
-      {
-        "title": "トランプ前大統領「イランは交渉を望んでいる」 サウジアラビアとイエメン・フーシ派が砲撃戦",
-        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxObGlzRnlpOEs0ZTM2NC11aXdJSXVtaE9SSDVCYnBrQ0FNSThMQ09aeFU5cjBwcjJsc1BQWXpDT2NqRFQ2TTBXcnQ4d2Z2RFNJeVg0a2FZYkxvdk8xUWd5bVhITVV5ZzVGZ3o5MFdLeXBYaGw2WHQxYUtQeVJMSENZM3VHZVhjMXdidDM2dkVqVU12a1FjR3BvMUJDbTZvWlM2dWtRcVhJbkw3S01lNXZmZXNPckxjSTBCbWp3UDM1SkhfdGhBZGFGa1QzNDdIbTZockd4azhSRFpVUzlQVXF2U0JNZnBNS3EzWW5oUkRvcE4tTlZYVXZwV1d4SWR2V3ByTmMyLTRibVZGa2VKaTk2Xw?oc=5",
-        "date": "2026-11-20T20:46",
-        "source": "Herald Bulletin",
-        "category": "政治"
-      },
-      {
-        "title": "トランプ前大統領がイラン交渉の意思を表明 サウジアラビアとイエメン反政府勢力が交戦 中東情勢速報",
-        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQNmp2RzM5Mml0c2JuM2pUVklxRlQxSFFUNmRBVUFRMlhUWWNrbXp5UFBvOTlvc0pHS2R1SlNWX3VBQ1hXMU5fMVdrVjJMMGFPTmRSMVFpNkY2UGdBRVpkUllNX3lhV0lhZFB3clpkYkRCekJIT3pmLV9YYUVZZFVHVzhSdVdlOTc5aXpmWkVFRGY4VlMyVmxGUHZvQ2JJVmlBQVBzVlV6QmpEN19rTTlhQzdVUEtQdDBCOGxWeW9KOGxhc25kZVZXZjJtZUFjYmRreVdaajVISmpQdXdLbzIta0ZkT0NGSElvck4yX0E4bU5TWlRqVW5CeVdRLXViZF9oaUd6SXlqOVBUM05M?oc=5",
-        "date": "2026-11-20T20:46",
-        "source": "chronicleonline.com",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、かつて『グランド・セフト・オート』を禁止も今は出資",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMG53SC1KYUp2Q3A2WVBSZ05ERERva3hzeFg1VXY0N0xzNERWVzd1N3VmMXpGQkVIOTIzY2NWSmFfcXVMNXFQd1dNeTlpeTNWclBZTy04ZV81aE81U2VHOTJ6cGNNMWVwUldpQ3NWSV9jd0l0RHBOUzJINzg5Rm80a08yZDVheFl5eER2cWxwWVBrMmttOGVUaFM3aThwdW94dnczUmtESTJNU3liZEE?oc=5",
-        "date": "2026-11-20T19:06",
-        "source": "Reuters",
-        "category": "経済"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-11-21T20:42:12.928366+03:00",
+    "lastUpdated": "2026-11-22T00:20:49.440258+03:00",
     "items": [
+      {
+        "title": "サウジアラビア：メッカ周辺地域の危機が解除",
+        "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxOUTZqLUdzN3lCSFR5VWF3RFcxU1VFTC1iYVdRTmVyMXhzb0I4NGhITFMyNmd6YkVKRU9mb0VzQlFuNDRacEJhRTNFeHFrTkQyOGpDTm1taFBNTllJaEs5dHBFOWRMQlcyVUxEZHpUOTFPa3lncmc4NXRwTlVGdGpiaDRGa0Mtc0pNWXFXSjVoWENUNFM5eUJUejRNVGIxcl84dUZiMHl1UjJoZzhTVzNKWG5UNV9wTjNqQ1NBWGpDUHhYbmNxREtVT1V1NXpVTmJyT2tnQi1IaUFjY1Fna3BNcUdlUUJsd05uYl9kSVZIR01yZFZSWnk2SGFvZVBjTU5RSUJJLUNPNGoyM2YzRG54OUNWWGVTbTE3RElPVkgwaFpsRkhDcEd1bWdjSm9obUxlcWU1SEFVTnZNMGVxNGlJVFJ0cjRYUm1IUFVpNHFuS3ZEWWNYcHVaVnhnY01pbldDNVptT0VnYTlrUlJteTdZ?oc=5",
+        "date": "2026-11-21T20:56",
+        "source": "الشرق للأخبار",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア民間防衛局、早期警報発令後にリヤドの危険解除を発表",
+        "url": "https://news.google.com/rss/articles/CBMimgVBVV95cUxQelJWd0NnRnNhUWh2ZXpoYTZTc0tSTWNDN284eS02S1V1bzIxVXc2T041akF6S3l2UmZMYy1STDItcHlkbnhla3FfYU85c1dmUGE4WnpqdDBoeEhGZG52eHl3NXFlclhFaWNyRDV3a3BCN0lLVDNnOEMzZF85OW4tRGFfU2pSdDNPNW1BdjhGc3NzczNmVGQ4NlNyeE1qd2U3WXVCU2hBd1d0MV9yTjFGa1VtejVya2s4NHdwX0c1NlgwOG5wV2drWWRGZHRHVER4N0wxNDh5TlJZX05yOGdvY2RQbzItQ0IzLVhjdWxxc3VnZl93UnVTNEx2Y1FCTV9qNUx5NU1QclpHdVZtSGxrTHgxNWpUUC1UUXpUV2hCUkpkaGN2R0xMcjhlNk1lR0t5R3pSOTM2bEVGaE1saWM0LVJhR1NibWllY0ozbThscW5FYkxHN2YtQkxBRm1sT2oyUnF2Um0wSDN1TEE0MVZCRHV5Ny1XVnZOUmszMmtlTllqTW4tTGNSRWdMOGp1bHNWNzgwQ0pSV1Nfd3VQVjJub3FrU1hoQjlCZG9BZ0xqNEdaWXl3emRYdmtUZmp0aGxuTUo1cnFRMG1UNjNwcTM5YURrTXZ3UlZIOXRROGZuZ21QRUxCQ3Rjb3VNUHk3NFp3UmxWX1R4NGZDQnhNY0dERzJqa2NfVlRoQkNVazQ2c0g2ZUZxOWpISDdWRE1NdS1lbXc1ODhqNWJ1UnpSZzBVeFZ3YVBGNFdoT0VWSFFZOHY5dHBoQ0lJQ1BrZkNmMEpkVWZ1Q1ZQcVhwUk1JVkYxY0V6d05ZZC1rMElOeDVKdVhrSTFfSEtLb19uMDdyZDJkSEVaZ0dBN0IwRVNySUhtN2d6UFp4eWdkV3c?oc=5",
+        "date": "2026-11-21T18:56",
+        "source": "الشرق الأوسط",
+        "category": "社会"
+      },
       {
         "title": "カタールとエジプトからバーレーン・サウジアラビアの頂上へ…U-17ワールドカップの歴史における中東勢の対戦",
         "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQT3l4cXFvazNHcHFZdk5nZkthM0VJdXk5eUJhTDZyUDhmQXNrc1hma2FwMDZtV3dORGgzZmlKSWRSMV9iTmlUNzkwR1BxcnNQWHc1djRyOEwxbEgxdWxDTEpiWnJBdTRhbTNZc2hObmNXUG5vSEVZajNhTzhaUjhRek43dmJDN1JFb3J4R05fZEF5bXUxZ2pteTEteW9tbmJRbjY1dVB1YjR0Ymo2VVYxU29CRkl2QnBoclZqTjJDWWE0Nmk5VVFYT1Y1bm55bms5YlYzeFJWU2w3aDhiYWF0VU1jVTNYeFJrenVPR3FiWUhMVWVxTnlKUEZCNlI1amNTTzlwcnRVZFZpUmdJOUh5WF8wUVFsaFA5cGNuRy1jTlpXc1RpU0FPWFZyRWV3TEZrV2tVcktmcTFrenVhb3diTDRDc183Y3c2em5QWmprTF83TmJ5M3pJbA?oc=5",
         "date": "2026-11-21T16:01",
         "source": "الجزيرة نت",
         "category": "スポーツ"
+      },
+      {
+        "title": "空爆によるフーシ派の軍事能力削減効果を検証",
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQOFhLcVJPcHNReEdsQkpJajc2bENJVHEzdVV1UGFFaklZaEdzQ0tPZXE3WDNRTVJTY1hWaDR6LUM3a29SU3R0N3puWDQyU0VVSWRBbll3SEtBbENUdGhsbEtLRUFraGtmR3o2VklRd3Y3YldMME9na2ZsU25Lb1NJZEpmVmhMbkdnWHQ3clhnMHJRLUUwc3dMTC16TjBRNFF6Ymdod0pJTnI0THRITlQzT1J3bWRENmJWVTBlV1NvN2RiZmNJNVh2c1B2cWdKQlZzMjZDN0ZmSlAzbFkydk02ZXBvbm9ON3FBODRSZ2hwZHAyX0lmbXluSjdNNEUzZzZyQlIxZWdpd1NJakFCNjNUd0Q1cExvQ0dqUDlqeXIxcmZhS0dGb3diTGluOA?oc=5",
+        "date": "2026-11-21T14:34",
+        "source": "الجزيرة نت",
+        "category": "政治"
       },
       {
         "title": "サウジアラビア、国際航空連携を強化 12件の協定と覚書に署名",
@@ -212,7 +233,14 @@
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、フーシ派が発射した弾道ミサイルをリヤド方面で迎撃",
+        "title": "サウジアラビア、ジャザン地域の危機状況の解除を発表",
+        "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOUlVvV2FJNWpRNXV6VU1PYnNjbVB4VjhmdktFRmdKT2Z3QTE0clplNkgtZlRwVFpTcldIcW83R3Y5dnZLWW9SczZ1YnRrYjNGQl9ESDlqTXlUZHhBaVZESHNfeUt2eGd5cUhsMWVwVVBjeFNSc2E0Z3hLQ1RPOTlYSFE4dE9pNlpUMV9TTzdyejlJbS1MN3ZOZWkxQWdvdmJEMzViTVlDNlpkdU9rWnQ4b2JrS05DYldrd2tGNUdQZWE1RDRKZmtnWHlmSUZFT0J2WURJaERhcjVlUHZoaVdIOFoyZW94RjJrSi1veUZEQzZwdWFkNUh5OHkwQXozUTNScm92Z1JkeDctUGVYNHJfYktLZWtMNmFybGNFcWt0ZU0zSHpvRUpNejl3YzFrcW9jc3FjdmJ3ZnVJeUZCNTJIcnV4dTRCdUpZMmtLNjhXZzZiTXZUcndIVll2OWRGeHBlZkRiX3lldw?oc=5",
+        "date": "2026-11-21T13:10",
+        "source": "الشرق للأخبار",
+        "category": "社会"
+      },
+      {
+        "title": "サウジアラビア、フーシ派の弾道ミサイル迎撃を発表",
         "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RZVIxVXpkYjFGRlM0SHlNcU5XM2tQVmFPMWRZUUtLUG5jOHBjZ09EWHlybGs4VzEzaHh2V3hkYVlxcU50SDJhMmc1SDFHY2dRV3ZPX0dsVkpCSXNhVkHSAWNBVV95cUxPb3hDTC14dXdCTGVUSDdkSEUtdUdZSEVXS0hqVkhKekgxZE1MRHU4cHVRZnVsT281NTNHYU1GWFJMSUM2MWpRYjdSZXJRcjhpUUpNNU12NXJpdXd3bG14RWFuRVE?oc=5",
         "date": "2026-11-21T07:07",
         "source": "BBC",
@@ -226,7 +254,7 @@
         "category": "社会"
       },
       {
-        "title": "サウジアラビアの防空システム、フーシ派が放ったリヤドへの弾道ミサイル3発を撃退",
+        "title": "サウジアラビアの防空システム、フーシ派が発射した弾道ミサイル3発を撃墜",
         "url": "https://news.google.com/rss/articles/CBMihgVBVV95cUxNdnpWaFcxRHhjOWdjQVZQcXUzWnlyRHR6aWk3Znl2cXBoRHlLRWVQNVo5ZDZXTGhiTnlvZ2FBUjlZY3dKWWRXQ2VsMWZpVjRkZFRFWndpZ3Rrd3dTV0txUndKSmpuTlVETmNJV09md2doaEJjeHZ4VmQ2eVI5OURjVWNlZXhsUUkzY2xkQU5XX1M4bzRZZE8xeTd2SWVBc0ZMelY2TDY4Rzl4WklicXBrRU1uSTc2bmc5NlNwS1pweUduTG0wQ3hFX3VsUnQ0NTNDQlNlVld1VGZhU3AtM2tENHIzWHo0bF9MLUh3X0kwcHVFN3ZzWms2SFhZTzBnTFEtU040eUh1Y0RwQjUxekExRWR0ZHpVN0JtYmRqdUJ6cG5yZDEzYUd0ME5OUkVzdlhBdkdFSzM3eHM0bzA0bXd6MExmMDRrVEFSUzRiZ0FkallJbTFUOVg4RkFYNDZ0c2lSTExHbFBJQ3RkQ3hJbF9uTlY2cVlDY1Y2bnhHeGwtU0NIa3dnMTd4OF9kVWFZeVZobEFLdUw5ci1DdWhTR182Y01WUzZ4VGZNY3hZMTFqQlBVVzUyOFJxYlA1ZnMxTU91cGNxS1g0QVJUUEJzVzhiMi1yNVJQLVE2Qk5SMXlmN0JJTTZQc0lXdnJHa0tkQWZDWlBQaTRZaUtVMmVncDFhZkVFQlRsNXROVmdfZkJrS1p2ZEI0RVhaYk5tSWwtNU52X2xPYVh5NFNLUGVGcGtIRGdXZGhKTmVGbFFrLWVlMm9YbHVFNjVOSmNKSU0yaVpCWjE0dTN5U001QV9jbEsxSDYxcG5ZV1c5cGhXaldiY1J3YnUxdlJJX2czSkJyNE5ObGRReWJR0gGLBUFVX3lxTE9BSWhzLWxNcEpleXFFalZ3amt1TFRMUkFlUmRISWtJeFd5am9Zbl9qaTRpdDRINkxCZlUzSmVXVTZxTUF5TUkwZW9hVlIxa21sVUFLd3BuN3h0THNBQTFYQXlMUVQ1UUFXS1huNXFHekxFX1dfQVFxN0Nmb1lYQkpUazhkdWJIdGhwekNENUJVOFk4cElMZHZuMGlLa01tSksyM2ZQcndEYVMyaUlULVFYV3FzNlduNjVGdTFsTlZUT1JjZ1VJZUM1dWRHeHFkNmVWVVM2SXpXR3h2dHRCZmV3N2wwektJempHSTd2V3dlX09hdU9CaFlqLWRsT1czNFY0T2V2MlBHVHlYc2pJcThqLUd1QVdtRWVfNzlwVHMyYmJXLUUwSjBIcmhkazNQb3l2cTFFRkFYUmc2aFpwUGxIV3F1eTBsSnA3YzRwYmlSbXpZYjZUb1Zwc2ZodUI0Vy1uWV9WT3VacjBQMkhXNTkwWHRLMGs3STN4ZUxkbFl0aHZVVHdWVGtwZFdIRmt4dkljVEhObUJORl9OaWV1UnF2ejdsSGZjbVBCSmV2bmc2Q01US3lqejJicS1kejBQdVFpWjVBSzBWWEd6SnptaDVsd2t4Qzl2NmNnX0ZncHd5bGIyRG4zbmVwZDkxcnMtZE13QjdhNzR3SHduZVpVMVNCc2UxOUN0TW5iX3VBOFpEQnVJcXd6MDBsWW1BOUNoUWlKaDluTHJhMS11c0RvUkJ6RmpRSEFqemtUYVloY0owZ19oSERSNWJlall5dHM5OGJjak1Xa25qeU5yZG5UT1hWS2U1WFhnYzdkRTVWb0hJcVZwWUlIbHRrZ1FHQnBxUEU4dXZHa1ctNWZsOA?oc=5",
         "date": "2026-11-20T23:43",
         "source": "العربية",
@@ -238,39 +266,11 @@
         "date": "2026-11-20T22:13",
         "source": "Anadolu Ajansı",
         "category": "社会"
-      },
-      {
-        "title": "サウジアラビア、心臓病医療の政策改善で覚書を締結",
-        "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxNTHYweVRGWE56UTJhQzREbGRRcGRJOF9TR2R4T0JrTHlNU3VxaTQyM204NU9fWGVOMWMybXFrZ1ZsRDk4czQtODFqZFFqY2hxVnFjZWluRzNCNmFHS0NFNTUybVl0VmtFaEJLV01wWUp1cXZ2ZnB4eTc2RmlmSTNLcE5haTBqNmxSSUt6TlNXSXJqOUpsSFFOTTJKekliM0NrTzdPanBhZkxwaUtZTHNyQmE1dUVhLVg5MHNheENia1llWV9LTl9QRENXQ2hkbjFldUpzTGlqVGstMFB2aXZEaHdrNHU5NDFnVnVBTF8tTVM5YVZPU1g1OGU1SHJncm1Iekc0ZG9FNF8zY1BQLUM0NkMweXlWWmpQRk5razV5X3NCV0dHQVBWaEw1Z19VNTd5LUJBY0djQ1g4YmQ2MVpMWUVPSHZjZHlDdEp5dWJVLXFoSzhvZExBRmNKRnFpYjF3VXlLbm1zYWI1eVlWLXJERkg1RE1YQllTT2hyeFdIcGRJdnJnUEhaa01wanVHOHBYWmM5b2ZqVmRjQjB5cDlfUUdqTjVUeWlOZUFyOTdQMWFDTnRQbHhYNWpOMmNITXhXQ1NCZ1pQRW5iT2FYYzROanE1UG5ia0doMEkw?oc=5",
-        "date": "2026-11-20T20:41",
-        "source": "الشرق الأوسط",
-        "category": "社会"
-      },
-      {
-        "title": "フーシ派、サウジアラビアのジャザン港と電力施設を攻撃したと発表",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQTBEcFhaUnFyM1VUV3ZnZjhobmZhVmJELWhRU0g0YllkN2gtSGllTXpPOW1hcERFMXNjOVFqcC11MkE1Q2YwcnMzbnJuZ194M3FnT00wSEtIX2gwb2tYT2NLS0p3b2VZZmhibW5uRlJPd3Q0ZGNxcWtTN216NEpCZldZM085d0s3bWx1RFZUWlFFNHBXdkF6YmxzX200RktPZWFOa1ZRN0VwMnhNTTFVU0VLX2d1STZyVzdv?oc=5",
-        "date": "2026-11-20T18:33",
-        "source": "CNN Arabic",
-        "category": "政治"
-      },
-      {
-        "title": "イエメン情勢 サウジ主導連合軍がホデイダを攻撃 フーシ派がサウジの港湾施設を脅かす",
-        "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNLTFHZkJkOVJZMHZXR0NOdEhSTG1PRFBqa2RtakxWeG1tblA5RjlORi02OFpiOHdBcHRzb290QklaNnBDdHVPNWxJSEYzSjFuakI5dHRPR0FFei1FRFp6Q1hWVndsREluTnNiNHVaZHhvaGhNdTRoTzJhb0tadXBMVy11ajJURFNjNG9QWnFRdTVnaUFEYnJjSkZXYk5NZEJyZVgydWpldE9DWGlIY0RZamhsUDEteTUzMjB5RlZoNzd1R2V5NjJ4dXg1TzktTEIyZDF6NHB6M0tkYkk1UDBfcVpGa1VqRjQzYk9hQWFuRGU2Z3V3OTBmd1k3bm1JRkxYWnlhcGJJTHlER2UtQ3htM2FYazVvNjlTZ0prSG1TTnpUbF9iWnpmV3Atdnk2cnlvTDMzVVRHbVY2b3B1Q2pMWjd0OFRzeENFM254bC0xVHVXN050SXdQOFA2anRONGM?oc=5",
-        "date": "2026-11-20T18:32",
-        "source": "الجزيرة نت",
-        "category": "政治"
-      },
-      {
-        "title": "アストラゼネカとサウジアラビア心臓病学会が心疾患患者の医療充実で覚書を署名",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBzV2hvZUViM3hmb3lHWXRhLWd5cDlRR1VaZWpDNlBSdFVDSlhvblpxc2RDLWFfWGdwZzE0YlY3SENicHZrQmEw?oc=5",
-        "date": "2026-11-20T17:44",
-        "source": "صحيفة سبق الإلكترونية",
-        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-11-21T20:42:12.928366+03:00",
+    "lastUpdated": "2026-11-22T00:20:49.440258+03:00",
     "items": [
       {
         "title": "サウジ原油 日本での備蓄3倍合意",
