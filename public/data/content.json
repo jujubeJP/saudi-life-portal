@@ -1,7 +1,7 @@
 {
-  "lastCollected": "2026-11-22T00:20:49.440258+03:00",
+  "lastCollected": "2026-11-22T20:57:11.431839+03:00",
   "security": {
-    "lastUpdated": "2026-11-22T00:20:49.440258+03:00",
+    "lastUpdated": "2026-11-22T20:57:11.431839+03:00",
     "mofa": {
       "title": "危険情報：レベル3 渡航は止めてください（渡航中止勧告）",
       "body": "海外安全ホームページ: 危険・スポット・広域情報",
@@ -35,14 +35,14 @@
     }
   },
   "news": {
-    "lastUpdated": "2026-11-22T00:20:49.440258+03:00",
+    "lastUpdated": "2026-11-22T20:57:11.431839+03:00",
     "items": [
       {
         "title": "ホーシー派の攻撃予告に対する注意喚起",
         "url": "https://www.ksa.emb-japan.go.jp/files/101122799.pdf",
         "date": "2026-11-20",
         "source": "在サウジ日本大使館",
-        "category": "社会",
+        "category": "政治",
         "is_safety": true
       },
       {
@@ -120,13 +120,62 @@
     ]
   },
   "news_en": {
-    "lastUpdated": "2026-11-22T00:20:49.440258+03:00",
+    "lastUpdated": "2026-11-22T20:57:11.431839+03:00",
     "items": [
       {
-        "title": "化石燃料の段階的廃止をめぐりサウジアラビアとの対立が焦点に、気候変動交渉が膠着状態",
+        "title": "サウジアラビアの自転車レース、スポンサー撤退で2027年の開催中止",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPb2ZJUlN1X2JIVkZyZFhsenBaYWRKZUxnUlVVbkdhUG9XUzREa2ROanhWZ1JCUEMwODJmLVhQNmQ4OWJXWTdtZkw0NTI3MXhtTVB1MktYbDU4TGw5WjhPY2VNbUxrajFnV2lMT29kZFUtbENTSWxUeGY3OHpsQUhaTWZ2andKdw?oc=5",
+        "date": "2026-11-22T15:43",
+        "source": "Yahoo Sports",
+        "category": "スポーツ"
+      },
+      {
+        "title": "サウジアラビア、米国との石油ドル協定を密かに廃止 50年続いた世界経済の基軸が変わる中、イラン情勢が緊迫",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOUhuT3BBQzlvUFBEQjNDam1wcHc0Mkc0dWFTMHFlUjhvVG13M1BVYzBQZkpSQWFPUU10eVJGT1RJTkhvZU5yeGUzTUxZVWJnRjZzeVpLRWJHOFFHUlRidkpzMzdCZUItT1hDVElXMFdkd1d3OEFDRzRtbWM5NTQtTG0wbUFuYTRNXzZ4UmlxTlI0cGVKb0NhdFViQmdTZDNUN0E?oc=5",
+        "date": "2026-11-22T14:25",
+        "source": "Fortune",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアとバーレーン、新たな攻撃を報告 イランは米国との交渉継続を表明",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWExRdGJVYklFVlRzdFJXOWVHb3NjWFQwYTJTeU1CN1h1YkJ1ckswc29IQ28ydHBtWkhFOV83WEJ6V09RZWk3TkRIbnNYdmVnR3l4OXA4WDFLQnI5bUVzNU5RYnlIZnNQNU4yOXNDT3BVSzgxNlplYWhBaGp2YWVLZ0x6MXJOWm1OZVdVTlN30gGTAUFVX3lxTE04Qy1NVGc0RndjU2tZbS1ubW5uWDBSSUZ5NTQzTFZ5MGtCSk52SFg4YWdVTjVOWmN4S1FzMXFQZFJNekptTi1PVmhVY1dHaDVwZHkzTUxvZnhyaHlQVXNzWno0aVFFdjJMcjdIcGV2dnlvMFlhcHp4WVVZYnJMcWFfdzhNVmdfbjY0SU1sS0MtdXUyTQ?oc=5",
+        "date": "2026-11-22T13:25",
+        "source": "CNBC",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、フーシ派の攻撃でドローンとミサイルを迎撃",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcndOTTl3bzZwNVZ4ZWstZXBZdnVkbUhPanQ5VlhUVEJaSTRVdnc1YzVUdEhEd2M0QXdFVGxzRFVLeThYd0FfaGEzMnQzbWIzemFuZzRqSGJCQ2M5LVBzV0dadVlwUXpXR1hfMTllR2NsWmNuRnk4RmRSVVlraElfS3NjNFlJa0FWTGNRRS1XQTFxM3JoTVRYZEluNkVJUXZSdk1TSmFfWUfSAa4BQVVfeXFMTmplOTVHYzVsandyeWw3aS1QcWJiLWt5NXNnWHhYazFVV1pMZmdWdFdIdWxYSTRXNDJkWlYxdXJpOW1scUJTVUxJOWlqbDVST3VZcmR4U2RSdXVpc3NZczU2RVlZc0Jrd3BFcVQ3djE0TldnZk9KWi1ybXlwM0Ryb2NvWmJCRFZOX19xd0JDT2xPQy1VSDZBQ283ZUF1Z3JRaTRJd0VoYzF1SXVDdktn?oc=5",
+        "date": "2026-11-22T13:17",
+        "source": "Al Jazeera",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビアの100億ドル市場、プライベートクレジット企業の争奪戦激化",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdGJFbFo0ODNjMDNjQmxOTjFOc1VXTHVkVzM4SW4yeXpQcW9oeFU2NlJIcDhQZ2Y1MUFWVjRYWURyTk5BVVRWZEdES290TDlFZkcyMFVmNXlIUk5UOGUzSDBDVU43em01bFZUV1R3VWJ3NC1EU2RfcU9tcGlrSFppOHVEVnBLVTRWTzNkY3VzVUJKdlJ0OUJhZHhkaUl1LW1seC0wbmtZX016a0lWUXVDT0JKNko?oc=5",
+        "date": "2026-11-22T11:30",
+        "source": "Bloomberg.com",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビアの1兆ドル基金、戦略的課題に直面",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcjVjNFBWV05nNTZjNGlla3JzX1F2bmRUeUNNdno4Um04VFE5OURudzF2a3pPMHkzNEZITndnd08yQnhnc3NXVTQ4bXBvR19YWWRWVy1ZRnlDelJyQ2RJcVVCSHRKN3NCdm9XR015a254VVNwZzJyMnZGTG9IXzFmOS00OXhuTmh0STJzUXhqTy1abzR2em1VaXRnaDVHS3RZQng0NE1WVFBabUtWelBTNVJBVjJiUQ?oc=5",
+        "date": "2026-11-22T11:13",
+        "source": "The Economist",
+        "category": "経済"
+      },
+      {
+        "title": "化石燃料廃止をめぐりサウジアラビアとの対立構図、気候変動交渉が難航　COP31",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPU1kxQzdNNXpJY0dmendlY1VjSG5EdHUwbmpjTkdCMDgxR3UxWnZOOEs3MEktTW1PakJWOExhMzdEX0wwSVdQS29Rb3lXeVhwRnlvYW1Ia3o3RGJYQkxmejhVTWhxZTRIdmlxQjJFbWVpUHdRTHhZV2ZQaGtFZ1VpdEhOcGhqYjhaOTl2WjJ0OEtqZ2VwbzNOazFMaGRVbTh0bDdIeDlOUkUtZ200VjZJYjdJMlZVaWhpZGUtSEZIRHl1THVy?oc=5",
-        "date": "2026-11-21T19:46",
+        "date": "2026-11-22T01:15",
         "source": "The Guardian",
+        "category": "政治"
+      },
+      {
+        "title": "サウジアラビア、リヤドを狙ったフーシ派のミサイル3発を迎撃",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeHZTSmZYekw3dzlPRzRLcUFpVzAzZXc4TGRtQVJGVjFIdVFGbVZja2E2alVsVHZ3WldDSFYzSFBMNzBlYVJ5cmVWTkhsXzhLUVBKY0JLdXU3MjdnTldfUVRlUmhXUExBMmVhU2Z6dm82QUhNbGFpeUdmdGJpY0lxMHpLSWd2b1prZV9CcVQ1dGlTQnQ1Rk5KYUVjNlNITkJ0aGpvRnhFZkU0SnZl?oc=5",
+        "date": "2026-11-21T20:10",
+        "source": "Japan Today",
         "category": "政治"
       },
       {
@@ -142,135 +191,86 @@
         "date": "2026-11-21T16:32",
         "source": "The Detroit News",
         "category": "文化"
-      },
-      {
-        "title": "米国、イラン軍による湾岸上空のF16撃墜claim を否定",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTlptbkY5QlNoN2RFRUVGNjR5ejNtdU5Gajg4cm83SlJGRWpqT0dUZlhmM1YxdDREUzRQeFVnMmdJbkxIejNJaG5ldVdVQVVRWW51ZzU3ZGR1b0NudUFDeVBBcGtmamt2VlRjNUNOdHdHazNzYTNsUHpNa3F3VW52ODVCeXZoNHp3QmZydVhrdVlIMlJQcHAtZFVOV1FDOE1CMWtROXExZEM3Z2s?oc=5",
-        "date": "2026-11-21T12:05",
-        "source": "Al Jazeera",
-        "category": "政治"
-      },
-      {
-        "title": "急進派民兵との戦闘は想定外",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQV0x4SzhsbEg1QndZOTlVNC1GR2VlSUltTEstSFN4YWU0cFhRZVRUWG9yTVJfOEd3Yzh2REdYdTRXekVDeW5xWjZqMk5ObjF1OTByRW1tSkg4bmNDblFIdWliQ2NTUnBDYUwtandBVUZGX0xjbkhGQlctLWZqc3F5YTJrMndmZ1AzS0E?oc=5",
-        "date": "2026-11-21T12:00",
-        "source": "The Atlantic",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビアの戦略の背景にあるもの",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWWxqSW5KSnlwY2NrUEFhSWhyaGltcWsxbGRCdVNxYWhuWGJrQVlkZTNpNlo3enlBNkt0LXcwenJPOHpjaHR4YkVDRmhIcDh4YlktbFJEeU4yX0dwRmM1Z2dZbzhlSm9IZXV4ZXIwdnhzd24tTlJoeHJFMG5ucktwcno2OWt4YkE?oc=5",
-        "date": "2026-11-21T11:00",
-        "source": "Arab News",
-        "category": "政治"
-      },
-      {
-        "title": "サウジアラビア、日本への原油備蓄量を3倍に引き上げることで合意",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUUdLMGhtNXhKUzZLNllmS1RtWVkwT0Fvc2NyZ1pSb01BWXhWZDF5YWxyUzJGaHoxOTRIX0UxcjRZSEFXUFd1bGlHcS1VVUg5VHRwNXNUNTlxUXFOUFhUV3VXa1ROaFlwTnhJNlNnQVRUOTEzdU96TXVVa181UkFhVG4tRURBd0kySFd5MVp1ZVhmN2g0NUducTNHYWdHWG5Yb1Y2Y2dUUC1CT1cwU2s2ajBJYzE?oc=5",
-        "date": "2026-11-21T07:04",
-        "source": "Japan Today",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビア、2027年から多国籍企業への最低税率15%を導入",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUS1wbjFtQjdNeXRybWJiTFZod05aSVY2QWd6c0VVcHBlU3JVUmxhMFdheW1KNUlITnN0LS1HSy1UQ0k2a0FNLV9CLVRwTTdhT1ZaODdvWTlhY2dEOWdWSVVoUjhzS1BGQUN5WWw1ZmtsY3VWbGQzdnVzRE0wMUpqRzdXTm9IdTd6c1dCV2w0Z3F4WUhWMFBFYTdXUzloXzdVdFhrYlZ3RHFSOGtkV0pPdjJEMVhiUkhNckFzY3A0cmwyTTB4STFj0gHaAUFVX3lxTE1XRm94NmI0ZHdQNlhuNVpiUk9xLWdPUFZHdllndXoweC1lWHB2RU02Q1lLRV9tdnhHSkg1ekFlajczX1NXR0dELUg0WGhUREE5YTZsM0FJZTUySkZJQVgxVzAwWGNiSUVBN3B4cU5iX3pIN2h0TGxlbFF0MHpQUDFUcGxXTU85NHRtVDc1UmcyQjYzQWRkVHBIUkdzVGFhSEM1S0g5LUVJNjFOeWRNc0MtMjRPb0hlbUFWQmFSakU3WGdoOUhlSTlXR1Z3aGVGOU1jLXdvb2lKUHZn?oc=5",
-        "date": "2026-11-21T01:30",
-        "source": "Gulf News",
-        "category": "経済"
-      },
-      {
-        "title": "サウジアラビアがフーシ派の掃討に苦戦する理由",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWVJtZHNEeHFsOERJVHRnZnV4Qy11aHNRMTZrSV9mTkV5VGlzUW11OWJBc0FGQkREZEJ3dngwalJqTDJramc4NUI0QVJvVVppaktQLVJKMHRTSDkzeHlsQ2RxYXlhNlgzelR3VHlYVXVaY1lwT3lxLW5rS3lYZzF1c05iTFFYbGVDWXFyd2M5aDc5OUJldy13N21JQzVtSGdwUmoteEJucGc?oc=5",
-        "date": "2026-11-20T22:15",
-        "source": "Bloomberg.com",
-        "category": "政治"
-      },
-      {
-        "title": "トランプ前大統領がイランは交渉を望んでいると主張 サウジアラビアとイエメン反政府勢力が交戦 中東ニュース",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWG11c0t2cHNUVFlEZEwyWHVQRk40anlnM3ltcWtYOE1hV01IaEswQmpnRExZNEk1Z0xGRkZ0T083cWNGTUhvZUd6YUxwWjVwNjA1djJZZWZZQXh4SjI4SGRLVmtBMzN6Q0cxWVJjMFpJOW5DdUFWVlUtNEF5NW5IcU5sMHNwcmNVZTBfeXZVMWRKMk5HV1UwTGVycE1xd0c3TG9HYQ?oc=5",
-        "date": "2026-11-20T20:46",
-        "source": "AP News",
-        "category": "政治"
       }
     ]
   },
   "news_ar": {
-    "lastUpdated": "2026-11-22T00:20:49.440258+03:00",
+    "lastUpdated": "2026-11-22T20:57:11.431839+03:00",
     "items": [
       {
-        "title": "サウジアラビア：メッカ周辺地域の危機が解除",
-        "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxOUTZqLUdzN3lCSFR5VWF3RFcxU1VFTC1iYVdRTmVyMXhzb0I4NGhITFMyNmd6YkVKRU9mb0VzQlFuNDRacEJhRTNFeHFrTkQyOGpDTm1taFBNTllJaEs5dHBFOWRMQlcyVUxEZHpUOTFPa3lncmc4NXRwTlVGdGpiaDRGa0Mtc0pNWXFXSjVoWENUNFM5eUJUejRNVGIxcl84dUZiMHl1UjJoZzhTVzNKWG5UNV9wTjNqQ1NBWGpDUHhYbmNxREtVT1V1NXpVTmJyT2tnQi1IaUFjY1Fna3BNcUdlUUJsd05uYl9kSVZIR01yZFZSWnk2SGFvZVBjTU5RSUJJLUNPNGoyM2YzRG54OUNWWGVTbTE3RElPVkgwaFpsRkhDcEd1bWdjSm9obUxlcWU1SEFVTnZNMGVxNGlJVFJ0cjRYUm1IUFVpNHFuS3ZEWWNYcHVaVnhnY01pbldDNVptT0VnYTlrUlJteTdZ?oc=5",
-        "date": "2026-11-21T20:56",
-        "source": "الشرق للأخبار",
+        "title": "動画拡散 ジッダの石油施設を狙った新たなフーシ派の攻撃か",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNTB1N21BQmJCLXV6dkg0WEJsNU9FdmpnTldyWFJVaU1WdE5DSjF3cElkTFFFb1E3enhmOHdhTnJTTzNsRTY1Q1BrNVhwWHItbWdVRmhuRlI5RDc5WDVRVENNZ1F6TEt0WTE1NmU5alJzTlAxTEFydG8tbTd6RWk5UTJoNXp6MVhfdHlicmZTN3IxWFp2aWhncHFFYTJkOHdIVm1LdUVCdjlVUmJrdmZ4Y2N5RWVpXzVQdDZUSXY5V0hkU0ps?oc=5",
+        "date": "2026-11-22T17:42",
+        "source": "CNN Arabic",
         "category": "社会"
       },
       {
-        "title": "サウジアラビア民間防衛局、早期警報発令後にリヤドの危険解除を発表",
-        "url": "https://news.google.com/rss/articles/CBMimgVBVV95cUxQelJWd0NnRnNhUWh2ZXpoYTZTc0tSTWNDN284eS02S1V1bzIxVXc2T041akF6S3l2UmZMYy1STDItcHlkbnhla3FfYU85c1dmUGE4WnpqdDBoeEhGZG52eHl3NXFlclhFaWNyRDV3a3BCN0lLVDNnOEMzZF85OW4tRGFfU2pSdDNPNW1BdjhGc3NzczNmVGQ4NlNyeE1qd2U3WXVCU2hBd1d0MV9yTjFGa1VtejVya2s4NHdwX0c1NlgwOG5wV2drWWRGZHRHVER4N0wxNDh5TlJZX05yOGdvY2RQbzItQ0IzLVhjdWxxc3VnZl93UnVTNEx2Y1FCTV9qNUx5NU1QclpHdVZtSGxrTHgxNWpUUC1UUXpUV2hCUkpkaGN2R0xMcjhlNk1lR0t5R3pSOTM2bEVGaE1saWM0LVJhR1NibWllY0ozbThscW5FYkxHN2YtQkxBRm1sT2oyUnF2Um0wSDN1TEE0MVZCRHV5Ny1XVnZOUmszMmtlTllqTW4tTGNSRWdMOGp1bHNWNzgwQ0pSV1Nfd3VQVjJub3FrU1hoQjlCZG9BZ0xqNEdaWXl3emRYdmtUZmp0aGxuTUo1cnFRMG1UNjNwcTM5YURrTXZ3UlZIOXRROGZuZ21QRUxCQ3Rjb3VNUHk3NFp3UmxWX1R4NGZDQnhNY0dERzJqa2NfVlRoQkNVazQ2c0g2ZUZxOWpISDdWRE1NdS1lbXc1ODhqNWJ1UnpSZzBVeFZ3YVBGNFdoT0VWSFFZOHY5dHBoQ0lJQ1BrZkNmMEpkVWZ1Q1ZQcVhwUk1JVkYxY0V6d05ZZC1rMElOeDVKdVhrSTFfSEtLb19uMDdyZDJkSEVaZ0dBN0IwRVNySUhtN2d6UFp4eWdkV3c?oc=5",
-        "date": "2026-11-21T18:56",
-        "source": "الشرق الأوسط",
-        "category": "社会"
+        "title": "「ブラックパンサー」から1880万枚へ　サウジアラビア映画産業8年の軌跡",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9LT09tWFZUczgzR3BWSGZ3VGYwMmtpdlVwbjFZejMtVmN5Um5LUkJfNVc2TTV3Rnh6QmVjWlBVaUJrQmktUm9N?oc=5",
+        "date": "2026-11-22T16:10",
+        "source": "صحيفة سبق الإلكترونية",
+        "category": "文化"
       },
       {
-        "title": "カタールとエジプトからバーレーン・サウジアラビアの頂上へ…U-17ワールドカップの歴史における中東勢の対戦",
-        "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQT3l4cXFvazNHcHFZdk5nZkthM0VJdXk5eUJhTDZyUDhmQXNrc1hma2FwMDZtV3dORGgzZmlKSWRSMV9iTmlUNzkwR1BxcnNQWHc1djRyOEwxbEgxdWxDTEpiWnJBdTRhbTNZc2hObmNXUG5vSEVZajNhTzhaUjhRek43dmJDN1JFb3J4R05fZEF5bXUxZ2pteTEteW9tbmJRbjY1dVB1YjR0Ymo2VVYxU29CRkl2QnBoclZqTjJDWWE0Nmk5VVFYT1Y1bm55bms5YlYzeFJWU2w3aDhiYWF0VU1jVTNYeFJrenVPR3FiWUhMVWVxTnlKUEZCNlI1amNTTzlwcnRVZFZpUmdJOUh5WF8wUVFsaFA5cGNuRy1jTlpXc1RpU0FPWFZyRWV3TEZrV2tVcktmcTFrenVhb3diTDRDc183Y3c2em5QWmprTF83TmJ5M3pJbA?oc=5",
-        "date": "2026-11-21T16:01",
-        "source": "الجزيرة نت",
-        "category": "スポーツ"
+        "title": "サウジアラビア株式市場で大口株主の保有状況に変化",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZFI3aGJTazF5MDJzTHg5WUdNUkM4aGFxcWRwdGVfcHM5TWVnRmhyY1RTYzc0NFprTS15S05MSzhESXpwRVp2YVlmMXdROGpjSnZCeDlfUnpwVE4zNWx5VTAwRTBiRVFFcnNYS2lzRm9QNjlzZjh2NmVFdzVWRXJBZlByNEhyaGxTZXFVVWduN2NoWXR5Y0ZpUDVYdmRhSlV2VHNPZjRZcW1vd0JBTHFYeFRfNVV2X0lhWDVXbV9aSjlTa0FCWFJXN21zRW1TU0lWWEhPZ3hFNEUxd0FvQ2s2Mmx1MUQ4ZTliZFE?oc=5",
+        "date": "2026-11-22T15:13",
+        "source": "صحيفة مال",
+        "category": "経済"
       },
       {
-        "title": "空爆によるフーシ派の軍事能力削減効果を検証",
-        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQOFhLcVJPcHNReEdsQkpJajc2bENJVHEzdVV1UGFFaklZaEdzQ0tPZXE3WDNRTVJTY1hWaDR6LUM3a29SU3R0N3puWDQyU0VVSWRBbll3SEtBbENUdGhsbEtLRUFraGtmR3o2VklRd3Y3YldMME9na2ZsU25Lb1NJZEpmVmhMbkdnWHQ3clhnMHJRLUUwc3dMTC16TjBRNFF6Ymdod0pJTnI0THRITlQzT1J3bWRENmJWVTBlV1NvN2RiZmNJNVh2c1B2cWdKQlZzMjZDN0ZmSlAzbFkydk02ZXBvbm9ON3FBODRSZ2hwZHAyX0lmbXluSjdNNEUzZzZyQlIxZWdpd1NJakFCNjNUd0Q1cExvQ0dqUDlqeXIxcmZhS0dGb3diTGluOA?oc=5",
-        "date": "2026-11-21T14:34",
-        "source": "الجزيرة نت",
-        "category": "政治"
+        "title": "サウジアラビア株式市場が4営業日連続で下落、ウォール街の売却圧力受ける",
+        "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPeGJZMTFqSUVKX2c3NThDa2syS00zNUZqT3B0UUxJRGJxNWNsUERic0o0cEkzdW5mT3NDeVFhMXc1Z1Q2dzVIbVl3VjFfcHRDTUVEODNOSEZFeWU5U1F0R21tdHdyWXJwX2dHZWhhdDRLUHdGaGg0NmRtTWxfY1Z4WFJwdVRpZ3lyd3hfVTFla0UySGl1Y2V1eWF6Q1N1c09RdDNibnNRclktMmx1OTRrM3czTkRCbVVHOXFnMFN1OS1GazVqM3ZBbVVmdld3cDVJUXhKODFiQTQycTZWR0Jqc1NQVFotcTk5X3BreGZEMW84SG9wMDA1dlJheWMtcmZKajBualJ3U2E2bUlNcU9GS29PN3loOEhzR3ZLRWF0RUFINWJJck54d2dTRXlGeV9NTTFIMFVVbE91MWkxRnZfLUxxR3pfRUZZazRn?oc=5",
+        "date": "2026-11-22T14:53",
+        "source": "الشرق بلومبرغ",
+        "category": "経済"
       },
       {
-        "title": "サウジアラビア、国際航空連携を強化 12件の協定と覚書に署名",
-        "url": "https://news.google.com/rss/articles/CBMitgRBVV95cUxOWHMycUU5dlk1aFRxN2p1Q1VBMHlfT0Z4VFItUVRtQkg0TlpmeUhzT0N6Ym5LWWpSWjkwX0J5M3hkWExKX2pRekthN1F0M21Sd2hLdVlqQWYydFBpc2ZkbGtqaTliOHo4SVllRTk2LTJCdlBhVWJXS1kzTDFVSFJESWRCcHpjdnVJQlJRaFBJTDZBYzdUR0lUZnAxWnZuR2M2cGtaTjA3WW9KMURDamkxREZfZnNzaTI5M1NCaXhGSVZBYUwxQ2Zwc2NYWVk2bG52ZmIyTFNGd2RfaWVveU9TODhaRU5OV1ZORkVlTVFLY002RDA2eFlySVEyQmNGNmRvX0J5Zm53NE4xeS1WY2sxbkFWZmpXQ2wwM2tYcGNaeWlIOEtQVk5XTUN1U3NqaUxZRjVTUnJDRVZIUDdvMGNXeVVOUkdBSzZ6YWtDY19NZndpSjB4V0d4R1oyQUZNQkFKYm51Z2xMaEZISjhWSF82dUkwWjdLTWtQUG40WXBLSXJCQlprZEpHSUlST0xNY3JyckJtaDhYR1FxdGNWd21YRUpDSi1iclBTeHJDTDI3TlpaVlNhTmpHenZFRWdMaTFWWmZQNXN2eXBJdllJMWw0bURlT25PajE2dXJvY1NlckFycEVrNUZ6Q2NoV1Y3anlueUtQQmRMOXVxUlM0TVRvYWozamIyczJ5cEFheWZGNEd2SUo5M3FyRG5VQU9naTUwbTBOeldSdjd5d2FudWwzWldqSGg4Z9IBuwRBVV95cUxPak5BanQwd0swQUhlekJ1UjNRQUJyM0w5YjNvbk9keTBVb2swVGZweU9DOFRkZ19wUnFQbW1qMEhsa2lrdmJjUWFQeldLVGhBWFF4NklJT1Y0Q3p4eXN6RHFvNTlHblNOOXFVdlVKVnd4Qlg0aXBHaEZPcE1kSXFzenc1VmxEWGRBblF6dlRTc3I3c1o1Z3ozb2V2TkhJbWZ0azA4bHZuc1ZEVVRoN3RVZDMyTFg3RExEbHVFRjE2Y0NDOGlvd3BVd05lWEJUdHN5SWp0QkpiSHo4T1RCMHI1bGN5eUFNNVN3TVN1MXppOTlWRFRnS2ZLeTktVFUzZDJ5NnIxa2dYYWY1a0p4amxBSnJpbzVRYTJibW9OR2laUXBKQVFkS2lPYTBmVnJUVHlDMU5peFQwbE40SmN1QklTZWhydEZXdTk3dEQ1WWNzcVpQNmdKbGFHbUlfRDJ5V3RPUm85NUQzdmYxdkdCMmhta2dtMTB2NkxMQjFNVVlmNUxZdW1OU3Y4RnR0c3k1cWNvMUcxU1NvbXl1UkM2Yml5aFBrWTJtUWtFbENkMmdyLVlnWi03ZWlpR0padGgzNFVnME5veDNWSS1KcUtwN0wyR0U2OTdqcE9rOGhZLWVxdWV2LVFlelpuOGp2bG1lODlnb1BrMk9qQWQ3Znc5MG9JQUsxOHQ2UERjWGIxYnFZTEplZTNwdWNuMzJ6TkxRLVZneEN6ZnBZb0hTZTdTYVVfU0FqZjZNeWhaUVhJ?oc=5",
-        "date": "2026-11-21T13:37",
+        "title": "サウジアラビア、電子政府の発展で世界4位に",
+        "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxNZHhTUENmd2k0cXpDLWptMkVfc2g0d0RMal9LOXh3R3BjTFRndFBscHdhODVHSFdfdlV5Mi1YYktlV21TZlZXN090OXBicGVnN3JrdnRUUDNIMHEycDRYeE8zQzJPZ1o5NEJ4Ml83S3hrUFhiY0tHY2lnSXNpZlh4TGJRNW8zU1VmdTlDZnB1aUVrR0R3SHctclVXYWpham42YmVZLWYwTks1cEdlRG0xUWhjcFBCZGV3bzktVVJHYlRaOTREbUNMZHcxczRWU2dyVzZ0TXViY0NGcW5mTmRqQW9jMWJKMS00NjVnbHlncFoySTlfVWNlX0N4QnZCSXNwbno5WDdzMmVfVkZDS3puNm5MNzZYaXMzZmRQZG1mcXYxOWF0Vjh1VHpqOHpaTEhKWEpNNEswOWtmbmFhbkRxTnptellrRl9XOG5qdEYxMWZvSDI2bTJZUTVNX2dkYjI2QzBySm9kMFNOQjFENjZvcnFYZUxyMEQzOGEtT29jY1NqUlduRFY4U21ENzhnYkNOcndDY0duejduQ2RpWmt0cGhfOFdQS080RkREd1FQS1JERzl0RjZheEs3MHozZ9IBwwNBVV95cUxNUDExRS1JbFpCZ1RDY0lnOGt0OWRJVWc5VElmU3lZWERlT0RILXdXVW5Ha0d3OEFUOUhNZGh4TlJ3MFJaTnVVME5LZVVKZkR0eDhBTWpweEZmVXlZNDFXS2hSZkhqUjNqekhNSUp6bjRWLXI5QjJvWkNZUTRKbFhDbjdpUk93Qm1tYTdEVFlvRi0weVF6TG94MGpSTEhyME5uTnRHaFFGcll4aHV2cDY2emJjUkhrbEhWZElOY0dvSGw1T2JqeUNYaWZYc0ZmQUF3STRwVUJUd3UweVczNERLOWszdVhTd01rSjVOci1RN3FSbjNEa2JpXzNpMjM5Z3pvU0w1UXpVcUtXS0JGZ0IySHZFMGFhMDZya2ZFYW1kMHkza3V3UlJ0cENmMERrTV9hX0hMQ3RqdW1KRTBKMndzSE5KTXI2WW5pbGFialR2ckR1aXh2eWp0M2xWZ2M4REdGSUhRaXZwX0FfQ2dfQThUUzdzYnhJNXBTeXQ4LU9INlNLVEdGdmVNM1l1dHJvS0JkOENraHNFOU1tRjB1bk14S2RXZkFNenR2NGZ2RzR0a3RsZ0piMmJLTmNNREJYdTJ4bS1R?oc=5",
+        "date": "2026-11-22T14:10",
         "source": "العربية",
         "category": "経済"
       },
       {
-        "title": "サウジアラビア、ジャザン地域の危機状況の解除を発表",
-        "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOUlVvV2FJNWpRNXV6VU1PYnNjbVB4VjhmdktFRmdKT2Z3QTE0clplNkgtZlRwVFpTcldIcW83R3Y5dnZLWW9SczZ1YnRrYjNGQl9ESDlqTXlUZHhBaVZESHNfeUt2eGd5cUhsMWVwVVBjeFNSc2E0Z3hLQ1RPOTlYSFE4dE9pNlpUMV9TTzdyejlJbS1MN3ZOZWkxQWdvdmJEMzViTVlDNlpkdU9rWnQ4b2JrS05DYldrd2tGNUdQZWE1RDRKZmtnWHlmSUZFT0J2WURJaERhcjVlUHZoaVdIOFoyZW94RjJrSi1veUZEQzZwdWFkNUh5OHkwQXozUTNScm92Z1JkeDctUGVYNHJfYktLZWtMNmFybGNFcWt0ZU0zSHpvRUpNejl3YzFrcW9jc3FjdmJ3ZnVJeUZCNTJIcnV4dTRCdUpZMmtLNjhXZzZiTXZUcndIVll2OWRGeHBlZkRiX3lldw?oc=5",
-        "date": "2026-11-21T13:10",
+        "title": "サウジアラビア、イランによるバーレーン工業施設への攻撃を非難",
+        "url": "https://news.google.com/rss/articles/CBMijARBVV95cUxQSUNFam1XbzY1eGx5WDVBVnQ4ellCM2NGd0JqdkUxY3NqSjV1V2VVaENNZW1ZS0hmbWU4Rm9uRS02Y3B0b3hPOGllVUcxSFFkTEZ4YTctUU1kUkxyQ25fZmsxUGdMNkp0NzgwUW56YjdoeFRNWkFDTXNmWWVzekltSHlUYlpNaTNVemFPY0NRNUx4NjJ4RWIzR2VnR2YyeWlKWVNyR3BuRDY4VExZemtlUTF6S290YXFiYmNod2hrbF9MTVVOZDRpclJrenZuX0diLW1TUGpFcC1seGtOcVFKeVdYRVhnRFV3aE1VRU1FNEtnakJzdE8tNGNUQ0M1eEhGQlJGbC1LSjJYaEk1TG9OOHk4M1F5VVZrQXhqYmpqbU5ILXhFUjQwYnB2djBhNDRiRnZfSDJYX2VwaFI0cjRfRF9vbEF4SEQtelVkdWxjWDJkcWk1eVM3b1FPWVlqYmVGVGpkaUlhNnV5b2R4MC1MV1cwTXFacG91VHI2V2pTM0dqemxPc3JTbmZ6anFlUk14bjNCV1ZHbzh4eGpmbUVLR3NUY1FIY0NJMzd4RUxocUhIV29ILUxMVG02YTVtZVZHRlJLN2c5WDFIellUc2J3WG9xeWQtUi1nUUZXNXFDT0VQUXprQmRXYkp3NnJqdGhvNHhiUEFBaVdwaDlvYmFYSGJCUGJKVURxN3FPeg?oc=5",
+        "date": "2026-11-22T12:47",
         "source": "الشرق للأخبار",
-        "category": "社会"
-      },
-      {
-        "title": "サウジアラビア、フーシ派の弾道ミサイル迎撃を発表",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RZVIxVXpkYjFGRlM0SHlNcU5XM2tQVmFPMWRZUUtLUG5jOHBjZ09EWHlybGs4VzEzaHh2V3hkYVlxcU50SDJhMmc1SDFHY2dRV3ZPX0dsVkpCSXNhVkHSAWNBVV95cUxPb3hDTC14dXdCTGVUSDdkSEUtdUdZSEVXS0hqVkhKekgxZE1MRHU4cHVRZnVsT281NTNHYU1GWFJMSUM2MWpRYjdSZXJRcjhpUUpNNU12NXJpdXd3bG14RWFuRVE?oc=5",
-        "date": "2026-11-21T07:07",
-        "source": "BBC",
         "category": "政治"
       },
       {
-        "title": "サウジアラビアへの攻撃激化 有志連合の作戦受けフーシ派が報復",
-        "url": "https://news.google.com/rss/articles/CBMiqgRBVV95cUxNWHduemdIWGtMd0Q0S2l6WjJjLWJUVFBIc3ZGRDdRNElkaWRXVWMwZ3U0aE4zV0owNTlHWFpndnlOQWZXVF9HV2Q2VUtvWHUtOVgwWnBjcjRIUnBkSHJqQkRWYXhGQlY4NHJGSk9qTERxSmFuS0NXbDlDSndpaDZ5cWVOQWl0V2xqUEx3MHBnUjlnNUZkWmhtZGRieUp3ZTJyYk54d053SUN0QjdlUlozbGlKTUFkZGxBQjJfNUlnVHhEMThFNUtKUHItQXRkMVVncnM3a2ZsTWtBN1p4VEItdDdxSF9KR2ZYUjJ1T21abjFGYXFQa19kUi1UT3BQc0xnOTJBVUZzbkRNSXV1VUpUR0FJb1VtQVVNRTNhbEVsMFU5dzJfbmRsVHU5S09iNnhwSG9GTkttVmRqc3BjSldXQmhpSGE0R3JPeEdPSld0TzQtLTEtTGtTQmQzR0d1N2RQVlZmaS04R0NBSzE4MjN5amZqU0k3eU9vMnlzSDRsdFZ2SGlZTGtSY2g4VTZOakxyWnM2bnBJR3I3VlBGYWJ4STZBUkd6Qk0xdnBZWDRvZVVMRmd1U2paNUFtTWNYYjdPLS1KTktCZDNFRDFjZ0F1XzJUNVNSYXBtQW1uSEV4ZVVlSkNzUUk1QXlqYlQ3Y3FGV2tCLUpXa2hTek1TNUNCdlNHUUVDR3c3d1NfeW0ybkJHMzVPM1NJdW92eXpfV3RodzNHeUc2MURMZw?oc=5",
-        "date": "2026-11-21T06:55",
-        "source": "DW.com",
-        "category": "社会"
+        "title": "サウジアラビア、民間金融部門に17職種の国民化義務 50%以上の達成目標",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzWnVSdk14ek1PMVRvNUVTN1hyMXhZZ0ItQzA1MS0zenNGVFU4Tm9xVmZwMF9JVVRsVGVaRVVZQVYwSGNjelJjT1RKWUxzeHo1YlluNQ?oc=5",
+        "date": "2026-11-22T09:37",
+        "source": "عكاظ",
+        "category": "経済"
       },
       {
-        "title": "サウジアラビアの防空システム、フーシ派が発射した弾道ミサイル3発を撃墜",
-        "url": "https://news.google.com/rss/articles/CBMihgVBVV95cUxNdnpWaFcxRHhjOWdjQVZQcXUzWnlyRHR6aWk3Znl2cXBoRHlLRWVQNVo5ZDZXTGhiTnlvZ2FBUjlZY3dKWWRXQ2VsMWZpVjRkZFRFWndpZ3Rrd3dTV0txUndKSmpuTlVETmNJV09md2doaEJjeHZ4VmQ2eVI5OURjVWNlZXhsUUkzY2xkQU5XX1M4bzRZZE8xeTd2SWVBc0ZMelY2TDY4Rzl4WklicXBrRU1uSTc2bmc5NlNwS1pweUduTG0wQ3hFX3VsUnQ0NTNDQlNlVld1VGZhU3AtM2tENHIzWHo0bF9MLUh3X0kwcHVFN3ZzWms2SFhZTzBnTFEtU040eUh1Y0RwQjUxekExRWR0ZHpVN0JtYmRqdUJ6cG5yZDEzYUd0ME5OUkVzdlhBdkdFSzM3eHM0bzA0bXd6MExmMDRrVEFSUzRiZ0FkallJbTFUOVg4RkFYNDZ0c2lSTExHbFBJQ3RkQ3hJbF9uTlY2cVlDY1Y2bnhHeGwtU0NIa3dnMTd4OF9kVWFZeVZobEFLdUw5ci1DdWhTR182Y01WUzZ4VGZNY3hZMTFqQlBVVzUyOFJxYlA1ZnMxTU91cGNxS1g0QVJUUEJzVzhiMi1yNVJQLVE2Qk5SMXlmN0JJTTZQc0lXdnJHa0tkQWZDWlBQaTRZaUtVMmVncDFhZkVFQlRsNXROVmdfZkJrS1p2ZEI0RVhaYk5tSWwtNU52X2xPYVh5NFNLUGVGcGtIRGdXZGhKTmVGbFFrLWVlMm9YbHVFNjVOSmNKSU0yaVpCWjE0dTN5U001QV9jbEsxSDYxcG5ZV1c5cGhXaldiY1J3YnUxdlJJX2czSkJyNE5ObGRReWJR0gGLBUFVX3lxTE9BSWhzLWxNcEpleXFFalZ3amt1TFRMUkFlUmRISWtJeFd5am9Zbl9qaTRpdDRINkxCZlUzSmVXVTZxTUF5TUkwZW9hVlIxa21sVUFLd3BuN3h0THNBQTFYQXlMUVQ1UUFXS1huNXFHekxFX1dfQVFxN0Nmb1lYQkpUazhkdWJIdGhwekNENUJVOFk4cElMZHZuMGlLa01tSksyM2ZQcndEYVMyaUlULVFYV3FzNlduNjVGdTFsTlZUT1JjZ1VJZUM1dWRHeHFkNmVWVVM2SXpXR3h2dHRCZmV3N2wwektJempHSTd2V3dlX09hdU9CaFlqLWRsT1czNFY0T2V2MlBHVHlYc2pJcThqLUd1QVdtRWVfNzlwVHMyYmJXLUUwSjBIcmhkazNQb3l2cTFFRkFYUmc2aFpwUGxIV3F1eTBsSnA3YzRwYmlSbXpZYjZUb1Zwc2ZodUI0Vy1uWV9WT3VacjBQMkhXNTkwWHRLMGs3STN4ZUxkbFl0aHZVVHdWVGtwZFdIRmt4dkljVEhObUJORl9OaWV1UnF2ejdsSGZjbVBCSmV2bmc2Q01US3lqejJicS1kejBQdVFpWjVBSzBWWEd6SnptaDVsd2t4Qzl2NmNnX0ZncHd5bGIyRG4zbmVwZDkxcnMtZE13QjdhNzR3SHduZVpVMVNCc2UxOUN0TW5iX3VBOFpEQnVJcXd6MDBsWW1BOUNoUWlKaDluTHJhMS11c0RvUkJ6RmpRSEFqemtUYVloY0owZ19oSERSNWJlall5dHM5OGJjak1Xa25qeU5yZG5UT1hWS2U1WFhnYzdkRTVWb0hJcVZwWUlIbHRrZ1FHQnBxUEU4dXZHa1ctNWZsOA?oc=5",
-        "date": "2026-11-20T23:43",
+        "title": "サウジアラビア、イランによるバーレーン産業施設への攻撃を非難",
+        "url": "https://news.google.com/rss/articles/CBMingRBVV95cUxQXzItVkpEN2ljOHN6dDF6UHllbEZ3UU9aZ3E0WWhYaGZfU0ZXRmFmMVVxRmJiQzlQNi1VNzVTVjVjZ1U1R2xaX3JoR1R1bWFWMkVaQjREckxJTDdHaG9zT09nSlphSzFWdnR4YjNDZDRVRlRIVV9IU0R1Y1Y5Y3lodmJkLUtYVnNta1ZJTDlTcFRfdlJ0SlJBYUtLR1RhZkdWNTZkNzl1M2RTT3V6WUI0dXMzQXpsV1ZDY1R3MGRuc2pzZ2VlZndLNTVwN2Z5VHdVX25vVnZYTXkxUWNzMHU2aVJjcEpzUVllUDZBR2pMRFl0MDMzSnVQdjFXa01UelRNMUktNGpxNHM5ME4xUWVZZ3A5VEdibFRUbGY1M2RiQ2EzckxYVUY5Yl9OejFLdWtNMmt6YmtWNzh1QmFCRGNtdjF2WllJZFZBczliT0lBX1VicWVycmNHeGswWHNTT1lWdWQ0Z2Z6ZHlKMTdDV3E0T3ZtVktOYnZtZWRRb0RERXVKNGx5aWhBdDBha0xlWXAtRm4ybko3MWdvVmpfSXNfYmFjTkdNTTNRdFZqU0ppZm5SYmJIZ2dkdzhiYWREQkxWbzd4M21jenpSWkVjbE82a0RYU3VmemRHLXYxYldfUWJkNURzN2JNNktSWXNjWE9WYTFMWGhYTUFlWHEydE9rd0d2M3hXMlc0d1NWa1hzVmRXTVBwbUxQUDA1aVRzQdIBowRBVV95cUxOYTdoMHFMSWlhZjAtSEJYNUxQVFJGRE5IbmQ2bzNXVFhFc3ZJZWpZZ0dYbGQ4MlVqZFdhUl9kZHRzR3IwRU5rSWg1cVpIVEdQczVwYU9lQTU4NHFmTGZlV2tLSHdJMGdFblpweVdCZUw5VU9vT2tkQUlSbDZZZGJoNVhTclkybjBNY2R4eWc4RzBHemRLUmNvVTlYdjBOX1pFNnJqT1NZTktKb2o0Y2tRZUlneThqV19PamxzcTJuMkg0c0hoaXpic1Jpd0s4Y0ZNaWlTMXplR3gtTEtOLTFiUno5cU9hQUpFdlA4eTFCUkRvVnBYZkdkSlVQamMzZGcteWF6N0lmR0pnTlB3ZW43RVctZHA1bDItWkFRaWpoVHJQaVU5QUNkaTVBY280dXRTcDlfSktoR2VreEkwWVVNcGZ2OExEQmVPMGJhQ19kbnBVVFRBYTFNUE5SNmNvQUZtQWVUajIxeXJaaFhJUUNsQ0IybG5TRWtBVHlucmZiUG1Ua2xnUDhhN3IySGdyOGJ0alhORkRlVDZUU1FmZDdoQjBJbFpCc2VmZWVSR3lsMFgwczlNSTd3Y2sxLUx1OWUwa0tJd2dlWG9DaE5leDBOYlBYMUNZUndSU2pxNk1MVmZFR21HZFFKLWlCQW11VGxOeXVSYmgwMi1QRE5aR3NPdldnODdCMXpwaktNTVpqZTh0VjF0ZG9vb0dEZldEYW9KRXUw?oc=5",
+        "date": "2026-11-22T09:30",
         "source": "العربية",
         "category": "政治"
       },
       {
-        "title": "サウジアラビア 金曜日に相次ぐ警報 ハイル州で7件目",
-        "url": "https://news.google.com/rss/articles/CBMioARBVV95cUxNQnlhRzJxSG1udkZsWm5lSXZMd3dPUGNVaXpIRmYwQXJPMEhwWDdSc3NIU01PR2NPT3I3UXdXVHZxU2JUelRmRHJQQmtDWWl3dWwtLUZLQkEwZV8wUDk2d0dXakRzdHBwbkdJSTBMdjdiTl9ya2lfUkc2dUNhZjM0bG42MXo2UFQxREYyRFFBZFZQWjRPa1ZGb1NZU2lmOFBKUnU4a1NEOGRCRFBCbHBsc2FRRWcyV2x1NkNXeldCeU1uOTJ2eVpQSTV0NjVOVGpnVmRzdTdXclFuNElxVVFCVE8xYVVwUWhRdWU4UGtOVGpPazVIZXViZWZ0bERSMkwzMHUybHJURGNUdkxETUhJNFplMm9BVWNlV3pUVUI2djBwZFdqZ2hudTM0OXpFMWV2MXBqX0RhOGpBQldPbGtRbzdSSjhHRVVwdXBBZkNSV2xHYnpVckhzREFvZkh1Qmg4RFNVLUtxRmlqYlZiUEJ1V21LaTdJMC03SWNfcHRGdXBQZ3dEcWE0emJETG9RTlE5MXdidHNrbFNEUXQ0UDJOcGwzdzRuYmJreDhDank2U0pXQ3VLTHRQOEFjWmd5NE53Vl9xSl9GSDI0cm1WekZ3bmZ3RG5GZ2RLSnhIcmRwV0tTM2VOTjZjWnYwZ054bDVSTkIxV3YtbjVtQ3lpbEZQbmJHazd1cVoydkRCcEt4b0ZvRk5TZVF3NG8xcEFTZlBa?oc=5",
-        "date": "2026-11-20T22:13",
-        "source": "Anadolu Ajansı",
-        "category": "社会"
+        "title": "アラビア・ジャズ、サウジアラムコと労働単価契約を締結",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9vc3BGRGJNd2t6eF9lbW9XYUhndXRoOUdrSFZLa2ZNeHBuLVZkLVFNdTBMS2szbmRpZHU3dmRTTkFJT2FwVWRFNzc3aTMwbzV4d2pONTRaUm5zdkFubDAtRXpPZUVpRm5qOXc?oc=5",
+        "date": "2026-11-22T07:13",
+        "source": "تاسي",
+        "category": "経済"
+      },
+      {
+        "title": "サウジアラビア株価指数が1.6%下落、1万ポイント近辺で推移",
+        "url": "https://news.google.com/rss/articles/CBMirANBVV95cUxQbmVraVN3b1YwV1dWT0F0ZjlmS0ZUN2ZkcUJIRXBoZ2RvRkdwR3FXYTdRaDhzaW1qTEpSSEQtaFhtREJQLTVRTDlDZnM1WXVYcHpWZzBldU9OTDNUZXU2Mm5iaDdfeWxmbGd2VlpMQTRXQi1Jb2NFZDQ1UnJYdGctR1NYaVA4RGZyMXlPYjJJYWM2XzB3WW5aUDFpNjVRVkZ6S18tSG1CZzYxa3hHMnNRSjZxYlVKMHlnOEEzZk1VZXN3RHBWLUVSUWcyNFQ1b3poc2JhZ05heVMybjBkMllETjN3aXhrelJ0YUZTWjhoZXZRYmVWVUxSa1loT2JCcml4U0s5TWpMa2dEMEFTa1NQbkE1TVVqLVNBT0I2RFdlVVluMC1vcnIyV0s5UXlXTzRqc0NwUVB3c3B3dkFRRDRTb0pKZS0zN21JTEZSQTN0cFVVYlRBSGRLZkNhVy1rNXZaa2pSWlJSSUdlRnhwbF9UYmhjdGotdXNUb1V6NTBZWHJaWnJCUzJLdV9UbHo2b3U4aTJ6ZzZXM3FvYXA3WjFZcHI2clZDVTFqYktHd9IBsgNBVV95cUxQOVJESUtyVXFUX1dpX0pNVnlXU0xSMXgwaWRXdnBtZlB3dlJPLW44b1A3N29iMUJTYzFBZTA4RmF3T3o5SjhEaVJpR0N2R2Joemxieno2YzA4NUNCdlpldnVNX1p5WVo5ZmRvVzE5bGpCbF93NWRlSWU3Q2hLOW04Y3BFSTJ0Y19TQzZpaFZXUGNTMVJqMFNjTllaZHpfcXoyd2dBZzgwZFRlNmVOSUt6UExBUEphSkkxeUJ3R2NUa1QtTjk5WldDeVRCSlpkZms5dElyWDJkMVVnRGIzS0lMLXFBdU9VUkdkU0l1QzMzN01Gb3lwWUdURkQxQXU4elRWbXVvX3hmbFdmX2hUUjZqQnMxUktFWm10R2FVZmJ5Njc4WGVuckRZRllwamtWSENBOW5id1gxRWpQbEFuVFRNRFVmSmhmSDNrdE1uOW5OcUkydkJJeGoxbE92UFlHbmZPU2d5MzhJY2ZETWlJZlhwaDZPZXRadEpfVzdVSjJ0eXJpanFRUWRRRWhHdU9yb19NTXRnWnZyXzl3LTB1Q09ZUkJGdTZzQkcwVXJnNnJNaXh1dw?oc=5",
+        "date": "2026-11-22T07:12",
+        "source": "العربية",
+        "category": "経済"
       }
     ]
   },
   "news_jp": {
-    "lastUpdated": "2026-11-22T00:20:49.440258+03:00",
+    "lastUpdated": "2026-11-22T20:57:11.431839+03:00",
     "items": [
       {
         "title": "サウジ原油 日本での備蓄3倍合意",
